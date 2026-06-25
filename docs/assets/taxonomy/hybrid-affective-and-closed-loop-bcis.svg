@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Hybrid, Affective, and Closed-loop BCIs</title>
+  <desc id="desc">Original license-safe schematic illustration for the Hybrid, Affective, and Closed-loop BCIs taxonomy.</desc>
+  <rect width="320" height="220" rx="28" fill="#f8fafc"/>
+  <circle cx="64" cy="54" r="35" fill="#8b5cf6" opacity="0.16"/>
+  <circle cx="266" cy="176" r="41" fill="#16a34a" opacity="0.12"/>
+  <path d="M31 190c45-24 93-24 144 0s92 24 114 0" fill="none" stroke="#e2e8f0" stroke-width="7" stroke-linecap="round"/>
+  
+          
+      <path d="M126 81c-20 0-35 13-35 32 0 20 14 35 34 35h37c19 0 34-14 34-33 0-18-14-32-32-32-5-13-19-22-38-22z" fill="#ffffff" stroke="#16a34a" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M117 91c-9 6-13 16-9 25m23-29c-9 8-10 20-2 30m25-26c10 8 12 20 3 31m-42 10c13 8 29 8 44 0" fill="none" stroke="#8b5cf6" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="129" cy="124" r="3" fill="#16a34a"/>
+      <circle cx="153" cy="124" r="3" fill="#16a34a"/>
+      <path d="M133 135q9 7 18 0" fill="none" stroke="#16a34a" stroke-width="4" stroke-linecap="round"/>
+    
+          <path d="M78 80c-22 33-17 79 13 108m151-6c29-34 29-80 1-113" fill="none" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
+          <path d="M78 80l2 19 17-8m145 91-18-2 7-17" fill="none" stroke="#16a34a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M65 154c-21-19-5-51 20-34 25-17 41 15 20 34l-20 18z" fill="#fee2e2" stroke="#8b5cf6" stroke-width="5" stroke-linejoin="round"/>
+          <circle cx="248" cy="62" r="22" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="5"/>
+          <path d="M248 48v14l11 7" stroke="#8b5cf6" stroke-width="5" stroke-linecap="round"/>
+        
+</svg>

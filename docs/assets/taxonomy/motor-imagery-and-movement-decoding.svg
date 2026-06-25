@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">Motor Imagery and Movement Decoding</title>
+  <desc id="desc">Original license-safe schematic illustration for the Motor Imagery and Movement Decoding taxonomy.</desc>
+  <rect width="320" height="220" rx="28" fill="#f8fafc"/>
+  <circle cx="64" cy="54" r="35" fill="#60a5fa" opacity="0.16"/>
+  <circle cx="266" cy="176" r="41" fill="#0f766e" opacity="0.12"/>
+  <path d="M31 190c45-24 93-24 144 0s92 24 114 0" fill="none" stroke="#e2e8f0" stroke-width="7" stroke-linecap="round"/>
+  
+          
+      <path d="M126 81c-20 0-35 13-35 32 0 20 14 35 34 35h37c19 0 34-14 34-33 0-18-14-32-32-32-5-13-19-22-38-22z" fill="#ffffff" stroke="#0f766e" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M117 91c-9 6-13 16-9 25m23-29c-9 8-10 20-2 30m25-26c10 8 12 20 3 31m-42 10c13 8 29 8 44 0" fill="none" stroke="#60a5fa" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="129" cy="124" r="3" fill="#0f766e"/>
+      <circle cx="153" cy="124" r="3" fill="#0f766e"/>
+      <path d="M133 135q9 7 18 0" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round"/>
+    
+          <path d="M79 158c31-8 47-20 60-39" fill="none" stroke="#0f766e" stroke-width="7" stroke-linecap="round"/>
+          <path d="M74 159l-20 23m26-20 19 22m-24-25 4-34" fill="none" stroke="#60a5fa" stroke-width="8" stroke-linecap="round"/>
+          <path d="M198 149c25-8 44-24 55-48" fill="none" stroke="#0f766e" stroke-width="5" stroke-linecap="round" stroke-dasharray="7 10"/>
+          <path d="M249 96l8 3-2 9" fill="none" stroke="#0f766e" stroke-width="5" stroke-linecap="round"/>
+        
+</svg>

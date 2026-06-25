@@ -86,6 +86,63 @@ CATEGORIES = [
     ("Hybrid, Affective, and Closed-loop BCIs", ["hybrid", "affective", "closed-loop", "closed loop", "neurofeedback", "adaptive"]),
 ]
 
+TAXONOMY_VISUALS = {
+    "Motor Imagery and Movement Decoding": {
+        "motif": "motor",
+        "accent": "#0f766e",
+        "secondary": "#60a5fa",
+        "feature": "Decoding imagined and intended movement from neural dynamics.",
+    },
+    "SSVEP, P300, and ERP Spellers": {
+        "motif": "speller",
+        "accent": "#7c3aed",
+        "secondary": "#f59e0b",
+        "feature": "Stimulus-locked visual and ERP responses for communication.",
+    },
+    "Rehabilitation and Neuroprosthetics": {
+        "motif": "rehab",
+        "accent": "#dc2626",
+        "secondary": "#22c55e",
+        "feature": "Closed-loop therapy, prosthetic control, and functional recovery.",
+    },
+    "Invasive and Implantable Interfaces": {
+        "motif": "implant",
+        "accent": "#2563eb",
+        "secondary": "#a855f7",
+        "feature": "High-resolution implanted sensing and neural decoding.",
+    },
+    "Deep Learning and Representation Learning": {
+        "motif": "deep",
+        "accent": "#9333ea",
+        "secondary": "#14b8a6",
+        "feature": "Learned representations for robust cross-session decoding.",
+    },
+    "EEG Signal Processing and Datasets": {
+        "motif": "eeg",
+        "accent": "#0891b2",
+        "secondary": "#f97316",
+        "feature": "Signal cleaning, benchmarks, and reproducible EEG pipelines.",
+    },
+    "Speech, Language, and Communication BCIs": {
+        "motif": "speech",
+        "accent": "#be123c",
+        "secondary": "#06b6d4",
+        "feature": "Neural-to-language pathways for typing and speech restoration.",
+    },
+    "Hybrid, Affective, and Closed-loop BCIs": {
+        "motif": "hybrid",
+        "accent": "#16a34a",
+        "secondary": "#8b5cf6",
+        "feature": "Adaptive feedback loops that combine neural and behavioral signals.",
+    },
+    "General BCI Methods and Systems": {
+        "motif": "general",
+        "accent": "#334155",
+        "secondary": "#0f766e",
+        "feature": "System architectures, evaluation principles, and translation.",
+    },
+}
+
 LANGUAGES = {
     "en": "English",
     "ko": "한국어",
@@ -445,6 +502,145 @@ def norm_text(value):
 def safe_slug(value):
     value = re.sub(r"[^a-zA-Z0-9]+", "-", value.lower()).strip("-")
     return value[:80] or "paper"
+
+
+def period_chart_filename(kind, start, end):
+    return f"{kind}_{start}_{end}.png"
+
+
+def period_chart_src(kind, start, end):
+    return f"assets/periods/{period_chart_filename(kind, start, end)}"
+
+
+def taxonomy_visual_src(category):
+    return f"assets/taxonomy/{safe_slug(category)}.svg"
+
+
+def taxonomy_visual_feature(category):
+    return TAXONOMY_VISUALS.get(category, TAXONOMY_VISUALS["General BCI Methods and Systems"])["feature"]
+
+
+def taxonomy_visual_svg(category):
+    visual = TAXONOMY_VISUALS.get(category, TAXONOMY_VISUALS["General BCI Methods and Systems"])
+    accent = visual["accent"]
+    secondary = visual["secondary"]
+    motif = visual["motif"]
+    title = html.escape(category)
+    common_brain = f"""
+      <path d="M126 81c-20 0-35 13-35 32 0 20 14 35 34 35h37c19 0 34-14 34-33 0-18-14-32-32-32-5-13-19-22-38-22z" fill="#ffffff" stroke="{accent}" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M117 91c-9 6-13 16-9 25m23-29c-9 8-10 20-2 30m25-26c10 8 12 20 3 31m-42 10c13 8 29 8 44 0" fill="none" stroke="{secondary}" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="129" cy="124" r="3" fill="{accent}"/>
+      <circle cx="153" cy="124" r="3" fill="{accent}"/>
+      <path d="M133 135q9 7 18 0" fill="none" stroke="{accent}" stroke-width="4" stroke-linecap="round"/>
+    """
+    motifs = {
+        "motor": f"""
+          {common_brain}
+          <path d="M79 158c31-8 47-20 60-39" fill="none" stroke="{accent}" stroke-width="7" stroke-linecap="round"/>
+          <path d="M74 159l-20 23m26-20 19 22m-24-25 4-34" fill="none" stroke="{secondary}" stroke-width="8" stroke-linecap="round"/>
+          <path d="M198 149c25-8 44-24 55-48" fill="none" stroke="{accent}" stroke-width="5" stroke-linecap="round" stroke-dasharray="7 10"/>
+          <path d="M249 96l8 3-2 9" fill="none" stroke="{accent}" stroke-width="5" stroke-linecap="round"/>
+        """,
+        "speller": f"""
+          <rect x="67" y="55" width="185" height="123" rx="18" fill="#ffffff" stroke="{accent}" stroke-width="5"/>
+          <path d="M115 188h90m-45-10v24" stroke="{accent}" stroke-width="6" stroke-linecap="round"/>
+          <g fill="{secondary}">
+            <rect x="91" y="78" width="32" height="25" rx="8"/>
+            <rect x="143" y="78" width="32" height="25" rx="8"/>
+            <rect x="195" y="78" width="32" height="25" rx="8"/>
+            <rect x="91" y="119" width="32" height="25" rx="8"/>
+            <rect x="143" y="119" width="32" height="25" rx="8"/>
+            <rect x="195" y="119" width="32" height="25" rx="8"/>
+          </g>
+          <circle cx="159" cy="132" r="18" fill="#fff7ed" stroke="{accent}" stroke-width="5"/>
+          <path d="M159 116l4 10 11 1-8 7 2 11-9-6-9 6 2-11-8-7 11-1z" fill="{accent}"/>
+        """,
+        "rehab": f"""
+          <path d="M96 66v74c0 25 19 45 44 45h35c26 0 48-22 48-48v-37" fill="#ffffff" stroke="{accent}" stroke-width="6" stroke-linecap="round"/>
+          <path d="M124 65v73m27-82v82m27-75v77m26-56v61" stroke="{secondary}" stroke-width="9" stroke-linecap="round"/>
+          <path d="M91 132c29 2 52 16 67 42" fill="none" stroke="{accent}" stroke-width="6" stroke-linecap="round"/>
+          <circle cx="230" cy="66" r="18" fill="#dcfce7" stroke="{secondary}" stroke-width="5"/>
+          <path d="M221 66h18m-9-9v18" stroke="{secondary}" stroke-width="5" stroke-linecap="round"/>
+        """,
+        "implant": f"""
+          {common_brain}
+          <g stroke="{accent}" stroke-width="5" stroke-linecap="round">
+            <path d="M96 61l-28-28m54 25-9-36m56 43 26-37m17 74 42-9"/>
+          </g>
+          <g fill="{secondary}" stroke="#ffffff" stroke-width="3">
+            <circle cx="68" cy="33" r="11"/>
+            <circle cx="113" cy="22" r="11"/>
+            <circle cx="195" cy="28" r="11"/>
+            <circle cx="254" cy="93" r="11"/>
+          </g>
+          <rect x="115" y="151" width="92" height="31" rx="10" fill="#eef2ff" stroke="{accent}" stroke-width="5"/>
+          <path d="M130 165h62" stroke="{secondary}" stroke-width="5" stroke-linecap="round"/>
+        """,
+        "deep": f"""
+          <g stroke="{secondary}" stroke-width="4" opacity="0.9">
+            <path d="M82 74l66 38-66 48m66-48 83-39m-83 39 82 47m-82-47v69"/>
+            <path d="M82 160l67 21 81-22"/>
+          </g>
+          <g fill="#ffffff" stroke="{accent}" stroke-width="5">
+            <circle cx="82" cy="74" r="18"/>
+            <circle cx="82" cy="160" r="18"/>
+            <circle cx="148" cy="112" r="18"/>
+            <circle cx="149" cy="181" r="18"/>
+            <circle cx="231" cy="73" r="18"/>
+            <circle cx="230" cy="159" r="18"/>
+          </g>
+          <path d="M70 74h24m-12-12v24m137 71h22m-11-11v22" stroke="{accent}" stroke-width="4" stroke-linecap="round"/>
+        """,
+        "eeg": f"""
+          <rect x="58" y="55" width="204" height="124" rx="18" fill="#ffffff" stroke="{accent}" stroke-width="5"/>
+          <path d="M77 118c18 0 12-42 31-42s11 83 32 83 13-71 34-71 13 53 34 53 12-31 34-31" fill="none" stroke="{secondary}" stroke-width="6" stroke-linecap="round"/>
+          <path d="M85 189h150" stroke="{accent}" stroke-width="6" stroke-linecap="round"/>
+          <path d="M108 70v95m52-95v95m52-95v95" stroke="#dbeafe" stroke-width="3"/>
+          <path d="M226 58l22-28m-8 27 26-5" stroke="{accent}" stroke-width="5" stroke-linecap="round"/>
+        """,
+        "speech": f"""
+          {common_brain}
+          <path d="M203 62h49c20 0 36 15 36 34s-16 34-36 34h-20l-25 24 6-24h-10c-20 0-36-15-36-34s16-34 36-34z" fill="#ffffff" stroke="{accent}" stroke-width="5" stroke-linejoin="round"/>
+          <circle cx="215" cy="96" r="5" fill="{secondary}"/>
+          <circle cx="235" cy="96" r="5" fill="{secondary}"/>
+          <circle cx="255" cy="96" r="5" fill="{secondary}"/>
+          <path d="M79 169c24 16 58 16 82 0" fill="none" stroke="{secondary}" stroke-width="7" stroke-linecap="round"/>
+        """,
+        "hybrid": f"""
+          {common_brain}
+          <path d="M78 80c-22 33-17 79 13 108m151-6c29-34 29-80 1-113" fill="none" stroke="{accent}" stroke-width="6" stroke-linecap="round"/>
+          <path d="M78 80l2 19 17-8m145 91-18-2 7-17" fill="none" stroke="{accent}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M65 154c-21-19-5-51 20-34 25-17 41 15 20 34l-20 18z" fill="#fee2e2" stroke="{secondary}" stroke-width="5" stroke-linejoin="round"/>
+          <circle cx="248" cy="62" r="22" fill="#f5f3ff" stroke="{secondary}" stroke-width="5"/>
+          <path d="M248 48v14l11 7" stroke="{secondary}" stroke-width="5" stroke-linecap="round"/>
+        """,
+        "general": f"""
+          {common_brain}
+          <rect x="55" y="143" width="76" height="47" rx="10" fill="#ffffff" stroke="{accent}" stroke-width="5"/>
+          <rect x="192" y="143" width="76" height="47" rx="10" fill="#ffffff" stroke="{secondary}" stroke-width="5"/>
+          <path d="M132 166h58m-28-28v54" stroke="{accent}" stroke-width="5" stroke-linecap="round" stroke-dasharray="6 9"/>
+          <path d="M74 160h38m-38 15h27m109-15h38m-38 15h26" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+        """,
+    }
+    motif_svg = motifs.get(motif, motifs["general"])
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="320" height="220" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">{title}</title>
+  <desc id="desc">Original license-safe schematic illustration for the {title} taxonomy.</desc>
+  <rect width="320" height="220" rx="28" fill="#f8fafc"/>
+  <circle cx="64" cy="54" r="35" fill="{secondary}" opacity="0.16"/>
+  <circle cx="266" cy="176" r="41" fill="{accent}" opacity="0.12"/>
+  <path d="M31 190c45-24 93-24 144 0s92 24 114 0" fill="none" stroke="#e2e8f0" stroke-width="7" stroke-linecap="round"/>
+  {motif_svg}
+</svg>
+"""
+
+
+def write_taxonomy_illustrations(categories):
+    asset_dir = DOCS_DIR / "assets" / "taxonomy"
+    asset_dir.mkdir(parents=True, exist_ok=True)
+    for category in categories:
+        target = asset_dir / f"{safe_slug(category)}.svg"
+        target.write_text(taxonomy_visual_svg(category), encoding="utf-8")
 
 
 def paper_key(paper):
@@ -1197,6 +1393,7 @@ def write_site(flat):
     (DOCS_DIR / "paper").mkdir(exist_ok=True)
     groups = category_groups(flat)
     cats = category_stats(flat)
+    write_taxonomy_illustrations([cat for cat, _ in cats.most_common()])
     total_cites = sum(p["citationCount"] for p in flat)
     start_year_options = "\n".join(
         f'<option value="{year}"{" selected" if year == min(YEARS) else ""}>{year}</option>'
@@ -1228,6 +1425,10 @@ def write_site(flat):
       const statCitations = document.getElementById("statCitations");
       const statCategories = document.getElementById("statCategories");
       const taxonomyTotalSummary = document.getElementById("taxonomyTotalSummary");
+      const categoryChart = document.getElementById("categoryDistributionChart");
+      const citationChart = document.getElementById("yearlyCitationsChart");
+      const categoryChartCaption = document.getElementById("categoryChartCaption");
+      const citationChartCaption = document.getElementById("citationChartCaption");
       const defaultStart = startSelect.value;
       const defaultEnd = endSelect.value;
       const validYears = Array.from(startSelect.options).map(option => option.value);
@@ -1310,6 +1511,28 @@ def write_site(flat):
 
       function rangeKey(start, end) {
         return `${start}-${end}`;
+      }
+
+      function rangeLabel(start, end) {
+        return start === end ? String(start) : `${start}-${end}`;
+      }
+
+      function chartPath(kind, start, end) {
+        return `assets/periods/${kind}_${start}_${end}.png`;
+      }
+
+      function updateCharts(start, end) {
+        const label = rangeLabel(start, end);
+        if (categoryChart) {
+          categoryChart.src = chartPath("category_distribution", start, end);
+          categoryChart.alt = `Category distribution chart for ${label}`;
+        }
+        if (citationChart) {
+          citationChart.src = chartPath("yearly_citations", start, end);
+          citationChart.alt = `Yearly citation chart for ${label}`;
+        }
+        if (categoryChartCaption) categoryChartCaption.textContent = `Category distribution (${label})`;
+        if (citationChartCaption) citationChartCaption.textContent = `Yearly citation mass (${label})`;
       }
 
       function labels() {
@@ -1414,6 +1637,7 @@ def write_site(flat):
         statCitations.textContent = formatNumber(totalCitations);
         statCategories.textContent = formatNumber(activeCategories);
         updatePeriodSelect(start, end);
+        updateCharts(start, end);
         if (taxonomyTotalSummary) {
           taxonomyTotalSummary.innerHTML = `<strong>${copy.totalSelected}:</strong> ${formatNumber(totalPapers)} ${copy.papers}; <strong>${copy.categoryCount}:</strong> ${formatNumber(activeCategories)} ${copy.categories}.`;
         }
@@ -1456,7 +1680,13 @@ def write_site(flat):
     for cat, _ in cats.most_common():
         sections.append(taxonomy_section(cat, groups[cat]))
     cat_cards = "\n".join(
-        f"<a class='card taxonomy-card' data-category='{safe_slug(cat)}' href='#{safe_slug(cat)}'><strong>{html.escape(cat)}</strong><span class='overview-count'>{count} papers</span></a>"
+        (
+            f"<a class='card taxonomy-card' data-category='{safe_slug(cat)}' href='#{safe_slug(cat)}'>"
+            f"<img class='taxonomy-visual' src='{taxonomy_visual_src(cat)}' alt='{html.escape(cat)} illustration'>"
+            f"<span class='taxonomy-copy'><strong>{html.escape(cat)}</strong>"
+            f"<span class='overview-feature'>{html.escape(taxonomy_visual_feature(cat))}</span>"
+            f"<span class='overview-count'>{count} papers</span></span></a>"
+        )
         for cat, count in cats.most_common()
     )
     html_doc = f"""<!doctype html>
@@ -1485,10 +1715,17 @@ def write_site(flat):
     button:hover {{ background:#eef2f7; }}
     #rangeStatus {{ color:var(--muted); font-weight:700; min-height:38px; display:inline-flex; align-items:center; }}
     .figures {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; margin:24px 0; }}
-    .figures img {{ width:100%; background:white; border:1px solid var(--line); border-radius:8px; }}
+    .chart-figure {{ margin:0; }}
+    .chart-figure figcaption {{ margin-top:8px; color:var(--muted); font-size:13px; font-weight:700; }}
+    .figures img {{ width:100%; aspect-ratio:16 / 9; object-fit:contain; background:white; border:1px solid var(--line); border-radius:8px; display:block; }}
     .stat, .card {{ background:white; border:1px solid var(--line); border-radius:8px; padding:16px; }}
     .stat strong {{ display:block; font-size:28px; color:var(--accent); }}
     .card span {{ display:block; margin-top:8px; color:var(--muted); }}
+    .card.taxonomy-card {{ display:grid; grid-template-columns:92px minmax(0,1fr); gap:14px; align-items:center; }}
+    .taxonomy-visual {{ width:92px; aspect-ratio:16 / 11; object-fit:contain; border:1px solid var(--line); border-radius:8px; background:#f8fafc; }}
+    .taxonomy-copy {{ min-width:0; margin-top:0; }}
+    .overview-feature {{ font-size:13px; line-height:1.4; }}
+    .overview-count {{ font-weight:800; color:var(--accent); }}
     nav a {{ display:inline-block; margin:0 12px 10px 0; color:var(--accent2); font-weight:600; }}
     .card {{ display:block; color:var(--ink); }}
     .taxonomy-section {{ margin-top:16px; }}
@@ -1564,8 +1801,14 @@ def write_site(flat):
     <p id="taxonomyTotalSummary"><strong>Total selected papers:</strong> {len(flat):,} papers; <strong>Categories:</strong> {len(cats)} categories.</p>
     <p>Each taxonomy section lists papers with publication year, journal or venue, citation count, main idea, strengths, limitations, and paper links. Sections are collapsed by default to keep the page scannable.</p>
     <div class="figures">
-      <img src="assets/category_distribution.png" alt="Category distribution chart">
-      <img src="assets/yearly_citations.png" alt="Yearly citation chart">
+      <figure class="chart-figure">
+        <img id="categoryDistributionChart" src="{period_chart_src('category_distribution', START_YEAR, END_YEAR)}" alt="Category distribution chart for {YEAR_RANGE_TEXT}">
+        <figcaption id="categoryChartCaption">Category distribution ({YEAR_RANGE_TEXT})</figcaption>
+      </figure>
+      <figure class="chart-figure">
+        <img id="yearlyCitationsChart" src="{period_chart_src('yearly_citations', START_YEAR, END_YEAR)}" alt="Yearly citation chart for {YEAR_RANGE_TEXT}">
+        <figcaption id="citationChartCaption">Yearly citation mass ({YEAR_RANGE_TEXT})</figcaption>
+      </figure>
     </div>
     <div class="cards">{cat_cards}</div>
     {''.join(sections)}
@@ -1586,30 +1829,56 @@ def write_charts(flat):
 
     assets = DOCS_DIR / "assets"
     assets.mkdir(exist_ok=True)
+    period_assets = assets / "periods"
+    period_assets.mkdir(exist_ok=True)
+    for stale in period_assets.glob("category_distribution_*.png"):
+        stale.unlink()
+    for stale in period_assets.glob("yearly_citations_*.png"):
+        stale.unlink()
 
-    cats = category_stats(flat).most_common()
-    labels = [c for c, _ in cats][::-1]
-    values = [v for _, v in cats][::-1]
-    fig, ax = plt.subplots(figsize=(11, 6), dpi=160)
-    ax.barh(labels, values, color="#0f766e")
-    ax.set_xlabel("Selected papers")
-    ax.set_title(f"BCI Paper Taxonomy, {YEAR_RANGE_TEXT}")
-    ax.grid(axis="x", alpha=0.25)
-    fig.tight_layout()
-    fig.savefig(assets / "category_distribution.png")
-    plt.close(fig)
+    def render_category_chart(rows, start, end, target):
+        cats = category_stats(rows).most_common()
+        labels = [c for c, _ in cats][::-1] or ["No papers"]
+        values = [v for _, v in cats][::-1] or [0]
+        fig, ax = plt.subplots(figsize=(11, 6), dpi=150)
+        ax.barh(labels, values, color="#0f766e")
+        ax.set_xlabel("Selected papers")
+        ax.set_title(f"BCI Paper Taxonomy, {period_label(start, end)}")
+        ax.grid(axis="x", alpha=0.25)
+        fig.tight_layout()
+        fig.savefig(target)
+        plt.close(fig)
 
-    stats = year_stats(flat)
-    years = [y for y in YEARS if y in stats]
-    citations = [stats[y]["citations"] for y in years]
-    fig, ax = plt.subplots(figsize=(9, 5), dpi=160)
-    ax.bar([str(y) for y in years], citations, color="#7c3aed")
-    ax.set_ylabel("Citation count in selected set")
-    ax.set_title("Yearly Citation Mass of Selected BCI Papers")
-    ax.grid(axis="y", alpha=0.25)
-    fig.tight_layout()
-    fig.savefig(assets / "yearly_citations.png")
-    plt.close(fig)
+    def render_citation_chart(rows, start, end, target):
+        stats = year_stats(rows)
+        years = list(range(start, end + 1))
+        citations = [stats.get(year, {}).get("citations", 0) for year in years]
+        fig, ax = plt.subplots(figsize=(9, 5), dpi=150)
+        ax.bar([str(year) for year in years], citations, color="#7c3aed")
+        ax.set_ylabel("Citation count in selected set")
+        ax.set_title(f"Yearly Citation Mass, {period_label(start, end)}")
+        ax.grid(axis="y", alpha=0.25)
+        if len(years) > 8:
+            ax.tick_params(axis="x", labelrotation=45)
+        fig.tight_layout()
+        fig.savefig(target)
+        plt.close(fig)
+
+    for start, end in all_period_ranges():
+        rows = [p for p in flat if start <= p["year"] <= end]
+        category_target = period_assets / period_chart_filename("category_distribution", start, end)
+        citation_target = period_assets / period_chart_filename("yearly_citations", start, end)
+        render_category_chart(rows, start, end, category_target)
+        render_citation_chart(rows, start, end, citation_target)
+
+    shutil.copyfile(
+        period_assets / period_chart_filename("category_distribution", START_YEAR, END_YEAR),
+        assets / "category_distribution.png",
+    )
+    shutil.copyfile(
+        period_assets / period_chart_filename("yearly_citations", START_YEAR, END_YEAR),
+        assets / "yearly_citations.png",
+    )
 
 
 def reference_line(p):
