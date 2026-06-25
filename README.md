@@ -90,7 +90,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Objective.</td>
 <td width="12%">high citation signal (4,344); influential citation signal (564); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
@@ -99,7 +99,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Positions Motor imagery and direct brain-computer communication within Motor Imagery and Movement Decoding.</td>
 <td width="12%">high citation signal (2,002); influential citation signal (114); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
@@ -108,7 +108,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Positions Mu rhythm (de)synchronization and EEG single-trial classification of different motor imagery tasks within Motor Imagery and Movement Decoding.</td>
 <td width="12%">high citation signal (1,617); influential citation signal (61); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
@@ -117,7 +117,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Positions Control of a two-dimensional movement signal by a noninvasive brain-computer interface in humans. within Motor Imagery and Movement Decoding.</td>
 <td width="12%">high citation signal (1,608); influential citation signal (114); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
@@ -126,7 +126,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Objective.</td>
 <td width="12%">high citation signal (1,540); influential citation signal (61); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
@@ -135,7 +135,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">The Common Spatial Pattern (CSP) algorithm is an effective and popular method for classifying 2-class motor imagery electroencephalogram (EEG) data, but its effectiveness depends on the subject-specific frequency band.</td>
 <td width="12%">high citation signal (1,201); influential citation signal (156); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
@@ -144,7 +144,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Brain-machine interfaces (BMIs) hold promise for the restoration of sensory and motor function and the treatment of neurological disorders, but clinical BMIs have not yet been widely adopted, in part because modest channel counts have limited their potential.</td>
 <td width="12%">high citation signal (978); influential citation signal (32); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
@@ -153,7 +153,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">A brain-computer interface (BCI) is a communication system that allows the use of brain activity to control computers or other external devices.</td>
 <td width="12%">high citation signal (929); influential citation signal (61); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
@@ -162,7 +162,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Brain–computer interfaces (BCIs) can restore communication to people who have lost the ability to move or speak.</td>
 <td width="12%">high citation signal (848); influential citation signal (47); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
@@ -171,7 +171,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Advances in brain science and computer technology in the past decade have led to exciting developments in brain–computer interface (BCI), thereby making BCI a top research area in applied science.</td>
 <td width="12%">high citation signal (836); influential citation signal (38); recognized venue</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
@@ -180,7 +180,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Positions A novel deep learning approach for classification of EEG motor imagery signals within Motor Imagery and Movement Decoding.</td>
 <td width="12%">high citation signal (819); influential citation signal (61); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
@@ -189,7 +189,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Positions Brain-machine interface: Instant neural control of a movement signal within Motor Imagery and Movement Decoding.</td>
 <td width="12%">high citation signal (806); influential citation signal (22); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.; Arm or cursor decoding performance may not generalize to unconstrained daily functional movements.</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
@@ -198,7 +198,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Positions Breaking the silence: brain-computer interfaces (BCI) for communication and motor control. within Motor Imagery and Movement Decoding.</td>
 <td width="12%">high citation signal (768); influential citation signal (48)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
@@ -207,7 +207,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Nowadays, everybody knows what a hybrid car is.</td>
 <td width="12%">high citation signal (755); influential citation signal (51); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">15</td>
@@ -216,7 +216,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">BackgroundArtifacts contained in EEG recordings hamper both, the visual interpretation by experts as well as the algorithmic processing and analysis (e.g.</td>
 <td width="12%">high citation signal (744); influential citation signal (43); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">16</td>
@@ -225,7 +225,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">There has been an increase in research interest for brain-computer interface (BCI) technology as an alternate mode of communication and environmental control for the disabled, such as patients suffering from amyotrophic lateral sclerosis (ALS), brainstem stroke and spinal cord injury.</td>
 <td width="12%">high citation signal (611); influential citation signal (46); recognized venue</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">17</td>
@@ -234,7 +234,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Positions Brain–computer interface boosts motor imagery practice during stroke recovery within Motor Imagery and Movement Decoding.</td>
 <td width="12%">high citation signal (597); influential citation signal (38); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">18</td>
@@ -243,7 +243,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">This document provides a review of the techniques and therapies used in gait rehabilitation after stroke.</td>
 <td width="12%">high citation signal (578); influential citation signal (19); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">19</td>
@@ -252,7 +252,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Positions Patients with ALS can use sensorimotor rhythms to operate a brain-computer interface within Motor Imagery and Movement Decoding.</td>
 <td width="12%">high citation signal (572); influential citation signal (22)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">20</td>
@@ -261,7 +261,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Abstract Background Electroencephalography (EEG)-based brain-computer interface (BCI) systems are mainly divided into three major paradigms: motor imagery (MI), event-related potential (ERP), and steady-state visually evoked potential (SSVEP).</td>
 <td width="12%">high citation signal (567); influential citation signal (52); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">21</td>
@@ -270,7 +270,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Objective.</td>
 <td width="12%">high citation signal (564); influential citation signal (18); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">22</td>
@@ -279,7 +279,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="non-human" src="https://img.shields.io/badge/keyword-non--human-a855f7"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Brain imagination to control external devices Studies in monkeys have implicated the brain&#x27;s posterior parietal cortex in high-level coding of planned and imagined actions.</td>
 <td width="12%">high citation signal (556); influential citation signal (24); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">23</td>
@@ -288,7 +288,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Positions Deep learning techniques for classification of electroencephalogram (EEG) motor imagery (MI) signals: a review within Motor Imagery and Movement Decoding.</td>
 <td width="12%">high citation signal (551); influential citation signal (21)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">24</td>
@@ -297,7 +297,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Deep learning (DL) methods and architectures have been the state-of-the-art classification algorithms for computer vision and natural language processing problems.</td>
 <td width="12%">high citation signal (544); influential citation signal (52); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
@@ -306,7 +306,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Brain-computer interfaces (BCI) are used in stroke rehabilitation to translate brain signals into intended movements of the paralyzed limb.</td>
 <td width="12%">high citation signal (536); influential citation signal (39); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
@@ -315,7 +315,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="non-human" src="https://img.shields.io/badge/keyword-non--human-a855f7"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Spinal cord injury disrupts the communication between the brain and the spinal circuits that orchestrate movement.</td>
 <td width="12%">high citation signal (526); influential citation signal (13); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Offline benchmark performance may not transfer to real-time closed-loop use.</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
@@ -324,7 +324,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Motor-imagery-based brain-computer interfaces (BCIs) commonly use the common spatial pattern filter (CSP) as preprocessing step before feature extraction and classification.</td>
 <td width="12%">high citation signal (524); recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
@@ -333,7 +333,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">The aim of the present study was to demonstrate for the first time that brain waves can be used by a tetraplegic to control movements of his wheelchair in virtual reality (VR).</td>
 <td width="12%">high citation signal (522); influential citation signal (18); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
@@ -342,7 +342,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Brain–Computer Interfaces (BCIs) allow a user to control a computer application by brain activity as acquired, e.g., by EEG.</td>
 <td width="12%">high citation signal (509); influential citation signal (21); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
@@ -351,7 +351,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Electroencephalography (EEG)-based brain-computer interfaces (BCIs), particularly those using motor-imagery (MI) data, have the potential to become groundbreaking technologies in both clinical and entertainment settings.</td>
 <td width="12%">high citation signal (503); influential citation signal (20); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.; Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.</td>
 </tr>
 <tr>
 <td colspan="7">See the website and taxonomy CSV for all 1050 papers.</td>
@@ -373,7 +373,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 - Limitations:
   - Survey and system papers can dominate citation-ranked views while obscuring smaller empirical advances.
   - Evaluation language remains inconsistent across paradigms, making taxonomy boundaries imperfect.
-  - Metadata-driven curation cannot replace PDF-level quality appraisal, reproducibility checks, or expert clinical review.
+  - Broad system claims often need stronger protocol-level reproducibility checks and real-world usability validation.
 
 <details>
 <summary>Show representative papers for General BCI Methods and Systems</summary>
@@ -407,7 +407,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions BCI2000: a general-purpose brain-computer interface (BCI) system within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (3,136); influential citation signal (273); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
@@ -416,7 +416,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-computer interface technology: a review of the first international meeting. within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (2,282); influential citation signal (97); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
@@ -425,7 +425,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-machine interfaces: past, present and future. within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (1,865); influential citation signal (73); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
@@ -434,7 +434,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Filter Bank Common Spatial Pattern (FBCSP) in Brain-Computer Interface within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (1,456); influential citation signal (203)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
@@ -443,7 +443,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions The BCI competition III: validating alternative approaches to actual BCI problems within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (934); influential citation signal (110); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
@@ -452,7 +452,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-Computer Interfaces: Principles and Practice within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (901); influential citation signal (77)</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
@@ -461,7 +461,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Design and implementation of a brain-computer interface with high transfer rates within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (854); influential citation signal (68); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
@@ -470,7 +470,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions BCI Competition 2008 { Graz data set B within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (811); influential citation signal (60)</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
@@ -479,7 +479,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-computer interfaces based on the steady-state visual-evoked response. within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (713); influential citation signal (33); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
@@ -488,7 +488,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Positions Neurophysiological predictor of SMR-based BCI performance within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (686); influential citation signal (78); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
@@ -497,7 +497,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-computer interfaces in medicine. within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (647); influential citation signal (21); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
@@ -506,7 +506,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Current trends in Graz Brain-Computer Interface (BCI) research. within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (575); influential citation signal (20); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
@@ -515,7 +515,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions A BCI-based environmental controller for the motion-disabled. within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (574); influential citation signal (34); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
@@ -524,7 +524,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-Computer Interfaces within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (548); influential citation signal (36); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">15</td>
@@ -533,7 +533,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Support vector channel selection in BCI within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (546); influential citation signal (34); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">16</td>
@@ -542,7 +542,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-computer interface research at the Wadsworth Center. within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (514); influential citation signal (14); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">17</td>
@@ -551,7 +551,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Braincomputer interfaces (BCIs) allow their users to communicate or control external devices using brain signals rather than the brain&#x27;s normal output pathways of peripheral nerves and muscles.</td>
 <td width="12%">high citation signal (495); influential citation signal (24); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.</td>
 </tr>
 <tr>
 <td align="right" width="5%">18</td>
@@ -560,7 +560,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain computer interface: control signals review within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (470); influential citation signal (23)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">19</td>
@@ -569,7 +569,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions An MEG-based brain-computer interface (BCI) within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (466); influential citation signal (24); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">20</td>
@@ -578,7 +578,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Principles of a brain-computer interface (BCI) based on real-time functional magnetic resonance imaging (fMRI) within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (450); influential citation signal (20); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">21</td>
@@ -587,7 +587,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions A brain-computer interface for long-term independent home use within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (438); influential citation signal (15)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">22</td>
@@ -596,7 +596,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-computer interface technology: a review of the Second International Meeting. within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (415); influential citation signal (13); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">23</td>
@@ -605,7 +605,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions An auditory brain-computer interface (BCI). within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (404); influential citation signal (23); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">24</td>
@@ -614,7 +614,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions BCI competition 2003-data sets Ib and IIb: feature extraction from event-related brain potentials with the continuous wavelet transform and the t-value scalogram within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (400); influential citation signal (22); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
@@ -623,7 +623,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-Computer Interfaces Using Electrocorticographic Signals within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (397); influential citation signal (26)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
@@ -632,7 +632,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Brain–computer interfacing (BCI) is a steadily growing area of research.</td>
 <td width="12%">high citation signal (395); influential citation signal (13); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
@@ -641,7 +641,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions On the suitability of near-infrared (NIR) systems for next-generation brain-computer interfaces. within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (394); influential citation signal (24); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
@@ -650,7 +650,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-Computer Interfaces, Virtual Reality, and Videogames within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (390); influential citation signal (15); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
@@ -659,7 +659,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Linear and nonlinear methods for brain-computer interfaces within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (385); influential citation signal (12); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
@@ -668,7 +668,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Riemannian Approaches in Brain-Computer Interfaces: A Review within General BCI Methods and Systems.</td>
 <td width="12%">high citation signal (383); influential citation signal (15); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.; Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.</td>
 </tr>
 <tr>
 <td colspan="7">See the website and taxonomy CSV for all 425 papers.</td>
@@ -724,7 +724,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions The mental prosthesis: assessing the speed of a P300-based brain-computer interface. within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (1,299); influential citation signal (83); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
@@ -733,7 +733,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions Frequency Recognition Based on Canonical Correlation Analysis for SSVEP-Based BCIs within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (1,120); influential citation signal (132); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
@@ -742,7 +742,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions An efficient P300-based brain-computer interface for disabled subjects. within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (944); influential citation signal (122); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
@@ -751,7 +751,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions A P300-based brain-computer interface: initial tests by ALS patients. within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (808); influential citation signal (70)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
@@ -760,7 +760,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions An online multi-channel SSVEP-based brain–computer interface using a canonical correlation analysis method within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (789); influential citation signal (66); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
@@ -769,7 +769,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions Convolutional Neural Networks for P300 Detection with Application to Brain-Computer Interfaces within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (746); influential citation signal (77); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
@@ -778,7 +778,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions Filter bank canonical correlation analysis for implementing a high-speed SSVEP-based brain–computer interface within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (723); influential citation signal (133); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
@@ -787,7 +787,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Objective: This study proposes and evaluates a novel data-driven spatial filtering approach for enhancing steady-state visual evoked potentials (SSVEPs) detection toward a high-speed brain-computer interface (BCI) speller.</td>
 <td width="12%">high citation signal (691); influential citation signal (120); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
@@ -796,7 +796,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions How many people are able to control a P300-based brain-computer interface (BCI)? within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (688); influential citation signal (39); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
@@ -805,7 +805,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Brain-computer interface (BCI) systems based on the steady-state visual evoked potential (SSVEP) provide higher information throughput and require shorter training than BCI systems using other brain signals.</td>
 <td width="12%">high citation signal (677); influential citation signal (51); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
@@ -814,7 +814,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions A P300-based brain-computer interface for people with amyotrophic lateral sclerosis. within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (666); influential citation signal (19); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
@@ -823,7 +823,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions Control of an Electrical Prosthesis With an SSVEP-Based BCI within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (610); influential citation signal (15); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
@@ -832,7 +832,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Objective An electroencephalographic brain-computer interface (BCI) can provide a non-muscular means of communication for people with amyotrophic lateral sclerosis (ALS) or other neuromuscular disorders.</td>
 <td width="12%">high citation signal (587); influential citation signal (61); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
@@ -841,7 +841,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions Multiple Channel Detection of Steady-State Visual Evoked Potentials for Brain-Computer Interfaces within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (568); influential citation signal (42); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">15</td>
@@ -850,7 +850,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions Steady-state visual evoked potential (SSVEP)-based communication: impact of harmonic frequency components within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (560); influential citation signal (19); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.</td>
 </tr>
 <tr>
 <td align="right" width="5%">16</td>
@@ -859,7 +859,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions A P300 event-related potential brain-computer interface (BCI): the effects of matrix size and inter stimulus interval on performance. within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (549); influential citation signal (37)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">17</td>
@@ -868,7 +868,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions BCI competition 2003-data set IIb: support vector machines for the P300 speller paradigm within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (538); influential citation signal (50); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">18</td>
@@ -877,7 +877,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions BCI Competition III: Dataset II- Ensemble of SVMs for BCI P300 Speller within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (535); influential citation signal (86); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">19</td>
@@ -886,7 +886,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Abstract Brain computer interface technology represents a highly growing field of research with application systems.</td>
 <td width="12%">high citation signal (497); influential citation signal (22); open-access PDF metadata</td>
-<td width="12%">venue missing in metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.</td>
 </tr>
 <tr>
 <td align="right" width="5%">20</td>
@@ -895,7 +895,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions A Benchmark Dataset for SSVEP-Based Brain–Computer Interfaces within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (443); influential citation signal (85); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.</td>
 </tr>
 <tr>
 <td align="right" width="5%">21</td>
@@ -904,7 +904,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions Brain-Computer Interfaces Based on Visual Evoked Potentials within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (428); influential citation signal (22)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">22</td>
@@ -913,7 +913,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions An improved P300-based brain-computer interface within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (426); influential citation signal (39); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">23</td>
@@ -922,7 +922,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions A Hybrid BCI System Combining P300 and SSVEP and Its Application to Wheelchair Control within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (383); influential citation signal (20); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">24</td>
@@ -931,7 +931,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions BCI Demographics: How Many (and What Kinds of) People Can Use an SSVEP BCI? within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (371); influential citation signal (15); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
@@ -940,7 +940,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Canonical correlation analysis (CCA) has been one of the most popular methods for frequency recognition in steady-state visual evoked potential (SSVEP)-based brain-computer interfaces (BCIs).</td>
 <td width="12%">high citation signal (362); influential citation signal (32); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
@@ -949,7 +949,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions P300-based brain computer interface: reliability and performance in healthy and paralysed participants. within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (362); influential citation signal (14)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
@@ -958,7 +958,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions Towards an independent brain-computer interface using steady state visual evoked potentials. within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (353); influential citation signal (23); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
@@ -967,7 +967,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="non-human" src="https://img.shields.io/badge/keyword-non--human-a855f7"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Canonical correlation analysis (CCA) has been widely used in the detection of the steady-state visual evoked potentials (SSVEPs) in brain-computer interfaces (BCIs).</td>
 <td width="12%">high citation signal (351); influential citation signal (61); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
@@ -976,7 +976,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions An auditory oddball (P300) spelling system for brain-computer interfaces. within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (345); influential citation signal (29); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
@@ -985,7 +985,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SSVEP" src="https://img.shields.io/badge/keyword-SSVEP-7c3aed"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
 <td width="26%">Positions A Brain–Computer Interface Controlled Auditory Event‐Related Potential (P300) Spelling System for Locked‐In Patients within SSVEP, P300, and ERP Spellers.</td>
 <td width="12%">high citation signal (333); influential citation signal (13); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.; Controlled target layouts and calibration conditions may not transfer to everyday communication.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td colspan="7">See the website and taxonomy CSV for all 391 papers.</td>
@@ -1007,7 +1007,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 - Limitations:
   - Benchmark datasets vary widely in task design, sensors, preprocessing, and participant populations.
   - Artifact handling, channel selection, and evaluation protocols are not standardized enough for simple leaderboard-style comparison.
-  - Metadata may miss important dataset attributes such as participant counts, trial structure, hardware, and licensing.
+  - Participant counts, trial structure, hardware, and licensing differences can limit reproducible reuse across laboratories.
 
 <details>
 <summary>Show representative papers for EEG Signal Processing and Datasets</summary>
@@ -1041,7 +1041,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">One of the most popular feature extraction algorithms for brain-computer interfaces (BCI) is common spatial patterns (CSPs).</td>
 <td width="12%">high citation signal (1,028); influential citation signal (114); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Benchmark value depends on standardized protocols, transparent splits, and external replication.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.</td>
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
@@ -1050,7 +1050,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions The BCI competition 2003: progress and perspectives in detection and discrimination of EEG single trials within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (727); influential citation signal (56); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
@@ -1059,7 +1059,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions EMG and EOG artifacts in brain computer interface systems: A survey. within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (665); influential citation signal (43)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
@@ -1068,7 +1068,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">We describe a set of complementary EEG data collection and processing tools recently developed at the Swartz Center for Computational Neuroscience (SCCN) that connect to and extend the EEGLAB software environment, a freely available and readily extensible processing environment running under Matlab.</td>
 <td width="12%">high citation signal (654); influential citation signal (51); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
@@ -1077,7 +1077,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Enhanced performance by a hybrid NIRS – EEG brain computer interface within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (584); influential citation signal (35)</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
@@ -1086,7 +1086,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions How many people are able to operate an EEG-based brain-computer interface (BCI)? within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (559); influential citation signal (34); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
@@ -1095,7 +1095,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Towards adaptive classification for BCI within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (483); influential citation signal (33); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
@@ -1104,7 +1104,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Classification of covariance matrices using a Riemannian-based kernel for BCI applications within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (482); influential citation signal (43); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
@@ -1113,7 +1113,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Learning to control brain activity: a review of the production and control of EEG components for driving brain-computer interface (BCI) systems. within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (448); influential citation signal (14); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
@@ -1122,7 +1122,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Optimizing the Channel Selection and Classification Accuracy in EEG-Based BCI within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (435); influential citation signal (36); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
@@ -1131,7 +1131,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Brain-Computer Interface (BCI), in essence, aims at controlling different assistive devices through the utilization of brain waves.</td>
 <td width="12%">high citation signal (420); influential citation signal (18); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
@@ -1140,7 +1140,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions EURASIP Journal on Applied Signal Processing 2005:19, 3156–3164 c ○ 2005 Hindawi Publishing Corporation Steady-State VEP-Based Brain-Computer Interface Control in an Immersive 3D Gaming Environment within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (408); influential citation signal (19)</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
@@ -1149,7 +1149,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Real-time EEG analysis with subject-specific spatial patterns for a brain-computer interface (BCI). within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (407); influential citation signal (12); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
@@ -1158,7 +1158,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Riemannian geometry for EEG-based brain-computer interfaces; a primer and a review within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (404); influential citation signal (32); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">15</td>
@@ -1167,7 +1167,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">BackgroundVisual brain-computer interfaces (BCIs) often yield high performance only when targets are fixated with the eyes.</td>
 <td width="12%">high citation signal (366); influential citation signal (21); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">16</td>
@@ -1176,7 +1176,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions EEG feature extraction based on wavelet packet decomposition for brain computer interface within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (366); influential citation signal (12)</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">17</td>
@@ -1185,7 +1185,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions The Berlin brain-computer interface: EEG-based communication without subject training within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (361); influential citation signal (23); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">18</td>
@@ -1194,7 +1194,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Rapid prototyping of an EEG-based brain-computer interface (BCI) within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (344); influential citation signal (14); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">19</td>
@@ -1203,7 +1203,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Time Domain Parameters as a feature for EEG-based Brain-Computer Interfaces within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (319); influential citation signal (14); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">20</td>
@@ -1212,7 +1212,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Common spatial pattern (CSP) is a popular algorithm for classifying electroencephalogram (EEG) signals in the context of brain-computer interfaces (BCIs).</td>
 <td width="12%">high citation signal (315); influential citation signal (23); recognized venue</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">21</td>
@@ -1221,7 +1221,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Trends in EEG-BCI for daily-life: Requirements for artifact removal within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (269); influential citation signal (10)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">22</td>
@@ -1230,7 +1230,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Bristle-sensors—low-cost flexible passive dry EEG electrodes for neurofeedback and BCI applications within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (261); recognized venue; open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">23</td>
@@ -1239,7 +1239,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Electroencephalogram (EEG) signals are highly subject-specific and vary considerably even between recording sessions of the same user within the same experimental paradigm.</td>
 <td width="12%">high citation signal (255); influential citation signal (15); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">24</td>
@@ -1248,7 +1248,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Riemannian Geometry Applied to BCI Classification within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (252); influential citation signal (28); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
@@ -1257,7 +1257,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions EEG-Based Brain-Computer Interfaces: A Thorough Literature Survey within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (249); influential citation signal (15)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
@@ -1266,7 +1266,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions BCI meeting 2005-workshop on BCI signal processing: feature extraction and translation within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (242); recognized venue; open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
@@ -1275,7 +1275,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Multi-kernel extreme learning machine for EEG classification in brain-computer interfaces within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (242)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
@@ -1284,7 +1284,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Review of Machine Learning Techniques for EEG Based Brain Computer Interface within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (233)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
@@ -1293,7 +1293,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Classifying mental tasks based on features of higher-order statistics from EEG signals in brain-computer interface within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (228); influential citation signal (10); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
@@ -1302,7 +1302,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Electroencephalography (EEG)-Based Brain–Computer Interface (BCI): A 2-D Virtual Wheelchair Control Based on Event-Related Desynchronization/Synchronization and State Control within EEG Signal Processing and Datasets.</td>
 <td width="12%">high citation signal (224); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.; Artifact robustness and sensor-setup variability need stronger external validation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td colspan="7">See the website and taxonomy CSV for all 265 papers.</td>
@@ -1324,7 +1324,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 - Limitations:
   - Surgical risk, long-term signal stability, device maintenance, and participant burden remain major translation barriers.
   - Many studies involve small cohorts or case reports, so headline performance can be difficult to generalize.
-  - Home deployment, cybersecurity, informed consent, explantation, and support infrastructure are underrepresented in metadata-level screening.
+  - Home deployment, cybersecurity, informed consent, explantation, and support infrastructure remain difficult to evaluate consistently.
 
 <details>
 <summary>Show representative papers for Invasive and Implantable Interfaces</summary>
@@ -1358,7 +1358,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions The non-invasive Berlin Brain-Computer Interface: Fast acquisition of effective performance in untrained subjects within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (1,003); influential citation signal (50); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
@@ -1367,7 +1367,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions A brain-actuated wheelchair: asynchronous and non-invasive Brain-computer interfaces for continuous control of robots. within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (703); influential citation signal (28); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
@@ -1376,7 +1376,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="non-human" src="https://img.shields.io/badge/keyword-non--human-a855f7"></td>
 <td width="26%">Positions Failure mode analysis of silicon-based intracortical microelectrode arrays in non-human primates within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (569); influential citation signal (35); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
@@ -1385,7 +1385,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions High-frequency gamma oscillations and human brain mapping with electrocorticography. within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (507); influential citation signal (20); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
@@ -1394,7 +1394,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Fully Implanted Brain-Computer Interface in a Locked-In Patient with ALS. within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (490); influential citation signal (20); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
@@ -1403,7 +1403,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"></td>
 <td width="26%">Emerging applications in brain-machine interface systems require high-resolution, chronic multisite cortical recordings, which cannot be obtained with existing technologies due to high power consumption, high invasiveness, or inability to transmit data wirelessly.</td>
 <td width="12%">high citation signal (352); influential citation signal (24); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
@@ -1412,7 +1412,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Non-invasive brain-computer interface system: towards its application as assistive technology. within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (339); recognized venue; open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
@@ -1421,7 +1421,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">While recent research on Brain-Computer Interfaces (BCI) has highlighted their potential for many applications, they remain barely used outside laboratories.</td>
 <td width="12%">high citation signal (302); influential citation signal (24); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
@@ -1430,7 +1430,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">The ability to recognize errors is crucial for efficient behavior.</td>
 <td width="12%">high citation signal (289); influential citation signal (33); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
@@ -1439,7 +1439,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">We describe error-related potentials generated while a human user monitors the performance of an external agent and discuss their use for a new type of brain-computer interaction.</td>
 <td width="12%">high citation signal (275); influential citation signal (42); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
@@ -1448,7 +1448,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"></td>
 <td width="26%">Positions The impact of chronic blood-brain barrier breach on intracortical electrode function. within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (265); influential citation signal (12)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
@@ -1457,7 +1457,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Recent developments and studies in brain-computer interface (BCI) technologies have facilitated emotion detection and classification.</td>
 <td width="12%">high citation signal (260); influential citation signal (15); open-access PDF metadata</td>
-<td width="12%">venue missing in metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
@@ -1466,7 +1466,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="non-human" src="https://img.shields.io/badge/keyword-non--human-a855f7"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Pioneering work with nonhuman primates and recent human studies established intracortical microstimulation (ICMS) in primary somatosensory cortex (S1) as a method of inducing discriminable artificial sensation.</td>
 <td width="12%">high citation signal (228); recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
@@ -1475,7 +1475,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Neural decoding of treadmill walking from noninvasive electroencephalographic signals. within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (206); influential citation signal (14); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">15</td>
@@ -1484,7 +1484,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions A Tutorial on EEG Signal Processing Techniques for Mental State Recognition in Brain-Computer Interfaces within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (198); influential citation signal (15)</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">16</td>
@@ -1493,7 +1493,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"></td>
 <td width="26%">zJoint senior authors A major hurdle in brain-machine interfaces (BMI) is the lack of an implantable neural interface system that remains viable for a lifetime.</td>
 <td width="12%">high citation signal (197); influential citation signal (13)</td>
-<td width="12%">venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">17</td>
@@ -1502,7 +1502,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Methods Towards Invasive Human Brain Computer Interfaces within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (197); influential citation signal (11)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">18</td>
@@ -1511,7 +1511,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"></td>
 <td width="26%">Positions ECoG factors underlying multimodal control of a brain-computer interface within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (191); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">19</td>
@@ -1520,7 +1520,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"></td>
 <td width="26%">Neural sensing and stimulation have been the backbone of neuroscience research, brain-machine interfaces and clinical neuromodulation therapies for decades.</td>
 <td width="12%">high citation signal (185); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">20</td>
@@ -1529,7 +1529,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Spelling with non-invasive Brain-Computer Interfaces--current and future trends. within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (181)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">21</td>
@@ -1538,7 +1538,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"></td>
 <td width="26%">Positions A recurrent neural network for closed-loop intracortical brain–machine interface decoders within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (176); influential citation signal (12); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">22</td>
@@ -1547,7 +1547,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"></td>
 <td width="26%">Positions Phase synchronization for the recognition of mental tasks in a brain-computer interface within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (175); influential citation signal (12); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">23</td>
@@ -1556,7 +1556,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Reconstructing intended speech from neural activity using brain-computer interfaces holds great promises for people with severe speech production deficits.</td>
 <td width="12%">high citation signal (175); influential citation signal (10); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">24</td>
@@ -1565,7 +1565,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">This paper reviews several critical issues facing signal processing for brain–computer interfaces (BCIs) and suggests several recent approaches that should be further examined.</td>
 <td width="12%">high citation signal (175); recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
@@ -1574,7 +1574,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"></td>
 <td width="26%">Positions A Battery-Powered Activity-Dependent Intracortical Microstimulation IC for Brain-Machine-Brain Interface within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (172)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
@@ -1583,7 +1583,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Electroencephalography (EEG) signals, known for convenient non-invasive acquisition but low signal-to-noise ratio, have recently gained substantial attention due to the potential to decode natural images.</td>
 <td width="12%">high citation signal (147); influential citation signal (41); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
@@ -1592,7 +1592,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Brain-Computer Interface (BCI) bridges the human&#x27;s neural world and the outer physical world by decoding individuals&#x27; brain signals into commands recognizable by computer devices.</td>
 <td width="12%">high citation signal (147)</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
@@ -1601,7 +1601,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">This work aims to find discriminative EEG-based features and appropriate classification methods that can categorise brainwave patterns based on their level of activity or frequency for mental state recognition useful for human-machine interaction.</td>
 <td width="12%">high citation signal (143); influential citation signal (15)</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
@@ -1610,7 +1610,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Playing Pinball with non-invasive BCI within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (143)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
@@ -1619,7 +1619,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"></td>
 <td width="26%">Positions Rapid calibration of an intracortical brain–computer interface for people with tetraplegia within Invasive and Implantable Interfaces.</td>
 <td width="12%">high citation signal (137); recognized venue; open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Surgical risk, device durability, and long-term signal stability constrain clinical translation.; Small participant cohorts make headline decoding performance difficult to generalize.</td>
 </tr>
 <tr>
 <td colspan="7">See the website and taxonomy CSV for all 135 papers.</td>
@@ -1641,7 +1641,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 - Limitations:
   - Clinical evidence is often fragmented across small cohorts, heterogeneous protocols, and short follow-up windows.
   - Improvements in decoder accuracy or therapy-session metrics do not always demonstrate transfer to activities of daily living.
-  - Metadata alone cannot assess patient selection, therapist involvement, adverse events, or trial quality.
+  - Patient selection, therapist involvement, adverse-event reporting, and outcome measures vary enough to limit direct comparison.
 
 <details>
 <summary>Show representative papers for Rehabilitation and Neuroprosthetics</summary>
@@ -1675,7 +1675,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-computer interfaces in neurological rehabilitation. within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (1,144); influential citation signal (33)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
@@ -1684,7 +1684,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">A brain-computer interface (BCI) is a hardware and software communications system that permits cerebral activity alone to control computers or external devices.</td>
 <td width="12%">high citation signal (1,125); influential citation signal (29); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
@@ -1693,7 +1693,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Think to Move: a Neuromagnetic Brain-Computer Interface (BCI) System for Chronic Stroke within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (619); influential citation signal (34); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
@@ -1702,7 +1702,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-Machine Interfaces: From Basic Science to Neuroprostheses and Neurorehabilitation. within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (555); influential citation signal (10)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
@@ -1711,7 +1711,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Brain-computer interface (BCI) technologies aim to provide a bridge between the human brain and external devices.</td>
 <td width="12%">high citation signal (447); influential citation signal (23); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
@@ -1720,7 +1720,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Brain computer interfaces (BCI) provide a direct communication link between the brain and a computer or other external devices.</td>
 <td width="12%">high citation signal (328); influential citation signal (16); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
@@ -1729,7 +1729,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Brain-Computer Interfaces (BCIs) are real-time computer-based systems that translate brain signals into useful commands.</td>
 <td width="12%">high citation signal (317); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Offline benchmark performance may not transfer to real-time closed-loop use.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
@@ -1738,7 +1738,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Speech brain–computer interfaces (BCIs) have the potential to restore rapid communication to people with paralysis by decoding neural activity evoked by attempted speech into text^ 1 , 2 or sound^ 3 , 4 .</td>
 <td width="12%">high citation signal (292); influential citation signal (20); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
@@ -1747,7 +1747,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">A brain-computer interface (BCI) is a communication system that can help users interact with the outside environment by translating brain signals into machine commands.</td>
 <td width="12%">high citation signal (270); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
@@ -1756,7 +1756,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Efficient neuroplasticity induction in chronic stroke patients by an associative brain-computer interface. within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (240); influential citation signal (14); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
@@ -1765,7 +1765,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Rehabilitation with Brain-Computer Interface Systems within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (235)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
@@ -1774,7 +1774,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Films like Firefox, Surrogates, and Avatar have explored the possibilities of using brain-computer interfaces (BCIs) to control machines and replacement bodies with only thought.</td>
 <td width="12%">high citation signal (232); recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
@@ -1783,7 +1783,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-Computer Interface in Stroke: A Review of Progress within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (227); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
@@ -1792,7 +1792,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Positions A New Gaze-BCI-Driven Control of an Upper Limb Exoskeleton for Rehabilitation in Real-World Tasks within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (219); influential citation signal (16); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">15</td>
@@ -1801,7 +1801,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-Computer Interface in Stroke Rehabilitation within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (217); recognized venue; open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">16</td>
@@ -1810,7 +1810,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Combination of Brain-Computer Interface Training and Goal-Directed Physical Therapy in Chronic Stroke: A Case Report within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (216); influential citation signal (13)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">17</td>
@@ -1819,7 +1819,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Auditory stimulus reconstruction is a technique that finds the best approximation of the acoustic stimulus from the population of evoked neural activity.</td>
 <td width="12%">high citation signal (210); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.</td>
 </tr>
 <tr>
 <td align="right" width="5%">18</td>
@@ -1828,7 +1828,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-Computer Interface Operation of Robotic and Prosthetic Devices within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (204)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">19</td>
@@ -1837,7 +1837,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Journal of Neuroengineering and Rehabilitation Open Access a Brain-computer Interface with Vibrotactile Biofeedback for Haptic Information within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (201)</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">20</td>
@@ -1846,7 +1846,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Hemodynamic brain-computer interfaces for communication and rehabilitation within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (185); recognized venue; open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.</td>
 </tr>
 <tr>
 <td align="right" width="5%">21</td>
@@ -1855,7 +1855,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Positions Hybrid brain-computer interfaces and hybrid neuroprostheses for restoration of upper limb functions in individuals with high-level spinal cord injury within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (182); influential citation signal (12)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">22</td>
@@ -1864,7 +1864,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Chronic stroke recovery after combined BCI training and physiotherapy: a case report. within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (182); influential citation signal (11)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">23</td>
@@ -1873,7 +1873,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain computer interfaces for neurorehabilitation – its current status as a rehabilitation strategy post-stroke. within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (168)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">24</td>
@@ -1882,7 +1882,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Brain-computer interfaces (BCIs) can provide a rapid, intuitive way for people with paralysis to communicate by transforming the cortical activity associated with attempted speech into text.</td>
 <td width="12%">high citation signal (143); influential citation signal (26); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Offline benchmark performance may not transfer to real-time closed-loop use.</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
@@ -1891,7 +1891,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Magnetic stimulation from cortically implantable microcoils can activate neuronal circuits with high selectivity and reliability.</td>
 <td width="12%">high citation signal (139); recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
@@ -1900,7 +1900,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Positions The neurochip BCI: towards a neural prosthesis for upper limb function within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (135); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
@@ -1909,7 +1909,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Application of BCI systems in neurorehabilitation: a scoping review within Rehabilitation and Neuroprosthetics.</td>
 <td width="12%">high citation signal (135)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
@@ -1918,7 +1918,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Brain-Computer Interface (BCI) research and (future) applications raise important ethical issues that need to be addressed to promote societal acceptance and adequate policies.</td>
 <td width="12%">high citation signal (132); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
@@ -1927,7 +1927,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Restoring communication for people with locked-in syndrome remains a challenging clinical problem without a reliable solution.</td>
 <td width="12%">high citation signal (127); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
@@ -1936,7 +1936,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">In this study, a multiple kernel learning support vector machine algorithm is proposed for the identification of EEG signals including mental and cognitive tasks, which is a key component in EEG-based brain computer interface (BCI) systems.</td>
 <td width="12%">high citation signal (125); influential citation signal (11); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.; Short follow-up windows can miss whether gains transfer to daily activities.</td>
 </tr>
 <tr>
 <td colspan="7">See the website and taxonomy CSV for all 87 papers.</td>
@@ -1992,7 +1992,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Asynchronous BCI and local neural classifiers: an overview of the adaptive brain interface project within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (319); influential citation signal (12); recognized venue</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
@@ -2001,7 +2001,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-human" src="https://img.shields.io/badge/keyword-non--human-a855f7"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Positions A Hybrid Brain Computer Interface to Control the Direction and Speed of a Simulated or Real Wheelchair within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (289); influential citation signal (13); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Non-human or simulated results require cautious translation to everyday human BCI use.</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
@@ -2010,7 +2010,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions A survey of affective brain computer interfaces: principles, state-of-the-art, and challenges within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (279); influential citation signal (18); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
@@ -2019,7 +2019,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Machine-Learning-Based Coadaptive Calibration for Brain-Computer Interfaces within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (197)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
@@ -2028,7 +2028,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Co-adaptive calibration to improve BCI efficiency within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (182); influential citation signal (11); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
@@ -2037,7 +2037,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions A closed-loop human simulator for investigating the role of feedback control in brain-machine interfaces. within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (176); influential citation signal (10); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
@@ -2046,7 +2046,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Neurofeedback and brain-computer interface clinical applications. within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (155)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
@@ -2055,7 +2055,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Positions Target Selection With Hybrid Feature for BCI-Based 2-D Cursor Control within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (135); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Arm or cursor decoding performance may not generalize to unconstrained daily functional movements.</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
@@ -2064,7 +2064,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">A new Brain-Computer Interface (BCI) technique, which is called a hybrid BCI, has recently been proposed to address the limitations of conventional single BCI system.</td>
 <td width="12%">high citation signal (120); recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
@@ -2073,7 +2073,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-human" src="https://img.shields.io/badge/keyword-non--human-a855f7"></td>
 <td width="26%">The ultimate goal of epileptology is the complete abolishment of epileptic seizures.</td>
 <td width="12%">high citation signal (116); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
@@ -2082,7 +2082,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions A hybrid brain computer interface system based on the neurophysiological protocol and brain-actuated switch for wheelchair control. within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (115); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
@@ -2091,7 +2091,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-computer interface-based control of closed-loop brain stimulation: attitudes and ethical considerations within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (115)</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
@@ -2100,7 +2100,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Adaptive BCI based on variational Bayesian Kalman filtering: an empirical evaluation within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (108); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
@@ -2109,7 +2109,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Design of a Closed-Loop, Bidirectional Brain Machine Interface System With Energy Efficient Neural Feature Extraction and PID Control within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (106); recognized venue; open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">15</td>
@@ -2118,7 +2118,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Neurofeedback Training for BCI Control within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">high citation signal (106)</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">16</td>
@@ -2127,7 +2127,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Mental-tasks based brain–computer interfaces (MT-BCIs) allow their users to interact with an external device solely by using brain signals produced through mental tasks.</td>
 <td width="12%">recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.</td>
 </tr>
 <tr>
 <td align="right" width="5%">17</td>
@@ -2136,7 +2136,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Design and Analysis of Closed-Loop Decoder Adaptation Algorithms for Brain-Machine Interfaces within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">18</td>
@@ -2145,7 +2145,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Affective Pacman: A Frustrating Game for Brain-Computer Interface Experiments within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">19</td>
@@ -2154,7 +2154,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions A Hybrid Brain-Computer Interface for Smart Home Control within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">20</td>
@@ -2163,7 +2163,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Evaluation and Application of a Hybrid Brain Computer Interface for Real Wheelchair Parallel Control with Multi-Degree of Freedom within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">21</td>
@@ -2172,7 +2172,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions On the use of interaction error potentials for adaptive brain computer interfaces within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">recognized venue; open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">22</td>
@@ -2181,7 +2181,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Brain-Computer Interface Analysis using Continuous Wavelet Transform and Adaptive Neuro-Fuzzy Classifier within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">23</td>
@@ -2190,7 +2190,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Detecting affective covert user states with passive brain-computer interfaces within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">24</td>
@@ -2199,7 +2199,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Affective brain-computer interfaces: Psychophysiological markers of emotion in healthy persons and in persons with amyotrophic lateral sclerosis within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
@@ -2208,7 +2208,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Ensembles of adaptive spatial filters increase BCI performance: an online evaluation within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">recognized venue; open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
@@ -2217,7 +2217,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">This paper presents a novel user interface suitable for adaptive Brain Computer Interface (BCI) system.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
@@ -2226,7 +2226,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Adaptive subject-based feature extraction in brain-computer interfaces using wavelet packet best basis decomposition. within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
@@ -2235,7 +2235,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-human" src="https://img.shields.io/badge/keyword-non--human-a855f7"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Effective treatments for chronic pain remain limited.</td>
 <td width="12%">recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
@@ -2244,7 +2244,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions A hybrid genetic algorithm approach for improving the performance of the LF-ASD brain computer interface within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
@@ -2253,7 +2253,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Designing a brain-computer interface device for neurofeedback using virtual environments within Hybrid, Affective, and Closed-loop BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.; User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.</td>
 </tr>
 <tr>
 <td colspan="7">See the website and taxonomy CSV for all 32 papers.</td>
@@ -2309,7 +2309,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-computer interfaces for communication and control. within Speech, Language, and Communication BCIs.</td>
 <td width="12%">high citation signal (5,454); influential citation signal (327)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
@@ -2318,7 +2318,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">The brain&#x27;s electrical signals enable people without muscle control to physically interact with the world.</td>
 <td width="12%">high citation signal (2,866); influential citation signal (112); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
@@ -2327,7 +2327,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">A brain-computer interface (BCI) establishes a direct communication channel between a brain and an external device.</td>
 <td width="12%">high citation signal (263); recognized venue</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
@@ -2336,7 +2336,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions The Berlin Brain-Computer Interface (BBCI) – towards a new communication channel for online control in gaming applications within Speech, Language, and Communication BCIs.</td>
 <td width="12%">high citation signal (243)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
@@ -2345,7 +2345,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Over the last few decades, the Brain-Computer Interfaces have been gradually making their way to the epicenter of scientific interest.</td>
 <td width="12%">high citation signal (236); influential citation signal (10); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
@@ -2354,7 +2354,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">The combined effect of fundamental results about neurocognitive processes and advancements in decoding mental states from ongoing brain signals has brought forth a whole range of potential neurotechnological applications.</td>
 <td width="12%">high citation signal (210); influential citation signal (10); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
@@ -2363,7 +2363,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"></td>
 <td width="26%">Positions Future prospects of ERD/ERS in the context of brain-computer interface (BCI) developments. within Speech, Language, and Communication BCIs.</td>
 <td width="12%">high citation signal (205); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
@@ -2372,7 +2372,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">BackgroundBrain-Computer Interface (BCI) is a set of technologies that are of increasing interest to researchers.</td>
 <td width="12%">high citation signal (182); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
@@ -2381,7 +2381,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-computer interface in multimedia communication within Speech, Language, and Communication BCIs.</td>
 <td width="12%">high citation signal (152); influential citation signal (10); open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
@@ -2390,7 +2390,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-computer interfaces (BCIs) for communication and control within Speech, Language, and Communication BCIs.</td>
 <td width="12%">high citation signal (134)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
@@ -2399,7 +2399,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Abstract Neurosciences and Neuro-technology are continuously advancing and so individuals, society and healthcare professionals have to up date themselves with advancement.</td>
 <td width="12%">high citation signal (117); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
@@ -2408,7 +2408,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain Computer Interface for Communication and Control within Speech, Language, and Communication BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
@@ -2417,7 +2417,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-Computer Interface: Applications to Speech Decoding and Synthesis to Augment Communication within Speech, Language, and Communication BCIs.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
@@ -2426,7 +2426,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">BACKGROUND An uninterrupted channel of communication and control between the human brain and electronic processing units has led to an increased use of Brain Computer Interfaces (BCIs).</td>
 <td width="12%">recognized venue</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">15</td>
@@ -2435,7 +2435,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">A direct-speech brain-computer interface (DS-BCI) acquires neural signals corresponding to imagined speech, then processes and decodes these signals to produce a linguistic output in the form of phonemes, words, or sentences.</td>
 <td width="12%">recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">16</td>
@@ -2444,7 +2444,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions FOCUS: enhancing children&#x27;s engagement in reading by using contextual BCI training sessions within Speech, Language, and Communication BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">17</td>
@@ -2453,7 +2453,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">The proposed system integrates Internet of Things (IoT) technologies with Brain-computer interfaces to improve disability-related communication and control.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">18</td>
@@ -2462,7 +2462,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-Computer Interfaces for Augmentative and Alternative Communication: A Tutorial. within Speech, Language, and Communication BCIs.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">19</td>
@@ -2471,7 +2471,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Berlin Brain-Computer Interface - The HCI communication channel for discovery within Speech, Language, and Communication BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">20</td>
@@ -2480,7 +2480,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">In the early 90&#x27;s, and especially in some American universities, with the emergence of virtual reality, virtual environments and their manipulation began to be implemented, achieving important advances that have led to improvements in research through changes in the perception of the subject, modeling, communication processes and the development of 3D virtua</td>
 <td width="12%">recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">21</td>
@@ -2489,7 +2489,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Restoring communication in case of aphasia is a key challenge for neurotechnologies.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">22</td>
@@ -2498,7 +2498,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Brain-computer interfaces (BCIs) for communication and control: a mini-review. within Speech, Language, and Communication BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">23</td>
@@ -2507,7 +2507,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">Background Brain-computer interfaces (BCIs) have been proposed as an assistive technology (AT) allowing people with locked-in syndrome (LIS) to use neural signals to communicate.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">24</td>
@@ -2516,7 +2516,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="arm-direction" src="https://img.shields.io/badge/keyword-arm--direction-0891b2"></td>
 <td width="26%">The growing interest in the Metaverse has generated momentum for members of academia and industry to innovate toward realizing the Metaverse world.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
@@ -2525,7 +2525,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">As an emerging technology, brain-computer interfaces (BCIs) bring us new communication interfaces which translate brain activities into control signals for devices like computers, robots, and so forth.</td>
 <td width="12%">recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
@@ -2534,7 +2534,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions The Berlin Brain-Computer Interface ( BBCI ) towards a new communication channel for online control of multimedia applications and computer games within Speech, Language, and Communication BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; limited citation history</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
@@ -2543,7 +2543,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Communication speed enhancement for visual based Brain Computer Interfaces within Speech, Language, and Communication BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; limited citation history</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
@@ -2552,7 +2552,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Autoregressive spectral analysis in Brain Computer Interface context within Speech, Language, and Communication BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; limited citation history; PDF link not available from metadata</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
@@ -2561,7 +2561,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions BRAIN-COMPUTER INTERFACES FOR VERBAL COMMUNICATION within Speech, Language, and Communication BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; limited citation history</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
@@ -2570,7 +2570,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Positions Lateralisiertes Bereitschaftspotenzial und Ereignis-korrelierte Desynchronisation perizentraler my/beta-Rhythmen bei rasch repetierten Fingerbewegungen im Kontext des Berlin Brain-Computer Interface (BBCI) within Speech, Language, and Communication BCIs.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; venue missing in metadata; limited citation history</td>
+<td width="12%">Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Many decoding results rely on constrained tasks or limited participant diversity.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td colspan="7">See the website and taxonomy CSV for all 31 papers.</td>
@@ -2626,7 +2626,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Brain-Computer interfaces (BCIs) enhance the capability of human brain activities to interact with the environment.</td>
 <td width="12%">high citation signal (322); influential citation signal (11); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.</td>
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
@@ -2635,7 +2635,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Electroencephalographic (EEG) recordings generate an electrical map of the human brain that are useful for clinical inspection of patients and in biomedical smart Internet-of-Things (IoT) and Brain-Computer Interface (BCI) applications.</td>
 <td width="12%">high citation signal (283); influential citation signal (17); recognized venue</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
@@ -2644,7 +2644,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">At present, people usually use some methods based on convolutional neural networks (CNNs) for Electroencephalograph (EEG) decoding.</td>
 <td width="12%">high citation signal (219); influential citation signal (22)</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
@@ -2653,7 +2653,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">The studies implemented with Electroencephalogram (EEG) signals are progressing very rapidly and brain computer interfaces (BCI) and disease determinations are carried out at certain success rates thanks to new methods developed in this field.</td>
 <td width="12%">high citation signal (183); influential citation signal (17); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
@@ -2662,7 +2662,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Electroencephalography (EEG) is crucial for recording brain activity, with applications in medicine, neuroscience, and brain-computer interfaces (BCI).</td>
 <td width="12%">high citation signal (174); influential citation signal (30)</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
@@ -2671,7 +2671,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Recently, deep learning has aroused wide interest in machine learning fields.</td>
 <td width="12%">high citation signal (169); open-access PDF metadata</td>
-<td width="12%">venue missing in metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
@@ -2680,7 +2680,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Transfer learning makes use of data or knowledge in one problem to help solve a different, yet related, problem.</td>
 <td width="12%">high citation signal (167); influential citation signal (25); recognized venue</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
@@ -2689,7 +2689,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Adaptive transfer learning-based multiscale feature fused deep convolutional neural network for EEG MI multiclassification in brain-computer interface within Deep Learning and Representation Learning.</td>
 <td width="12%">high citation signal (158)</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Offline benchmark performance may not transfer to real-time closed-loop use.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
@@ -2698,7 +2698,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Optimized Deep Learning for EEG Big Data and Seizure Prediction BCI via Internet of Things within Deep Learning and Representation Learning.</td>
 <td width="12%">high citation signal (151); recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
@@ -2707,7 +2707,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Cross-subject variability problems hinder practical usages of Brain-Computer Interfaces.</td>
 <td width="12%">high citation signal (129); recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
@@ -2716,7 +2716,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Recent advances in deep learning have had a methodological and practical impact on brain-computer interface (BCI) research.</td>
 <td width="12%">high citation signal (102); open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
@@ -2725,7 +2725,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">In recent years, deep learning-based feature representation methods have shown a promising impact on electroencephalography (EEG)-based brain–computer interface (BCI).</td>
 <td width="12%">high citation signal (100); recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
@@ -2734,7 +2734,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Deep learning has been successfully used in numerous applications because of its outstanding performance and the ability to avoid manual feature engineering.</td>
 <td width="12%">recognized venue; open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
@@ -2743,7 +2743,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Effectively learning the temporal dynamics in electroencephalogram (EEG) signals is challenging yet essential for decoding brain activities using brain-computer interfaces (BCIs).</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">15</td>
@@ -2752,7 +2752,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">In this paper, a deep-learning-based driver-drowsiness detection for brain-computer interface (BCI) using functional near-infrared spectroscopy (fNIRS) is investigated.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">16</td>
@@ -2761,7 +2761,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">A brain-computer interface (BCI) that employs imagined speech as the mode of determining user intent requires strong generalizability for a feasible system to be realized.</td>
 <td width="12%">influential citation signal (15)</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.</td>
 </tr>
 <tr>
 <td align="right" width="5%">17</td>
@@ -2770,7 +2770,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Electroencephalogram (EEG) has shown a useful approach to produce a brain-computer interface (BCI).</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">18</td>
@@ -2779,7 +2779,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Deep learning-based classification for brain-computer interfaces within Deep Learning and Representation Learning.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">19</td>
@@ -2788,7 +2788,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions The extraction of motion-onset VEP BCI features based on deep learning and compressed sensing. within Deep Learning and Representation Learning.</td>
 <td width="12%">recognized venue</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">20</td>
@@ -2797,7 +2797,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="non-human" src="https://img.shields.io/badge/keyword-non--human-a855f7"></td>
 <td width="26%">Vehicle drivers driving cars under the situation of drowsiness can cause serious traffic accidents.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">21</td>
@@ -2806,7 +2806,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">In the Machine Learning (ML) literature, a well-known problem is the Dataset Shift problem where, differently from the ML standard hypothesis, the data in the training and test sets can follow different probability distributions, leading ML systems toward poor generalisation performances.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.</td>
 </tr>
 <tr>
 <td align="right" width="5%">22</td>
@@ -2815,7 +2815,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Investigating deep learning for fNIRS based BCI within Deep Learning and Representation Learning.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">23</td>
@@ -2824,7 +2824,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Reconstructing images using brain signals of imagined visuals may provide an augmented vision to the disabled, leading to the advancement of Brain-Computer Interface (BCI) technology.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.</td>
 </tr>
 <tr>
 <td align="right" width="5%">24</td>
@@ -2833,7 +2833,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">As a measure of the brain&#x27;s electrical activity, electroencephalography (EEG) is the primary signal of interest for brain-computer-interfaces (BCI).</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">metadata-level appraisal; full PDF review still needed</td>
+<td width="12%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
@@ -2842,7 +2842,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">Abstract Subject training is crucial for acquiring brain–computer interface (BCI) control.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Participant variability can limit generalization across age, ability, disease status, and training experience.</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
@@ -2851,7 +2851,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Evaluating Deep Learning with different feature scaling techniques for EEG-based Music Entrainment Brain Computer Interface within Deep Learning and Representation Learning.</td>
 <td width="12%">open-access PDF metadata</td>
-<td width="12%">abstract unavailable in metadata; limited citation history</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
@@ -2860,7 +2860,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions A bidirectional cross-modal transformer representation learning model for EEG-fNIRS multimodal affective BCI within Deep Learning and Representation Learning.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">abstract unavailable in metadata; limited citation history; PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
@@ -2869,7 +2869,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Brain-computer interfaces (BCIs) enable direct communication between the brain and external devices.</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
+<td width="12%">Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
@@ -2878,7 +2878,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
 <td width="26%">Positions Neural Decoding for EEG-BCI: From Conventional Machine Learning to Deep Learning Models within Deep Learning and Representation Learning.</td>
 <td width="12%">recognized venue</td>
-<td width="12%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
@@ -2887,7 +2887,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
 <td width="26%">In this paper, the use of non-sinusoidal amplitude-modulated stimuli is assessed for Brain-Computer Interfaces (BCIs) based on Steady-State Auditory Evoked Potentials (SSAEPs).</td>
 <td width="12%">selected by citation count from the audited BCI candidate pool</td>
-<td width="12%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
+<td width="12%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
 </tr>
 <tr>
 <td colspan="7">See the website and taxonomy CSV for all 31 papers.</td>

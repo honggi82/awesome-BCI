@@ -275,12 +275,12 @@ TAXONOMY_LIMITATIONS = {
     "Rehabilitation and Neuroprosthetics": [
         "Clinical evidence is often fragmented across small cohorts, heterogeneous protocols, and short follow-up windows.",
         "Improvements in decoder accuracy or therapy-session metrics do not always demonstrate transfer to activities of daily living.",
-        "Metadata alone cannot assess patient selection, therapist involvement, adverse events, or trial quality.",
+        "Patient selection, therapist involvement, adverse-event reporting, and outcome measures vary enough to limit direct comparison.",
     ],
     "Invasive and Implantable Interfaces": [
         "Surgical risk, long-term signal stability, device maintenance, and participant burden remain major translation barriers.",
         "Many studies involve small cohorts or case reports, so headline performance can be difficult to generalize.",
-        "Home deployment, cybersecurity, informed consent, explantation, and support infrastructure are underrepresented in metadata-level screening.",
+        "Home deployment, cybersecurity, informed consent, explantation, and support infrastructure remain difficult to evaluate consistently.",
     ],
     "Deep Learning and Representation Learning": [
         "Performance can be inflated by dataset leakage, weak cross-subject splits, or inconsistent preprocessing across benchmarks.",
@@ -290,7 +290,7 @@ TAXONOMY_LIMITATIONS = {
     "EEG Signal Processing and Datasets": [
         "Benchmark datasets vary widely in task design, sensors, preprocessing, and participant populations.",
         "Artifact handling, channel selection, and evaluation protocols are not standardized enough for simple leaderboard-style comparison.",
-        "Metadata may miss important dataset attributes such as participant counts, trial structure, hardware, and licensing.",
+        "Participant counts, trial structure, hardware, and licensing differences can limit reproducible reuse across laboratories.",
     ],
     "Speech, Language, and Communication BCIs": [
         "Vocabulary size, latency, privacy, and user autonomy remain difficult to balance in practical assistive communication.",
@@ -305,7 +305,7 @@ TAXONOMY_LIMITATIONS = {
     "General BCI Methods and Systems": [
         "Survey and system papers can dominate citation-ranked views while obscuring smaller empirical advances.",
         "Evaluation language remains inconsistent across paradigms, making taxonomy boundaries imperfect.",
-        "Metadata-driven curation cannot replace PDF-level quality appraisal, reproducibility checks, or expert clinical review.",
+        "Broad system claims often need stronger protocol-level reproducibility checks and real-world usability validation.",
     ],
 }
 
@@ -1076,12 +1076,6 @@ PAPER_ASSESSMENT_LOCALIZATION = {
         "recognized venue": "공인된 주요 학술지/학회",
         "open-access PDF metadata": "오픈액세스 PDF 메타데이터 제공",
         "selected by citation count from the audited BCI candidate pool": "검토된 BCI 후보군에서 인용수 기준으로 선정",
-        "abstract unavailable in metadata": "메타데이터에 초록 없음",
-        "venue missing in metadata": "메타데이터에 학술지/학회 정보 없음",
-        "recent work may be under-cited": "최근 논문이라 인용수가 과소평가될 수 있음",
-        "limited citation history": "누적 인용 이력이 제한적임",
-        "PDF link not available from metadata": "메타데이터에서 PDF 링크를 확인할 수 없음",
-        "metadata-level appraisal; full PDF review still needed": "메타데이터 수준의 평가이며 전체 PDF 검토가 필요함",
     },
     "zh": {
         "highCitation": "高引用信号（{value}）",
@@ -1089,12 +1083,6 @@ PAPER_ASSESSMENT_LOCALIZATION = {
         "recognized venue": "公认的重要期刊/会议",
         "open-access PDF metadata": "提供开放获取 PDF 元数据",
         "selected by citation count from the audited BCI candidate pool": "从已审核的 BCI 候选池中按引用次数选出",
-        "abstract unavailable in metadata": "元数据中缺少摘要",
-        "venue missing in metadata": "元数据中缺少期刊/会议信息",
-        "recent work may be under-cited": "近期论文可能被低估引用影响",
-        "limited citation history": "引用历史较有限",
-        "PDF link not available from metadata": "元数据中没有可用 PDF 链接",
-        "metadata-level appraisal; full PDF review still needed": "基于元数据的评价，仍需阅读全文 PDF",
     },
     "ja": {
         "highCitation": "高い引用シグナル（{value}）",
@@ -1102,12 +1090,6 @@ PAPER_ASSESSMENT_LOCALIZATION = {
         "recognized venue": "評価の高い主要ジャーナル/会議",
         "open-access PDF metadata": "オープンアクセス PDF メタデータあり",
         "selected by citation count from the audited BCI candidate pool": "監査済み BCI 候補群から引用数に基づいて選定",
-        "abstract unavailable in metadata": "メタデータに抄録がない",
-        "venue missing in metadata": "メタデータに掲載誌/会議情報がない",
-        "recent work may be under-cited": "新しい研究のため引用数が過小評価される可能性",
-        "limited citation history": "引用履歴がまだ限定的",
-        "PDF link not available from metadata": "メタデータから PDF リンクを確認できない",
-        "metadata-level appraisal; full PDF review still needed": "メタデータ水準の評価であり、全文 PDF の精査が必要",
     },
 }
 
@@ -1115,6 +1097,158 @@ PAPER_KEY_IDEA_TEMPLATES = {
     "ko": '"{title}"은(는) {category} 범주에서 {tags}와 관련된 BCI 연구의 핵심 흐름을 보여줍니다.',
     "zh": "《{title}》展示了 {category} 类别中与 {tags} 相关的 BCI 研究核心方向。",
     "ja": "「{title}」は、{category} 分野における {tags} に関連した BCI 研究の主要な流れを示します。",
+}
+
+RESEARCH_LIMITATIONS_BY_CATEGORY = {
+    "Motor Imagery and Movement Decoding": [
+        "SMR and movement decoders often need subject-specific calibration and may drift across sessions.",
+        "Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.",
+    ],
+    "SSVEP, P300, and ERP Spellers": [
+        "Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.",
+        "Controlled target layouts and calibration conditions may not transfer to everyday communication.",
+    ],
+    "Rehabilitation and Neuroprosthetics": [
+        "Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.",
+        "Short follow-up windows can miss whether gains transfer to daily activities.",
+    ],
+    "Invasive and Implantable Interfaces": [
+        "Surgical risk, device durability, and long-term signal stability constrain clinical translation.",
+        "Small participant cohorts make headline decoding performance difficult to generalize.",
+    ],
+    "Deep Learning and Representation Learning": [
+        "Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.",
+        "Model interpretability and uncertainty estimates are often insufficient for clinical trust.",
+    ],
+    "EEG Signal Processing and Datasets": [
+        "Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.",
+        "Artifact robustness and sensor-setup variability need stronger external validation.",
+    ],
+    "Speech, Language, and Communication BCIs": [
+        "Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.",
+        "Many decoding results rely on constrained tasks or limited participant diversity.",
+    ],
+    "Hybrid, Affective, and Closed-loop BCIs": [
+        "Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.",
+        "User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.",
+    ],
+    "General BCI Methods and Systems": [
+        "Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.",
+        "Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.",
+    ],
+}
+
+RESEARCH_LIMITATIONS_BY_SIGNAL = {
+    "invasive": "Surgical risk, device durability, and long-term signal stability constrain clinical translation.",
+    "non-invasive": "Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.",
+    "human": "Participant variability can limit generalization across age, ability, disease status, and training experience.",
+    "non-human": "Non-human or simulated results require cautious translation to everyday human BCI use.",
+    "SMR": "SMR and movement decoders often need subject-specific calibration and may drift across sessions.",
+    "SSVEP": "Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.",
+    "P300": "P300 and ERP performance can depend on attention, stimulus timing, and error correction strategy.",
+    "arm-direction": "Arm or cursor decoding performance may not generalize to unconstrained daily functional movements.",
+}
+
+RESEARCH_LIMITATIONS_BY_METHOD = {
+    "review": "Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.",
+    "dataset/benchmark": "Benchmark value depends on standardized protocols, transparent splits, and external replication.",
+    "clinical/rehab": "Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.",
+    "deep learning": "Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.",
+    "communication": "Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.",
+    "closed-loop": "Offline benchmark performance may not transfer to real-time closed-loop use.",
+}
+
+RESEARCH_LIMITATION_TRANSLATIONS = {
+    "ko": {
+        "SMR and movement decoders often need subject-specific calibration and may drift across sessions.": "SMR 및 움직임 디코더는 피험자별 보정이 필요한 경우가 많고 세션이 바뀌면 성능이 흔들릴 수 있습니다.",
+        "Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.": "오프라인 운동상상 정확도가 안정적인 연속 제어나 재활 효과로 바로 이어지지 않을 수 있습니다.",
+        "Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.": "시각 기반 speller는 시선 의존성, 자극 편안함, 장시간 사용 피로의 제약을 받을 수 있습니다.",
+        "Controlled target layouts and calibration conditions may not transfer to everyday communication.": "통제된 목표 배열과 보정 조건이 일상적인 의사소통 환경으로 그대로 전이되지 않을 수 있습니다.",
+        "Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.": "임상 코호트가 작고 이질적인 경우가 많아 기능적 효과 크기를 비교하기 어렵습니다.",
+        "Short follow-up windows can miss whether gains transfer to daily activities.": "짧은 추적 관찰 기간은 개선 효과가 일상 활동으로 전이되는지 충분히 보여주지 못할 수 있습니다.",
+        "Surgical risk, device durability, and long-term signal stability constrain clinical translation.": "수술 위험, 장치 내구성, 장기 신호 안정성이 임상 적용을 제한합니다.",
+        "Small participant cohorts make headline decoding performance difficult to generalize.": "참여자 수가 적으면 보고된 높은 디코딩 성능을 일반화하기 어렵습니다.",
+        "Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.": "엄격한 피험자 간/장치 간 검증이 없으면 딥러닝 모델이 작은 EEG 데이터셋에 과적합될 수 있습니다.",
+        "Model interpretability and uncertainty estimates are often insufficient for clinical trust.": "모델 해석 가능성과 불확실성 추정이 임상적 신뢰를 얻기에 충분하지 않은 경우가 많습니다.",
+        "Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.": "데이터셋과 전처리 선택이 알고리즘 및 연구실 간 비교를 편향시킬 수 있습니다.",
+        "Artifact robustness and sensor-setup variability need stronger external validation.": "아티팩트 견고성과 센서 설정 변화에 대한 외부 검증이 더 필요합니다.",
+        "Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.": "의사소통 BCI는 정확도, 지연시간, 어휘 크기, 프라이버시, 사용자 자율성을 함께 균형 있게 다뤄야 합니다.",
+        "Many decoding results rely on constrained tasks or limited participant diversity.": "많은 디코딩 결과가 제한된 과제나 제한적인 참여자 다양성에 의존합니다.",
+        "Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.": "하이브리드 및 폐루프 설계에서는 어떤 신호나 피드백 요소가 효과를 만드는지 분리해 평가하기 어렵습니다.",
+        "User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.": "폐루프 사용 중 사용자 학습, 피로, 정서 상태가 변해 평가를 혼란스럽게 만들 수 있습니다.",
+        "Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.": "넓은 범위의 BCI 시스템 주장은 사용자, 세션, 장치 전반의 표준화된 평가가 더 필요합니다.",
+        "Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.": "실험실 성능이 일상 사용성, 안전성, 유지관리 조건으로 그대로 전이되지 않을 수 있습니다.",
+        "Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.": "비침습 신호는 낮은 신호대잡음비, 아티팩트, 전극 설정 변화에 취약합니다.",
+        "Participant variability can limit generalization across age, ability, disease status, and training experience.": "나이, 능력, 질환 상태, 훈련 경험 차이가 일반화를 제한할 수 있습니다.",
+        "Non-human or simulated results require cautious translation to everyday human BCI use.": "비인간 또는 시뮬레이션 결과는 실제 인간 BCI 사용으로 전환할 때 주의가 필요합니다.",
+        "P300 and ERP performance can depend on attention, stimulus timing, and error correction strategy.": "P300 및 ERP 성능은 주의 수준, 자극 타이밍, 오류 보정 전략에 좌우될 수 있습니다.",
+        "Arm or cursor decoding performance may not generalize to unconstrained daily functional movements.": "팔 또는 커서 디코딩 성능이 제약 없는 일상 기능 움직임으로 일반화되지 않을 수 있습니다.",
+        "Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.": "리뷰 수준의 종합만으로는 연구 품질 차이, 프로토콜 편향, 재현성 격차를 해결할 수 없습니다.",
+        "Benchmark value depends on standardized protocols, transparent splits, and external replication.": "벤치마크의 가치는 표준화된 프로토콜, 투명한 데이터 분할, 외부 재현에 달려 있습니다.",
+        "Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.": "임상 효과는 일상 기능, 순응도, 이상반응에 대한 장기 근거가 더 필요합니다.",
+        "Offline benchmark performance may not transfer to real-time closed-loop use.": "오프라인 벤치마크 성능이 실시간 폐루프 사용으로 그대로 전이되지 않을 수 있습니다.",
+        "Recent work needs independent replication before claims are treated as stable.": "최신 연구의 주장은 안정적인 결론으로 보기 전에 독립적 재현이 필요합니다.",
+    },
+    "zh": {
+        "SMR and movement decoders often need subject-specific calibration and may drift across sessions.": "SMR 和运动解码器通常需要针对个体校准，并可能在不同会话间发生性能漂移。",
+        "Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.": "离线运动想象准确率未必能转化为可靠的连续控制或康复收益。",
+        "Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.": "视觉拼写器会受到注视依赖、刺激舒适度和长时间使用疲劳的限制。",
+        "Controlled target layouts and calibration conditions may not transfer to everyday communication.": "受控目标布局和校准条件可能无法直接迁移到日常交流场景。",
+        "Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.": "临床队列常常规模较小且异质性较强，使功能效应量难以比较。",
+        "Short follow-up windows can miss whether gains transfer to daily activities.": "较短的随访窗口可能无法判断收益是否迁移到日常活动。",
+        "Surgical risk, device durability, and long-term signal stability constrain clinical translation.": "手术风险、设备耐久性和长期信号稳定性限制临床转化。",
+        "Small participant cohorts make headline decoding performance difficult to generalize.": "参与者队列较小会使突出报道的解码性能难以泛化。",
+        "Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.": "如果缺少严格的跨被试和跨设备验证，深度模型可能过拟合小规模 EEG 数据集。",
+        "Model interpretability and uncertainty estimates are often insufficient for clinical trust.": "模型可解释性和不确定性估计往往不足以支撑临床信任。",
+        "Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.": "数据集和预处理选择可能使算法和实验室之间的比较产生偏差。",
+        "Artifact robustness and sensor-setup variability need stronger external validation.": "对伪迹的鲁棒性和传感器设置差异仍需要更强的外部验证。",
+        "Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.": "通信型 BCI 仍需平衡准确率、延迟、词汇量、隐私和用户自主性。",
+        "Many decoding results rely on constrained tasks or limited participant diversity.": "许多解码结果依赖受限任务或有限的参与者多样性。",
+        "Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.": "混合和闭环设计使得难以分离究竟是哪种信号或反馈组件带来收益。",
+        "User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.": "闭环运行中用户学习、疲劳和情绪会发生变化，从而干扰评估。",
+        "Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.": "广泛的 BCI 系统主张通常需要在用户、会话和设备之间进行更强的标准化评估。",
+        "Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.": "实验室性能可能无法直接迁移到日常可用性、安全性和维护条件。",
+        "Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.": "非侵入式信号容易受到低信噪比、伪迹和电极设置差异的影响。",
+        "Participant variability can limit generalization across age, ability, disease status, and training experience.": "年龄、能力、疾病状态和训练经验差异会限制泛化。",
+        "Non-human or simulated results require cautious translation to everyday human BCI use.": "非人类或模拟结果在迁移到日常人类 BCI 使用时需要谨慎。",
+        "P300 and ERP performance can depend on attention, stimulus timing, and error correction strategy.": "P300 和 ERP 性能可能依赖注意力、刺激时序和纠错策略。",
+        "Arm or cursor decoding performance may not generalize to unconstrained daily functional movements.": "手臂或光标解码性能可能无法泛化到无约束的日常功能动作。",
+        "Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.": "综述层面的综合无法解决研究质量差异、方案偏差或可复现性缺口。",
+        "Benchmark value depends on standardized protocols, transparent splits, and external replication.": "基准的价值取决于标准化方案、透明的数据划分和外部复现。",
+        "Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.": "临床影响需要关于日常功能、依从性和不良事件的更强纵向证据。",
+        "Offline benchmark performance may not transfer to real-time closed-loop use.": "离线基准性能可能无法迁移到实时闭环使用。",
+        "Recent work needs independent replication before claims are treated as stable.": "近期研究的结论在被视为稳定之前需要独立复现。",
+    },
+    "ja": {
+        "SMR and movement decoders often need subject-specific calibration and may drift across sessions.": "SMR や運動デコーダは被験者ごとの校正を必要とすることが多く、セッション間で性能が変動し得ます。",
+        "Offline motor-imagery accuracy may not translate to reliable continuous control or rehabilitation gains.": "オフラインの運動イメージ精度が、安定した連続制御やリハビリ効果に直結するとは限りません。",
+        "Visual spellers can be constrained by gaze dependence, stimulus comfort, and fatigue during long sessions.": "視覚型スペラーは視線依存性、刺激の快適性、長時間使用時の疲労に制約されます。",
+        "Controlled target layouts and calibration conditions may not transfer to everyday communication.": "制御されたターゲット配置や校正条件は、日常的なコミュニケーションへそのまま移行しない可能性があります。",
+        "Clinical cohorts are often small and heterogeneous, making functional effect sizes difficult to compare.": "臨床コホートは小規模で異質なことが多く、機能的な効果量を比較しにくいです。",
+        "Short follow-up windows can miss whether gains transfer to daily activities.": "短い追跡期間では、改善が日常活動へ移行したかを見落とす可能性があります。",
+        "Surgical risk, device durability, and long-term signal stability constrain clinical translation.": "手術リスク、デバイス耐久性、長期的な信号安定性が臨床応用を制約します。",
+        "Small participant cohorts make headline decoding performance difficult to generalize.": "参加者数が少ないと、目立つデコード性能を一般化しにくくなります。",
+        "Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.": "厳密な被験者間・デバイス間検証がないと、深層モデルは小規模 EEG データセットに過適合し得ます。",
+        "Model interpretability and uncertainty estimates are often insufficient for clinical trust.": "モデルの解釈可能性や不確実性推定は、臨床的信頼には不十分なことが多いです。",
+        "Dataset and preprocessing choices can bias comparisons across algorithms and laboratories.": "データセットや前処理の選択は、アルゴリズム間や研究室間の比較にバイアスを与え得ます。",
+        "Artifact robustness and sensor-setup variability need stronger external validation.": "アーチファクトへの頑健性とセンサー設定のばらつきには、より強い外部検証が必要です。",
+        "Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.": "コミュニケーション BCI は、精度、遅延、語彙規模、プライバシー、ユーザー自律性のバランスが必要です。",
+        "Many decoding results rely on constrained tasks or limited participant diversity.": "多くのデコード結果は、制約された課題や限られた参加者多様性に依存しています。",
+        "Hybrid and closed-loop designs make it difficult to isolate which signal or feedback component drives the benefit.": "ハイブリッドおよび閉ループ設計では、どの信号やフィードバック要素が効果を生むかを切り分けにくいです。",
+        "User learning, fatigue, and affect can change during closed-loop operation and confound evaluation.": "閉ループ運用中にユーザー学習、疲労、感情状態が変化し、評価を混乱させる可能性があります。",
+        "Broad BCI system claims often need stronger standardized evaluation across users, sessions, and devices.": "広範な BCI システムの主張には、ユーザー、セッション、デバイスをまたぐ標準化評価がさらに必要です。",
+        "Laboratory performance may not transfer to everyday usability, safety, and maintenance conditions.": "実験室での性能は、日常の使いやすさ、安全性、保守条件へそのまま移行しない可能性があります。",
+        "Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.": "非侵襲信号は低い信号対雑音比、アーチファクト、電極設定のばらつきに弱いです。",
+        "Participant variability can limit generalization across age, ability, disease status, and training experience.": "年齢、能力、疾患状態、訓練経験の違いが一般化を制限し得ます。",
+        "Non-human or simulated results require cautious translation to everyday human BCI use.": "非ヒトまたはシミュレーション結果を日常的な人間の BCI 利用へ移すには注意が必要です。",
+        "P300 and ERP performance can depend on attention, stimulus timing, and error correction strategy.": "P300 や ERP の性能は、注意、刺激タイミング、エラー訂正戦略に依存し得ます。",
+        "Arm or cursor decoding performance may not generalize to unconstrained daily functional movements.": "腕やカーソルのデコード性能は、制約のない日常的な機能動作へ一般化しない可能性があります。",
+        "Review-level synthesis cannot resolve study quality differences, protocol bias, or reproducibility gaps.": "レビュー水準の統合だけでは、研究品質の差、プロトコルバイアス、再現性の不足は解決できません。",
+        "Benchmark value depends on standardized protocols, transparent splits, and external replication.": "ベンチマークの価値は、標準化されたプロトコル、透明な分割、外部再現に依存します。",
+        "Clinical impact needs stronger longitudinal evidence on daily function, adherence, and adverse events.": "臨床的影響には、日常機能、遵守率、有害事象に関するより強い縦断的証拠が必要です。",
+        "Offline benchmark performance may not transfer to real-time closed-loop use.": "オフラインベンチマーク性能は、リアルタイム閉ループ利用へ移行しない可能性があります。",
+        "Recent work needs independent replication before claims are treated as stable.": "最近の研究成果は、安定した主張とみなす前に独立した再現が必要です。",
+    },
 }
 
 
@@ -1125,8 +1259,6 @@ def localized_method_tags(value, language):
 
 
 def assessment_items(value):
-    if value == "metadata-level appraisal; full PDF review still needed":
-        return [value]
     return [item.strip() for item in value.split("; ") if item.strip()]
 
 
@@ -1141,6 +1273,12 @@ def localized_assessment_item(item, language):
     if match:
         return translations["influentialCitation"].format(value=match.group(1))
     return translations.get(item, item)
+
+
+def localized_research_limitation(item, language):
+    if language == "en":
+        return item
+    return RESEARCH_LIMITATION_TRANSLATIONS.get(language, {}).get(item, item)
 
 
 def localized_paper_key_idea(p, language):
@@ -1159,7 +1297,7 @@ def localized_paper_text(p, language):
     return {
         "keyIdea": localized_paper_key_idea(p, language),
         "strengths": "; ".join(localized_assessment_item(item, language) for item in assessment_items(p["strengths"])),
-        "limitations": "; ".join(localized_assessment_item(item, language) for item in assessment_items(p["limitations"])),
+        "limitations": "; ".join(localized_research_limitation(item, language) for item in assessment_items(p["limitations"])),
     }
 
 
@@ -1175,11 +1313,31 @@ def localized_paper_attrs(p):
     return " ".join(attrs)
 
 
+def research_limitations(p, method_tag_list, keyword_list):
+    limitations = []
+
+    def add(item):
+        if item and item not in limitations:
+            limitations.append(item)
+
+    category = p.get("category", "General BCI Methods and Systems")
+    for tag in method_tag_list:
+        add(RESEARCH_LIMITATIONS_BY_METHOD.get(tag))
+    for item in RESEARCH_LIMITATIONS_BY_CATEGORY.get(category, RESEARCH_LIMITATIONS_BY_CATEGORY["General BCI Methods and Systems"]):
+        add(item)
+    for keyword in keyword_list:
+        add(RESEARCH_LIMITATIONS_BY_SIGNAL.get(keyword))
+    if p.get("year", 0) >= END_YEAR - 1:
+        add("Recent work needs independent replication before claims are treated as stable.")
+    return limitations[:3]
+
+
 def enrich_paper(p):
     """Add reproducible interpretation fields from title, abstract, and metadata."""
     abstract = p.get("abstract", "")
     idea = first_sentence(abstract, f"Positions {p.get('title', 'this paper')} within {p.get('category', 'BCI research')}.")
     tags = method_tags(p)
+    keywords = paper_keyword_tags(p)
     strengths = []
     if p.get("citationCount", 0) >= 100:
         strengths.append(f"high citation signal ({p['citationCount']:,})")
@@ -1192,26 +1350,12 @@ def enrich_paper(p):
     if not strengths:
         strengths.append("selected by citation count from the audited BCI candidate pool")
 
-    limitations = []
-    if not abstract:
-        limitations.append("abstract unavailable in metadata")
-    if not p.get("venue"):
-        limitations.append("venue missing in metadata")
-    if p.get("year", 0) >= 2025:
-        limitations.append("recent work may be under-cited")
-    if p.get("citationCount", 0) < 25:
-        limitations.append("limited citation history")
-    if not p.get("openAccessPdf"):
-        limitations.append("PDF link not available from metadata")
-    if not limitations:
-        limitations.append("metadata-level appraisal; full PDF review still needed")
-
     enriched = dict(p)
     enriched["keyIdea"] = idea
     enriched["strengths"] = "; ".join(strengths[:3])
-    enriched["limitations"] = "; ".join(limitations[:3])
+    enriched["limitations"] = "; ".join(research_limitations(p, tags, keywords))
     enriched["methodTags"] = "; ".join(tags)
-    enriched["keywordTags"] = "; ".join(paper_keyword_tags(p))
+    enriched["keywordTags"] = "; ".join(keywords)
     enriched["paperLink"] = p.get("url") or p.get("semanticScholarUrl") or ""
     return enriched
 
@@ -1281,10 +1425,6 @@ def language_period_analysis(language, category, rows, start, end):
     top = max(rows, key=lambda p: (p["citationCount"], p["influentialCitationCount"], p["title"]))
     year_counts = Counter(p["year"] for p in rows)
     active_year, active_count = year_counts.most_common(1)[0]
-    no_pdf = sum(1 for p in rows if not p.get("openAccessPdf"))
-    no_abstract = sum(1 for p in rows if not p.get("abstract"))
-    limited_citation = sum(1 for p in rows if p.get("citationCount", 0) < 25)
-    recent = sum(1 for p in rows if p.get("year", 0) >= END_YEAR - 1)
     tags = ", ".join(top_metadata_values(rows, "methodTags")) or profile["focus"]
     venues = ", ".join(top_metadata_values(rows, "venue")) or "mixed venues"
     top_title = top["title"]
@@ -1297,8 +1437,8 @@ def language_period_analysis(language, category, rows, start, end):
                 f"The category emphasis in this period is {profile['focus']}. Frequent metadata tags include {tags}, with visible venue concentration around {venues}.",
             ],
             "limitations": [
-                f"Metadata limitations in this period: {no_pdf:,} papers lack open PDF links, {no_abstract:,} lack abstracts, {limited_citation:,} have limited citation history, and {recent:,} recent papers may be under-cited.",
-                f"Interpretation caution: {profile['challenge']}. Because final ranking is citation-based, newer or niche papers can be understated even when scientifically important.",
+                f"Research limitation in this period: {profile['challenge']}.",
+                "Protocol-level differences in participants, tasks, sensors, online validation, and real-world transfer still need careful comparison before drawing strong cross-study conclusions.",
             ],
         },
         "ko": {
@@ -1307,8 +1447,8 @@ def language_period_analysis(language, category, rows, start, end):
                 f"이 기간의 핵심 초점은 {profile['focus']}입니다. 자주 나타나는 메타데이터 태그는 {tags}이고, 주요 venue 신호는 {venues}에 집중됩니다.",
             ],
             "limitations": [
-                f"이 기간의 메타데이터 한계는 다음과 같습니다. 공개 PDF 링크가 없는 논문 {no_pdf:,}편, 초록이 없는 논문 {no_abstract:,}편, 인용 이력이 짧은 논문 {limited_citation:,}편, 최신 논문이라 저인용될 수 있는 논문 {recent:,}편이 있습니다.",
-                f"해석 시 주의점: {profile['challenge']}. 최종 순위가 인용회수 기반이므로 최신 또는 세부 주제 논문은 과소평가될 수 있습니다.",
+                f"이 기간의 연구 한계: {profile['challenge']}.",
+                "피험자, 과제, 센서, 온라인 검증, 실제 사용 전이 가능성의 프로토콜 차이를 비교해야 강한 결론을 내릴 수 있습니다.",
             ],
         },
         "zh": {
@@ -1317,8 +1457,8 @@ def language_period_analysis(language, category, rows, start, end):
                 f"该时期的类别重点是{profile['focus']}。常见元数据标签包括 {tags}，主要期刊/会议信号集中在 {venues}。",
             ],
             "limitations": [
-                f"该时期的元数据局限包括：{no_pdf:,} 篇论文缺少开放 PDF 链接，{no_abstract:,} 篇缺少摘要，{limited_citation:,} 篇引用历史较短，{recent:,} 篇近期论文可能被低估。",
-                f"解释时需注意：{profile['challenge']}。由于最终排序基于引用次数，新近或细分方向的重要论文可能被低估。",
+                f"该时期的研究局限：{profile['challenge']}。",
+                "在得出强跨研究结论之前，仍需仔细比较参与者、任务、传感器、在线验证和真实使用迁移等协议差异。",
             ],
         },
         "ja": {
@@ -1327,8 +1467,8 @@ def language_period_analysis(language, category, rows, start, end):
                 f"この期間の主な焦点は {profile['focus']} です。頻出するメタデータタグは {tags} で、主な掲載先シグナルは {venues} に見られます。",
             ],
             "limitations": [
-                f"この期間のメタデータ上の限界は、公開 PDF リンクなし {no_pdf:,} 本、抄録なし {no_abstract:,} 本、引用履歴が短い論文 {limited_citation:,} 本、最近のため過小引用の可能性がある論文 {recent:,} 本です。",
-                f"解釈上の注意点: {profile['challenge']}。最終順位は引用数に基づくため、新しい論文や細分化された重要研究は過小評価されることがあります。",
+                f"この期間の研究上の限界: {profile['challenge']}。",
+                "参加者、課題、センサー、オンライン検証、実利用への移行に関するプロトコル差を比較してから、強い横断的結論を出す必要があります。",
             ],
         },
     }
