@@ -17,7 +17,16 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 DOCS_DIR = ROOT / "docs"
 PAPER_DIR = ROOT / "paper"
-YEARS = list(range(2020, 2027))
+START_YEAR = 2000
+END_YEAR = date.today().year
+YEARS = list(range(START_YEAR, END_YEAR + 1))
+YEAR_RANGE_TEXT = f"{START_YEAR}-{END_YEAR}"
+YEAR_FILE_STEM = f"{START_YEAR}_{END_YEAR}"
+PAPERS_JSON = f"papers_{YEAR_FILE_STEM}.json"
+PAPERS_CSV = f"papers_{YEAR_FILE_STEM}.csv"
+CANDIDATES_JSON = f"candidates_top500_{YEAR_FILE_STEM}.json"
+CANDIDATES_CSV = f"candidates_top500_{YEAR_FILE_STEM}.csv"
+TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 TARGET_PER_YEAR = 100
 CANDIDATES_PER_YEAR = 500
 
@@ -293,14 +302,22 @@ def collect_papers():
             reverse=True,
         )
         candidate_pool = ranked[:CANDIDATES_PER_YEAR]
-        title_relevant = [p for p in candidate_pool if title_relevance_count(p) > 0]
-        fill = [p for p in candidate_pool if title_relevance_count(p) == 0]
-        selected_pool = (title_relevant + fill)[:TARGET_PER_YEAR]
+        citation_ranked = sorted(
+            candidate_pool,
+            key=lambda p: (
+                int(p.get("citationCount") or 0),
+                int(p.get("influentialCitationCount") or 0),
+                importance_score(p)[0],
+                p.get("title") or "",
+            ),
+            reverse=True,
+        )
+        selected_pool = citation_ranked[:TARGET_PER_YEAR]
         all_candidates[year] = [normalize_paper(p, year, i + 1, candidate=True) for i, p in enumerate(candidate_pool)]
         selected[year] = [normalize_paper(p, year, i + 1) for i, p in enumerate(selected_pool)]
         print(
             f"[collect] {year}: selected {len(selected[year])}/{TARGET_PER_YEAR} "
-            f"from top {len(candidate_pool)}/{min(CANDIDATES_PER_YEAR, len(ranked))} candidates "
+            f"by citations from top {len(candidate_pool)}/{min(CANDIDATES_PER_YEAR, len(ranked))} candidates "
             f"({len(ranked)} relevant records)",
             flush=True,
         )
@@ -343,14 +360,14 @@ def write_json_csv(selected, candidates):
     flat = [paper for year in YEARS for paper in selected.get(year, [])]
     candidate_flat = [paper for year in YEARS for paper in candidates.get(year, [])]
     DATA_DIR.mkdir(exist_ok=True)
-    with (DATA_DIR / "papers_2020_2026.json").open("w", encoding="utf-8") as f:
+    with (DATA_DIR / PAPERS_JSON).open("w", encoding="utf-8") as f:
         json.dump({
             "generated": date.today().isoformat(),
             "candidate_pool_per_year": CANDIDATES_PER_YEAR,
             "target_per_year": TARGET_PER_YEAR,
             "papers": flat,
         }, f, ensure_ascii=False, indent=2)
-    with (DATA_DIR / "candidates_top500_2020_2026.json").open("w", encoding="utf-8") as f:
+    with (DATA_DIR / CANDIDATES_JSON).open("w", encoding="utf-8") as f:
         json.dump({
             "generated": date.today().isoformat(),
             "candidate_pool_per_year": CANDIDATES_PER_YEAR,
@@ -358,11 +375,11 @@ def write_json_csv(selected, candidates):
         }, f, ensure_ascii=False, indent=2)
     fields = list(flat[0].keys()) if flat else []
     candidate_fields = list(candidate_flat[0].keys()) if candidate_flat else fields
-    with (DATA_DIR / "papers_2020_2026.csv").open("w", encoding="utf-8-sig", newline="") as f:
+    with (DATA_DIR / PAPERS_CSV).open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(flat)
-    with (DATA_DIR / "candidates_top500_2020_2026.csv").open("w", encoding="utf-8-sig", newline="") as f:
+    with (DATA_DIR / CANDIDATES_CSV).open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=candidate_fields)
         writer.writeheader()
         writer.writerows(candidate_flat)
@@ -445,7 +462,7 @@ def enrich_paper(p):
     if p.get("openAccessPdf"):
         strengths.append("open-access PDF metadata")
     if not strengths:
-        strengths.append("selected from the top-scored BCI candidate pool")
+        strengths.append("selected by citation count from the audited BCI candidate pool")
 
     limitations = []
     if not abstract:
@@ -479,7 +496,7 @@ def category_groups(flat):
     for p in enriched_flat(flat):
         groups[p["category"]].append(p)
     for rows in groups.values():
-        rows.sort(key=lambda p: (p["importanceScore"], p["citationCount"]), reverse=True)
+        rows.sort(key=lambda p: (p["citationCount"], p["influentialCitationCount"], p["importanceScore"]), reverse=True)
     return groups
 
 
@@ -503,7 +520,7 @@ def write_taxonomy_dataset(flat):
         "keyIdea", "strengths", "limitations", "paperLink", "semanticScholarUrl",
         "openAccessPdf", "doi", "arxiv", "pubmed", "fieldsOfStudy",
     ]
-    with (DATA_DIR / "papers_taxonomy_2020_2026.csv").open("w", encoding="utf-8-sig", newline="") as f:
+    with (DATA_DIR / TAXONOMY_CSV).open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
@@ -569,14 +586,14 @@ def write_readme(flat):
         "",
         "A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) research.",
         "",
-        f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. The current edition investigates up to {CANDIDATES_PER_YEAR} BCI-related candidate papers per year for 2020-2026, scores their importance, selects the top {TARGET_PER_YEAR} papers per year, and reorganizes the final 700 papers by research taxonomy.",
+        f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. The current edition investigates up to {CANDIDATES_PER_YEAR} BCI-related candidate papers per year for {YEAR_RANGE_TEXT}, keeps an audited candidate pool, selects the top {TARGET_PER_YEAR} papers per year by citation count, and reorganizes the final {len(flat):,} papers by research taxonomy.",
         "",
         "## Project Links",
         "",
         "- Website: https://honggi82.github.io/awesome-BCI/",
-        "- Selected dataset: `data/papers_2020_2026.csv`",
-        "- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2020_2026.csv`",
-        "- Candidate pool: `data/candidates_top500_2020_2026.csv`",
+        f"- Selected dataset: `data/{PAPERS_CSV}`",
+        f"- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/{TAXONOMY_CSV}`",
+        f"- Candidate pool: `data/{CANDIDATES_CSV}`",
         "- English review draft: `paper/review_en.html`, `paper/review_en.docx`",
         "- Korean review draft: `paper/review_ko.html`",
         "",
@@ -627,11 +644,11 @@ def write_readme(flat):
     lines.extend([
         "## Method",
         "",
-        "The collection uses Semantic Scholar's Academic Graph paper search. Queries combine broad BCI terms and common subfields, results are filtered to the target publication year, relevance-filtered by BCI terms in title/abstract, deduplicated by DOI/arXiv/PubMed/CorpusId/paperId, and reduced to a maximum of 500 candidates per year. Importance scoring combines log-scaled citation count, log-scaled influential citation count, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive/high-bandwidth interfaces, and modern ML methods. The final awesome list uses the top 100 scored papers per year.",
+        "The collection uses Semantic Scholar's Academic Graph paper search. Queries combine broad BCI terms and common subfields, results are filtered to the target publication year, relevance-filtered by BCI terms in title/abstract, deduplicated by DOI/arXiv/PubMed/CorpusId/paperId, and reduced to a maximum of 500 candidates per year. Importance scoring is retained for candidate auditing and combines log-scaled citation count, log-scaled influential citation count, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive/high-bandwidth interfaces, and modern ML methods. The final awesome list selects the top 100 papers per year by citation count from the audited candidate pool.",
         "",
         "## Caveats",
         "",
-        "- Citation counts favor older papers and may under-rank recent 2026 work.",
+        f"- Citation counts favor older papers and may under-rank recent {END_YEAR} work.",
         "- Metadata search is not equivalent to a full systematic review of PDFs.",
         "- Some venues and publication dates are missing in upstream metadata.",
     ])
@@ -665,7 +682,7 @@ def paper_card(p, taxonomy_rank):
     pdf_link = f'<a href="{pdf}">PDF</a>' if pdf else ""
     links = " ".join(x for x in [paper_link, semantic_link, pdf_link] if x) or "No link"
     return f"""
-      <article class="paper-card">
+      <article class="paper-card" data-year="{p['year']}" data-citations="{p['citationCount']}">
         <div class="paper-rank">#{taxonomy_rank}</div>
         <div class="paper-body">
           <h3>{f'<a href="{link}">{title}</a>' if link else title}</h3>
@@ -694,17 +711,17 @@ def taxonomy_section(category, rows):
     summary = category_summary(category, rows)
     cards = "\n".join(paper_card(p, idx) for idx, p in enumerate(rows, 1))
     return f"""
-    <section id="{slug}" class="taxonomy-section">
+    <section id="{slug}" class="taxonomy-section" data-category="{slug}">
       <details>
         <summary>
           <span class="summary-title">{html.escape(category)}</span>
-          <span>{summary['count']} papers</span>
-          <span>{summary['years']}</span>
-          <span>{summary['citations']:,} citations</span>
+          <span class="category-count">{summary['count']} papers</span>
+          <span class="category-years">{summary['years']}</span>
+          <span class="category-citations">{summary['citations']:,} citations</span>
         </summary>
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> {html.escape(summary['tags'])}</p>
-          <p><strong>Top-ranked paper:</strong> {html.escape(summary['top'])}</p>
+          <p><strong>Top-ranked paper:</strong> <span class="top-paper">{html.escape(summary['top'])}</span></p>
           <div class="trend-box">
             <strong>Main research trends</strong>
             <ul>{''.join(f'<li>{html.escape(trend)}</li>' for trend in summary['trends'])}</ul>
@@ -724,11 +741,141 @@ def write_site(flat):
     groups = category_groups(flat)
     cats = category_stats(flat)
     total_cites = sum(p["citationCount"] for p in flat)
+    start_year_options = "\n".join(
+        f'<option value="{year}"{" selected" if year == min(YEARS) else ""}>{year}</option>'
+        for year in YEARS
+    )
+    end_year_options = "\n".join(
+        f'<option value="{year}"{" selected" if year == max(YEARS) else ""}>{year}</option>'
+        for year in YEARS
+    )
+    year_filter_script = """
+  <script>
+    (() => {
+      const startSelect = document.getElementById("startYear");
+      const endSelect = document.getElementById("endYear");
+      const resetButton = document.getElementById("resetYears");
+      const rangeStatus = document.getElementById("rangeStatus");
+      const statPapers = document.getElementById("statPapers");
+      const statYears = document.getElementById("statYears");
+      const statCitations = document.getElementById("statCitations");
+      const statCategories = document.getElementById("statCategories");
+      const defaultStart = startSelect.value;
+      const defaultEnd = endSelect.value;
+      const validYears = Array.from(startSelect.options).map(option => option.value);
+
+      function formatNumber(value) {
+        return Number(value).toLocaleString("en-US");
+      }
+
+      function yearRangeText(years) {
+        if (!years.length) return "No years";
+        const sorted = [...new Set(years)].sort((a, b) => a - b);
+        return sorted[0] === sorted[sorted.length - 1]
+          ? String(sorted[0])
+          : `${sorted[0]}-${sorted[sorted.length - 1]}`;
+      }
+
+      function setFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        const from = params.get("from");
+        const to = params.get("to");
+        if (validYears.includes(from)) startSelect.value = from;
+        if (validYears.includes(to)) endSelect.value = to;
+      }
+
+      function syncUrl(start, end) {
+        const url = new URL(window.location.href);
+        if (String(start) === defaultStart && String(end) === defaultEnd) {
+          url.searchParams.delete("from");
+          url.searchParams.delete("to");
+        } else {
+          url.searchParams.set("from", start);
+          url.searchParams.set("to", end);
+        }
+        window.history.replaceState(null, "", url);
+      }
+
+      function applyYearFilter(sync = true) {
+        let start = Number(startSelect.value);
+        let end = Number(endSelect.value);
+        if (start > end) {
+          const previousStart = start;
+          start = end;
+          end = previousStart;
+          startSelect.value = String(start);
+          endSelect.value = String(end);
+        }
+
+        let totalPapers = 0;
+        let totalCitations = 0;
+        let activeCategories = 0;
+        const activeYears = [];
+
+        document.querySelectorAll(".taxonomy-section").forEach(section => {
+          let sectionCount = 0;
+          let sectionCitations = 0;
+          const sectionYears = [];
+
+          section.querySelectorAll(".paper-card").forEach(card => {
+            const year = Number(card.dataset.year);
+            const citations = Number(card.dataset.citations || 0);
+            const visible = year >= start && year <= end;
+            card.hidden = !visible;
+            if (visible) {
+              sectionCount += 1;
+              sectionCitations += citations;
+              sectionYears.push(year);
+              activeYears.push(year);
+            }
+          });
+
+          const hasPapers = sectionCount > 0;
+          section.hidden = !hasPapers;
+          const overview = document.querySelector(`.taxonomy-card[data-category="${section.dataset.category}"]`);
+          if (overview) {
+            overview.hidden = !hasPapers;
+            const overviewCount = overview.querySelector(".overview-count");
+            if (overviewCount) overviewCount.textContent = `${formatNumber(sectionCount)} papers`;
+          }
+          if (!hasPapers) return;
+
+          activeCategories += 1;
+          totalPapers += sectionCount;
+          totalCitations += sectionCitations;
+          section.querySelector(".category-count").textContent = `${formatNumber(sectionCount)} papers`;
+          section.querySelector(".category-years").textContent = yearRangeText(sectionYears);
+          section.querySelector(".category-citations").textContent = `${formatNumber(sectionCitations)} citations`;
+          const topPaper = section.querySelector(".paper-card:not([hidden]) h3");
+          const topPaperTarget = section.querySelector(".top-paper");
+          if (topPaper && topPaperTarget) topPaperTarget.textContent = topPaper.textContent.trim();
+        });
+
+        statPapers.textContent = formatNumber(totalPapers);
+        statYears.textContent = formatNumber(new Set(activeYears).size);
+        statCitations.textContent = formatNumber(totalCitations);
+        statCategories.textContent = formatNumber(activeCategories);
+        rangeStatus.textContent = `${start}-${end} · ${formatNumber(totalPapers)} papers · ${formatNumber(activeCategories)} categories`;
+        if (sync) syncUrl(start, end);
+      }
+
+      setFromUrl();
+      applyYearFilter(false);
+      startSelect.addEventListener("change", () => applyYearFilter(true));
+      endSelect.addEventListener("change", () => applyYearFilter(true));
+      resetButton.addEventListener("click", () => {
+        startSelect.value = defaultStart;
+        endSelect.value = defaultEnd;
+        applyYearFilter(true);
+      });
+    })();
+  </script>
+"""
     sections = []
     for cat, _ in cats.most_common():
         sections.append(taxonomy_section(cat, groups[cat]))
     cat_cards = "\n".join(
-        f"<a class='card' href='#{safe_slug(cat)}'><strong>{html.escape(cat)}</strong><span>{count} papers</span></a>"
+        f"<a class='card taxonomy-card' data-category='{safe_slug(cat)}' href='#{safe_slug(cat)}'><strong>{html.escape(cat)}</strong><span class='overview-count'>{count} papers</span></a>"
         for cat, count in cats.most_common()
     )
     html_doc = f"""<!doctype html>
@@ -736,6 +883,7 @@ def write_site(flat):
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
   <title>Awesome BCI</title>
   <style>
     :root {{ color-scheme: light; --ink:#18212f; --muted:#5b6678; --line:#d9dee8; --accent:#0f766e; --accent2:#7c3aed; --bg:#f7f9fc; --panel:#ffffff; }}
@@ -746,6 +894,13 @@ def write_site(flat):
     p {{ line-height:1.65; color:var(--muted); }}
     main {{ padding:28px 7vw 72px; }}
     .stats, .cards {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin:24px 0; }}
+    .filters {{ display:flex; flex-wrap:wrap; align-items:end; gap:12px; margin:24px 0; padding:14px; background:white; border:1px solid var(--line); border-radius:8px; }}
+    .filter-field {{ display:grid; gap:6px; }}
+    .filter-field label {{ font-weight:700; font-size:13px; color:#344255; }}
+    select {{ min-width:104px; height:38px; border:1px solid var(--line); border-radius:8px; background:white; color:var(--ink); padding:0 10px; font:inherit; }}
+    button {{ height:38px; border:1px solid #bfc8d8; border-radius:8px; background:#f6f8fb; color:var(--ink); padding:0 14px; font-weight:700; cursor:pointer; }}
+    button:hover {{ background:#eef2f7; }}
+    #rangeStatus {{ color:var(--muted); font-weight:700; min-height:38px; display:inline-flex; align-items:center; }}
     .figures {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; margin:24px 0; }}
     .figures img {{ width:100%; background:white; border:1px solid var(--line); border-radius:8px; }}
     .stat, .card {{ background:white; border:1px solid var(--line); border-radius:8px; padding:16px; }}
@@ -781,23 +936,35 @@ def write_site(flat):
 <body>
   <header>
     <h1>Awesome BCI</h1>
-    <p>A taxonomy-first map of Brain-Computer Interface research from 2020 through 2026. Each year investigates up to {CANDIDATES_PER_YEAR} candidate papers, selects the top {TARGET_PER_YEAR}, and organizes the final papers by BCI research theme.</p>
+    <p>A taxonomy-first map of Brain-Computer Interface research from {START_YEAR} through {END_YEAR}. Each year investigates up to {CANDIDATES_PER_YEAR} candidate papers, selects the top {TARGET_PER_YEAR}, and organizes the final papers by BCI research theme.</p>
     <nav>
       <a href="https://github.com/honggi82/awesome-BCI">README</a>
-      <a href="data/papers_2020_2026.csv">CSV Dataset</a>
-      <a href="data/papers_taxonomy_2020_2026.csv">Taxonomy CSV</a>
-      <a href="data/candidates_top500_2020_2026.csv">Candidate Pool</a>
+      <a href="data/{PAPERS_CSV}">CSV Dataset</a>
+      <a href="data/{TAXONOMY_CSV}">Taxonomy CSV</a>
+      <a href="data/{CANDIDATES_CSV}">Candidate Pool</a>
       <a href="paper/review_en.html">Review Paper</a>
       <a href="paper/review_ko.html">Korean Review</a>
     </nav>
   </header>
   <main>
     <div class="stats">
-      <div class="stat"><strong>{len(flat)}</strong><span>selected papers</span></div>
-      <div class="stat"><strong>{len(YEARS)}</strong><span>years covered</span></div>
-      <div class="stat"><strong>{total_cites:,}</strong><span>citation count total</span></div>
-      <div class="stat"><strong>{len(cats)}</strong><span>topic categories</span></div>
+      <div class="stat"><strong id="statPapers">{len(flat)}</strong><span>selected papers</span></div>
+      <div class="stat"><strong id="statYears">{len(YEARS)}</strong><span>years covered</span></div>
+      <div class="stat"><strong id="statCitations">{total_cites:,}</strong><span>citation count total</span></div>
+      <div class="stat"><strong id="statCategories">{len(cats)}</strong><span>topic categories</span></div>
     </div>
+    <form class="filters" id="yearFilter">
+      <div class="filter-field">
+        <label for="startYear">Start year</label>
+        <select id="startYear" name="from">{start_year_options}</select>
+      </div>
+      <div class="filter-field">
+        <label for="endYear">End year</label>
+        <select id="endYear" name="to">{end_year_options}</select>
+      </div>
+      <button type="button" id="resetYears">Reset</button>
+      <span id="rangeStatus"></span>
+    </form>
     <h2>Taxonomy</h2>
     <p>Each taxonomy section lists papers with publication year, journal or venue, citation count, main idea, strengths, limitations, and paper links. Sections are collapsed by default to keep the page scannable.</p>
     <div class="figures">
@@ -807,6 +974,7 @@ def write_site(flat):
     <div class="cards">{cat_cards}</div>
     {''.join(sections)}
   </main>
+{year_filter_script}
 </body>
 </html>
 """
@@ -829,7 +997,7 @@ def write_charts(flat):
     fig, ax = plt.subplots(figsize=(11, 6), dpi=160)
     ax.barh(labels, values, color="#0f766e")
     ax.set_xlabel("Selected papers")
-    ax.set_title("BCI Paper Taxonomy, 2020-2026")
+    ax.set_title(f"BCI Paper Taxonomy, {YEAR_RANGE_TEXT}")
     ax.grid(axis="x", alpha=0.25)
     fig.tight_layout()
     fig.savefig(assets / "category_distribution.png")
@@ -860,20 +1028,20 @@ def review_sections(flat, korean=False):
     cats = category_stats(flat)
     top_by_year = [stats[y]["top"] for y in YEARS if stats.get(y, {}).get("top")]
     if korean:
-        title = "2020-2026년 뇌-컴퓨터 인터페이스 연구 동향: 공개 메타데이터 기반 리뷰"
+        title = f"{YEAR_RANGE_TEXT}년 뇌-컴퓨터 인터페이스 연구 동향: 공개 메타데이터 기반 리뷰"
         abstract = (
-            "이 리뷰 초안은 2020년부터 2026년까지의 Brain-Computer Interface(BCI) 연구를 "
-            f"연도별 최대 {CANDIDATES_PER_YEAR}편의 후보로 조사하고 중요도 평가를 통해 {TARGET_PER_YEAR}편씩 선별해 정리한다. 선별은 무료 공개 Semantic Scholar 메타데이터를 "
-            "사용했으며, 검색어 기반 후보군을 연도 필터, 강화된 BCI 관련성 필터, 중복 제거, 중요도 점수화로 처리했다. "
+            f"이 리뷰 초안은 {START_YEAR}년부터 {END_YEAR}년까지의 Brain-Computer Interface(BCI) 연구를 "
+            f"연도별 최대 {CANDIDATES_PER_YEAR}편의 후보로 조사하고 인용회수 기준으로 {TARGET_PER_YEAR}편씩 선별해 정리한다. 선별은 무료 공개 Semantic Scholar 메타데이터를 "
+            "사용했으며, 검색어 기반 후보군을 연도 필터, 강화된 BCI 관련성 필터, 중복 제거, 후보 감사용 중요도 점수화로 처리했다. "
             "결과는 운동상상/운동 디코딩, SSVEP/P300/ERP, 재활과 신경보철, 침습형 인터페이스, 딥러닝, EEG 신호처리, "
             "언어/의사소통 BCI, 폐루프/하이브리드 BCI로 나뉜다."
         )
         methods = (
             "방법: 각 연도에 대해 BCI 관련 질의를 Semantic Scholar Academic Graph bulk search에 보내고, "
             "제목 또는 초록에 BCI 관련 핵심 표현이 있는 논문만 남겼다. DOI, arXiv, PubMed, CorpusId, paperId 순서로 "
-            f"중복을 제거했다. 이후 연도별 최대 {CANDIDATES_PER_YEAR}편의 후보를 중요도 점수로 평가하고 상위 {TARGET_PER_YEAR}편을 최종 목록에 사용했다. "
-            "중요도 점수는 로그 변환 인용 수, 영향력 있는 인용 수, 주요 venue 신호, BCI 핵심어 밀도, 리뷰/서베이, 데이터셋/벤치마크, "
-            "임상/재활 관련성, 침습형 고대역폭 BCI, 최신 머신러닝 방법 보너스를 합산했다. 2026년은 2026-06-25 현재의 부분 연도라는 점에 유의해야 한다."
+            f"중복을 제거했다. 이후 연도별 최대 {CANDIDATES_PER_YEAR}편의 후보 풀을 만들고, 그 안에서 인용회수 상위 {TARGET_PER_YEAR}편을 최종 목록에 사용했다. "
+            "영향력 있는 인용 수와 중요도 점수는 동률 처리와 감사용 보조 신호로 유지했다. 중요도 점수는 로그 변환 인용 수, 영향력 있는 인용 수, 주요 venue 신호, BCI 핵심어 밀도, 리뷰/서베이, 데이터셋/벤치마크, "
+            f"임상/재활 관련성, 침습형 고대역폭 BCI, 최신 머신러닝 방법 보너스를 합산했다. {END_YEAR}년은 {date.today().isoformat()} 현재의 부분 연도라는 점에 유의해야 한다."
         )
         trends_intro = "주요 경향은 다음과 같다."
         caveat = (
@@ -881,16 +1049,16 @@ def review_sections(flat, korean=False):
             "인용 수는 최신 논문에 불리하며, 일부 논문의 venue/date 정보는 원천 데이터에서 누락될 수 있다."
         )
         conclusion = (
-            "결론적으로 2020년대 BCI 연구는 딥러닝 기반 EEG 디코딩과 벤치마크, 재활 응용, 침습형 고성능 디코딩, "
+            f"결론적으로 {START_YEAR}년 이후 BCI 연구는 딥러닝 기반 EEG 디코딩과 벤치마크, 재활 응용, 침습형 고성능 디코딩, "
             "사용자 친화적 의사소통 시스템 사이에서 빠르게 확장되고 있다. 향후 리뷰에서는 실제 PDF 기반 품질 평가, "
             "임상 전환성, 데이터셋 재현성, 장기 안정성, 안전성과 윤리 문제를 함께 검토해야 한다."
         )
     else:
-        title = "Brain-Computer Interface Research from 2020 to 2026: A Metadata-Driven Review"
+        title = f"Brain-Computer Interface Research from {START_YEAR} to {END_YEAR}: A Metadata-Driven Review"
         abstract = (
-            "This draft review maps Brain-Computer Interface (BCI) research from 2020 through 2026, investigating up to "
-            f"{CANDIDATES_PER_YEAR} candidate papers per year from free public Semantic Scholar metadata and selecting {TARGET_PER_YEAR} papers per year by importance score. Candidate papers were retrieved with BCI-related "
-            "queries, filtered by target year and strengthened BCI relevance terms, deduplicated, and scored for importance. The resulting "
+            f"This draft review maps Brain-Computer Interface (BCI) research from {START_YEAR} through {END_YEAR}, investigating up to "
+            f"{CANDIDATES_PER_YEAR} candidate papers per year from free public Semantic Scholar metadata and selecting {TARGET_PER_YEAR} papers per year by citation count. Candidate papers were retrieved with BCI-related "
+            "queries, filtered by target year and strengthened BCI relevance terms, deduplicated, and scored for candidate auditing. The resulting "
             "collection highlights work on motor imagery and movement decoding, SSVEP/P300/ERP systems, rehabilitation and "
             "neuroprosthetics, invasive interfaces, deep learning, EEG signal processing, speech and communication BCIs, and "
             "hybrid or closed-loop systems."
@@ -898,15 +1066,15 @@ def review_sections(flat, korean=False):
         methods = (
             "Methods: For each year, BCI-oriented queries were sent to the Semantic Scholar Academic Graph bulk search endpoint. "
             "Records were retained when their title or abstract matched BCI relevance expressions, deduplicated by DOI, arXiv, "
-            f"PubMed, CorpusId, or paperId, and reduced to at most {CANDIDATES_PER_YEAR} candidate papers per year. The final {TARGET_PER_YEAR} papers per year were selected by an importance score that combines log-scaled citations, log-scaled influential citations, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive high-bandwidth BCIs, and modern machine-learning methods. The year 2026 should be interpreted as a partial year as of 2026-06-25."
+            f"PubMed, CorpusId, or paperId, and reduced to at most {CANDIDATES_PER_YEAR} candidate papers per year. The final {TARGET_PER_YEAR} papers per year were selected by citation count, with influential citation count and the metadata importance score retained as tie-breakers and audit signals. The importance score combines log-scaled citations, log-scaled influential citations, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive high-bandwidth BCIs, and modern machine-learning methods. The year {END_YEAR} should be interpreted as a partial year as of {date.today().isoformat()}."
         )
         trends_intro = "The main metadata-level trends are as follows."
         caveat = (
             "Limitations: this is a metadata-driven review draft rather than a full systematic review of every PDF. Citation counts "
-            "favor older work, recent 2026 papers are structurally under-counted, and some venues or publication dates are missing upstream."
+            f"favor older work, recent {END_YEAR} papers are structurally under-counted, and some venues or publication dates are missing upstream."
         )
         conclusion = (
-            "Overall, BCI research in the 2020s is expanding across deep-learning EEG decoding, benchmarks and datasets, rehabilitation, "
+            f"Overall, BCI research since {START_YEAR} is expanding across deep-learning EEG decoding, benchmarks and datasets, rehabilitation, "
             "high-performance invasive decoding, and usable communication systems. A full manuscript should next add PDF-level appraisal, "
             "clinical translation evidence, dataset reproducibility, long-term stability, safety, and ethics."
         )
@@ -932,7 +1100,7 @@ def review_deep_dive(flat, korean=False):
     if korean:
         findings = [
             f"선정된 {len(flat)}편은 총 {total_cites:,}회의 인용을 포함하며, 인용량은 {peak_year}년에 가장 높다.",
-            f"가장 큰 축은 {leading_cat}({leading_count}편)으로, 2020년대 BCI 연구가 여전히 운동 의도 해석과 운동 기능 보조를 중심으로 조직되어 있음을 보여준다.",
+            f"가장 큰 축은 {leading_cat}({leading_count}편)으로, {START_YEAR}년 이후 BCI 연구가 여전히 운동 의도 해석과 운동 기능 보조를 중심으로 조직되어 있음을 보여준다.",
             f"{newest_year}년 논문은 부분 연도라 인용 수가 낮지만, foundation model, 장기 안정성, 고성능 침습형 디코딩, 임상 전환성 같은 주제가 두드러진다.",
             "비침습 EEG-BCI는 데이터셋/벤치마크와 딥러닝 방법론이 빠르게 늘었고, 침습형 BCI는 의사소통·운동 복원 성능을 실제 사용성 문제와 연결하는 방향으로 이동하고 있다.",
         ]
@@ -946,12 +1114,12 @@ def review_deep_dive(flat, korean=False):
             "후보 500편 풀에서 연도별 저인용 최신 논문의 잠재력을 전문가 검토로 보정한다.",
             "장애 당사자 중심 사용성, 안전성, 개인정보, 신경윤리 기준을 별도 taxonomy로 확장한다.",
         ]
-        top_scored_heading = "중요도 점수 상위 논문"
+        top_scored_heading = "메타데이터 중요도 점수 상위 논문(감사용)"
         top_cited_heading = "인용 수 상위 논문"
     else:
         findings = [
             f"The {len(flat)} selected papers account for {total_cites:,} citations in the selected set, with the largest citation mass in {peak_year}.",
-            f"The dominant category is {leading_cat} ({leading_count} papers), indicating that movement intention decoding and motor assistance remain the organizing center of 2020s BCI research.",
+            f"The dominant category is {leading_cat} ({leading_count} papers), indicating that movement intention decoding and motor assistance remain the organizing center of BCI research since {START_YEAR}.",
             f"Papers from {newest_year} are structurally citation-disadvantaged because the year is partial, but they surface emerging themes around foundation models, stability, invasive high-bandwidth decoding, and clinical translation.",
             "Non-invasive EEG-BCI work is increasingly shaped by datasets, benchmarks, and deep learning, while invasive BCI work is moving from peak decoding performance toward communication, autonomy, and usability constraints.",
         ]
@@ -965,7 +1133,7 @@ def review_deep_dive(flat, korean=False):
             "Use expert review to compensate for low citation counts among very recent papers in the 500-candidate pools.",
             "Extend the taxonomy with user-centered usability, safety, privacy, and neuroethics criteria.",
         ]
-        top_scored_heading = "Top Papers by Importance Score"
+        top_scored_heading = "Top Papers by Metadata Importance Score (Audit Signal)"
         top_cited_heading = "Top Papers by Citation Count"
 
     return {
@@ -1038,10 +1206,10 @@ def write_review_html(flat, korean=False):
   <h2>5. Year-by-Year Trends</h2>
   <p>{html.escape(trends_intro)}</p>
   <ul>{''.join(f'<li>{html.escape(x)}</li>' for x in year_lines)}</ul>
-  <h2>6. {deep['top_scored_heading']}</h2>
-  {html_ranked_table(deep['top_scored'], 'importance')}
-  <h2>7. {deep['top_cited_heading']}</h2>
+  <h2>6. {deep['top_cited_heading']}</h2>
   {html_ranked_table(deep['top_cited'], 'citations')}
+  <h2>7. {deep['top_scored_heading']}</h2>
+  {html_ranked_table(deep['top_scored'], 'importance')}
   <h2>8. {heading_future}</h2>
   <ul>{''.join(f'<li>{html.escape(x)}</li>' for x in deep['future'])}</ul>
   <h2>9. Limitations</h2>
@@ -1080,12 +1248,12 @@ def write_review_docx(flat):
     doc.add_paragraph(trends_intro)
     for line in year_lines:
         doc.add_paragraph(line, style="List Bullet")
-    doc.add_heading("6. Top Papers by Importance Score", level=1)
-    for p in deep["top_scored"]:
-        doc.add_paragraph(f"{p['year']} #{p['rank']}: {p['title']} ({p['importanceScore']})", style="List Number")
-    doc.add_heading("7. Top Papers by Citation Count", level=1)
+    doc.add_heading("6. Top Papers by Citation Count", level=1)
     for p in deep["top_cited"]:
         doc.add_paragraph(f"{p['year']} #{p['rank']}: {p['title']} ({p['citationCount']} citations)", style="List Number")
+    doc.add_heading("7. Top Papers by Metadata Importance Score (Audit Signal)", level=1)
+    for p in deep["top_scored"]:
+        doc.add_paragraph(f"{p['year']} #{p['rank']}: {p['title']} ({p['importanceScore']})", style="List Number")
     doc.add_heading("8. Future Research Agenda", level=1)
     for line in deep["future"]:
         doc.add_paragraph(line, style="List Bullet")
@@ -1111,9 +1279,9 @@ def main():
     write_review_html(flat, korean=False)
     write_review_html(flat, korean=True)
     write_review_docx(flat)
-    shutil.copyfile(DATA_DIR / "papers_2020_2026.csv", DOCS_DIR / "data" / "papers_2020_2026.csv")
-    shutil.copyfile(DATA_DIR / "papers_taxonomy_2020_2026.csv", DOCS_DIR / "data" / "papers_taxonomy_2020_2026.csv")
-    shutil.copyfile(DATA_DIR / "candidates_top500_2020_2026.csv", DOCS_DIR / "data" / "candidates_top500_2020_2026.csv")
+    shutil.copyfile(DATA_DIR / PAPERS_CSV, DOCS_DIR / "data" / PAPERS_CSV)
+    shutil.copyfile(DATA_DIR / TAXONOMY_CSV, DOCS_DIR / "data" / TAXONOMY_CSV)
+    shutil.copyfile(DATA_DIR / CANDIDATES_CSV, DOCS_DIR / "data" / CANDIDATES_CSV)
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
     (ROOT / "LICENSE").write_text("CC-BY-4.0 for text and metadata curation; upstream paper metadata belongs to original sources.\n", encoding="utf-8")

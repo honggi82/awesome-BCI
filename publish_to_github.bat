@@ -15,7 +15,7 @@ if errorlevel 1 (
 
 "%GH_EXE%" repo view honggi82/awesome-BCI >nul 2>nul
 if errorlevel 1 (
-  "%GH_EXE%" repo create honggi82/awesome-BCI --public --description "Awesome BCI: metadata-driven Brain-Computer Interface paper curation, 2020-2026" --source . --remote origin --push
+  "%GH_EXE%" repo create honggi82/awesome-BCI --public --description "Awesome BCI: metadata-driven Brain-Computer Interface paper curation, 2000-2026" --source . --remote origin --push
 ) else (
   git remote set-url origin https://github.com/honggi82/awesome-BCI.git
   git push -u origin main

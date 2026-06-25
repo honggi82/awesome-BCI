@@ -6,7 +6,7 @@ metadata sources.
 ## Scope
 
 - Topic: Brain-Computer Interface (BCI) research.
-- Years: 2020-2026.
+- Years: 2000-2026.
 - Candidate pool: up to 500 BCI-related candidate papers per year.
 - Final list: 100 selected papers per year.
 - Metadata source: Semantic Scholar Academic Graph paper search.
@@ -27,8 +27,8 @@ metadata sources.
      rehabilitation relevance, invasive/high-bandwidth interfaces, and modern
      machine-learning methods
 6. Keep the top 500 scored candidates per year as the audited candidate pool.
-7. Select the top 100 per year for the awesome list, preferring papers whose
-   title directly signals BCI relevance.
+7. Select the top 100 per year for the awesome list by citation count, using
+   influential citation count and the metadata importance score as tie-breakers.
 
 ## Cost and API Boundary
 
@@ -49,8 +49,8 @@ The script regenerates:
 
 - `README.md`
 - `docs/index.html`
-- `data/papers_2020_2026.csv`
-- `data/candidates_top500_2020_2026.csv`
+- `data/papers_2000_2026.csv`
+- `data/candidates_top500_2000_2026.csv`
 - `paper/review_en.docx`
 - `paper/review_en.html`
 - `paper/review_ko.html`

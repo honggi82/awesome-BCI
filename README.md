@@ -4,36 +4,36 @@
 
 A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) research.
 
-Generated on 2026-06-25 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2020-2026, scores their importance, selects the top 100 papers per year, and reorganizes the final 700 papers by research taxonomy.
+Generated on 2026-06-25 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
 
 ## Project Links
 
 - Website: https://honggi82.github.io/awesome-BCI/
-- Selected dataset: `data/papers_2020_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2020_2026.csv`
-- Candidate pool: `data/candidates_top500_2020_2026.csv`
+- Selected dataset: `data/papers_2000_2026.csv`
+- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
+- Candidate pool: `data/candidates_top500_2000_2026.csv`
 - English review draft: `paper/review_en.html`, `paper/review_en.docx`
 - Korean review draft: `paper/review_ko.html`
 
 ## Taxonomy Overview
 
-- **Motor Imagery and Movement Decoding**: 476 papers
-- **SSVEP, P300, and ERP Spellers**: 99 papers
-- **Invasive and Implantable Interfaces**: 39 papers
-- **EEG Signal Processing and Datasets**: 29 papers
-- **Rehabilitation and Neuroprosthetics**: 21 papers
-- **General BCI Methods and Systems**: 14 papers
-- **Deep Learning and Representation Learning**: 12 papers
-- **Speech, Language, and Communication BCIs**: 7 papers
-- **Hybrid, Affective, and Closed-loop BCIs**: 3 papers
+- **Motor Imagery and Movement Decoding**: 1050 papers
+- **General BCI Methods and Systems**: 425 papers
+- **SSVEP, P300, and ERP Spellers**: 391 papers
+- **EEG Signal Processing and Datasets**: 265 papers
+- **Invasive and Implantable Interfaces**: 135 papers
+- **Rehabilitation and Neuroprosthetics**: 87 papers
+- **Hybrid, Affective, and Closed-loop BCIs**: 32 papers
+- **Speech, Language, and Communication BCIs**: 31 papers
+- **Deep Learning and Representation Learning**: 31 papers
 
 ## Taxonomy Collections
 
 ### Motor Imagery and Movement Decoding
 
-- Papers selected: **476**
-- Years covered: **2020-2026**
-- Citation count in selected set: **24,907**
+- Papers selected: **1050**
+- Years covered: **2000-2026**
+- Citation count in selected set: **130,164**
 - Main research trends:
   - The field is moving from subject-specific pipelines toward cross-subject, calibration-light, and transfer-learning decoders for EEG motor imagery.
   - Deep CNN, temporal convolution, graph, attention, and large EEG representation models are increasingly used to improve robustness under noisy and low-data conditions.
@@ -64,30 +64,182 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 <tbody>
 <tr>
 <td align="right" width="5%">1</td>
-<td width="22%"><a href="https://doi.org/10.48550/arXiv.2405.18765">Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI</a><br><sub>Wei-Bang Jiang, Li-Ming Zhao, Bao-Liang Lu</sub></td>
-<td width="13%">2024<br>International Conference on Learning Representations<br>351 citations</td>
-<td width="30%">The current electroencephalogram (EEG) based deep learning models are typically designed for specific datasets and applications in brain-computer interaction (BCI), limiting the scale of the models and thus diminishing their perceptual capabilities and generalizability.</td>
-<td width="15%">high citation signal (351); influential citation signal (98)</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">2</td>
-<td width="22%"><a href="https://doi.org/10.1109/TII.2022.3197419">Physics-Informed Attention Temporal Convolutional Network for EEG-Based Motor Imagery Classification</a><br><sub>Hamdi Altaheri, G. Muhammad, Mansour Alsulaiman</sub></td>
-<td width="13%">2023<br>IEEE Transactions on Industrial Informatics<br>370 citations</td>
-<td width="30%">The brain-computer interface (BCI) is a cutting-edge technology that has the potential to change the world.</td>
-<td width="15%">high citation signal (370); influential citation signal (40); recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">3</td>
-<td width="22%"><a href="https://doi.org/10.1126/science.abd0380">A brain-computer interface that evokes tactile sensations improves robotic arm control</a><br><sub>Sharlene N. Flesher, J. Downey, Jeffrey M. Weiss, Christopher L. Hughes, Angelica J. Herrera, E. Tyler-Kabara, et al.</sub></td>
-<td width="13%">2021<br>Science<br>503 citations</td>
-<td width="30%">A boost for brain–computer interfaces The finely controlled movement of our limbs requires two-way neuronal communication between the brain and the body periphery.</td>
-<td width="15%">high citation signal (503); influential citation signal (13); recognized venue</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2552/aace8c">EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces</a><br><sub>Vernon J. Lawhern, Amelia J. Solon, Nicholas R. Waytowich, S. Gordon, C. Hung, Brent Lance</sub></td>
+<td width="13%">2016<br>Journal of Neural Engineering<br>4,344 citations</td>
+<td width="30%">Objective.</td>
+<td width="15%">high citation signal (4,344); influential citation signal (564); recognized venue</td>
 <td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
+<td align="right" width="5%">2</td>
+<td width="22%"><a href="https://doi.org/10.1109/5.939829">Motor imagery and direct brain-computer communication</a><br><sub>G. Pfurtscheller, C. Neuper</sub></td>
+<td width="13%">2001<br>Proceedings of the IEEE<br>2,002 citations</td>
+<td width="30%">Positions Motor imagery and direct brain-computer communication within Motor Imagery and Movement Decoding.</td>
+<td width="15%">high citation signal (2,002); influential citation signal (114); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">3</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.NEUROIMAGE.2005.12.003">Mu rhythm (de)synchronization and EEG single-trial classification of different motor imagery tasks</a><br><sub>G. Pfurtscheller, C. Brunner, A. Schlögl, F. H. L. D. Silva</sub></td>
+<td width="13%">2006<br>NeuroImage<br>1,617 citations</td>
+<td width="30%">Positions Mu rhythm (de)synchronization and EEG single-trial classification of different motor imagery tasks within Motor Imagery and Movement Decoding.</td>
+<td width="15%">high citation signal (1,617); influential citation signal (61); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
 <td align="right" width="5%">4</td>
+<td width="22%"><a href="https://doi.org/10.1073/PNAS.0403504101">Control of a two-dimensional movement signal by a noninvasive brain-computer interface in humans.</a><br><sub>J. Wolpaw, D. McFarland</sub></td>
+<td width="13%">2004<br>Proceedings of the National Academy of Sciences of the United States of America<br>1,608 citations</td>
+<td width="30%">Positions Control of a two-dimensional movement signal by a noninvasive brain-computer interface in humans. within Motor Imagery and Movement Decoding.</td>
+<td width="15%">high citation signal (1,608); influential citation signal (114); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">5</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2552/ab0ab5">Deep learning for electroencephalogram (EEG) classification tasks: a review</a><br><sub>Alexander Craik, Yongtian He, J. Contreras-Vidal</sub></td>
+<td width="13%">2019<br>Journal of Neural Engineering<br>1,540 citations</td>
+<td width="30%">Objective.</td>
+<td width="15%">high citation signal (1,540); influential citation signal (61); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">6</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnins.2012.00039">Filter Bank Common Spatial Pattern Algorithm on BCI Competition IV Datasets 2a and 2b</a><br><sub>K. Ang, Z. Chin, C. Wang, Cuntai Guan, Haihong Zhang</sub></td>
+<td width="13%">2012<br>Frontiers in Neuroscience<br>1,201 citations</td>
+<td width="30%">The Common Spatial Pattern (CSP) algorithm is an effective and popular method for classifying 2-class motor imagery electroencephalogram (EEG) data, but its effectiveness depends on the subject-specific frequency band.</td>
+<td width="15%">high citation signal (1,201); influential citation signal (156); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">7</td>
+<td width="22%"><a href="https://doi.org/10.1101/703801">An Integrated Brain-Machine Interface Platform With Thousands of Channels</a><br><sub>E. Musk</sub></td>
+<td width="13%">2019<br>bioRxiv<br>978 citations</td>
+<td width="30%">Brain-machine interfaces (BMIs) hold promise for the restoration of sensory and motor function and the treatment of neurological disorders, but clinical BMIs have not yet been widely adopted, in part because modest channel counts have limited their potential.</td>
+<td width="15%">high citation signal (978); influential citation signal (32); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">8</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnhum.2015.00003">fNIRS-based brain-computer interfaces: a review</a><br><sub>Noman Naseer, K. Hong</sub></td>
+<td width="13%">2015<br>Frontiers in Human Neuroscience<br>929 citations</td>
+<td width="30%">A brain-computer interface (BCI) is a communication system that allows the use of brain activity to control computers or other external devices.</td>
+<td width="15%">high citation signal (929); influential citation signal (61); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">9</td>
+<td width="22%"><a href="https://doi.org/10.1038/s41586-021-03506-2">High-performance brain-to-text communication via handwriting</a><br><sub>Francis R. Willett, Donald T. Avansino, L. Hochberg, J. Henderson, K. Shenoy</sub></td>
+<td width="13%">2021<br>Nature<br>848 citations</td>
+<td width="30%">Brain–computer interfaces (BCIs) can restore communication to people who have lost the ability to move or speak.</td>
+<td width="15%">high citation signal (848); influential citation signal (47); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">10</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2552/aaf12e">A comprehensive review of EEG-based brain–computer interface paradigms</a><br><sub>R. Abiri, Soheil Borhani, E. Sellers, Yang Jiang, Xiaopeng Zhao</sub></td>
+<td width="13%">2019<br>Journal of Neural Engineering<br>836 citations</td>
+<td width="30%">Advances in brain science and computer technology in the past decade have led to exciting developments in brain–computer interface (BCI), thereby making BCI a top research area in applied science.</td>
+<td width="15%">high citation signal (836); influential citation signal (38); recognized venue</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">11</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/14/1/016003">A novel deep learning approach for classification of EEG motor imagery signals</a><br><sub>Y. R. Tabar, U. Halici</sub></td>
+<td width="13%">2017<br>Journal of Neural Engineering<br>819 citations</td>
+<td width="30%">Positions A novel deep learning approach for classification of EEG motor imagery signals within Motor Imagery and Movement Decoding.</td>
+<td width="15%">high citation signal (819); influential citation signal (61); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">12</td>
+<td width="22%"><a href="https://doi.org/10.1038/416141a">Brain-machine interface: Instant neural control of a movement signal</a><br><sub>M. Serruya, N. Hatsopoulos, L. Paninski, M. Fellows, J. Donoghue</sub></td>
+<td width="13%">2002<br>Nature<br>806 citations</td>
+<td width="30%">Positions Brain-machine interface: Instant neural control of a movement signal within Motor Imagery and Movement Decoding.</td>
+<td width="15%">high citation signal (806); influential citation signal (22); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">13</td>
+<td width="22%"><a href="https://doi.org/10.1111/J.1469-8986.2006.00456.X">Breaking the silence: brain-computer interfaces (BCI) for communication and motor control.</a><br><sub>N. Birbaumer</sub></td>
+<td width="13%">2006<br>Psychophysiology<br>768 citations</td>
+<td width="30%">Positions Breaking the silence: brain-computer interfaces (BCI) for communication and motor control. within Motor Imagery and Movement Decoding.</td>
+<td width="15%">high citation signal (768); influential citation signal (48)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">14</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnpro.2010.00003">The Hybrid BCI</a><br><sub>G. Pfurtscheller, B. Allison, C. Brunner, G. Bauernfeind, T. Solis-Escalante, Reinhold Scherer, et al.</sub></td>
+<td width="13%">2010<br>Frontiers in Neuroscience<br>755 citations</td>
+<td width="30%">Nowadays, everybody knows what a hybrid car is.</td>
+<td width="15%">high citation signal (755); influential citation signal (51); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">15</td>
+<td width="22%"><a href="https://doi.org/10.1186/1744-9081-7-30">Automatic Classification of Artifactual ICA-Components for Artifact Removal in EEG Signals</a><br><sub>I. Winkler, S. Haufe, M. Tangermann</sub></td>
+<td width="13%">2011<br>Behavioral and Brain Functions<br>744 citations</td>
+<td width="30%">BackgroundArtifacts contained in EEG recordings hamper both, the visual interpretation by experts as well as the algorithmic processing and analysis (e.g.</td>
+<td width="15%">high citation signal (744); influential citation signal (43); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">16</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.neuroimage.2006.11.005">Temporal classification of multichannel near-infrared spectroscopy signals of motor imagery for developing a brain-computer interface</a><br><sub>R. Sitaram, Haihong Zhang, Cuntai Guan, M. Thulasidas, Y. Hoshi, A. Ishikawa, et al.</sub></td>
+<td width="13%">2007<br>NeuroImage<br>611 citations</td>
+<td width="30%">There has been an increase in research interest for brain-computer interface (BCI) technology as an alternate mode of communication and environmental control for the disabled, such as patients suffering from amyotrophic lateral sclerosis (ALS), brainstem stroke and spinal cord injury.</td>
+<td width="15%">high citation signal (611); influential citation signal (46); recognized venue</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">17</td>
+<td width="22%"><a href="https://doi.org/10.1002/ana.24390">Brain–computer interface boosts motor imagery practice during stroke recovery</a><br><sub>F. Pichiorri, G. Morone, M. Petti, J. Toppi, I. Pisotta, M. Molinari, et al.</sub></td>
+<td width="13%">2015<br>Annals of Neurology<br>597 citations</td>
+<td width="30%">Positions Brain–computer interface boosts motor imagery practice during stroke recovery within Motor Imagery and Movement Decoding.</td>
+<td width="15%">high citation signal (597); influential citation signal (38); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">18</td>
+<td width="22%"><a href="https://doi.org/10.1186/1743-0003-8-66">Rehabilitation of gait after stroke: a review towards a top-down approach</a><br><sub>J. Belda-Lois, S. Mena-del Horno, I. Bermejo-Bosch, J. Moreno, J. Pons, D. Farina, et al.</sub></td>
+<td width="13%">2011<br>Journal of NeuroEngineering and Rehabilitation<br>578 citations</td>
+<td width="30%">This document provides a review of the techniques and therapies used in gait rehabilitation after stroke.</td>
+<td width="15%">high citation signal (578); influential citation signal (19); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">19</td>
+<td width="22%"><a href="https://doi.org/10.1212/01.WNL.0000158616.43002.6D">Patients with ALS can use sensorimotor rhythms to operate a brain-computer interface</a><br><sub>A. Kübler, F. Nijboer, J. Mellinger, T. M. Vaughan, H. Pawelzik, G. Schalk, et al.</sub></td>
+<td width="13%">2005<br>Neurology<br>572 citations</td>
+<td width="30%">Positions Patients with ALS can use sensorimotor rhythms to operate a brain-computer interface within Motor Imagery and Movement Decoding.</td>
+<td width="15%">high citation signal (572); influential citation signal (22)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">20</td>
+<td width="22%"><a href="https://doi.org/10.1093/gigascience/giz002">EEG dataset and OpenBMI toolbox for three BCI paradigms: an investigation into BCI illiteracy</a><br><sub>Min-Ho Lee, O-Yeon Kwon, Yong-Jeong Kim, Hong Kim, Young-Eun Lee, J. Williamson, et al.</sub></td>
+<td width="13%">2019<br>GigaScience<br>567 citations</td>
+<td width="30%">Abstract Background Electroencephalography (EEG)-based brain-computer interface (BCI) systems are mainly divided into three major paradigms: motor imagery (MI), event-related potential (ERP), and steady-state visually evoked potential (SSVEP).</td>
+<td width="15%">high citation signal (567); influential citation signal (52); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">21</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/10/4/046003">Quadcopter control in three-dimensional space using a noninvasive motor imagery based brain-computer interface</a><br><sub>K. Lafleur, K. Cassady, A. Doud, K. Shades, E. Rogin, Bin He</sub></td>
+<td width="13%">2013<br>Journal of Neural Engineering<br>564 citations</td>
+<td width="30%">Objective.</td>
+<td width="15%">high citation signal (564); influential citation signal (18); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">22</td>
+<td width="22%"><a href="https://doi.org/10.1126/science.aaa5417">Decoding motor imagery from the posterior parietal cortex of a tetraplegic human</a><br><sub>T. Aflalo, S. Kellis, Christian Klaes, Brian Lee, Ying Shi, K. Pejsa, et al.</sub></td>
+<td width="13%">2015<br>Science<br>556 citations</td>
+<td width="30%">Brain imagination to control external devices Studies in monkeys have implicated the brain&#x27;s posterior parietal cortex in high-level coding of planned and imagined actions.</td>
+<td width="15%">high citation signal (556); influential citation signal (24); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">23</td>
 <td width="22%"><a href="https://doi.org/10.1007/s00521-021-06352-5">Deep learning techniques for classification of electroencephalogram (EEG) motor imagery (MI) signals: a review</a><br><sub>Hamdi Altaheri, G. Muhammad, M. Alsulaiman, S. Amin, G. Altuwaijri, Wadood Abdul, et al.</sub></td>
 <td width="13%">2021<br>Neural computing &amp; applications (Print)<br>551 citations</td>
 <td width="30%">Positions Deep learning techniques for classification of electroencephalogram (EEG) motor imagery (MI) signals: a review within Motor Imagery and Movement Decoding.</td>
@@ -95,1253 +247,63 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 <td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
 </tr>
 <tr>
-<td align="right" width="5%">5</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/aba162">BCI for stroke rehabilitation: motor and beyond</a><br><sub>R. Mane, Tushar Chouhan, Cuntai Guan</sub></td>
-<td width="13%">2020<br>Journal of Neural Engineering<br>386 citations</td>
-<td width="30%">Stroke is one of the leading causes of long-term disability among adults and contributes to major socio-economic burden globally.</td>
-<td width="15%">high citation signal (386); influential citation signal (16); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">6</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.neunet.2020.12.013">Adaptive transfer learning for EEG motor imagery classification with deep Convolutional Neural Network</a><br><sub>Kaishuo Zhang, Neethu Robinson, Seong-Whan Lee, Cuntai Guan</sub></td>
-<td width="13%">2020<br>Neural Networks<br>266 citations</td>
-<td width="30%">In recent years, deep learning has emerged as a powerful tool for developing Brain-Computer Interface (BCI) systems.</td>
-<td width="15%">high citation signal (266); influential citation signal (19); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">7</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.bspc.2020.102172">Deep learning for motor imagery EEG-based classification: A review</a><br><sub>A. Al-Saegh, Shefa A. Dawwd, J. Abdul-Jabbar</sub></td>
-<td width="13%">2021<br>Biomedical Signal Processing and Control<br>408 citations</td>
-<td width="30%">Abstract Objectives The availability of large and varied Electroencephalogram (EEG) datasets, rapidly advances and inventions in deep learning techniques, and highly powerful and diversified computing systems have all permitted to easily analyzing those datasets and discovering vital information within.</td>
-<td width="15%">high citation signal (408); influential citation signal (18)</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">8</td>
-<td width="22%"><a href="https://arxiv.org/abs/2104.01233">FBCNet: A Multi-view Convolutional Neural Network for Brain-Computer Interface</a><br><sub>R. Mane, E. Chew, K. Chua, K. Ang, Neethu Robinson, A. P. Vinod, et al.</sub></td>
-<td width="13%">2021<br>arXiv.org<br>229 citations</td>
-<td width="30%">Lack of adequate training samples and noisy high-dimensional features are key challenges faced by Motor Imagery (MI) decoding algorithms for electroencephalogram (EEG) based Brain-Computer Interface (BCI).</td>
-<td width="15%">high citation signal (229); influential citation signal (35)</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">9</td>
-<td width="22%"><a href="https://doi.org/10.1038/s41551-020-0542-9">Stabilization of a brain-computer interface via the alignment of low-dimensional spaces of neural activity</a><br><sub>A. D. Degenhart, William E. Bishop, E. Oby, E. Tyler-Kabara, S. Chase, A. Batista, et al.</sub></td>
-<td width="13%">2020<br>Nature Biomedical Engineering<br>214 citations</td>
-<td width="30%">The instability of neural recordings can render clinical brain–computer interfaces (BCIs) uncontrollable.</td>
-<td width="15%">high citation signal (214); influential citation signal (19); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">10</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBME.2021.3137184">MIN2Net: End-to-End Multi-Task Learning for Subject-Independent Motor Imagery EEG Classification</a><br><sub>Phairot Autthasan, Rattanaphon Chaisaen, Thapanun Sudhawiyangkul, Phurin Rangpong, Suktipol Kiatthaveephong, Nat Dilokthanakul, et al.</sub></td>
-<td width="13%">2021<br>IEEE Transactions on Biomedical Engineering<br>166 citations</td>
-<td width="30%">Objective: Advances in the motor imagery (MI)-based brain-computer interfaces (BCIs) allow control of several applications by decoding neurophysiological phenomena, which are usually recorded by electroencephalography (EEG) using a non-invasive technique.</td>
-<td width="15%">high citation signal (166); influential citation signal (19); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">11</td>
-<td width="22%"><a href="https://doi.org/10.1109/JBHI.2020.2967128">Motor Imagery Classification via Temporal Attention Cues of Graph Embedded EEG Signals</a><br><sub>Dalin Zhang, Kaixuan Chen, Debao Jian, Lina Yao</sub></td>
-<td width="13%">2020<br>IEEE journal of biomedical and health informatics<br>172 citations</td>
-<td width="30%">Motor imagery classification from EEG signals is essential for motor rehabilitation with a Brain-Computer Interface (BCI).</td>
-<td width="15%">high citation signal (172); influential citation signal (23)</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">12</td>
-<td width="22%"><a href="https://doi.org/10.1016/J.BSPC.2021.102826">Electroencephalography-based motor imagery classification using temporal convolutional network fusion</a><br><sub>Yazeed K. Musallam, Nasser I. AlFassam, Muhammad Ghulam, S. Amin, M. Alsulaiman, Wadood Abdul, et al.</sub></td>
-<td width="13%">2021<br>Biomedical Signal Processing and Control<br>212 citations</td>
-<td width="30%">Abstract Motor imagery electroencephalography (MI-EEG) signals are generated when a person imagines a task without actually performing it.</td>
-<td width="15%">high citation signal (212); influential citation signal (15)</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">13</td>
-<td width="22%"><a href="https://doi.org/10.3390/brainsci11111525">Neural Decoding of EEG Signals with Machine Learning: A Systematic Review</a><br><sub>Maham Saeidi, W. Karwowski, F. Farahani, K. Fiok, R. Taiar, P. Hancock, et al.</sub></td>
-<td width="13%">2021<br>Brain Science<br>244 citations</td>
-<td width="30%">Electroencephalography (EEG) is a non-invasive technique used to record the brain’s evoked and induced electrical activity from the scalp.</td>
-<td width="15%">high citation signal (244); recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">14</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/abed81">EEG-inception: an accurate and robust end-to-end neural network for EEG-based motor imagery classification</a><br><sub>Ce Zhang, Young-Keun Kim, A. Eskandarian</sub></td>
-<td width="13%">2021<br>Journal of Neural Engineering<br>194 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">high citation signal (194); influential citation signal (11); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">15</td>
-<td width="22%"><a href="https://doi.org/10.1038/s41598-024-71118-7">CTNet: a convolutional transformer network for EEG-based motor imagery classification</a><br><sub>Wei Zhao, Xiaolu Jiang, Baocan Zhang, Shixiao Xiao, Sujun Weng</sub></td>
-<td width="13%">2024<br>Scientific Reports<br>154 citations</td>
-<td width="30%">Brain-computer interface (BCI) technology bridges the direct communication between the brain and machines, unlocking new possibilities for human interaction and rehabilitation.</td>
-<td width="15%">high citation signal (154); influential citation signal (17); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">16</td>
-<td width="22%"><a href="https://doi.org/10.3389/fncom.2019.00087">Intra- and Inter-subject Variability in EEG-Based Sensorimotor Brain Computer Interface: A Review</a><br><sub>S. Saha, M. Baumert</sub></td>
-<td width="13%">2020<br>Frontiers in Computational Neuroscience<br>275 citations</td>
-<td width="30%">Brain computer interfaces (BCI) for the rehabilitation of motor impairments exploit sensorimotor rhythms (SMR) in the electroencephalogram (EEG).</td>
-<td width="15%">high citation signal (275); recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">17</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2021.3099908">A Temporal-Spectral-Based Squeeze-and- Excitation Feature Fusion Network for Motor Imagery EEG Decoding</a><br><sub>Yang Li, Lianghui Guo, Yu Liu, Jingyu Liu, F. Meng</sub></td>
-<td width="13%">2021<br>IEEE transactions on neural systems and rehabilitation engineering<br>142 citations</td>
-<td width="30%">Motor imagery (MI) electroencephalography (EEG) decoding plays an important role in brain-computer interface (BCI), which enables motor-disabled patients to communicate with the outside world via external devices.</td>
-<td width="15%">high citation signal (142); influential citation signal (12); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">18</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBME.2020.2984003">Brain-Computer Interface-Based Soft Robotic Glove Rehabilitation for Stroke</a><br><sub>Nicholas Cheng, K. Phua, H. Lai, P. K. Tam, K. Tang, K. Cheng, et al.</sub></td>
-<td width="13%">2020<br>IEEE Transactions on Biomedical Engineering<br>131 citations</td>
-<td width="30%">Objective: This randomized controlled feasibility study investigates the ability for clinical application of the Brain-Computer Interface-based Soft Robotic Glove (BCI-SRG) incorporating activities of daily living (ADL)-oriented tasks for stroke rehabilitation.</td>
-<td width="15%">high citation signal (131); influential citation signal (16); recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">19</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.compbiomed.2020.103843">Review on motor imagery based BCI systems for upper limb post-stroke neurorehabilitation: From designing to application</a><br><sub>M. A. Khan, Rig Das, H. Iversen, S. Puthusserypady</sub></td>
-<td width="13%">2020<br>Comput. Biol. Medicine<br>231 citations</td>
-<td width="30%">Strokes are a growing cause of mortality and many stroke survivors suffer from motor impairment as well as other types of disabilities in their daily life activities.</td>
-<td width="15%">high citation signal (231); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">20</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBME.2022.3193277">FBMSNet: A Filter-Bank Multi-Scale Convolutional Neural Network for EEG-Based Motor Imagery Decoding</a><br><sub>Ke Liu, Mingzhao Yang, Zhuliang Yu, Guoyin Wang, Wei Wu</sub></td>
-<td width="13%">2022<br>IEEE Transactions on Biomedical Engineering<br>107 citations</td>
-<td width="30%">Object: Motor imagery (MI) is a mental process widely utilized as the experimental paradigm for brain-computer interfaces (BCIs) across a broad range of basic science and clinical studies.</td>
-<td width="15%">high citation signal (107); influential citation signal (14); recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">21</td>
-<td width="22%"><a href="https://doi.org/10.1109/TIM.2021.3051996">A Sliding Window Common Spatial Pattern for Enhancing Motor Imagery Classification in EEG-BCI</a><br><sub>Pramod Gaur, Harsh Gupta, Anirban Chowdhury, K. McCreadie, R. B. Pachori, Hui Wang</sub></td>
-<td width="13%">2021<br>IEEE Transactions on Instrumentation and Measurement<br>219 citations</td>
-<td width="30%">Accurate binary classification of electroencephalography (EEG) signals is a challenging task for the development of motor imagery (MI) brain–computer interface (BCI) systems.</td>
-<td width="15%">high citation signal (219); recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">22</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNNLS.2022.3202569">GCNs-Net: A Graph Convolutional Neural Network Approach for Decoding Time-Resolved EEG Motor Imagery Signals</a><br><sub>Xiangmin Lun, Shuyue Jia, Yimin Hou, Yan Shi, Y. Li, Hanrui Yang, et al.</sub></td>
-<td width="13%">2020<br>IEEE Transactions on Neural Networks and Learning Systems<br>169 citations</td>
-<td width="30%">Toward the development of effective and efficient brain–computer interface (BCI) systems, precise decoding of brain activity measured by an electroencephalogram (EEG) is highly demanded.</td>
-<td width="15%">high citation signal (169); recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">23</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2020.3048106">EEG-Inception: A Novel Deep Convolutional Neural Network for Assistive ERP-Based Brain-Computer Interfaces</a><br><sub>E. Santamaría-Vázquez, V. Martínez-Cagigal, F. Vaquerizo-Villar, R. Hornero</sub></td>
-<td width="13%">2020<br>IEEE transactions on neural systems and rehabilitation engineering<br>183 citations</td>
-<td width="30%">In recent years, deep-learning models gained attention for electroencephalography (EEG) classification tasks due to their excellent performance and ability to extract complex features from raw data.</td>
-<td width="15%">high citation signal (183); influential citation signal (12); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
 <td align="right" width="5%">24</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.neuroimage.2023.120209">LMDA-Net:A lightweight multi-dimensional attention network for general EEG-based brain-computer interfaces and interpretability</a><br><sub>Zhengqing Miao, Mei-rong Zhao, Xin Zhang, Dong Ming</sub></td>
-<td width="13%">2023<br>NeuroImage<br>150 citations</td>
-<td width="30%">Electroencephalography (EEG)-based brain-computer interfaces (BCIs) pose a challenge for decoding due to their low spatial resolution and signal-to-noise ratio.</td>
-<td width="15%">high citation signal (150); influential citation signal (12); recognized venue</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNNLS.2018.2789927">Learning Temporal Information for Brain-Computer Interface Using Convolutional Neural Networks</a><br><sub>Siavash Sakhavi, Cuntai Guan, Shuicheng Yan</sub></td>
+<td width="13%">2018<br>IEEE Transactions on Neural Networks and Learning Systems<br>544 citations</td>
+<td width="30%">Deep learning (DL) methods and architectures have been the state-of-the-art classification algorithms for computer vision and natural language processing problems.</td>
+<td width="15%">high citation signal (544); influential citation signal (52); recognized venue</td>
 <td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
 <td align="right" width="5%">25</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/ab4af6">A novel approach of decoding EEG four-class motor imagery tasks via scout ESI and CNN</a><br><sub>Yimin Hou, Lu Zhou, Shuyue Jia, Xiangmin Lun</sub></td>
-<td width="13%">2020<br>Journal of Neural Engineering<br>137 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">high citation signal (137); influential citation signal (14); recognized venue</td>
+<td width="22%"><a href="https://doi.org/10.1038/s41467-018-04673-z">Brain-actuated functional electrical stimulation elicits lasting arm motor recovery after stroke</a><br><sub>A. Biasiucci, R. Leeb, I. Iturrate, S. Perdikis, A. Al-Khodairy, T. Corbet, et al.</sub></td>
+<td width="13%">2018<br>Nature Communications<br>536 citations</td>
+<td width="30%">Brain-computer interfaces (BCI) are used in stroke rehabilitation to translate brain signals into intended movements of the paralyzed limb.</td>
+<td width="15%">high citation signal (536); influential citation signal (39); recognized venue</td>
 <td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
 <td align="right" width="5%">26</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2022.3185262">SSVEP-Based Brain Computer Interface Controlled Soft Robotic Glove for Post-Stroke Hand Function Rehabilitation</a><br><sub>Ning Guo, Xiaojun Wang, Dehao Duanmu, Xin Huang, Xiaodong Li, Yunli Fan, et al.</sub></td>
-<td width="13%">2022<br>IEEE transactions on neural systems and rehabilitation engineering<br>86 citations</td>
-<td width="30%">Soft robotic glove with brain computer interfaces (BCI) control has been used for post-stroke hand function rehabilitation.</td>
-<td width="15%">influential citation signal (10); recognized venue; open-access PDF metadata</td>
+<td width="22%"><a href="https://doi.org/10.1038/nature20118">A Brain–Spinal Interface Alleviating Gait Deficits after Spinal Cord Injury in Primates</a><br><sub>M. Capogrosso, T. Milekovic, D. Borton, Fabien B. Wagner, E. Moraud, Jean-Baptiste Mignardot, et al.</sub></td>
+<td width="13%">2016<br>Nature<br>526 citations</td>
+<td width="30%">Spinal cord injury disrupts the communication between the brain and the spinal circuits that orchestrate movement.</td>
+<td width="15%">high citation signal (526); influential citation signal (13); recognized venue</td>
 <td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
 <td align="right" width="5%">27</td>
-<td width="22%"><a href="https://doi.org/10.1109/tii.2021.3132340">Attention-Inception and Long- Short-Term Memory-Based Electroencephalography Classification for Motor Imagery Tasks in Rehabilitation</a><br><sub>S. Amin, Hamdi Altaheri, G. Muhammad, Mansour Alsulaiman, A. Wadood</sub></td>
-<td width="13%">2022<br>IEEE Transactions on Industrial Informatics<br>118 citations</td>
-<td width="30%">In recent years, the contributions of deep learning have had a phenomenal impact on electroencephalography-based brain-computer interfaces.</td>
-<td width="15%">high citation signal (118); recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
+<td width="22%"><a href="https://doi.org/10.1155/2011/217987">Multisubject Learning for Common Spatial Patterns in Motor-Imagery BCI</a><br><sub>D. Devlaminck, B. Wyns, M. Grosse-Wentrup, G. Otte, P. Santens</sub></td>
+<td width="13%">2011<br>Computational Intelligence and Neuroscience<br>524 citations</td>
+<td width="30%">Motor-imagery-based brain-computer interfaces (BCIs) commonly use the common spatial pattern filter (CSP) as preprocessing step before feature extraction and classification.</td>
+<td width="15%">high citation signal (524); recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
 <td align="right" width="5%">28</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2021.3059166">Dynamic Joint Domain Adaptation Network for Motor Imagery Classification</a><br><sub>Xiaolin Hong, Qingqing Zheng, Luyan Liu, Peiyin Chen, Kai Ma, Zhongke Gao, et al.</sub></td>
-<td width="13%">2021<br>IEEE transactions on neural systems and rehabilitation engineering<br>115 citations</td>
-<td width="30%">Electroencephalogram (EEG) has been widely used in brain computer interface (BCI) due to its convenience and reliability.</td>
-<td width="15%">high citation signal (115); recognized venue; open-access PDF metadata</td>
+<td width="22%"><a href="https://doi.org/10.1155/2007/79642">Self-Paced (Asynchronous) BCI Control of a Wheelchair in Virtual Environments: A Case Study with a Tetraplegic</a><br><sub>R. Leeb, D. Friedman, G. Müller-Putz, Reinhold Scherer, M. Slater, G. Pfurtscheller</sub></td>
+<td width="13%">2007<br>Computational Intelligence and Neuroscience<br>522 citations</td>
+<td width="30%">The aim of the present study was to demonstrate for the first time that brain waves can be used by a tetraplegic to control movements of his wheelchair in virtual reality (VR).</td>
+<td width="15%">high citation signal (522); influential citation signal (18); recognized venue</td>
 <td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
 <td align="right" width="5%">29</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2020.3020975">Bispectrum-Based Channel Selection for Motor Imagery Based Brain-Computer Interfacing</a><br><sub>Jing Jin, Chang Liu, I. Daly, Yangyang Miao, Shurui Li, Xingyu Wang, et al.</sub></td>
-<td width="13%">2020<br>IEEE transactions on neural systems and rehabilitation engineering<br>122 citations</td>
-<td width="30%">The performance of motor imagery (MI) based Brain-computer interfacing (BCI) is easily affected by noise and redundant information that exists in the multi-channel electroencephalogram (EEG).</td>
-<td width="15%">high citation signal (122); influential citation signal (10); recognized venue</td>
+<td width="22%"><a href="https://doi.org/10.1007/s10548-009-0121-6">Towards a Cure for BCI Illiteracy</a><br><sub>C. Vidaurre, B. Blankertz</sub></td>
+<td width="13%">2009<br>Brain Topography<br>509 citations</td>
+<td width="30%">Brain–Computer Interfaces (BCIs) allow a user to control a computer application by brain activity as acquired, e.g., by EEG.</td>
+<td width="15%">high citation signal (509); influential citation signal (21); recognized venue</td>
 <td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
 <td align="right" width="5%">30</td>
-<td width="22%"><a href="https://doi.org/10.1109/ACCESS.2022.3161489">EEG-ITNet: An Explainable Inception Temporal Convolutional Network for motor imagery classification</a><br><sub>Abbas Salami, Javier Andreu-Perez, H. Gillmeister</sub></td>
-<td width="13%">2022<br>IEEE Access<br>117 citations</td>
-<td width="30%">In recent years, neural networks and especially deep architectures have received substantial attention for EEG signal analysis in the field of brain-computer interfaces (BCIs).</td>
-<td width="15%">high citation signal (117); influential citation signal (13); open-access PDF metadata</td>
+<td width="22%"><a href="https://doi.org/10.3390/s19061423">EEG-Based Brain-Computer Interfaces Using Motor-Imagery: Techniques and Challenges</a><br><sub>Natasha M. J. Padfield, J. Zabalza, Huimin Zhao, Valentin Masero Vargas, J. Ren</sub></td>
+<td width="13%">2019<br>Italian National Conference on Sensors<br>503 citations</td>
+<td width="30%">Electroencephalography (EEG)-based brain-computer interfaces (BCIs), particularly those using motor-imagery (MI) data, have the potential to become groundbreaking technologies in both clinical and entertainment settings.</td>
+<td width="15%">high citation signal (503); influential citation signal (20); open-access PDF metadata</td>
 <td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
-<td colspan="6">See the website and taxonomy CSV for all 476 papers.</td>
-</tr>
-</tbody>
-</table>
-
-</details>
-
-### SSVEP, P300, and ERP Spellers
-
-- Papers selected: **99**
-- Years covered: **2020-2026**
-- Citation count in selected set: **4,533**
-- Main research trends:
-  - Research is concentrating on high-speed, many-target communication systems with lower calibration burden and more stable target recognition.
-  - Training-free and adaptive spatial filtering, task-discriminant component analysis, and deep neural decoders are prominent directions for SSVEP/P300 reliability.
-  - Hybrid paradigms that combine SSVEP, P300, RSVP, EOG, or augmented/virtual reality interfaces are becoming a practical route to richer command sets.
-
-<details>
-<summary>Show representative papers for SSVEP, P300, and ERP Spellers</summary>
-
-<table width="100%">
-<colgroup>
-<col width="5%">
-<col width="22%">
-<col width="13%">
-<col width="30%">
-<col width="15%">
-<col width="15%">
-</colgroup>
-<thead>
-<tr>
-<th align="right">Rank</th>
-<th>Paper</th>
-<th>Meta</th>
-<th>Key idea</th>
-<th>Strengths</th>
-<th>Limitations</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right" width="5%">1</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2021.3114340">Improving the Performance of Individually Calibrated SSVEP-BCI by Task- Discriminant Component Analysis</a><br><sub>Bingchuan Liu, Xiaogang Chen, Nanlin Shi, Yijun Wang, Shangkai Gao, Xiaorong Gao</sub></td>
-<td width="13%">2021<br>IEEE transactions on neural systems and rehabilitation engineering<br>177 citations</td>
-<td width="30%">A brain-computer interface (BCI) provides a direct communication channel between a brain and an external device.</td>
-<td width="15%">high citation signal (177); influential citation signal (21); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">2</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/ab6a67">Comparing user-dependent and user-independent training of CNN for SSVEP BCI</a><br><sub>Aravind Ravi, Nargess Heydari Beni, J. Manuel, N. Jiang</sub></td>
-<td width="13%">2020<br>Journal of Neural Engineering<br>143 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">high citation signal (143); influential citation signal (24); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">3</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBME.2021.3110440">A Deep Neural Network for SSVEP-Based Brain-Computer Interfaces</a><br><sub>O. B. Guney, Muhtasham Oblokulov, Huseyin Ozkan</sub></td>
-<td width="13%">2020<br>IEEE Transactions on Biomedical Engineering<br>102 citations</td>
-<td width="30%">Objective: Target identification in brain-computer interface (BCI) spellers refers to the electroencephalogram (EEG) classification for predicting the target character that the subject intends to spell.</td>
-<td width="15%">high citation signal (102); influential citation signal (20); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">4</td>
-<td width="22%"><a href="https://doi.org/10.48550/arXiv.2210.04172">A Transformer-based deep neural network model for SSVEP classification</a><br><sub>Jianbo Chen, Yangsong Zhang, Yudong Pan, Peng Xu, Cuntai Guan</sub></td>
-<td width="13%">2022<br>Neural Networks<br>108 citations</td>
-<td width="30%">Steady-state visual evoked potential (SSVEP) is one of the most commonly used control signals in the brain-computer interface (BCI) systems.</td>
-<td width="15%">high citation signal (108); influential citation signal (14); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">5</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/ab2373">Learning across multi-stimulus enhances target recognition methods in SSVEP-based BCIs</a><br><sub>C. Wong, Feng Wan, Boyu Wang, Z. Wang, Wenya Nan, K. Lao, et al.</sub></td>
-<td width="13%">2020<br>Journal of Neural Engineering<br>123 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">high citation signal (123); influential citation signal (14); recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">6</td>
-<td width="22%"><a href="https://doi.org/10.3390/s20185083">EEG-Based BCI Emotion Recognition: A Survey</a><br><sub>E. Torres P., E. Torres, Myriam Hernández-Álvarez, S. Yoo</sub></td>
-<td width="13%">2020<br>Italian National Conference on Sensors<br>249 citations</td>
-<td width="30%">Affecting computing is an artificial intelligence area of study that recognizes, interprets, processes, and simulates human affects.</td>
-<td width="15%">high citation signal (249); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">7</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2020.3038718">Convolutional Correlation Analysis for Enhancing the Performance of SSVEP-Based Brain-Computer Interface</a><br><sub>Yao Li, Jiayi Xiang, T. Kesavadas</sub></td>
-<td width="13%">2020<br>IEEE transactions on neural systems and rehabilitation engineering<br>76 citations</td>
-<td width="30%">Currently, most of the high-performance models for frequency recognition of steady-state visual evoked potentials (SSVEPs) are linear.</td>
-<td width="15%">influential citation signal (13); recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">8</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBME.2020.2975614">Implementing Over 100 Command Codes for a High-Speed Hybrid Brain-Computer Interface Using Concurrent P300 and SSVEP Features</a><br><sub>Minpeng Xu, Jin Han, Yijun Wang, T. Jung, Dong Ming</sub></td>
-<td width="13%">2020<br>IEEE Transactions on Biomedical Engineering<br>139 citations</td>
-<td width="30%">Objective: Recently, electroencephalography (EEG)- based brain-computer interfaces (BCIs) have made tremendous progress in increasing communication speed.</td>
-<td width="15%">high citation signal (139); recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">9</td>
-<td width="22%"><a href="https://doi.org/10.3390/s22093331">Past, Present, and Future of EEG-Based BCI Applications</a><br><sub>Kaido Värbu, M. Naveed, Yar Muhammad</sub></td>
-<td width="13%">2022<br>Italian National Conference on Sensors<br>286 citations</td>
-<td width="30%">An electroencephalography (EEG)-based brain–computer interface (BCI) is a system that provides a pathway between the brain and external devices by interpreting EEG.</td>
-<td width="15%">high citation signal (286); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">10</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/ac0bfa">Implementing a calibration-free SSVEP-based BCI system with 160 targets</a><br><sub>Yonghao Chen, Chen Yang, X. Ye, Xiaogang Chen, Yijun Wang, Xiaorong Gao</sub></td>
-<td width="13%">2021<br>Journal of Neural Engineering<br>101 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">high citation signal (101); recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">11</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2023.3237319">ST-CapsNet: Linking Spatial and Temporal Attention With Capsule Network for P300 Detection Improvement</a><br><sub>Zehui Wang, Chuangquan Chen, Junhua Li, Feng Wan, Yu Sun, Hongtao Wang</sub></td>
-<td width="13%">2023<br>IEEE transactions on neural systems and rehabilitation engineering<br>64 citations</td>
-<td width="30%">A brain-computer interface (BCI), which provides an advanced direct human-machine interaction, has gained substantial research interest in the last decade for its great potential in various applications including rehabilitation and communication.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">12</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBME.2020.2975552">Spatial Filtering in SSVEP-Based BCIs: Unified Framework and New Improvements</a><br><sub>C. Wong, Boyu Wang, Z. Wang, K. Lao, Agostinho C. Rosa, Feng Wan</sub></td>
-<td width="13%">2020<br>IEEE Transactions on Biomedical Engineering<br>108 citations</td>
-<td width="30%">Objective: In the steady-state visual evoked potential (SSVEP)-based brain computer interfaces (BCIs), spatial filtering, which combines the multi-channel electroencephalography (EEG) signals in order to reduce the non-SSVEP-related component and thus enhance the signal-to-noise ratio (SNR), plays an important role in target recognition.</td>
-<td width="15%">high citation signal (108); recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">13</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/ab914e">A novel training-free recognition method for SSVEP-based BCIs using dynamic window strategy</a><br><sub>Yonghao Chen, Chen Yang, Xiaogang Chen, Yijun Wang, Xiaorong Gao</sub></td>
-<td width="13%">2020<br>Journal of Neural Engineering<br>81 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">14</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2020.3019276">Inter- and Intra-Subject Transfer Reduces Calibration Effort for High-Speed SSVEP-Based BCIs</a><br><sub>C. Wong, Z. Wang, Boyu Wang, K. Lao, Agostinho C. Rosa, Peng Xu, et al.</sub></td>
-<td width="13%">2020<br>IEEE transactions on neural systems and rehabilitation engineering<br>63 citations</td>
-<td width="30%">Objective: Steady-state visual evoked potential (SSVEP)-based brain-computer interfaces (BCIs) that can deliver a high information transfer rate (ITR) usually require subject’s calibration data to learn the class- and subject-specific model parameters (e.g.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">15</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/ab4dc6">An online SSVEP-BCI system in an optical see-through augmented reality environment</a><br><sub>Yufeng Ke, Pengxiao Liu, X. An, Xizi Song, Dong Ming</sub></td>
-<td width="13%">2020<br>Journal of Neural Engineering<br>78 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">16</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnins.2020.568104">BCIAUT-P300: A Multi-Session and Multi-Subject Benchmark Dataset on Autism for P300-Based Brain-Computer-Interfaces</a><br><sub>M. Simões, D. Borra, Eduardo Santamaría-Vázquez, M. Bittencourt-Villalpando, D. Krzemiński, A. Miladinović, et al.</sub></td>
-<td width="13%">2020<br>Frontiers in Neuroscience<br>63 citations</td>
-<td width="30%">There is a lack of multi-session P300 datasets for Brain-Computer Interfaces (BCI).</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">17</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/ac8dc5">An efficient CNN-LSTM network with spectral normalization and label smoothing technologies for SSVEP frequency recognition</a><br><sub>Yudong Pan, Jianbo Chen, Yangsong Zhang, Yu Zhang</sub></td>
-<td width="13%">2022<br>Journal of Neural Engineering<br>73 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">18</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBME.2021.3133594">Online Adaptation Boosts SSVEP-Based BCI Performance</a><br><sub>C. Wong, Z. Wang, M. Nakanishi, Boyu Wang, Agostinho C. Rosa, C. L. P. Chen, et al.</sub></td>
-<td width="13%">2021<br>IEEE Transactions on Biomedical Engineering<br>43 citations</td>
-<td width="30%">Objective: A user-friendly steady-state visual evoked potential (SSVEP)-based brain-computer interface (BCI) prefers no calibration for its target recognition algorithm, however, the existing calibration-free schemes perform still far behind their calibration-based counterparts.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">19</td>
-<td width="22%"><a href="https://doi.org/10.1101/2021.04.19.440473">“Thinking out loud”: an open-access EEG-based BCI dataset for inner speech recognition</a><br><sub>Nicolás Nieto, V. Peterson, H. Rufiner, Juan Kamienkoski, Rubén D. Spies</sub></td>
-<td width="13%">2021<br>bioRxiv<br>66 citations</td>
-<td width="30%">Surface electroencephalography is a standard and noninvasive way to measure electrical brain activity.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">20</td>
-<td width="22%"><a href="https://doi.org/10.1038/s41597-022-01509-w">EEG Dataset for RSVP and P300 Speller Brain-Computer Interfaces</a><br><sub>K. Won, Moonyoung Kwon, M. Ahn, S. Jun</sub></td>
-<td width="13%">2022<br>Scientific Data<br>59 citations</td>
-<td width="30%">As attention to deep learning techniques has grown, many researchers have attempted to develop ready-to-go brain-computer interfaces (BCIs) that include automatic processing pipelines.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">21</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBME.2020.2972747">A Hybrid Asynchronous Brain-Computer Interface Combining SSVEP and EOG Signals</a><br><sub>Yajun Zhou, Shenghong He, Qiyun Huang, Yuanqing Li</sub></td>
-<td width="13%">2020<br>IEEE Transactions on Biomedical Engineering<br>61 citations</td>
-<td width="30%">Objective: A challenging task for an electroencephalography (EEG)-based asynchronous brain-computer interface (BCI) is to effectively distinguish between the idle state and the control state while maintaining a short response time and a high accuracy when commands are issued in the control state.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">22</td>
-<td width="22%"><a href="https://doi.org/10.1109/TMRB.2019.2959559">MsCNN: A Deep Learning Framework for P300-Based Brain–Computer Interface Speller</a><br><sub>S. Kundu, S. Ari</sub></td>
-<td width="13%">2020<br>IEEE Transactions on Medical Robotics and Bionics<br>65 citations</td>
-<td width="30%">In this paper, a novel multiscale convolutional neural network (MsCNN) architecture is proposed for P300 based BCI speller.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">23</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBME.2021.3105331">Align and Pool for EEG Headset Domain Adaptation (ALPHA) to Facilitate Dry Electrode Based SSVEP-BCI</a><br><sub>Bingchuan Liu, Xiaogang Chen, Xiang Li, Yijun Wang, Xiaorong Gao, Shangkai Gao</sub></td>
-<td width="13%">2021<br>IEEE Transactions on Biomedical Engineering<br>54 citations</td>
-<td width="30%">Objective: The steady-state visual evoked potential based brain-computer interface (SSVEP-BCI) implemented in dry electrodes is a promising paradigm for alternative and augmentative communication in real-world applications.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">24</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNNLS.2021.3135696">An MVMD-CCA Recognition Algorithm in SSVEP-Based BCI and Its Application in Robot Control</a><br><sub>Kang Wang, Dihua Zhai, Y. Xiong, Leyun Hu, Yuanqing Xia</sub></td>
-<td width="13%">2021<br>IEEE Transactions on Neural Networks and Learning Systems<br>47 citations</td>
-<td width="30%">This article proposes a novel recognition algorithm for the steady-state visual evoked potentials (SSVEP)-based brain–computer interface (BCI) system.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">25</td>
-<td width="22%"><a href="https://doi.org/10.1109/TASE.2021.3054741">Transferring Subject-Specific Knowledge Across Stimulus Frequencies in SSVEP-Based BCIs</a><br><sub>C. Wong, Z. Wang, Agostinho C. Rosa, C. L. P. Chen, T. Jung, Yong Hu, et al.</sub></td>
-<td width="13%">2021<br>IEEE Transactions on Automation Science and Engineering<br>51 citations</td>
-<td width="30%">Learning from subject’s calibration data can significantly improve the performance of a steady-state visually evoked potential (SSVEP)-based brain–computer interface (BCI), for example, the state-of-the-art target recognition methods utilize the learned subject-specific and stimulus-specific model parameters.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">26</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.cmpb.2020.105326">A novel hybrid BCI speller based on RSVP and SSVEP paradigm</a><br><sub>Shayan Jalilpour, Sepideh Hajipour Sardouie, A. Mijani</sub></td>
-<td width="13%">2020<br>Comput. Methods Programs Biomed.<br>52 citations</td>
-<td width="30%">BACKGROUND AND OBJECTIVE Steady-state visual evoked potential (SSVEP) and rapid serial visual presentation (RSVP) are useful methods in the brain-computer interface (BCI) systems.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">27</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2022.3208717">A Spectrally-Dense Encoding Method for Designing a High-Speed SSVEP-BCI With 120 Stimuli</a><br><sub>Xiaogang Chen, Bingchuan Liu, Yijun Wang, Xiaorong Gao</sub></td>
-<td width="13%">2022<br>IEEE transactions on neural systems and rehabilitation engineering<br>43 citations</td>
-<td width="30%">The practical functionality of a brain-computer interface (BCI) is critically affected by the number of stimuli, especially for steady-state visual evoked potential based BCI (SSVEP-BCI), which shows promise for the implementation of a multi-target system for real-world applications.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">28</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2021.3070327">Capsule Network for ERP Detection in Brain-Computer Interface</a><br><sub>Ronghua Ma, Tianyou Yu, Xiaoli Zhong, Z. Yu, Yuanqing Li, Z. Gu</sub></td>
-<td width="13%">2021<br>IEEE transactions on neural systems and rehabilitation engineering<br>41 citations</td>
-<td width="30%">Event-related potential (ERP) is bioelectrical activity that occurs in the brain in response to specific events or stimuli, reflecting the electrophysiological changes in the brain during cognitive processes.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">29</td>
-<td width="22%"><a href="https://doi.org/10.1007/s12021-020-09473-9">Review of Riemannian Distances and Divergences, Applied to SSVEP-based BCI</a><br><sub>S. Chevallier, Emmanuel K. Kalunga, Quentin Barthélemy, É. Monacelli</sub></td>
-<td width="13%">2020<br>Neuroinformatics<br>60 citations</td>
-<td width="30%">Positions Review of Riemannian Distances and Divergences, Applied to SSVEP-based BCI within SSVEP, P300, and ERP Spellers.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">abstract unavailable in metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">30</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/acacca">Transfer learning of an ensemble of DNNs for SSVEP BCI spellers without user-specific training</a><br><sub>Osman Berke Guney, Huseyin Ozkan</sub></td>
-<td width="13%">2022<br>Journal of Neural Engineering<br>32 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td colspan="6">See the website and taxonomy CSV for all 99 papers.</td>
-</tr>
-</tbody>
-</table>
-
-</details>
-
-### Invasive and Implantable Interfaces
-
-- Papers selected: **39**
-- Years covered: **2020-2026**
-- Citation count in selected set: **1,218**
-- Main research trends:
-  - Invasive BCI research is shifting toward high-bandwidth, stable, long-term decoding for movement, communication, and sensory feedback.
-  - Key engineering themes include wireless operation, power efficiency, signal longevity, surgical risk, and reliability outside tightly controlled laboratory sessions.
-  - Clinical translation is increasingly tied to home use, user safety, tactile feedback, speech decoding, and realistic functional tasks.
-
-<details>
-<summary>Show representative papers for Invasive and Implantable Interfaces</summary>
-
-<table width="100%">
-<colgroup>
-<col width="5%">
-<col width="22%">
-<col width="13%">
-<col width="30%">
-<col width="15%">
-<col width="15%">
-</colgroup>
-<thead>
-<tr>
-<th align="right">Rank</th>
-<th>Paper</th>
-<th>Meta</th>
-<th>Key idea</th>
-<th>Strengths</th>
-<th>Limitations</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right" width="5%">1</td>
-<td width="22%"><a href="https://doi.org/10.1038/s41551-020-0595-9">Power-saving design opportunities for wireless intracortical brain computer interfaces</a><br><sub>N. Even-Chen, D. Muratore, S. Stavisky, L. Hochberg, J. Henderson, B. Murmann, et al.</sub></td>
-<td width="13%">2020<br>Nature Biomedical Engineering<br>101 citations</td>
-<td width="30%">The efficacy of wireless intracortical brain–computer interfaces (iBCIs) is limited in part by the number of recording channels, which is constrained by the power budget of the implantable system.</td>
-<td width="15%">high citation signal (101); recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">2</td>
-<td width="22%"><a href="https://doi.org/10.1109/RBME.2024.3449790">Non-Invasive Brain-Computer Interfaces: State of the Art and Trends</a><br><sub>B. Edelman, Shuailei Zhang, Gerwin Schalk, P. Brunner, Gernot Müller-Putz, Cuntai Guan, et al.</sub></td>
-<td width="13%">2024<br>IEEE Reviews in Biomedical Engineering<br>129 citations</td>
-<td width="30%">Brain-computer interface (BCI) is a rapidly evolving technology that has the potential to widely influence research, clinical and recreational use.</td>
-<td width="15%">high citation signal (129); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">3</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnhum.2021.705064">Toward EEG-Based BCI Applications for Industry 4.0: Challenges and Possible Applications</a><br><sub>Khalida Douibi, S. Le Bars, A. Lemontey, Lipsa Nag, Rodrigo Balp, Gabrièle Breda</sub></td>
-<td width="13%">2021<br>Frontiers in Human Neuroscience<br>76 citations</td>
-<td width="30%">In the last few decades, Brain-Computer Interface (BCI) research has focused predominantly on clinical applications, notably to enable severely disabled people to interact with the environment.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">4</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnins.2020.00123">The Potential of Stereotactic-EEG for Brain-Computer Interfaces: Current Progress and Future Directions</a><br><sub>Christian Herff, D. Krusienski, P. Kubben</sub></td>
-<td width="13%">2020<br>Frontiers in Neuroscience<br>105 citations</td>
-<td width="30%">Stereotactic electroencephalogaphy (sEEG) utilizes localized, penetrating depth electrodes to measure electrophysiological brain activity.</td>
-<td width="15%">high citation signal (105); recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">5</td>
-<td width="22%"><a href="https://doi.org/10.1007/s10462-023-10690-2">Role of machine learning and deep learning techniques in EEG-based BCI emotion recognition system: a review</a><br><sub>Priyadarsini Samal, M. Hashmi</sub></td>
-<td width="13%">2024<br>Artificial Intelligence Review<br>107 citations</td>
-<td width="30%">Emotion is a subjective psychophysiological reaction coming from external stimuli which impacts every aspect of our daily lives.</td>
-<td width="15%">high citation signal (107); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">6</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.brs.2021.08.016">The sensitivity of ECG contamination to surgical implantation site in brain computer interfaces</a><br><sub>W. Neumann, Majid Memarian Sorkhabi, M. Benjaber, L. Feldmann, A. Saryyeva, J. Krauss, et al.</sub></td>
-<td width="13%">2021<br>Brain Stimulation<br>73 citations</td>
-<td width="30%">Background Brain sensing devices are approved today for Parkinson&#x27;s, essential tremor, and epilepsy therapies.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">7</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnins.2021.599549">Defining Surgical Terminology and Risk for Brain Computer Interface Technologies</a><br><sub>E. Leuthardt, D. Moran, T. Mullen</sub></td>
-<td width="13%">2021<br>Frontiers in Neuroscience<br>49 citations</td>
-<td width="30%">With the emergence of numerous brain computer interfaces (BCI), their form factors, and clinical applications the terminology to describe their clinical deployment and the associated risk has been vague.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">8</td>
-<td width="22%"><a href="https://doi.org/10.1101/2023.06.30.23291352">Online speech synthesis using a chronically implanted brain-computer interface in an individual with ALS</a><br><sub>Miguel Angrick, S. Luo, Q. Rabbani, D. Candrea, Samyak Shah, G. Milsap, et al.</sub></td>
-<td width="13%">2023<br>medRxiv<br>40 citations</td>
-<td width="30%">Recent studies have shown that speech can be reconstructed and synthesized using only brain activity recorded with intracranial electrodes, but until now this has only been done using retrospective analyses of recordings from able-bodied patients temporarily implanted with electrodes for epilepsy surgery.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">9</td>
-<td width="22%"><a href="https://doi.org/10.34133/hds.0096">Recent Progress in Wearable Brain–Computer Interface (BCI) Devices Based on Electroencephalogram (EEG) for Medical Applications: A Review</a><br><sub>Jiayan Zhang, Junshi Li, Zhe Huang, Dong Huang, Huaiqiang Yu, Zhihong Li</sub></td>
-<td width="13%">2023<br>Health Data Science<br>49 citations</td>
-<td width="30%">Importance: Brain–computer interface (BCI) decodes and converts brain signals into machine instructions to interoperate with the external world.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">10</td>
-<td width="22%"><a href="https://doi.org/10.1007/s11042-024-18259-z">Emotion recognition with EEG-based brain-computer interfaces: a systematic literature review</a><br><sub>Kübra Erat, Elif Bilge Şahin, Furkan Doğan, Nur Merdanoğlu, Ahmet Akcakaya, P. O. Durdu</sub></td>
-<td width="13%">2024<br>Multimedia tools and applications<br>54 citations</td>
-<td width="30%">Electroencephalography (EEG)-based Brain-Computer Interface (BCI) systems for emotion recognition have the potential to assist the enrichment of human–computer interaction with implicit information since they can enable understanding of the cognitive and emotional activities of humans.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">11</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/ac127e">Neuropathological effects of chronically implanted, intracortical microelectrodes in a tetraplegic patient</a><br><sub>Linda J Szymanski, S. Kellis, C. Liu, Kymry T. Jones, R. Andersen, D. Commins, et al.</sub></td>
-<td width="13%">2021<br>Journal of Neural Engineering<br>41 citations</td>
-<td width="30%">Objective.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">12</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnhum.2022.806517">Error-Related Potentials in Reinforcement Learning-Based Brain-Machine Interfaces</a><br><sub>Aline Xavier Fidêncio, Christian Klaes, Ioannis Iossifidis</sub></td>
-<td width="13%">2022<br>Frontiers in Human Neuroscience<br>33 citations</td>
-<td width="30%">The human brain has been an object of extensive investigation in different fields.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">13</td>
-<td width="22%"><a href="https://doi.org/10.48550/arXiv.2209.03785">A Novel Semi-supervised Meta Learning Method for Subject-transfer Brain-computer Interface</a><br><sub>Jingcong Li, Fei Wang, Haiyun Huang, Feifei Qi, Jiahui Pan</sub></td>
-<td width="13%">2022<br>Neural Networks<br>42 citations</td>
-<td width="30%">The brain-computer interface (BCI) provides a direct communication pathway between the human brain and external devices.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">14</td>
-<td width="22%"><a href="https://doi.org/10.1371/journal.pone.0275454">Public attitudes towards neurotechnology: Findings from two experiments concerning Brain Stimulation Devices (BSDs) and Brain-Computer Interfaces (BCIs)</a><br><sub>S. Sattler, Dana Pietralla</sub></td>
-<td width="13%">2022<br>PLoS ONE<br>29 citations</td>
-<td width="30%">This study contributes to the emerging literature on public perceptions of neurotechnological devices (NTDs) in their medical and non-medical applications, depending on their invasiveness, framing effects, and interindividual differences related to personal needs and values.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">15</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBCAS.2023.3278531">Calibration-Free and Hardware-Efficient Neural Spike Detection for Brain Machine Interfaces</a><br><sub>Zheng Zhang, Peilong Feng, A. Oprea, T. Constandinou</sub></td>
-<td width="13%">2023<br>IEEE Transactions on Biomedical Circuits and Systems<br>13 citations</td>
-<td width="30%">Recent translational efforts in brain-machine interfaces (BMI) are demonstrating the potential to help people with neurological disorders.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">16</td>
-<td width="22%"><a href="https://doi.org/10.1021/acsnano.3c06781">Advanced Electrode Technologies for Noninvasive Brain-Computer Interfaces.</a><br><sub>Sen Lin, Jingjing Jiang, Kai Huang, Lei Li, Xian He, Peng Du, et al.</sub></td>
-<td width="13%">2023<br>ACS Nano<br>41 citations</td>
-<td width="30%">Brain-computer interfaces (BCIs) have garnered significant attention in recent years due to their potential applications in medical, assistive, and communication technologies.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">17</td>
-<td width="22%"><a href="https://doi.org/10.1038/s41467-024-53858-2">Constructing organoid-brain-computer interfaces for neurofunctional repair after brain injury</a><br><sub>Nan Hu, Jian Shi, Chonga Chen, Hai-Huan Xu, Zhennan Chang, Pengchong Hu, et al.</sub></td>
-<td width="13%">2024<br>Nature Communications<br>32 citations</td>
-<td width="30%">The reconstruction of damaged neural circuits is critical for neurological repair after brain injury.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">18</td>
-<td width="22%"><a href="https://doi.org/10.48550/arXiv.2507.09882">AdaBrain-Bench: Benchmarking Brain Foundation Models for Brain-Computer Interface Applications</a><br><sub>Jiamin Wu, Zichen Ren, Junyu Wang, Pengyu Zhu, Yonghao Song, Mianxin Liu, et al.</sub></td>
-<td width="13%">2025<br>arXiv.org<br>12 citations</td>
-<td width="30%">Non-invasive Brain-Computer Interfaces (BCI) offer a safe and accessible means of connecting the human brain to external devices, with broad applications in home and clinical settings to enhance human capabilities.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">19</td>
-<td width="22%"><a href="https://doi.org/10.1056/NEJMoa2314598">Longevity of a Brain-Computer Interface for Amyotrophic Lateral Sclerosis</a><br><sub>M. Vansteensel, S. Leinders, M. Branco, N. E. Crone, Timothy Denison, Z. Freudenburg, et al.</sub></td>
-<td width="13%">2024<br>New England Journal of Medicine<br>41 citations</td>
-<td width="30%">Summary The durability of communication using Brain-Computer Interfaces (BCIs) in people with progressive neurodegenerative disease has not been extensively examined.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">20</td>
-<td width="22%"><a href="https://doi.org/10.1186/s42490-024-00080-2">On the role of generative artificial intelligence in the development of brain-computer interfaces</a><br><sub>Seif Eldawlatly</sub></td>
-<td width="13%">2024<br>BMC Biomedical Engineering<br>22 citations</td>
-<td width="30%">Since their inception more than 50 years ago, Brain-Computer Interfaces (BCIs) have held promise to compensate for functions lost by people with disabilities through allowing direct communication between the brain and external devices.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">21</td>
-<td width="22%"><a href="https://doi.org/10.1038/s41467-024-49709-9">Low-intensity pulsed ultrasound stimulation (LIPUS) modulates microglial activation following intracortical microelectrode implantation</a><br><sub>Fan Li, Jazlyn Gallego, Natasha N Tirko, Jenna Greaser, Derek Bashe, Rudra Patel, et al.</sub></td>
-<td width="13%">2024<br>Nature Communications<br>22 citations</td>
-<td width="30%">Microglia are important players in surveillance and repair of the brain.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">22</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.jneumeth.2025.110471">Advances in Endovascular Brain Computer Interface: systematic review and future implications.</a><br><sub>J. Ognard, G. El Hajj, O. Verma, S. Ghozy, R. Kadirvel, David F. Kallmes, et al.</sub></td>
-<td width="13%">2025<br>Journal of Neuroscience Methods<br>9 citations</td>
-<td width="30%">BACKGROUND Brain-computer interfaces (BCIs) translate neural activity into real-world commands.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">23</td>
-<td width="22%"><a href="https://doi.org/10.1145/3712259">Toward the Construction of Affective Brain-Computer Interface: A Systematic Review</a><br><sub>Huayu Chen, Junxiang Li, Huanhuan He, Jing Zhu, Shuting Sun, Xiaowei Li, et al.</sub></td>
-<td width="13%">2025<br>ACM Computing Surveys<br>14 citations</td>
-<td width="30%">Electroencephalography (EEG)-based affective computing aims to recognize the emotional state, which is the core technology of affective brain-computer interface (aBCI).</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">24</td>
-<td width="22%"><a href="https://doi.org/10.3390/app15073512">Usability and Acceptance Analysis of Wearable BCI Devices</a><br><sub>Ilaria Lombardi, Mario Buono, Giovanna Giugliano, V. P. Senese, S. Capece</sub></td>
-<td width="13%">2025<br>Applied Sciences<br>5 citations</td>
-<td width="30%">In the current scientific and technological scenario, wearable neuroimaging devices represent a revolution in neuroscience and wearable technology.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">recent work may be under-cited; limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">25</td>
-<td width="22%"><a href="https://doi.org/10.1038/s41467-025-56979-4">Bacteria invade the brain following intracortical microelectrode implantation, inducing gut-brain axis disruption and contributing to reduced microelectrode performance</a><br><sub>George F. Hoeferlin, S. Grabinski, Lindsey N. Druschel, Jonathan L Duncan, G. Burkhart, Gwendolyn R Weagraff, et al.</sub></td>
-<td width="13%">2025<br>Nature Communications<br>14 citations</td>
-<td width="30%">Brain-machine interface performance can be affected by neuroinflammatory responses due to blood-brain barrier (BBB) damage following intracortical microelectrode implantation.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">recent work may be under-cited; limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">26</td>
-<td width="22%"><a href="https://doi.org/10.1109/THMS.2025.3554449">Imagined Speech–EEG Detection Using Multivariate Swarm Sparse Decomposition-Based Joint Time–Frequency Analysis for Intuitive BCI</a><br><sub>S. Bhalerao, R. B. Pachori</sub></td>
-<td width="13%">2025<br>IEEE Transactions on Human-Machine Systems<br>14 citations</td>
-<td width="30%">In brain–computer interface (BCI) applications, imagined speech (IMS) decoding based on electroencephalogram (EEG) has established a new neuro-paradigm that offers an intuitive communication tool for physically impaired patients.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">27</td>
-<td width="22%"><a href="https://doi.org/10.7717/peerj-cs.2649">Improved BCI calibration in multimodal emotion recognition using heterogeneous adversarial transfer learning</a><br><sub>M. Sarikaya, Gökhan Ince</sub></td>
-<td width="13%">2025<br>PeerJ Computer Science<br>6 citations</td>
-<td width="30%">The use of brain-computer interface (BCI) technology to identify emotional states has gained significant interest, especially with the rise of virtual reality (VR) applications.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">28</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.medntd.2025.100353">The history, current state and future possibilities of the non-invasive brain computer interfaces</a><br><sub>Frederico Caiado, Arkadiy Ukolov</sub></td>
-<td width="13%">2025<br>Medicine in Novel Technology and Devices<br>18 citations</td>
-<td width="30%">Positions The history, current state and future possibilities of the non-invasive brain computer interfaces within Invasive and Implantable Interfaces.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">29</td>
-<td width="22%"><a href="https://doi.org/10.1021/acssensors.4c02461">Brain-Computer Interface and Electrochemical Sensor Based on Boron-Nitrogen Co-Doped Graphene-Diamond Microelectrode for EEG and Dopamine Detection.</a><br><sub>Shiming Chen, Daolian Jiang, Mingji Li, Xiuwei Xuan, Hongji Li</sub></td>
-<td width="13%">2025<br>ACS Sensors<br>17 citations</td>
-<td width="30%">The simultaneous detection of electroencephalography (EEG) signals and neurotransmitter levels plays an important role as biomarkers for the assessment and monitoring of emotions and cognition.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">30</td>
-<td width="22%"><a href="https://doi.org/10.1038/s44385-025-00029-7">Flexible brain electronic sensors advance wearable brain-computer interface</a><br><sub>Jia Li, Guo Chen, Gang Li, Lujia Xiao, Ruonan Jia, Kun Zhang</sub></td>
-<td width="13%">2025<br>npj Biomedical Innovations<br>5 citations</td>
-<td width="30%">The emerging field of wearable brain-computer interface (BCI) strives to achieve both high spatial and temporal resolution.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td colspan="6">See the website and taxonomy CSV for all 39 papers.</td>
-</tr>
-</tbody>
-</table>
-
-</details>
-
-### EEG Signal Processing and Datasets
-
-- Papers selected: **29**
-- Years covered: **2020-2026**
-- Citation count in selected set: **1,908**
-- Main research trends:
-  - This taxonomy emphasizes reproducible preprocessing, artifact handling, channel selection, spatial filtering, and benchmark datasets for EEG-based BCI.
-  - The field is gradually shifting from isolated algorithm papers toward shared datasets, standardized evaluation, and metadata-aware comparisons.
-  - Hybrid EEG/fNIRS, transfer learning, and open benchmark resources are recurring themes for improving generalization and clinical relevance.
-
-<details>
-<summary>Show representative papers for EEG Signal Processing and Datasets</summary>
-
-<table width="100%">
-<colgroup>
-<col width="5%">
-<col width="22%">
-<col width="13%">
-<col width="30%">
-<col width="15%">
-<col width="15%">
-</colgroup>
-<thead>
-<tr>
-<th align="right">Rank</th>
-<th>Paper</th>
-<th>Meta</th>
-<th>Key idea</th>
-<th>Strengths</th>
-<th>Limitations</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right" width="5%">1</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnbot.2020.00025">Current Status, Challenges, and Possible Solutions of EEG-Based Brain-Computer Interface: A Comprehensive Review</a><br><sub>M. Rashid, N. Sulaiman, A. P. Majeed, R. Musa, A. Nasir, Bifta Sama Bari, et al.</sub></td>
-<td width="13%">2020<br>Frontiers in Neurorobotics<br>420 citations</td>
-<td width="30%">Brain-Computer Interface (BCI), in essence, aims at controlling different assistive devices through the utilization of brain waves.</td>
-<td width="15%">high citation signal (420); influential citation signal (18); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">2</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2020.3040289">Neural Decoding of Imagined Speech and Visual Imagery as Intuitive Paradigms for BCI Communication</a><br><sub>Seo-Hyun Lee, Minji Lee, Seong-Whan Lee</sub></td>
-<td width="13%">2020<br>IEEE transactions on neural systems and rehabilitation engineering<br>133 citations</td>
-<td width="30%">Brain-computer interface (BCI) is oriented toward intuitive systems that users can easily operate.</td>
-<td width="15%">high citation signal (133); influential citation signal (10); recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">3</td>
-<td width="22%"><a href="https://doi.org/10.1007/s11831-021-09684-6">Review of Machine Learning Techniques for EEG Based Brain Computer Interface</a><br><sub>Swati Aggarwal, Nupur Chugh</sub></td>
-<td width="13%">2022<br>Archives of Computational Methods in Engineering<br>233 citations</td>
-<td width="30%">Positions Review of Machine Learning Techniques for EEG Based Brain Computer Interface within EEG Signal Processing and Datasets.</td>
-<td width="15%">high citation signal (233)</td>
-<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">4</td>
-<td width="22%"><a href="https://doi.org/10.3390/s21175746">Brain-Computer Interface: Advancement and Challenges</a><br><sub>M. F. Mridha, S. Das, Muhammad Mohsin Kabir, Aklima Akter Lima, Md. Rashedul Islam, Yutaka Watanobe</sub></td>
-<td width="13%">2021<br>Italian National Conference on Sensors<br>213 citations</td>
-<td width="30%">Brain-Computer Interface (BCI) is an advanced and multidisciplinary active research domain based on neuroscience, signal processing, biomedical sensors, hardware, etc.</td>
-<td width="15%">high citation signal (213); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">5</td>
-<td width="22%"><a href="https://doi.org/10.1016/J.BSPC.2021.102595">A systematic review on hybrid EEG/fNIRS in brain-computer interface</a><br><sub>Ziming Liu, J. Shore, Miao Wang, Fengpei Yuan, Aaron T. Buss, Xiaopeng Zhao</sub></td>
-<td width="13%">2021<br>Biomedical Signal Processing and Control<br>130 citations</td>
-<td width="30%">Abstract As a relatively new field of neurology and computer science, brain computer interface (BCI) has many established and burgeoning applications across scientific disciplines.</td>
-<td width="15%">high citation signal (130)</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">6</td>
-<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2021.3096874">Decoding Imagined Speech Based on Deep Metric Learning for Intuitive BCI Communication</a><br><sub>Dong-Yeon Lee, Minji Lee, Seong-Whan Lee</sub></td>
-<td width="13%">2021<br>IEEE transactions on neural systems and rehabilitation engineering<br>55 citations</td>
-<td width="30%">Imagined speech is a highly promising paradigm due to its intuitive application and multiclass scalability in the field of brain-computer interfaces.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">7</td>
-<td width="22%"><a href="https://doi.org/10.1109/TAFFC.2021.3134183">Neurofeedback Training With an Electroencephalogram-Based Brain-Computer Interface Enhances Emotion Regulation</a><br><sub>Weichen Huang, Wei Wu, Molly V. Lucas, Haiyun Huang, Zhenfu Wen, Yuanqing Li</sub></td>
-<td width="13%">2023<br>IEEE Transactions on Affective Computing<br>45 citations</td>
-<td width="30%">Emotion regulation plays a vital role in human beings daily lives by helping them deal with social problems and protects mental and physical health.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">8</td>
-<td width="22%"><a href="https://doi.org/10.3390/s20216321">Application of Transfer Learning in EEG Decoding Based on Brain-Computer Interfaces: A Review</a><br><sub>Kai Zhang, Guanghua Xu, Xiaowei Zheng, Huanzhong Li, Sicong Zhang, Yunhui Yu, et al.</sub></td>
-<td width="13%">2020<br>Italian National Conference on Sensors<br>60 citations</td>
-<td width="30%">The algorithms of electroencephalography (EEG) decoding are mainly based on machine learning in current research.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">9</td>
-<td width="22%"><a href="https://doi.org/10.3390/s23136001">State-of-the-Art on Brain-Computer Interface Technology</a><br><sub>Jānis Pekša, D. Mamchur</sub></td>
-<td width="13%">2023<br>Italian National Conference on Sensors<br>119 citations</td>
-<td width="30%">This paper provides a comprehensive overview of the state-of-the-art in brain–computer interfaces (BCI).</td>
-<td width="15%">high citation signal (119); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">10</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnhum.2024.1429130">Comprehensive evaluation methods for translating BCI into practical applications: usability, user satisfaction and usage of online BCI systems</a><br><sub>He Pan, Peng Ding, Fan Wang, Tianwen Li, Lei Zhao, Wenya Nan, et al.</sub></td>
-<td width="13%">2024<br>Frontiers in Human Neuroscience<br>35 citations</td>
-<td width="30%">Although brain-computer interface (BCI) is considered a revolutionary advancement in human-computer interaction and has achieved significant progress, a considerable gap remains between the current technological capabilities and their practical applications.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">11</td>
-<td width="22%"><a href="https://doi.org/10.1038/s41597-022-01898-y">Open multi-session and multi-task EEG cognitive Dataset for passive brain-computer Interface Applications</a><br><sub>Marcel F. Hinss, E. Jahanpour, B. Somon, Lou Pluchon, F. Dehais, R. Roy</sub></td>
-<td width="13%">2023<br>Scientific Data<br>51 citations</td>
-<td width="30%">Brain-Computer Interfaces and especially passive Brain-Computer interfaces (pBCI), with their ability to estimate and monitor user mental states, are receiving increasing attention from both the fundamental research and the applied research and development communities.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">12</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.bspc.2022.103526">Machine-learning-enabled adaptive signal decomposition for a brain-computer interface using EEG</a><br><sub>Ashwin Kamble, P. Ghare, Vinay P. Kumar</sub></td>
-<td width="13%">2022<br>Biomedical Signal Processing and Control<br>55 citations</td>
-<td width="30%">Positions Machine-learning-enabled adaptive signal decomposition for a brain-computer interface using EEG within EEG Signal Processing and Datasets.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">13</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnhum.2022.901387">Evaluation of a New Lightweight EEG Technology for Translational Applications of Passive Brain-Computer Interfaces</a><br><sub>Nicolina Sciaraffa, G. di Flumeri, D. Germano, Andrea Giorgi, Antonio Di Florio, G. Borghini, et al.</sub></td>
-<td width="13%">2022<br>Frontiers in Human Neuroscience<br>44 citations</td>
-<td width="30%">Technologies like passive brain-computer interfaces (BCI) can enhance human-machine interaction.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">14</td>
-<td width="22%"><a href="https://doi.org/10.19101/ijatee.2021.874883">EEG artifacts detection and removal techniques for brain computer interface applications: a systematic review</a><br><sub>Unknown authors</sub></td>
-<td width="13%">2022<br>International Journal of Advanced Technology and Engineering Exploration<br>37 citations</td>
-<td width="30%">Positions EEG artifacts detection and removal techniques for brain computer interface applications: a systematic review within EEG Signal Processing and Datasets.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">abstract unavailable in metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">15</td>
-<td width="22%"><a href="https://doi.org/10.1007/s11042-022-12795-2">Automatic EEG channel selection for multiclass brain-computer interface classification using multiobjective improved firefly algorithm</a><br><sub>Anurag Tiwari, Amrita Chaturvedi</sub></td>
-<td width="13%">2022<br>Multimedia tools and applications<br>38 citations</td>
-<td width="30%">Positions Automatic EEG channel selection for multiclass brain-computer interface classification using multiobjective improved firefly algorithm within EEG Signal Processing and Datasets.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">16</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.bbe.2023.05.001">Hybrid EEG-fNIRS brain-computer interface based on the non-linear features extraction and stacking ensemble learning</a><br><sub>Asmaa Maher, Saeed Mian Qaisar, N. Salankar, Feng Jiang, R. Tadeusiewicz, Paweł Pławiak, et al.</sub></td>
-<td width="13%">2023<br>Biocybernetics and Biomedical Engineering<br>41 citations</td>
-<td width="30%">Positions Hybrid EEG-fNIRS brain-computer interface based on the non-linear features extraction and stacking ensemble learning within EEG Signal Processing and Datasets.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">abstract unavailable in metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">17</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.future.2023.01.028">Adversarial robustness benchmark for EEG-based brain-computer interfaces</a><br><sub>Lubin Meng, Xue Jiang, Dongrui Wu</sub></td>
-<td width="13%">2023<br>Future generations computer systems<br>24 citations</td>
-<td width="30%">Positions Adversarial robustness benchmark for EEG-based brain-computer interfaces within EEG Signal Processing and Datasets.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">18</td>
-<td width="22%"><a href="https://doi.org/10.1109/TIM.2024.3417598">Instrumentation, Measurement, and Signal Processing in Electroencephalography-Based Brain-Computer Interfaces: Situations and Prospects</a><br><sub>Zifan Xue, Yunfan Zhang, Hui Li, Hongbin Chen, Shengnan Shen, Hejun Du</sub></td>
-<td width="13%">2024<br>IEEE Transactions on Instrumentation and Measurement<br>27 citations</td>
-<td width="30%">Proper signal measurement and processing are crucial in electroencephalography (EEG)-based brain-computer interfaces (BCIs), as they form the basis of brain insight and precise BCI control.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">19</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnhum.2024.1416683">Enhancing learning experiences: EEG-based passive BCI system adapts learning speed to cognitive load in real-time, with motivation as catalyst</a><br><sub>Noémie Beauchemin, Patrick Charland, A. Karran, Jared Boasen, Bella Tadson, S. Sénécal, et al.</sub></td>
-<td width="13%">2024<br>Frontiers in Human Neuroscience<br>31 citations</td>
-<td width="30%">Computer-based learning has gained popularity in recent years, providing learners greater flexibility and freedom.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">20</td>
-<td width="22%"><a href="https://doi.org/10.1038/s41597-024-03398-7">ChineseEEG: A Chinese Linguistic Corpora EEG Dataset for Semantic Alignment and Neural Decoding</a><br><sub>Xinyu Mou, Cuilin He, Liwei Tan, Junjie Yu, Huadong Liang, Jianyu Zhang, et al.</sub></td>
-<td width="13%">2024<br>bioRxiv<br>18 citations</td>
-<td width="30%">An Electroencephalography (EEG) dataset utilizing rich text stimuli can advance the understanding of how the brain encodes semantic information and contribute to semantic decoding in brain-computer interface (BCI).</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">21</td>
-<td width="22%"><a href="https://doi.org/10.1109/COMST.2024.3396847">A Survey on Brain-Computer Interface-Inspired Communications: Opportunities and Challenges</a><br><sub>Honglin Hu, Zhenyu Wang, Xi Zhao, Ruxue Li, Ang Li, Yuan Si, et al.</sub></td>
-<td width="13%">2025<br>IEEE Communications Surveys and Tutorials<br>29 citations</td>
-<td width="30%">Brain-computer interfaces (BCIs) aim to directly bridge the human brain and the outside world through acquiring and processing the brain signals in real time.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">recent work may be under-cited; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">22</td>
-<td width="22%"><a href="https://doi.org/10.1186/s40708-025-00290-x">Beyond the lab: real-world benchmarking of wearable EEGs for passive brain-computer interfaces</a><br><sub>V. Ronca, Marianna Cecchetti, R. Capotorto, G. D. Flumeri, A. Giorgi, D. Germano, et al.</sub></td>
-<td width="13%">2025<br>Brain Informatics<br>10 citations</td>
-<td width="30%">Wearable EEG systems are increasingly used for brain–computer interface (BCI) applications beyond controlled laboratory environments.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">23</td>
-<td width="22%"><a href="https://doi.org/10.1145/3746027.3754810">Pretraining Large Brain Language Model for Active BCI: Silent Speech</a><br><sub>Jinzhao Zhou, Zehong Cao, Yiqun Duan, Connor Barkley, Daniel Leong, Xiaowei Jiang, et al.</sub></td>
-<td width="13%">2025<br>ACM Multimedia<br>9 citations</td>
-<td width="30%">This paper explores silent speech decoding in active brain-computer interface (BCI) systems, which offer more natural and flexible communication than traditional BCI applications.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">24</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.knosys.2025.113074">Time-frequency transform based EEG data augmentation for brain-computer interfaces</a><br><sub>Ziwei Wang, Siyang Li, Xiaoqing Chen, Dongrui Wu</sub></td>
-<td width="13%">2025<br>Knowledge-Based Systems<br>22 citations</td>
-<td width="30%">Positions Time-frequency transform based EEG data augmentation for brain-computer interfaces within EEG Signal Processing and Datasets.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">25</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.bspc.2024.106943">E-FNet: A EEG-fNIRS dual-stream model for Brain-Computer Interfaces</a><br><sub>Binlong Yu, Lei Cao, Jie Jia, Chunjiang Fan, Yilin Dong, Changming Zhu</sub></td>
-<td width="13%">2025<br>Biomedical Signal Processing and Control<br>20 citations</td>
-<td width="30%">Positions E-FNet: A EEG-fNIRS dual-stream model for Brain-Computer Interfaces within EEG Signal Processing and Datasets.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">26</td>
-<td width="22%"><a href="https://doi.org/10.1109/TETCI.2025.3619564">Multi-Scale Shapley Adaptation Pruning: Realizing Backdoor Defense in Brain-Computer Interface With Shapley-Value-Based Neural Network Pruning</a><br><sub>Fumin Li, Rui Yang, Hanjing Cheng, Mengjie Huang, Fan Zhang, Fuad E. Alsaadi, et al.</sub></td>
-<td width="13%">2026<br>IEEE Transactions on Emerging Topics in Computational Intelligence<br>7 citations</td>
-<td width="30%">In the recent years, researchers made significant progress in electroencephalogram (EEG) classification tasks using deep neural networks, especially in brain-computer interface (BCI) systems.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">27</td>
-<td width="22%"><a href="https://doi.org/10.31435/ijitss.2(50).2026.5446">BROAD APPLICATIONS OF CONSUMER-GRADE EEG DEVICES: FROM CLINICAL DIAGNOSTICS TO BRAIN-COMPUTER INTERFACES AND SOCIAL SCIENCES – LITERATURE REVIEW</a><br><sub>K. Borzęcka, Agnieszka Szwed, A. Sołtys, Daria Aleksandra Warzocha-Żurek, Ewa Maria Polewczak-Karp, Katarzyna Wawrzonek, et al.</sub></td>
-<td width="13%">2026<br>International Journal of Innovative Technologies in Social Science<br>0 citations</td>
-<td width="30%">Research Objective: This review article aims to assess the rapidly growing market for commercial electroencephalography (EEG) devices and analyze their transition from sterile laboratory conditions to a variety of real-world applications.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">28</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.csi.2026.104155">Adversarial attacks and defenses in EEG based Brain Computer Interfaces: A comprehensive survey and future directions</a><br><sub>Nour El-Houda Sayah Ben Aissa, Kerrache Chaker Abdelaziz, C. Calafate</sub></td>
-<td width="13%">2026<br>Comput. Stand. Interfaces<br>1 citations</td>
-<td width="30%">Positions Adversarial attacks and defenses in EEG based Brain Computer Interfaces: A comprehensive survey and future directions within EEG Signal Processing and Datasets.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">29</td>
-<td width="22%"><a href="https://doi.org/10.1080/10447318.2025.2602691">A Systematic Review of Techniques, Artifacts, Challenges and Future Directions on Signal Acquisition and Preprocessing in Brain-Computer Interfaces (BCIs)</a><br><sub>Samriti Thakur, S. Thakur, Aryan Rana, Pankaj Kumar, Ashok Kumar Das</sub></td>
-<td width="13%">2026<br>International Journal of Human-Computer Interaction<br>1 citations</td>
-<td width="30%">Positions A Systematic Review of Techniques, Artifacts, Challenges and Future Directions on Signal Acquisition and Preprocessing in Brain-Computer Interfaces (BCIs) within EEG Signal Processing and Datasets.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
-</tr>
-</tbody>
-</table>
-
-</details>
-
-### Rehabilitation and Neuroprosthetics
-
-- Papers selected: **21**
-- Years covered: **2020-2026**
-- Citation count in selected set: **513**
-- Main research trends:
-  - The dominant trend is integration of BCI with robotic gloves, exoskeletons, FES, VR, and task-oriented therapy for post-stroke and motor impairment rehabilitation.
-  - Studies increasingly ask whether BCI training transfers to activities of daily living rather than only improving offline decoding accuracy.
-  - Recent work points toward home-use, patient-centered protocols, multimodal feedback, and combined motor-cognitive-affective rehabilitation.
-
-<details>
-<summary>Show representative papers for Rehabilitation and Neuroprosthetics</summary>
-
-<table width="100%">
-<colgroup>
-<col width="5%">
-<col width="22%">
-<col width="13%">
-<col width="30%">
-<col width="15%">
-<col width="15%">
-</colgroup>
-<thead>
-<tr>
-<th align="right">Rank</th>
-<th>Paper</th>
-<th>Meta</th>
-<th>Key idea</th>
-<th>Strengths</th>
-<th>Limitations</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right" width="5%">1</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.heliyon.2020.e04250">Brain computer interface based applications for training and rehabilitation of students with neurodevelopmental disorders. A literature review</a><br><sub>George P Papanastasiou, A. Drigas, C. Skianis, Miltiadis Demetrios Lytras</sub></td>
-<td width="13%">2020<br>Heliyon<br>125 citations</td>
-<td width="30%">The aim of this article is to explore a paradigm shift on Brain Computer Interface (BCI) research, as well as on intervention best practices for training and rehabilitation of students with neurodevelopmental disorders.</td>
-<td width="15%">high citation signal (125); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">2</td>
-<td width="22%"><a href="https://doi.org/10.1109/TIM.2022.3216673">Deep-Learning-Based BCI for Automatic Imagined Speech Recognition Using SPWVD</a><br><sub>Ashwin Kamble, P. Ghare, Vinay P. Kumar</sub></td>
-<td width="13%">2023<br>IEEE Transactions on Instrumentation and Measurement<br>64 citations</td>
-<td width="30%">The electroencephalogram (EEG)-based brain–computer interface (BCI) has potential applications in neuroscience and rehabilitation.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">3</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnins.2021.728178">Signal Generation, Acquisition, and Processing in Brain Machine Interfaces: A Unified Review</a><br><sub>Usman Salahuddin, P. Gao</sub></td>
-<td width="13%">2021<br>Frontiers in Neuroscience<br>36 citations</td>
-<td width="30%">Brain machine interfaces (BMIs), or brain computer interfaces (BCIs), are devices that act as a medium for communications between the brain and the computer.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">4</td>
-<td width="22%"><a href="https://doi.org/10.64719/pb.4281">Effectiveness of a brain-computer interface based programme for the treatment of ADHD: a pilot study.</a><br><sub>C. Lim, Tih-Shih Lee, Cuntai Guan, Daniel Shuen Sheng Fung, Y. Cheung, S. Teng, et al.</sub></td>
-<td width="13%">2025<br>Psychopharmacology bulletin<br>72 citations</td>
-<td width="30%">Majority of children with attention deficit hyperactivity disorder (ADHD) have significant inattentive symptoms.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">recent work may be under-cited; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">5</td>
-<td width="22%"><a href="https://doi.org/10.3390/ijms24065182">Sensing and Stimulation Applications of Carbon Nanomaterials in Implantable Brain-Computer Interface</a><br><sub>Jinning Li, Yuhang Cheng, Minling Gu, Zhensheng Yang, Lisi Zhan, Zhanhong Du</sub></td>
-<td width="13%">2023<br>International Journal of Molecular Sciences<br>28 citations</td>
-<td width="30%">Implantable brain–computer interfaces (BCIs) are crucial tools for translating basic neuroscience concepts into clinical disease diagnosis and therapy.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">6</td>
-<td width="22%"><a href="https://doi.org/10.1038/s44222-024-00177-2">Brain-computer interfaces for neuropsychiatric disorders</a><br><sub>Lucine L. Oganesian, Maryam Shanechi</sub></td>
-<td width="13%">2024<br>Nature Reviews Bioengineering<br>28 citations</td>
-<td width="30%">Neuropsychiatric disorders such as major depression are a leading cause of disability worldwide with standard treatments, including psychotherapy or medication, failing many patients.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">7</td>
-<td width="22%"><a href="https://doi.org/10.31083/j.jin2307125">Review on the Use of Brain Computer Interface Rehabilitation Methods for Treating Mental and Neurological Conditions.</a><br><sub>V. Khorev, S. Kurkin, A. Badarin, Vladimir M. Antipov, E. Pitsik, A. Andreev, et al.</sub></td>
-<td width="13%">2024<br>Journal of Integrative Neuroscience<br>35 citations</td>
-<td width="30%">This review provides a comprehensive examination of recent developments in both neurofeedback and brain-computer interface (BCI) within the medical field and rehabilitation.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">8</td>
-<td width="22%"><a href="https://doi.org/10.1155/2023/2793211">Identifying Thematics in a Brain-Computer Interface Research</a><br><sub>H. Alharbi</sub></td>
-<td width="13%">2023<br>Computational Intelligence and Neuroscience<br>12 citations</td>
-<td width="30%">This umbrella review is motivated to understand the shift in research themes on brain-computer interfacing (BCI) and it determined that a shift away from themes that focus on medical advancement and system development to applications that included education, marketing, gaming, safety, and security has occurred.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">9</td>
-<td width="22%"><a href="https://doi.org/10.1039/d4cs01074d">Implantable hydrogels as pioneering materials for next-generation brain-computer interfaces.</a><br><sub>Wasid Ullah Khan, Zhenzhen Shen, Samuel M. Mugo, Hongda Wang, Qiang Zhang</sub></td>
-<td width="13%">2025<br>Chemical Society Reviews<br>29 citations</td>
-<td width="30%">Use of brain-computer interfaces (BCIs) is rapidly becoming a transformative approach for diagnosing and treating various brain disorders.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">recent work may be under-cited; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">10</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.bioactmat.2024.08.034">Enhancing biocompatibility of the brain-machine interface: A review</a><br><sub>Jordan Villa, Joaquin Cury, Lexie Kessler, Xiaodong Tan, Claus-Peter Richter</sub></td>
-<td width="13%">2024<br>Bioactive Materials<br>28 citations</td>
-<td width="30%">In vivo implantation of microelectrodes opens the door to studying neural circuits and restoring damaged neural pathways through direct electrical stimulation and recording.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">11</td>
-<td width="22%"><a href="https://doi.org/10.1126/sciadv.adz9968">Real-time decoding of full-spectrum Chinese using brain-computer interface</a><br><sub>Youkun Qian, Changjiang Liu, Peixi Yu, Xingchen Ran, Shurui Li, Qinrong Yang, et al.</sub></td>
-<td width="13%">2025<br>Science Advances<br>11 citations</td>
-<td width="30%">Speech brain-computer interfaces (BCIs) offer a promising means to provide functional communication capacity for patients with anarthria caused by neurological conditions such as amyotrophic lateral sclerosis (ALS) or brainstem stroke.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">12</td>
-<td width="22%"><a href="https://doi.org/10.3389/fhumd.2025.1553905">Neuralink’s brain-computer interfaces: medical innovations and ethical challenges</a><br><sub>A. Lavazza, M. Balconi, Marcello Ienca, Francesca Minerva, F. Pizzetti, M. Reichlin, et al.</sub></td>
-<td width="13%">2025<br>Frontiers in Human Dynamics<br>20 citations</td>
-<td width="30%">Neuralink’s advancements in brain-computer interface (BCI) technology have positioned the company as a leader in this emerging field.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">recent work may be under-cited; limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">13</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.brainresbull.2025.111354">Advances in Brain-Computer Interface Controlled Functional Electrical Stimulation for Upper Limb Recovery After Stroke.</a><br><sub>Yidan Zhang, Yuling Gao, Jia-qi Zhou, Zhenni Zhang, M. Feng, Yong Liu</sub></td>
-<td width="13%">2025<br>Brain Research Bulletin<br>12 citations</td>
-<td width="30%">Stroke often results in varying degrees of functional impairment, significantly affecting patients&#x27; quality of daily life.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">14</td>
-<td width="22%"><a href="https://doi.org/10.1371/journal.pdig.0000524">Community perspectives regarding brain-computer interfaces: A cross-sectional study of community-dwelling adults in the UK</a><br><sub>A. El‐Osta, Mahmoud Al Ammouri, Shujhat Khan, Sami Altalib, M. Karki, Eva Riboli-Sasco, et al.</sub></td>
-<td width="13%">2025<br>PLOS Digital Health<br>6 citations</td>
-<td width="30%">Background Brain-computer interfaces (BCIs) represent a ground-breaking advancement in neuroscience, facilitating direct communication between the brain and external devices.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">15</td>
-<td width="22%"><a href="https://doi.org/10.1007/s40820-025-02042-2">Non-Invasive Brain-Computer Interfaces: Converging Frontiers in Neural Signal Decoding and Flexible Bioelectronics Integration</a><br><sub>Sheng Wang, Xiaobin Song, Xiaopan Song, Yang Gu, Zhuangzhuang Cong, Yi Shen, et al.</sub></td>
-<td width="13%">2026<br>Nano-Micro Letters<br>4 citations</td>
-<td width="30%">The latest advancements in neural signal decoding and the integration of flexible bioelectronics for non-invasive brain-computer interfaces are reviewed.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">16</td>
-<td width="22%"><a href="https://doi.org/10.64898/2026.02.19.26346583">Restoring brain-to-text communication in a person with dysarthria from pontine stroke using an intracortical brain-computer interface</a><br><sub>S. R. Nason-Tomaszewski, P. Deevi, Q. Rabbani, B. Jacques, A. L. Pritchard, L. Wimalasena, et al.</sub></td>
-<td width="13%">2026<br>medRxiv<br>1 citations</td>
-<td width="30%">Positions Restoring brain-to-text communication in a person with dysarthria from pontine stroke using an intracortical brain-computer interface within Rehabilitation and Neuroprosthetics.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
-</tr>
-<tr>
-<td align="right" width="5%">17</td>
-<td width="22%"><a href="https://doi.org/10.1109/TCE.2025.3650654">Generative AI Empowers Brain-Computer Interfaces: A Review-Perspective on Technical Realities and Future Visions</a><br><sub>Shuqiang Wang, Yi Guo, Yihang Dong, Yanyan Shen, Zhiguo Zhang, Albert C. Cheung, et al.</sub></td>
-<td width="13%">2026<br>IEEE transactions on consumer electronics<br>1 citations</td>
-<td width="30%">Generative artificial intelligence (AI) has recently emerged as a transformative paradigm for brain-computer interfaces (BCIs), with impact spanning hardware, data, algorithms and applications.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">18</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.neuroscience.2026.03.010">A neurofeedback-guided EEG and BCI framework for personalized attention rehabilitation in ADHD.</a><br><sub>Wenyang Yang, Jing Yuan, Lin Ding, Steven Kwok Keung Chow</sub></td>
-<td width="13%">2026<br>Neuroscience<br>1 citations</td>
-<td width="30%">The integration of game-based cognitive training with electroencephalography (EEG)-based brain-computer interaction (BCI) has demonstrated potential for enhancing attention among individuals with attention-deficit hyperactivity disorder (ADHD).</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">19</td>
-<td width="22%"><a href="https://doi.org/10.2147/EB.S561691">Brain-Computer Interfaces for Vision Recovery in Precortical Vision Loss</a><br><sub>Christopher D. Yang, A. Guo, Ken Y Lin</sub></td>
-<td width="13%">2026<br>Eye and Brain<br>0 citations</td>
-<td width="30%">Introduction Precortical vision loss remains a major global health challenge.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">20</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.ibneur.2026.04.011">Mapping knowledge structure and emerging trends in non-invasive brain-computer interface for stroke rehabilitation</a><br><sub>Ying Li, Jiaying Chen, Yu Wang, Jinghui Huang, Fanfu Fang</sub></td>
-<td width="13%">2026<br>IBRO Neuroscience Reports<br>0 citations</td>
-<td width="30%">Objective To explore the current research landscape and emerging frontiers in the application of non‑invasive brain–computer interface (BCI) technology in the field of stroke.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">21</td>
-<td width="22%"><a href="https://doi.org/10.12659/MSM.951399">Application and Research Progress of Brain-Computer Interface for Post-Stroke Psychiatric Disorders: A Narrative Review</a><br><sub>Zekai Hu, Jinyan Wang, Kun Zhou, Sicong Ma, Jun Hu</sub></td>
-<td width="13%">2026<br>Medical Science Monitor<br>0 citations</td>
-<td width="30%">Post-stroke psychiatric disorders (PSPD), including depression, anxiety, and cognitive impairment, significantly hinder stroke survivors’ rehabilitation and quality of life, with traditional interventions often showing limited efficacy.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
+<td colspan="6">See the website and taxonomy CSV for all 1050 papers.</td>
 </tr>
 </tbody>
 </table>
@@ -1350,9 +312,9 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 
 ### General BCI Methods and Systems
 
-- Papers selected: **14**
-- Years covered: **2020-2026**
-- Citation count in selected set: **953**
+- Papers selected: **425**
+- Years covered: **2000-2026**
+- Citation count in selected set: **55,190**
 - Main research trends:
   - General BCI work is consolidating definitions, system architectures, evaluation principles, and long-term challenges across invasive and non-invasive approaches.
   - Recent surveys increasingly emphasize translation, usability, ethics, safety, reproducibility, and the gap between laboratory performance and real-world use.
@@ -1383,6 +345,110 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 <tbody>
 <tr>
 <td align="right" width="5%">1</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2004.827072">BCI2000: a general-purpose brain-computer interface (BCI) system</a><br><sub>G. Schalk, D. McFarland, T. Hinterberger, N. Birbaumer, J. Wolpaw</sub></td>
+<td width="13%">2004<br>IEEE Transactions on Biomedical Engineering<br>3,136 citations</td>
+<td width="30%">Positions BCI2000: a general-purpose brain-computer interface (BCI) system within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (3,136); influential citation signal (273); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">2</td>
+<td width="22%"><a href="https://doi.org/10.1109/TRE.2000.847807">Brain-computer interface technology: a review of the first international meeting.</a><br><sub>J. Wolpaw, N. Birbaumer, W. J. Heetderks, Dennis J. McFarland, P. Peckham, G. Schalk, et al.</sub></td>
+<td width="13%">2000<br>IEEE transactions on rehabilitation engineering<br>2,282 citations</td>
+<td width="30%">Positions Brain-computer interface technology: a review of the first international meeting. within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (2,282); influential citation signal (97); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">3</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.TINS.2006.07.004">Brain-machine interfaces: past, present and future.</a><br><sub>M. Lebedev, M. Nicolelis</sub></td>
+<td width="13%">2006<br>Trends in Neurosciences<br>1,865 citations</td>
+<td width="30%">Positions Brain-machine interfaces: past, present and future. within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (1,865); influential citation signal (73); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">4</td>
+<td width="22%"><a href="https://doi.org/10.1109/IJCNN.2008.4634130">Filter Bank Common Spatial Pattern (FBCSP) in Brain-Computer Interface</a><br><sub>K. Ang, Z. Y. Chin, Haihong Zhang, Cuntai Guan</sub></td>
+<td width="13%">2008<br>IEEE World Congress on Computational Intelligence<br>1,456 citations</td>
+<td width="30%">Positions Filter Bank Common Spatial Pattern (FBCSP) in Brain-Computer Interface within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (1,456); influential citation signal (203)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">5</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2006.875642">The BCI competition III: validating alternative approaches to actual BCI problems</a><br><sub>B. Blankertz, K. Müller, D. Krusienski, G. Schalk, J. Wolpaw, A. Schlögl, et al.</sub></td>
+<td width="13%">2006<br>IEEE transactions on neural systems and rehabilitation engineering<br>934 citations</td>
+<td width="30%">Positions The BCI competition III: validating alternative approaches to actual BCI problems within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (934); influential citation signal (110); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">6</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/955e2d6b7f237add6cde6b9786efbb7d9ef6893a">Brain-Computer Interfaces: Principles and Practice</a><br><sub>J. Wolpaw, E. Wolpaw</sub></td>
+<td width="13%">2012<br>Unknown venue<br>901 citations</td>
+<td width="30%">Positions Brain-Computer Interfaces: Principles and Practice within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (901); influential citation signal (77)</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">7</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2002.803536">Design and implementation of a brain-computer interface with high transfer rates</a><br><sub>Ming Cheng, Xiaorong Gao, Shangkai Gao, D. Xu</sub></td>
+<td width="13%">2002<br>IEEE Transactions on Biomedical Engineering<br>854 citations</td>
+<td width="30%">Positions Design and implementation of a brain-computer interface with high transfer rates within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (854); influential citation signal (68); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">8</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/9031aac7e9b6adae909ce22fa35fa74ec52a52ec">BCI Competition 2008 { Graz data set B</a><br><sub>R. Leeb, C. Brunner</sub></td>
+<td width="13%">2008<br>Unknown venue<br>811 citations</td>
+<td width="30%">Positions BCI Competition 2008 { Graz data set B within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (811); influential citation signal (60)</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">9</td>
+<td width="22%"><a href="https://doi.org/10.1109/86.847819">Brain-computer interfaces based on the steady-state visual-evoked response.</a><br><sub>Matthew Middendorf, G. McMillan, G. Calhoun, Keith S. Jones</sub></td>
+<td width="13%">2000<br>IEEE transactions on rehabilitation engineering<br>713 citations</td>
+<td width="30%">Positions Brain-computer interfaces based on the steady-state visual-evoked response. within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (713); influential citation signal (33); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">10</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.neuroimage.2010.03.022">Neurophysiological predictor of SMR-based BCI performance</a><br><sub>B. Blankertz, C. Sannelli, Sebastian Halder, E. Hammer, A. Kübler, K. Müller, et al.</sub></td>
+<td width="13%">2010<br>NeuroImage<br>686 citations</td>
+<td width="30%">Positions Neurophysiological predictor of SMR-based BCI performance within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (686); influential citation signal (78); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">11</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.mayocp.2011.12.008">Brain-computer interfaces in medicine.</a><br><sub>J. Shih, D. Krusienski, J. Wolpaw</sub></td>
+<td width="13%">2012<br>Mayo Clinic proceedings<br>647 citations</td>
+<td width="30%">Positions Brain-computer interfaces in medicine. within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (647); influential citation signal (21); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">12</td>
+<td width="22%"><a href="https://doi.org/10.1109/86.847821">Current trends in Graz Brain-Computer Interface (BCI) research.</a><br><sub>G. Pfurtscheller, C. Neuper, C. Guger, W. Harkam, H. Ramoser, A. Schlögl, et al.</sub></td>
+<td width="13%">2000<br>IEEE transactions on rehabilitation engineering<br>575 citations</td>
+<td width="30%">Positions Current trends in Graz Brain-Computer Interface (BCI) research. within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (575); influential citation signal (20); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">13</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2003.814449">A BCI-based environmental controller for the motion-disabled.</a><br><sub>Xiaorong Gao, D. Xu, Ming Cheng, Shangkai Gao</sub></td>
+<td width="13%">2003<br>IEEE transactions on neural systems and rehabilitation engineering<br>574 citations</td>
+<td width="30%">Positions A BCI-based environmental controller for the motion-disabled. within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (574); influential citation signal (34); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">14</td>
 <td width="22%"><a href="https://doi.org/10.1007/978-3-540-29678-2_717">Brain-Computer Interfaces</a><br><sub>Ricardo Chavarriaga, J. Millán</sub></td>
 <td width="13%">2020<br>Handbook of Clinical Neurology<br>548 citations</td>
 <td width="30%">Positions Brain-Computer Interfaces within General BCI Methods and Systems.</td>
@@ -1390,108 +456,1821 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 <td width="15%">abstract unavailable in metadata</td>
 </tr>
 <tr>
-<td align="right" width="5%">2</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.matt.2022.01.012">Bioadhesive and conductive hydrogel-integrated brain-machine interfaces for conformal and immune-evasive contact with brain tissue</a><br><sub>Xiao Wang, Xiaotong Sun, Donglin Gan, M. Soubrier, H. Chiang, Liwei Yan, et al.</sub></td>
-<td width="13%">2022<br>Matter<br>159 citations</td>
-<td width="30%">Positions Bioadhesive and conductive hydrogel-integrated brain-machine interfaces for conformal and immune-evasive contact with brain tissue within General BCI Methods and Systems.</td>
-<td width="15%">high citation signal (159); open-access PDF metadata</td>
+<td align="right" width="5%">15</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2004.827827">Support vector channel selection in BCI</a><br><sub>T. N. Lal, M. Tangermann, T. Hinterberger, J. Weston, M. Bogdan, N. Birbaumer, et al.</sub></td>
+<td width="13%">2004<br>IEEE Transactions on Biomedical Engineering<br>546 citations</td>
+<td width="30%">Positions Support vector channel selection in BCI within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (546); influential citation signal (34); recognized venue</td>
 <td width="15%">abstract unavailable in metadata</td>
 </tr>
 <tr>
+<td align="right" width="5%">16</td>
+<td width="22%"><a href="https://doi.org/10.1109/86.847823">Brain-computer interface research at the Wadsworth Center.</a><br><sub>J. Wolpaw, D. McFarland, T. Vaughan</sub></td>
+<td width="13%">2000<br>IEEE transactions on rehabilitation engineering<br>514 citations</td>
+<td width="30%">Positions Brain-computer interface research at the Wadsworth Center. within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (514); influential citation signal (14); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">17</td>
+<td width="22%"><a href="https://doi.org/10.1109/RBME.2009.2035356">Clinical Applications of Brain-Computer Interfaces: Current State and Future Prospects</a><br><sub>J. Mak, J. Wolpaw</sub></td>
+<td width="13%">2009<br>IEEE Reviews in Biomedical Engineering<br>495 citations</td>
+<td width="30%">Braincomputer interfaces (BCIs) allow their users to communicate or control external devices using brain signals rather than the brain&#x27;s normal output pathways of peripheral nerves and muscles.</td>
+<td width="15%">high citation signal (495); influential citation signal (24); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">18</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.neucom.2016.10.024">Brain computer interface: control signals review</a><br><sub>R. Ramadan, A. Vasilakos</sub></td>
+<td width="13%">2017<br>Neurocomputing<br>470 citations</td>
+<td width="30%">Positions Brain computer interface: control signals review within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (470); influential citation signal (23)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">19</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.NEUROIMAGE.2007.03.019">An MEG-based brain-computer interface (BCI)</a><br><sub>J. Mellinger, G. Schalk, C. Braun, H. Preissl, W. Rosenstiel, N. Birbaumer, et al.</sub></td>
+<td width="13%">2007<br>NeuroImage<br>466 citations</td>
+<td width="30%">Positions An MEG-based brain-computer interface (BCI) within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (466); influential citation signal (24); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">20</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2004.827063">Principles of a brain-computer interface (BCI) based on real-time functional magnetic resonance imaging (fMRI)</a><br><sub>N. Weiskopf, K. Mathiak, S. Bock, F. Scharnowski, R. Veit, W. Grodd, et al.</sub></td>
+<td width="13%">2004<br>IEEE Transactions on Biomedical Engineering<br>450 citations</td>
+<td width="30%">Positions Principles of a brain-computer interface (BCI) based on real-time functional magnetic resonance imaging (fMRI) within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (450); influential citation signal (20); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">21</td>
+<td width="22%"><a href="https://doi.org/10.3109/17482961003777470">A brain-computer interface for long-term independent home use</a><br><sub>E. Sellers, T. Vaughan, J. Wolpaw</sub></td>
+<td width="13%">2010<br>Amyotrophic Lateral Sclerosis<br>438 citations</td>
+<td width="30%">Positions A brain-computer interface for long-term independent home use within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (438); influential citation signal (15)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">22</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/c7a146b7317f1befab39cf432044f8f2ce01221d">Brain-computer interface technology: a review of the Second International Meeting.</a><br><sub>T. Vaughan, W. J. Heetderks, L. Trejo, W. Z. Rymer, M. Weinrich, M.M. Moore, et al.</sub></td>
+<td width="13%">2003<br>IEEE transactions on neural systems and rehabilitation engineering<br>415 citations</td>
+<td width="30%">Positions Brain-computer interface technology: a review of the Second International Meeting. within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (415); influential citation signal (13); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">23</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.JNEUMETH.2007.02.009">An auditory brain-computer interface (BCI).</a><br><sub>F. Nijboer, A. Furdea, I. Gunst, J. Mellinger, D. McFarland, N. Birbaumer, et al.</sub></td>
+<td width="13%">2008<br>Journal of Neuroscience Methods<br>404 citations</td>
+<td width="30%">Positions An auditory brain-computer interface (BCI). within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (404); influential citation signal (23); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">24</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2004.826702">BCI competition 2003-data sets Ib and IIb: feature extraction from event-related brain potentials with the continuous wavelet transform and the t-value scalogram</a><br><sub>Vladimir Bostanov</sub></td>
+<td width="13%">2004<br>IEEE Transactions on Biomedical Engineering<br>400 citations</td>
+<td width="30%">Positions BCI competition 2003-data sets Ib and IIb: feature extraction from event-related brain potentials with the continuous wavelet transform and the t-value scalogram within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (400); influential citation signal (22); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">25</td>
+<td width="22%"><a href="https://doi.org/10.1109/RBME.2011.2172408">Brain-Computer Interfaces Using Electrocorticographic Signals</a><br><sub>G. Schalk, E. Leuthardt</sub></td>
+<td width="13%">2011<br>IEEE Reviews in Biomedical Engineering<br>397 citations</td>
+<td width="30%">Positions Brain-Computer Interfaces Using Electrocorticographic Signals within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (397); influential citation signal (26)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">26</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnins.2010.00198">The Berlin Brain–Computer Interface: Non-Medical Uses of BCI Technology</a><br><sub>B. Blankertz, M. Tangermann, C. Vidaurre, S. Fazli, C. Sannelli, S. Haufe, et al.</sub></td>
+<td width="13%">2010<br>Frontiers in Neuroscience<br>395 citations</td>
+<td width="30%">Brain–computer interfacing (BCI) is a steadily growing area of research.</td>
+<td width="15%">high citation signal (395); influential citation signal (13); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">27</td>
+<td width="22%"><a href="https://doi.org/10.1088/0967-3334/25/4/003">On the suitability of near-infrared (NIR) systems for next-generation brain-computer interfaces.</a><br><sub>S. Coyle, T. Ward, C. Markham, G. McDarby</sub></td>
+<td width="13%">2004<br>Physiological Measurement<br>394 citations</td>
+<td width="30%">Positions On the suitability of near-infrared (NIR) systems for next-generation brain-computer interfaces. within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (394); influential citation signal (24); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">28</td>
+<td width="22%"><a href="https://doi.org/10.1109/MC.2008.410">Brain-Computer Interfaces, Virtual Reality, and Videogames</a><br><sub>A. Lécuyer, F. Lotte, R. Reilly, R. Leeb, M. Hirose, M. Slater</sub></td>
+<td width="13%">2008<br>Computer<br>390 citations</td>
+<td width="30%">Positions Brain-Computer Interfaces, Virtual Reality, and Videogames within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (390); influential citation signal (15); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">29</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2003.814484">Linear and nonlinear methods for brain-computer interfaces</a><br><sub>K. Müller, Charles Anderson, G. Birch</sub></td>
+<td width="13%">2003<br>IEEE transactions on neural systems and rehabilitation engineering<br>385 citations</td>
+<td width="30%">Positions Linear and nonlinear methods for brain-computer interfaces within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (385); influential citation signal (12); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">30</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2016.2627016">Riemannian Approaches in Brain-Computer Interfaces: A Review</a><br><sub>F. Yger, Maxime Bérar, F. Lotte</sub></td>
+<td width="13%">2017<br>IEEE transactions on neural systems and rehabilitation engineering<br>383 citations</td>
+<td width="30%">Positions Riemannian Approaches in Brain-Computer Interfaces: A Review within General BCI Methods and Systems.</td>
+<td width="15%">high citation signal (383); influential citation signal (15); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td colspan="6">See the website and taxonomy CSV for all 425 papers.</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+### SSVEP, P300, and ERP Spellers
+
+- Papers selected: **391**
+- Years covered: **2000-2026**
+- Citation count in selected set: **52,869**
+- Main research trends:
+  - Research is concentrating on high-speed, many-target communication systems with lower calibration burden and more stable target recognition.
+  - Training-free and adaptive spatial filtering, task-discriminant component analysis, and deep neural decoders are prominent directions for SSVEP/P300 reliability.
+  - Hybrid paradigms that combine SSVEP, P300, RSVP, EOG, or augmented/virtual reality interfaces are becoming a practical route to richer command sets.
+
+<details>
+<summary>Show representative papers for SSVEP, P300, and ERP Spellers</summary>
+
+<table width="100%">
+<colgroup>
+<col width="5%">
+<col width="22%">
+<col width="13%">
+<col width="30%">
+<col width="15%">
+<col width="15%">
+</colgroup>
+<thead>
+<tr>
+<th align="right">Rank</th>
+<th>Paper</th>
+<th>Meta</th>
+<th>Key idea</th>
+<th>Strengths</th>
+<th>Limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right" width="5%">1</td>
+<td width="22%"><a href="https://doi.org/10.1109/86.847808">The mental prosthesis: assessing the speed of a P300-based brain-computer interface.</a><br><sub>E. Donchin, K. Spencer, R. Wijesinghe</sub></td>
+<td width="13%">2000<br>IEEE transactions on rehabilitation engineering<br>1,299 citations</td>
+<td width="30%">Positions The mental prosthesis: assessing the speed of a P300-based brain-computer interface. within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (1,299); influential citation signal (83); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">2</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2006.886577">Frequency Recognition Based on Canonical Correlation Analysis for SSVEP-Based BCIs</a><br><sub>Zhonglin Lin, Changshui Zhang, Wei Wu, Xiaorong Gao</sub></td>
+<td width="13%">2006<br>IEEE Transactions on Biomedical Engineering<br>1,120 citations</td>
+<td width="30%">Positions Frequency Recognition Based on Canonical Correlation Analysis for SSVEP-Based BCIs within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (1,120); influential citation signal (132); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
 <td align="right" width="5%">3</td>
-<td width="22%"><a href="https://doi.org/10.1109/TBCAS.2022.3175926">A Power-Efficient Brain-Machine Interface System With a Sub-mw Feature Extraction and Decoding ASIC Demonstrated in Nonhuman Primates</a><br><sub>Hyochan An, S. R. Nason-Tomaszewski, Jongyup Lim, Kyumin Kwon, Matthew S. Willsey, Parag G. Patil, et al.</sub></td>
-<td width="13%">2022<br>IEEE Transactions on Biomedical Circuits and Systems<br>28 citations</td>
-<td width="30%">Positions A Power-Efficient Brain-Machine Interface System With a Sub-mw Feature Extraction and Decoding ASIC Demonstrated in Nonhuman Primates within General BCI Methods and Systems.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.JNEUMETH.2007.03.005">An efficient P300-based brain-computer interface for disabled subjects.</a><br><sub>Ulrich Hoffmann, J. Vesin, T. Ebrahimi, K. Diserens</sub></td>
+<td width="13%">2008<br>Journal of Neuroscience Methods<br>944 citations</td>
+<td width="30%">Positions An efficient P300-based brain-computer interface for disabled subjects. within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (944); influential citation signal (122); recognized venue</td>
 <td width="15%">abstract unavailable in metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
-<td width="22%"><a href="https://doi.org/10.30574/ijsra.2024.11.1.0111">Neural interfaces and human-computer interaction: A U.S. review: Delving into the developments, ethical considerations, and future prospects of brain-computer interfaces</a><br><sub>Sedat Sonko, Adefunke Fabuyide, Kenneth Ifeanyi Ibekwe, Emmanuel Augustine Etukudoh, Valentine Ikenna Ilojianya</sub></td>
-<td width="13%">2024<br>International Journal of Science and Research Archive<br>16 citations</td>
-<td width="30%">This study provides a comprehensive analysis of the developments, ethical considerations, and future prospects of brain-computer interfaces (BCIs) in the United States.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">limited citation history</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.CLINPH.2005.06.027">A P300-based brain-computer interface: initial tests by ALS patients.</a><br><sub>E. Sellers, E. Donchin</sub></td>
+<td width="13%">2006<br>Clinical Neurophysiology<br>808 citations</td>
+<td width="30%">Positions A P300-based brain-computer interface: initial tests by ALS patients. within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (808); influential citation signal (70)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">5</td>
-<td width="22%"><a href="https://doi.org/10.1007/s11042-023-15653-x">Electroencephalogram based brain-computer interface: Applications, challenges, and opportunities</a><br><sub>Hitesh Yadav, S. Maini</sub></td>
-<td width="13%">2023<br>Multimedia tools and applications<br>44 citations</td>
-<td width="30%">Brain-Computer Interfaces (BCI) is an exciting and emerging research area for researchers and scientists.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/6/4/046002">An online multi-channel SSVEP-based brain–computer interface using a canonical correlation analysis method</a><br><sub>Guangyu Bin, Xiaorong Gao, Zheng Yan, Bo Hong, Shangkai Gao</sub></td>
+<td width="13%">2009<br>Journal of Neural Engineering<br>789 citations</td>
+<td width="30%">Positions An online multi-channel SSVEP-based brain–computer interface using a canonical correlation analysis method within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (789); influential citation signal (66); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">6</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.measen.2023.100823">Machine learning techniques for electroencephalogram based brain-computer interface: A systematic literature review</a><br><sub>Pawan, R. Dhiman</sub></td>
-<td width="13%">2023<br>Measurement: Sensors<br>44 citations</td>
-<td width="30%">Positions Machine learning techniques for electroencephalogram based brain-computer interface: A systematic literature review within General BCI Methods and Systems.</td>
-<td width="15%">open-access PDF metadata</td>
+<td width="22%"><a href="https://doi.org/10.1109/TPAMI.2010.125">Convolutional Neural Networks for P300 Detection with Application to Brain-Computer Interfaces</a><br><sub>H. Cecotti, A. Gräser</sub></td>
+<td width="13%">2011<br>IEEE Transactions on Pattern Analysis and Machine Intelligence<br>746 citations</td>
+<td width="30%">Positions Convolutional Neural Networks for P300 Detection with Application to Brain-Computer Interfaces within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (746); influential citation signal (77); recognized venue</td>
 <td width="15%">abstract unavailable in metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">7</td>
-<td width="22%"><a href="https://doi.org/10.7759/cureus.58243">Understanding the Ethical Issues of Brain-Computer Interfaces (BCIs): A Blessing or the Beginning of a Dystopian Future?</a><br><sub>Efstratios Livanis, P. Voultsos, Konstantinos Vadikolias, Panagiotis Pantazakos, Alexandra K. Tsaroucha</sub></td>
-<td width="13%">2024<br>Cureus<br>30 citations</td>
-<td width="30%">In recent years, scientific discoveries in the field of neuroscience combined with developments in the field of artificial intelligence have led to the development of a range of neurotechnologies.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/12/4/046008">Filter bank canonical correlation analysis for implementing a high-speed SSVEP-based brain–computer interface</a><br><sub>Xiaogang Chen, Yijun Wang, Shangkai Gao, T. Jung, Xiaorong Gao</sub></td>
+<td width="13%">2015<br>Journal of Neural Engineering<br>723 citations</td>
+<td width="30%">Positions Filter bank canonical correlation analysis for implementing a high-speed SSVEP-based brain–computer interface within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (723); influential citation signal (133); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">8</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.asoc.2024.111648">Development of real-time brain-computer interface control system for robot</a><br><sub>Yang An, J. Wong, Sai-Ho Ling</sub></td>
-<td width="13%">2024<br>Applied Soft Computing<br>41 citations</td>
-<td width="30%">Positions Development of real-time brain-computer interface control system for robot within General BCI Methods and Systems.</td>
-<td width="15%">open-access PDF metadata</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2017.2694818">Enhancing Detection of SSVEPs for a High-Speed Brain Speller Using Task-Related Component Analysis</a><br><sub>M. Nakanishi, Yijun Wang, Xiaogang Chen, Yu-Te Wang, Xiaorong Gao, T. Jung</sub></td>
+<td width="13%">2017<br>IEEE Transactions on Biomedical Engineering<br>691 citations</td>
+<td width="30%">Objective: This study proposes and evaluates a novel data-driven spatial filtering approach for enhancing steady-state visual evoked potentials (SSVEPs) detection toward a high-speed brain-computer interface (BCI) speller.</td>
+<td width="15%">high citation signal (691); influential citation signal (120); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">9</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.neulet.2009.06.045">How many people are able to control a P300-based brain-computer interface (BCI)?</a><br><sub>C. Guger, Shahab Daban, E. Sellers, C. Holzner, G. Krausz, R. Carabalona, et al.</sub></td>
+<td width="13%">2009<br>Neuroscience Letters<br>688 citations</td>
+<td width="30%">Positions How many people are able to control a P300-based brain-computer interface (BCI)? within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (688); influential citation signal (39); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">10</td>
+<td width="22%"><a href="https://doi.org/10.1155/2010/702357">A Survey of Stimulation Methods Used in SSVEP-Based BCIs</a><br><sub>Dan-hua Zhu, J. Bieger, G. G. Molina, Ronald M. Aarts</sub></td>
+<td width="13%">2010<br>Computational Intelligence and Neuroscience<br>677 citations</td>
+<td width="30%">Brain-computer interface (BCI) systems based on the steady-state visual evoked potential (SSVEP) provide higher information throughput and require shorter training than BCI systems using other brain signals.</td>
+<td width="15%">high citation signal (677); influential citation signal (51); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">11</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.clinph.2008.03.034">A P300-based brain-computer interface for people with amyotrophic lateral sclerosis.</a><br><sub>F. Nijboer, E. Sellers, J. Mellinger, M. Jordan, Tamara Matuz, A. Furdea, et al.</sub></td>
+<td width="13%">2008<br>Clinical Neurophysiology<br>666 citations</td>
+<td width="30%">Positions A P300-based brain-computer interface for people with amyotrophic lateral sclerosis. within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (666); influential citation signal (19); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">12</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2007.897815">Control of an Electrical Prosthesis With an SSVEP-Based BCI</a><br><sub>G. Müller-Putz, G. Pfurtscheller</sub></td>
+<td width="13%">2008<br>IEEE Transactions on Biomedical Engineering<br>610 citations</td>
+<td width="30%">Positions Control of an Electrical Prosthesis With an SSVEP-Based BCI within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (610); influential citation signal (15); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">13</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.clinph.2010.01.030">A novel P300-based brain-computer interface stimulus presentation paradigm: moving beyond rows and columns</a><br><sub>G. Townsend, B. LaPallo, C. Boulay, D. Krusienski, G. Frye, C. Hauser, et al.</sub></td>
+<td width="13%">2010<br>Clinical Neurophysiology<br>587 citations</td>
+<td width="30%">Objective An electroencephalographic brain-computer interface (BCI) can provide a non-muscular means of communication for people with amyotrophic lateral sclerosis (ALS) or other neuromuscular disorders.</td>
+<td width="15%">high citation signal (587); influential citation signal (61); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">14</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2006.889160">Multiple Channel Detection of Steady-State Visual Evoked Potentials for Brain-Computer Interfaces</a><br><sub>Ola Friman, Ivan Volosyak, A. Gräser</sub></td>
+<td width="13%">2007<br>IEEE Transactions on Biomedical Engineering<br>568 citations</td>
+<td width="30%">Positions Multiple Channel Detection of Steady-State Visual Evoked Potentials for Brain-Computer Interfaces within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (568); influential citation signal (42); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">15</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/2/4/008">Steady-state visual evoked potential (SSVEP)-based communication: impact of harmonic frequency components</a><br><sub>G. Müller-Putz, Reinhold Scherer, Christian Brauneis, G. Pfurtscheller</sub></td>
+<td width="13%">2005<br>Journal of Neural Engineering<br>560 citations</td>
+<td width="30%">Positions Steady-state visual evoked potential (SSVEP)-based communication: impact of harmonic frequency components within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (560); influential citation signal (19); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">16</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.BIOPSYCHO.2006.04.007">A P300 event-related potential brain-computer interface (BCI): the effects of matrix size and inter stimulus interval on performance.</a><br><sub>E. Sellers, D. Krusienski, D. McFarland, T. Vaughan, J. Wolpaw</sub></td>
+<td width="13%">2006<br>Biological Psychology<br>549 citations</td>
+<td width="30%">Positions A P300 event-related potential brain-computer interface (BCI): the effects of matrix size and inter stimulus interval on performance. within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (549); influential citation signal (37)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">17</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2004.826698">BCI competition 2003-data set IIb: support vector machines for the P300 speller paradigm</a><br><sub>M. Kaper, P. Meinicke, U. Großekathöfer, T. Lingner, H. Ritter</sub></td>
+<td width="13%">2004<br>IEEE Transactions on Biomedical Engineering<br>538 citations</td>
+<td width="30%">Positions BCI competition 2003-data set IIb: support vector machines for the P300 speller paradigm within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (538); influential citation signal (50); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">18</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2008.915728">BCI Competition III: Dataset II- Ensemble of SVMs for BCI P300 Speller</a><br><sub>A. Rakotomamonjy, Vincent Guigue</sub></td>
+<td width="13%">2008<br>IEEE Transactions on Biomedical Engineering<br>535 citations</td>
+<td width="30%">Positions BCI Competition III: Dataset II- Ensemble of SVMs for BCI P300 Speller within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (535); influential citation signal (86); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">19</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.EIJ.2015.06.002">Brain computer interfacing: Applications and challenges</a><br><sub>Sarah N. Abdulkader, Ayman Atia, Mostafa-Sami M. Mostafa</sub></td>
+<td width="13%">2015<br>Unknown venue<br>497 citations</td>
+<td width="30%">Abstract Brain computer interface technology represents a highly growing field of research with application systems.</td>
+<td width="15%">high citation signal (497); influential citation signal (22); open-access PDF metadata</td>
+<td width="15%">venue missing in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">20</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2016.2627556">A Benchmark Dataset for SSVEP-Based Brain–Computer Interfaces</a><br><sub>Yijun Wang, Xiaogang Chen, Xiaorong Gao, Shangkai Gao</sub></td>
+<td width="13%">2017<br>IEEE transactions on neural systems and rehabilitation engineering<br>443 citations</td>
+<td width="30%">Positions A Benchmark Dataset for SSVEP-Based Brain–Computer Interfaces within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (443); influential citation signal (85); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">21</td>
+<td width="22%"><a href="https://doi.org/10.1109/MEMB.2008.923958">Brain-Computer Interfaces Based on Visual Evoked Potentials</a><br><sub>Yijun Wang, Xiaorong Gao, Bo Hong, Chuan Jia, Shangkai Gao</sub></td>
+<td width="13%">2008<br>IEEE Engineering in Medicine and Biology Magazine<br>428 citations</td>
+<td width="30%">Positions Brain-Computer Interfaces Based on Visual Evoked Potentials within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (428); influential citation signal (22)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">22</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2004.841878">An improved P300-based brain-computer interface</a><br><sub>Hilit Serby, E. Yom-Tov, G. Inbar</sub></td>
+<td width="13%">2005<br>IEEE transactions on neural systems and rehabilitation engineering<br>426 citations</td>
+<td width="30%">Positions An improved P300-based brain-computer interface within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (426); influential citation signal (39); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">23</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2013.2270283">A Hybrid BCI System Combining P300 and SSVEP and Its Application to Wheelchair Control</a><br><sub>Yuanqing Li, Jiahui Pan, Fei Wang, Z. Yu</sub></td>
+<td width="13%">2013<br>IEEE Transactions on Biomedical Engineering<br>383 citations</td>
+<td width="30%">Positions A Hybrid BCI System Combining P300 and SSVEP and Its Application to Wheelchair Control within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (383); influential citation signal (20); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">24</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2009.2039495">BCI Demographics: How Many (and What Kinds of) People Can Use an SSVEP BCI?</a><br><sub>B. Allison, T. Luth, Diana Valbuena, Amir Teymourian, Ivan Volosyak, A. Graser</sub></td>
+<td width="13%">2010<br>IEEE transactions on neural systems and rehabilitation engineering<br>371 citations</td>
+<td width="30%">Positions BCI Demographics: How Many (and What Kinds of) People Can Use an SSVEP BCI? within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (371); influential citation signal (15); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">25</td>
+<td width="22%"><a href="https://doi.org/10.1142/S0129065714500130">Frequency Recognition in SSVEP-Based BCI using Multiset Canonical Correlation Analysis</a><br><sub>Yu Zhang, Guoxu Zhou, Jing Jin, Xingyu Wang, A. Cichocki</sub></td>
+<td width="13%">2013<br>International Journal of Neural Systems<br>362 citations</td>
+<td width="30%">Canonical correlation analysis (CCA) has been one of the most popular methods for frequency recognition in steady-state visual evoked potential (SSVEP)-based brain-computer interfaces (BCIs).</td>
+<td width="15%">high citation signal (362); influential citation signal (32); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">26</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.CLINPH.2005.07.024">P300-based brain computer interface: reliability and performance in healthy and paralysed participants.</a><br><sub>F. Piccione, F. Giorgi, Paolo Tonin, K. Priftis, S. Giove, S. Silvoni, et al.</sub></td>
+<td width="13%">2006<br>Clinical Neurophysiology<br>362 citations</td>
+<td width="30%">Positions P300-based brain computer interface: reliability and performance in healthy and paralysed participants. within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (362); influential citation signal (14)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">27</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.CLINPH.2007.09.121">Towards an independent brain-computer interface using steady state visual evoked potentials.</a><br><sub>B. Allison, D. McFarland, G. Schalk, S. Zheng, M. Jackson, J. Wolpaw</sub></td>
+<td width="13%">2008<br>Clinical Neurophysiology<br>353 citations</td>
+<td width="30%">Positions Towards an independent brain-computer interface using steady state visual evoked potentials. within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (353); influential citation signal (23); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">28</td>
+<td width="22%"><a href="https://doi.org/10.1371/journal.pone.0140703">A Comparison Study of Canonical Correlation Analysis Based Methods for Detecting Steady-State Visual Evoked Potentials</a><br><sub>M. Nakanishi, Yijun Wang, Yu-Te Wang, T. Jung, D. Yao</sub></td>
+<td width="13%">2015<br>PLoS ONE<br>351 citations</td>
+<td width="30%">Canonical correlation analysis (CCA) has been widely used in the detection of the steady-state visual evoked potentials (SSVEPs) in brain-computer interfaces (BCIs).</td>
+<td width="15%">high citation signal (351); influential citation signal (61); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">29</td>
+<td width="22%"><a href="https://doi.org/10.1111/j.1469-8986.2008.00783.x">An auditory oddball (P300) spelling system for brain-computer interfaces.</a><br><sub>A. Furdea, Sebastian Halder, D. Krusienski, D. Bross, F. Nijboer, N. Birbaumer, et al.</sub></td>
+<td width="13%">2009<br>Psychophysiology<br>345 citations</td>
+<td width="30%">Positions An auditory oddball (P300) spelling system for brain-computer interfaces. within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (345); influential citation signal (29); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">30</td>
+<td width="22%"><a href="https://doi.org/10.1111/j.1749-6632.2008.04122.x">A Brain–Computer Interface Controlled Auditory Event‐Related Potential (P300) Spelling System for Locked‐In Patients</a><br><sub>A. Kübler, A. Furdea, Sebastian Halder, E. Hammer, F. Nijboer, B. Kotchoubey</sub></td>
+<td width="13%">2009<br>Annals of the New York Academy of Sciences<br>333 citations</td>
+<td width="30%">Positions A Brain–Computer Interface Controlled Auditory Event‐Related Potential (P300) Spelling System for Locked‐In Patients within SSVEP, P300, and ERP Spellers.</td>
+<td width="15%">high citation signal (333); influential citation signal (13); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td colspan="6">See the website and taxonomy CSV for all 391 papers.</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+### EEG Signal Processing and Datasets
+
+- Papers selected: **265**
+- Years covered: **2000-2026**
+- Citation count in selected set: **28,640**
+- Main research trends:
+  - This taxonomy emphasizes reproducible preprocessing, artifact handling, channel selection, spatial filtering, and benchmark datasets for EEG-based BCI.
+  - The field is gradually shifting from isolated algorithm papers toward shared datasets, standardized evaluation, and metadata-aware comparisons.
+  - Hybrid EEG/fNIRS, transfer learning, and open benchmark resources are recurring themes for improving generalization and clinical relevance.
+
+<details>
+<summary>Show representative papers for EEG Signal Processing and Datasets</summary>
+
+<table width="100%">
+<colgroup>
+<col width="5%">
+<col width="22%">
+<col width="13%">
+<col width="30%">
+<col width="15%">
+<col width="15%">
+</colgroup>
+<thead>
+<tr>
+<th align="right">Rank</th>
+<th>Paper</th>
+<th>Meta</th>
+<th>Key idea</th>
+<th>Strengths</th>
+<th>Limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right" width="5%">1</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2010.2082539">Regularizing Common Spatial Patterns to Improve BCI Designs: Unified Theory and New Algorithms</a><br><sub>F. Lotte, Cuntai Guan</sub></td>
+<td width="13%">2011<br>IEEE Transactions on Biomedical Engineering<br>1,028 citations</td>
+<td width="30%">One of the most popular feature extraction algorithms for brain-computer interfaces (BCI) is common spatial patterns (CSPs).</td>
+<td width="15%">high citation signal (1,028); influential citation signal (114); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">2</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2004.826692">The BCI competition 2003: progress and perspectives in detection and discrimination of EEG single trials</a><br><sub>B. Blankertz, K. Müller, G. Curio, T. Vaughan, G. Schalk, J. Wolpaw, et al.</sub></td>
+<td width="13%">2004<br>IEEE Transactions on Biomedical Engineering<br>727 citations</td>
+<td width="30%">Positions The BCI competition 2003: progress and perspectives in detection and discrimination of EEG single trials within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (727); influential citation signal (56); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">3</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.CLINPH.2006.10.019">EMG and EOG artifacts in brain computer interface systems: A survey.</a><br><sub>Mehrdad Fatourechi, Ali Bashashati, R. Ward, G. Birch</sub></td>
+<td width="13%">2007<br>Clinical Neurophysiology<br>665 citations</td>
+<td width="30%">Positions EMG and EOG artifacts in brain computer interface systems: A survey. within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (665); influential citation signal (43)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">4</td>
+<td width="22%"><a href="https://doi.org/10.1155/2011/130714">EEGLAB, SIFT, NFT, BCILAB, and ERICA: New Tools for Advanced EEG Processing</a><br><sub>A. Delorme, T. Mullen, C. Kothe, Z. Acar, Nima Bigdely Shamlo, A. Vankov, et al.</sub></td>
+<td width="13%">2011<br>Computational Intelligence and Neuroscience<br>654 citations</td>
+<td width="30%">We describe a set of complementary EEG data collection and processing tools recently developed at the Swartz Center for Computational Neuroscience (SCCN) that connect to and extend the EEGLAB software environment, a freely available and readily extensible processing environment running under Matlab.</td>
+<td width="15%">high citation signal (654); influential citation signal (51); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">5</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/48fac6ee86f7cf8788acd2da8155a8dd47aa59fb">Enhanced performance by a hybrid NIRS – EEG brain computer interface</a><br><sub>S. Fazli, J. Mehnert, J. Steinbrink, G. Curio, A. Villringer, K. Müller, et al.</sub></td>
+<td width="13%">2011<br>Unknown venue<br>584 citations</td>
+<td width="30%">Positions Enhanced performance by a hybrid NIRS – EEG brain computer interface within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (584); influential citation signal (35)</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">6</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2003.814481">How many people are able to operate an EEG-based brain-computer interface (BCI)?</a><br><sub>C. Guger, G. Edlinger, W. Harkam, I. Niedermayer, G. Pfurtscheller</sub></td>
+<td width="13%">2003<br>IEEE transactions on neural systems and rehabilitation engineering<br>559 citations</td>
+<td width="30%">Positions How many people are able to operate an EEG-based brain-computer interface (BCI)? within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (559); influential citation signal (34); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">7</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/3/1/R02">Towards adaptive classification for BCI</a><br><sub>P. Shenoy, M. Krauledat, B. Blankertz, Rajesh P. N. Rao, K. Müller</sub></td>
+<td width="13%">2006<br>Journal of Neural Engineering<br>483 citations</td>
+<td width="30%">Positions Towards adaptive classification for BCI within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (483); influential citation signal (33); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">8</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.NEUCOM.2012.12.039">Classification of covariance matrices using a Riemannian-based kernel for BCI applications</a><br><sub>A. Barachant, S. Bonnet, M. Congedo, C. Jutten</sub></td>
+<td width="13%">2013<br>Neurocomputing<br>482 citations</td>
+<td width="30%">Positions Classification of covariance matrices using a Riemannian-based kernel for BCI applications within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (482); influential citation signal (43); open-access PDF metadata</td>
 <td width="15%">abstract unavailable in metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">9</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnins.2023.1345961">Brain-computer interface paradigms and neural coding</a><br><sub>Pengrui Tai, Peng Ding, Fan Wang, Anmin Gong, Tianwen Li, Lei Zhao, et al.</sub></td>
-<td width="13%">2024<br>Frontiers in Neuroscience<br>27 citations</td>
-<td width="30%">Brain signal patterns generated in the central nervous system of brain-computer interface (BCI) users are closely related to BCI paradigms and neural coding.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="22%"><a href="https://doi.org/10.1016/S0278-2626(03)00036-8">Learning to control brain activity: a review of the production and control of EEG components for driving brain-computer interface (BCI) systems.</a><br><sub>Eleanor Curran, M. Stokes</sub></td>
+<td width="13%">2003<br>Brain and Cognition<br>448 citations</td>
+<td width="30%">Positions Learning to control brain activity: a review of the production and control of EEG components for driving brain-computer interface (BCI) systems. within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (448); influential citation signal (14); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">10</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2011.2131142">Optimizing the Channel Selection and Classification Accuracy in EEG-Based BCI</a><br><sub>M. Arvaneh, Cuntai Guan, K. Ang, Hiok Chai Quek</sub></td>
+<td width="13%">2011<br>IEEE Transactions on Biomedical Engineering<br>435 citations</td>
+<td width="30%">Positions Optimizing the Channel Selection and Classification Accuracy in EEG-Based BCI within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (435); influential citation signal (36); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">11</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnbot.2020.00025">Current Status, Challenges, and Possible Solutions of EEG-Based Brain-Computer Interface: A Comprehensive Review</a><br><sub>M. Rashid, N. Sulaiman, A. P. Majeed, R. Musa, A. Nasir, Bifta Sama Bari, et al.</sub></td>
+<td width="13%">2020<br>Frontiers in Neurorobotics<br>420 citations</td>
+<td width="30%">Brain-Computer Interface (BCI), in essence, aims at controlling different assistive devices through the utilization of brain waves.</td>
+<td width="15%">high citation signal (420); influential citation signal (18); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">12</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/08f7fb99edd844aac90fccfa51f5d55cbdf15cbd">EURASIP Journal on Applied Signal Processing 2005:19, 3156–3164 c ○ 2005 Hindawi Publishing Corporation Steady-State VEP-Based Brain-Computer Interface Control in an Immersive 3D Gaming Environment</a><br><sub>Unknown authors</sub></td>
+<td width="13%">2004<br>Unknown venue<br>408 citations</td>
+<td width="30%">Positions EURASIP Journal on Applied Signal Processing 2005:19, 3156–3164 c ○ 2005 Hindawi Publishing Corporation Steady-State VEP-Based Brain-Computer Interface Control in an Immersive 3D Gaming Environment within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (408); influential citation signal (19)</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">13</td>
+<td width="22%"><a href="https://doi.org/10.1109/86.895947">Real-time EEG analysis with subject-specific spatial patterns for a brain-computer interface (BCI).</a><br><sub>C. Guger, H. Ramoser, G. Pfurtscheller</sub></td>
+<td width="13%">2000<br>IEEE transactions on rehabilitation engineering<br>407 citations</td>
+<td width="30%">Positions Real-time EEG analysis with subject-specific spatial patterns for a brain-computer interface (BCI). within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (407); influential citation signal (12); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">14</td>
+<td width="22%"><a href="https://doi.org/10.1080/2326263X.2017.1297192">Riemannian geometry for EEG-based brain-computer interfaces; a primer and a review</a><br><sub>M. Congedo, A. Barachant, R. Bhatia</sub></td>
+<td width="13%">2017<br>Unknown venue<br>404 citations</td>
+<td width="30%">Positions Riemannian geometry for EEG-based brain-computer interfaces; a primer and a review within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (404); influential citation signal (32); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">15</td>
+<td width="22%"><a href="https://doi.org/10.1186/1743-0003-8-24">Brain-computer interfacing using modulations of alpha activity induced by covert shifts of attention</a><br><sub>M. Treder, Ali Bahramisharif, Nico M. Schmidt, Marcel A J van Gerven, B. Blankertz</sub></td>
+<td width="13%">2011<br>Journal of NeuroEngineering and Rehabilitation<br>366 citations</td>
+<td width="30%">BackgroundVisual brain-computer interfaces (BCIs) often yield high performance only when targets are fixated with the eyes.</td>
+<td width="15%">high citation signal (366); influential citation signal (21); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">16</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.MEASUREMENT.2007.07.007">EEG feature extraction based on wavelet packet decomposition for brain computer interface</a><br><sub>Wu Ting, Guo-zheng Yan, Banghua Yang, Sun Hong</sub></td>
+<td width="13%">2008<br>Unknown venue<br>366 citations</td>
+<td width="30%">Positions EEG feature extraction based on wavelet packet decomposition for brain computer interface within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (366); influential citation signal (12)</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">17</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2006.875557">The Berlin brain-computer interface: EEG-based communication without subject training</a><br><sub>B. Blankertz, G. Dornhege, M. Krauledat, K. Müller, V. Kunzmann, F. Losch, et al.</sub></td>
+<td width="13%">2006<br>IEEE transactions on neural systems and rehabilitation engineering<br>361 citations</td>
+<td width="30%">Positions The Berlin brain-computer interface: EEG-based communication without subject training within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (361); influential citation signal (23); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">18</td>
+<td width="22%"><a href="https://doi.org/10.1109/7333.918276">Rapid prototyping of an EEG-based brain-computer interface (BCI)</a><br><sub>C. Guger, A. Schlögl, C. Neuper, D. Walterspacher, Thomas Strein, G. Pfurtscheller</sub></td>
+<td width="13%">2001<br>IEEE transactions on neural systems and rehabilitation engineering<br>344 citations</td>
+<td width="30%">Positions Rapid prototyping of an EEG-based brain-computer interface (BCI) within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (344); influential citation signal (14); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">19</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.neunet.2009.07.020">Time Domain Parameters as a feature for EEG-based Brain-Computer Interfaces</a><br><sub>C. Vidaurre, Nicole Krämer, B. Blankertz, A. Schlögl</sub></td>
+<td width="13%">2009<br>Neural Networks<br>319 citations</td>
+<td width="30%">Positions Time Domain Parameters as a feature for EEG-based Brain-Computer Interfaces within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (319); influential citation signal (14); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">20</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2010.2082540">Regularized Common Spatial Pattern With Aggregation for EEG Classification in Small-Sample Setting</a><br><sub>Haiping Lu, H. Eng, Cuntai Guan, K. Plataniotis, A. Venetsanopoulos</sub></td>
+<td width="13%">2010<br>IEEE Transactions on Biomedical Engineering<br>315 citations</td>
+<td width="30%">Common spatial pattern (CSP) is a popular algorithm for classifying electroencephalogram (EEG) signals in the context of brain-computer interfaces (BCIs).</td>
+<td width="15%">high citation signal (315); influential citation signal (23); recognized venue</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">21</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.bspc.2016.09.005">Trends in EEG-BCI for daily-life: Requirements for artifact removal</a><br><sub>Jesús Minguillón, M. A. Lopez-Gordo, F. Pelayo</sub></td>
+<td width="13%">2017<br>Biomedical Signal Processing and Control<br>269 citations</td>
+<td width="30%">Positions Trends in EEG-BCI for daily-life: Requirements for artifact removal within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (269); influential citation signal (10)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">22</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/8/2/025008">Bristle-sensors—low-cost flexible passive dry EEG electrodes for neurofeedback and BCI applications</a><br><sub>C. Grozea, C. Voinescu, S. Fazli</sub></td>
+<td width="13%">2011<br>Journal of Neural Engineering<br>261 citations</td>
+<td width="30%">Positions Bristle-sensors—low-cost flexible passive dry EEG electrodes for neurofeedback and BCI applications within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (261); recognized venue; open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">23</td>
+<td width="22%"><a href="https://doi.org/10.1371/journal.pone.0002967">Towards Zero Training for Brain-Computer Interfacing</a><br><sub>M. Krauledat, M. Tangermann, B. Blankertz, K. Müller</sub></td>
+<td width="13%">2008<br>PLoS ONE<br>255 citations</td>
+<td width="30%">Electroencephalogram (EEG) signals are highly subject-specific and vary considerably even between recording sessions of the same user within the same experimental paradigm.</td>
+<td width="15%">high citation signal (255); influential citation signal (15); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">24</td>
+<td width="22%"><a href="https://doi.org/10.1007/978-3-642-15995-4_78">Riemannian Geometry Applied to BCI Classification</a><br><sub>A. Barachant, S. Bonnet, M. Congedo, C. Jutten</sub></td>
+<td width="13%">2010<br>Latent Variable Analysis and Signal Separation<br>252 citations</td>
+<td width="30%">Positions Riemannian Geometry Applied to BCI Classification within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (252); influential citation signal (28); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">25</td>
+<td width="22%"><a href="https://doi.org/10.1080/10447318.2013.780869">EEG-Based Brain-Computer Interfaces: A Thorough Literature Survey</a><br><sub>Han-Jeong Hwang, Soyoun Kim, S. Choi, C. Im</sub></td>
+<td width="13%">2013<br>International journal of human computer interactions<br>249 citations</td>
+<td width="30%">Positions EEG-Based Brain-Computer Interfaces: A Thorough Literature Survey within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (249); influential citation signal (15)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">26</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2006.875637">BCI meeting 2005-workshop on BCI signal processing: feature extraction and translation</a><br><sub>D. McFarland, Charles Anderson, K. Müller, A. Schlögl, D. Krusienski</sub></td>
+<td width="13%">2006<br>IEEE transactions on neural systems and rehabilitation engineering<br>242 citations</td>
+<td width="30%">Positions BCI meeting 2005-workshop on BCI signal processing: feature extraction and translation within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (242); recognized venue; open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">27</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.eswa.2017.12.015">Multi-kernel extreme learning machine for EEG classification in brain-computer interfaces</a><br><sub>Yu Zhang, Yu Wang, Guoxu Zhou, Jing Jin, Bei Wang, Xingyu Wang, et al.</sub></td>
+<td width="13%">2018<br>Expert systems with applications<br>242 citations</td>
+<td width="30%">Positions Multi-kernel extreme learning machine for EEG classification in brain-computer interfaces within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (242)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">28</td>
+<td width="22%"><a href="https://doi.org/10.1007/s11831-021-09684-6">Review of Machine Learning Techniques for EEG Based Brain Computer Interface</a><br><sub>Swati Aggarwal, Nupur Chugh</sub></td>
+<td width="13%">2022<br>Archives of Computational Methods in Engineering<br>233 citations</td>
+<td width="30%">Positions Review of Machine Learning Techniques for EEG Based Brain Computer Interface within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (233)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">29</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.ins.2007.11.012">Classifying mental tasks based on features of higher-order statistics from EEG signals in brain-computer interface</a><br><sub>Shang-Ming Zhou, J. Q. Gan, F. Sepulveda</sub></td>
+<td width="13%">2008<br>Information Sciences<br>228 citations</td>
+<td width="30%">Positions Classifying mental tasks based on features of higher-order statistics from EEG signals in brain-computer interface within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (228); influential citation signal (10); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">30</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2012.2190299">Electroencephalography (EEG)-Based Brain–Computer Interface (BCI): A 2-D Virtual Wheelchair Control Based on Event-Related Desynchronization/Synchronization and State Control</a><br><sub>Dandan Huang, Kai Qian, D. Fei, Wenchuan Jia, Xuedong Chen, O. Bai</sub></td>
+<td width="13%">2012<br>IEEE transactions on neural systems and rehabilitation engineering<br>224 citations</td>
+<td width="30%">Positions Electroencephalography (EEG)-Based Brain–Computer Interface (BCI): A 2-D Virtual Wheelchair Control Based on Event-Related Desynchronization/Synchronization and State Control within EEG Signal Processing and Datasets.</td>
+<td width="15%">high citation signal (224); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td colspan="6">See the website and taxonomy CSV for all 265 papers.</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+### Invasive and Implantable Interfaces
+
+- Papers selected: **135**
+- Years covered: **2003-2026**
+- Citation count in selected set: **14,406**
+- Main research trends:
+  - Invasive BCI research is shifting toward high-bandwidth, stable, long-term decoding for movement, communication, and sensory feedback.
+  - Key engineering themes include wireless operation, power efficiency, signal longevity, surgical risk, and reliability outside tightly controlled laboratory sessions.
+  - Clinical translation is increasingly tied to home use, user safety, tactile feedback, speech decoding, and realistic functional tasks.
+
+<details>
+<summary>Show representative papers for Invasive and Implantable Interfaces</summary>
+
+<table width="100%">
+<colgroup>
+<col width="5%">
+<col width="22%">
+<col width="13%">
+<col width="30%">
+<col width="15%">
+<col width="15%">
+</colgroup>
+<thead>
+<tr>
+<th align="right">Rank</th>
+<th>Paper</th>
+<th>Meta</th>
+<th>Key idea</th>
+<th>Strengths</th>
+<th>Limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right" width="5%">1</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.NEUROIMAGE.2007.01.051">The non-invasive Berlin Brain-Computer Interface: Fast acquisition of effective performance in untrained subjects</a><br><sub>B. Blankertz, G. Dornhege, M. Krauledat, K. Müller, G. Curio</sub></td>
+<td width="13%">2007<br>NeuroImage<br>1,003 citations</td>
+<td width="30%">Positions The non-invasive Berlin Brain-Computer Interface: Fast acquisition of effective performance in untrained subjects within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (1,003); influential citation signal (50); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">2</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.clinph.2008.06.001">A brain-actuated wheelchair: asynchronous and non-invasive Brain-computer interfaces for continuous control of robots.</a><br><sub>F. Galán, F. Galán, M. Nuttin, Eileen Lew, P. Ferrez, G. Vanacker, et al.</sub></td>
+<td width="13%">2008<br>Clinical Neurophysiology<br>703 citations</td>
+<td width="30%">Positions A brain-actuated wheelchair: asynchronous and non-invasive Brain-computer interfaces for continuous control of robots. within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (703); influential citation signal (28); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">3</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/10/6/066014">Failure mode analysis of silicon-based intracortical microelectrode arrays in non-human primates</a><br><sub>James C. Barrese, Naveen G. Rao, Kaivon Paroo, C. Triebwasser, C. Vargas-Irwin, Lachlan Franquemont, et al.</sub></td>
+<td width="13%">2013<br>Journal of Neural Engineering<br>569 citations</td>
+<td width="30%">Positions Failure mode analysis of silicon-based intracortical microelectrode arrays in non-human primates within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (569); influential citation signal (35); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">4</td>
+<td width="22%"><a href="https://doi.org/10.1016/S0079-6123(06)59019-3">High-frequency gamma oscillations and human brain mapping with electrocorticography.</a><br><sub>N. Crone, A. Sinai, Anna Korzeniewska</sub></td>
+<td width="13%">2006<br>Progress in Brain Research<br>507 citations</td>
+<td width="30%">Positions High-frequency gamma oscillations and human brain mapping with electrocorticography. within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (507); influential citation signal (20); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">5</td>
+<td width="22%"><a href="https://doi.org/10.1056/NEJMoa1608085">Fully Implanted Brain-Computer Interface in a Locked-In Patient with ALS.</a><br><sub>M. Vansteensel, Elmar G. M. Pels, M. Bleichner, M. Branco, T. Denison, Z. Freudenburg, et al.</sub></td>
+<td width="13%">2016<br>New England Journal of Medicine<br>490 citations</td>
+<td width="30%">Positions Fully Implanted Brain-Computer Interface in a Locked-In Patient with ALS. within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (490); influential citation signal (20); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">6</td>
+<td width="22%"><a href="https://doi.org/10.1109/JSSC.2014.2364824">A Minimally Invasive 64-Channel Wireless μECoG Implant</a><br><sub>R. Muller, Hanh-Phuc Le, Wen Li, P. Ledochowitsch, S. Gambini, T. Björninen, et al.</sub></td>
+<td width="13%">2015<br>IEEE Journal of Solid-State Circuits<br>352 citations</td>
+<td width="30%">Emerging applications in brain-machine interface systems require high-resolution, chronic multisite cortical recordings, which cannot be obtained with existing technologies due to high power consumption, high invasiveness, or inability to transmit data wirelessly.</td>
+<td width="15%">high citation signal (352); influential citation signal (24); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">7</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.brainresbull.2008.01.007">Non-invasive brain-computer interface system: towards its application as assistive technology.</a><br><sub>F. Cincotti, D. Mattia, F. Aloise, S. Bufalari, G. Schalk, G. Oriolo, et al.</sub></td>
+<td width="13%">2008<br>Brain Research Bulletin<br>339 citations</td>
+<td width="30%">Positions Non-invasive brain-computer interface system: towards its application as assistive technology. within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (339); recognized venue; open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">8</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnhum.2013.00568">Flaws in current human training protocols for spontaneous Brain-Computer Interfaces: lessons learned from instructional design</a><br><sub>F. Lotte, F. Larrue, C. Mühl</sub></td>
+<td width="13%">2013<br>Frontiers in Human Neuroscience<br>302 citations</td>
+<td width="30%">While recent research on Brain-Computer Interfaces (BCI) has highlighted their potential for many applications, they remain barely used outside laboratories.</td>
+<td width="15%">high citation signal (302); influential citation signal (24); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">9</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnins.2014.00208">Errare machinale est: the use of error-related potentials in brain-machine interfaces</a><br><sub>Ricardo Chavarriaga, A. Sobolewski, J. Millán</sub></td>
+<td width="13%">2014<br>Frontiers in Neuroscience<br>289 citations</td>
+<td width="30%">The ability to recognize errors is crucial for efficient behavior.</td>
+<td width="15%">high citation signal (289); influential citation signal (33); recognized venue</td>
 <td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
 <td align="right" width="5%">10</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.hest.2025.09.002">Application and future directions of brain-computer interfaces in neurological disorders: Technological advances, clinical practices, and challenges</a><br><sub>Qiao Deng, Zhuang Fu, Nai Ma, Boding Wang</sub></td>
-<td width="13%">2025<br>Brain Hemorrhages<br>10 citations</td>
-<td width="30%">Positions Application and future directions of brain-computer interfaces in neurological disorders: Technological advances, clinical practices, and challenges within General BCI Methods and Systems.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2010.2053387">Learning From EEG Error-Related Potentials in Noninvasive Brain-Computer Interfaces</a><br><sub>Ricardo Chavarriaga, J. del R. Millán</sub></td>
+<td width="13%">2010<br>IEEE transactions on neural systems and rehabilitation engineering<br>275 citations</td>
+<td width="30%">We describe error-related potentials generated while a human user monitors the performance of an external agent and discuss their use for a new type of brain-computer interaction.</td>
+<td width="15%">high citation signal (275); influential citation signal (42); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
 <td align="right" width="5%">11</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.bspc.2025.108904">Brain-computer interfaces for memory enhancement: Scientometric analysis and future directions</a><br><sub>M. Kapsetaki</sub></td>
-<td width="13%">2026<br>Biomedical Signal Processing and Control<br>2 citations</td>
-<td width="30%">Positions Brain-computer interfaces for memory enhancement: Scientometric analysis and future directions within General BCI Methods and Systems.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.biomaterials.2013.03.007">The impact of chronic blood-brain barrier breach on intracortical electrode function.</a><br><sub>Tarun Saxena, Lohitash Karumbaiah, Eric A Gaupp, Radhika Patkar, K. Patil, Martha I. Betancur, et al.</sub></td>
+<td width="13%">2013<br>Biomaterials<br>265 citations</td>
+<td width="30%">Positions The impact of chronic blood-brain barrier breach on intracortical electrode function. within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (265); influential citation signal (12)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">12</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.bspc.2025.109025">Recursive sample weighted - N-way partial least squares for brain-computer interface decoder online learning with class imbalance</a><br><sub>Rémi Souriau, Félix Martel, T. Aksenova</sub></td>
-<td width="13%">2026<br>Biomedical Signal Processing and Control<br>3 citations</td>
-<td width="30%">Positions Recursive sample weighted - N-way partial least squares for brain-computer interface decoder online learning with class imbalance within General BCI Methods and Systems.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
+<td width="22%"><a href="https://doi.org/10.3390/APP7121239">Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review</a><br><sub>Abeer Al-Nafjan, M. Hosny, Y. Al-Ohali, A. Al-Wabil</sub></td>
+<td width="13%">2017<br>Unknown venue<br>260 citations</td>
+<td width="30%">Recent developments and studies in brain-computer interface (BCI) technologies have facilitated emotion detection and classification.</td>
+<td width="15%">high citation signal (260); influential citation signal (15); open-access PDF metadata</td>
+<td width="15%">venue missing in metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">13</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnhum.2026.1777024">Brain-computer interface: an update for the clinicians</a><br><sub>Agam Jain, Sreelakshmi Raveendran, K. P. S. Nair, S. Ramakrishnan</sub></td>
-<td width="13%">2026<br>Frontiers in Human Neuroscience<br>0 citations</td>
-<td width="30%">This narrative review critically examines the fundamental principles and clinical applications of Brain-Computer Interfaces (BCIs) in neuroscience and mental health.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
+<td width="22%"><a href="https://doi.org/10.7554/eLife.32904">Proprioceptive and cutaneous sensations in humans elicited by intracortical microstimulation</a><br><sub>M. Armenta Salas, L. Bashford, S. Kellis, M. Jafari, HyeongChan Jo, Daniel R. Kramer, et al.</sub></td>
+<td width="13%">2018<br>eLife<br>228 citations</td>
+<td width="30%">Pioneering work with nonhuman primates and recent human studies established intracortical microstimulation (ICMS) in primary somatosensory cortex (S1) as a method of inducing discriminable artificial sensation.</td>
+<td width="15%">high citation signal (228); recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
 <td align="right" width="5%">14</td>
-<td width="22%"><a href="https://doi.org/10.3390/proceedings2026137124">A Systematic Review of Neuroplasticity Induced by Brain–Computer Interface Combined with Virtual Reality (BCI-VR)</a><br><sub>Maria F. C. Goulart, Victor I. Maciel, Isabele C. Mortari, Sávio C. Souza, Rafaela T. Cruvinel, R. Bernardes, et al.</sub></td>
-<td width="13%">2026<br>The 6th International Congress on Health Innovation&amp;amp;mdash;INOVATEC 2025<br>1 citations</td>
-<td width="30%">Positions A Systematic Review of Neuroplasticity Induced by Brain–Computer Interface Combined with Virtual Reality (BCI-VR) within General BCI Methods and Systems.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
+<td width="22%"><a href="https://doi.org/10.1152/jn.00104.2011">Neural decoding of treadmill walking from noninvasive electroencephalographic signals.</a><br><sub>A. Presacco, Ronald N. Goodman, L. Forrester, J. Contreras-Vidal</sub></td>
+<td width="13%">2011<br>Journal of Neurophysiology<br>206 citations</td>
+<td width="30%">Positions Neural decoding of treadmill walking from noninvasive electroencephalographic signals. within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (206); influential citation signal (14); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">15</td>
+<td width="22%"><a href="https://doi.org/10.1007/978-1-4471-6584-2_7">A Tutorial on EEG Signal Processing Techniques for Mental State Recognition in Brain-Computer Interfaces</a><br><sub>F. Lotte</sub></td>
+<td width="13%">2014<br>Unknown venue<br>198 citations</td>
+<td width="30%">Positions A Tutorial on EEG Signal Processing Techniques for Mental State Recognition in Brain-Computer Interfaces within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (198); influential citation signal (15)</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">16</td>
+<td width="22%"><a href="https://doi.org/10.2307/j.ctt9qh0x7.26">Neural Dust: An Ultrasonic, Low Power Solution for Chronic Brain-Machine Interfaces</a><br><sub>D. Seo, J. Carmena, J. Rabaey, E. Alon, M. Maharbiz</sub></td>
+<td width="13%">2013<br>Unknown venue<br>197 citations</td>
+<td width="30%">zJoint senior authors A major hurdle in brain-machine interfaces (BMI) is the lack of an implantable neural interface system that remains viable for a lifetime.</td>
+<td width="15%">high citation signal (197); influential citation signal (13)</td>
+<td width="15%">venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">17</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/e075fb346b31e19296537664f3a137dde765eb93">Methods Towards Invasive Human Brain Computer Interfaces</a><br><sub>T. N. Lal, T. Hinterberger, G. Widman, M. Schröder, J. Hill, W. Rosenstiel, et al.</sub></td>
+<td width="13%">2004<br>Neural Information Processing Systems<br>197 citations</td>
+<td width="30%">Positions Methods Towards Invasive Human Brain Computer Interfaces within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (197); influential citation signal (11)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">18</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2006.875570">ECoG factors underlying multimodal control of a brain-computer interface</a><br><sub>J. A. Wilson, Elizabeth A Felton, P. C. Garell, G. Schalk, Justin C. Williams</sub></td>
+<td width="13%">2006<br>IEEE transactions on neural systems and rehabilitation engineering<br>191 citations</td>
+<td width="30%">Positions ECoG factors underlying multimodal control of a brain-computer interface within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (191); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">19</td>
+<td width="22%"><a href="https://doi.org/10.1038/srep33526">Flexible Neural Electrode Array Based-on Porous Graphene for Cortical Microstimulation and Sensing</a><br><sub>Yichen Lu, H. Lyu, Andrew G. Richardson, T. Lucas, D. Kuzum</sub></td>
+<td width="13%">2016<br>Scientific Reports<br>185 citations</td>
+<td width="30%">Neural sensing and stimulation have been the backbone of neuroscience research, brain-machine interfaces and clinical neuromodulation therapies for decades.</td>
+<td width="15%">high citation signal (185); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">20</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.jphysparis.2011.08.003">Spelling with non-invasive Brain-Computer Interfaces--current and future trends.</a><br><sub>H. Cecotti</sub></td>
+<td width="13%">2011<br>Journal of Physiology - Paris<br>181 citations</td>
+<td width="30%">Positions Spelling with non-invasive Brain-Computer Interfaces--current and future trends. within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (181)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">21</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/9/2/026027">A recurrent neural network for closed-loop intracortical brain–machine interface decoders</a><br><sub>David Sussillo, Paul Nuyujukian, Joline M. Fan, J. Kao, S. Stavisky, S. Ryu, et al.</sub></td>
+<td width="13%">2012<br>Journal of Neural Engineering<br>176 citations</td>
+<td width="30%">Positions A recurrent neural network for closed-loop intracortical brain–machine interface decoders within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (176); influential citation signal (12); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">22</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2004.838443">Phase synchronization for the recognition of mental tasks in a brain-computer interface</a><br><sub>E. Gysels, P. Celka</sub></td>
+<td width="13%">2004<br>IEEE transactions on neural systems and rehabilitation engineering<br>175 citations</td>
+<td width="30%">Positions Phase synchronization for the recognition of mental tasks in a brain-computer interface within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (175); influential citation signal (12); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">23</td>
+<td width="22%"><a href="https://doi.org/10.1038/s41467-021-27725-3">Imagined speech can be decoded from low- and cross-frequency intracranial EEG features</a><br><sub>Timothée Proix, Jaime F. Delgado Saa, Andy Christen, Stéphanie Martin, Brian N. Pasley, R. Knight, et al.</sub></td>
+<td width="13%">2022<br>Nature Communications<br>175 citations</td>
+<td width="30%">Reconstructing intended speech from neural activity using brain-computer interfaces holds great promises for people with severe speech production deficits.</td>
+<td width="15%">high citation signal (175); influential citation signal (10); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">24</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/8/2/025002">Critical issues in state-of-the-art brain–computer interface signal processing</a><br><sub>D. Krusienski, M. Grosse-Wentrup, F. Galán, D. Coyle, K. Miller, E. Forney, et al.</sub></td>
+<td width="13%">2011<br>Journal of Neural Engineering<br>175 citations</td>
+<td width="30%">This paper reviews several critical issues facing signal processing for brain–computer interfaces (BCIs) and suggests several recent approaches that should be further examined.</td>
+<td width="15%">high citation signal (175); recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">25</td>
+<td width="22%"><a href="https://doi.org/10.1109/JSSC.2011.2108770">A Battery-Powered Activity-Dependent Intracortical Microstimulation IC for Brain-Machine-Brain Interface</a><br><sub>M. Azin, D. Guggenmos, S. Barbay, R. Nudo, P. Mohseni</sub></td>
+<td width="13%">2011<br>IEEE Journal of Solid-State Circuits<br>172 citations</td>
+<td width="30%">Positions A Battery-Powered Activity-Dependent Intracortical Microstimulation IC for Brain-Machine-Brain Interface within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (172)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">26</td>
+<td width="22%"><a href="https://doi.org/10.48550/arXiv.2308.13234">Decoding Natural Images from EEG for Object Recognition</a><br><sub>Yonghao Song, Bingchuan Liu, Xiang Li, Nanlin Shi, Yijun Wang, Xiaorong Gao</sub></td>
+<td width="13%">2023<br>International Conference on Learning Representations<br>147 citations</td>
+<td width="30%">Electroencephalography (EEG) signals, known for convenient non-invasive acquisition but low signal-to-noise ratio, have recently gained substantial attention due to the potential to decode natural images.</td>
+<td width="15%">high citation signal (147); influential citation signal (41); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">27</td>
+<td width="22%"><a href="https://arxiv.org/abs/1905.04149">A Survey on Deep Learning based Brain Computer Interface: Recent Advances and New Frontiers</a><br><sub>Xiang Zhang, Lina Yao, Xianzhi Wang, Jessica J. M. Monaghan, D. McAlpine</sub></td>
+<td width="13%">2019<br>arXiv.org<br>147 citations</td>
+<td width="30%">Brain-Computer Interface (BCI) bridges the human&#x27;s neural world and the outer physical world by decoding individuals&#x27; brain signals into commands recognizable by computer devices.</td>
+<td width="15%">high citation signal (147)</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">28</td>
+<td width="22%"><a href="https://doi.org/10.1109/IS.2018.8710576">A Study on Mental State Classification using EEG-based Brain-Machine Interface</a><br><sub>Jordan J. Bird, Luis J. Manso, E. P. Ribeiro, Anikó Ekárt, D. Faria</sub></td>
+<td width="13%">2018<br>2018 International Conference on Intelligent Systems (IS)<br>143 citations</td>
+<td width="30%">This work aims to find discriminative EEG-based features and appropriate classification methods that can categorise brainwave patterns based on their level of activity or frequency for mental state recognition useful for human-machine interaction.</td>
+<td width="15%">high citation signal (143); influential citation signal (15)</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">29</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/4f73e04a88b1a2093c300b071650cecd96a7954d">Playing Pinball with non-invasive BCI</a><br><sub>M. Tangermann, M. Krauledat, K. Grzeska, M. Sagebaum, B. Blankertz, C. Vidaurre, et al.</sub></td>
+<td width="13%">2008<br>Neural Information Processing Systems<br>143 citations</td>
+<td width="30%">Positions Playing Pinball with non-invasive BCI within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (143)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">30</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2552/aa9ee7">Rapid calibration of an intracortical brain–computer interface for people with tetraplegia</a><br><sub>D. M. Brandman, Tommy Hosman, J. Saab, Michael C. Burkhart, Benjamin E Shanahan, John G. Ciancibello, et al.</sub></td>
+<td width="13%">2018<br>Journal of Neural Engineering<br>137 citations</td>
+<td width="30%">Positions Rapid calibration of an intracortical brain–computer interface for people with tetraplegia within Invasive and Implantable Interfaces.</td>
+<td width="15%">high citation signal (137); recognized venue; open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td colspan="6">See the website and taxonomy CSV for all 135 papers.</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+### Rehabilitation and Neuroprosthetics
+
+- Papers selected: **87**
+- Years covered: **2000-2026**
+- Citation count in selected set: **11,970**
+- Main research trends:
+  - The dominant trend is integration of BCI with robotic gloves, exoskeletons, FES, VR, and task-oriented therapy for post-stroke and motor impairment rehabilitation.
+  - Studies increasingly ask whether BCI training transfers to activities of daily living rather than only improving offline decoding accuracy.
+  - Recent work points toward home-use, patient-centered protocols, multimodal feedback, and combined motor-cognitive-affective rehabilitation.
+
+<details>
+<summary>Show representative papers for Rehabilitation and Neuroprosthetics</summary>
+
+<table width="100%">
+<colgroup>
+<col width="5%">
+<col width="22%">
+<col width="13%">
+<col width="30%">
+<col width="15%">
+<col width="15%">
+</colgroup>
+<thead>
+<tr>
+<th align="right">Rank</th>
+<th>Paper</th>
+<th>Meta</th>
+<th>Key idea</th>
+<th>Strengths</th>
+<th>Limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right" width="5%">1</td>
+<td width="22%"><a href="https://doi.org/10.1016/S1474-4422(08)70223-0">Brain-computer interfaces in neurological rehabilitation.</a><br><sub>J. Daly, J. Wolpaw</sub></td>
+<td width="13%">2008<br>Lancet Neurology<br>1,144 citations</td>
+<td width="30%">Positions Brain-computer interfaces in neurological rehabilitation. within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (1,144); influential citation signal (33)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">2</td>
+<td width="22%"><a href="https://doi.org/10.3390/s120201211">Brain Computer Interfaces, a Review</a><br><sub>Luis F. Nicolás-Alonso, J. G. Gil</sub></td>
+<td width="13%">2012<br>Italian National Conference on Sensors<br>1,125 citations</td>
+<td width="30%">A brain-computer interface (BCI) is a hardware and software communications system that permits cerebral activity alone to control computers or external devices.</td>
+<td width="15%">high citation signal (1,125); influential citation signal (29); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">3</td>
+<td width="22%"><a href="https://doi.org/10.1161/STROKEAHA.107.505313">Think to Move: a Neuromagnetic Brain-Computer Interface (BCI) System for Chronic Stroke</a><br><sub>Ethan R. Buch, Cornelia Weber, L. Cohen, C. Braun, M. Dimyan, T. Ard, et al.</sub></td>
+<td width="13%">2008<br>Stroke<br>619 citations</td>
+<td width="30%">Positions Think to Move: a Neuromagnetic Brain-Computer Interface (BCI) System for Chronic Stroke within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (619); influential citation signal (34); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">4</td>
+<td width="22%"><a href="https://doi.org/10.1152/physrev.00027.2016">Brain-Machine Interfaces: From Basic Science to Neuroprostheses and Neurorehabilitation.</a><br><sub>M. Lebedev, M. Nicolelis</sub></td>
+<td width="13%">2017<br>Physiological Reviews<br>555 citations</td>
+<td width="30%">Positions Brain-Machine Interfaces: From Basic Science to Neuroprostheses and Neurorehabilitation. within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (555); influential citation signal (10)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">5</td>
+<td width="22%"><a href="https://doi.org/10.1038/srep38565">Noninvasive Electroencephalogram Based Control of a Robotic Arm for Reach and Grasp Tasks</a><br><sub>Jianjun Meng, Shuying Zhang, Angeliki Bekyo, Jaron Olsoe, Bryan S. Baxter, Bin He</sub></td>
+<td width="13%">2016<br>Scientific Reports<br>447 citations</td>
+<td width="30%">Brain-computer interface (BCI) technologies aim to provide a bridge between the human brain and external devices.</td>
+<td width="15%">high citation signal (447); influential citation signal (23); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">6</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnsys.2021.578875">Progress in Brain Computer Interface: Challenges and Opportunities</a><br><sub>S. Saha, K. Mamun, K. Ahmed, R. Mostafa, G. Naik, A. Khandoker, et al.</sub></td>
+<td width="13%">2019<br>Frontiers in Systems Neuroscience<br>328 citations</td>
+<td width="30%">Brain computer interfaces (BCI) provide a direct communication link between the brain and a computer or other external devices.</td>
+<td width="15%">high citation signal (328); influential citation signal (16); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">7</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.cobme.2017.11.004">EEG-Based Brain-Computer Interfaces</a><br><sub>D. McFarland, J. Wolpaw</sub></td>
+<td width="13%">2017<br>Current Opinion in Biomedical Engineering<br>317 citations</td>
+<td width="30%">Brain-Computer Interfaces (BCIs) are real-time computer-based systems that translate brain signals into useful commands.</td>
+<td width="15%">high citation signal (317); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">8</td>
+<td width="22%"><a href="https://doi.org/10.1038/s41586-023-06377-x">A high-performance speech neuroprosthesis</a><br><sub>Francis R. Willett, Erin M. Kunz, Chaofei Fan, Donald T. Avansino, G. Wilson, Eun Young Choi, et al.</sub></td>
+<td width="13%">2023<br>Nature<br>292 citations</td>
+<td width="30%">Speech brain–computer interfaces (BCIs) have the potential to restore rapid communication to people with paralysis by decoding neural activity evoked by attempted speech into text^ 1 , 2 or sound^ 3 , 4 .</td>
+<td width="15%">high citation signal (292); influential citation signal (20); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">9</td>
+<td width="22%"><a href="https://doi.org/10.1186/1743-0003-9-5">Gaming control using a wearable and wireless EEG-based brain-computer interface device with novel dry foam-based sensors</a><br><sub>Lun-De Liao, Chi-Yu Chen, I-Jan Wang, Sheng-Fu Chen, Shih-Yu Li, Bo-Wei Chen, et al.</sub></td>
+<td width="13%">2012<br>Journal of NeuroEngineering and Rehabilitation<br>270 citations</td>
+<td width="30%">A brain-computer interface (BCI) is a communication system that can help users interact with the outside environment by translating brain signals into machine commands.</td>
+<td width="15%">high citation signal (270); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">10</td>
+<td width="22%"><a href="https://doi.org/10.1152/jn.00918.2015">Efficient neuroplasticity induction in chronic stroke patients by an associative brain-computer interface.</a><br><sub>N. Mrachacz‐Kersting, N. Jiang, A. J. T. Stevenson, I. Niazi, V. Kostic, A. Pavlovic, et al.</sub></td>
+<td width="13%">2016<br>Journal of Neurophysiology<br>240 citations</td>
+<td width="30%">Positions Efficient neuroplasticity induction in chronic stroke patients by an associative brain-computer interface. within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (240); influential citation signal (14); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">11</td>
+<td width="22%"><a href="https://doi.org/10.1109/MC.2008.432">Rehabilitation with Brain-Computer Interface Systems</a><br><sub>G. Pfurtscheller, G. Müller-Putz, Reinhold Scherer, C. Neuper</sub></td>
+<td width="13%">2008<br>Computer<br>235 citations</td>
+<td width="30%">Positions Rehabilitation with Brain-Computer Interface Systems within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (235)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">12</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2010.2077654">EEG Control of a Virtual Helicopter in 3-Dimensional Space Using Intelligent Control Strategies</a><br><sub>Audrey S. Royer, A. Doud, Minn L. Rose, B. He</sub></td>
+<td width="13%">2010<br>IEEE transactions on neural systems and rehabilitation engineering<br>232 citations</td>
+<td width="30%">Films like Firefox, Surrogates, and Avatar have explored the possibilities of using brain-computer interfaces (BCIs) to control machines and replacement bodies with only thought.</td>
+<td width="15%">high citation signal (232); recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">13</td>
+<td width="22%"><a href="https://doi.org/10.1177/155005941104200410">Brain-Computer Interface in Stroke: A Review of Progress</a><br><sub>S. Silvoni, A. Ramos-Murguialday, M. Cavinato, C. Volpato, Giulia Cisotto, A. Turolla, et al.</sub></td>
+<td width="13%">2011<br>Clinical EEG and Neuroscience<br>227 citations</td>
+<td width="30%">Positions Brain-Computer Interface in Stroke: A Review of Progress within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (227); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">14</td>
+<td width="22%"><a href="https://doi.org/10.1109/TSMCC.2012.2226444">A New Gaze-BCI-Driven Control of an Upper Limb Exoskeleton for Rehabilitation in Real-World Tasks</a><br><sub>A. Frisoli, Claudio Loconsole, D. Leonardis, F. Banno, M. Barsotti, C. Chisari, et al.</sub></td>
+<td width="13%">2012<br>IEEE Transactions on Systems Man and Cybernetics Part C (Applications and Reviews)<br>219 citations</td>
+<td width="30%">Positions A New Gaze-BCI-Driven Control of an Upper Limb Exoskeleton for Rehabilitation in Real-World Tasks within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (219); influential citation signal (16); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">15</td>
+<td width="22%"><a href="https://doi.org/10.5626/JCSE.2013.7.2.139">Brain-Computer Interface in Stroke Rehabilitation</a><br><sub>K. Ang, Cuntai Guan</sub></td>
+<td width="13%">2013<br>Journal of Computing Science and Engineering<br>217 citations</td>
+<td width="30%">Positions Brain-Computer Interface in Stroke Rehabilitation within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (217); recognized venue; open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">16</td>
+<td width="22%"><a href="https://doi.org/10.1177/1545968310368683">Combination of Brain-Computer Interface Training and Goal-Directed Physical Therapy in Chronic Stroke: A Case Report</a><br><sub>D. Broetz, C. Braun, Cornelia Weber, S. Soekadar, A. Caria, N. Birbaumer</sub></td>
+<td width="13%">2010<br>Neurorehabilitation and Neural Repair<br>216 citations</td>
+<td width="30%">Positions Combination of Brain-Computer Interface Training and Goal-Directed Physical Therapy in Chronic Stroke: A Case Report within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (216); influential citation signal (13)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">17</td>
+<td width="22%"><a href="https://doi.org/10.1038/s41598-018-37359-z">Towards reconstructing intelligible speech from the human auditory cortex</a><br><sub>Hassan Akbari, B. Khalighinejad, J. Herrero, A. Mehta, N. Mesgarani</sub></td>
+<td width="13%">2018<br>Scientific Reports<br>210 citations</td>
+<td width="30%">Auditory stimulus reconstruction is a technique that finds the best approximation of the acoustic stimulus from the population of evoked neural activity.</td>
+<td width="15%">high citation signal (210); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">18</td>
+<td width="22%"><a href="https://doi.org/10.1109/MC.2008.409">Brain-Computer Interface Operation of Robotic and Prosthetic Devices</a><br><sub>D. McFarland, J. Wolpaw</sub></td>
+<td width="13%">2008<br>Computer<br>204 citations</td>
+<td width="30%">Positions Brain-Computer Interface Operation of Robotic and Prosthetic Devices within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (204)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">19</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/3759c8b09acff0ed5ed197794a6bc1eba67e9b3e">Journal of Neuroengineering and Rehabilitation Open Access a Brain-computer Interface with Vibrotactile Biofeedback for Haptic Information</a><br><sub>A. Chatterjee, V. Aggarwal, A. Ramos, S. Acharya, N. Thakor</sub></td>
+<td width="13%">2007<br>Unknown venue<br>201 citations</td>
+<td width="30%">Positions Journal of Neuroengineering and Rehabilitation Open Access a Brain-computer Interface with Vibrotactile Biofeedback for Haptic Information within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (201)</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">20</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.neunet.2009.05.009">Hemodynamic brain-computer interfaces for communication and rehabilitation</a><br><sub>R. Sitaram, A. Caria, N. Birbaumer</sub></td>
+<td width="13%">2009<br>Neural Networks<br>185 citations</td>
+<td width="30%">Positions Hemodynamic brain-computer interfaces for communication and rehabilitation within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (185); recognized venue; open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">21</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.artmed.2013.07.004">Hybrid brain-computer interfaces and hybrid neuroprostheses for restoration of upper limb functions in individuals with high-level spinal cord injury</a><br><sub>M. Rohm, M. Schneiders, C. Müller, A. Kreilinger, V. Kaiser, G. Müller-Putz, et al.</sub></td>
+<td width="13%">2013<br>Artif. Intell. Medicine<br>182 citations</td>
+<td width="30%">Positions Hybrid brain-computer interfaces and hybrid neuroprostheses for restoration of upper limb functions in individuals with high-level spinal cord injury within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (182); influential citation signal (12)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">22</td>
+<td width="22%"><a href="https://doi.org/10.1111/j.1469-8986.2010.01117.x">Chronic stroke recovery after combined BCI training and physiotherapy: a case report.</a><br><sub>A. Caria, Cornelia Weber, D. Brötz, A. Ramos, L. Ticini, A. Gharabaghi, et al.</sub></td>
+<td width="13%">2011<br>Psychophysiology<br>182 citations</td>
+<td width="30%">Positions Chronic stroke recovery after combined BCI training and physiotherapy: a case report. within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (182); influential citation signal (11)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">23</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.rehab.2014.09.016">Brain computer interfaces for neurorehabilitation – its current status as a rehabilitation strategy post-stroke.</a><br><sub>L. Dokkum, Tomas E. Ward, I. Laffont</sub></td>
+<td width="13%">2015<br>Annals of Physical and Rehabilitation Medicine<br>168 citations</td>
+<td width="30%">Positions Brain computer interfaces for neurorehabilitation – its current status as a rehabilitation strategy post-stroke. within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (168)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">24</td>
+<td width="22%"><a href="https://doi.org/10.1101/2023.12.26.23300110">An accurate and rapidly calibrating speech neuroprosthesis</a><br><sub>N. Card, M. Wairagkar, Carrina Iacobacci, Xianda Hou, Tyler Singer-Clark, Francis R. Willett, et al.</sub></td>
+<td width="13%">2023<br>medRxiv<br>143 citations</td>
+<td width="30%">Brain-computer interfaces (BCIs) can provide a rapid, intuitive way for people with paralysis to communicate by transforming the cortical activity associated with attempted speech into text.</td>
+<td width="15%">high citation signal (143); influential citation signal (26); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">25</td>
+<td width="22%"><a href="https://doi.org/10.1126/sciadv.1600889">Implantable microcoils for intracortical magnetic stimulation</a><br><sub>Seung Woo Lee, F. Fallegger, B. Casse, S. Fried</sub></td>
+<td width="13%">2016<br>Science Advances<br>139 citations</td>
+<td width="30%">Magnetic stimulation from cortically implantable microcoils can activate neuronal circuits with high selectivity and reliability.</td>
+<td width="15%">high citation signal (139); recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">26</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2006.875547">The neurochip BCI: towards a neural prosthesis for upper limb function</a><br><sub>Andrew Jackson, C. Moritz, J. Mavoori, Timothy H. Lucas, Eberhard E. Fetz</sub></td>
+<td width="13%">2006<br>IEEE transactions on neural systems and rehabilitation engineering<br>135 citations</td>
+<td width="30%">Positions The neurochip BCI: towards a neural prosthesis for upper limb function within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (135); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">27</td>
+<td width="22%"><a href="https://doi.org/10.3109/17483107.2014.961569">Application of BCI systems in neurorehabilitation: a scoping review</a><br><sub>M. Bamdad, Homayoon Zarshenas, M. Auais</sub></td>
+<td width="13%">2015<br>Disability and Rehabilitation: Assistive Technology<br>135 citations</td>
+<td width="30%">Positions Application of BCI systems in neurorehabilitation: a scoping review within Rehabilitation and Neuroprosthetics.</td>
+<td width="15%">high citation signal (135)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">28</td>
+<td width="22%"><a href="https://doi.org/10.1007/s12152-011-9132-6">The Asilomar Survey: Stakeholders’ Opinions on Ethical Issues Related to Brain-Computer Interfacing</a><br><sub>F. Nijboer, J. Clausen, B. Allison, Pim Haselager</sub></td>
+<td width="13%">2011<br>Neuroethics<br>132 citations</td>
+<td width="30%">Brain-Computer Interface (BCI) research and (future) applications raise important ethical issues that need to be addressed to promote societal acceptance and adequate policies.</td>
+<td width="15%">high citation signal (132); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">29</td>
+<td width="22%"><a href="https://doi.org/10.1152/jn.00493.2017">Stable long-term BCI-enabled communication in ALS and locked-in syndrome using LFP signals.</a><br><sub>T. Milekovic, Anish A. Sarma, D. Bacher, J. Simeral, J. Saab, C. Pandarinath, et al.</sub></td>
+<td width="13%">2018<br>Journal of Neurophysiology<br>127 citations</td>
+<td width="30%">Restoring communication for people with locked-in syndrome remains a challenging clinical problem without a reliable solution.</td>
+<td width="15%">high citation signal (127); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">30</td>
+<td width="22%"><a href="https://doi.org/10.3390/s140712784">Classification of EEG Signals Using a Multiple Kernel Learning Support Vector Machine</a><br><sub>Xiaoou Li, Xun Chen, Yuning Yan, Wenshi Wei, Z. J. Wang</sub></td>
+<td width="13%">2014<br>Italian National Conference on Sensors<br>125 citations</td>
+<td width="30%">In this study, a multiple kernel learning support vector machine algorithm is proposed for the identification of EEG signals including mental and cognitive tasks, which is a key component in EEG-based brain computer interface (BCI) systems.</td>
+<td width="15%">high citation signal (125); influential citation signal (11); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td colspan="6">See the website and taxonomy CSV for all 87 papers.</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+### Hybrid, Affective, and Closed-loop BCIs
+
+- Papers selected: **32**
+- Years covered: **2001-2026**
+- Citation count in selected set: **3,471**
+- Main research trends:
+  - Hybrid BCI combines multiple signals or paradigms to improve reliability, command diversity, and asynchronous control.
+  - Closed-loop and neurofeedback work is increasingly focused on user adaptation, mental-state awareness, fatigue, affect, and training protocols.
+  - The trend is toward systems that adapt to the user over time rather than treating decoding as a one-shot offline classification problem.
+
+<details>
+<summary>Show representative papers for Hybrid, Affective, and Closed-loop BCIs</summary>
+
+<table width="100%">
+<colgroup>
+<col width="5%">
+<col width="22%">
+<col width="13%">
+<col width="30%">
+<col width="15%">
+<col width="15%">
+</colgroup>
+<thead>
+<tr>
+<th align="right">Rank</th>
+<th>Paper</th>
+<th>Meta</th>
+<th>Key idea</th>
+<th>Strengths</th>
+<th>Limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right" width="5%">1</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2003.814435">Asynchronous BCI and local neural classifiers: an overview of the adaptive brain interface project</a><br><sub>J. Millán, J. Mouriño</sub></td>
+<td width="13%">2003<br>IEEE transactions on neural systems and rehabilitation engineering<br>319 citations</td>
+<td width="30%">Positions Asynchronous BCI and local neural classifiers: an overview of the adaptive brain interface project within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (319); influential citation signal (12); recognized venue</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">2</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2012.2197221">A Hybrid Brain Computer Interface to Control the Direction and Speed of a Simulated or Real Wheelchair</a><br><sub>J. Long, Yuanqing Li, Hongtao Wang, Tianyou Yu, Jiahui Pan, Feng Li</sub></td>
+<td width="13%">2012<br>IEEE transactions on neural systems and rehabilitation engineering<br>289 citations</td>
+<td width="30%">Positions A Hybrid Brain Computer Interface to Control the Direction and Speed of a Simulated or Real Wheelchair within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (289); influential citation signal (13); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">3</td>
+<td width="22%"><a href="https://doi.org/10.1080/2326263X.2014.912881">A survey of affective brain computer interfaces: principles, state-of-the-art, and challenges</a><br><sub>C. Mühl, B. Allison, A. Nijholt, G. Chanel</sub></td>
+<td width="13%">2014<br>Unknown venue<br>279 citations</td>
+<td width="30%">Positions A survey of affective brain computer interfaces: principles, state-of-the-art, and challenges within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (279); influential citation signal (18); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">4</td>
+<td width="22%"><a href="https://doi.org/10.1162/NECO_a_00089">Machine-Learning-Based Coadaptive Calibration for Brain-Computer Interfaces</a><br><sub>C. Vidaurre, C. Sannelli, K. Müller, B. Blankertz</sub></td>
+<td width="13%">2011<br>Neural Computation<br>197 citations</td>
+<td width="30%">Positions Machine-Learning-Based Coadaptive Calibration for Brain-Computer Interfaces within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (197)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">5</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/8/2/025009">Co-adaptive calibration to improve BCI efficiency</a><br><sub>C. Vidaurre, C. Sannelli, K. Müller, B. Blankertz</sub></td>
+<td width="13%">2011<br>Journal of Neural Engineering<br>182 citations</td>
+<td width="30%">Positions Co-adaptive calibration to improve BCI efficiency within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (182); influential citation signal (11); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">6</td>
+<td width="22%"><a href="https://doi.org/10.1152/jn.00503.2010">A closed-loop human simulator for investigating the role of feedback control in brain-machine interfaces.</a><br><sub>J. Cunningham, Paul Nuyujukian, V. Gilja, C. Chestek, S. Ryu, K. Shenoy</sub></td>
+<td width="13%">2011<br>Journal of Neurophysiology<br>176 citations</td>
+<td width="30%">Positions A closed-loop human simulator for investigating the role of feedback control in brain-machine interfaces. within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (176); influential citation signal (10); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">7</td>
+<td width="22%"><a href="https://doi.org/10.1016/S0074-7742(09)86008-X">Neurofeedback and brain-computer interface clinical applications.</a><br><sub>N. Birbaumer, Ander Ramos Murguialday, Cornelia Weber, P. Montoya</sub></td>
+<td width="13%">2009<br>International review of neurobiology<br>155 citations</td>
+<td width="30%">Positions Neurofeedback and brain-computer interface clinical applications. within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (155)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">8</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2011.2167718">Target Selection With Hybrid Feature for BCI-Based 2-D Cursor Control</a><br><sub>J. Long, Yuanqing Li, Tianyou Yu, Z. Gu</sub></td>
+<td width="13%">2012<br>IEEE Transactions on Biomedical Engineering<br>135 citations</td>
+<td width="30%">Positions Target Selection With Hybrid Feature for BCI-Based 2-D Cursor Control within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (135); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">9</td>
+<td width="22%"><a href="https://doi.org/10.1371/journal.pone.0176674">A systematic review of hybrid brain-computer interfaces: Taxonomy and usability perspectives</a><br><sub>Inchul Choi, Ilsun Rhiu, Yushin Lee, M. Yun, C. Nam</sub></td>
+<td width="13%">2017<br>PLoS ONE<br>120 citations</td>
+<td width="30%">A new Brain-Computer Interface (BCI) technique, which is called a hybrid BCI, has recently been proposed to address the limitations of conventional single BCI system.</td>
+<td width="15%">high citation signal (120); recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">10</td>
+<td width="22%"><a href="https://doi.org/10.1038/s41598-017-02626-y">Absence Seizure Control by a Brain Computer Interface</a><br><sub>V. Maksimenko, S. van Heukelum, V. Makarov, J. Kelderhuis, A. Lüttjohann, A. Koronovskii, et al.</sub></td>
+<td width="13%">2017<br>Scientific Reports<br>116 citations</td>
+<td width="30%">The ultimate goal of epileptology is the complete abolishment of epileptic seizures.</td>
+<td width="15%">high citation signal (116); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">11</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.jneumeth.2014.03.011">A hybrid brain computer interface system based on the neurophysiological protocol and brain-actuated switch for wheelchair control.</a><br><sub>Lei Cao, Jie Li, Hongfei Ji, Changjun Jiang</sub></td>
+<td width="13%">2014<br>Journal of Neuroscience Methods<br>115 citations</td>
+<td width="30%">Positions A hybrid brain computer interface system based on the neurophysiological protocol and brain-actuated switch for wheelchair control. within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (115); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">12</td>
+<td width="22%"><a href="https://doi.org/10.1080/2326263X.2016.1207497">Brain-computer interface-based control of closed-loop brain stimulation: attitudes and ethical considerations</a><br><sub>E. Klein, S. Goering, J. Gagne, Conor V. Shea, R. Franklin, S. Zorowitz, et al.</sub></td>
+<td width="13%">2016<br>Unknown venue<br>115 citations</td>
+<td width="30%">Positions Brain-computer interface-based control of closed-loop brain stimulation: attitudes and ethical considerations within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (115)</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">13</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBME.2004.824128">Adaptive BCI based on variational Bayesian Kalman filtering: an empirical evaluation</a><br><sub>P. Sykacek, S. Roberts, Maria Stokes</sub></td>
+<td width="13%">2004<br>IEEE Transactions on Biomedical Engineering<br>108 citations</td>
+<td width="30%">Positions Adaptive BCI based on variational Bayesian Kalman filtering: an empirical evaluation within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (108); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">14</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBCAS.2016.2622738">Design of a Closed-Loop, Bidirectional Brain Machine Interface System With Energy Efficient Neural Feature Extraction and PID Control</a><br><sub>Xilin Liu, Milin Zhang, Andrew G. Richardson, T. Lucas, J. van der Spiegel</sub></td>
+<td width="13%">2017<br>IEEE Transactions on Biomedical Circuits and Systems<br>106 citations</td>
+<td width="30%">Positions Design of a Closed-Loop, Bidirectional Brain Machine Interface System With Energy Efficient Neural Feature Extraction and PID Control within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (106); recognized venue; open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">15</td>
+<td width="22%"><a href="https://doi.org/10.1007/978-3-642-02091-9_4">Neurofeedback Training for BCI Control</a><br><sub>C. Neuper, G. Pfurtscheller</sub></td>
+<td width="13%">2009<br>Unknown venue<br>106 citations</td>
+<td width="30%">Positions Neurofeedback Training for BCI Control within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">high citation signal (106)</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">16</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2552/abca17">A review of user training methods in brain computer interfaces based on mental tasks</a><br><sub>A. Roc, Léa Pillette, J. Mladenović, Camille Benaroch, B. N&#x27;Kaoua, C. Jeunet, et al.</sub></td>
+<td width="13%">2020<br>Journal of Neural Engineering<br>98 citations</td>
+<td width="30%">Mental-tasks based brain–computer interfaces (MT-BCIs) allow their users to interact with an external device solely by using brain signals produced through mental tasks.</td>
+<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">17</td>
+<td width="22%"><a href="https://doi.org/10.1162/NECO_a_00460">Design and Analysis of Closed-Loop Decoder Adaptation Algorithms for Brain-Machine Interfaces</a><br><sub>Siddharth Dangi, A. Orsborn, H. Moorman, J. Carmena</sub></td>
+<td width="13%">2013<br>Neural Computation<br>93 citations</td>
+<td width="30%">Positions Design and Analysis of Closed-Loop Decoder Adaptation Algorithms for Brain-Machine Interfaces within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">18</td>
+<td width="22%"><a href="https://doi.org/10.1007/978-3-642-02315-6_23">Affective Pacman: A Frustrating Game for Brain-Computer Interface Experiments</a><br><sub>Boris Reuderink, A. Nijholt, M. Poel</sub></td>
+<td width="13%">2009<br>Intelligent Technologies for Interactive Entertainment<br>89 citations</td>
+<td width="30%">Positions Affective Pacman: A Frustrating Game for Brain-Computer Interface Experiments within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">19</td>
+<td width="22%"><a href="https://doi.org/10.1007/978-3-642-21605-3_46">A Hybrid Brain-Computer Interface for Smart Home Control</a><br><sub>G. Edlinger, C. Holzner, C. Guger</sub></td>
+<td width="13%">2011<br>Interacción<br>73 citations</td>
+<td width="30%">Positions A Hybrid Brain-Computer Interface for Smart Home Control within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">20</td>
+<td width="22%"><a href="https://doi.org/10.1142/S0129065714500142">Evaluation and Application of a Hybrid Brain Computer Interface for Real Wheelchair Parallel Control with Multi-Degree of Freedom</a><br><sub>Jie Li, Hongfei Ji, Lei Cao, Di Zang, Rong Gu, Bin Xia, et al.</sub></td>
+<td width="13%">2014<br>International Journal of Neural Systems<br>72 citations</td>
+<td width="30%">Positions Evaluation and Application of a Hybrid Brain Computer Interface for Real Wheelchair Parallel Control with Multi-Degree of Freedom within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">21</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.neunet.2011.05.006">On the use of interaction error potentials for adaptive brain computer interfaces</a><br><sub>A. Llera, M. Gerven, V. Gómez, O. Jensen, H. Kappen</sub></td>
+<td width="13%">2011<br>Neural Networks<br>67 citations</td>
+<td width="30%">Positions On the use of interaction error potentials for adaptive brain computer interfaces within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">22</td>
+<td width="22%"><a href="https://doi.org/10.1109/IEMBS.2007.4353015">Brain-Computer Interface Analysis using Continuous Wavelet Transform and Adaptive Neuro-Fuzzy Classifier</a><br><sub>S. Darvishi, A. Al-Ani</sub></td>
+<td width="13%">2007<br>Annual International Conference of the IEEE Engineering in Medicine and Biology Society<br>62 citations</td>
+<td width="30%">Positions Brain-Computer Interface Analysis using Continuous Wavelet Transform and Adaptive Neuro-Fuzzy Classifier within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">23</td>
+<td width="22%"><a href="https://doi.org/10.1109/ACII.2009.5349456">Detecting affective covert user states with passive brain-computer interfaces</a><br><sub>T. Zander, S. Jatzev</sub></td>
+<td width="13%">2009<br>2009 3rd International Conference on Affective Computing and Intelligent Interaction and Workshops<br>60 citations</td>
+<td width="30%">Positions Detecting affective covert user states with passive brain-computer interfaces within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">24</td>
+<td width="22%"><a href="https://doi.org/10.1109/ACII.2009.5349479">Affective brain-computer interfaces: Psychophysiological markers of emotion in healthy persons and in persons with amyotrophic lateral sclerosis</a><br><sub>F. Nijboer, Stefan Carmien, E. Leon, F. Morin, R. Koene, Ulrich Hoffmann</sub></td>
+<td width="13%">2009<br>2009 3rd International Conference on Affective Computing and Intelligent Interaction and Workshops<br>58 citations</td>
+<td width="30%">Positions Affective brain-computer interfaces: Psychophysiological markers of emotion in healthy persons and in persons with amyotrophic lateral sclerosis within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">25</td>
+<td width="22%"><a href="https://doi.org/10.1088/1741-2560/13/4/046003">Ensembles of adaptive spatial filters increase BCI performance: an online evaluation</a><br><sub>C. Sannelli, C. Vidaurre, K. Müller, B. Blankertz</sub></td>
+<td width="13%">2016<br>Journal of Neural Engineering<br>56 citations</td>
+<td width="30%">Positions Ensembles of adaptive spatial filters increase BCI performance: an online evaluation within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">26</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.compbiomed.2012.02.004">Hangman BCI: An unsupervised adaptive self-paced Brain-Computer Interface for playing games</a><br><sub>Bashar Awwad Shiekh Hasan, J. Q. Gan</sub></td>
+<td width="13%">2012<br>Comput. Biol. Medicine<br>55 citations</td>
+<td width="30%">This paper presents a novel user interface suitable for adaptive Brain Computer Interface (BCI) system.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">27</td>
+<td width="22%"><a href="https://doi.org/10.1016/J.MEDENGPHY.2006.01.009">Adaptive subject-based feature extraction in brain-computer interfaces using wavelet packet best basis decomposition.</a><br><sub>Banghua Yang, Guo-zheng Yan, Rongguo Yan, Ting Wu</sub></td>
+<td width="13%">2007<br>Medical Engineering and Physics<br>48 citations</td>
+<td width="30%">Positions Adaptive subject-based feature extraction in brain-computer interfaces using wavelet packet best basis decomposition. within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">28</td>
+<td width="22%"><a href="https://doi.org/10.1126/scitranslmed.abm5868">Closed-loop stimulation using a multi-region brain-machine interface has analgesic effects in rodents</a><br><sub>Guanghao Sun, Fei Zeng, Michael McCartin, Qiaosheng Zhang, Helen Y. Xu, Yaling Liu, et al.</sub></td>
+<td width="13%">2022<br>Science Translational Medicine<br>48 citations</td>
+<td width="30%">Effective treatments for chronic pain remain limited.</td>
+<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">29</td>
+<td width="22%"><a href="https://doi.org/10.1109/ICASSP.2005.1416311">A hybrid genetic algorithm approach for improving the performance of the LF-ASD brain computer interface</a><br><sub>Mehrdad Fatourechi, Ali Bashashati, R. Ward, G. Birch</sub></td>
+<td width="13%">2005<br>Proceedings. (ICASSP &#x27;05). IEEE International Conference on Acoustics, Speech, and Signal Processing, 2005.<br>37 citations</td>
+<td width="30%">Positions A hybrid genetic algorithm approach for improving the performance of the LF-ASD brain computer interface within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">30</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/885f8291e27c0038e2039a8afe3cbddab0b07696">Designing a brain-computer interface device for neurofeedback using virtual environments</a><br><sub>N. Yan, Jue Wang, M. Liu, L. Zong, Y. Jiao, J. Yue, et al.</sub></td>
+<td width="13%">2008<br>Unknown venue<br>30 citations</td>
+<td width="30%">Positions Designing a brain-computer interface device for neurofeedback using virtual environments within Hybrid, Affective, and Closed-loop BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td colspan="6">See the website and taxonomy CSV for all 32 papers.</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+
+### Speech, Language, and Communication BCIs
+
+- Papers selected: **31**
+- Years covered: **2002-2024**
+- Citation count in selected set: **11,096**
+- Main research trends:
+  - Communication BCI is expanding from spelling paradigms toward imagined speech, decoded language, and higher-bandwidth text production.
+  - Both invasive and non-invasive studies are exploring more naturalistic communication, including speech motor cortex decoding and inner-speech EEG datasets.
+  - The central challenge remains preserving accuracy, latency, vocabulary size, and user autonomy in real-world assistive communication.
+
+<details>
+<summary>Show representative papers for Speech, Language, and Communication BCIs</summary>
+
+<table width="100%">
+<colgroup>
+<col width="5%">
+<col width="22%">
+<col width="13%">
+<col width="30%">
+<col width="15%">
+<col width="15%">
+</colgroup>
+<thead>
+<tr>
+<th align="right">Rank</th>
+<th>Paper</th>
+<th>Meta</th>
+<th>Key idea</th>
+<th>Strengths</th>
+<th>Limitations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right" width="5%">1</td>
+<td width="22%"><a href="https://doi.org/10.1016/S1388-2457(02)00057-3">Brain-computer interfaces for communication and control.</a><br><sub>J. Wolpaw, N. Birbaumer, D. McFarland, Gert Pfurtscheller, T. Vaughan</sub></td>
+<td width="13%">2002<br>Clinical Neurophysiology<br>5,454 citations</td>
+<td width="30%">Positions Brain-computer interfaces for communication and control. within Speech, Language, and Communication BCIs.</td>
+<td width="15%">high citation signal (5,454); influential citation signal (327)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">2</td>
+<td width="22%"><a href="https://doi.org/10.1145/1941487.1941506">Brain-Computer Interfaces for Communication and Control</a><br><sub>D. McFarland, J. Wolpaw</sub></td>
+<td width="13%">2011<br>Communications of the ACM<br>2,866 citations</td>
+<td width="30%">The brain&#x27;s electrical signals enable people without muscle control to physically interact with the world.</td>
+<td width="15%">high citation signal (2,866); influential citation signal (112); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">3</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.tics.2021.04.003">Interface, interaction, and intelligence in generalized brain-computer interfaces.</a><br><sub>Xiaorong Gao, Yijun Wang, Xiaogang Chen, Shangkai Gao</sub></td>
+<td width="13%">2021<br>Trends in Cognitive Sciences<br>263 citations</td>
+<td width="30%">A brain-computer interface (BCI) establishes a direct communication channel between a brain and an external device.</td>
+<td width="15%">high citation signal (263); recognized venue</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">4</td>
+<td width="22%"><a href="https://doi.org/10.1007/s11042-006-0094-3">The Berlin Brain-Computer Interface (BBCI) – towards a new communication channel for online control in gaming applications</a><br><sub>R. Krepki, B. Blankertz, G. Curio, K. Müller</sub></td>
+<td width="13%">2007<br>Multimedia tools and applications<br>243 citations</td>
+<td width="30%">Positions The Berlin Brain-Computer Interface (BBCI) – towards a new communication channel for online control in gaming applications within Speech, Language, and Communication BCIs.</td>
+<td width="15%">high citation signal (243)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">5</td>
+<td width="22%"><a href="https://doi.org/10.3390/brainsci11010043">Summary of over Fifty Years with Brain-Computer Interfaces—A Review</a><br><sub>Aleksandra Kawala-Sterniuk, Natalia Browarska, Amir F. Al-Bakri, Mariusz Pelc, J. Zygarlicki, Michaela Sidikova, et al.</sub></td>
+<td width="13%">2021<br>Brain Science<br>236 citations</td>
+<td width="30%">Over the last few decades, the Brain-Computer Interfaces have been gradually making their way to the epicenter of scientific interest.</td>
+<td width="15%">high citation signal (236); influential citation signal (10); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">6</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnins.2016.00530">The Berlin Brain-Computer Interface: Progress Beyond Communication and Control</a><br><sub>B. Blankertz, L. Acqualagna, Sven Dähne, S. Haufe, M. Schultze-Kraft, I. Sturm, et al.</sub></td>
+<td width="13%">2016<br>Frontiers in Neuroscience<br>210 citations</td>
+<td width="30%">The combined effect of fundamental results about neurocognitive processes and advancements in decoding mental states from ongoing brain signals has brought forth a whole range of potential neurotechnological applications.</td>
+<td width="15%">high citation signal (210); influential citation signal (10); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">7</td>
+<td width="22%"><a href="https://doi.org/10.1016/S0079-6123(06)59028-4">Future prospects of ERD/ERS in the context of brain-computer interface (BCI) developments.</a><br><sub>G. Pfurtscheller, C. Neuper</sub></td>
+<td width="13%">2006<br>Progress in Brain Research<br>205 citations</td>
+<td width="30%">Positions Future prospects of ERD/ERS in the context of brain-computer interface (BCI) developments. within Speech, Language, and Communication BCIs.</td>
+<td width="15%">high citation signal (205); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">8</td>
+<td width="22%"><a href="https://doi.org/10.1186/s12910-017-0220-y">Ethical aspects of brain computer interfaces: a scoping review</a><br><sub>Sasha Burwell, M. Sample, E. Racine</sub></td>
+<td width="13%">2017<br>BMC Medical Ethics<br>182 citations</td>
+<td width="30%">BackgroundBrain-Computer Interface (BCI) is a set of technologies that are of increasing interest to researchers.</td>
+<td width="15%">high citation signal (182); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">9</td>
+<td width="22%"><a href="https://doi.org/10.1109/MSP.2003.1166626">Brain-computer interface in multimedia communication</a><br><sub>T. Ebrahimi, J. Vesin, G. G. Molina</sub></td>
+<td width="13%">2003<br>IEEE Signal Processing Magazine<br>152 citations</td>
+<td width="30%">Positions Brain-computer interface in multimedia communication within Speech, Language, and Communication BCIs.</td>
+<td width="15%">high citation signal (152); influential citation signal (10); open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">10</td>
+<td width="22%"><a href="https://doi.org/10.1145/1296843.1296845">Brain-computer interfaces (BCIs) for communication and control</a><br><sub>J. Wolpaw</sub></td>
+<td width="13%">2007<br>International ACM SIGACCESS Conference on Computers and Accessibility<br>134 citations</td>
+<td width="30%">Positions Brain-computer interfaces (BCIs) for communication and control within Speech, Language, and Communication BCIs.</td>
+<td width="15%">high citation signal (134)</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">11</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.inat.2020.100694">Brain computer interface advancement in neurosciences: Applications and issues</a><br><sub>S. Mudgal, S. Sharma, Jitender Chaturvedi, A. Sharma</sub></td>
+<td width="13%">2020<br>Interdisciplinary Neurosurgery<br>117 citations</td>
+<td width="30%">Abstract Neurosciences and Neuro-technology are continuously advancing and so individuals, society and healthcare professionals have to up date themselves with advancement.</td>
+<td width="15%">high citation signal (117); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">12</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/410ba0d4fe4244c3097af17f1100bef17533c312">Brain Computer Interface for Communication and Control</a><br><sub>Rehab Ashary</sub></td>
+<td width="13%">2008<br>Unknown venue<br>97 citations</td>
+<td width="30%">Positions Brain Computer Interface for Communication and Control within Speech, Language, and Communication BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">13</td>
+<td width="22%"><a href="https://doi.org/10.1007/s13311-022-01190-2">Brain-Computer Interface: Applications to Speech Decoding and Synthesis to Augment Communication</a><br><sub>S. Luo, Q. Rabbani, N. Crone</sub></td>
+<td width="13%">2022<br>Neurotherapeutics<br>97 citations</td>
+<td width="30%">Positions Brain-Computer Interface: Applications to Speech Decoding and Synthesis to Augment Communication within Speech, Language, and Communication BCIs.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">14</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.jneumeth.2020.108918">A comprehensive assessment of Brain Computer Interfaces: Recent trends and challenges.</a><br><sub>Drishti Yadav, S. Yadav, K. Veer</sub></td>
+<td width="13%">2020<br>Journal of Neuroscience Methods<br>89 citations</td>
+<td width="30%">BACKGROUND An uninterrupted channel of communication and control between the human brain and electronic processing units has led to an increased use of Brain Computer Interfaces (BCIs).</td>
+<td width="15%">recognized venue</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">15</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.isci.2018.09.016">Neurolinguistics Research Advancing Development of a Direct-Speech Brain-Computer Interface</a><br><sub>Ciaran Cooney, R. Folli, D. Coyle</sub></td>
+<td width="13%">2018<br>iScience<br>81 citations</td>
+<td width="30%">A direct-speech brain-computer interface (DS-BCI) acquires neural signals corresponding to imagined speech, then processes and decodes these signals to produce a linguistic output in the form of phonemes, words, or sentences.</td>
+<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">16</td>
+<td width="22%"><a href="https://doi.org/10.1145/2556288.2557339">FOCUS: enhancing children&#x27;s engagement in reading by using contextual BCI training sessions</a><br><sub>Jin Huang, Chun Yu, Yuntao Wang, Yuhang Zhao, Siqi Liu, Chou Mo, et al.</sub></td>
+<td width="13%">2014<br>International Conference on Human Factors in Computing Systems<br>80 citations</td>
+<td width="30%">Positions FOCUS: enhancing children&#x27;s engagement in reading by using contextual BCI training sessions within Speech, Language, and Communication BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">17</td>
+<td width="22%"><a href="https://doi.org/10.1109/ICCSP60870.2024.10543610">IoT in Brain-Computer Interfaces for Enabling Communication and Control for the Disabled</a><br><sub>Dr. S. Rajarajan, P. M. Suresh, Dr. T. Kowsalya, Nukala Sujata, Gupta, S. Murugan</sub></td>
+<td width="13%">2024<br>International Conference on Cryptography, Security and Privacy<br>76 citations</td>
+<td width="30%">The proposed system integrates Internet of Things (IoT) technologies with Brain-computer interfaces to improve disability-related communication and control.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">18</td>
+<td width="22%"><a href="https://doi.org/10.1044/2017_AJSLP-16-0244">Brain-Computer Interfaces for Augmentative and Alternative Communication: A Tutorial.</a><br><sub>J. Brumberg, Kevin M. Pitt, Alana Mantie-Kozlowski, Jeremy D. Burnison</sub></td>
+<td width="13%">2018<br>American Journal of Speech-Language Pathology<br>75 citations</td>
+<td width="30%">Positions Brain-Computer Interfaces for Augmentative and Alternative Communication: A Tutorial. within Speech, Language, and Communication BCIs.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">19</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.ijhcs.2006.11.010">Berlin Brain-Computer Interface - The HCI communication channel for discovery</a><br><sub>R. Krepki, G. Curio, B. Blankertz, K. Müller</sub></td>
+<td width="13%">2007<br>Int. J. Hum. Comput. Stud.<br>69 citations</td>
+<td width="30%">Positions Berlin Brain-Computer Interface - The HCI communication channel for discovery within Speech, Language, and Communication BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">20</td>
+<td width="22%"><a href="https://doi.org/10.5539/mas.v16n3p34">The Importance of the Application of the Metaverse in Education</a><br><sub>G. S. Contreras, Aurora Hernández González, Martin Fernandez, C. M. Cepa, J. C. Escobar</sub></td>
+<td width="13%">2022<br>Modern Applied Science<br>68 citations</td>
+<td width="30%">In the early 90&#x27;s, and especially in some American universities, with the emergence of virtual reality, virtual environments and their manipulation began to be implemented, achieving important advances that have led to improvements in research through changes in the perception of the subject, modeling, communication processes and the development of 3D virtua</td>
+<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">21</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.jphysparis.2017.07.002">Key considerations in designing a speech brain-computer interface.</a><br><sub>Florent Bocquelet, Thomas Hueber, Laurent Girin, S. Chabardès, B. Yvert</sub></td>
+<td width="13%">2016<br>Journal of Physiology - Paris<br>63 citations</td>
+<td width="30%">Restoring communication in case of aphasia is a key challenge for neurotechnologies.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">22</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/97cbf8583591f03332f6134bb8a07e185d9370da">Brain-computer interfaces (BCIs) for communication and control: a mini-review.</a><br><sub>J. Wolpaw</sub></td>
+<td width="13%">2004<br>Supplements to Clinical Neurophysiology<br>57 citations</td>
+<td width="30%">Positions Brain-computer interfaces (BCIs) for communication and control: a mini-review. within Speech, Language, and Communication BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">23</td>
+<td width="22%"><a href="https://doi.org/10.1177/1545968321989331">Brain-Computer Interfaces for communication: preferences of individuals with locked-in syndrome</a><br><sub>M. Branco, Elmar G. M. Pels, Ruben H. Sars, E. Aarnoutse, N. Ramsey, M. Vansteensel, et al.</sub></td>
+<td width="13%">2021<br>Neurorehabilitation and Neural Repair<br>50 citations</td>
+<td width="30%">Background Brain-computer interfaces (BCIs) have been proposed as an assistive technology (AT) allowing people with locked-in syndrome (LIS) to use neural signals to communicate.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">24</td>
+<td width="22%"><a href="https://doi.org/10.1109/COMST.2024.3387124">A Human-Centric Metaverse Enabled by Brain-Computer Interface: A Survey</a><br><sub>Howe Yuan Zhu, Nguyen Quang Hieu, D. Hoang, Diep N. Nguyen, Chin-Teng Lin</sub></td>
+<td width="13%">2023<br>IEEE Communications Surveys and Tutorials<br>48 citations</td>
+<td width="30%">The growing interest in the Metaverse has generated momentum for members of academia and industry to innovate toward realizing the Metaverse world.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">25</td>
+<td width="22%"><a href="https://doi.org/10.1155/2007/94397">A Semisupervised Support Vector Machines Algorithm for BCI Systems</a><br><sub>Jianzhao Qin, Yuanqing Li, Wei Sun</sub></td>
+<td width="13%">2007<br>Computational Intelligence and Neuroscience<br>32 citations</td>
+<td width="30%">As an emerging technology, brain-computer interfaces (BCIs) bring us new communication interfaces which translate brain activities into control signals for devices like computers, robots, and so forth.</td>
+<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">26</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/f07e080a347f7c1a35ca1950c889b56e55d46b03">The Berlin Brain-Computer Interface ( BBCI ) towards a new communication channel for online control of multimedia applications and computer games</a><br><sub>R. Krepki, B. Blankertz, G. Curio, K. Müller</sub></td>
+<td width="13%">2003<br>Unknown venue<br>22 citations</td>
+<td width="30%">Positions The Berlin Brain-Computer Interface ( BBCI ) towards a new communication channel for online control of multimedia applications and computer games within Speech, Language, and Communication BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; limited citation history</td>
+</tr>
+<tr>
+<td align="right" width="5%">27</td>
+<td width="22%"><a href="https://www.semanticscholar.org/paper/5b42a80bf1dd810dbf8a79fe028bd1b7e2001c4a">Communication speed enhancement for visual based Brain Computer Interfaces</a><br><sub>S. Sami, K. D. Nielsen</sub></td>
+<td width="13%">2004<br>Unknown venue<br>10 citations</td>
+<td width="30%">Positions Communication speed enhancement for visual based Brain Computer Interfaces within Speech, Language, and Communication BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; limited citation history</td>
+</tr>
+<tr>
+<td align="right" width="5%">28</td>
+<td width="22%"><a href="https://doi.org/10.1109/IEMBS.2006.260238">Autoregressive spectral analysis in Brain Computer Interface context</a><br><sub>S. Bufalari, D. Mattia, F. Babiloni, M. Mattiocco, M. Marciani, F. Cincotti</sub></td>
+<td width="13%">2006<br>Annual International Conference of the IEEE Engineering in Medicine and Biology Society<br>10 citations</td>
+<td width="30%">Positions Autoregressive spectral analysis in Brain Computer Interface context within Speech, Language, and Communication BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; limited citation history; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">29</td>
+<td width="22%"><a href="https://doi.org/10.1142/9789812561763_0039">BRAIN-COMPUTER INTERFACES FOR VERBAL COMMUNICATION</a><br><sub>N. Birbaumer, U. Strehl, T. Hinterberger</sub></td>
+<td width="13%">2004<br>Unknown venue<br>10 citations</td>
+<td width="30%">Positions BRAIN-COMPUTER INTERFACES FOR VERBAL COMMUNICATION within Speech, Language, and Communication BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; limited citation history</td>
+</tr>
+<tr>
+<td align="right" width="5%">30</td>
+<td width="22%"><a href="https://doi.org/10.1055/s-2003-816484">Lateralisiertes Bereitschaftspotenzial und Ereignis-korrelierte Desynchronisation perizentraler my/beta-Rhythmen bei rasch repetierten Fingerbewegungen im Kontext des Berlin Brain-Computer Interface (BBCI)</a><br><sub>F. Losch, B. Blankertz, K. Müller, G. Curio</sub></td>
+<td width="13%">2003<br>Unknown venue<br>0 citations</td>
+<td width="30%">Positions Lateralisiertes Bereitschaftspotenzial und Ereignis-korrelierte Desynchronisation perizentraler my/beta-Rhythmen bei rasch repetierten Fingerbewegungen im Kontext des Berlin Brain-Computer Interface (BBCI) within Speech, Language, and Communication BCIs.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; venue missing in metadata; limited citation history</td>
+</tr>
+<tr>
+<td colspan="6">See the website and taxonomy CSV for all 31 papers.</td>
 </tr>
 </tbody>
 </table>
@@ -1500,9 +2279,9 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 
 ### Deep Learning and Representation Learning
 
-- Papers selected: **12**
-- Years covered: **2020-2026**
-- Citation count in selected set: **828**
+- Papers selected: **31**
+- Years covered: **2015-2026**
+- Citation count in selected set: **3,158**
 - Main research trends:
   - Deep learning work is moving beyond single-dataset CNN classifiers toward temporal, spectral, graph, transformer, and attention-based architectures.
   - A major trend is representation learning that can transfer across users, sessions, headsets, and BCI paradigms with less subject-specific calibration.
@@ -1541,22 +2320,54 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 </tr>
 <tr>
 <td align="right" width="5%">2</td>
-<td width="22%"><a href="https://doi.org/10.1109/MCI.2021.3061875">Multi-Scale Neural Network for EEG Representation Learning in BCI</a><br><sub>Wonjun Ko, Eunjin Jeon, Seungwoo Jeong, Heung-Il Suk</sub></td>
-<td width="13%">2020<br>IEEE Computational Intelligence Magazine<br>102 citations</td>
-<td width="30%">Recent advances in deep learning have had a methodological and practical impact on brain-computer interface (BCI) research.</td>
-<td width="15%">high citation signal (102); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.neunet.2019.12.006">A novel multi-modal machine learning based approach for automatic classification of EEG recordings in dementia</a><br><sub>C. Ieracitano, N. Mammone, A. Hussain, F. Morabito</sub></td>
+<td width="13%">2019<br>Neural Networks<br>283 citations</td>
+<td width="30%">Electroencephalographic (EEG) recordings generate an electrical map of the human brain that are useful for clinical inspection of patients and in biomedical smart Internet-of-Things (IoT) and Brain-Computer Interface (BCI) applications.</td>
+<td width="15%">high citation signal (283); influential citation signal (17); recognized venue</td>
+<td width="15%">PDF link not available from metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">3</td>
-<td width="22%"><a href="https://doi.org/10.1109/JBHI.2024.3504604">EEG-Deformer: A Dense Convolutional Transformer for Brain-Computer Interfaces</a><br><sub>Yi Ding, Yong Li, Hao Sun, Rui Liu, Chengxuan Tong, Chenyu Liu, et al.</sub></td>
-<td width="13%">2024<br>IEEE journal of biomedical and health informatics<br>91 citations</td>
-<td width="30%">Effectively learning the temporal dynamics in electroencephalogram (EEG) signals is challenging yet essential for decoding brain activities using brain-computer interfaces (BCIs).</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+<td width="22%"><a href="https://arxiv.org/abs/2106.11170">Transformer-based Spatial-Temporal Feature Learning for EEG Decoding</a><br><sub>Yonghao Song, Xueyu Jia, Lie Yang, Longhan Xie</sub></td>
+<td width="13%">2021<br>arXiv.org<br>219 citations</td>
+<td width="30%">At present, people usually use some methods based on convolutional neural networks (CNNs) for Electroencephalograph (EEG) decoding.</td>
+<td width="15%">high citation signal (219); influential citation signal (22)</td>
+<td width="15%">PDF link not available from metadata</td>
 </tr>
 <tr>
 <td align="right" width="5%">4</td>
+<td width="22%"><a href="https://doi.org/10.3390/brainsci9050115">Epilepsy Detection by Using Scalogram Based Convolutional Neural Network from EEG Signals</a><br><sub>Ömer Türk, M. S. Özerdem</sub></td>
+<td width="13%">2019<br>Brain Science<br>183 citations</td>
+<td width="30%">The studies implemented with Electroencephalogram (EEG) signals are progressing very rapidly and brain computer interfaces (BCI) and disease determinations are carried out at certain success rates thanks to new methods developed in this field.</td>
+<td width="15%">high citation signal (183); influential citation signal (17); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">5</td>
+<td width="22%"><a href="https://doi.org/10.52202/079017-1239">EEGPT: Pretrained Transformer for Universal and Reliable Representation of EEG Signals</a><br><sub>Guangyu Wang, Wenchao Liu, Yuhong He, Cong Xu, Lin Ma, Haifeng Li</sub></td>
+<td width="13%">2024<br>Neural Information Processing Systems<br>174 citations</td>
+<td width="30%">Electroencephalography (EEG) is crucial for recording brain activity, with applications in medicine, neuroscience, and brain-computer interfaces (BCI).</td>
+<td width="15%">high citation signal (174); influential citation signal (30)</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">6</td>
+<td width="22%"><a href="https://doi.org/10.1155/2015/129021">Deep Extreme Learning Machine and Its Application in EEG Classification</a><br><sub>Shifei Ding, Nan Zhang, Xinzheng Xu, Lili Guo, Jian Zhang</sub></td>
+<td width="13%">2015<br>Unknown venue<br>169 citations</td>
+<td width="30%">Recently, deep learning has aroused wide interest in machine learning fields.</td>
+<td width="15%">high citation signal (169); open-access PDF metadata</td>
+<td width="15%">venue missing in metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">7</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2020.2985996">Manifold Embedded Knowledge Transfer for Brain-Computer Interfaces</a><br><sub>Wen Zhang, Dongrui Wu</sub></td>
+<td width="13%">2019<br>IEEE transactions on neural systems and rehabilitation engineering<br>167 citations</td>
+<td width="30%">Transfer learning makes use of data or knowledge in one problem to help solve a different, yet related, problem.</td>
+<td width="15%">high citation signal (167); influential citation signal (25); recognized venue</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">8</td>
 <td width="22%"><a href="https://doi.org/10.1016/j.engappai.2022.105347">Adaptive transfer learning-based multiscale feature fused deep convolutional neural network for EEG MI multiclassification in brain-computer interface</a><br><sub>Anisha Roy</sub></td>
 <td width="13%">2022<br>Engineering applications of artificial intelligence<br>158 citations</td>
 <td width="30%">Positions Adaptive transfer learning-based multiscale feature fused deep convolutional neural network for EEG MI multiclassification in brain-computer interface within Deep Learning and Representation Learning.</td>
@@ -1564,7 +2375,127 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 <td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
 </tr>
 <tr>
-<td align="right" width="5%">5</td>
+<td align="right" width="5%">9</td>
+<td width="22%"><a href="https://doi.org/10.1109/TBDATA.2017.2769670">Optimized Deep Learning for EEG Big Data and Seizure Prediction BCI via Internet of Things</a><br><sub>M. Hosseini, D. Pompili, K. Elisevich, H. Soltanian-Zadeh</sub></td>
+<td width="13%">2017<br>IEEE Transactions on Big Data<br>151 citations</td>
+<td width="30%">Positions Optimized Deep Learning for EEG Big Data and Seizure Prediction BCI via Internet of Things within Deep Learning and Representation Learning.</td>
+<td width="15%">high citation signal (151); recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">10</td>
+<td width="22%"><a href="https://doi.org/10.3389/fnhum.2020.00103">Cross-Dataset Variability Problem in EEG Decoding With Deep Learning</a><br><sub>Lichao Xu, Minpeng Xu, Yufeng Ke, X. An, Shuang Liu, Dong Ming</sub></td>
+<td width="13%">2020<br>Frontiers in Human Neuroscience<br>129 citations</td>
+<td width="30%">Cross-subject variability problems hinder practical usages of Brain-Computer Interfaces.</td>
+<td width="15%">high citation signal (129); recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">11</td>
+<td width="22%"><a href="https://doi.org/10.1109/MCI.2021.3061875">Multi-Scale Neural Network for EEG Representation Learning in BCI</a><br><sub>Wonjun Ko, Eunjin Jeon, Seungwoo Jeong, Heung-Il Suk</sub></td>
+<td width="13%">2020<br>IEEE Computational Intelligence Magazine<br>102 citations</td>
+<td width="30%">Recent advances in deep learning have had a methodological and practical impact on brain-computer interface (BCI) research.</td>
+<td width="15%">high citation signal (102); open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">12</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNNLS.2021.3100583">Mutual Information-Driven Subject-Invariant and Class-Relevant Deep Representation Learning in BCI</a><br><sub>Eunjin Jeon, Wonjun Ko, Jee Seok Yoon, Heung-Il Suk</sub></td>
+<td width="13%">2019<br>IEEE Transactions on Neural Networks and Learning Systems<br>100 citations</td>
+<td width="30%">In recent years, deep learning-based feature representation methods have shown a promising impact on electroencephalography (EEG)-based brain–computer interface (BCI).</td>
+<td width="15%">high citation signal (100); recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">13</td>
+<td width="22%"><a href="https://doi.org/10.1109/TNSRE.2019.2908955">On the Vulnerability of CNN Classifiers in EEG-Based BCIs</a><br><sub>Xiao Zhang, Dongrui Wu</sub></td>
+<td width="13%">2019<br>IEEE transactions on neural systems and rehabilitation engineering<br>98 citations</td>
+<td width="30%">Deep learning has been successfully used in numerous applications because of its outstanding performance and the ability to avoid manual feature engineering.</td>
+<td width="15%">recognized venue; open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">14</td>
+<td width="22%"><a href="https://doi.org/10.1109/JBHI.2024.3504604">EEG-Deformer: A Dense Convolutional Transformer for Brain-Computer Interfaces</a><br><sub>Yi Ding, Yong Li, Hao Sun, Rui Liu, Chengxuan Tong, Chenyu Liu, et al.</sub></td>
+<td width="13%">2024<br>IEEE journal of biomedical and health informatics<br>91 citations</td>
+<td width="30%">Effectively learning the temporal dynamics in electroencephalogram (EEG) signals is challenging yet essential for decoding brain activities using brain-computer interfaces (BCIs).</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">15</td>
+<td width="22%"><a href="https://doi.org/10.1109/ACCESS.2019.2942838">Enhanced Drowsiness Detection Using Deep Learning: An fNIRS Study</a><br><sub>M. Tanveer, M. J. Khan, M. Qureshi, Noman Naseer, K. Hong</sub></td>
+<td width="13%">2019<br>IEEE Access<br>81 citations</td>
+<td width="30%">In this paper, a deep-learning-based driver-drowsiness detection for brain-computer interface (BCI) using functional near-infrared spectroscopy (fNIRS) is investigated.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">16</td>
+<td width="22%"><a href="https://doi.org/10.1109/SMC.2019.8914246">Optimizing Layers Improves CNN Generalization and Transfer Learning for Imagined Speech Decoding from EEG</a><br><sub>Ciaran Cooney, R. Folli, D. Coyle</sub></td>
+<td width="13%">2019<br>IEEE International Conference on Systems, Man and Cybernetics<br>79 citations</td>
+<td width="30%">A brain-computer interface (BCI) that employs imagined speech as the mode of determining user intent requires strong generalizability for a feasible system to be realized.</td>
+<td width="15%">influential citation signal (15)</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">17</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.compbiomed.2022.106248">EEGDnet: Fusing Non-Local and Local Self-Similarity for 1-D EEG Signal Denoising with 2-D Transformer</a><br><sub>X. Pu, Peng Yi, Kecheng Chen, Zhaoqi Ma, Di Zhao, Yazhou Ren</sub></td>
+<td width="13%">2021<br>Comput. Biol. Medicine<br>79 citations</td>
+<td width="30%">Electroencephalogram (EEG) has shown a useful approach to produce a brain-computer interface (BCI).</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">18</td>
+<td width="22%"><a href="https://doi.org/10.1109/SMC.2017.8122608">Deep learning-based classification for brain-computer interfaces</a><br><sub>J. Thomas, Tomasz Maszczyk, N. Sinha, T. Kluge, J. Dauwels</sub></td>
+<td width="13%">2017<br>IEEE International Conference on Systems, Man and Cybernetics<br>74 citations</td>
+<td width="30%">Positions Deep learning-based classification for brain-computer interfaces within Deep Learning and Representation Learning.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">19</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.jneumeth.2016.11.002">The extraction of motion-onset VEP BCI features based on deep learning and compressed sensing.</a><br><sub>Teng Ma, Hui Li, Hao Yang, Xulin Lv, Peiyang Li, Tiejun Liu, et al.</sub></td>
+<td width="13%">2017<br>Journal of Neuroscience Methods<br>74 citations</td>
+<td width="30%">Positions The extraction of motion-onset VEP BCI features based on deep learning and compressed sensing. within Deep Learning and Representation Learning.</td>
+<td width="15%">recognized venue</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">20</td>
+<td width="22%"><a href="https://doi.org/10.1007/s00521-021-06038-y">Vehicle driver drowsiness detection method using wearable EEG based on convolution neural network</a><br><sub>Miankuan Zhu, Jiangfan Chen, Haobo Li, Fujian Liang, Lei Han, Zutao Zhang</sub></td>
+<td width="13%">2021<br>Neural computing &amp; applications (Print)<br>69 citations</td>
+<td width="30%">Vehicle drivers driving cars under the situation of drowsiness can cause serious traffic accidents.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">21</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.engappai.2023.106205">On The Effects Of Data Normalisation For Domain Adaptation On EEG Data</a><br><sub>Andrea Apicella, F. Isgrò, A. Pollastro, R. Prevete</sub></td>
+<td width="13%">2022<br>Engineering applications of artificial intelligence<br>69 citations</td>
+<td width="30%">In the Machine Learning (ML) literature, a well-known problem is the Dataset Shift problem where, differently from the ML standard hypothesis, the data in the training and test sets can follow different probability distributions, leading ML systems toward poor generalisation performances.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">22</td>
+<td width="22%"><a href="https://doi.org/10.1109/EMBC.2015.7318984">Investigating deep learning for fNIRS based BCI</a><br><sub>Johannes Hennrich, Christian Herff, D. Heger, Tanja Schultz</sub></td>
+<td width="13%">2015<br>Annual International Conference of the IEEE Engineering in Medicine and Biology Society<br>68 citations</td>
+<td width="30%">Positions Investigating deep learning for fNIRS based BCI within Deep Learning and Representation Learning.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">23</td>
+<td width="22%"><a href="https://doi.org/10.1109/ICASSP49357.2023.10096587">EEG2IMAGE: Image Reconstruction from EEG Brain Signals</a><br><sub>Prajwal Singh, Pankaja Pandey, K. Miyapuram, S. Raman</sub></td>
+<td width="13%">2023<br>IEEE International Conference on Acoustics, Speech, and Signal Processing<br>66 citations</td>
+<td width="30%">Reconstructing images using brain signals of imagined visuals may provide an augmented vision to the disabled, leading to the advancement of Brain-Computer Interface (BCI) technology.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+</tr>
+<tr>
+<td align="right" width="5%">24</td>
 <td width="22%"><a href="https://doi.org/10.3389/fnrgo.2021.805573">Denoising EEG Signals for Real-World BCI Applications Using GANs</a><br><sub>Eoin Brophy, P. Redmond, Andrew Fleury, M. de Vos, G. Boylan, Tomás Ward</sub></td>
 <td width="13%">2022<br>Frontiers in Neuroergonomics<br>52 citations</td>
 <td width="30%">As a measure of the brain&#x27;s electrical activity, electroencephalography (EEG) is the primary signal of interest for brain-computer-interfaces (BCI).</td>
@@ -1572,39 +2503,39 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 <td width="15%">metadata-level appraisal; full PDF review still needed</td>
 </tr>
 <tr>
-<td align="right" width="5%">6</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnrgo.2022.838342">Retrospective on the First Passive Brain-Computer Interface Competition on Cross-Session Workload Estimation</a><br><sub>R. Roy, Marcel F. Hinss, L. Darmet, S. Ladouce, E. Jahanpour, B. Somon, et al.</sub></td>
-<td width="13%">2022<br>Frontiers in Neuroergonomics<br>36 citations</td>
-<td width="30%">As is the case in several research domains, data sharing is still scarce in the field of Brain-Computer Interfaces (BCI), and particularly in that of passive BCIs—i.e., systems that enable implicit interaction or task adaptation based on a user&#x27;s mental state(s) estimated from brain measures.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">7</td>
+<td align="right" width="5%">25</td>
 <td width="22%"><a href="https://doi.org/10.1093/pnasnexus/pgae076">Transfer learning promotes acquisition of individual BCI skills</a><br><sub>Satyam Kumar, Hussein Alawieh, F. S. Racz, R. Fakhreddine, J. D. R. Millán</sub></td>
 <td width="13%">2024<br>PNAS Nexus<br>39 citations</td>
 <td width="30%">Abstract Subject training is crucial for acquiring brain–computer interface (BCI) control.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
 <td width="15%">PDF link not available from metadata</td>
 </tr>
 <tr>
-<td align="right" width="5%">8</td>
+<td align="right" width="5%">26</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.prime.2024.100448">Evaluating Deep Learning with different feature scaling techniques for EEG-based Music Entrainment Brain Computer Interface</a><br><sub>R. C R, D. C P</sub></td>
+<td width="13%">2024<br>e-Prime<br>21 citations</td>
+<td width="30%">Positions Evaluating Deep Learning with different feature scaling techniques for EEG-based Music Entrainment Brain Computer Interface within Deep Learning and Representation Learning.</td>
+<td width="15%">open-access PDF metadata</td>
+<td width="15%">abstract unavailable in metadata; limited citation history</td>
+</tr>
+<tr>
+<td align="right" width="5%">27</td>
+<td width="22%"><a href="https://doi.org/10.1016/j.eswa.2024.126081">A bidirectional cross-modal transformer representation learning model for EEG-fNIRS multimodal affective BCI</a><br><sub>Xiaopeng Si, Shuai Zhang, Zhuobin Yang, Jiayue Yu, Dong Ming</sub></td>
+<td width="13%">2024<br>Expert systems with applications<br>21 citations</td>
+<td width="30%">Positions A bidirectional cross-modal transformer representation learning model for EEG-fNIRS multimodal affective BCI within Deep Learning and Representation Learning.</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
+<td width="15%">abstract unavailable in metadata; limited citation history; PDF link not available from metadata</td>
+</tr>
+<tr>
+<td align="right" width="5%">28</td>
 <td width="22%"><a href="https://doi.org/10.48550/arXiv.2502.02830">Multimodal Brain-Computer Interfaces: AI-powered Decoding Methodologies</a><br><sub>Siyang Li, Hongbin Wang, Xiaoqing Chen, Dongrui Wu</sub></td>
 <td width="13%">2025<br>arXiv.org<br>15 citations</td>
 <td width="30%">Brain-computer interfaces (BCIs) enable direct communication between the brain and external devices.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
 <td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
 </tr>
 <tr>
-<td align="right" width="5%">9</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.neuroimage.2025.121123">Augmenting brain-computer interfaces with ART: An artifact removal transformer for reconstructing multichannel EEG signals</a><br><sub>Chun-Hsiang Chuang, Kong-Yi Chang, Chih-Sheng Huang, Anne-Mei Bessas</sub></td>
-<td width="13%">2025<br>NeuroImage<br>8 citations</td>
-<td width="30%">Artifact removal in electroencephalography (EEG) is a longstanding challenge that significantly impacts neuroscientific analysis and brain-computer interface (BCI) performance.</td>
-<td width="15%">recognized venue</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">10</td>
+<td align="right" width="5%">29</td>
 <td width="22%"><a href="https://doi.org/10.1016/j.hest.2026.01.002">Neural Decoding for EEG-BCI: From Conventional Machine Learning to Deep Learning Models</a><br><sub>Yibo Ding, Xinyu Ma, Ping Zhang, Yingxin Tang, Zhixian Zhao, Danyang Chen, et al.</sub></td>
 <td width="13%">2026<br>Brain Hemorrhages<br>2 citations</td>
 <td width="30%">Positions Neural Decoding for EEG-BCI: From Conventional Machine Learning to Deep Learning Models within Deep Learning and Representation Learning.</td>
@@ -1612,176 +2543,15 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 <td width="15%">abstract unavailable in metadata; recent work may be under-cited; limited citation history</td>
 </tr>
 <tr>
-<td align="right" width="5%">11</td>
-<td width="22%"><a href="https://doi.org/10.59717/j.xinn-life.2026.100198">Advancing brain-computer interfaces with generative AI: A review of state-of-the-art and future outlook</a><br><sub>Su Han, Shanshan Feng, Fan Li</sub></td>
-<td width="13%">2026<br>The Innovation Life<br>1 citations</td>
-<td width="30%">Brain-Computer Interface (BCI) technology is rapidly emerging as a promising tool to empower individuals with severe disabilities and enhance their independence by translating brain neural signals into actionable commands.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">12</td>
+<td align="right" width="5%">30</td>
 <td width="22%"><a href="https://doi.org/10.1109/OJSP.2026.3664271">Alternatives to Sine Carrier in Auditory BCI: Exploring Machine Learning Strategies for Assessing Modulation Detectability in EEG</a><br><sub>Lenaïg Guého, Henrique Lefundes da Silva, Cyril Plapous, L. Bougrain, Patrick Hénaff, Rozenn Nicol</sub></td>
 <td width="13%">2026<br>IEEE Open Journal of Signal Processing<br>2 citations</td>
 <td width="30%">In this paper, the use of non-sinusoidal amplitude-modulated stimuli is assessed for Brain-Computer Interfaces (BCIs) based on Steady-State Auditory Evoked Potentials (SSAEPs).</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
+<td width="15%">selected by citation count from the audited BCI candidate pool</td>
 <td width="15%">recent work may be under-cited; limited citation history; PDF link not available from metadata</td>
 </tr>
-</tbody>
-</table>
-
-</details>
-
-### Speech, Language, and Communication BCIs
-
-- Papers selected: **7**
-- Years covered: **2020-2024**
-- Citation count in selected set: **926**
-- Main research trends:
-  - Communication BCI is expanding from spelling paradigms toward imagined speech, decoded language, and higher-bandwidth text production.
-  - Both invasive and non-invasive studies are exploring more naturalistic communication, including speech motor cortex decoding and inner-speech EEG datasets.
-  - The central challenge remains preserving accuracy, latency, vocabulary size, and user autonomy in real-world assistive communication.
-
-<details>
-<summary>Show representative papers for Speech, Language, and Communication BCIs</summary>
-
-<table width="100%">
-<colgroup>
-<col width="5%">
-<col width="22%">
-<col width="13%">
-<col width="30%">
-<col width="15%">
-<col width="15%">
-</colgroup>
-<thead>
 <tr>
-<th align="right">Rank</th>
-<th>Paper</th>
-<th>Meta</th>
-<th>Key idea</th>
-<th>Strengths</th>
-<th>Limitations</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right" width="5%">1</td>
-<td width="22%"><a href="https://doi.org/10.3390/brainsci11010043">Summary of over Fifty Years with Brain-Computer Interfaces—A Review</a><br><sub>Aleksandra Kawala-Sterniuk, Natalia Browarska, Amir F. Al-Bakri, Mariusz Pelc, J. Zygarlicki, Michaela Sidikova, et al.</sub></td>
-<td width="13%">2021<br>Brain Science<br>236 citations</td>
-<td width="30%">Over the last few decades, the Brain-Computer Interfaces have been gradually making their way to the epicenter of scientific interest.</td>
-<td width="15%">high citation signal (236); influential citation signal (10); recognized venue</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">2</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.tics.2021.04.003">Interface, interaction, and intelligence in generalized brain-computer interfaces.</a><br><sub>Xiaorong Gao, Yijun Wang, Xiaogang Chen, Shangkai Gao</sub></td>
-<td width="13%">2021<br>Trends in Cognitive Sciences<br>263 citations</td>
-<td width="30%">A brain-computer interface (BCI) establishes a direct communication channel between a brain and an external device.</td>
-<td width="15%">high citation signal (263); recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">3</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.inat.2020.100694">Brain computer interface advancement in neurosciences: Applications and issues</a><br><sub>S. Mudgal, S. Sharma, Jitender Chaturvedi, A. Sharma</sub></td>
-<td width="13%">2020<br>Interdisciplinary Neurosurgery<br>117 citations</td>
-<td width="30%">Abstract Neurosciences and Neuro-technology are continuously advancing and so individuals, society and healthcare professionals have to up date themselves with advancement.</td>
-<td width="15%">high citation signal (117); open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">4</td>
-<td width="22%"><a href="https://doi.org/10.1016/j.jneumeth.2020.108918">A comprehensive assessment of Brain Computer Interfaces: Recent trends and challenges.</a><br><sub>Drishti Yadav, S. Yadav, K. Veer</sub></td>
-<td width="13%">2020<br>Journal of Neuroscience Methods<br>89 citations</td>
-<td width="30%">BACKGROUND An uninterrupted channel of communication and control between the human brain and electronic processing units has led to an increased use of Brain Computer Interfaces (BCIs).</td>
-<td width="15%">recognized venue</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">5</td>
-<td width="22%"><a href="https://doi.org/10.1007/s13311-022-01190-2">Brain-Computer Interface: Applications to Speech Decoding and Synthesis to Augment Communication</a><br><sub>S. Luo, Q. Rabbani, N. Crone</sub></td>
-<td width="13%">2022<br>Neurotherapeutics<br>97 citations</td>
-<td width="30%">Positions Brain-Computer Interface: Applications to Speech Decoding and Synthesis to Augment Communication within Speech, Language, and Communication BCIs.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">abstract unavailable in metadata</td>
-</tr>
-<tr>
-<td align="right" width="5%">6</td>
-<td width="22%"><a href="https://doi.org/10.1109/COMST.2024.3387124">A Human-Centric Metaverse Enabled by Brain-Computer Interface: A Survey</a><br><sub>Howe Yuan Zhu, Nguyen Quang Hieu, D. Hoang, Diep N. Nguyen, Chin-Teng Lin</sub></td>
-<td width="13%">2023<br>IEEE Communications Surveys and Tutorials<br>48 citations</td>
-<td width="30%">The growing interest in the Metaverse has generated momentum for members of academia and industry to innovate toward realizing the Metaverse world.</td>
-<td width="15%">open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">7</td>
-<td width="22%"><a href="https://doi.org/10.1109/ICCSP60870.2024.10543610">IoT in Brain-Computer Interfaces for Enabling Communication and Control for the Disabled</a><br><sub>Dr. S. Rajarajan, P. M. Suresh, Dr. T. Kowsalya, Nukala Sujata, Gupta, S. Murugan</sub></td>
-<td width="13%">2024<br>International Conference on Cryptography, Security and Privacy<br>76 citations</td>
-<td width="30%">The proposed system integrates Internet of Things (IoT) technologies with Brain-computer interfaces to improve disability-related communication and control.</td>
-<td width="15%">selected from the top-scored BCI candidate pool</td>
-<td width="15%">PDF link not available from metadata</td>
-</tr>
-</tbody>
-</table>
-
-</details>
-
-### Hybrid, Affective, and Closed-loop BCIs
-
-- Papers selected: **3**
-- Years covered: **2020-2022**
-- Citation count in selected set: **174**
-- Main research trends:
-  - Hybrid BCI combines multiple signals or paradigms to improve reliability, command diversity, and asynchronous control.
-  - Closed-loop and neurofeedback work is increasingly focused on user adaptation, mental-state awareness, fatigue, affect, and training protocols.
-  - The trend is toward systems that adapt to the user over time rather than treating decoding as a one-shot offline classification problem.
-
-<details>
-<summary>Show representative papers for Hybrid, Affective, and Closed-loop BCIs</summary>
-
-<table width="100%">
-<colgroup>
-<col width="5%">
-<col width="22%">
-<col width="13%">
-<col width="30%">
-<col width="15%">
-<col width="15%">
-</colgroup>
-<thead>
-<tr>
-<th align="right">Rank</th>
-<th>Paper</th>
-<th>Meta</th>
-<th>Key idea</th>
-<th>Strengths</th>
-<th>Limitations</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right" width="5%">1</td>
-<td width="22%"><a href="https://doi.org/10.1088/1741-2552/abca17">A review of user training methods in brain computer interfaces based on mental tasks</a><br><sub>A. Roc, Léa Pillette, J. Mladenović, Camille Benaroch, B. N&#x27;Kaoua, C. Jeunet, et al.</sub></td>
-<td width="13%">2020<br>Journal of Neural Engineering<br>98 citations</td>
-<td width="30%">Mental-tasks based brain–computer interfaces (MT-BCIs) allow their users to interact with an external device solely by using brain signals produced through mental tasks.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">2</td>
-<td width="22%"><a href="https://doi.org/10.3389/fnhum.2021.635777">Long-Term Mutual Training for the CYBATHLON BCI Race With a Tetraplegic Pilot: A Case Study on Inter-Session Transfer and Intra-Session Adaptation</a><br><sub>Lea Hehenberger, Reinmar J. Kobler, Catarina Lopes-Dias, Nitikorn Srisrisawang, P. Tumfart, J. B. Uroko, et al.</sub></td>
-<td width="13%">2021<br>Frontiers in Human Neuroscience<br>28 citations</td>
-<td width="30%">CYBATHLON is an international championship where people with severe physical disabilities compete with the aid of state-of-the-art assistive technology.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
-</tr>
-<tr>
-<td align="right" width="5%">3</td>
-<td width="22%"><a href="https://doi.org/10.1126/scitranslmed.abm5868">Closed-loop stimulation using a multi-region brain-machine interface has analgesic effects in rodents</a><br><sub>Guanghao Sun, Fei Zeng, Michael McCartin, Qiaosheng Zhang, Helen Y. Xu, Yaling Liu, et al.</sub></td>
-<td width="13%">2022<br>Science Translational Medicine<br>48 citations</td>
-<td width="30%">Effective treatments for chronic pain remain limited.</td>
-<td width="15%">recognized venue; open-access PDF metadata</td>
-<td width="15%">metadata-level appraisal; full PDF review still needed</td>
+<td colspan="6">See the website and taxonomy CSV for all 31 papers.</td>
 </tr>
 </tbody>
 </table>
@@ -1792,16 +2562,36 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 
 | Year | Selected papers | Citation count | Top paper |
 | ---: | ---: | ---: | --- |
-| 2020 | 100 | 10,957 | [Current Status, Challenges, and Possible Solutions of EEG-Based Brain-Computer Interface: A Comprehensive Review](https://doi.org/10.3389/fnbot.2020.00025) |
-| 2021 | 100 | 8,999 | [A brain-computer interface that evokes tactile sensations improves robotic arm control](https://doi.org/10.1126/science.abd0380) |
-| 2022 | 100 | 6,112 | [FBMSNet: A Filter-Bank Multi-Scale Convolutional Neural Network for EEG-Based Motor Imagery Decoding](https://doi.org/10.1109/TBME.2022.3193277) |
-| 2023 | 100 | 4,932 | [Physics-Informed Attention Temporal Convolutional Network for EEG-Based Motor Imagery Classification](https://doi.org/10.1109/TII.2022.3197419) |
-| 2024 | 100 | 3,461 | [Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI](https://doi.org/10.48550/arXiv.2405.18765) |
-| 2025 | 100 | 1,397 | [EEG-based brain-computer interface enables real-time robotic hand control at individual finger level](https://doi.org/10.1038/s41467-025-61064-x) |
-| 2026 | 100 | 102 | [Toward Robust, Reproducible, and Widely Accessible Intracranial Language Brain-Computer Interfaces: A Comprehensive Review of Neural Mechanisms, Hardware, Algorithms, Evaluation, Clinical Pathways and Future Directions](https://arxiv.org/abs/2603.12279) |
+| 2000 | 20 | 6,492 | [Brain-computer interface technology: a review of the first international meeting.](https://doi.org/10.1109/TRE.2000.847807) |
+| 2001 | 14 | 3,007 | [Motor imagery and direct brain-computer communication](https://doi.org/10.1109/5.939829) |
+| 2002 | 24 | 7,864 | [Brain-computer interfaces for communication and control.](https://doi.org/10.1016/S1388-2457(02)00057-3) |
+| 2003 | 89 | 7,102 | [A BCI-based environmental controller for the motion-disabled.](https://doi.org/10.1109/TNSRE.2003.814449) |
+| 2004 | 100 | 14,605 | [BCI2000: a general-purpose brain-computer interface (BCI) system](https://doi.org/10.1109/TBME.2004.827072) |
+| 2005 | 100 | 6,627 | [Patients with ALS can use sensorimotor rhythms to operate a brain-computer interface](https://doi.org/10.1212/01.WNL.0000158616.43002.6D) |
+| 2006 | 100 | 17,128 | [Brain-machine interfaces: past, present and future.](https://doi.org/10.1016/J.TINS.2006.07.004) |
+| 2007 | 100 | 10,574 | [The non-invasive Berlin Brain-Computer Interface: Fast acquisition of effective performance in untrained subjects](https://doi.org/10.1016/J.NEUROIMAGE.2007.01.051) |
+| 2008 | 100 | 18,705 | [Filter Bank Common Spatial Pattern (FBCSP) in Brain-Computer Interface](https://doi.org/10.1109/IJCNN.2008.4634130) |
+| 2009 | 100 | 13,728 | [An online multi-channel SSVEP-based brain–computer interface using a canonical correlation analysis method](https://doi.org/10.1088/1741-2560/6/4/046002) |
+| 2010 | 100 | 17,519 | [The Hybrid BCI](https://doi.org/10.3389/fnpro.2010.00003) |
+| 2011 | 100 | 20,824 | [Brain-Computer Interfaces for Communication and Control](https://doi.org/10.1145/1941487.1941506) |
+| 2012 | 100 | 15,347 | [Filter Bank Common Spatial Pattern Algorithm on BCI Competition IV Datasets 2a and 2b](https://doi.org/10.3389/fnins.2012.00039) |
+| 2013 | 100 | 15,830 | [Failure mode analysis of silicon-based intracortical microelectrode arrays in non-human primates](https://doi.org/10.1088/1741-2560/10/6/066014) |
+| 2014 | 100 | 12,955 | [Brain-Computer Interfaces Using Sensorimotor Rhythms: Current State and Future Perspectives](https://doi.org/10.1109/TBME.2014.2312397) |
+| 2015 | 100 | 16,376 | [fNIRS-based brain-computer interfaces: a review](https://doi.org/10.3389/fnhum.2015.00003) |
+| 2016 | 100 | 15,478 | [EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces](https://doi.org/10.1088/1741-2552/aace8c) |
+| 2017 | 100 | 15,668 | [A novel deep learning approach for classification of EEG motor imagery signals](https://doi.org/10.1088/1741-2560/14/1/016003) |
+| 2018 | 100 | 13,140 | [Learning Temporal Information for Brain-Computer Interface Using Convolutional Neural Networks](https://doi.org/10.1109/TNNLS.2018.2789927) |
+| 2019 | 100 | 16,909 | [Deep learning for electroencephalogram (EEG) classification tasks: a review](https://doi.org/10.1088/1741-2552/ab0ab5) |
+| 2020 | 100 | 13,125 | [Brain-Computer Interfaces](https://doi.org/10.1007/978-3-540-29678-2_717) |
+| 2021 | 100 | 11,412 | [High-performance brain-to-text communication via handwriting](https://doi.org/10.1038/s41586-021-03506-2) |
+| 2022 | 100 | 7,455 | [Past, Present, and Future of EEG-Based BCI Applications](https://doi.org/10.3390/s22093331) |
+| 2023 | 100 | 6,906 | [Physics-Informed Attention Temporal Convolutional Network for EEG-Based Motor Imagery Classification](https://doi.org/10.1109/TII.2022.3197419) |
+| 2024 | 100 | 4,231 | [Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI](https://doi.org/10.48550/arXiv.2405.18765) |
+| 2025 | 100 | 1,787 | [Recent applications of EEG-based brain-computer-interface in the medical field](https://doi.org/10.1186/s40779-025-00598-z) |
+| 2026 | 100 | 170 | [EEG Foundation Models: Progresses, Benchmarking, and Open Problems](https://doi.org/10.48550/arXiv.2601.17883) |
 ## Method
 
-The collection uses Semantic Scholar's Academic Graph paper search. Queries combine broad BCI terms and common subfields, results are filtered to the target publication year, relevance-filtered by BCI terms in title/abstract, deduplicated by DOI/arXiv/PubMed/CorpusId/paperId, and reduced to a maximum of 500 candidates per year. Importance scoring combines log-scaled citation count, log-scaled influential citation count, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive/high-bandwidth interfaces, and modern ML methods. The final awesome list uses the top 100 scored papers per year.
+The collection uses Semantic Scholar's Academic Graph paper search. Queries combine broad BCI terms and common subfields, results are filtered to the target publication year, relevance-filtered by BCI terms in title/abstract, deduplicated by DOI/arXiv/PubMed/CorpusId/paperId, and reduced to a maximum of 500 candidates per year. Importance scoring is retained for candidate auditing and combines log-scaled citation count, log-scaled influential citation count, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive/high-bandwidth interfaces, and modern ML methods. The final awesome list selects the top 100 papers per year by citation count from the audited candidate pool.
 
 ## Caveats
 
