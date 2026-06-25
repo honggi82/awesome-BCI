@@ -356,10 +356,6 @@ def md_link(label, url):
     return f"[{label}]({url})" if url else label
 
 
-def md_cell(value):
-    return str(value or "-").replace("|", "\\|").replace("\n", " ")
-
-
 def first_sentence(value, fallback="Metadata-only record; no abstract sentence was available."):
     text = norm_text(value)
     if not text:
@@ -460,6 +456,55 @@ def write_taxonomy_dataset(flat):
         writer.writerows(rows)
 
 
+def readme_taxonomy_table(rows, total_count):
+    out = [
+        '<table width="100%">',
+        "<colgroup>",
+        '<col width="5%">',
+        '<col width="22%">',
+        '<col width="13%">',
+        '<col width="30%">',
+        '<col width="15%">',
+        '<col width="15%">',
+        "</colgroup>",
+        "<thead>",
+        "<tr>",
+        '<th align="right">Rank</th>',
+        "<th>Paper</th>",
+        "<th>Meta</th>",
+        "<th>Key idea</th>",
+        "<th>Strengths</th>",
+        "<th>Limitations</th>",
+        "</tr>",
+        "</thead>",
+        "<tbody>",
+    ]
+    for idx, p in enumerate(rows, 1):
+        title = html.escape(p["title"])
+        link = html.escape(p["paperLink"])
+        paper = f'<a href="{link}">{title}</a>' if link else title
+        authors = html.escape(p["authors"] or "Unknown authors")
+        venue = html.escape(p["venue"] or "Unknown venue")
+        out.extend([
+            "<tr>",
+            f'<td align="right" width="5%">{idx}</td>',
+            f'<td width="22%">{paper}<br><sub>{authors}</sub></td>',
+            f'<td width="13%">{p["year"]}<br>{venue}<br>{p["citationCount"]:,} citations</td>',
+            f'<td width="30%">{html.escape(p["keyIdea"])}</td>',
+            f'<td width="15%">{html.escape(p["strengths"])}</td>',
+            f'<td width="15%">{html.escape(p["limitations"])}</td>',
+            "</tr>",
+        ])
+    if total_count > len(rows):
+        out.extend([
+            "<tr>",
+            f'<td colspan="6">See the website and taxonomy CSV for all {total_count} papers.</td>',
+            "</tr>",
+        ])
+    out.extend(["</tbody>", "</table>"])
+    return out
+
+
 def write_readme(flat):
     stats = year_stats(flat)
     cats = category_stats(flat)
@@ -504,16 +549,8 @@ def write_readme(flat):
             "<details>",
             f"<summary>Show representative papers for {cat}</summary>",
             "",
-            "| Taxonomy Rank | Paper | Year | Venue | Citations | Key idea | Strengths | Limitations |",
-            "| ---: | --- | ---: | --- | ---: | --- | --- | --- |",
         ])
-        for idx, p in enumerate(top, 1):
-            lines.append(
-                f"| {idx} | {md_link(p['title'], p['paperLink'])} | {p['year']} | {md_cell(p['venue'])} | "
-                f"{p['citationCount']} | {md_cell(p['keyIdea'])} | {md_cell(p['strengths'])} | {md_cell(p['limitations'])} |"
-            )
-        if len(rows) > len(top):
-            lines.append(f"| ... | See the website and taxonomy CSV for all {len(rows)} papers. |  |  |  |  |  |  |")
+        lines.extend(readme_taxonomy_table(top, len(rows)))
         lines.extend(["", "</details>", ""])
 
     lines.extend([
