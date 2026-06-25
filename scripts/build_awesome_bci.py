@@ -356,57 +356,182 @@ def md_link(label, url):
     return f"[{label}]({url})" if url else label
 
 
+def md_cell(value):
+    return str(value or "-").replace("|", "\\|").replace("\n", " ")
+
+
+def first_sentence(value, fallback="Metadata-only record; no abstract sentence was available."):
+    text = norm_text(value)
+    if not text:
+        return fallback
+    parts = re.split(r"(?<=[.!?])\s+", text)
+    return parts[0][:360].rstrip()
+
+
+def method_tags(p):
+    text = f"{p.get('title', '')} {p.get('abstract', '')}".lower()
+    tags = []
+    checks = [
+        ("review", r"\b(review|survey|meta-analysis|systematic review)\b"),
+        ("dataset/benchmark", r"\b(dataset|benchmark|competition|open data)\b"),
+        ("clinical/rehab", r"\b(clinical|stroke|rehabilitation|prosthe|patient|paralysis)\b"),
+        ("invasive", r"\b(invasive|intracortical|implant|electrocorticography|ecog)\b"),
+        ("deep learning", r"\b(deep learning|cnn|convolution|transformer|graph neural|self-supervised|domain adaptation)\b"),
+        ("communication", r"\b(speech|language|speller|typing|communication)\b"),
+        ("closed-loop", r"\b(closed-loop|closed loop|neurofeedback|adaptive)\b"),
+    ]
+    for label, pattern in checks:
+        if re.search(pattern, text):
+            tags.append(label)
+    return tags[:4] or ["BCI method"]
+
+
+def enrich_paper(p):
+    """Add reproducible interpretation fields from title, abstract, and metadata."""
+    abstract = p.get("abstract", "")
+    idea = first_sentence(abstract, f"Positions {p.get('title', 'this paper')} within {p.get('category', 'BCI research')}.")
+    tags = method_tags(p)
+    strengths = []
+    if p.get("citationCount", 0) >= 100:
+        strengths.append(f"high citation signal ({p['citationCount']:,})")
+    if p.get("influentialCitationCount", 0) >= 10:
+        strengths.append(f"influential citation signal ({p['influentialCitationCount']:,})")
+    if "recognized venue" in p.get("importanceReasons", ""):
+        strengths.append("recognized venue")
+    if p.get("openAccessPdf"):
+        strengths.append("open-access PDF metadata")
+    if not strengths:
+        strengths.append("selected from the top-scored BCI candidate pool")
+
+    limitations = []
+    if not abstract:
+        limitations.append("abstract unavailable in metadata")
+    if not p.get("venue"):
+        limitations.append("venue missing in metadata")
+    if p.get("year", 0) >= 2025:
+        limitations.append("recent work may be under-cited")
+    if p.get("citationCount", 0) < 25:
+        limitations.append("limited citation history")
+    if not p.get("openAccessPdf"):
+        limitations.append("PDF link not available from metadata")
+    if not limitations:
+        limitations.append("metadata-level appraisal; full PDF review still needed")
+
+    enriched = dict(p)
+    enriched["keyIdea"] = idea
+    enriched["strengths"] = "; ".join(strengths[:3])
+    enriched["limitations"] = "; ".join(limitations[:3])
+    enriched["methodTags"] = "; ".join(tags)
+    enriched["paperLink"] = p.get("url") or p.get("semanticScholarUrl") or ""
+    return enriched
+
+
+def enriched_flat(flat):
+    return [enrich_paper(p) for p in flat]
+
+
+def category_groups(flat):
+    groups = defaultdict(list)
+    for p in enriched_flat(flat):
+        groups[p["category"]].append(p)
+    for rows in groups.values():
+        rows.sort(key=lambda p: (p["importanceScore"], p["citationCount"]), reverse=True)
+    return groups
+
+
+def write_taxonomy_dataset(flat):
+    rows = []
+    for category, papers in sorted(category_groups(flat).items()):
+        for idx, p in enumerate(papers, 1):
+            row = dict(p)
+            row["taxonomyRank"] = idx
+            rows.append(row)
+    if not rows:
+        return
+    fields = [
+        "category", "taxonomyRank", "year", "title", "authors", "venue", "publicationDate",
+        "citationCount", "influentialCitationCount", "importanceScore", "methodTags",
+        "keyIdea", "strengths", "limitations", "paperLink", "semanticScholarUrl",
+        "openAccessPdf", "doi", "arxiv", "pubmed", "fieldsOfStudy",
+    ]
+    with (DATA_DIR / "papers_taxonomy_2020_2026.csv").open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
 def write_readme(flat):
     stats = year_stats(flat)
     cats = category_stats(flat)
+    groups = category_groups(flat)
     lines = [
         "# Awesome BCI",
         "",
         "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
         "",
-        "A curated, citation-ranked map of recent Brain-Computer Interface (BCI) research.",
+        "A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) research.",
         "",
-        f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. The current edition investigates up to {CANDIDATES_PER_YEAR} BCI-related candidate papers per year for 2020-2026, scores their importance, and selects the top {TARGET_PER_YEAR} papers per year.",
+        f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. The current edition investigates up to {CANDIDATES_PER_YEAR} BCI-related candidate papers per year for 2020-2026, scores their importance, selects the top {TARGET_PER_YEAR} papers per year, and reorganizes the final 700 papers by research taxonomy.",
         "",
         "## Project Links",
         "",
-        "- Website: `docs/index.html`",
+        "- Website: https://honggi82.github.io/awesome-BCI/",
         "- Selected dataset: `data/papers_2020_2026.csv`",
+        "- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2020_2026.csv`",
         "- Candidate pool: `data/candidates_top500_2020_2026.csv`",
         "- English review draft: `paper/review_en.html`, `paper/review_en.docx`",
         "- Korean review draft: `paper/review_ko.html`",
         "",
-        "## Taxonomy",
+        "## Taxonomy Overview",
         "",
     ]
     for cat, count in cats.most_common():
         lines.append(f"- **{cat}**: {count} papers")
-    lines.extend(["", "## Yearly Collections", ""])
+
+    lines.extend(["", "## Taxonomy Collections", ""])
+    for cat, _ in cats.most_common():
+        rows = groups[cat]
+        top = rows[:30]
+        years = sorted({p["year"] for p in rows})
+        citations = sum(p["citationCount"] for p in rows)
+        lines.extend([
+            f"### {cat}",
+            "",
+            f"- Papers selected: **{len(rows)}**",
+            f"- Years covered: **{years[0]}-{years[-1]}**",
+            f"- Citation count in selected set: **{citations:,}**",
+            "",
+            "<details>",
+            f"<summary>Show representative papers for {cat}</summary>",
+            "",
+            "| Taxonomy Rank | Paper | Year | Venue | Citations | Key idea | Strengths | Limitations |",
+            "| ---: | --- | ---: | --- | ---: | --- | --- | --- |",
+        ])
+        for idx, p in enumerate(top, 1):
+            lines.append(
+                f"| {idx} | {md_link(p['title'], p['paperLink'])} | {p['year']} | {md_cell(p['venue'])} | "
+                f"{p['citationCount']} | {md_cell(p['keyIdea'])} | {md_cell(p['strengths'])} | {md_cell(p['limitations'])} |"
+            )
+        if len(rows) > len(top):
+            lines.append(f"| ... | See the website and taxonomy CSV for all {len(rows)} papers. |  |  |  |  |  |  |")
+        lines.extend(["", "</details>", ""])
+
+    lines.extend([
+        "## Yearly Coverage",
+        "",
+        "| Year | Selected papers | Citation count | Top paper |",
+        "| ---: | ---: | ---: | --- |",
+    ])
     by_year = defaultdict(list)
     for p in flat:
         by_year[p["year"]].append(p)
     for year in YEARS:
         rows = by_year.get(year, [])
-        top = rows[0]["title"] if rows else "n/a"
-        lines.extend([
-            f"### {year}",
-            "",
-            f"- Papers selected: **{len(rows)}**",
-            f"- Total citations in selected set: **{stats.get(year, {}).get('citations', 0):,}**",
-            f"- Top cited paper: **{top}**",
-            "",
-            "<details>",
-            f"<summary>Show {year} papers</summary>",
-            "",
-            "| Rank | Paper | Venue | Importance | Citations | Category |",
-            "| --- | --- | --- | ---: | ---: | --- |",
-        ])
-        for p in rows:
-            lines.append(
-                f"| {p['rank']} | {md_link(p['title'], p['url'])} | {p['venue'] or '-'} | "
-                f"{p['importanceScore']} | {p['citationCount']} | {p['category']} |"
-            )
-        lines.extend(["", "</details>", ""])
+        top = rows[0] if rows else None
+        top_link = md_link(top["title"], top["url"]) if top else "n/a"
+        lines.append(
+            f"| {year} | {len(rows)} | {stats.get(year, {}).get('citations', 0):,} | {top_link} |"
+        )
     lines.extend([
         "## Method",
         "",
@@ -421,23 +546,77 @@ def write_readme(flat):
     (ROOT / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def html_table(rows, limit=None):
-    out = [
-        "<table>",
-        "<thead><tr><th>Rank</th><th>Paper</th><th>Venue</th><th>Importance</th><th>Citations</th><th>Category</th></tr></thead>",
-        "<tbody>",
-    ]
-    for p in rows[:limit] if limit else rows:
-        title = html.escape(p["title"])
-        url = html.escape(p["url"])
-        link = f'<a href="{url}">{title}</a>' if url else title
-        out.append(
-            f"<tr><td>{p['rank']}</td><td>{link}<br><small>{html.escape(p['authors'])}</small></td>"
-            f"<td>{html.escape(p['venue'] or '-')}</td><td>{p['importanceScore']}</td><td>{p['citationCount']}</td>"
-            f"<td>{html.escape(p['category'])}</td></tr>"
-        )
-    out.extend(["</tbody>", "</table>"])
-    return "\n".join(out)
+def category_summary(category, rows):
+    top_tags = Counter()
+    for p in rows:
+        for tag in p.get("methodTags", "").split("; "):
+            if tag:
+                top_tags[tag] += 1
+    lead = rows[0] if rows else {}
+    return {
+        "count": len(rows),
+        "years": f"{min(p['year'] for p in rows)}-{max(p['year'] for p in rows)}" if rows else "",
+        "citations": sum(p["citationCount"] for p in rows),
+        "top": lead.get("title", "n/a"),
+        "tags": ", ".join(tag for tag, _ in top_tags.most_common(4)) or "BCI method",
+    }
+
+
+def paper_card(p, taxonomy_rank):
+    title = html.escape(p["title"])
+    link = html.escape(p["paperLink"])
+    semantic = html.escape(p.get("semanticScholarUrl") or "")
+    pdf = html.escape(p.get("openAccessPdf") or "")
+    paper_link = f'<a href="{link}">Paper</a>' if link else ""
+    semantic_link = f'<a href="{semantic}">Semantic Scholar</a>' if semantic else ""
+    pdf_link = f'<a href="{pdf}">PDF</a>' if pdf else ""
+    links = " ".join(x for x in [paper_link, semantic_link, pdf_link] if x) or "No link"
+    return f"""
+      <article class="paper-card">
+        <div class="paper-rank">#{taxonomy_rank}</div>
+        <div class="paper-body">
+          <h3>{f'<a href="{link}">{title}</a>' if link else title}</h3>
+          <p class="authors">{html.escape(p["authors"] or "Unknown authors")}</p>
+          <div class="meta">
+            <span>{p["year"]}</span>
+            <span>{html.escape(p["venue"] or "Unknown venue")}</span>
+            <span>{p["citationCount"]:,} citations</span>
+            <span>{p["influentialCitationCount"]:,} influential</span>
+            <span>score {p["importanceScore"]}</span>
+          </div>
+          <p><strong>Key idea:</strong> {html.escape(p["keyIdea"])}</p>
+          <div class="assessment">
+            <p><strong>Strengths:</strong> {html.escape(p["strengths"])}</p>
+            <p><strong>Limitations:</strong> {html.escape(p["limitations"])}</p>
+          </div>
+          <p class="tags">{html.escape(p["methodTags"])}</p>
+          <p class="links">{links}</p>
+        </div>
+      </article>
+    """
+
+
+def taxonomy_section(category, rows):
+    slug = safe_slug(category)
+    summary = category_summary(category, rows)
+    cards = "\n".join(paper_card(p, idx) for idx, p in enumerate(rows, 1))
+    return f"""
+    <section id="{slug}" class="taxonomy-section">
+      <details>
+        <summary>
+          <span class="summary-title">{html.escape(category)}</span>
+          <span>{summary['count']} papers</span>
+          <span>{summary['years']}</span>
+          <span>{summary['citations']:,} citations</span>
+        </summary>
+        <div class="section-intro">
+          <p><strong>Representative emphasis:</strong> {html.escape(summary['tags'])}</p>
+          <p><strong>Top-ranked paper:</strong> {html.escape(summary['top'])}</p>
+        </div>
+        <div class="paper-list">{cards}</div>
+      </details>
+    </section>
+    """
 
 
 def write_site(flat):
@@ -445,17 +624,14 @@ def write_site(flat):
     (DOCS_DIR / "assets").mkdir(exist_ok=True)
     (DOCS_DIR / "data").mkdir(exist_ok=True)
     (DOCS_DIR / "paper").mkdir(exist_ok=True)
-    by_year = defaultdict(list)
-    for p in flat:
-        by_year[p["year"]].append(p)
+    groups = category_groups(flat)
     cats = category_stats(flat)
     total_cites = sum(p["citationCount"] for p in flat)
     sections = []
-    for year in YEARS:
-        rows = by_year.get(year, [])
-        sections.append(f"<section><h2>{year}</h2>{html_table(rows)}</section>")
+    for cat, _ in cats.most_common():
+        sections.append(taxonomy_section(cat, groups[cat]))
     cat_cards = "\n".join(
-        f"<div class='card'><strong>{html.escape(cat)}</strong><span>{count} papers</span></div>"
+        f"<a class='card' href='#{safe_slug(cat)}'><strong>{html.escape(cat)}</strong><span>{count} papers</span></a>"
         for cat, count in cats.most_common()
     )
     html_doc = f"""<!doctype html>
@@ -465,10 +641,11 @@ def write_site(flat):
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Awesome BCI</title>
   <style>
-    :root {{ color-scheme: light; --ink:#18212f; --muted:#5b6678; --line:#d9dee8; --accent:#0f766e; --accent2:#7c3aed; --bg:#f7f9fc; }}
+    :root {{ color-scheme: light; --ink:#18212f; --muted:#5b6678; --line:#d9dee8; --accent:#0f766e; --accent2:#7c3aed; --bg:#f7f9fc; --panel:#ffffff; }}
     body {{ margin:0; font-family: Inter, Segoe UI, Arial, sans-serif; color:var(--ink); background:var(--bg); }}
-    header {{ padding:56px 7vw 36px; background:linear-gradient(120deg,#e9fbf8,#eef2ff); border-bottom:1px solid var(--line); }}
+    header {{ padding:54px 7vw 34px; background:linear-gradient(120deg,#e9fbf8,#eef2ff); border-bottom:1px solid var(--line); }}
     h1 {{ font-size:48px; margin:0 0 12px; letter-spacing:0; }}
+    h2 {{ margin-top:36px; }}
     p {{ line-height:1.65; color:var(--muted); }}
     main {{ padding:28px 7vw 72px; }}
     .stats, .cards {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin:24px 0; }}
@@ -478,22 +655,38 @@ def write_site(flat):
     .stat strong {{ display:block; font-size:28px; color:var(--accent); }}
     .card span {{ display:block; margin-top:8px; color:var(--muted); }}
     nav a {{ display:inline-block; margin:0 12px 10px 0; color:var(--accent2); font-weight:600; }}
-    section {{ margin-top:34px; }}
-    table {{ width:100%; border-collapse:collapse; background:white; border:1px solid var(--line); border-radius:8px; overflow:hidden; }}
-    th,td {{ padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; text-align:left; }}
-    th {{ background:#f0f4f8; }}
-    small {{ color:var(--muted); }}
+    .card {{ display:block; color:var(--ink); }}
+    .taxonomy-section {{ margin-top:16px; }}
+    details {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }}
+    summary {{ cursor:pointer; display:grid; grid-template-columns:minmax(260px,1fr) repeat(3, minmax(110px, auto)); gap:12px; align-items:center; padding:16px 18px; font-weight:700; }}
+    .summary-title {{ color:var(--accent); }}
+    .section-intro {{ padding:0 18px 14px; border-top:1px solid var(--line); }}
+    .paper-list {{ display:grid; gap:12px; padding:16px; background:#f9fbfd; }}
+    .paper-card {{ display:grid; grid-template-columns:56px 1fr; gap:14px; padding:16px; background:white; border:1px solid var(--line); border-radius:8px; }}
+    .paper-rank {{ font-weight:800; color:var(--accent2); }}
+    .paper-card h3 {{ margin:0 0 6px; font-size:18px; line-height:1.35; }}
+    .authors {{ margin:0 0 8px; }}
+    .meta {{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0 10px; }}
+    .meta span, .tags {{ display:inline-block; background:#eef2f7; border:1px solid #dce3ee; border-radius:999px; padding:5px 9px; color:#344255; font-size:13px; }}
+    .assessment {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:8px; }}
+    .links a {{ margin-right:12px; font-weight:700; }}
     a {{ color:#0f5f97; text-decoration:none; }}
     a:hover {{ text-decoration:underline; }}
+    @media (max-width:760px) {{
+      h1 {{ font-size:36px; }}
+      summary {{ grid-template-columns:1fr; }}
+      .paper-card {{ grid-template-columns:1fr; }}
+    }}
   </style>
 </head>
 <body>
   <header>
     <h1>Awesome BCI</h1>
-    <p>A metadata-scored, year-by-year map of Brain-Computer Interface research from 2020 through 2026. Each year investigates up to {CANDIDATES_PER_YEAR} candidate papers and selects the top {TARGET_PER_YEAR}.</p>
+    <p>A taxonomy-first map of Brain-Computer Interface research from 2020 through 2026. Each year investigates up to {CANDIDATES_PER_YEAR} candidate papers, selects the top {TARGET_PER_YEAR}, and organizes the final papers by BCI research theme.</p>
     <nav>
       <a href="https://github.com/honggi82/awesome-BCI">README</a>
       <a href="data/papers_2020_2026.csv">CSV Dataset</a>
+      <a href="data/papers_taxonomy_2020_2026.csv">Taxonomy CSV</a>
       <a href="data/candidates_top500_2020_2026.csv">Candidate Pool</a>
       <a href="paper/review_en.html">Review Paper</a>
       <a href="paper/review_ko.html">Korean Review</a>
@@ -507,6 +700,7 @@ def write_site(flat):
       <div class="stat"><strong>{len(cats)}</strong><span>topic categories</span></div>
     </div>
     <h2>Taxonomy</h2>
+    <p>Each taxonomy section lists papers with publication year, journal or venue, citation count, main idea, strengths, limitations, and paper links. Sections are collapsed by default to keep the page scannable.</p>
     <div class="figures">
       <img src="assets/category_distribution.png" alt="Category distribution chart">
       <img src="assets/yearly_citations.png" alt="Yearly citation chart">
@@ -811,6 +1005,7 @@ def main():
         path.mkdir(exist_ok=True)
     selected, candidates = collect_papers()
     flat = write_json_csv(selected, candidates)
+    write_taxonomy_dataset(flat)
     write_readme(flat)
     write_charts(flat)
     write_site(flat)
@@ -818,6 +1013,7 @@ def main():
     write_review_html(flat, korean=True)
     write_review_docx(flat)
     shutil.copyfile(DATA_DIR / "papers_2020_2026.csv", DOCS_DIR / "data" / "papers_2020_2026.csv")
+    shutil.copyfile(DATA_DIR / "papers_taxonomy_2020_2026.csv", DOCS_DIR / "data" / "papers_taxonomy_2020_2026.csv")
     shutil.copyfile(DATA_DIR / "candidates_top500_2020_2026.csv", DOCS_DIR / "data" / "candidates_top500_2020_2026.csv")
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
