@@ -1550,9 +1550,9 @@ def readme_taxonomy_table(rows, total_count):
         '<col width="21%">',
         '<col width="12%">',
         '<col width="12%">',
-        '<col width="26%">',
-        '<col width="12%">',
-        '<col width="12%">',
+        '<col width="18%">',
+        '<col width="8%">',
+        '<col width="24%">',
         "</colgroup>",
         "<thead>",
         "<tr>",
@@ -1561,7 +1561,7 @@ def readme_taxonomy_table(rows, total_count):
         "<th>Meta</th>",
         "<th>Keywords</th>",
         "<th>Key idea</th>",
-        "<th>Strengths</th>",
+        "<th>Strengths<br><sub>(high citation signal)</sub></th>",
         "<th>Limitations</th>",
         "</tr>",
         "</thead>",
@@ -1580,9 +1580,9 @@ def readme_taxonomy_table(rows, total_count):
             f'<td width="21%">{paper}<br><sub>{authors}</sub></td>',
             f'<td width="12%">{p["year"]}<br>{venue}<br>{p["citationCount"]:,} citations</td>',
             f'<td width="12%">{keywords}</td>',
-            f'<td width="26%">{html.escape(p["keyIdea"])}</td>',
-            f'<td width="12%">{html.escape(p["strengths"])}</td>',
-            f'<td width="12%">{html.escape(p["limitations"])}</td>',
+            f'<td width="18%">{html.escape(p["keyIdea"])}</td>',
+            f'<td align="right" width="8%">{p["citationCount"]:,}</td>',
+            f'<td width="24%">{html.escape(p["limitations"])}</td>',
             "</tr>",
         ])
     if total_count > len(rows):
@@ -2191,6 +2191,7 @@ def write_site(flat):
     nav a {{ display:inline-block; margin:0 12px 10px 0; color:var(--accent2); font-weight:600; }}
     .card {{ display:block; color:var(--ink); }}
     .taxonomy-section {{ margin-top:16px; }}
+    .taxonomy-section[hidden], .paper-card[hidden] {{ display:none !important; }}
     details {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }}
     summary {{ cursor:pointer; display:grid; grid-template-columns:64px minmax(260px,1fr) repeat(3, minmax(110px, auto)); gap:12px; align-items:center; padding:14px 18px; font-weight:700; }}
     .summary-thumb {{ width:56px; height:40px; object-fit:cover; border:1px solid var(--line); border-radius:6px; background:#f8fafc; }}
