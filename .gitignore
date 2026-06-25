@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
+.tools/
 data/candidates_2020_2026.json
+data/candidates_top500_2020_2026.json

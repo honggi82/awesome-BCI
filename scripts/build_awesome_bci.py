@@ -1,6 +1,7 @@
 import csv
 import html
 import json
+import math
 import re
 import shutil
 import time
@@ -18,6 +19,7 @@ DOCS_DIR = ROOT / "docs"
 PAPER_DIR = ROOT / "paper"
 YEARS = list(range(2020, 2027))
 TARGET_PER_YEAR = 100
+CANDIDATES_PER_YEAR = 500
 
 S2_BULK_URL = "https://api.semanticscholar.org/graph/v1/paper/search/bulk"
 S2_FIELDS = ",".join([
@@ -74,6 +76,14 @@ CATEGORIES = [
     ("Hybrid, Affective, and Closed-loop BCIs", ["hybrid", "affective", "closed-loop", "closed loop", "neurofeedback", "adaptive"]),
 ]
 
+IMPORTANT_VENUES = [
+    "nature", "science", "cell", "neuron", "nature biomedical engineering",
+    "nature neuroscience", "nature communications", "science robotics",
+    "journal of neural engineering", "neuroimage", "ieee transactions",
+    "ieee trans", "frontiers in neuroscience", "frontiers in neurorobotics",
+    "brain", "npj", "plos", "elife", "neural networks",
+]
+
 
 def norm_text(value):
     return re.sub(r"\s+", " ", value or "").strip()
@@ -93,8 +103,16 @@ def paper_key(paper):
 
 
 def is_relevant(paper):
-    text = " ".join([paper.get("title") or "", paper.get("abstract") or ""])
-    return any(re.search(pattern, text, re.I) for pattern in RELEVANCE_PATTERNS)
+    title = paper.get("title") or ""
+    abstract = paper.get("abstract") or ""
+    title_matches = title_relevance_count(paper)
+    abstract_matches = sum(1 for pattern in RELEVANCE_PATTERNS if re.search(pattern, abstract, re.I))
+    return title_matches >= 1 or abstract_matches >= 2
+
+
+def title_relevance_count(paper):
+    title = paper.get("title") or ""
+    return sum(1 for pattern in RELEVANCE_PATTERNS if re.search(pattern, title, re.I))
 
 
 def venue_name(paper):
@@ -126,6 +144,50 @@ def primary_link(paper):
     if ext.get("ArXiv"):
         return f"https://arxiv.org/abs/{ext['ArXiv']}"
     return paper.get("url") or ""
+
+
+def importance_score(paper):
+    """Transparent metadata score used to reduce 500 candidates to 100 papers."""
+    title = paper.get("title") or ""
+    abstract = paper.get("abstract") or ""
+    venue = venue_name(paper)
+    text = f"{title} {abstract}".lower()
+    venue_l = venue.lower()
+    citations = int(paper.get("citationCount") or 0)
+    influential = int(paper.get("influentialCitationCount") or 0)
+    score = math.log1p(citations) * 22.0 + math.log1p(influential) * 18.0
+    reasons = [f"citations={citations}", f"influential={influential}"]
+
+    if any(v in venue_l for v in IMPORTANT_VENUES):
+        score += 10.0
+        reasons.append("recognized venue")
+    if re.search(r"\b(review|survey|meta-analysis|systematic review)\b", text):
+        score += 7.0
+        reasons.append("review/survey")
+    if re.search(r"\b(dataset|benchmark|competition|open data)\b", text):
+        score += 5.0
+        reasons.append("dataset/benchmark")
+    if re.search(r"\b(clinical|stroke|rehabilitation|prosthe|paralysis|patient)\b", text):
+        score += 5.0
+        reasons.append("clinical/rehab relevance")
+    if re.search(r"\b(invasive|intracortical|implant|electrocorticography|ecog)\b", text):
+        score += 5.0
+        reasons.append("invasive/high-bandwidth BCI")
+    if re.search(r"\b(deep learning|transformer|self-supervised|domain adaptation|foundation model)\b", text):
+        score += 4.0
+        reasons.append("modern ML method")
+    match_count = sum(1 for pattern in RELEVANCE_PATTERNS if re.search(pattern, text, re.I))
+    if match_count:
+        score += min(8.0, match_count * 1.5)
+        reasons.append(f"BCI term matches={match_count}")
+    title_match_count = sum(1 for pattern in RELEVANCE_PATTERNS if re.search(pattern, title, re.I))
+    if title_match_count:
+        score += min(6.0, title_match_count * 2.0)
+        reasons.append(f"title BCI matches={title_match_count}")
+    if paper.get("openAccessPdf"):
+        score += 1.0
+        reasons.append("open PDF metadata")
+    return round(score, 3), "; ".join(reasons)
 
 
 def fetch_year_query(year, query, max_pages=2):
@@ -175,15 +237,25 @@ def collect_papers():
         ranked = sorted(
             merged.values(),
             key=lambda p: (
+                importance_score(p)[0],
                 int(p.get("citationCount") or 0),
                 int(p.get("influentialCitationCount") or 0),
                 p.get("title") or "",
             ),
             reverse=True,
         )
-        all_candidates[year] = [normalize_paper(p, year, i + 1, candidate=True) for i, p in enumerate(ranked)]
-        selected[year] = [normalize_paper(p, year, i + 1) for i, p in enumerate(ranked[:TARGET_PER_YEAR])]
-        print(f"[collect] {year}: {len(selected[year])}/{TARGET_PER_YEAR} selected from {len(ranked)} candidates", flush=True)
+        candidate_pool = ranked[:CANDIDATES_PER_YEAR]
+        title_relevant = [p for p in candidate_pool if title_relevance_count(p) > 0]
+        fill = [p for p in candidate_pool if title_relevance_count(p) == 0]
+        selected_pool = (title_relevant + fill)[:TARGET_PER_YEAR]
+        all_candidates[year] = [normalize_paper(p, year, i + 1, candidate=True) for i, p in enumerate(candidate_pool)]
+        selected[year] = [normalize_paper(p, year, i + 1) for i, p in enumerate(selected_pool)]
+        print(
+            f"[collect] {year}: selected {len(selected[year])}/{TARGET_PER_YEAR} "
+            f"from top {len(candidate_pool)}/{min(CANDIDATES_PER_YEAR, len(ranked))} candidates "
+            f"({len(ranked)} relevant records)",
+            flush=True,
+        )
     return selected, all_candidates
 
 
@@ -191,9 +263,14 @@ def normalize_paper(paper, year, rank, candidate=False):
     ext = paper.get("externalIds") or {}
     oa = paper.get("openAccessPdf") or {}
     fields = paper.get("s2FieldsOfStudy") or []
+    score, reasons = importance_score(paper)
     return {
         "year": year,
         "rank": rank,
+        "candidateRank": rank if candidate else "",
+        "selectionRank": "" if candidate else rank,
+        "importanceScore": score,
+        "importanceReasons": reasons,
         "paperId": paper.get("paperId", ""),
         "title": norm_text(paper.get("title", "")),
         "authors": author_text(paper),
@@ -216,22 +293,42 @@ def normalize_paper(paper, year, rank, candidate=False):
 
 def write_json_csv(selected, candidates):
     flat = [paper for year in YEARS for paper in selected.get(year, [])]
+    candidate_flat = [paper for year in YEARS for paper in candidates.get(year, [])]
     DATA_DIR.mkdir(exist_ok=True)
     with (DATA_DIR / "papers_2020_2026.json").open("w", encoding="utf-8") as f:
-        json.dump({"generated": date.today().isoformat(), "target_per_year": TARGET_PER_YEAR, "papers": flat}, f, ensure_ascii=False, indent=2)
-    with (DATA_DIR / "candidates_2020_2026.json").open("w", encoding="utf-8") as f:
-        json.dump({"generated": date.today().isoformat(), "candidates": candidates}, f, ensure_ascii=False, indent=2)
+        json.dump({
+            "generated": date.today().isoformat(),
+            "candidate_pool_per_year": CANDIDATES_PER_YEAR,
+            "target_per_year": TARGET_PER_YEAR,
+            "papers": flat,
+        }, f, ensure_ascii=False, indent=2)
+    with (DATA_DIR / "candidates_top500_2020_2026.json").open("w", encoding="utf-8") as f:
+        json.dump({
+            "generated": date.today().isoformat(),
+            "candidate_pool_per_year": CANDIDATES_PER_YEAR,
+            "candidates": candidate_flat,
+        }, f, ensure_ascii=False, indent=2)
     fields = list(flat[0].keys()) if flat else []
+    candidate_fields = list(candidate_flat[0].keys()) if candidate_flat else fields
     with (DATA_DIR / "papers_2020_2026.csv").open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(flat)
+    with (DATA_DIR / "candidates_top500_2020_2026.csv").open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=candidate_fields)
+        writer.writeheader()
+        writer.writerows(candidate_flat)
     for year in YEARS:
         rows = selected.get(year, [])
         with (DATA_DIR / f"papers_{year}.csv").open("w", encoding="utf-8-sig", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=fields)
             writer.writeheader()
             writer.writerows(rows)
+        candidate_rows = candidates.get(year, [])
+        with (DATA_DIR / f"candidates_top500_{year}.csv").open("w", encoding="utf-8-sig", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=candidate_fields)
+            writer.writeheader()
+            writer.writerows(candidate_rows)
     return flat
 
 
@@ -269,12 +366,13 @@ def write_readme(flat):
         "",
         "A curated, citation-ranked map of recent Brain-Computer Interface (BCI) research.",
         "",
-        f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. The current edition selects up to {TARGET_PER_YEAR} BCI-related papers per year for 2020-2026.",
+        f"Generated on {date.today().isoformat()} from free public Semantic Scholar metadata. The current edition investigates up to {CANDIDATES_PER_YEAR} BCI-related candidate papers per year for 2020-2026, scores their importance, and selects the top {TARGET_PER_YEAR} papers per year.",
         "",
         "## Project Links",
         "",
         "- Website: `docs/index.html`",
-        "- Full dataset: `data/papers_2020_2026.csv`",
+        "- Selected dataset: `data/papers_2020_2026.csv`",
+        "- Candidate pool: `data/candidates_top500_2020_2026.csv`",
         "- English review draft: `paper/review_en.html`, `paper/review_en.docx`",
         "- Korean review draft: `paper/review_ko.html`",
         "",
@@ -300,19 +398,19 @@ def write_readme(flat):
             "<details>",
             f"<summary>Show {year} papers</summary>",
             "",
-            "| Rank | Paper | Venue | Citations | Category |",
-            "| --- | --- | --- | ---: | --- |",
+            "| Rank | Paper | Venue | Importance | Citations | Category |",
+            "| --- | --- | --- | ---: | ---: | --- |",
         ])
         for p in rows:
             lines.append(
                 f"| {p['rank']} | {md_link(p['title'], p['url'])} | {p['venue'] or '-'} | "
-                f"{p['citationCount']} | {p['category']} |"
+                f"{p['importanceScore']} | {p['citationCount']} | {p['category']} |"
             )
         lines.extend(["", "</details>", ""])
     lines.extend([
         "## Method",
         "",
-        "The collection uses Semantic Scholar's Academic Graph paper search. Queries combine broad BCI terms and common subfields, results are filtered to the target publication year, relevance-filtered by BCI terms in title/abstract, deduplicated by DOI/arXiv/PubMed/CorpusId/paperId, and ranked by citation count with influential citations retained as metadata.",
+        "The collection uses Semantic Scholar's Academic Graph paper search. Queries combine broad BCI terms and common subfields, results are filtered to the target publication year, relevance-filtered by BCI terms in title/abstract, deduplicated by DOI/arXiv/PubMed/CorpusId/paperId, and reduced to a maximum of 500 candidates per year. Importance scoring combines log-scaled citation count, log-scaled influential citation count, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive/high-bandwidth interfaces, and modern ML methods. The final awesome list uses the top 100 scored papers per year.",
         "",
         "## Caveats",
         "",
@@ -326,7 +424,7 @@ def write_readme(flat):
 def html_table(rows, limit=None):
     out = [
         "<table>",
-        "<thead><tr><th>Rank</th><th>Paper</th><th>Venue</th><th>Citations</th><th>Category</th></tr></thead>",
+        "<thead><tr><th>Rank</th><th>Paper</th><th>Venue</th><th>Importance</th><th>Citations</th><th>Category</th></tr></thead>",
         "<tbody>",
     ]
     for p in rows[:limit] if limit else rows:
@@ -335,7 +433,7 @@ def html_table(rows, limit=None):
         link = f'<a href="{url}">{title}</a>' if url else title
         out.append(
             f"<tr><td>{p['rank']}</td><td>{link}<br><small>{html.escape(p['authors'])}</small></td>"
-            f"<td>{html.escape(p['venue'] or '-')}</td><td>{p['citationCount']}</td>"
+            f"<td>{html.escape(p['venue'] or '-')}</td><td>{p['importanceScore']}</td><td>{p['citationCount']}</td>"
             f"<td>{html.escape(p['category'])}</td></tr>"
         )
     out.extend(["</tbody>", "</table>"])
@@ -392,10 +490,11 @@ def write_site(flat):
 <body>
   <header>
     <h1>Awesome BCI</h1>
-    <p>A citation-ranked, year-by-year map of Brain-Computer Interface research from 2020 through 2026.</p>
+    <p>A metadata-scored, year-by-year map of Brain-Computer Interface research from 2020 through 2026. Each year investigates up to {CANDIDATES_PER_YEAR} candidate papers and selects the top {TARGET_PER_YEAR}.</p>
     <nav>
       <a href="https://github.com/honggi82/awesome-BCI">README</a>
       <a href="data/papers_2020_2026.csv">CSV Dataset</a>
+      <a href="data/candidates_top500_2020_2026.csv">Candidate Pool</a>
       <a href="paper/review_en.html">Review Paper</a>
       <a href="paper/review_ko.html">Korean Review</a>
     </nav>
@@ -471,15 +570,17 @@ def review_sections(flat, korean=False):
         title = "2020-2026년 뇌-컴퓨터 인터페이스 연구 동향: 공개 메타데이터 기반 리뷰"
         abstract = (
             "이 리뷰 초안은 2020년부터 2026년까지의 Brain-Computer Interface(BCI) 연구를 "
-            "연도별 최대 100편씩 수집해 정리한다. 선별은 무료 공개 Semantic Scholar 메타데이터를 "
-            "사용했으며, 검색어 기반 후보군을 연도 필터, BCI 관련성 필터, 중복 제거, 인용 수 정렬로 처리했다. "
+            f"연도별 최대 {CANDIDATES_PER_YEAR}편의 후보로 조사하고 중요도 평가를 통해 {TARGET_PER_YEAR}편씩 선별해 정리한다. 선별은 무료 공개 Semantic Scholar 메타데이터를 "
+            "사용했으며, 검색어 기반 후보군을 연도 필터, 강화된 BCI 관련성 필터, 중복 제거, 중요도 점수화로 처리했다. "
             "결과는 운동상상/운동 디코딩, SSVEP/P300/ERP, 재활과 신경보철, 침습형 인터페이스, 딥러닝, EEG 신호처리, "
             "언어/의사소통 BCI, 폐루프/하이브리드 BCI로 나뉜다."
         )
         methods = (
             "방법: 각 연도에 대해 BCI 관련 질의를 Semantic Scholar Academic Graph bulk search에 보내고, "
             "제목 또는 초록에 BCI 관련 핵심 표현이 있는 논문만 남겼다. DOI, arXiv, PubMed, CorpusId, paperId 순서로 "
-            "중복을 제거하고 citationCount 내림차순으로 정렬했다. 2026년은 2026-06-25 현재의 부분 연도라는 점에 유의해야 한다."
+            f"중복을 제거했다. 이후 연도별 최대 {CANDIDATES_PER_YEAR}편의 후보를 중요도 점수로 평가하고 상위 {TARGET_PER_YEAR}편을 최종 목록에 사용했다. "
+            "중요도 점수는 로그 변환 인용 수, 영향력 있는 인용 수, 주요 venue 신호, BCI 핵심어 밀도, 리뷰/서베이, 데이터셋/벤치마크, "
+            "임상/재활 관련성, 침습형 고대역폭 BCI, 최신 머신러닝 방법 보너스를 합산했다. 2026년은 2026-06-25 현재의 부분 연도라는 점에 유의해야 한다."
         )
         trends_intro = "주요 경향은 다음과 같다."
         caveat = (
@@ -494,9 +595,9 @@ def review_sections(flat, korean=False):
     else:
         title = "Brain-Computer Interface Research from 2020 to 2026: A Metadata-Driven Review"
         abstract = (
-            "This draft review maps Brain-Computer Interface (BCI) research from 2020 through 2026, selecting up to "
-            "100 papers per year from free public Semantic Scholar metadata. Candidate papers were retrieved with BCI-related "
-            "queries, filtered by target year and relevance terms, deduplicated, and ranked by citation count. The resulting "
+            "This draft review maps Brain-Computer Interface (BCI) research from 2020 through 2026, investigating up to "
+            f"{CANDIDATES_PER_YEAR} candidate papers per year from free public Semantic Scholar metadata and selecting {TARGET_PER_YEAR} papers per year by importance score. Candidate papers were retrieved with BCI-related "
+            "queries, filtered by target year and strengthened BCI relevance terms, deduplicated, and scored for importance. The resulting "
             "collection highlights work on motor imagery and movement decoding, SSVEP/P300/ERP systems, rehabilitation and "
             "neuroprosthetics, invasive interfaces, deep learning, EEG signal processing, speech and communication BCIs, and "
             "hybrid or closed-loop systems."
@@ -504,7 +605,7 @@ def review_sections(flat, korean=False):
         methods = (
             "Methods: For each year, BCI-oriented queries were sent to the Semantic Scholar Academic Graph bulk search endpoint. "
             "Records were retained when their title or abstract matched BCI relevance expressions, deduplicated by DOI, arXiv, "
-            "PubMed, CorpusId, or paperId, and sorted by citationCount. The year 2026 should be interpreted as a partial year as of 2026-06-25."
+            f"PubMed, CorpusId, or paperId, and reduced to at most {CANDIDATES_PER_YEAR} candidate papers per year. The final {TARGET_PER_YEAR} papers per year were selected by an importance score that combines log-scaled citations, log-scaled influential citations, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive high-bandwidth BCIs, and modern machine-learning methods. The year 2026 should be interpreted as a partial year as of 2026-06-25."
         )
         trends_intro = "The main metadata-level trends are as follows."
         caveat = (
@@ -606,6 +707,7 @@ def main():
     write_review_html(flat, korean=True)
     write_review_docx(flat)
     shutil.copyfile(DATA_DIR / "papers_2020_2026.csv", DOCS_DIR / "data" / "papers_2020_2026.csv")
+    shutil.copyfile(DATA_DIR / "candidates_top500_2020_2026.csv", DOCS_DIR / "data" / "candidates_top500_2020_2026.csv")
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
     (ROOT / "LICENSE").write_text("CC-BY-4.0 for text and metadata curation; upstream paper metadata belongs to original sources.\n", encoding="utf-8")
