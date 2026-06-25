@@ -1,0 +1,25 @@
+@echo off
+setlocal
+cd /d "%~dp0"
+
+set "GH_EXE=%~dp0.tools\gh\bin\gh.exe"
+if not exist "%GH_EXE%" set "GH_EXE=gh"
+
+"%GH_EXE%" auth status
+if errorlevel 1 (
+  echo.
+  echo GitHub login is required. Run:
+  echo   "%GH_EXE%" auth login --hostname github.com --web --scopes repo
+  exit /b 1
+)
+
+"%GH_EXE%" repo view honggi82/awesome-BCI >nul 2>nul
+if errorlevel 1 (
+  "%GH_EXE%" repo create honggi82/awesome-BCI --public --description "Awesome BCI: metadata-driven Brain-Computer Interface paper curation, 2020-2026" --source . --remote origin --push
+) else (
+  git remote set-url origin https://github.com/honggi82/awesome-BCI.git
+  git push -u origin main
+)
+
+echo.
+echo Done: https://github.com/honggi82/awesome-BCI
