@@ -1645,7 +1645,7 @@ def write_readme(flat):
             *[f"  - {limitation}" for limitation in taxonomy_limitations(cat)],
             "",
             "<details>",
-            f"<summary>Show representative papers for {cat}</summary>",
+            f"<summary><strong>Show representative papers for {cat}</strong></summary>",
             "",
         ])
         lines.extend(readme_taxonomy_table(top, len(rows)))
@@ -1861,9 +1861,11 @@ def write_site(flat):
         if (lang && Array.from(languageSelect.options).some(option => option.value === lang)) {
           languageSelect.value = lang;
         }
-        const keywords = (params.get("keywords") || "").split(",").filter(Boolean);
+        const requestedKeywords = (params.get("keywords") || "").split(",").filter(Boolean);
+        const keywordValues = keywordButtons.map(button => button.dataset.keyword);
+        const activeKeyword = requestedKeywords.find(keyword => keywordValues.includes(keyword)) || "";
         keywordButtons.forEach(button => {
-          setKeywordPressed(button, keywords.includes(button.dataset.keyword));
+          setKeywordPressed(button, button.dataset.keyword === activeKeyword);
         });
         const period = params.get("period");
         if (period) {
@@ -1991,9 +1993,9 @@ def write_site(flat):
       function updateKeywordFilterStatus(selected, totalPapers, copy) {
         if (!keywordFilterStatus) return;
         if (selected.length) {
-          keywordFilterStatus.textContent = `Selected keywords: ${selected.join(", ")} | Matching papers: ${formatNumber(totalPapers)} ${copy.papers}`;
+          keywordFilterStatus.textContent = `Selected keyword: ${selected[0]} | Matching papers: ${formatNumber(totalPapers)} ${copy.papers}`;
         } else {
-          keywordFilterStatus.textContent = `Selected keywords: all | Matching papers: ${formatNumber(totalPapers)} ${copy.papers}`;
+          keywordFilterStatus.textContent = `Selected keyword: all | Matching papers: ${formatNumber(totalPapers)} ${copy.papers}`;
         }
       }
 
@@ -2128,7 +2130,7 @@ def write_site(flat):
           if (!button || !keywordGrid.contains(button)) return;
           event.preventDefault();
           const pressed = button.getAttribute("aria-pressed") === "true";
-          setKeywordPressed(button, !pressed);
+          keywordButtons.forEach(item => setKeywordPressed(item, !pressed && item === button));
           applyYearFilter(true);
         });
       }
@@ -2267,7 +2269,7 @@ def write_site(flat):
       <h2>Keywords Convention</h2>
       <p>These keyword tags follow the convention style used by AI-for-BCI awesome lists and define how papers can be labeled or scanned in this collection.</p>
       <div class="keyword-grid">{keyword_convention}</div>
-      <p class="keyword-filter-status" id="keywordFilterStatus">Selected keywords: all | Matching papers: {len(flat):,} papers</p>
+      <p class="keyword-filter-status" id="keywordFilterStatus">Selected keyword: all | Matching papers: {len(flat):,} papers</p>
     </section>
     <h2>Taxonomy</h2>
     <p id="taxonomyTotalSummary"><strong>Total selected papers:</strong> {len(flat):,} papers; <strong>Categories:</strong> {len(cats)} categories.</p>

@@ -59,7 +59,7 @@ These badges define the BCI keyword tags used to read and extend this collection
   - Citation-ranked lists can favor mature EEG motor imagery pipelines over newer low-citation work on multimodal movement decoding.
 
 <details>
-<summary>Show representative papers for Motor Imagery and Movement Decoding</summary>
+<summary><strong>Show representative papers for Motor Imagery and Movement Decoding</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -376,7 +376,7 @@ These badges define the BCI keyword tags used to read and extend this collection
   - Broad system claims often need stronger protocol-level reproducibility checks and real-world usability validation.
 
 <details>
-<summary>Show representative papers for General BCI Methods and Systems</summary>
+<summary><strong>Show representative papers for General BCI Methods and Systems</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -693,7 +693,7 @@ These badges define the BCI keyword tags used to read and extend this collection
   - Hybrid paradigms improve command diversity but add setup complexity and make fair benchmarking harder.
 
 <details>
-<summary>Show representative papers for SSVEP, P300, and ERP Spellers</summary>
+<summary><strong>Show representative papers for SSVEP, P300, and ERP Spellers</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -1010,7 +1010,7 @@ These badges define the BCI keyword tags used to read and extend this collection
   - Participant counts, trial structure, hardware, and licensing differences can limit reproducible reuse across laboratories.
 
 <details>
-<summary>Show representative papers for EEG Signal Processing and Datasets</summary>
+<summary><strong>Show representative papers for EEG Signal Processing and Datasets</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -1327,7 +1327,7 @@ These badges define the BCI keyword tags used to read and extend this collection
   - Home deployment, cybersecurity, informed consent, explantation, and support infrastructure remain difficult to evaluate consistently.
 
 <details>
-<summary>Show representative papers for Invasive and Implantable Interfaces</summary>
+<summary><strong>Show representative papers for Invasive and Implantable Interfaces</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -1644,7 +1644,7 @@ These badges define the BCI keyword tags used to read and extend this collection
   - Patient selection, therapist involvement, adverse-event reporting, and outcome measures vary enough to limit direct comparison.
 
 <details>
-<summary>Show representative papers for Rehabilitation and Neuroprosthetics</summary>
+<summary><strong>Show representative papers for Rehabilitation and Neuroprosthetics</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -1961,7 +1961,7 @@ These badges define the BCI keyword tags used to read and extend this collection
   - Longitudinal real-world studies remain scarce, so durability and user acceptance are not well captured.
 
 <details>
-<summary>Show representative papers for Hybrid, Affective, and Closed-loop BCIs</summary>
+<summary><strong>Show representative papers for Hybrid, Affective, and Closed-loop BCIs</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -2278,7 +2278,7 @@ These badges define the BCI keyword tags used to read and extend this collection
   - Non-invasive imagined-speech datasets are still comparatively small and hard to evaluate consistently.
 
 <details>
-<summary>Show representative papers for Speech, Language, and Communication BCIs</summary>
+<summary><strong>Show representative papers for Speech, Language, and Communication BCIs</strong></summary>
 
 <table width="100%">
 <colgroup>
@@ -2595,7 +2595,7 @@ These badges define the BCI keyword tags used to read and extend this collection
   - Low-data and noisy-session robustness remains unresolved for many architectures outside curated datasets.
 
 <details>
-<summary>Show representative papers for Deep Learning and Representation Learning</summary>
+<summary><strong>Show representative papers for Deep Learning and Representation Learning</strong></summary>
 
 <table width="100%">
 <colgroup>
