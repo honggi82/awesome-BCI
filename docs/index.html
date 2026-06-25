@@ -25,6 +25,8 @@
     summary { cursor:pointer; display:grid; grid-template-columns:minmax(260px,1fr) repeat(3, minmax(110px, auto)); gap:12px; align-items:center; padding:16px 18px; font-weight:700; }
     .summary-title { color:var(--accent); }
     .section-intro { padding:0 18px 14px; border-top:1px solid var(--line); }
+    .trend-box { margin-top:12px; padding:12px 14px; background:#f4faf8; border:1px solid #cfe7df; border-radius:8px; }
+    .trend-box ul { margin:8px 0 0; padding-left:20px; color:var(--muted); line-height:1.55; }
     .paper-list { display:grid; gap:12px; padding:16px; background:#f9fbfd; }
     .paper-card { display:grid; grid-template-columns:56px 1fr; gap:14px; padding:16px; background:white; border:1px solid var(--line); border-radius:8px; }
     .paper-rank { font-weight:800; color:var(--accent2); }
@@ -90,6 +92,10 @@
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> clinical/rehab, dataset/benchmark, deep learning, review</p>
           <p><strong>Top-ranked paper:</strong> Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul><li>The field is moving from subject-specific pipelines toward cross-subject, calibration-light, and transfer-learning decoders for EEG motor imagery.</li><li>Deep CNN, temporal convolution, graph, attention, and large EEG representation models are increasingly used to improve robustness under noisy and low-data conditions.</li><li>Application work is expanding from binary hand imagery toward gait, lower-limb control, soft robotics, virtual feedback, and rehabilitation-oriented closed-loop use.</li></ul>
+          </div>
         </div>
         <div class="paper-list">
       <article class="paper-card">
@@ -11053,6 +11059,10 @@
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> dataset/benchmark, communication, deep learning, BCI method</p>
           <p><strong>Top-ranked paper:</strong> Improving the Performance of Individually Calibrated SSVEP-BCI by Task- Discriminant Component Analysis</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul><li>Research is concentrating on high-speed, many-target communication systems with lower calibration burden and more stable target recognition.</li><li>Training-free and adaptive spatial filtering, task-discriminant component analysis, and deep neural decoders are prominent directions for SSVEP/P300 reliability.</li><li>Hybrid paradigms that combine SSVEP, P300, RSVP, EOG, or augmented/virtual reality interfaces are becoming a practical route to richer command sets.</li></ul>
+          </div>
         </div>
         <div class="paper-list">
       <article class="paper-card">
@@ -13345,6 +13355,10 @@
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> invasive, clinical/rehab, review, communication</p>
           <p><strong>Top-ranked paper:</strong> Power-saving design opportunities for wireless intracortical brain computer interfaces</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul><li>Invasive BCI research is shifting toward high-bandwidth, stable, long-term decoding for movement, communication, and sensory feedback.</li><li>Key engineering themes include wireless operation, power efficiency, signal longevity, surgical risk, and reliability outside tightly controlled laboratory sessions.</li><li>Clinical translation is increasingly tied to home use, user safety, tactile feedback, speech decoding, and realistic functional tasks.</li></ul>
+          </div>
         </div>
         <div class="paper-list">
       <article class="paper-card">
@@ -14257,6 +14271,10 @@
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> review, BCI method, dataset/benchmark, communication</p>
           <p><strong>Top-ranked paper:</strong> Current Status, Challenges, and Possible Solutions of EEG-Based Brain-Computer Interface: A Comprehensive Review</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul><li>This taxonomy emphasizes reproducible preprocessing, artifact handling, channel selection, spatial filtering, and benchmark datasets for EEG-based BCI.</li><li>The field is gradually shifting from isolated algorithm papers toward shared datasets, standardized evaluation, and metadata-aware comparisons.</li><li>Hybrid EEG/fNIRS, transfer learning, and open benchmark resources are recurring themes for improving generalization and clinical relevance.</li></ul>
+          </div>
         </div>
         <div class="paper-list">
       <article class="paper-card">
@@ -14939,6 +14957,10 @@
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> clinical/rehab, review, invasive, communication</p>
           <p><strong>Top-ranked paper:</strong> Brain computer interface based applications for training and rehabilitation of students with neurodevelopmental disorders. A literature review</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul><li>The dominant trend is integration of BCI with robotic gloves, exoskeletons, FES, VR, and task-oriented therapy for post-stroke and motor impairment rehabilitation.</li><li>Studies increasingly ask whether BCI training transfers to activities of daily living rather than only improving offline decoding accuracy.</li><li>Recent work points toward home-use, patient-centered protocols, multimodal feedback, and combined motor-cognitive-affective rehabilitation.</li></ul>
+          </div>
         </div>
         <div class="paper-list">
       <article class="paper-card">
@@ -15437,6 +15459,10 @@
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> review, BCI method, clinical/rehab</p>
           <p><strong>Top-ranked paper:</strong> Brain-Computer Interfaces</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul><li>General BCI work is consolidating definitions, system architectures, evaluation principles, and long-term challenges across invasive and non-invasive approaches.</li><li>Recent surveys increasingly emphasize translation, usability, ethics, safety, reproducibility, and the gap between laboratory performance and real-world use.</li><li>This area functions as the conceptual bridge between signal processing, neural engineering, clinical deployment, and human-centered design.</li></ul>
+          </div>
         </div>
         <div class="paper-list">
       <article class="paper-card">
@@ -15774,6 +15800,10 @@
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> deep learning, review, dataset/benchmark, closed-loop</p>
           <p><strong>Top-ranked paper:</strong> EEG-Based Brain-Computer Interfaces (BCIs): A Survey of Recent Studies on Signal Sensing Technologies and Computational Intelligence Approaches and Their Applications</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul><li>Deep learning work is moving beyond single-dataset CNN classifiers toward temporal, spectral, graph, transformer, and attention-based architectures.</li><li>A major trend is representation learning that can transfer across users, sessions, headsets, and BCI paradigms with less subject-specific calibration.</li><li>Interpretability, uncertainty, robustness to artifacts, and benchmark comparability are becoming as important as peak classification accuracy.</li></ul>
+          </div>
         </div>
         <div class="paper-list">
       <article class="paper-card">
@@ -16065,6 +16095,10 @@
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> communication, review</p>
           <p><strong>Top-ranked paper:</strong> Summary of over Fifty Years with Brain-Computer Interfaces—A Review</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul><li>Communication BCI is expanding from spelling paradigms toward imagined speech, decoded language, and higher-bandwidth text production.</li><li>Both invasive and non-invasive studies are exploring more naturalistic communication, including speech motor cortex decoding and inner-speech EEG datasets.</li><li>The central challenge remains preserving accuracy, latency, vocabulary size, and user autonomy in real-world assistive communication.</li></ul>
+          </div>
         </div>
         <div class="paper-list">
       <article class="paper-card">
@@ -16241,6 +16275,10 @@
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> closed-loop, review, dataset/benchmark, clinical/rehab</p>
           <p><strong>Top-ranked paper:</strong> A review of user training methods in brain computer interfaces based on mental tasks</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul><li>Hybrid BCI combines multiple signals or paradigms to improve reliability, command diversity, and asynchronous control.</li><li>Closed-loop and neurofeedback work is increasingly focused on user adaptation, mental-state awareness, fatigue, affect, and training protocols.</li><li>The trend is toward systems that adapt to the user over time rather than treating decoding as a one-shot offline classification problem.</li></ul>
+          </div>
         </div>
         <div class="paper-list">
       <article class="paper-card">

@@ -76,6 +76,54 @@ CATEGORIES = [
     ("Hybrid, Affective, and Closed-loop BCIs", ["hybrid", "affective", "closed-loop", "closed loop", "neurofeedback", "adaptive"]),
 ]
 
+TAXONOMY_TRENDS = {
+    "Motor Imagery and Movement Decoding": [
+        "The field is moving from subject-specific pipelines toward cross-subject, calibration-light, and transfer-learning decoders for EEG motor imagery.",
+        "Deep CNN, temporal convolution, graph, attention, and large EEG representation models are increasingly used to improve robustness under noisy and low-data conditions.",
+        "Application work is expanding from binary hand imagery toward gait, lower-limb control, soft robotics, virtual feedback, and rehabilitation-oriented closed-loop use.",
+    ],
+    "SSVEP, P300, and ERP Spellers": [
+        "Research is concentrating on high-speed, many-target communication systems with lower calibration burden and more stable target recognition.",
+        "Training-free and adaptive spatial filtering, task-discriminant component analysis, and deep neural decoders are prominent directions for SSVEP/P300 reliability.",
+        "Hybrid paradigms that combine SSVEP, P300, RSVP, EOG, or augmented/virtual reality interfaces are becoming a practical route to richer command sets.",
+    ],
+    "Rehabilitation and Neuroprosthetics": [
+        "The dominant trend is integration of BCI with robotic gloves, exoskeletons, FES, VR, and task-oriented therapy for post-stroke and motor impairment rehabilitation.",
+        "Studies increasingly ask whether BCI training transfers to activities of daily living rather than only improving offline decoding accuracy.",
+        "Recent work points toward home-use, patient-centered protocols, multimodal feedback, and combined motor-cognitive-affective rehabilitation.",
+    ],
+    "Invasive and Implantable Interfaces": [
+        "Invasive BCI research is shifting toward high-bandwidth, stable, long-term decoding for movement, communication, and sensory feedback.",
+        "Key engineering themes include wireless operation, power efficiency, signal longevity, surgical risk, and reliability outside tightly controlled laboratory sessions.",
+        "Clinical translation is increasingly tied to home use, user safety, tactile feedback, speech decoding, and realistic functional tasks.",
+    ],
+    "Deep Learning and Representation Learning": [
+        "Deep learning work is moving beyond single-dataset CNN classifiers toward temporal, spectral, graph, transformer, and attention-based architectures.",
+        "A major trend is representation learning that can transfer across users, sessions, headsets, and BCI paradigms with less subject-specific calibration.",
+        "Interpretability, uncertainty, robustness to artifacts, and benchmark comparability are becoming as important as peak classification accuracy.",
+    ],
+    "EEG Signal Processing and Datasets": [
+        "This taxonomy emphasizes reproducible preprocessing, artifact handling, channel selection, spatial filtering, and benchmark datasets for EEG-based BCI.",
+        "The field is gradually shifting from isolated algorithm papers toward shared datasets, standardized evaluation, and metadata-aware comparisons.",
+        "Hybrid EEG/fNIRS, transfer learning, and open benchmark resources are recurring themes for improving generalization and clinical relevance.",
+    ],
+    "Speech, Language, and Communication BCIs": [
+        "Communication BCI is expanding from spelling paradigms toward imagined speech, decoded language, and higher-bandwidth text production.",
+        "Both invasive and non-invasive studies are exploring more naturalistic communication, including speech motor cortex decoding and inner-speech EEG datasets.",
+        "The central challenge remains preserving accuracy, latency, vocabulary size, and user autonomy in real-world assistive communication.",
+    ],
+    "Hybrid, Affective, and Closed-loop BCIs": [
+        "Hybrid BCI combines multiple signals or paradigms to improve reliability, command diversity, and asynchronous control.",
+        "Closed-loop and neurofeedback work is increasingly focused on user adaptation, mental-state awareness, fatigue, affect, and training protocols.",
+        "The trend is toward systems that adapt to the user over time rather than treating decoding as a one-shot offline classification problem.",
+    ],
+    "General BCI Methods and Systems": [
+        "General BCI work is consolidating definitions, system architectures, evaluation principles, and long-term challenges across invasive and non-invasive approaches.",
+        "Recent surveys increasingly emphasize translation, usability, ethics, safety, reproducibility, and the gap between laboratory performance and real-world use.",
+        "This area functions as the conceptual bridge between signal processing, neural engineering, clinical deployment, and human-centered design.",
+    ],
+}
+
 IMPORTANT_VENUES = [
     "nature", "science", "cell", "neuron", "nature biomedical engineering",
     "nature neuroscience", "nature communications", "science robotics",
@@ -435,18 +483,23 @@ def category_groups(flat):
     return groups
 
 
+def taxonomy_trends(category):
+    return TAXONOMY_TRENDS.get(category, TAXONOMY_TRENDS["General BCI Methods and Systems"])
+
+
 def write_taxonomy_dataset(flat):
     rows = []
     for category, papers in sorted(category_groups(flat).items()):
         for idx, p in enumerate(papers, 1):
             row = dict(p)
             row["taxonomyRank"] = idx
+            row["researchTrend"] = " ".join(taxonomy_trends(category))
             rows.append(row)
     if not rows:
         return
     fields = [
         "category", "taxonomyRank", "year", "title", "authors", "venue", "publicationDate",
-        "citationCount", "influentialCitationCount", "importanceScore", "methodTags",
+        "citationCount", "influentialCitationCount", "importanceScore", "researchTrend", "methodTags",
         "keyIdea", "strengths", "limitations", "paperLink", "semanticScholarUrl",
         "openAccessPdf", "doi", "arxiv", "pubmed", "fieldsOfStudy",
     ]
@@ -545,6 +598,8 @@ def write_readme(flat):
             f"- Papers selected: **{len(rows)}**",
             f"- Years covered: **{years[0]}-{years[-1]}**",
             f"- Citation count in selected set: **{citations:,}**",
+            "- Main research trends:",
+            *[f"  - {trend}" for trend in taxonomy_trends(cat)],
             "",
             "<details>",
             f"<summary>Show representative papers for {cat}</summary>",
@@ -596,6 +651,7 @@ def category_summary(category, rows):
         "citations": sum(p["citationCount"] for p in rows),
         "top": lead.get("title", "n/a"),
         "tags": ", ".join(tag for tag, _ in top_tags.most_common(4)) or "BCI method",
+        "trends": taxonomy_trends(category),
     }
 
 
@@ -649,6 +705,10 @@ def taxonomy_section(category, rows):
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> {html.escape(summary['tags'])}</p>
           <p><strong>Top-ranked paper:</strong> {html.escape(summary['top'])}</p>
+          <div class="trend-box">
+            <strong>Main research trends</strong>
+            <ul>{''.join(f'<li>{html.escape(trend)}</li>' for trend in summary['trends'])}</ul>
+          </div>
         </div>
         <div class="paper-list">{cards}</div>
       </details>
@@ -698,6 +758,8 @@ def write_site(flat):
     summary {{ cursor:pointer; display:grid; grid-template-columns:minmax(260px,1fr) repeat(3, minmax(110px, auto)); gap:12px; align-items:center; padding:16px 18px; font-weight:700; }}
     .summary-title {{ color:var(--accent); }}
     .section-intro {{ padding:0 18px 14px; border-top:1px solid var(--line); }}
+    .trend-box {{ margin-top:12px; padding:12px 14px; background:#f4faf8; border:1px solid #cfe7df; border-radius:8px; }}
+    .trend-box ul {{ margin:8px 0 0; padding-left:20px; color:var(--muted); line-height:1.55; }}
     .paper-list {{ display:grid; gap:12px; padding:16px; background:#f9fbfd; }}
     .paper-card {{ display:grid; grid-template-columns:56px 1fr; gap:14px; padding:16px; background:white; border:1px solid var(--line); border-radius:8px; }}
     .paper-rank {{ font-weight:800; color:var(--accent2); }}
