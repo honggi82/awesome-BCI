@@ -144,6 +144,7 @@ KEYWORD_CONVENTION = [
     ("P300", "P300 or event-related-potential speller paradigms.", "be123c"),
     ("arm-direction", "Arm, hand, reach, or directional movement decoding/control.", "0891b2"),
 ]
+KEYWORD_COLORS = {keyword: color for keyword, _, color in KEYWORD_CONVENTION}
 
 LANGUAGES = {
     "en": "English",
@@ -190,6 +191,27 @@ UI_LABELS = {
         "categoryCount": "カテゴリ数",
     },
 }
+
+UI_LABELS["en"].update({
+    "keyIdea": "Key idea",
+    "strengths": "Strengths",
+    "paperLimitations": "Limitations",
+})
+UI_LABELS["ko"].update({
+    "keyIdea": "\ud575\uc2ec \uc544\uc774\ub514\uc5b4",
+    "strengths": "\uc7a5\uc810",
+    "paperLimitations": "\ud55c\uacc4",
+})
+UI_LABELS["zh"].update({
+    "keyIdea": "\u6838\u5fc3\u601d\u60f3",
+    "strengths": "\u4f18\u52bf",
+    "paperLimitations": "\u5c40\u9650\u6027",
+})
+UI_LABELS["ja"].update({
+    "keyIdea": "\u4e3b\u8981\u30a2\u30a4\u30c7\u30a2",
+    "strengths": "\u5f37\u307f",
+    "paperLimitations": "\u9650\u754c",
+})
 
 TAXONOMY_TRENDS = {
     "Motor Imagery and Movement Decoding": [
@@ -523,6 +545,17 @@ def shields_keyword_badge(keyword, color):
     return f"![{keyword}](https://img.shields.io/badge/keyword-{message}-{color})"
 
 
+def shields_keyword_badge_img(keyword):
+    color = KEYWORD_COLORS.get(keyword, "64748b")
+    message = keyword.replace("-", "--")
+    src = f"https://img.shields.io/badge/keyword-{message}-{color}"
+    return f'<img alt="{html.escape(keyword)}" src="{src}">'
+
+
+def readme_keyword_badges(keywords):
+    return " ".join(shields_keyword_badge_img(keyword) for keyword in keywords) or "<sub>n/a</sub>"
+
+
 def readme_keyword_convention_lines():
     lines = [
         "## Keywords Convention",
@@ -539,10 +572,10 @@ def site_keyword_convention_html():
     items = []
     for keyword, description, color in KEYWORD_CONVENTION:
         items.append(
-            "<div class='keyword-item'>"
+            f"<button class='keyword-item' type='button' data-keyword='{html.escape(keyword, quote=True)}' aria-pressed='false'>"
             f"<span class='keyword-chip' style='--chip-color:#{color}'>{html.escape(keyword)}</span>"
             f"<span>{html.escape(description)}</span>"
-            "</div>"
+            "</button>"
         )
     return "\n".join(items)
 
@@ -966,6 +999,182 @@ def method_tags(p):
     return tags[:4] or ["BCI method"]
 
 
+def paper_keyword_tags(p):
+    text = norm_text(" ".join([
+        p.get("title", ""),
+        p.get("abstract", ""),
+        p.get("category", ""),
+        p.get("venue", ""),
+        p.get("fieldsOfStudy", ""),
+    ])).lower()
+    category = p.get("category", "")
+    tags = []
+
+    def add(keyword):
+        if keyword not in tags:
+            tags.append(keyword)
+
+    if re.search(r"\b(invasive|intracortical|electrocorticography|ecog|implant|implanted|implantable|neuralink)\b", text) or category == "Invasive and Implantable Interfaces":
+        add("invasive")
+    if re.search(r"\b(non-invasive|noninvasive|eeg|electroencephalography|fnirs|nirs|meg|fmri|scalp|ssvep|p300|erp|smr)\b", text) or category in {"EEG Signal Processing and Datasets", "SSVEP, P300, and ERP Spellers"}:
+        add("non-invasive")
+    if re.search(r"\b(human|humans|participant|participants|patient|patients|volunteer|volunteers|subject|subjects|stroke|als|tetraplegic|paralysis)\b", text) or category in {"Rehabilitation and Neuroprosthetics", "Speech, Language, and Communication BCIs"}:
+        add("human")
+    if re.search(r"\b(non-human|nonhuman|animal|monkey|macaque|rat|rats|mouse|mice|primate|simulation|simulated)\b", text):
+        add("non-human")
+    if re.search(r"\b(smr|sensorimotor rhythm|motor imagery|mu rhythm|erd|ers|movement decoding)\b", text) or category == "Motor Imagery and Movement Decoding":
+        add("SMR")
+    if re.search(r"\b(ssvep|steady-state visual evoked|steady state visual evoked)\b", text):
+        add("SSVEP")
+    if re.search(r"\b(p300|p-300|event-related potential|event related potential|erp speller|speller)\b", text) or category == "SSVEP, P300, and ERP Spellers":
+        add("P300")
+    if re.search(r"\b(arm|hand|reach|reaching|cursor|trajectory|direction|directional|upper limb|upper-limb|robotic arm|movement signal)\b", text):
+        add("arm-direction")
+
+    ordered = [keyword for keyword, _, _ in KEYWORD_CONVENTION if keyword in tags]
+    return ordered or ["non-invasive"]
+
+
+METHOD_TAG_LOCALIZATION = {
+    "en": {},
+    "ko": {
+        "review": "리뷰/서베이",
+        "dataset/benchmark": "데이터셋/벤치마크",
+        "clinical/rehab": "임상/재활",
+        "invasive": "침습형",
+        "deep learning": "딥러닝",
+        "communication": "의사소통",
+        "closed-loop": "폐루프",
+        "BCI method": "BCI 방법론",
+    },
+    "zh": {
+        "review": "综述/调查",
+        "dataset/benchmark": "数据集/基准",
+        "clinical/rehab": "临床/康复",
+        "invasive": "侵入式",
+        "deep learning": "深度学习",
+        "communication": "交流通信",
+        "closed-loop": "闭环",
+        "BCI method": "BCI 方法",
+    },
+    "ja": {
+        "review": "レビュー/サーベイ",
+        "dataset/benchmark": "データセット/ベンチマーク",
+        "clinical/rehab": "臨床/リハビリ",
+        "invasive": "侵襲型",
+        "deep learning": "深層学習",
+        "communication": "コミュニケーション",
+        "closed-loop": "閉ループ",
+        "BCI method": "BCI 方法論",
+    },
+}
+
+PAPER_ASSESSMENT_LOCALIZATION = {
+    "ko": {
+        "highCitation": "높은 인용 신호 ({value})",
+        "influentialCitation": "영향력 있는 인용 신호 ({value})",
+        "recognized venue": "공인된 주요 학술지/학회",
+        "open-access PDF metadata": "오픈액세스 PDF 메타데이터 제공",
+        "selected by citation count from the audited BCI candidate pool": "검토된 BCI 후보군에서 인용수 기준으로 선정",
+        "abstract unavailable in metadata": "메타데이터에 초록 없음",
+        "venue missing in metadata": "메타데이터에 학술지/학회 정보 없음",
+        "recent work may be under-cited": "최근 논문이라 인용수가 과소평가될 수 있음",
+        "limited citation history": "누적 인용 이력이 제한적임",
+        "PDF link not available from metadata": "메타데이터에서 PDF 링크를 확인할 수 없음",
+        "metadata-level appraisal; full PDF review still needed": "메타데이터 수준의 평가이며 전체 PDF 검토가 필요함",
+    },
+    "zh": {
+        "highCitation": "高引用信号（{value}）",
+        "influentialCitation": "高影响力引用信号（{value}）",
+        "recognized venue": "公认的重要期刊/会议",
+        "open-access PDF metadata": "提供开放获取 PDF 元数据",
+        "selected by citation count from the audited BCI candidate pool": "从已审核的 BCI 候选池中按引用次数选出",
+        "abstract unavailable in metadata": "元数据中缺少摘要",
+        "venue missing in metadata": "元数据中缺少期刊/会议信息",
+        "recent work may be under-cited": "近期论文可能被低估引用影响",
+        "limited citation history": "引用历史较有限",
+        "PDF link not available from metadata": "元数据中没有可用 PDF 链接",
+        "metadata-level appraisal; full PDF review still needed": "基于元数据的评价，仍需阅读全文 PDF",
+    },
+    "ja": {
+        "highCitation": "高い引用シグナル（{value}）",
+        "influentialCitation": "影響力の高い引用シグナル（{value}）",
+        "recognized venue": "評価の高い主要ジャーナル/会議",
+        "open-access PDF metadata": "オープンアクセス PDF メタデータあり",
+        "selected by citation count from the audited BCI candidate pool": "監査済み BCI 候補群から引用数に基づいて選定",
+        "abstract unavailable in metadata": "メタデータに抄録がない",
+        "venue missing in metadata": "メタデータに掲載誌/会議情報がない",
+        "recent work may be under-cited": "新しい研究のため引用数が過小評価される可能性",
+        "limited citation history": "引用履歴がまだ限定的",
+        "PDF link not available from metadata": "メタデータから PDF リンクを確認できない",
+        "metadata-level appraisal; full PDF review still needed": "メタデータ水準の評価であり、全文 PDF の精査が必要",
+    },
+}
+
+PAPER_KEY_IDEA_TEMPLATES = {
+    "ko": '"{title}"은(는) {category} 범주에서 {tags}와 관련된 BCI 연구의 핵심 흐름을 보여줍니다.',
+    "zh": "《{title}》展示了 {category} 类别中与 {tags} 相关的 BCI 研究核心方向。",
+    "ja": "「{title}」は、{category} 分野における {tags} に関連した BCI 研究の主要な流れを示します。",
+}
+
+
+def localized_method_tags(value, language):
+    translations = METHOD_TAG_LOCALIZATION.get(language, {})
+    tags = [tag for tag in value.split("; ") if tag]
+    return ", ".join(translations.get(tag, tag) for tag in tags) or translations.get("BCI method", "BCI method")
+
+
+def assessment_items(value):
+    if value == "metadata-level appraisal; full PDF review still needed":
+        return [value]
+    return [item.strip() for item in value.split("; ") if item.strip()]
+
+
+def localized_assessment_item(item, language):
+    if language == "en":
+        return item
+    translations = PAPER_ASSESSMENT_LOCALIZATION.get(language, {})
+    match = re.fullmatch(r"high citation signal \(([^)]+)\)", item)
+    if match:
+        return translations["highCitation"].format(value=match.group(1))
+    match = re.fullmatch(r"influential citation signal \(([^)]+)\)", item)
+    if match:
+        return translations["influentialCitation"].format(value=match.group(1))
+    return translations.get(item, item)
+
+
+def localized_paper_key_idea(p, language):
+    if language == "en":
+        return p["keyIdea"]
+    profile = category_localization(p.get("category", "General BCI Methods and Systems"), language)
+    template = PAPER_KEY_IDEA_TEMPLATES[language]
+    return template.format(
+        title=p.get("title") or "this paper",
+        category=profile["name"],
+        tags=localized_method_tags(p.get("methodTags", ""), language),
+    )
+
+
+def localized_paper_text(p, language):
+    return {
+        "keyIdea": localized_paper_key_idea(p, language),
+        "strengths": "; ".join(localized_assessment_item(item, language) for item in assessment_items(p["strengths"])),
+        "limitations": "; ".join(localized_assessment_item(item, language) for item in assessment_items(p["limitations"])),
+    }
+
+
+def localized_paper_attrs(p):
+    attrs = []
+    for language in LANGUAGES:
+        localized = localized_paper_text(p, language)
+        attrs.extend([
+            f'data-key-idea-{language}="{html.escape(localized["keyIdea"], quote=True)}"',
+            f'data-strengths-{language}="{html.escape(localized["strengths"], quote=True)}"',
+            f'data-paper-limitations-{language}="{html.escape(localized["limitations"], quote=True)}"',
+        ])
+    return " ".join(attrs)
+
+
 def enrich_paper(p):
     """Add reproducible interpretation fields from title, abstract, and metadata."""
     abstract = p.get("abstract", "")
@@ -1002,6 +1211,7 @@ def enrich_paper(p):
     enriched["strengths"] = "; ".join(strengths[:3])
     enriched["limitations"] = "; ".join(limitations[:3])
     enriched["methodTags"] = "; ".join(tags)
+    enriched["keywordTags"] = "; ".join(paper_keyword_tags(p))
     enriched["paperLink"] = p.get("url") or p.get("semanticScholarUrl") or ""
     return enriched
 
@@ -1182,7 +1392,7 @@ def write_taxonomy_dataset(flat):
     fields = [
         "category", "taxonomyRank", "year", "title", "authors", "venue", "publicationDate",
         "citationCount", "influentialCitationCount", "importanceScore", "categoryOverview",
-        "categoryLimitations", "researchTrend", "methodTags",
+        "categoryLimitations", "researchTrend", "methodTags", "keywordTags",
         "keyIdea", "strengths", "limitations", "paperLink", "semanticScholarUrl",
         "openAccessPdf", "doi", "arxiv", "pubmed", "fieldsOfStudy",
     ]
@@ -1197,17 +1407,19 @@ def readme_taxonomy_table(rows, total_count):
         '<table width="100%">',
         "<colgroup>",
         '<col width="5%">',
-        '<col width="22%">',
-        '<col width="13%">',
-        '<col width="30%">',
-        '<col width="15%">',
-        '<col width="15%">',
+        '<col width="21%">',
+        '<col width="12%">',
+        '<col width="12%">',
+        '<col width="26%">',
+        '<col width="12%">',
+        '<col width="12%">',
         "</colgroup>",
         "<thead>",
         "<tr>",
         '<th align="right">Rank</th>',
         "<th>Paper</th>",
         "<th>Meta</th>",
+        "<th>Keywords</th>",
         "<th>Key idea</th>",
         "<th>Strengths</th>",
         "<th>Limitations</th>",
@@ -1221,20 +1433,22 @@ def readme_taxonomy_table(rows, total_count):
         paper = f'<a href="{link}">{title}</a>' if link else title
         authors = html.escape(p["authors"] or "Unknown authors")
         venue = html.escape(p["venue"] or "Unknown venue")
+        keywords = readme_keyword_badges([tag for tag in p.get("keywordTags", "").split("; ") if tag])
         out.extend([
             "<tr>",
             f'<td align="right" width="5%">{idx}</td>',
-            f'<td width="22%">{paper}<br><sub>{authors}</sub></td>',
-            f'<td width="13%">{p["year"]}<br>{venue}<br>{p["citationCount"]:,} citations</td>',
-            f'<td width="30%">{html.escape(p["keyIdea"])}</td>',
-            f'<td width="15%">{html.escape(p["strengths"])}</td>',
-            f'<td width="15%">{html.escape(p["limitations"])}</td>',
+            f'<td width="21%">{paper}<br><sub>{authors}</sub></td>',
+            f'<td width="12%">{p["year"]}<br>{venue}<br>{p["citationCount"]:,} citations</td>',
+            f'<td width="12%">{keywords}</td>',
+            f'<td width="26%">{html.escape(p["keyIdea"])}</td>',
+            f'<td width="12%">{html.escape(p["strengths"])}</td>',
+            f'<td width="12%">{html.escape(p["limitations"])}</td>',
             "</tr>",
         ])
     if total_count > len(rows):
         out.extend([
             "<tr>",
-            f'<td colspan="6">See the website and taxonomy CSV for all {total_count} papers.</td>',
+            f'<td colspan="7">See the website and taxonomy CSV for all {total_count} papers.</td>',
             "</tr>",
         ])
     out.extend(["</tbody>", "</table>"])
@@ -1350,15 +1564,22 @@ def paper_card(p, taxonomy_rank):
     link = html.escape(p["paperLink"])
     semantic = html.escape(p.get("semanticScholarUrl") or "")
     pdf = html.escape(p.get("openAccessPdf") or "")
+    keywords = [tag for tag in p.get("keywordTags", "").split("; ") if tag]
+    data_keywords = html.escape(" ".join(keywords), quote=True)
+    keyword_badges = "".join(
+        f'<span class="keyword-chip paper-keyword" style="--chip-color:#{KEYWORD_COLORS.get(keyword, "64748b")}">{html.escape(keyword)}</span>'
+        for keyword in keywords
+    )
     data_title = html.escape(p["title"], quote=True)
     data_venue = html.escape(p["venue"] or "Unknown venue", quote=True)
     data_limitations = html.escape(p["limitations"], quote=True)
+    localized_attrs = localized_paper_attrs(p)
     paper_link = f'<a href="{link}">Paper</a>' if link else ""
     semantic_link = f'<a href="{semantic}">Semantic Scholar</a>' if semantic else ""
     pdf_link = f'<a href="{pdf}">PDF</a>' if pdf else ""
     links = " ".join(x for x in [paper_link, semantic_link, pdf_link] if x) or "No link"
     return f"""
-      <article class="paper-card" data-year="{p['year']}" data-citations="{p['citationCount']}" data-title="{data_title}" data-venue="{data_venue}" data-limitations="{data_limitations}">
+      <article class="paper-card" data-year="{p['year']}" data-citations="{p['citationCount']}" data-keywords="{data_keywords}" data-title="{data_title}" data-venue="{data_venue}" data-limitations="{data_limitations}" {localized_attrs}>
         <div class="paper-rank">#{taxonomy_rank}</div>
         <div class="paper-body">
           <h3>{f'<a href="{link}">{title}</a>' if link else title}</h3>
@@ -1370,10 +1591,11 @@ def paper_card(p, taxonomy_rank):
             <span>{p["influentialCitationCount"]:,} influential</span>
             <span>score {p["importanceScore"]}</span>
           </div>
-          <p><strong>Key idea:</strong> {html.escape(p["keyIdea"])}</p>
+          <div class="paper-keywords" aria-label="Keywords">{keyword_badges}</div>
+          <p><strong class="paper-key-idea-label">Key idea:</strong> <span class="paper-key-idea-text">{html.escape(p["keyIdea"])}</span></p>
           <div class="assessment">
-            <p><strong>Strengths:</strong> {html.escape(p["strengths"])}</p>
-            <p><strong>Limitations:</strong> {html.escape(p["limitations"])}</p>
+            <p><strong class="paper-strengths-label">Strengths:</strong> <span class="paper-strengths-text">{html.escape(p["strengths"])}</span></p>
+            <p><strong class="paper-limitations-label">Limitations:</strong> <span class="paper-limitations-text">{html.escape(p["limitations"])}</span></p>
           </div>
           <p class="tags">{html.escape(p["methodTags"])}</p>
           <p class="links">{links}</p>
@@ -1390,6 +1612,7 @@ def taxonomy_section(category, rows):
     <section id="{slug}" class="taxonomy-section" data-category="{slug}">
       <details>
         <summary>
+          <img class="summary-thumb" src="{taxonomy_visual_src(category)}" alt="">
           <span class="summary-title">{html.escape(category)}</span>
           <span class="category-count">{summary['count']} papers</span>
           <span class="category-years">{summary['years']}</span>
@@ -1463,6 +1686,7 @@ def write_site(flat):
       const defaultEnd = endSelect.value;
       const validYears = Array.from(startSelect.options).map(option => option.value);
       const periodOptions = Array.from(periodSelect.options);
+      const keywordButtons = Array.from(document.querySelectorAll(".keyword-item[data-keyword]"));
       const defaultLanguage = languageSelect.value;
       let precomputed = null;
 
@@ -1495,6 +1719,10 @@ def write_site(flat):
         if (lang && Array.from(languageSelect.options).some(option => option.value === lang)) {
           languageSelect.value = lang;
         }
+        const keywords = (params.get("keywords") || "").split(",").filter(Boolean);
+        keywordButtons.forEach(button => {
+          button.setAttribute("aria-pressed", keywords.includes(button.dataset.keyword) ? "true" : "false");
+        });
         const period = params.get("period");
         if (period) {
           const option = periodOptions.find(item => item.value === period && item.dataset.from && item.dataset.to);
@@ -1536,6 +1764,12 @@ def write_site(flat):
             url.searchParams.set("to", end);
           }
         }
+        const keywords = selectedKeywords();
+        if (keywords.length) {
+          url.searchParams.set("keywords", keywords.join(","));
+        } else {
+          url.searchParams.delete("keywords");
+        }
         window.history.replaceState(null, "", url);
       }
 
@@ -1566,14 +1800,22 @@ def write_site(flat):
       }
 
       function labels() {
-        return precomputed?.uiLabels?.[languageSelect.value] || precomputed?.uiLabels?.en || {
+        const fallback = {
           papers: "papers",
           categories: "categories",
           overview: "Category Overview",
           limitations: "Limitations",
           analysis: "Selected-period analysis",
           totalSelected: "Total selected papers",
-          categoryCount: "Categories"
+          categoryCount: "Categories",
+          keyIdea: "Key idea",
+          strengths: "Strengths",
+          paperLimitations: "Limitations"
+        };
+        return {
+          ...fallback,
+          ...(precomputed?.uiLabels?.en || {}),
+          ...(precomputed?.uiLabels?.[languageSelect.value] || {})
         };
       }
 
@@ -1587,6 +1829,37 @@ def write_site(flat):
         });
       }
 
+      function selectedKeywords() {
+        return keywordButtons
+          .filter(button => button.getAttribute("aria-pressed") === "true")
+          .map(button => button.dataset.keyword);
+      }
+
+      function keywordMatches(card, selected) {
+        if (!selected.length) return true;
+        const cardKeywords = (card.dataset.keywords || "").split(" ").filter(Boolean);
+        return selected.some(keyword => cardKeywords.includes(keyword));
+      }
+
+      function localizedCardText(card, field, language) {
+        const suffix = language.charAt(0).toUpperCase() + language.slice(1);
+        return card.dataset[`${field}${suffix}`] || card.dataset[`${field}En`] || "";
+      }
+
+      function applyPaperLocalization(card, copy) {
+        const language = languageSelect.value;
+        [
+          ["keyIdea", ".paper-key-idea-label", ".paper-key-idea-text", copy.keyIdea],
+          ["strengths", ".paper-strengths-label", ".paper-strengths-text", copy.strengths],
+          ["paperLimitations", ".paper-limitations-label", ".paper-limitations-text", copy.paperLimitations]
+        ].forEach(([field, labelSelector, textSelector, label]) => {
+          const labelNode = card.querySelector(labelSelector);
+          const textNode = card.querySelector(textSelector);
+          if (labelNode) labelNode.textContent = `${label}:`;
+          if (textNode) textNode.textContent = localizedCardText(card, field, language);
+        });
+      }
+
       function applyPrecomputedAnalysis(section, start, end) {
         const language = languageSelect.value;
         const entry = precomputed?.analysis?.[rangeKey(start, end)]?.[section.dataset.category];
@@ -1595,8 +1868,6 @@ def write_site(flat):
         const copy = labels();
         const title = section.querySelector(".summary-title");
         if (title) title.textContent = analysis.categoryName;
-        const card = document.querySelector(`.taxonomy-card[data-category="${section.dataset.category}"] strong`);
-        if (card) card.textContent = analysis.categoryName;
         const overviewHeading = section.querySelector(".overview-heading");
         const limitationHeading = section.querySelector(".limitation-heading");
         if (overviewHeading) overviewHeading.textContent = copy.overview;
@@ -1621,6 +1892,7 @@ def write_site(flat):
         let totalCitations = 0;
         let activeCategories = 0;
         const activeYears = [];
+        const activeKeywords = selectedKeywords();
 
         document.querySelectorAll(".taxonomy-section").forEach(section => {
           let sectionCount = 0;
@@ -1630,7 +1902,8 @@ def write_site(flat):
           section.querySelectorAll(".paper-card").forEach(card => {
             const year = Number(card.dataset.year);
             const citations = Number(card.dataset.citations || 0);
-            const visible = year >= start && year <= end;
+            const visible = year >= start && year <= end && keywordMatches(card, activeKeywords);
+            applyPaperLocalization(card, copy);
             card.hidden = !visible;
             if (visible) {
               sectionCount += 1;
@@ -1642,12 +1915,6 @@ def write_site(flat):
 
           const hasPapers = sectionCount > 0;
           section.hidden = !hasPapers;
-          const overview = document.querySelector(`.taxonomy-card[data-category="${section.dataset.category}"]`);
-          if (overview) {
-            overview.hidden = !hasPapers;
-            const overviewCount = overview.querySelector(".overview-count");
-            if (overviewCount) overviewCount.textContent = `${formatNumber(sectionCount)} ${copy.papers}`;
-          }
           if (!hasPapers) return;
 
           activeCategories += 1;
@@ -1671,7 +1938,8 @@ def write_site(flat):
         if (taxonomyTotalSummary) {
           taxonomyTotalSummary.innerHTML = `<strong>${copy.totalSelected}:</strong> ${formatNumber(totalPapers)} ${copy.papers}; <strong>${copy.categoryCount}:</strong> ${formatNumber(activeCategories)} ${copy.categories}.`;
         }
-        rangeStatus.textContent = `${start}-${end} · ${formatNumber(totalPapers)} ${copy.papers} · ${formatNumber(activeCategories)} ${copy.categories}`;
+        const keywordText = activeKeywords.length ? ` · ${activeKeywords.join(", ")}` : "";
+        rangeStatus.textContent = `${start}-${end} · ${formatNumber(totalPapers)} ${copy.papers} · ${formatNumber(activeCategories)} ${copy.categories}${keywordText}`;
         if (sync) syncUrl(start, end);
       }
 
@@ -1697,10 +1965,18 @@ def write_site(flat):
       languageSelect.addEventListener("change", () => applyYearFilter(true));
       startSelect.addEventListener("change", () => applyYearFilter(true));
       endSelect.addEventListener("change", () => applyYearFilter(true));
+      keywordButtons.forEach(button => {
+        button.addEventListener("click", () => {
+          const pressed = button.getAttribute("aria-pressed") === "true";
+          button.setAttribute("aria-pressed", pressed ? "false" : "true");
+          applyYearFilter(true);
+        });
+      });
       resetButton.addEventListener("click", () => {
         startSelect.value = defaultStart;
         endSelect.value = defaultEnd;
         periodSelect.value = `${defaultStart}-${defaultEnd}`;
+        keywordButtons.forEach(button => button.setAttribute("aria-pressed", "false"));
         applyYearFilter(true);
       });
     })();
@@ -1709,10 +1985,6 @@ def write_site(flat):
     sections = []
     for cat, _ in cats.most_common():
         sections.append(taxonomy_section(cat, groups[cat]))
-    cat_cards = "\n".join(
-        f"<a class='card taxonomy-card' data-category='{safe_slug(cat)}' href='#{safe_slug(cat)}'><strong>{html.escape(cat)}</strong><span class='overview-count'>{count} papers</span></a>"
-        for cat, count in cats.most_common()
-    )
     keyword_convention = site_keyword_convention_html()
     html_doc = f"""<!doctype html>
 <html lang="en">
@@ -1729,7 +2001,7 @@ def write_site(flat):
     h2 {{ margin-top:36px; }}
     p {{ line-height:1.65; color:var(--muted); }}
     main {{ padding:28px 7vw 72px; }}
-    .stats, .cards {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin:24px 0; }}
+    .stats {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin:24px 0; }}
     .filters {{ display:flex; flex-wrap:wrap; align-items:end; gap:12px; margin:24px 0; padding:14px; background:white; border:1px solid var(--line); border-radius:8px; }}
     .filter-field {{ display:grid; gap:6px; }}
     .wide-field {{ min-width:min(100%, 280px); }}
@@ -1748,14 +2020,17 @@ def write_site(flat):
     .card span {{ display:block; margin-top:8px; color:var(--muted); }}
     .keyword-section {{ margin:28px 0; }}
     .keyword-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; }}
-    .keyword-item {{ display:flex; gap:10px; align-items:flex-start; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; color:var(--muted); line-height:1.45; }}
+    .keyword-item {{ display:flex; gap:10px; align-items:flex-start; height:auto; min-height:54px; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; color:var(--muted); line-height:1.45; text-align:left; font:inherit; cursor:pointer; }}
+    .keyword-item:hover {{ background:#f8fafc; }}
+    .keyword-item[aria-pressed="true"] {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(15,118,110,0.16); color:var(--ink); }}
     .keyword-chip {{ flex:0 0 auto; min-width:96px; text-align:center; background:var(--chip-color); color:white; border-radius:999px; padding:4px 9px; font-size:13px; font-weight:800; }}
     .overview-count {{ font-weight:800; color:var(--accent); }}
     nav a {{ display:inline-block; margin:0 12px 10px 0; color:var(--accent2); font-weight:600; }}
     .card {{ display:block; color:var(--ink); }}
     .taxonomy-section {{ margin-top:16px; }}
     details {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }}
-    summary {{ cursor:pointer; display:grid; grid-template-columns:minmax(260px,1fr) repeat(3, minmax(110px, auto)); gap:12px; align-items:center; padding:16px 18px; font-weight:700; }}
+    summary {{ cursor:pointer; display:grid; grid-template-columns:64px minmax(260px,1fr) repeat(3, minmax(110px, auto)); gap:12px; align-items:center; padding:14px 18px; font-weight:700; }}
+    .summary-thumb {{ width:56px; height:40px; object-fit:cover; border:1px solid var(--line); border-radius:6px; background:#f8fafc; }}
     .summary-title {{ color:var(--accent); }}
     .section-intro {{ padding:0 18px 14px; border-top:1px solid var(--line); }}
     .section-visual {{ margin:14px 0 4px; }}
@@ -1772,6 +2047,8 @@ def write_site(flat):
     .authors {{ margin:0 0 8px; }}
     .meta {{ display:flex; flex-wrap:wrap; gap:8px; margin:8px 0 10px; }}
     .meta span, .tags {{ display:inline-block; background:#eef2f7; border:1px solid #dce3ee; border-radius:999px; padding:5px 9px; color:#344255; font-size:13px; }}
+    .paper-keywords {{ display:flex; flex-wrap:wrap; gap:6px; margin:0 0 10px; }}
+    .paper-keyword {{ min-width:0; font-size:12px; padding:3px 8px; }}
     .assessment {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:8px; }}
     .links a {{ margin-right:12px; font-weight:700; }}
     a {{ color:#0f5f97; text-decoration:none; }}
@@ -1843,7 +2120,6 @@ def write_site(flat):
         <figcaption id="citationChartCaption">Yearly citation mass ({YEAR_RANGE_TEXT})</figcaption>
       </figure>
     </div>
-    <div class="cards">{cat_cards}</div>
     {''.join(sections)}
   </main>
 {year_filter_script}
