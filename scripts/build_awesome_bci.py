@@ -1407,7 +1407,7 @@ def period_select_ranges():
 
 def research_overview_html():
     return """
-    <section class="research-brief" aria-labelledby="research-timeline-title">
+    <section class="research-brief" id="researchBrief" aria-labelledby="research-timeline-title">
       <h2 id="research-timeline-title">Research Timeline</h2>
       <div class="timeline-copy">
         <p>2000-2026년 BCI 코퍼스는 통신·제어를 위한 초기 brain-computer interface 개념 정리에서 출발해 motor imagery, SSVEP/P300 speller, EEG 신호처리, 침습형 신경 디코딩, 재활·neuroprosthetics, 딥러닝 기반 representation learning으로 확장된 연구 지형도다. 총 2,447편의 선별 논문은 운동 의도 해석과 비침습 EEG 패러다임이 여전히 중심축이며, 그 주변으로 고대역폭 침습형 인터페이스와 임상 재활 응용이 성장해 왔음을 보여준다.</p>
@@ -1454,6 +1454,75 @@ def research_overview_html():
       </div>
     </section>
 """
+
+
+def research_copy():
+    return {
+        "en": """
+      <h2 id="research-timeline-title">Research Timeline</h2>
+      <div class="timeline-copy">
+        <p>The 2000-2026 BCI corpus traces the field from early communication and control systems to motor imagery, SSVEP/P300 spellers, EEG signal processing, invasive neural decoding, rehabilitation, neuroprosthetics, and deep representation learning. The 2,447 selected papers show that movement-intention decoding and non-invasive EEG paradigms remain the central axis, while implantable high-bandwidth systems and clinical rehabilitation applications continue to grow.</p>
+        <p>Highly cited work clusters around shared systems and benchmarks such as BCI2000, EEGNet, and communication/control reviews. Recent progress is less about offline accuracy alone and more about cross-session stability, user adaptation, long-term usability, clinical functional gains, safety, and privacy.</p>
+      </div>
+      <h2>Research Insights</h2>
+      <div class="research-insights">
+        <article class="insight-box"><div class="insight-label">Motor Decoding</div><h3>Motor-intention decoding remains the core axis</h3><p>Motor imagery and movement decoding dominate the taxonomy through cursor control, arm and hand movement, gait, and prosthetic control.</p><p class="insight-implication">Implication: online control, user learning, and functional benefit should be evaluated alongside accuracy.</p></article>
+        <article class="insight-box"><div class="insight-label">Non-invasive EEG</div><h3>Datasets and preprocessing shape non-invasive BCI</h3><p>EEG, SSVEP, P300, and ERP speller studies are accessible but sensitive to noise, artifacts, montage, and session drift.</p><p class="insight-implication">Implication: public datasets, preprocessing standards, and cross-subject validation are as important as model changes.</p></article>
+        <article class="insight-box"><div class="insight-label">Implants</div><h3>Implantable BCI balances bandwidth and scalability</h3><p>Intracortical, ECoG, and implantable interfaces provide high information rates but face long-term stability, surgical risk, and maintenance constraints.</p><p class="insight-implication">Implication: clinical value depends on decoding bandwidth plus safe long-term operation.</p></article>
+        <article class="insight-box"><div class="insight-label">Rehabilitation</div><h3>Rehabilitation BCI moves from accuracy to function</h3><p>Stroke rehabilitation, neuroprosthetics, and exoskeleton studies evaluate feedback, repeated training, and motor recovery.</p><p class="insight-implication">Implication: clinical endpoints and follow-up matter more than offline scores alone.</p></article>
+        <article class="insight-box"><div class="insight-label">Deep Learning</div><h3>Deep learning opened representation learning, but generalization is the test</h3><p>Compact CNNs, transformers, domain adaptation, and self-supervised learning build on EEGNet, yet data scale and external validation remain limited.</p><p class="insight-implication">Implication: new models should report subject/session transfer and calibration cost.</p></article>
+        <article class="insight-box"><div class="insight-label">Closed Loop</div><h3>Closed-loop and hybrid BCI are the next integration layer</h3><p>Hybrid, affective, adaptive, and closed-loop BCI combine sensing with feedback and intervention in more realistic use contexts.</p><p class="insight-implication">Implication: future maps need to model neural signals, user state, and environmental context together.</p></article>
+      </div>
+""",
+        "ko": """
+      <h2 id="research-timeline-title">연구 타임라인</h2>
+      <div class="timeline-copy">
+        <p>2000-2026년 BCI 코퍼스는 통신·제어를 위한 초기 brain-computer interface 개념 정리에서 출발해 motor imagery, SSVEP/P300 speller, EEG 신호처리, 침습형 신경 디코딩, 재활·neuroprosthetics, 딥러닝 기반 representation learning으로 확장된 연구 지형도다. 총 2,447편의 선별 논문은 운동 의도 해석과 비침습 EEG 패러다임이 여전히 중심축이며, 그 주변으로 고대역폭 침습형 인터페이스와 임상 재활 응용이 성장해 왔음을 보여준다.</p>
+        <p>인용 상위 흐름은 BCI2000, EEGNet, communication/control 리뷰처럼 공동 벤치마크와 시스템 정의를 만든 논문에 강하게 모인다. 최근 구간의 핵심 변화는 정확도 경쟁만으로는 부족하다는 점이다. 세션 간 안정성, 사용자 적응, 장기 사용성, 임상 기능 개선, 안전성과 개인정보 보호가 실제 전환의 기준으로 올라오고 있다.</p>
+      </div>
+      <h2>연구 인사이트</h2>
+      <div class="research-insights">
+        <article class="insight-box"><div class="insight-label">Motor Decoding</div><h3>운동 의도 디코딩이 BCI의 중심축이다</h3><p>가장 큰 taxonomy는 motor imagery와 movement decoding으로, 커서 제어, 팔·손 움직임, gait, prosthetic control이 장기간 핵심 문제로 유지된다.</p><p class="insight-implication">시사점: 성능 비교는 단순 분류 정확도보다 사용자별 학습, online control, 기능적 이득을 함께 봐야 한다.</p></article>
+        <article class="insight-box"><div class="insight-label">Non-invasive EEG</div><h3>비침습 BCI는 데이터셋과 전처리가 성능을 좌우한다</h3><p>EEG, SSVEP, P300, ERP speller 연구는 접근성이 높지만 잡음, artifact, 세션 변화, montage 차이에 민감하다.</p><p class="insight-implication">시사점: 공개 데이터셋, 전처리 표준, cross-subject 검증이 알고리즘 개선만큼 중요하다.</p></article>
+        <article class="insight-box"><div class="insight-label">Implants</div><h3>침습형 인터페이스는 고성능과 확장성 사이에 있다</h3><p>intracortical, ECoG, implantable interface는 높은 정보율과 정밀 제어를 제공하지만 장기 안정성, 수술 위험, 유지 비용이 병목이다.</p><p class="insight-implication">시사점: 임상 가치는 decoding bandwidth와 안전한 장기 운영성을 함께 만족할 때 커진다.</p></article>
+        <article class="insight-box"><div class="insight-label">Rehabilitation</div><h3>재활 BCI는 정확도에서 기능 회복으로 이동한다</h3><p>stroke rehabilitation, neuroprosthetics, exoskeleton 연구는 신호 해석을 넘어 운동 회복, 피드백, 반복 훈련 효과를 평가한다.</p><p class="insight-implication">시사점: 논문 평가는 offline score보다 clinical endpoint와 장기 추적 결과를 중시해야 한다.</p></article>
+        <article class="insight-box"><div class="insight-label">Deep Learning</div><h3>딥러닝은 표현학습을 열었지만 일반화가 관건이다</h3><p>EEGNet 이후 compact CNN, transformer, domain adaptation, self-supervised learning이 늘었지만 데이터 규모와 외부 검증은 여전히 제한적이다.</p><p class="insight-implication">시사점: 새로운 모델은 subject/session transfer와 calibration cost를 명시해야 한다.</p></article>
+        <article class="insight-box"><div class="insight-label">Closed Loop</div><h3>폐루프·hybrid BCI가 다음 통합 단계다</h3><p>hybrid, affective, adaptive, closed-loop BCI는 신호 감지와 피드백·개입을 결합해 실제 사용 환경으로 연구 범위를 넓힌다.</p><p class="insight-implication">시사점: 다음 연구 지도는 신경 신호, 사용자 상태, 환경 맥락을 함께 모델링해야 한다.</p></article>
+      </div>
+""",
+        "zh": """
+      <h2 id="research-timeline-title">研究时间线</h2>
+      <div class="timeline-copy">
+        <p>2000-2026 年的 BCI 语料展示了该领域从早期通信与控制系统，扩展到运动想象、SSVEP/P300 拼写器、EEG 信号处理、侵入式神经解码、康复、神经假体和深度表征学习的过程。2,447 篇入选论文表明，运动意图解码和非侵入式 EEG 范式仍是核心轴线，高带宽植入式接口和临床康复应用则持续增长。</p>
+        <p>高被引论文集中在 BCI2000、EEGNet 以及 communication/control 综述等共同系统和基准上。近期进展不再只看离线准确率，也越来越重视跨会话稳定性、用户适应、长期可用性、临床功能收益、安全性和隐私。</p>
+      </div>
+      <h2>研究洞察</h2>
+      <div class="research-insights">
+        <article class="insight-box"><div class="insight-label">Motor Decoding</div><h3>运动意图解码仍是核心</h3><p>运动想象和运动解码覆盖光标控制、手臂与手部运动、步态和假体控制，是 BCI taxonomy 中最大的方向。</p><p class="insight-implication">启示：应同时评估在线控制、用户学习和功能收益，而不仅是分类准确率。</p></article>
+        <article class="insight-box"><div class="insight-label">Non-invasive EEG</div><h3>数据集和预处理决定非侵入式 BCI 表现</h3><p>EEG、SSVEP、P300 和 ERP 拼写器易于部署，但对噪声、伪迹、导联配置和会话漂移非常敏感。</p><p class="insight-implication">启示：公开数据集、预处理标准和跨受试者验证与模型创新同样重要。</p></article>
+        <article class="insight-box"><div class="insight-label">Implants</div><h3>植入式 BCI 在带宽和可扩展性之间取舍</h3><p>皮层内、ECoG 和植入式接口能提供高信息率，但长期稳定性、手术风险和维护成本仍是瓶颈。</p><p class="insight-implication">启示：临床价值取决于解码带宽与安全长期运行的同时满足。</p></article>
+        <article class="insight-box"><div class="insight-label">Rehabilitation</div><h3>康复 BCI 从准确率走向功能恢复</h3><p>卒中康复、神经假体和外骨骼研究更关注反馈、重复训练和运动恢复。</p><p class="insight-implication">启示：临床终点和长期随访比离线分数更关键。</p></article>
+        <article class="insight-box"><div class="insight-label">Deep Learning</div><h3>深度学习打开表征学习，但泛化仍是考验</h3><p>EEGNet 之后，紧凑 CNN、transformer、领域自适应和自监督学习增多，但数据规模和外部验证仍有限。</p><p class="insight-implication">启示：新模型应报告跨受试者/跨会话迁移和校准成本。</p></article>
+        <article class="insight-box"><div class="insight-label">Closed Loop</div><h3>闭环与混合 BCI 是下一层整合</h3><p>混合、情感、自适应和闭环 BCI 将信号感知与反馈干预结合，贴近真实使用场景。</p><p class="insight-implication">启示：未来研究需要同时建模神经信号、用户状态和环境上下文。</p></article>
+      </div>
+""",
+        "ja": """
+      <h2 id="research-timeline-title">研究タイムライン</h2>
+      <div class="timeline-copy">
+        <p>2000-2026 年の BCI コーパスは、初期の通信・制御システムから、運動イメージ、SSVEP/P300 スペラー、EEG 信号処理、侵襲的神経デコーディング、リハビリテーション、神経義肢、深層表現学習へ広がる流れを示している。選定された 2,447 本の論文は、運動意図の解読と非侵襲 EEG パラダイムが中心であり続ける一方、高帯域の植込み型インターフェースと臨床リハビリ応用が伸びていることを示す。</p>
+        <p>高被引用の流れは BCI2000、EEGNet、communication/control のレビューのような共有システムとベンチマークに集まる。近年はオフライン精度だけでなく、セッション間安定性、ユーザー適応、長期使用性、臨床的な機能改善、安全性、プライバシーが重要な基準になっている。</p>
+      </div>
+      <h2>研究インサイト</h2>
+      <div class="research-insights">
+        <article class="insight-box"><div class="insight-label">Motor Decoding</div><h3>運動意図デコーディングが中心軸である</h3><p>運動イメージと運動デコーディングは、カーソル制御、腕・手の動き、歩行、義肢制御を通じて最大の分類を形成する。</p><p class="insight-implication">示唆：精度だけでなく、オンライン制御、ユーザー学習、機能的利益を合わせて評価すべきである。</p></article>
+        <article class="insight-box"><div class="insight-label">Non-invasive EEG</div><h3>非侵襲 BCI はデータセットと前処理に左右される</h3><p>EEG、SSVEP、P300、ERP スペラーは導入しやすいが、ノイズ、アーチファクト、モンタージュ、セッション変動に敏感である。</p><p class="insight-implication">示唆：公開データセット、前処理標準、被験者間検証はモデル改良と同じくらい重要である。</p></article>
+        <article class="insight-box"><div class="insight-label">Implants</div><h3>植込み型 BCI は帯域幅と拡張性の間にある</h3><p>皮質内、ECoG、植込み型インターフェースは高い情報率をもたらすが、長期安定性、手術リスク、維持コストが課題である。</p><p class="insight-implication">示唆：臨床価値はデコード帯域と安全な長期運用の両立で決まる。</p></article>
+        <article class="insight-box"><div class="insight-label">Rehabilitation</div><h3>リハビリ BCI は精度から機能回復へ移る</h3><p>脳卒中リハビリ、神経義肢、外骨格研究は、フィードバック、反復訓練、運動回復を評価する。</p><p class="insight-implication">示唆：オフラインスコアよりも臨床エンドポイントと長期追跡が重要である。</p></article>
+        <article class="insight-box"><div class="insight-label">Deep Learning</div><h3>深層学習は表現学習を開いたが、汎化が試金石である</h3><p>EEGNet 以降、compact CNN、transformer、domain adaptation、self-supervised learning が増えたが、データ規模と外部検証はまだ限られる。</p><p class="insight-implication">示唆：新しいモデルは被験者間・セッション間転移とキャリブレーションコストを示す必要がある。</p></article>
+        <article class="insight-box"><div class="insight-label">Closed Loop</div><h3>閉ループ・hybrid BCI が次の統合層である</h3><p>hybrid、affective、adaptive、closed-loop BCI は、信号検出とフィードバック・介入を結び、より実環境に近づく。</p><p class="insight-implication">示唆：今後は神経信号、ユーザー状態、環境文脈を同時にモデル化する必要がある。</p></article>
+      </div>
+""",
+    }
 
 
 def top_metadata_values(rows, key, limit=3):
@@ -1916,6 +1985,7 @@ def write_site(flat):
       const allTaxonomiesDetails = allTaxonomiesSection?.querySelector("details");
       const allTaxonomiesList = allTaxonomiesSection?.querySelector(".all-taxonomy-list");
       const defaultLanguage = languageSelect.value;
+      const researchCopy = __RESEARCH_COPY__;
       let allTaxonomiesCards = [];
       let precomputed = null;
 
@@ -2049,6 +2119,11 @@ def write_site(flat):
           ...(precomputed?.uiLabels?.[languageSelect.value] || {})
         };
       }
+      function updateResearchCopy() {
+        const brief = document.getElementById("researchBrief");
+        if (!brief) return;
+        brief.innerHTML = researchCopy[languageSelect.value] || researchCopy.en;
+      }
 
       function setList(target, items) {
         if (!target || !items) return;
@@ -2148,6 +2223,7 @@ def write_site(flat):
         let start = Number(startSelect.value);
         let end = Number(endSelect.value);
         const copy = labels();
+        updateResearchCopy();
         if (start > end) {
           const previousStart = start;
           start = end;
@@ -2260,12 +2336,13 @@ def write_site(flat):
       });
     })();
   </script>
-""".replace("__ANALYSIS_JSON__", PERIOD_ANALYSIS_JSON)
+""".replace("__ANALYSIS_JSON__", PERIOD_ANALYSIS_JSON).replace("__RESEARCH_COPY__", research_copy_payload)
     sections = [all_taxonomy_section(flat)]
     for cat, _ in cats.most_common():
         sections.append(taxonomy_section(cat, groups[cat]))
     keyword_convention = site_keyword_convention_html()
     research_overview = research_overview_html()
+    research_copy_payload = json.dumps(research_copy(), ensure_ascii=False)
     html_doc = f"""<!doctype html>
 <html lang="en">
 <head>
