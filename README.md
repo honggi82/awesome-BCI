@@ -4,6 +4,14 @@
 
 A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) research.
 
+<p align="center">
+  <a href="https://honggi82.github.io/awesome-BCI/">
+    <img src="https://img.shields.io/badge/Open_Interactive_Website-honggi82.github.io%2Fawesome--BCI-0f766e?style=for-the-badge" alt="Open Interactive Website">
+  </a>
+</p>
+
+> Browse the full interactive taxonomy site with period, language, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-BCI/
+
 Generated on 2026-06-26 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
 
 ## Project Links
