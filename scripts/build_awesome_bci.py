@@ -1787,6 +1787,30 @@ def taxonomy_section(category, rows):
     """
 
 
+def all_taxonomy_section(rows):
+    years = sorted({p["year"] for p in rows})
+    citations = sum(p["citationCount"] for p in rows)
+    top = max(rows, key=lambda p: p["citationCount"])
+    return f"""
+    <section id="all-taxonomies" class="taxonomy-section all-taxonomy-section" data-category="all-taxonomies">
+      <details>
+        <summary>
+          <span class="all-taxonomy-thumb" aria-hidden="true">All</span>
+          <span class="summary-title">All Taxonomies</span>
+          <span class="category-count">{len(rows):,} papers</span>
+          <span class="category-years">{years[0]}-{years[-1]}</span>
+          <span class="category-citations">{citations:,} citations</span>
+        </summary>
+        <div class="section-intro">
+          <p><strong>Representative emphasis:</strong> Complete filtered BCI taxonomy set</p>
+          <p><strong>Top-ranked paper:</strong> <span class="top-paper">{html.escape(top['title'])}</span></p>
+        </div>
+        <div class="paper-list all-taxonomy-list"></div>
+      </details>
+    </section>
+    """
+
+
 def write_site(flat):
     DOCS_DIR.mkdir(exist_ok=True)
     (DOCS_DIR / "assets").mkdir(exist_ok=True)
@@ -1837,7 +1861,11 @@ def write_site(flat):
       const periodOptions = Array.from(periodSelect.options);
       const keywordGrid = document.querySelector(".keyword-grid");
       const keywordButtons = Array.from(document.querySelectorAll(".keyword-item[data-keyword]"));
+      const allTaxonomiesSection = document.querySelector(".all-taxonomy-section");
+      const allTaxonomiesDetails = allTaxonomiesSection?.querySelector("details");
+      const allTaxonomiesList = allTaxonomiesSection?.querySelector(".all-taxonomy-list");
       const defaultLanguage = languageSelect.value;
+      let allTaxonomiesCards = [];
       let precomputed = null;
 
       function formatNumber(value) {
@@ -2007,6 +2035,29 @@ def write_site(flat):
         }
       }
 
+      function renderAllTaxonomiesCards() {
+        if (!allTaxonomiesList || !allTaxonomiesDetails?.open) return;
+        allTaxonomiesList.innerHTML = "";
+        const fragment = document.createDocumentFragment();
+        const sortedCards = [...allTaxonomiesCards].sort((a, b) => Number(b.dataset.citations || 0) - Number(a.dataset.citations || 0));
+        sortedCards.forEach(card => fragment.appendChild(card.cloneNode(true)));
+        allTaxonomiesList.appendChild(fragment);
+      }
+
+      function updateAllTaxonomiesSection(cards, totalPapers, years, totalCitations, copy) {
+        if (!allTaxonomiesSection) return;
+        allTaxonomiesCards = cards;
+        allTaxonomiesSection.hidden = totalPapers === 0;
+        allTaxonomiesSection.querySelector(".category-count").textContent = `${formatNumber(totalPapers)} ${copy.papers}`;
+        allTaxonomiesSection.querySelector(".category-years").textContent = yearRangeText(years);
+        allTaxonomiesSection.querySelector(".category-citations").textContent = `${formatNumber(totalCitations)} citations`;
+        const topPaperTarget = allTaxonomiesSection.querySelector(".top-paper");
+        const topPaper = [...cards].sort((a, b) => Number(b.dataset.citations || 0) - Number(a.dataset.citations || 0))[0]?.querySelector("h3");
+        if (topPaper && topPaperTarget) topPaperTarget.textContent = topPaper.textContent.trim();
+        if (allTaxonomiesDetails?.open) renderAllTaxonomiesCards();
+        else if (allTaxonomiesList) allTaxonomiesList.innerHTML = "";
+      }
+
       function localizedCardText(card, field, language) {
         const suffix = language.charAt(0).toUpperCase() + language.slice(1);
         return card.dataset[`${field}${suffix}`] || card.dataset[`${field}En`] || "";
@@ -2058,9 +2109,10 @@ def write_site(flat):
         let totalCitations = 0;
         let activeCategories = 0;
         const activeYears = [];
+        const visibleCards = [];
         const activeKeywords = selectedKeywords();
 
-        document.querySelectorAll(".taxonomy-section").forEach(section => {
+        document.querySelectorAll(".taxonomy-section:not(.all-taxonomy-section)").forEach(section => {
           let sectionCount = 0;
           let sectionCitations = 0;
           const sectionYears = [];
@@ -2076,6 +2128,7 @@ def write_site(flat):
               sectionCitations += citations;
               sectionYears.push(year);
               activeYears.push(year);
+              visibleCards.push(card);
             }
           });
 
@@ -2094,6 +2147,7 @@ def write_site(flat):
           if (topPaper && topPaperTarget) topPaperTarget.textContent = topPaper.textContent.trim();
           applyPrecomputedAnalysis(section, start, end);
         });
+        updateAllTaxonomiesSection(visibleCards, totalPapers, activeYears, totalCitations, copy);
 
         statPapers.textContent = formatNumber(totalPapers);
         statYears.textContent = formatNumber(new Set(activeYears).size);
@@ -2142,6 +2196,10 @@ def write_site(flat):
           applyYearFilter(true);
         });
       }
+      allTaxonomiesDetails?.addEventListener("toggle", () => {
+        if (allTaxonomiesDetails.open) renderAllTaxonomiesCards();
+        else if (allTaxonomiesList) allTaxonomiesList.innerHTML = "";
+      });
       resetButton.addEventListener("click", () => {
         startSelect.value = defaultStart;
         endSelect.value = defaultEnd;
@@ -2152,7 +2210,7 @@ def write_site(flat):
     })();
   </script>
 """.replace("__ANALYSIS_JSON__", PERIOD_ANALYSIS_JSON)
-    sections = []
+    sections = [all_taxonomy_section(flat)]
     for cat, _ in cats.most_common():
         sections.append(taxonomy_section(cat, groups[cat]))
     keyword_convention = site_keyword_convention_html()
@@ -2202,7 +2260,8 @@ def write_site(flat):
     .taxonomy-section[hidden], .paper-card[hidden] {{ display:none !important; }}
     details {{ background:var(--panel); border:1px solid var(--line); border-radius:8px; overflow:hidden; }}
     summary {{ cursor:pointer; display:grid; grid-template-columns:64px minmax(260px,1fr) repeat(3, minmax(110px, auto)); gap:12px; align-items:center; padding:14px 18px; font-weight:700; }}
-    .summary-thumb {{ width:56px; height:40px; object-fit:cover; border:1px solid var(--line); border-radius:6px; background:#f8fafc; }}
+    .summary-thumb, .all-taxonomy-thumb {{ width:56px; height:40px; object-fit:cover; border:1px solid var(--line); border-radius:6px; background:#f8fafc; }}
+    .all-taxonomy-thumb {{ display:inline-flex; align-items:center; justify-content:center; color:var(--accent); font-weight:800; }}
     .summary-title {{ color:var(--accent); }}
     .section-intro {{ padding:0 18px 14px; border-top:1px solid var(--line); }}
     .section-visual {{ margin:14px 0 4px; }}
