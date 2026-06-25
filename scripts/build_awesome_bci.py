@@ -1597,6 +1597,117 @@ def language_period_analysis(language, category, rows, start, end):
     return result
 
 
+def overall_period_summary(rows, start, end):
+    category_counts = Counter(p["category"] for p in rows)
+    category_citations = defaultdict(int)
+    keyword_counts = Counter()
+    year_counts = Counter()
+    year_citations = defaultdict(int)
+    for paper in rows:
+        category_citations[paper["category"]] += paper["citationCount"]
+        year_counts[paper["year"]] += 1
+        year_citations[paper["year"]] += paper["citationCount"]
+        for keyword in str(paper.get("keywordTags") or "").split("; "):
+            if keyword:
+                keyword_counts[keyword] += 1
+    peak_year, peak_count = year_counts.most_common(1)[0] if year_counts else (None, 0)
+    peak_citation_year = max(year_citations, key=year_citations.get) if year_citations else None
+    top = max(rows, key=lambda p: (p["citationCount"], p["influentialCitationCount"], p["title"])) if rows else None
+    return {
+        "startYear": start,
+        "endYear": end,
+        "rangeLabel": str(start) if start == end else f"{start}-{end}",
+        "totalPapers": len(rows),
+        "activeYears": len(year_counts),
+        "citationCount": sum(p["citationCount"] for p in rows),
+        "categoryCount": len(category_counts),
+        "topCategories": [
+            {"name": category, "count": count, "citations": category_citations[category]}
+            for category, count in category_counts.most_common(6)
+        ],
+        "topKeywords": [
+            {"name": keyword, "count": count}
+            for keyword, count in keyword_counts.most_common(6)
+        ],
+        "peakYear": peak_year,
+        "peakYearCount": peak_count,
+        "peakCitationYear": peak_citation_year,
+        "peakCitationCount": year_citations.get(peak_citation_year, 0) if peak_citation_year else 0,
+        "topPaper": {
+            "title": top["title"],
+            "year": top["year"],
+            "category": top["category"],
+            "url": top["url"],
+            "citations": top["citationCount"],
+        } if top else None,
+    }
+
+
+def overall_research_templates():
+    return {
+        "en": {
+            "timelineTitle": "Research Timeline",
+            "summary": [
+                "For {range}, the BCI corpus contains {papers} selected papers across {activeYears} active years, with {citations} citations. The strongest taxonomy signals are {topCategories}, and the most active year is {peakYear} ({peakYearCount} papers).",
+                "The leading citation-ranked paper is \"{topPaper}\" ({topPaperYear}, {topPaperCitations} citations) in {topPaperCategory}. Keywords such as {topKeywords} show how this period balances non-invasive EEG paradigms, invasive decoding, rehabilitation, communication, and representation learning.",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {"label": "Motor Decoding", "title": "Motor intention remains the organizing axis", "body": "{topCategories} dominate the selected range, while the top paper highlights {topPaperCategory}.", "implication": "Implication: period comparisons should track online control, calibration cost, and functional benefit alongside offline accuracy."},
+                {"label": "Signal Layer", "title": "BCI progress depends on signal quality and benchmarks", "body": "Frequent tags such as {topKeywords} reveal the paradigms and datasets that organize {range}.", "implication": "Implication: preprocessing, public datasets, and cross-session validation are as important as model changes."},
+                {"label": "Clinical Translation", "title": "Rehabilitation and neuroprosthetics need functional endpoints", "body": "A citation mass of {citations} shows a broad literature, but clinical value depends on long-term usability, safety, and measurable functional gains.", "implication": "Implication: strong studies should report patient-relevant outcomes, follow-up, and deployment constraints."},
+                {"label": "Implants", "title": "Implantable BCI trades bandwidth for operational risk", "body": "When invasive or implantable categories rise, the field is testing higher information rates under stability, surgery, and maintenance constraints.", "implication": "Implication: bandwidth claims should be read together with durability and care burden."},
+                {"label": "Open Gaps", "title": "Citation-ranked BCI maps still need expert reading", "body": "Recent papers, small cohorts, negative results, and user diversity can be underweighted even when period-level patterns look clear.", "implication": "Implication: use this view to navigate hypotheses, then validate with full-text protocol review."},
+            ],
+        },
+        "ko": {
+            "timelineTitle": "연구 타임라인",
+            "summary": [
+                "{range} 기간의 BCI 코퍼스는 활성 연도 {activeYears}년에 걸쳐 선별 논문 {papers}편과 인용 {citations}회를 포함합니다. 가장 강한 taxonomy 신호는 {topCategories}이며, 논문 수가 가장 많은 해는 {peakYear}년({peakYearCount}편)입니다.",
+                "인용 기준 최상위 논문은 {topPaperCategory} 분류의 \"{topPaper}\"({topPaperYear}, {topPaperCitations}회 인용)입니다. {topKeywords} 같은 키워드는 이 기간이 비침습 EEG, 침습 decoding, 재활, 의사소통, representation learning을 어떻게 균형 있게 다루는지 보여줍니다.",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {"label": "Motor Decoding", "title": "운동 의도 해석은 여전히 중심축입니다", "body": "{topCategories}가 선택 기간을 주도하고, 최상위 논문은 {topPaperCategory} 신호를 강조합니다.", "implication": "시사점: 기간 비교에서는 offline accuracy와 함께 online control, calibration cost, functional benefit을 봐야 합니다."},
+                {"label": "Signal Layer", "title": "BCI 진전은 신호 품질과 benchmark에 달려 있습니다", "body": "{topKeywords} 같은 빈도 높은 태그는 {range}를 조직하는 paradigm과 dataset을 드러냅니다.", "implication": "시사점: 전처리, 공개 dataset, cross-session 검증은 모델 변경만큼 중요합니다."},
+                {"label": "Clinical Translation", "title": "재활과 neuroprosthetics는 기능적 endpoint가 필요합니다", "body": "총 {citations}회 인용은 넓은 문헌 기반을 보여주지만, 임상 가치는 장기 사용성, 안전성, 측정 가능한 기능 개선에 달려 있습니다.", "implication": "시사점: 강한 연구는 환자 관련 outcome, follow-up, deployment constraint를 함께 보고해야 합니다."},
+                {"label": "Implants", "title": "침습형 BCI는 bandwidth와 운영 위험을 맞바꿉니다", "body": "침습형 또는 implantable 분류가 커질 때는 높은 정보율을 장기 안정성, 수술, 유지관리 제약 속에서 시험하는 구간입니다.", "implication": "시사점: bandwidth 주장은 durability와 care burden과 함께 읽어야 합니다."},
+                {"label": "Open Gaps", "title": "인용 기반 BCI 지도에는 전문가 해석이 필요합니다", "body": "기간 패턴이 명확해 보여도 최신 논문, 소규모 cohort, 부정 결과, 사용자 다양성은 과소평가될 수 있습니다.", "implication": "시사점: 이 뷰는 가설 탐색에 쓰고, 핵심 판단은 full-text protocol review로 검증해야 합니다."},
+            ],
+        },
+        "zh": {
+            "timelineTitle": "研究时间线",
+            "summary": [
+                "在 {range} 期间，BCI 语料包含 {papers} 篇入选论文，覆盖 {activeYears} 个活跃年份，总引用为 {citations} 次。最强的 taxonomy 信号是 {topCategories}，论文数量峰值出现在 {peakYear} 年（{peakYearCount} 篇）。",
+                "按引用排序的领先论文是 {topPaperCategory} 中的《{topPaper}》（{topPaperYear}，{topPaperCitations} 次引用）。{topKeywords} 等关键词显示该时期如何平衡非侵入式 EEG、侵入式解码、康复、沟通和表示学习。",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {"label": "Motor Decoding", "title": "运动意图解码仍是组织轴", "body": "{topCategories} 主导所选时期，而最高引用论文突出 {topPaperCategory}。", "implication": "启示：时期比较应同时关注在线控制、校准成本、功能收益和离线准确率。"},
+                {"label": "Signal Layer", "title": "BCI 进展依赖信号质量和基准", "body": "{topKeywords} 等高频标签揭示了组织 {range} 的范式和数据集。", "implication": "启示：预处理、公开数据集和跨会话验证与模型变化同样重要。"},
+                {"label": "Clinical Translation", "title": "康复和神经假体需要功能终点", "body": "{citations} 次引用说明文献基础广泛，但临床价值取决于长期可用性、安全性和可测量的功能改善。", "implication": "启示：强研究应报告患者相关结局、随访和部署约束。"},
+                {"label": "Implants", "title": "植入式 BCI 在带宽和运行风险之间权衡", "body": "当侵入式或植入式分类上升时，领域正在稳定性、手术和维护约束下测试更高信息率。", "implication": "启示：带宽主张应与耐久性和护理负担一起解读。"},
+                {"label": "Open Gaps", "title": "引用排序的 BCI 地图仍需专家阅读", "body": "即使时期模式清晰，最新论文、小 cohort、负结果和用户多样性也可能被低估。", "implication": "启示：用此视图导航假设，再通过全文 protocol review 验证判断。"},
+            ],
+        },
+        "ja": {
+            "timelineTitle": "研究タイムライン",
+            "summary": [
+                "{range} の BCI コーパスには、{activeYears} の対象年にわたる選定論文 {papers} 本、引用 {citations} 件が含まれます。最も強い taxonomy 信号は {topCategories} で、論文数のピークは {peakYear} 年（{peakYearCount} 本）です。",
+                "引用順で最上位の論文は {topPaperCategory} の「{topPaper}」（{topPaperYear}、{topPaperCitations} 件引用）です。{topKeywords} などのキーワードは、この期間が非侵襲 EEG、侵襲的 decoding、リハビリ、コミュニケーション、表現学習をどう扱うかを示します。",
+            ],
+            "insightsTitle": "Research Insights",
+            "insights": [
+                {"label": "Motor Decoding", "title": "運動意図 decoding は今も中心軸です", "body": "{topCategories} が選択期間を主導し、最上位論文は {topPaperCategory} を強調しています。", "implication": "示唆：期間比較では offline accuracy だけでなく、online control、calibration cost、functional benefit を見る必要があります。"},
+                {"label": "Signal Layer", "title": "BCI の進展は信号品質と benchmark に依存します", "body": "{topKeywords} などの高頻度タグは、{range} を支える paradigm と dataset を示します。", "implication": "示唆：前処理、公開 dataset、cross-session 検証はモデル変更と同じくらい重要です。"},
+                {"label": "Clinical Translation", "title": "リハビリと neuroprosthetics には機能 endpoint が必要です", "body": "引用 {citations} 件は広い文献基盤を示しますが、臨床価値は長期使用性、安全性、測定可能な機能改善に依存します。", "implication": "示唆：強い研究は患者関連 outcome、follow-up、deployment constraint を報告する必要があります。"},
+                {"label": "Implants", "title": "植込み型 BCI は bandwidth と運用リスクを交換します", "body": "侵襲型または implantable 分類が上昇する期間は、高い情報率を安定性、手術、保守制約の中で試す時期です。", "implication": "示唆：bandwidth の主張は durability と care burden と一緒に読む必要があります。"},
+                {"label": "Open Gaps", "title": "引用ベースの BCI 地図には専門的解釈が必要です", "body": "期間パターンが明確に見えても、最新論文、小規模 cohort、否定的結果、ユーザー多様性は過小評価されることがあります。", "implication": "示唆：このビューで仮説を探索し、主要判断は全文 protocol review で検証してください。"},
+            ],
+        },
+    }
+
+
 def build_period_analysis(flat):
     enriched = enriched_flat(flat)
     ranges = [
@@ -1608,6 +1719,7 @@ def build_period_analysis(flat):
         range_rows = [p for p in enriched if start <= p["year"] <= end]
         groups = category_groups(range_rows)
         range_entry = {}
+        range_entry["__overall__"] = overall_period_summary(range_rows, start, end)
         for category, rows in groups.items():
             if not rows:
                 continue
@@ -1956,6 +2068,8 @@ def write_site(flat):
         f'<option value="{code}"{" selected" if code == "en" else ""}>{html.escape(label)}</option>'
         for code, label in LANGUAGES.items()
     )
+    research_copy_payload = json.dumps(research_copy(), ensure_ascii=False)
+    overall_research_templates_payload = json.dumps(overall_research_templates(), ensure_ascii=False)
     year_filter_script = """
   <script>
     (() => {
@@ -1986,6 +2100,7 @@ def write_site(flat):
       const allTaxonomiesList = allTaxonomiesSection?.querySelector(".all-taxonomy-list");
       const defaultLanguage = languageSelect.value;
       const researchCopy = __RESEARCH_COPY__;
+      const overallResearchTemplates = __OVERALL_RESEARCH_TEMPLATES__;
       let allTaxonomiesCards = [];
       let precomputed = null;
 
@@ -2119,10 +2234,65 @@ def write_site(flat):
           ...(precomputed?.uiLabels?.[languageSelect.value] || {})
         };
       }
-      function updateResearchCopy() {
+      function escapeHtml(value) {
+        const escapeMap = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
+        return String(value ?? "").replace(/[&<>"']/g, ch => escapeMap[ch]);
+      }
+      function names(items, key = "name") {
+        return (items || []).slice(0, 3).map(item => item[key]).filter(Boolean).join(", ") || "n/a";
+      }
+      function researchTemplateData(metric) {
+        const topCategories = metric.topCategories || [];
+        const topKeywords = metric.topKeywords || [];
+        const topCategory = topCategories[0] || {};
+        const topPaper = metric.topPaper || {};
+        return {
+          range: metric.rangeLabel || `${metric.startYear}-${metric.endYear}`,
+          papers: formatNumber(metric.totalPapers),
+          activeYears: formatNumber(metric.activeYears),
+          citations: formatNumber(metric.citationCount),
+          topCategories: names(topCategories),
+          topCategory: topCategory.name || "n/a",
+          topCategoryCount: formatNumber(topCategory.count || 0),
+          topKeywords: names(topKeywords),
+          peakYear: metric.peakYear || "n/a",
+          peakYearCount: formatNumber(metric.peakYearCount || 0),
+          peakCitationYear: metric.peakCitationYear || "n/a",
+          topPaper: topPaper.title || "n/a",
+          topPaperYear: topPaper.year || "n/a",
+          topPaperCategory: topPaper.category || "n/a",
+          topPaperCitations: formatNumber(topPaper.citations || 0)
+        };
+      }
+      function applyTemplate(template, data) {
+        let output = template || "";
+        Object.keys(data).forEach(key => {
+          output = output.split("{" + key + "}").join(escapeHtml(data[key]));
+        });
+        return output;
+      }
+      function renderOverallResearch(metric) {
+        const copy = overallResearchTemplates[languageSelect.value] || overallResearchTemplates.en;
+        const data = researchTemplateData(metric);
+        const summaryHtml = (copy.summary || []).map(text => `<p>${applyTemplate(text, data)}</p>`).join("");
+        const insightHtml = (copy.insights || []).map(item => `
+          <article class="insight-box">
+            <div class="insight-label">${escapeHtml(item.label)}</div>
+            <h3>${applyTemplate(item.title, data)}</h3>
+            <p>${applyTemplate(item.body, data)}</p>
+            <p class="insight-implication">${applyTemplate(item.implication, data)}</p>
+          </article>`).join("");
+        return `
+          <h2 id="research-timeline-title">${escapeHtml(copy.timelineTitle)}</h2>
+          <div class="timeline-copy">${summaryHtml}</div>
+          <h2>${escapeHtml(copy.insightsTitle)}</h2>
+          <div class="research-insights">${insightHtml}</div>`;
+      }
+      function updateResearchCopy(start, end) {
         const brief = document.getElementById("researchBrief");
         if (!brief) return;
-        brief.innerHTML = researchCopy[languageSelect.value] || researchCopy.en;
+        const metric = precomputed?.analysis?.[rangeKey(start, end)]?.__overall__;
+        brief.innerHTML = metric ? renderOverallResearch(metric) : (researchCopy[languageSelect.value] || researchCopy.en);
       }
 
       function setList(target, items) {
@@ -2223,7 +2393,6 @@ def write_site(flat):
         let start = Number(startSelect.value);
         let end = Number(endSelect.value);
         const copy = labels();
-        updateResearchCopy();
         if (start > end) {
           const previousStart = start;
           start = end;
@@ -2231,6 +2400,7 @@ def write_site(flat):
           startSelect.value = String(start);
           endSelect.value = String(end);
         }
+        updateResearchCopy(start, end);
 
         let totalPapers = 0;
         let totalCitations = 0;
@@ -2336,13 +2506,12 @@ def write_site(flat):
       });
     })();
   </script>
-""".replace("__ANALYSIS_JSON__", PERIOD_ANALYSIS_JSON).replace("__RESEARCH_COPY__", research_copy_payload)
-    sections = [all_taxonomy_section(flat)]
+""".replace("__ANALYSIS_JSON__", PERIOD_ANALYSIS_JSON).replace("__RESEARCH_COPY__", research_copy_payload).replace("__OVERALL_RESEARCH_TEMPLATES__", overall_research_templates_payload)
+    sections = [all_taxonomy_section(flat).strip()]
     for cat, _ in cats.most_common():
-        sections.append(taxonomy_section(cat, groups[cat]))
+        sections.append(taxonomy_section(cat, groups[cat]).strip())
     keyword_convention = site_keyword_convention_html()
-    research_overview = research_overview_html()
-    research_copy_payload = json.dumps(research_copy(), ensure_ascii=False)
+    research_overview = research_overview_html().strip()
     html_doc = f"""<!doctype html>
 <html lang="en">
 <head>
