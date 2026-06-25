@@ -100,6 +100,8 @@ UI_LABELS = {
         "overview": "Category Overview",
         "limitations": "Limitations",
         "analysis": "Selected-period analysis",
+        "totalSelected": "Total selected papers",
+        "categoryCount": "Categories",
     },
     "ko": {
         "papers": "편",
@@ -107,6 +109,8 @@ UI_LABELS = {
         "overview": "분류 개요",
         "limitations": "한계",
         "analysis": "선택 기간 분석",
+        "totalSelected": "총 선정 논문",
+        "categoryCount": "분류",
     },
     "zh": {
         "papers": "篇论文",
@@ -114,6 +118,8 @@ UI_LABELS = {
         "overview": "分类概览",
         "limitations": "局限性",
         "analysis": "所选期间分析",
+        "totalSelected": "入选论文总数",
+        "categoryCount": "分类数",
     },
     "ja": {
         "papers": "本",
@@ -121,6 +127,8 @@ UI_LABELS = {
         "overview": "カテゴリ概要",
         "limitations": "限界",
         "analysis": "選択期間の分析",
+        "totalSelected": "選定論文総数",
+        "categoryCount": "カテゴリ数",
     },
 }
 
@@ -1035,6 +1043,7 @@ def write_readme(flat):
         "",
         "## Taxonomy Overview",
         "",
+        f"- **Total selected papers**: {len(flat):,} papers",
     ]
     for cat, count in cats.most_common():
         lines.append(f"- **{cat}**: {count} papers")
@@ -1218,6 +1227,7 @@ def write_site(flat):
       const statYears = document.getElementById("statYears");
       const statCitations = document.getElementById("statCitations");
       const statCategories = document.getElementById("statCategories");
+      const taxonomyTotalSummary = document.getElementById("taxonomyTotalSummary");
       const defaultStart = startSelect.value;
       const defaultEnd = endSelect.value;
       const validYears = Array.from(startSelect.options).map(option => option.value);
@@ -1308,7 +1318,9 @@ def write_site(flat):
           categories: "categories",
           overview: "Category Overview",
           limitations: "Limitations",
-          analysis: "Selected-period analysis"
+          analysis: "Selected-period analysis",
+          totalSelected: "Total selected papers",
+          categoryCount: "Categories"
         };
       }
 
@@ -1402,6 +1414,9 @@ def write_site(flat):
         statCitations.textContent = formatNumber(totalCitations);
         statCategories.textContent = formatNumber(activeCategories);
         updatePeriodSelect(start, end);
+        if (taxonomyTotalSummary) {
+          taxonomyTotalSummary.innerHTML = `<strong>${copy.totalSelected}:</strong> ${formatNumber(totalPapers)} ${copy.papers}; <strong>${copy.categoryCount}:</strong> ${formatNumber(activeCategories)} ${copy.categories}.`;
+        }
         rangeStatus.textContent = `${start}-${end} · ${formatNumber(totalPapers)} ${copy.papers} · ${formatNumber(activeCategories)} ${copy.categories}`;
         if (sync) syncUrl(start, end);
       }
@@ -1546,6 +1561,7 @@ def write_site(flat):
       <span id="rangeStatus"></span>
     </form>
     <h2>Taxonomy</h2>
+    <p id="taxonomyTotalSummary"><strong>Total selected papers:</strong> {len(flat):,} papers; <strong>Categories:</strong> {len(cats)} categories.</p>
     <p>Each taxonomy section lists papers with publication year, journal or venue, citation count, main idea, strengths, limitations, and paper links. Sections are collapsed by default to keep the page scannable.</p>
     <div class="figures">
       <img src="assets/category_distribution.png" alt="Category distribution chart">

@@ -18,6 +18,7 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 
 ## Taxonomy Overview
 
+- **Total selected papers**: 2,447 papers
 - **Motor Imagery and Movement Decoding**: 1050 papers
 - **General BCI Methods and Systems**: 425 papers
 - **SSVEP, P300, and ERP Spellers**: 391 papers
