@@ -11,6 +11,7 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Website: https://honggi82.github.io/awesome-BCI/
 - Selected dataset: `data/papers_2000_2026.csv`
 - Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
+- Precomputed period and language analysis: `data/period_analysis_2000_2026.json`
 - Candidate pool: `data/candidates_top500_2000_2026.csv`
 - English review draft: `paper/review_en.html`, `paper/review_en.docx`
 - Korean review draft: `paper/review_ko.html`
@@ -34,10 +35,14 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Papers selected: **1050**
 - Years covered: **2000-2026**
 - Citation count in selected set: **130,164**
-- Main research trends:
+- Category Overview (main research trends):
   - The field is moving from subject-specific pipelines toward cross-subject, calibration-light, and transfer-learning decoders for EEG motor imagery.
   - Deep CNN, temporal convolution, graph, attention, and large EEG representation models are increasingly used to improve robustness under noisy and low-data conditions.
   - Application work is expanding from binary hand imagery toward gait, lower-limb control, soft robotics, virtual feedback, and rehabilitation-oriented closed-loop use.
+- Limitations:
+  - Cross-subject and cross-session variability still limits real-world robustness, especially when calibration time is short.
+  - Many high-scoring methods remain validated on offline datasets rather than sustained closed-loop control or clinical rehabilitation outcomes.
+  - Citation-ranked lists can favor mature EEG motor imagery pipelines over newer low-citation work on multimodal movement decoding.
 
 <details>
 <summary>Show representative papers for Motor Imagery and Movement Decoding</summary>
@@ -315,10 +320,14 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Papers selected: **425**
 - Years covered: **2000-2026**
 - Citation count in selected set: **55,190**
-- Main research trends:
+- Category Overview (main research trends):
   - General BCI work is consolidating definitions, system architectures, evaluation principles, and long-term challenges across invasive and non-invasive approaches.
   - Recent surveys increasingly emphasize translation, usability, ethics, safety, reproducibility, and the gap between laboratory performance and real-world use.
   - This area functions as the conceptual bridge between signal processing, neural engineering, clinical deployment, and human-centered design.
+- Limitations:
+  - Survey and system papers can dominate citation-ranked views while obscuring smaller empirical advances.
+  - Evaluation language remains inconsistent across paradigms, making taxonomy boundaries imperfect.
+  - Metadata-driven curation cannot replace PDF-level quality appraisal, reproducibility checks, or expert clinical review.
 
 <details>
 <summary>Show representative papers for General BCI Methods and Systems</summary>
@@ -596,10 +605,14 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Papers selected: **391**
 - Years covered: **2000-2026**
 - Citation count in selected set: **52,869**
-- Main research trends:
+- Category Overview (main research trends):
   - Research is concentrating on high-speed, many-target communication systems with lower calibration burden and more stable target recognition.
   - Training-free and adaptive spatial filtering, task-discriminant component analysis, and deep neural decoders are prominent directions for SSVEP/P300 reliability.
   - Hybrid paradigms that combine SSVEP, P300, RSVP, EOG, or augmented/virtual reality interfaces are becoming a practical route to richer command sets.
+- Limitations:
+  - Visual fatigue, gaze dependence, and stimulus comfort remain practical barriers for long-duration communication use.
+  - High-speed results often depend on controlled displays, known target layouts, and calibration conditions that may not transfer to daily use.
+  - Hybrid paradigms improve command diversity but add setup complexity and make fair benchmarking harder.
 
 <details>
 <summary>Show representative papers for SSVEP, P300, and ERP Spellers</summary>
@@ -877,10 +890,14 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Papers selected: **265**
 - Years covered: **2000-2026**
 - Citation count in selected set: **28,640**
-- Main research trends:
+- Category Overview (main research trends):
   - This taxonomy emphasizes reproducible preprocessing, artifact handling, channel selection, spatial filtering, and benchmark datasets for EEG-based BCI.
   - The field is gradually shifting from isolated algorithm papers toward shared datasets, standardized evaluation, and metadata-aware comparisons.
   - Hybrid EEG/fNIRS, transfer learning, and open benchmark resources are recurring themes for improving generalization and clinical relevance.
+- Limitations:
+  - Benchmark datasets vary widely in task design, sensors, preprocessing, and participant populations.
+  - Artifact handling, channel selection, and evaluation protocols are not standardized enough for simple leaderboard-style comparison.
+  - Metadata may miss important dataset attributes such as participant counts, trial structure, hardware, and licensing.
 
 <details>
 <summary>Show representative papers for EEG Signal Processing and Datasets</summary>
@@ -1158,10 +1175,14 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Papers selected: **135**
 - Years covered: **2003-2026**
 - Citation count in selected set: **14,406**
-- Main research trends:
+- Category Overview (main research trends):
   - Invasive BCI research is shifting toward high-bandwidth, stable, long-term decoding for movement, communication, and sensory feedback.
   - Key engineering themes include wireless operation, power efficiency, signal longevity, surgical risk, and reliability outside tightly controlled laboratory sessions.
   - Clinical translation is increasingly tied to home use, user safety, tactile feedback, speech decoding, and realistic functional tasks.
+- Limitations:
+  - Surgical risk, long-term signal stability, device maintenance, and participant burden remain major translation barriers.
+  - Many studies involve small cohorts or case reports, so headline performance can be difficult to generalize.
+  - Home deployment, cybersecurity, informed consent, explantation, and support infrastructure are underrepresented in metadata-level screening.
 
 <details>
 <summary>Show representative papers for Invasive and Implantable Interfaces</summary>
@@ -1439,10 +1460,14 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Papers selected: **87**
 - Years covered: **2000-2026**
 - Citation count in selected set: **11,970**
-- Main research trends:
+- Category Overview (main research trends):
   - The dominant trend is integration of BCI with robotic gloves, exoskeletons, FES, VR, and task-oriented therapy for post-stroke and motor impairment rehabilitation.
   - Studies increasingly ask whether BCI training transfers to activities of daily living rather than only improving offline decoding accuracy.
   - Recent work points toward home-use, patient-centered protocols, multimodal feedback, and combined motor-cognitive-affective rehabilitation.
+- Limitations:
+  - Clinical evidence is often fragmented across small cohorts, heterogeneous protocols, and short follow-up windows.
+  - Improvements in decoder accuracy or therapy-session metrics do not always demonstrate transfer to activities of daily living.
+  - Metadata alone cannot assess patient selection, therapist involvement, adverse events, or trial quality.
 
 <details>
 <summary>Show representative papers for Rehabilitation and Neuroprosthetics</summary>
@@ -1720,10 +1745,14 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Papers selected: **32**
 - Years covered: **2001-2026**
 - Citation count in selected set: **3,471**
-- Main research trends:
+- Category Overview (main research trends):
   - Hybrid BCI combines multiple signals or paradigms to improve reliability, command diversity, and asynchronous control.
   - Closed-loop and neurofeedback work is increasingly focused on user adaptation, mental-state awareness, fatigue, affect, and training protocols.
   - The trend is toward systems that adapt to the user over time rather than treating decoding as a one-shot offline classification problem.
+- Limitations:
+  - Combining paradigms can improve reliability but increases calibration, hardware, and user workload.
+  - Closed-loop adaptation is hard to evaluate because user learning, fatigue, and affect change during use.
+  - Longitudinal real-world studies remain scarce, so durability and user acceptance are not well captured.
 
 <details>
 <summary>Show representative papers for Hybrid, Affective, and Closed-loop BCIs</summary>
@@ -2001,10 +2030,14 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Papers selected: **31**
 - Years covered: **2002-2024**
 - Citation count in selected set: **11,096**
-- Main research trends:
+- Category Overview (main research trends):
   - Communication BCI is expanding from spelling paradigms toward imagined speech, decoded language, and higher-bandwidth text production.
   - Both invasive and non-invasive studies are exploring more naturalistic communication, including speech motor cortex decoding and inner-speech EEG datasets.
   - The central challenge remains preserving accuracy, latency, vocabulary size, and user autonomy in real-world assistive communication.
+- Limitations:
+  - Vocabulary size, latency, privacy, and user autonomy remain difficult to balance in practical assistive communication.
+  - The strongest decoding results often rely on invasive recordings or carefully constrained tasks with limited participant diversity.
+  - Non-invasive imagined-speech datasets are still comparatively small and hard to evaluate consistently.
 
 <details>
 <summary>Show representative papers for Speech, Language, and Communication BCIs</summary>
@@ -2282,10 +2315,14 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Papers selected: **31**
 - Years covered: **2015-2026**
 - Citation count in selected set: **3,158**
-- Main research trends:
+- Category Overview (main research trends):
   - Deep learning work is moving beyond single-dataset CNN classifiers toward temporal, spectral, graph, transformer, and attention-based architectures.
   - A major trend is representation learning that can transfer across users, sessions, headsets, and BCI paradigms with less subject-specific calibration.
   - Interpretability, uncertainty, robustness to artifacts, and benchmark comparability are becoming as important as peak classification accuracy.
+- Limitations:
+  - Performance can be inflated by dataset leakage, weak cross-subject splits, or inconsistent preprocessing across benchmarks.
+  - Large models often improve accuracy while reducing interpretability, uncertainty awareness, and clinical trust.
+  - Low-data and noisy-session robustness remains unresolved for many architectures outside curated datasets.
 
 <details>
 <summary>Show representative papers for Deep Learning and Representation Learning</summary>

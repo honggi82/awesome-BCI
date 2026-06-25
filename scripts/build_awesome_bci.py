@@ -27,6 +27,7 @@ PAPERS_CSV = f"papers_{YEAR_FILE_STEM}.csv"
 CANDIDATES_JSON = f"candidates_top500_{YEAR_FILE_STEM}.json"
 CANDIDATES_CSV = f"candidates_top500_{YEAR_FILE_STEM}.csv"
 TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
+PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
 TARGET_PER_YEAR = 100
 CANDIDATES_PER_YEAR = 500
 
@@ -85,6 +86,44 @@ CATEGORIES = [
     ("Hybrid, Affective, and Closed-loop BCIs", ["hybrid", "affective", "closed-loop", "closed loop", "neurofeedback", "adaptive"]),
 ]
 
+LANGUAGES = {
+    "en": "English",
+    "ko": "한국어",
+    "zh": "中文",
+    "ja": "日本語",
+}
+
+UI_LABELS = {
+    "en": {
+        "papers": "papers",
+        "categories": "categories",
+        "overview": "Category Overview",
+        "limitations": "Limitations",
+        "analysis": "Selected-period analysis",
+    },
+    "ko": {
+        "papers": "편",
+        "categories": "개 분류",
+        "overview": "분류 개요",
+        "limitations": "한계",
+        "analysis": "선택 기간 분석",
+    },
+    "zh": {
+        "papers": "篇论文",
+        "categories": "个分类",
+        "overview": "分类概览",
+        "limitations": "局限性",
+        "analysis": "所选期间分析",
+    },
+    "ja": {
+        "papers": "本",
+        "categories": "分類",
+        "overview": "カテゴリ概要",
+        "limitations": "限界",
+        "analysis": "選択期間の分析",
+    },
+}
+
 TAXONOMY_TRENDS = {
     "Motor Imagery and Movement Decoding": [
         "The field is moving from subject-specific pipelines toward cross-subject, calibration-light, and transfer-learning decoders for EEG motor imagery.",
@@ -131,6 +170,255 @@ TAXONOMY_TRENDS = {
         "Recent surveys increasingly emphasize translation, usability, ethics, safety, reproducibility, and the gap between laboratory performance and real-world use.",
         "This area functions as the conceptual bridge between signal processing, neural engineering, clinical deployment, and human-centered design.",
     ],
+}
+
+TAXONOMY_LIMITATIONS = {
+    "Motor Imagery and Movement Decoding": [
+        "Cross-subject and cross-session variability still limits real-world robustness, especially when calibration time is short.",
+        "Many high-scoring methods remain validated on offline datasets rather than sustained closed-loop control or clinical rehabilitation outcomes.",
+        "Citation-ranked lists can favor mature EEG motor imagery pipelines over newer low-citation work on multimodal movement decoding.",
+    ],
+    "SSVEP, P300, and ERP Spellers": [
+        "Visual fatigue, gaze dependence, and stimulus comfort remain practical barriers for long-duration communication use.",
+        "High-speed results often depend on controlled displays, known target layouts, and calibration conditions that may not transfer to daily use.",
+        "Hybrid paradigms improve command diversity but add setup complexity and make fair benchmarking harder.",
+    ],
+    "Rehabilitation and Neuroprosthetics": [
+        "Clinical evidence is often fragmented across small cohorts, heterogeneous protocols, and short follow-up windows.",
+        "Improvements in decoder accuracy or therapy-session metrics do not always demonstrate transfer to activities of daily living.",
+        "Metadata alone cannot assess patient selection, therapist involvement, adverse events, or trial quality.",
+    ],
+    "Invasive and Implantable Interfaces": [
+        "Surgical risk, long-term signal stability, device maintenance, and participant burden remain major translation barriers.",
+        "Many studies involve small cohorts or case reports, so headline performance can be difficult to generalize.",
+        "Home deployment, cybersecurity, informed consent, explantation, and support infrastructure are underrepresented in metadata-level screening.",
+    ],
+    "Deep Learning and Representation Learning": [
+        "Performance can be inflated by dataset leakage, weak cross-subject splits, or inconsistent preprocessing across benchmarks.",
+        "Large models often improve accuracy while reducing interpretability, uncertainty awareness, and clinical trust.",
+        "Low-data and noisy-session robustness remains unresolved for many architectures outside curated datasets.",
+    ],
+    "EEG Signal Processing and Datasets": [
+        "Benchmark datasets vary widely in task design, sensors, preprocessing, and participant populations.",
+        "Artifact handling, channel selection, and evaluation protocols are not standardized enough for simple leaderboard-style comparison.",
+        "Metadata may miss important dataset attributes such as participant counts, trial structure, hardware, and licensing.",
+    ],
+    "Speech, Language, and Communication BCIs": [
+        "Vocabulary size, latency, privacy, and user autonomy remain difficult to balance in practical assistive communication.",
+        "The strongest decoding results often rely on invasive recordings or carefully constrained tasks with limited participant diversity.",
+        "Non-invasive imagined-speech datasets are still comparatively small and hard to evaluate consistently.",
+    ],
+    "Hybrid, Affective, and Closed-loop BCIs": [
+        "Combining paradigms can improve reliability but increases calibration, hardware, and user workload.",
+        "Closed-loop adaptation is hard to evaluate because user learning, fatigue, and affect change during use.",
+        "Longitudinal real-world studies remain scarce, so durability and user acceptance are not well captured.",
+    ],
+    "General BCI Methods and Systems": [
+        "Survey and system papers can dominate citation-ranked views while obscuring smaller empirical advances.",
+        "Evaluation language remains inconsistent across paradigms, making taxonomy boundaries imperfect.",
+        "Metadata-driven curation cannot replace PDF-level quality appraisal, reproducibility checks, or expert clinical review.",
+    ],
+}
+
+CATEGORY_LOCALIZATION = {
+    "Motor Imagery and Movement Decoding": {
+        "en": {
+            "name": "Motor Imagery and Movement Decoding",
+            "focus": "movement intention decoding, motor imagery EEG, gait, hand control, and rehabilitation-oriented feedback",
+            "challenge": "cross-subject variability and offline-only validation remain the main interpretation risks",
+        },
+        "ko": {
+            "name": "운동상상 및 움직임 디코딩",
+            "focus": "운동 의도 해석, 운동상상 EEG, 보행·손 제어, 재활 피드백",
+            "challenge": "개인차와 세션 차이, 오프라인 검증 중심 결과가 핵심 해석 한계입니다",
+        },
+        "zh": {
+            "name": "运动想象与运动解码",
+            "focus": "运动意图解码、运动想象 EEG、步态和手部控制、康复反馈",
+            "challenge": "跨被试差异、跨会话不稳定以及偏离线验证是主要解释风险",
+        },
+        "ja": {
+            "name": "運動イメージと運動デコーディング",
+            "focus": "運動意図の解読、運動イメージ EEG、歩行・手の制御、リハビリ向けフィードバック",
+            "challenge": "被験者差、セッション差、オフライン評価中心である点が主な解釈上の制約です",
+        },
+    },
+    "SSVEP, P300, and ERP Spellers": {
+        "en": {
+            "name": "SSVEP, P300, and ERP Spellers",
+            "focus": "visual evoked responses, ERP spelling, high-speed target selection, and calibration-light communication",
+            "challenge": "visual fatigue, gaze dependence, and controlled display assumptions limit daily-use transfer",
+        },
+        "ko": {
+            "name": "SSVEP, P300, ERP 스펠러",
+            "focus": "시각유발반응, ERP 스펠링, 고속 표적 선택, 저보정 의사소통",
+            "challenge": "시각 피로, 시선 의존성, 통제된 디스플레이 조건이 실사용 전이를 제한합니다",
+        },
+        "zh": {
+            "name": "SSVEP、P300 与 ERP 拼写器",
+            "focus": "视觉诱发反应、ERP 拼写、高速目标选择、低校准通信",
+            "challenge": "视觉疲劳、凝视依赖和受控显示条件限制了日常使用迁移",
+        },
+        "ja": {
+            "name": "SSVEP・P300・ERP スペラー",
+            "focus": "視覚誘発反応、ERP スペリング、高速ターゲット選択、低キャリブレーション通信",
+            "challenge": "視覚疲労、視線依存、制御された表示環境への依存が日常利用への移行を制約します",
+        },
+    },
+    "Rehabilitation and Neuroprosthetics": {
+        "en": {
+            "name": "Rehabilitation and Neuroprosthetics",
+            "focus": "post-stroke therapy, robotic assistance, FES, exoskeletons, neuroprosthetic control, and functional recovery",
+            "challenge": "small cohorts and heterogeneous protocols make clinical effect size difficult to compare",
+        },
+        "ko": {
+            "name": "재활 및 신경보철",
+            "focus": "뇌졸중 후 재활, 로봇 보조, FES, 외골격, 신경보철 제어, 기능 회복",
+            "challenge": "소규모 코호트와 이질적 프로토콜 때문에 임상 효과 비교가 어렵습니다",
+        },
+        "zh": {
+            "name": "康复与神经假体",
+            "focus": "卒中后治疗、机器人辅助、FES、外骨骼、神经假体控制和功能恢复",
+            "challenge": "小样本和异质方案使临床效果大小难以比较",
+        },
+        "ja": {
+            "name": "リハビリテーションと神経補綴",
+            "focus": "脳卒中後リハビリ、ロボット支援、FES、外骨格、神経補綴制御、機能回復",
+            "challenge": "小規模コホートと不均一なプロトコルにより臨床効果の比較が難しくなります",
+        },
+    },
+    "Invasive and Implantable Interfaces": {
+        "en": {
+            "name": "Invasive and Implantable Interfaces",
+            "focus": "intracortical arrays, ECoG, implantable devices, high-bandwidth decoding, sensory feedback, and home use",
+            "challenge": "surgical risk, signal longevity, device maintenance, and participant burden remain central constraints",
+        },
+        "ko": {
+            "name": "침습형 및 이식형 인터페이스",
+            "focus": "피질내 전극, ECoG, 이식형 장치, 고대역폭 디코딩, 감각 피드백, 가정 사용",
+            "challenge": "수술 위험, 장기 신호 안정성, 장치 유지관리, 참여자 부담이 핵심 제약입니다",
+        },
+        "zh": {
+            "name": "侵入式与植入式接口",
+            "focus": "皮层内阵列、ECoG、植入设备、高带宽解码、感觉反馈和家庭使用",
+            "challenge": "手术风险、信号寿命、设备维护和参与者负担仍是核心约束",
+        },
+        "ja": {
+            "name": "侵襲型・植込み型インターフェース",
+            "focus": "皮質内アレイ、ECoG、植込みデバイス、高帯域デコーディング、感覚フィードバック、在宅利用",
+            "challenge": "手術リスク、信号の長期安定性、デバイス保守、参加者負担が中心的な制約です",
+        },
+    },
+    "Deep Learning and Representation Learning": {
+        "en": {
+            "name": "Deep Learning and Representation Learning",
+            "focus": "CNNs, temporal models, graph networks, transformers, self-supervised learning, and cross-subject transfer",
+            "challenge": "dataset leakage, weak splits, low interpretability, and poor low-data robustness can overstate performance",
+        },
+        "ko": {
+            "name": "딥러닝 및 표현학습",
+            "focus": "CNN, 시간 모델, 그래프 네트워크, 트랜스포머, 자기지도학습, 피험자 간 전이",
+            "challenge": "데이터 누수, 약한 분할, 낮은 해석가능성, 저데이터 강건성 부족이 성능을 과대평가할 수 있습니다",
+        },
+        "zh": {
+            "name": "深度学习与表征学习",
+            "focus": "CNN、时序模型、图网络、Transformer、自监督学习和跨被试迁移",
+            "challenge": "数据泄漏、划分不严、可解释性低和低数据鲁棒性不足可能夸大性能",
+        },
+        "ja": {
+            "name": "深層学習と表現学習",
+            "focus": "CNN、時系列モデル、グラフネットワーク、Transformer、自己教師あり学習、被験者間転移",
+            "challenge": "データリーク、不十分な分割、低い解釈性、少量データでの脆弱性が性能を過大評価させる可能性があります",
+        },
+    },
+    "EEG Signal Processing and Datasets": {
+        "en": {
+            "name": "EEG Signal Processing and Datasets",
+            "focus": "preprocessing, artifacts, channel selection, spatial filtering, open datasets, and benchmark protocols",
+            "challenge": "dataset heterogeneity and inconsistent evaluation protocols make direct comparisons fragile",
+        },
+        "ko": {
+            "name": "EEG 신호처리 및 데이터셋",
+            "focus": "전처리, 아티팩트, 채널 선택, 공간 필터링, 공개 데이터셋, 벤치마크 프로토콜",
+            "challenge": "데이터셋 이질성과 평가 프로토콜 불일치가 직접 비교를 취약하게 만듭니다",
+        },
+        "zh": {
+            "name": "EEG 信号处理与数据集",
+            "focus": "预处理、伪迹、通道选择、空间滤波、开放数据集和基准协议",
+            "challenge": "数据集异质性和评估协议不一致使直接比较较脆弱",
+        },
+        "ja": {
+            "name": "EEG 信号処理とデータセット",
+            "focus": "前処理、アーチファクト、チャネル選択、空間フィルタリング、公開データセット、ベンチマーク",
+            "challenge": "データセットの不均一性と評価プロトコルの不一致により直接比較は脆弱になります",
+        },
+    },
+    "Speech, Language, and Communication BCIs": {
+        "en": {
+            "name": "Speech, Language, and Communication BCIs",
+            "focus": "spelling, text production, speech decoding, imagined speech, language models, and assistive communication",
+            "challenge": "vocabulary size, latency, privacy, and autonomy remain difficult to optimize together",
+        },
+        "ko": {
+            "name": "음성·언어·의사소통 BCI",
+            "focus": "스펠링, 텍스트 생성, 음성 디코딩, 상상 음성, 언어 모델, 보조 의사소통",
+            "challenge": "어휘 규모, 지연시간, 프라이버시, 사용자 자율성을 동시에 최적화하기 어렵습니다",
+        },
+        "zh": {
+            "name": "语音、语言与通信 BCI",
+            "focus": "拼写、文本生成、语音解码、想象语音、语言模型和辅助通信",
+            "challenge": "词汇规模、延迟、隐私和用户自主性难以同时优化",
+        },
+        "ja": {
+            "name": "音声・言語・コミュニケーション BCI",
+            "focus": "スペリング、テキスト生成、音声デコーディング、想像音声、言語モデル、支援コミュニケーション",
+            "challenge": "語彙規模、遅延、プライバシー、ユーザー自律性を同時に最適化することは困難です",
+        },
+    },
+    "Hybrid, Affective, and Closed-loop BCIs": {
+        "en": {
+            "name": "Hybrid, Affective, and Closed-loop BCIs",
+            "focus": "multimodal control, affective state awareness, neurofeedback, adaptive decoding, and closed-loop training",
+            "challenge": "added sensors and adaptive feedback improve flexibility but complicate evaluation and usability",
+        },
+        "ko": {
+            "name": "하이브리드·정서·폐루프 BCI",
+            "focus": "다중모달 제어, 정서 상태 인식, 뉴로피드백, 적응형 디코딩, 폐루프 훈련",
+            "challenge": "추가 센서와 적응형 피드백은 유연성을 높이지만 평가와 사용성을 복잡하게 만듭니다",
+        },
+        "zh": {
+            "name": "混合、情感与闭环 BCI",
+            "focus": "多模态控制、情感状态感知、神经反馈、自适应解码和闭环训练",
+            "challenge": "额外传感器和自适应反馈提高灵活性，但会使评估和可用性复杂化",
+        },
+        "ja": {
+            "name": "ハイブリッド・感情・閉ループ BCI",
+            "focus": "マルチモーダル制御、感情状態認識、ニューロフィードバック、適応デコーディング、閉ループ訓練",
+            "challenge": "追加センサーと適応フィードバックは柔軟性を高めますが、評価と使いやすさを複雑にします",
+        },
+    },
+    "General BCI Methods and Systems": {
+        "en": {
+            "name": "General BCI Methods and Systems",
+            "focus": "system architecture, conceptual frameworks, surveys, evaluation principles, ethics, usability, and translation",
+            "challenge": "broad survey papers can dominate citation-ranked views while detailed empirical evidence remains scattered",
+        },
+        "ko": {
+            "name": "일반 BCI 방법론 및 시스템",
+            "focus": "시스템 아키텍처, 개념 프레임워크, 서베이, 평가 원칙, 윤리, 사용성, 전환 연구",
+            "challenge": "광범위한 서베이 논문이 인용 순위를 지배하면서 세부 실증 근거가 흩어져 보일 수 있습니다",
+        },
+        "zh": {
+            "name": "通用 BCI 方法与系统",
+            "focus": "系统架构、概念框架、综述、评估原则、伦理、可用性和转化",
+            "challenge": "广泛综述可能主导引用排序，而细粒度实证证据仍较分散",
+        },
+        "ja": {
+            "name": "一般的な BCI 方法論とシステム",
+            "focus": "システム構成、概念枠組み、レビュー、評価原則、倫理、ユーザビリティ、実装への移行",
+            "challenge": "広範なレビュー論文が引用順位を支配し、詳細な実証知見が散在して見える可能性があります",
+        },
+    },
 }
 
 IMPORTANT_VENUES = [
@@ -504,19 +792,166 @@ def taxonomy_trends(category):
     return TAXONOMY_TRENDS.get(category, TAXONOMY_TRENDS["General BCI Methods and Systems"])
 
 
+def taxonomy_limitations(category):
+    return TAXONOMY_LIMITATIONS.get(category, TAXONOMY_LIMITATIONS["General BCI Methods and Systems"])
+
+
+def category_localization(category, language):
+    profile = CATEGORY_LOCALIZATION.get(category, CATEGORY_LOCALIZATION["General BCI Methods and Systems"])
+    return profile.get(language, profile["en"])
+
+
+def period_key(start, end):
+    return f"{start}-{end}"
+
+
+def period_label(start, end):
+    if start == START_YEAR and end == END_YEAR:
+        return f"All years ({YEAR_RANGE_TEXT})"
+    return str(start) if start == end else f"{start}-{end}"
+
+
+def all_period_ranges():
+    return [(start, end) for start in YEARS for end in range(start, END_YEAR + 1)]
+
+
+def period_select_ranges():
+    full_range = (START_YEAR, END_YEAR)
+    return [full_range] + [range_pair for range_pair in all_period_ranges() if range_pair != full_range]
+
+
+def top_metadata_values(rows, key, limit=3):
+    counts = Counter()
+    for row in rows:
+        value = row.get(key) or ""
+        if key == "methodTags":
+            for tag in value.split("; "):
+                if tag:
+                    counts[tag] += 1
+        elif value:
+            counts[value] += 1
+    return [value for value, _ in counts.most_common(limit)]
+
+
+def language_period_analysis(language, category, rows, start, end):
+    profile = category_localization(category, language)
+    count = len(rows)
+    citations = sum(p["citationCount"] for p in rows)
+    top = max(rows, key=lambda p: (p["citationCount"], p["influentialCitationCount"], p["title"]))
+    year_counts = Counter(p["year"] for p in rows)
+    active_year, active_count = year_counts.most_common(1)[0]
+    no_pdf = sum(1 for p in rows if not p.get("openAccessPdf"))
+    no_abstract = sum(1 for p in rows if not p.get("abstract"))
+    limited_citation = sum(1 for p in rows if p.get("citationCount", 0) < 25)
+    recent = sum(1 for p in rows if p.get("year", 0) >= END_YEAR - 1)
+    tags = ", ".join(top_metadata_values(rows, "methodTags")) or profile["focus"]
+    venues = ", ".join(top_metadata_values(rows, "venue")) or "mixed venues"
+    top_title = top["title"]
+    top_citations = top["citationCount"]
+
+    templates = {
+        "en": {
+            "overview": [
+                f"In {start}-{end}, {profile['name']} contains {count:,} selected papers and {citations:,} citations. The most active year is {active_year} ({active_count:,} papers), and the leading citation-ranked paper is \"{top_title}\" ({top_citations:,} citations).",
+                f"The category emphasis in this period is {profile['focus']}. Frequent metadata tags include {tags}, with visible venue concentration around {venues}.",
+            ],
+            "limitations": [
+                f"Metadata limitations in this period: {no_pdf:,} papers lack open PDF links, {no_abstract:,} lack abstracts, {limited_citation:,} have limited citation history, and {recent:,} recent papers may be under-cited.",
+                f"Interpretation caution: {profile['challenge']}. Because final ranking is citation-based, newer or niche papers can be understated even when scientifically important.",
+            ],
+        },
+        "ko": {
+            "overview": [
+                f"{start}-{end} 기간의 {profile['name']} 분류에는 선정 논문 {count:,}편과 인용 {citations:,}회가 포함됩니다. 가장 활발한 해는 {active_year}년({active_count:,}편)이며, 인용 기준 대표 논문은 \"{top_title}\"({top_citations:,}회)입니다.",
+                f"이 기간의 핵심 초점은 {profile['focus']}입니다. 자주 나타나는 메타데이터 태그는 {tags}이고, 주요 venue 신호는 {venues}에 집중됩니다.",
+            ],
+            "limitations": [
+                f"이 기간의 메타데이터 한계는 다음과 같습니다. 공개 PDF 링크가 없는 논문 {no_pdf:,}편, 초록이 없는 논문 {no_abstract:,}편, 인용 이력이 짧은 논문 {limited_citation:,}편, 최신 논문이라 저인용될 수 있는 논문 {recent:,}편이 있습니다.",
+                f"해석 시 주의점: {profile['challenge']}. 최종 순위가 인용회수 기반이므로 최신 또는 세부 주제 논문은 과소평가될 수 있습니다.",
+            ],
+        },
+        "zh": {
+            "overview": [
+                f"在 {start}-{end} 期间，{profile['name']} 类别包含 {count:,} 篇入选论文和 {citations:,} 次引用。最活跃年份是 {active_year} 年（{active_count:,} 篇），引用排序最高的代表论文是“{top_title}”（{top_citations:,} 次引用）。",
+                f"该时期的类别重点是{profile['focus']}。常见元数据标签包括 {tags}，主要期刊/会议信号集中在 {venues}。",
+            ],
+            "limitations": [
+                f"该时期的元数据局限包括：{no_pdf:,} 篇论文缺少开放 PDF 链接，{no_abstract:,} 篇缺少摘要，{limited_citation:,} 篇引用历史较短，{recent:,} 篇近期论文可能被低估。",
+                f"解释时需注意：{profile['challenge']}。由于最终排序基于引用次数，新近或细分方向的重要论文可能被低估。",
+            ],
+        },
+        "ja": {
+            "overview": [
+                f"{start}-{end} 年の {profile['name']} には、選定論文 {count:,} 本と引用 {citations:,} 件が含まれます。最も活発な年は {active_year} 年（{active_count:,} 本）で、引用順の代表論文は「{top_title}」（{top_citations:,} 件）です。",
+                f"この期間の主な焦点は {profile['focus']} です。頻出するメタデータタグは {tags} で、主な掲載先シグナルは {venues} に見られます。",
+            ],
+            "limitations": [
+                f"この期間のメタデータ上の限界は、公開 PDF リンクなし {no_pdf:,} 本、抄録なし {no_abstract:,} 本、引用履歴が短い論文 {limited_citation:,} 本、最近のため過小引用の可能性がある論文 {recent:,} 本です。",
+                f"解釈上の注意点: {profile['challenge']}。最終順位は引用数に基づくため、新しい論文や細分化された重要研究は過小評価されることがあります。",
+            ],
+        },
+    }
+    result = templates[language]
+    result["categoryName"] = profile["name"]
+    return result
+
+
+def build_period_analysis(flat):
+    enriched = enriched_flat(flat)
+    ranges = [
+        {"key": period_key(start, end), "label": period_label(start, end), "from": start, "to": end}
+        for start, end in period_select_ranges()
+    ]
+    analysis = {}
+    for start, end in all_period_ranges():
+        range_rows = [p for p in enriched if start <= p["year"] <= end]
+        groups = category_groups(range_rows)
+        range_entry = {}
+        for category, rows in groups.items():
+            if not rows:
+                continue
+            slug = safe_slug(category)
+            range_entry[slug] = {
+                language: language_period_analysis(language, category, rows, start, end)
+                for language in LANGUAGES
+            }
+        analysis[period_key(start, end)] = range_entry
+    return {
+        "generated": date.today().isoformat(),
+        "yearRange": YEAR_RANGE_TEXT,
+        "languages": LANGUAGES,
+        "uiLabels": UI_LABELS,
+        "ranges": ranges,
+        "analysis": analysis,
+    }
+
+
+def write_period_analysis(flat):
+    payload = build_period_analysis(flat)
+    DATA_DIR.mkdir(exist_ok=True)
+    DOCS_DIR.mkdir(exist_ok=True)
+    (DOCS_DIR / "data").mkdir(exist_ok=True)
+    for target in (DATA_DIR / PERIOD_ANALYSIS_JSON, DOCS_DIR / "data" / PERIOD_ANALYSIS_JSON):
+        with target.open("w", encoding="utf-8") as f:
+            json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
+
+
 def write_taxonomy_dataset(flat):
     rows = []
     for category, papers in sorted(category_groups(flat).items()):
         for idx, p in enumerate(papers, 1):
             row = dict(p)
             row["taxonomyRank"] = idx
-            row["researchTrend"] = " ".join(taxonomy_trends(category))
+            row["categoryOverview"] = " ".join(taxonomy_trends(category))
+            row["categoryLimitations"] = " ".join(taxonomy_limitations(category))
+            row["researchTrend"] = row["categoryOverview"]
             rows.append(row)
     if not rows:
         return
     fields = [
         "category", "taxonomyRank", "year", "title", "authors", "venue", "publicationDate",
-        "citationCount", "influentialCitationCount", "importanceScore", "researchTrend", "methodTags",
+        "citationCount", "influentialCitationCount", "importanceScore", "categoryOverview",
+        "categoryLimitations", "researchTrend", "methodTags",
         "keyIdea", "strengths", "limitations", "paperLink", "semanticScholarUrl",
         "openAccessPdf", "doi", "arxiv", "pubmed", "fieldsOfStudy",
     ]
@@ -593,6 +1028,7 @@ def write_readme(flat):
         "- Website: https://honggi82.github.io/awesome-BCI/",
         f"- Selected dataset: `data/{PAPERS_CSV}`",
         f"- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/{TAXONOMY_CSV}`",
+        f"- Precomputed period and language analysis: `data/{PERIOD_ANALYSIS_JSON}`",
         f"- Candidate pool: `data/{CANDIDATES_CSV}`",
         "- English review draft: `paper/review_en.html`, `paper/review_en.docx`",
         "- Korean review draft: `paper/review_ko.html`",
@@ -615,8 +1051,10 @@ def write_readme(flat):
             f"- Papers selected: **{len(rows)}**",
             f"- Years covered: **{years[0]}-{years[-1]}**",
             f"- Citation count in selected set: **{citations:,}**",
-            "- Main research trends:",
+            "- Category Overview (main research trends):",
             *[f"  - {trend}" for trend in taxonomy_trends(cat)],
+            "- Limitations:",
+            *[f"  - {limitation}" for limitation in taxonomy_limitations(cat)],
             "",
             "<details>",
             f"<summary>Show representative papers for {cat}</summary>",
@@ -669,6 +1107,7 @@ def category_summary(category, rows):
         "top": lead.get("title", "n/a"),
         "tags": ", ".join(tag for tag, _ in top_tags.most_common(4)) or "BCI method",
         "trends": taxonomy_trends(category),
+        "limitations": taxonomy_limitations(category),
     }
 
 
@@ -677,12 +1116,15 @@ def paper_card(p, taxonomy_rank):
     link = html.escape(p["paperLink"])
     semantic = html.escape(p.get("semanticScholarUrl") or "")
     pdf = html.escape(p.get("openAccessPdf") or "")
+    data_title = html.escape(p["title"], quote=True)
+    data_venue = html.escape(p["venue"] or "Unknown venue", quote=True)
+    data_limitations = html.escape(p["limitations"], quote=True)
     paper_link = f'<a href="{link}">Paper</a>' if link else ""
     semantic_link = f'<a href="{semantic}">Semantic Scholar</a>' if semantic else ""
     pdf_link = f'<a href="{pdf}">PDF</a>' if pdf else ""
     links = " ".join(x for x in [paper_link, semantic_link, pdf_link] if x) or "No link"
     return f"""
-      <article class="paper-card" data-year="{p['year']}" data-citations="{p['citationCount']}">
+      <article class="paper-card" data-year="{p['year']}" data-citations="{p['citationCount']}" data-title="{data_title}" data-venue="{data_venue}" data-limitations="{data_limitations}">
         <div class="paper-rank">#{taxonomy_rank}</div>
         <div class="paper-body">
           <h3>{f'<a href="{link}">{title}</a>' if link else title}</h3>
@@ -722,9 +1164,15 @@ def taxonomy_section(category, rows):
         <div class="section-intro">
           <p><strong>Representative emphasis:</strong> {html.escape(summary['tags'])}</p>
           <p><strong>Top-ranked paper:</strong> <span class="top-paper">{html.escape(summary['top'])}</span></p>
-          <div class="trend-box">
-            <strong>Main research trends</strong>
-            <ul>{''.join(f'<li>{html.escape(trend)}</li>' for trend in summary['trends'])}</ul>
+          <div class="insight-grid">
+            <div class="insight-box">
+              <strong class="overview-heading">Category Overview</strong>
+              <ul class="category-overview-list">{''.join(f'<li>{html.escape(trend)}</li>' for trend in summary['trends'])}</ul>
+            </div>
+            <div class="insight-box limitation-box">
+              <strong class="limitation-heading">Limitations</strong>
+              <ul class="category-limitations-list">{''.join(f'<li>{html.escape(limitation)}</li>' for limitation in summary['limitations'])}</ul>
+            </div>
           </div>
         </div>
         <div class="paper-list">{cards}</div>
@@ -749,9 +1197,19 @@ def write_site(flat):
         f'<option value="{year}"{" selected" if year == max(YEARS) else ""}>{year}</option>'
         for year in YEARS
     )
+    period_options = "\n".join(
+        f'<option value="{period_key(start, end)}" data-from="{start}" data-to="{end}"{" selected" if start == START_YEAR and end == END_YEAR else ""}>{period_label(start, end)}</option>'
+        for start, end in period_select_ranges()
+    )
+    language_options = "\n".join(
+        f'<option value="{code}"{" selected" if code == "en" else ""}>{html.escape(label)}</option>'
+        for code, label in LANGUAGES.items()
+    )
     year_filter_script = """
   <script>
     (() => {
+      const periodSelect = document.getElementById("periodPreset");
+      const languageSelect = document.getElementById("languageSelect");
       const startSelect = document.getElementById("startYear");
       const endSelect = document.getElementById("endYear");
       const resetButton = document.getElementById("resetYears");
@@ -763,6 +1221,9 @@ def write_site(flat):
       const defaultStart = startSelect.value;
       const defaultEnd = endSelect.value;
       const validYears = Array.from(startSelect.options).map(option => option.value);
+      const periodOptions = Array.from(periodSelect.options);
+      const defaultLanguage = languageSelect.value;
+      let precomputed = null;
 
       function formatNumber(value) {
         return Number(value).toLocaleString("en-US");
@@ -776,29 +1237,113 @@ def write_site(flat):
           : `${sorted[0]}-${sorted[sorted.length - 1]}`;
       }
 
+      function selectedRangeValue(start, end) {
+        const match = periodOptions.find(option =>
+          option.dataset.from === String(start) && option.dataset.to === String(end)
+        );
+        return match ? match.value : "custom";
+      }
+
+      function updatePeriodSelect(start, end) {
+        periodSelect.value = selectedRangeValue(start, end);
+      }
+
       function setFromUrl() {
         const params = new URLSearchParams(window.location.search);
+        const lang = params.get("lang");
+        if (lang && Array.from(languageSelect.options).some(option => option.value === lang)) {
+          languageSelect.value = lang;
+        }
+        const period = params.get("period");
+        if (period) {
+          const option = periodOptions.find(item => item.value === period && item.dataset.from && item.dataset.to);
+          if (option) {
+            periodSelect.value = period;
+            startSelect.value = option.dataset.from;
+            endSelect.value = option.dataset.to;
+            return;
+          }
+        }
         const from = params.get("from");
         const to = params.get("to");
         if (validYears.includes(from)) startSelect.value = from;
         if (validYears.includes(to)) endSelect.value = to;
+        updatePeriodSelect(startSelect.value, endSelect.value);
       }
 
       function syncUrl(start, end) {
         const url = new URL(window.location.href);
+        const language = languageSelect.value;
+        if (language === defaultLanguage) {
+          url.searchParams.delete("lang");
+        } else {
+          url.searchParams.set("lang", language);
+        }
         if (String(start) === defaultStart && String(end) === defaultEnd) {
+          url.searchParams.delete("period");
           url.searchParams.delete("from");
           url.searchParams.delete("to");
         } else {
-          url.searchParams.set("from", start);
-          url.searchParams.set("to", end);
+          const periodValue = selectedRangeValue(start, end);
+          if (periodValue !== "custom") {
+            url.searchParams.set("period", periodValue);
+            url.searchParams.delete("from");
+            url.searchParams.delete("to");
+          } else {
+            url.searchParams.delete("period");
+            url.searchParams.set("from", start);
+            url.searchParams.set("to", end);
+          }
         }
         window.history.replaceState(null, "", url);
+      }
+
+      function rangeKey(start, end) {
+        return `${start}-${end}`;
+      }
+
+      function labels() {
+        return precomputed?.uiLabels?.[languageSelect.value] || precomputed?.uiLabels?.en || {
+          papers: "papers",
+          categories: "categories",
+          overview: "Category Overview",
+          limitations: "Limitations",
+          analysis: "Selected-period analysis"
+        };
+      }
+
+      function setList(target, items) {
+        if (!target || !items) return;
+        target.innerHTML = "";
+        items.forEach(item => {
+          const li = document.createElement("li");
+          li.textContent = item;
+          target.appendChild(li);
+        });
+      }
+
+      function applyPrecomputedAnalysis(section, start, end) {
+        const language = languageSelect.value;
+        const entry = precomputed?.analysis?.[rangeKey(start, end)]?.[section.dataset.category];
+        const analysis = entry?.[language] || entry?.en;
+        if (!analysis) return;
+        const copy = labels();
+        const title = section.querySelector(".summary-title");
+        if (title) title.textContent = analysis.categoryName;
+        const card = document.querySelector(`.taxonomy-card[data-category="${section.dataset.category}"] strong`);
+        if (card) card.textContent = analysis.categoryName;
+        const overviewHeading = section.querySelector(".overview-heading");
+        const limitationHeading = section.querySelector(".limitation-heading");
+        if (overviewHeading) overviewHeading.textContent = copy.overview;
+        if (limitationHeading) limitationHeading.textContent = copy.limitations;
+        setList(section.querySelector(".category-overview-list"), analysis.overview);
+        setList(section.querySelector(".category-limitations-list"), analysis.limitations);
       }
 
       function applyYearFilter(sync = true) {
         let start = Number(startSelect.value);
         let end = Number(endSelect.value);
+        const copy = labels();
         if (start > end) {
           const previousStart = start;
           start = end;
@@ -836,41 +1381,62 @@ def write_site(flat):
           if (overview) {
             overview.hidden = !hasPapers;
             const overviewCount = overview.querySelector(".overview-count");
-            if (overviewCount) overviewCount.textContent = `${formatNumber(sectionCount)} papers`;
+            if (overviewCount) overviewCount.textContent = `${formatNumber(sectionCount)} ${copy.papers}`;
           }
           if (!hasPapers) return;
 
           activeCategories += 1;
           totalPapers += sectionCount;
           totalCitations += sectionCitations;
-          section.querySelector(".category-count").textContent = `${formatNumber(sectionCount)} papers`;
+          section.querySelector(".category-count").textContent = `${formatNumber(sectionCount)} ${copy.papers}`;
           section.querySelector(".category-years").textContent = yearRangeText(sectionYears);
           section.querySelector(".category-citations").textContent = `${formatNumber(sectionCitations)} citations`;
           const topPaper = section.querySelector(".paper-card:not([hidden]) h3");
           const topPaperTarget = section.querySelector(".top-paper");
           if (topPaper && topPaperTarget) topPaperTarget.textContent = topPaper.textContent.trim();
+          applyPrecomputedAnalysis(section, start, end);
         });
 
         statPapers.textContent = formatNumber(totalPapers);
         statYears.textContent = formatNumber(new Set(activeYears).size);
         statCitations.textContent = formatNumber(totalCitations);
         statCategories.textContent = formatNumber(activeCategories);
-        rangeStatus.textContent = `${start}-${end} · ${formatNumber(totalPapers)} papers · ${formatNumber(activeCategories)} categories`;
+        updatePeriodSelect(start, end);
+        rangeStatus.textContent = `${start}-${end} · ${formatNumber(totalPapers)} ${copy.papers} · ${formatNumber(activeCategories)} ${copy.categories}`;
         if (sync) syncUrl(start, end);
       }
 
       setFromUrl();
       applyYearFilter(false);
+      fetch("data/__ANALYSIS_JSON__")
+        .then(response => response.json())
+        .then(data => {
+          precomputed = data;
+          applyYearFilter(false);
+        })
+        .catch(() => {
+          rangeStatus.textContent = "Precomputed analysis could not be loaded.";
+        });
+      periodSelect.addEventListener("change", () => {
+        const option = periodSelect.selectedOptions[0];
+        if (option && option.dataset.from && option.dataset.to) {
+          startSelect.value = option.dataset.from;
+          endSelect.value = option.dataset.to;
+        }
+        applyYearFilter(true);
+      });
+      languageSelect.addEventListener("change", () => applyYearFilter(true));
       startSelect.addEventListener("change", () => applyYearFilter(true));
       endSelect.addEventListener("change", () => applyYearFilter(true));
       resetButton.addEventListener("click", () => {
         startSelect.value = defaultStart;
         endSelect.value = defaultEnd;
+        periodSelect.value = `${defaultStart}-${defaultEnd}`;
         applyYearFilter(true);
       });
     })();
   </script>
-"""
+""".replace("__ANALYSIS_JSON__", PERIOD_ANALYSIS_JSON)
     sections = []
     for cat, _ in cats.most_common():
         sections.append(taxonomy_section(cat, groups[cat]))
@@ -896,8 +1462,10 @@ def write_site(flat):
     .stats, .cards {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:12px; margin:24px 0; }}
     .filters {{ display:flex; flex-wrap:wrap; align-items:end; gap:12px; margin:24px 0; padding:14px; background:white; border:1px solid var(--line); border-radius:8px; }}
     .filter-field {{ display:grid; gap:6px; }}
+    .wide-field {{ min-width:min(100%, 280px); }}
     .filter-field label {{ font-weight:700; font-size:13px; color:#344255; }}
     select {{ min-width:104px; height:38px; border:1px solid var(--line); border-radius:8px; background:white; color:var(--ink); padding:0 10px; font:inherit; }}
+    #periodPreset {{ min-width:280px; }}
     button {{ height:38px; border:1px solid #bfc8d8; border-radius:8px; background:#f6f8fb; color:var(--ink); padding:0 14px; font-weight:700; cursor:pointer; }}
     button:hover {{ background:#eef2f7; }}
     #rangeStatus {{ color:var(--muted); font-weight:700; min-height:38px; display:inline-flex; align-items:center; }}
@@ -913,8 +1481,11 @@ def write_site(flat):
     summary {{ cursor:pointer; display:grid; grid-template-columns:minmax(260px,1fr) repeat(3, minmax(110px, auto)); gap:12px; align-items:center; padding:16px 18px; font-weight:700; }}
     .summary-title {{ color:var(--accent); }}
     .section-intro {{ padding:0 18px 14px; border-top:1px solid var(--line); }}
-    .trend-box {{ margin-top:12px; padding:12px 14px; background:#f4faf8; border:1px solid #cfe7df; border-radius:8px; }}
-    .trend-box ul {{ margin:8px 0 0; padding-left:20px; color:var(--muted); line-height:1.55; }}
+    .insight-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-top:12px; }}
+    .insight-box {{ padding:12px 14px; background:#f4faf8; border:1px solid #cfe7df; border-radius:8px; }}
+    .limitation-box {{ background:#fff8f1; border-color:#ead7c1; }}
+    .insight-box strong span {{ color:var(--muted); font-weight:600; }}
+    .insight-box ul {{ margin:8px 0 0; padding-left:20px; color:var(--muted); line-height:1.55; }}
     .paper-list {{ display:grid; gap:12px; padding:16px; background:#f9fbfd; }}
     .paper-card {{ display:grid; grid-template-columns:56px 1fr; gap:14px; padding:16px; background:white; border:1px solid var(--line); border-radius:8px; }}
     .paper-rank {{ font-weight:800; color:var(--accent2); }}
@@ -941,6 +1512,7 @@ def write_site(flat):
       <a href="https://github.com/honggi82/awesome-BCI">README</a>
       <a href="data/{PAPERS_CSV}">CSV Dataset</a>
       <a href="data/{TAXONOMY_CSV}">Taxonomy CSV</a>
+      <a href="data/{PERIOD_ANALYSIS_JSON}">Period Analysis JSON</a>
       <a href="data/{CANDIDATES_CSV}">Candidate Pool</a>
       <a href="paper/review_en.html">Review Paper</a>
       <a href="paper/review_ko.html">Korean Review</a>
@@ -954,6 +1526,14 @@ def write_site(flat):
       <div class="stat"><strong id="statCategories">{len(cats)}</strong><span>topic categories</span></div>
     </div>
     <form class="filters" id="yearFilter">
+      <div class="filter-field wide-field">
+        <label for="periodPreset">Period</label>
+        <select id="periodPreset" name="period">{period_options}</select>
+      </div>
+      <div class="filter-field">
+        <label for="languageSelect">Language</label>
+        <select id="languageSelect" name="lang">{language_options}</select>
+      </div>
       <div class="filter-field">
         <label for="startYear">Start year</label>
         <select id="startYear" name="from">{start_year_options}</select>
@@ -1273,6 +1853,7 @@ def main():
     selected, candidates = collect_papers()
     flat = write_json_csv(selected, candidates)
     write_taxonomy_dataset(flat)
+    write_period_analysis(flat)
     write_readme(flat)
     write_charts(flat)
     write_site(flat)
