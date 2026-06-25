@@ -11,6 +11,7 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Website: `docs/index.html`
 - Selected dataset: `data/papers_2020_2026.csv`
 - Candidate pool: `data/candidates_top500_2020_2026.csv`
+- Codex-assisted curation method: `paper/curation_method.md`
 - English review draft: `paper/review_en.html`, `paper/review_en.docx`
 - Korean review draft: `paper/review_ko.html`
 
