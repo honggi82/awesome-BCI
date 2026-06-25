@@ -626,10 +626,92 @@ def review_sections(flat, korean=False):
     return title, abstract, methods, trends_intro, category_lines, year_lines, caveat, conclusion, refs
 
 
+def review_deep_dive(flat, korean=False):
+    cats = category_stats(flat)
+    stats = year_stats(flat)
+    top_scored = sorted(flat, key=lambda p: p["importanceScore"], reverse=True)[:12]
+    top_cited = sorted(flat, key=lambda p: p["citationCount"], reverse=True)[:12]
+    leading_cat, leading_count = cats.most_common(1)[0]
+    total_cites = sum(p["citationCount"] for p in flat)
+    peak_year = max(stats, key=lambda y: stats[y]["citations"])
+    newest_year = max(YEARS)
+
+    if korean:
+        findings = [
+            f"선정된 {len(flat)}편은 총 {total_cites:,}회의 인용을 포함하며, 인용량은 {peak_year}년에 가장 높다.",
+            f"가장 큰 축은 {leading_cat}({leading_count}편)으로, 2020년대 BCI 연구가 여전히 운동 의도 해석과 운동 기능 보조를 중심으로 조직되어 있음을 보여준다.",
+            f"{newest_year}년 논문은 부분 연도라 인용 수가 낮지만, foundation model, 장기 안정성, 고성능 침습형 디코딩, 임상 전환성 같은 주제가 두드러진다.",
+            "비침습 EEG-BCI는 데이터셋/벤치마크와 딥러닝 방법론이 빠르게 늘었고, 침습형 BCI는 의사소통·운동 복원 성능을 실제 사용성 문제와 연결하는 방향으로 이동하고 있다.",
+        ]
+        category_discussion = [
+            f"{cat}: {count}편. 이 범주는 최종 목록의 {count / len(flat):.1%}를 차지한다."
+            for cat, count in cats.most_common()
+        ]
+        future = [
+            "PDF 전문 기반의 임상근거 수준 평가와 risk-of-bias 코딩을 추가한다.",
+            "데이터셋 공개 여부, 재현 코드, 피험자 수, 장기 안정성 지표를 별도 열로 정규화한다.",
+            "후보 500편 풀에서 연도별 저인용 최신 논문의 잠재력을 전문가 검토로 보정한다.",
+            "장애 당사자 중심 사용성, 안전성, 개인정보, 신경윤리 기준을 별도 taxonomy로 확장한다.",
+        ]
+        top_scored_heading = "중요도 점수 상위 논문"
+        top_cited_heading = "인용 수 상위 논문"
+    else:
+        findings = [
+            f"The {len(flat)} selected papers account for {total_cites:,} citations in the selected set, with the largest citation mass in {peak_year}.",
+            f"The dominant category is {leading_cat} ({leading_count} papers), indicating that movement intention decoding and motor assistance remain the organizing center of 2020s BCI research.",
+            f"Papers from {newest_year} are structurally citation-disadvantaged because the year is partial, but they surface emerging themes around foundation models, stability, invasive high-bandwidth decoding, and clinical translation.",
+            "Non-invasive EEG-BCI work is increasingly shaped by datasets, benchmarks, and deep learning, while invasive BCI work is moving from peak decoding performance toward communication, autonomy, and usability constraints.",
+        ]
+        category_discussion = [
+            f"{cat}: {count} papers, representing {count / len(flat):.1%} of the selected set."
+            for cat, count in cats.most_common()
+        ]
+        future = [
+            "Add PDF-level appraisal of clinical evidence and risk-of-bias indicators.",
+            "Normalize dataset availability, released code, participant counts, and long-term stability metrics.",
+            "Use expert review to compensate for low citation counts among very recent papers in the 500-candidate pools.",
+            "Extend the taxonomy with user-centered usability, safety, privacy, and neuroethics criteria.",
+        ]
+        top_scored_heading = "Top Papers by Importance Score"
+        top_cited_heading = "Top Papers by Citation Count"
+
+    return {
+        "findings": findings,
+        "category_discussion": category_discussion,
+        "future": future,
+        "top_scored": top_scored,
+        "top_cited": top_cited,
+        "top_scored_heading": top_scored_heading,
+        "top_cited_heading": top_cited_heading,
+    }
+
+
+def html_ranked_table(rows, metric):
+    heading = "Importance" if metric == "importance" else "Citations"
+    out = [
+        "<table>",
+        f"<thead><tr><th>Year</th><th>Rank</th><th>Paper</th><th>{heading}</th><th>Category</th></tr></thead>",
+        "<tbody>",
+    ]
+    for p in rows:
+        metric_value = p["importanceScore"] if metric == "importance" else p["citationCount"]
+        link = f'<a href="{html.escape(p["url"])}">{html.escape(p["title"])}</a>' if p["url"] else html.escape(p["title"])
+        out.append(
+            f"<tr><td>{p['year']}</td><td>{p['rank']}</td><td>{link}</td>"
+            f"<td>{metric_value}</td><td>{html.escape(p['category'])}</td></tr>"
+        )
+    out.extend(["</tbody>", "</table>"])
+    return "\n".join(out)
+
+
 def write_review_html(flat, korean=False):
     title, abstract, methods, trends_intro, category_lines, year_lines, caveat, conclusion, refs = review_sections(flat, korean)
+    deep = review_deep_dive(flat, korean)
     lang = "ko" if korean else "en"
     heading_refs = "선정 참고문헌 예시" if korean else "Selected References"
+    heading_findings = "핵심 발견" if korean else "Key Findings"
+    heading_category = "분야별 해석" if korean else "Category-Level Interpretation"
+    heading_future = "향후 연구 의제" if korean else "Future Research Agenda"
     html_doc = f"""<!doctype html>
 <html lang="{lang}">
 <head>
@@ -642,6 +724,9 @@ def write_review_html(flat, korean=False):
     h2 {{ margin-top: 34px; }}
     li {{ margin: 6px 0; }}
     .abstract {{ background:#f5f7fb; border-left:4px solid #0f766e; padding:14px 18px; }}
+    table {{ width:100%; border-collapse:collapse; margin:16px 0; }}
+    th,td {{ border-bottom:1px solid #d9dee8; padding:8px; vertical-align:top; text-align:left; }}
+    th {{ background:#f4f6fa; }}
   </style>
 </head>
 <body>
@@ -651,14 +736,24 @@ def write_review_html(flat, korean=False):
   <p class="abstract">{html.escape(abstract)}</p>
   <h2>1. Introduction and Scope</h2>
   <p>{html.escape(methods)}</p>
-  <h2>2. Taxonomy</h2>
+  <h2>2. {heading_findings}</h2>
+  <ul>{''.join(f'<li>{html.escape(x)}</li>' for x in deep['findings'])}</ul>
+  <h2>3. Taxonomy</h2>
   <ul>{''.join(f'<li>{html.escape(x)}</li>' for x in category_lines)}</ul>
-  <h2>3. Year-by-Year Trends</h2>
+  <h2>4. {heading_category}</h2>
+  <ul>{''.join(f'<li>{html.escape(x)}</li>' for x in deep['category_discussion'])}</ul>
+  <h2>5. Year-by-Year Trends</h2>
   <p>{html.escape(trends_intro)}</p>
   <ul>{''.join(f'<li>{html.escape(x)}</li>' for x in year_lines)}</ul>
-  <h2>4. Limitations</h2>
+  <h2>6. {deep['top_scored_heading']}</h2>
+  {html_ranked_table(deep['top_scored'], 'importance')}
+  <h2>7. {deep['top_cited_heading']}</h2>
+  {html_ranked_table(deep['top_cited'], 'citations')}
+  <h2>8. {heading_future}</h2>
+  <ul>{''.join(f'<li>{html.escape(x)}</li>' for x in deep['future'])}</ul>
+  <h2>9. Limitations</h2>
   <p>{html.escape(caveat)}</p>
-  <h2>5. Conclusion</h2>
+  <h2>10. Conclusion</h2>
   <p>{html.escape(conclusion)}</p>
   <h2>{heading_refs}</h2>
   <ol>{''.join(f'<li>{html.escape(ref)}</li>' for ref in refs)}</ol>
@@ -671,6 +766,7 @@ def write_review_html(flat, korean=False):
 
 def write_review_docx(flat):
     title, abstract, methods, trends_intro, category_lines, year_lines, caveat, conclusion, refs = review_sections(flat, korean=False)
+    deep = review_deep_dive(flat, korean=False)
     doc = Document()
     doc.add_heading(title, level=0)
     doc.add_paragraph(f"Generated: {date.today().isoformat()} | Dataset: {len(flat)} papers")
@@ -678,16 +774,31 @@ def write_review_docx(flat):
     doc.add_paragraph(abstract)
     doc.add_heading("1. Introduction and Scope", level=1)
     doc.add_paragraph(methods)
-    doc.add_heading("2. Taxonomy", level=1)
+    doc.add_heading("2. Key Findings", level=1)
+    for line in deep["findings"]:
+        doc.add_paragraph(line, style="List Bullet")
+    doc.add_heading("3. Taxonomy", level=1)
     for line in category_lines:
         doc.add_paragraph(line, style="List Bullet")
-    doc.add_heading("3. Year-by-Year Trends", level=1)
+    doc.add_heading("4. Category-Level Interpretation", level=1)
+    for line in deep["category_discussion"]:
+        doc.add_paragraph(line, style="List Bullet")
+    doc.add_heading("5. Year-by-Year Trends", level=1)
     doc.add_paragraph(trends_intro)
     for line in year_lines:
         doc.add_paragraph(line, style="List Bullet")
-    doc.add_heading("4. Limitations", level=1)
+    doc.add_heading("6. Top Papers by Importance Score", level=1)
+    for p in deep["top_scored"]:
+        doc.add_paragraph(f"{p['year']} #{p['rank']}: {p['title']} ({p['importanceScore']})", style="List Number")
+    doc.add_heading("7. Top Papers by Citation Count", level=1)
+    for p in deep["top_cited"]:
+        doc.add_paragraph(f"{p['year']} #{p['rank']}: {p['title']} ({p['citationCount']} citations)", style="List Number")
+    doc.add_heading("8. Future Research Agenda", level=1)
+    for line in deep["future"]:
+        doc.add_paragraph(line, style="List Bullet")
+    doc.add_heading("9. Limitations", level=1)
     doc.add_paragraph(caveat)
-    doc.add_heading("5. Conclusion", level=1)
+    doc.add_heading("10. Conclusion", level=1)
     doc.add_paragraph(conclusion)
     doc.add_heading("Selected References", level=1)
     for ref in refs:
