@@ -28,6 +28,7 @@ CANDIDATES_JSON = f"candidates_top500_{YEAR_FILE_STEM}.json"
 CANDIDATES_CSV = f"candidates_top500_{YEAR_FILE_STEM}.csv"
 TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
+GITHUB_LINKS_JSON = f"github_links_{YEAR_FILE_STEM}.json"
 TARGET_PER_YEAR = 100
 CANDIDATES_PER_YEAR = 500
 
@@ -876,6 +877,51 @@ def collect_papers():
     return selected, all_candidates
 
 
+def title_key(value):
+    text = norm_text(value).lower()
+    text = re.sub(r"[^a-z0-9]+", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def clean_github_url(value):
+    text = norm_text(value)
+    match = re.search(r"https?://github\.com/[^\s<>\"')]+", text, flags=re.I)
+    if not match:
+        return ""
+    path = match.group(0).split("github.com/", 1)[1].rstrip(".,;")
+    return f"https://github.com/{path}"
+
+
+def load_github_links():
+    path = DATA_DIR / GITHUB_LINKS_JSON
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    links = {}
+    for key, value in payload.get("links", {}).items():
+        github_url = clean_github_url(value.get("githubUrl") if isinstance(value, dict) else value)
+        if github_url:
+            links[key] = {**value, "githubUrl": github_url} if isinstance(value, dict) else {"githubUrl": github_url}
+    return links
+
+
+def apply_github_links(rows):
+    links = load_github_links()
+    if not links:
+        return rows
+    for row in rows:
+        github_url = clean_github_url(row.get("githubUrl"))
+        if github_url:
+            row["githubUrl"] = github_url
+            continue
+        match = links.get(title_key(row.get("title")))
+        if match:
+            row["githubUrl"] = clean_github_url(match.get("githubUrl", ""))
+        else:
+            row.setdefault("githubUrl", "")
+    return rows
+
+
 def normalize_paper(paper, year, rank, candidate=False):
     ext = paper.get("externalIds") or {}
     oa = paper.get("openAccessPdf") or {}
@@ -910,6 +956,7 @@ def normalize_paper(paper, year, rank, candidate=False):
 
 def write_json_csv(selected, candidates):
     flat = [paper for year in YEARS for paper in selected.get(year, [])]
+    apply_github_links(flat)
     candidate_flat = [paper for year in YEARS for paper in candidates.get(year, [])]
     DATA_DIR.mkdir(exist_ok=True)
     with (DATA_DIR / PAPERS_JSON).open("w", encoding="utf-8") as f:
@@ -1357,6 +1404,7 @@ def enrich_paper(p):
     enriched["methodTags"] = "; ".join(tags)
     enriched["keywordTags"] = "; ".join(keywords)
     enriched["paperLink"] = p.get("url") or p.get("semanticScholarUrl") or ""
+    enriched["githubUrl"] = p.get("githubUrl", "")
     return enriched
 
 
@@ -1766,7 +1814,7 @@ def write_taxonomy_dataset(flat):
         "citationCount", "influentialCitationCount", "importanceScore", "categoryOverview",
         "categoryLimitations", "researchTrend", "methodTags", "keywordTags",
         "keyIdea", "strengths", "limitations", "paperLink", "semanticScholarUrl",
-        "openAccessPdf", "doi", "arxiv", "pubmed", "fieldsOfStudy",
+        "openAccessPdf", "githubUrl", "doi", "arxiv", "pubmed", "fieldsOfStudy",
     ]
     with (DATA_DIR / TAXONOMY_CSV).open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
@@ -1944,6 +1992,7 @@ def paper_card(p, taxonomy_rank):
     link = html.escape(p["paperLink"])
     semantic = html.escape(p.get("semanticScholarUrl") or "")
     pdf = html.escape(p.get("openAccessPdf") or "")
+    github = html.escape(p.get("githubUrl") or "")
     keywords = [tag for tag in p.get("keywordTags", "").split("; ") if tag]
     data_keywords = html.escape(" ".join(keywords), quote=True)
     keyword_badges = "".join(
@@ -1957,7 +2006,8 @@ def paper_card(p, taxonomy_rank):
     paper_link = f'<a href="{link}">Paper</a>' if link else ""
     semantic_link = f'<a href="{semantic}">Semantic Scholar</a>' if semantic else ""
     pdf_link = f'<a href="{pdf}">PDF</a>' if pdf else ""
-    links = " ".join(x for x in [paper_link, semantic_link, pdf_link] if x) or "No link"
+    github_link = f'<a href="{github}">GitHub</a>' if github else ""
+    links = " ".join(x for x in [paper_link, semantic_link, pdf_link, github_link] if x) or "No link"
     return f"""
       <article class="paper-card" data-year="{p['year']}" data-citations="{p['citationCount']}" data-keywords="{data_keywords}" data-title="{data_title}" data-venue="{data_venue}" data-limitations="{data_limitations}" {localized_attrs}>
         <div class="paper-rank">#{taxonomy_rank}</div>
@@ -2044,6 +2094,7 @@ def all_taxonomy_section(rows):
 
 
 def write_site(flat):
+    apply_github_links(flat)
     DOCS_DIR.mkdir(exist_ok=True)
     (DOCS_DIR / "assets").mkdir(exist_ok=True)
     (DOCS_DIR / "data").mkdir(exist_ok=True)
@@ -2995,6 +3046,8 @@ def main():
     shutil.copyfile(DATA_DIR / PAPERS_CSV, DOCS_DIR / "data" / PAPERS_CSV)
     shutil.copyfile(DATA_DIR / TAXONOMY_CSV, DOCS_DIR / "data" / TAXONOMY_CSV)
     shutil.copyfile(DATA_DIR / CANDIDATES_CSV, DOCS_DIR / "data" / CANDIDATES_CSV)
+    if (DATA_DIR / GITHUB_LINKS_JSON).exists():
+        shutil.copyfile(DATA_DIR / GITHUB_LINKS_JSON, DOCS_DIR / "data" / GITHUB_LINKS_JSON)
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
     (ROOT / "LICENSE").write_text("CC-BY-4.0 for text and metadata curation; upstream paper metadata belongs to original sources.\n", encoding="utf-8")
