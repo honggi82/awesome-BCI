@@ -4,7 +4,7 @@
 
 A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) research.
 
-Generated on 2026-06-25 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
+Generated on 2026-06-26 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
 
 ## Project Links
 
@@ -15,6 +15,19 @@ Generated on 2026-06-25 from free public Semantic Scholar metadata. The current 
 - Candidate pool: `data/candidates_top500_2000_2026.csv`
 - English review draft: `paper/review_en.html`, `paper/review_en.docx`
 - Korean review draft: `paper/review_ko.html`
+
+## Keywords Convention
+
+These badges define the BCI keyword tags used to read and extend this collection.
+
+- ![invasive](https://img.shields.io/badge/keyword-invasive-2563eb) **invasive**: Implanted or intracranial neural interfaces, including ECoG and intracortical recordings.
+- ![non-invasive](https://img.shields.io/badge/keyword-non--invasive-0f766e) **non-invasive**: External sensing interfaces such as EEG, MEG, fNIRS, or fMRI.
+- ![human](https://img.shields.io/badge/keyword-human-f59e0b) **human**: Studies using human participants, patients, or volunteers.
+- ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) **non-human**: Animal, simulation, or non-human experimental settings.
+- ![SMR](https://img.shields.io/badge/keyword-SMR-dc2626) **SMR**: Sensorimotor rhythm, ERD/ERS, or motor-imagery control paradigms.
+- ![SSVEP](https://img.shields.io/badge/keyword-SSVEP-7c3aed) **SSVEP**: Steady-state visual evoked potential paradigms.
+- ![P300](https://img.shields.io/badge/keyword-P300-be123c) **P300**: P300 or event-related-potential speller paradigms.
+- ![arm-direction](https://img.shields.io/badge/keyword-arm--direction-0891b2) **arm-direction**: Arm, hand, reach, or directional movement decoding/control.
 
 ## Taxonomy Overview
 

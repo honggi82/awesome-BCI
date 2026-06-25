@@ -134,6 +134,17 @@ TAXONOMY_VISUALS = {
     },
 }
 
+KEYWORD_CONVENTION = [
+    ("invasive", "Implanted or intracranial neural interfaces, including ECoG and intracortical recordings.", "2563eb"),
+    ("non-invasive", "External sensing interfaces such as EEG, MEG, fNIRS, or fMRI.", "0f766e"),
+    ("human", "Studies using human participants, patients, or volunteers.", "f59e0b"),
+    ("non-human", "Animal, simulation, or non-human experimental settings.", "a855f7"),
+    ("SMR", "Sensorimotor rhythm, ERD/ERS, or motor-imagery control paradigms.", "dc2626"),
+    ("SSVEP", "Steady-state visual evoked potential paradigms.", "7c3aed"),
+    ("P300", "P300 or event-related-potential speller paradigms.", "be123c"),
+    ("arm-direction", "Arm, hand, reach, or directional movement decoding/control.", "0891b2"),
+]
+
 LANGUAGES = {
     "en": "English",
     "ko": "한국어",
@@ -505,6 +516,35 @@ def period_chart_src(kind, start, end):
 
 def taxonomy_visual_src(category):
     return f"assets/taxonomy/{safe_slug(category)}.svg"
+
+
+def shields_keyword_badge(keyword, color):
+    message = keyword.replace("-", "--")
+    return f"![{keyword}](https://img.shields.io/badge/keyword-{message}-{color})"
+
+
+def readme_keyword_convention_lines():
+    lines = [
+        "## Keywords Convention",
+        "",
+        "These badges define the BCI keyword tags used to read and extend this collection.",
+        "",
+    ]
+    for keyword, description, color in KEYWORD_CONVENTION:
+        lines.append(f"- {shields_keyword_badge(keyword, color)} **{keyword}**: {description}")
+    return lines
+
+
+def site_keyword_convention_html():
+    items = []
+    for keyword, description, color in KEYWORD_CONVENTION:
+        items.append(
+            "<div class='keyword-item'>"
+            f"<span class='keyword-chip' style='--chip-color:#{color}'>{html.escape(keyword)}</span>"
+            f"<span>{html.escape(description)}</span>"
+            "</div>"
+        )
+    return "\n".join(items)
 
 
 def taxonomy_visual_svg(category):
@@ -1224,6 +1264,8 @@ def write_readme(flat):
         "- English review draft: `paper/review_en.html`, `paper/review_en.docx`",
         "- Korean review draft: `paper/review_ko.html`",
         "",
+        *readme_keyword_convention_lines(),
+        "",
         "## Taxonomy Overview",
         "",
         f"- **Total selected papers**: {len(flat):,} papers",
@@ -1671,6 +1713,7 @@ def write_site(flat):
         f"<a class='card taxonomy-card' data-category='{safe_slug(cat)}' href='#{safe_slug(cat)}'><strong>{html.escape(cat)}</strong><span class='overview-count'>{count} papers</span></a>"
         for cat, count in cats.most_common()
     )
+    keyword_convention = site_keyword_convention_html()
     html_doc = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -1703,6 +1746,10 @@ def write_site(flat):
     .stat, .card {{ background:white; border:1px solid var(--line); border-radius:8px; padding:16px; }}
     .stat strong {{ display:block; font-size:28px; color:var(--accent); }}
     .card span {{ display:block; margin-top:8px; color:var(--muted); }}
+    .keyword-section {{ margin:28px 0; }}
+    .keyword-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; }}
+    .keyword-item {{ display:flex; gap:10px; align-items:flex-start; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; color:var(--muted); line-height:1.45; }}
+    .keyword-chip {{ flex:0 0 auto; min-width:96px; text-align:center; background:var(--chip-color); color:white; border-radius:999px; padding:4px 9px; font-size:13px; font-weight:800; }}
     .overview-count {{ font-weight:800; color:var(--accent); }}
     nav a {{ display:inline-block; margin:0 12px 10px 0; color:var(--accent2); font-weight:600; }}
     .card {{ display:block; color:var(--ink); }}
@@ -1745,6 +1792,7 @@ def write_site(flat):
       <a href="data/{PAPERS_CSV}">CSV Dataset</a>
       <a href="data/{TAXONOMY_CSV}">Taxonomy CSV</a>
       <a href="data/{PERIOD_ANALYSIS_JSON}">Period Analysis JSON</a>
+      <a href="#keywords-convention">Keywords Convention</a>
       <a href="data/{CANDIDATES_CSV}">Candidate Pool</a>
       <a href="paper/review_en.html">Review Paper</a>
       <a href="paper/review_ko.html">Korean Review</a>
@@ -1777,6 +1825,11 @@ def write_site(flat):
       <button type="button" id="resetYears">Reset</button>
       <span id="rangeStatus"></span>
     </form>
+    <section class="keyword-section" id="keywords-convention">
+      <h2>Keywords Convention</h2>
+      <p>These keyword tags follow the convention style used by AI-for-BCI awesome lists and define how papers can be labeled or scanned in this collection.</p>
+      <div class="keyword-grid">{keyword_convention}</div>
+    </section>
     <h2>Taxonomy</h2>
     <p id="taxonomyTotalSummary"><strong>Total selected papers:</strong> {len(flat):,} papers; <strong>Categories:</strong> {len(cats)} categories.</p>
     <p>Each taxonomy section lists papers with publication year, journal or venue, citation count, main idea, strengths, limitations, and paper links. Sections are collapsed by default to keep the page scannable.</p>
