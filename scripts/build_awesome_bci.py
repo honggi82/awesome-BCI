@@ -538,7 +538,7 @@ def period_chart_src(kind, start, end):
 
 
 def taxonomy_visual_src(category):
-    return f"assets/taxonomy/{safe_slug(category)}.svg"
+    return f"assets/taxonomy/{safe_slug(category)}.png"
 
 
 def shields_keyword_badge(keyword, color):
@@ -699,9 +699,13 @@ def taxonomy_visual_svg(category):
 def write_taxonomy_illustrations(categories):
     asset_dir = DOCS_DIR / "assets" / "taxonomy"
     asset_dir.mkdir(parents=True, exist_ok=True)
+    missing = []
     for category in categories:
-        target = asset_dir / f"{safe_slug(category)}.svg"
-        target.write_text(taxonomy_visual_svg(category), encoding="utf-8")
+        target = asset_dir / f"{safe_slug(category)}.png"
+        if not target.exists():
+            missing.append(target.as_posix())
+    if missing:
+        raise FileNotFoundError("Missing taxonomy PNG assets: " + ", ".join(missing))
 
 
 def paper_key(paper):
