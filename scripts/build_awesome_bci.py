@@ -1405,6 +1405,57 @@ def period_select_ranges():
     return [full_range] + [range_pair for range_pair in all_period_ranges() if range_pair != full_range]
 
 
+def research_overview_html():
+    return """
+    <section class="research-brief" aria-labelledby="research-timeline-title">
+      <h2 id="research-timeline-title">Research Timeline</h2>
+      <div class="timeline-copy">
+        <p>2000-2026년 BCI 코퍼스는 통신·제어를 위한 초기 brain-computer interface 개념 정리에서 출발해 motor imagery, SSVEP/P300 speller, EEG 신호처리, 침습형 신경 디코딩, 재활·neuroprosthetics, 딥러닝 기반 representation learning으로 확장된 연구 지형도다. 총 2,447편의 선별 논문은 운동 의도 해석과 비침습 EEG 패러다임이 여전히 중심축이며, 그 주변으로 고대역폭 침습형 인터페이스와 임상 재활 응용이 성장해 왔음을 보여준다.</p>
+        <p>인용 상위 흐름은 BCI2000, EEGNet, communication/control 리뷰처럼 공동 벤치마크와 시스템 정의를 만든 논문에 강하게 모인다. 최근 구간의 핵심 변화는 정확도 경쟁만으로는 부족하다는 점이다. 세션 간 안정성, 사용자 적응, 장기 사용성, 임상 기능 개선, 안전성과 개인정보 보호가 실제 전환의 기준으로 올라오고 있다.</p>
+      </div>
+      <h2>Research Insights</h2>
+      <div class="research-insights">
+        <article class="insight-box">
+          <div class="insight-label">Motor Decoding</div>
+          <h3>운동 의도 디코딩이 BCI의 중심축이다</h3>
+          <p>가장 큰 taxonomy는 motor imagery와 movement decoding으로, 커서 제어, 팔·손 움직임, gait, prosthetic control이 장기간 핵심 문제로 유지된다.</p>
+          <p class="insight-implication">시사점: 성능 비교는 단순 분류 정확도보다 사용자별 학습, online control, 기능적 이득을 함께 봐야 한다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Non-invasive EEG</div>
+          <h3>비침습 BCI는 데이터셋과 전처리가 성능을 좌우한다</h3>
+          <p>EEG, SSVEP, P300, ERP speller 연구는 접근성이 높지만 잡음, artifact, 세션 변화, montage 차이에 민감하다.</p>
+          <p class="insight-implication">시사점: 공개 데이터셋, 전처리 표준, cross-subject 검증이 알고리즘 개선만큼 중요하다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Implants</div>
+          <h3>침습형 인터페이스는 고성능과 확장성 사이에 있다</h3>
+          <p>intracortical, ECoG, implantable interface는 높은 정보율과 정밀 제어를 제공하지만 장기 안정성, 수술 위험, 유지 비용이 병목이다.</p>
+          <p class="insight-implication">시사점: 임상 가치는 decoding bandwidth와 안전한 장기 운영성을 함께 만족할 때 커진다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Rehabilitation</div>
+          <h3>재활 BCI는 정확도에서 기능 회복으로 이동한다</h3>
+          <p>stroke rehabilitation, neuroprosthetics, exoskeleton 연구는 신호 해석을 넘어 운동 회복, 피드백, 반복 훈련 효과를 평가한다.</p>
+          <p class="insight-implication">시사점: 논문 평가는 offline score보다 clinical endpoint와 장기 추적 결과를 중시해야 한다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Deep Learning</div>
+          <h3>딥러닝은 표현학습을 열었지만 일반화가 관건이다</h3>
+          <p>EEGNet 이후 compact CNN, transformer, domain adaptation, self-supervised learning이 늘었지만 데이터 규모와 외부 검증은 여전히 제한적이다.</p>
+          <p class="insight-implication">시사점: 새로운 모델은 subject/session transfer와 calibration cost를 명시해야 한다.</p>
+        </article>
+        <article class="insight-box">
+          <div class="insight-label">Closed Loop</div>
+          <h3>폐루프·hybrid BCI가 다음 통합 단계다</h3>
+          <p>hybrid, affective, adaptive, closed-loop BCI는 신호 감지와 피드백·개입을 결합해 실제 사용 환경으로 연구 범위를 넓힌다.</p>
+          <p class="insight-implication">시사점: 다음 연구 지도는 신경 신호, 사용자 상태, 환경 맥락을 함께 모델링해야 한다.</p>
+        </article>
+      </div>
+    </section>
+"""
+
+
 def top_metadata_values(rows, key, limit=3):
     counts = Counter()
     for row in rows:
@@ -2214,6 +2265,7 @@ def write_site(flat):
     for cat, _ in cats.most_common():
         sections.append(taxonomy_section(cat, groups[cat]))
     keyword_convention = site_keyword_convention_html()
+    research_overview = research_overview_html()
     html_doc = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -2246,6 +2298,13 @@ def write_site(flat):
     .stat, .card {{ background:white; border:1px solid var(--line); border-radius:8px; padding:16px; }}
     .stat strong {{ display:block; font-size:28px; color:var(--accent); }}
     .card span {{ display:block; margin-top:8px; color:var(--muted); }}
+    .research-brief {{ margin:28px 0; padding:24px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); }}
+    .timeline-copy {{ max-width:1080px; }}
+    .research-insights {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-top:12px; }}
+    .research-insights .insight-label {{ color:var(--accent); font-size:12px; font-weight:800; text-transform:uppercase; letter-spacing:0; }}
+    .research-insights .insight-box h3 {{ margin:6px 0 8px; font-size:17px; }}
+    .research-insights .insight-box p {{ margin:8px 0 0; }}
+    .insight-implication {{ color:var(--ink); font-weight:700; }}
     .keyword-section {{ margin:28px 0; }}
     .keyword-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; }}
     .keyword-item {{ display:flex; gap:10px; align-items:flex-start; height:auto; min-height:54px; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; color:var(--muted); line-height:1.45; text-align:left; font:inherit; cursor:pointer; }}
@@ -2333,6 +2392,7 @@ def write_site(flat):
       <button type="button" id="resetYears">Reset</button>
       <span id="rangeStatus"></span>
     </form>
+    {research_overview}
     <section class="keyword-section" id="keywords-convention">
       <h2>Keywords Convention</h2>
       <p>These keyword tags follow the convention style used by AI-for-BCI awesome lists and define how papers can be labeled or scanned in this collection.</p>
