@@ -20,6 +20,13 @@ if errorlevel 1 (
   git remote set-url origin https://github.com/honggi82/awesome-BCI.git
   git push -u origin main
 )
+if errorlevel 1 exit /b %errorlevel%
+
+"%GH_EXE%" api repos/honggi82/awesome-BCI/pages -X POST -f "source[branch]=main" -f "source[path]=/docs" >nul 2>nul
+if errorlevel 1 (
+  "%GH_EXE%" api repos/honggi82/awesome-BCI/pages -X PUT -f "source[branch]=main" -f "source[path]=/docs" >nul 2>nul
+)
 
 echo.
 echo Done: https://github.com/honggi82/awesome-BCI
+echo Pages: https://honggi82.github.io/awesome-BCI/
