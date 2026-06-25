@@ -91,55 +91,46 @@ TAXONOMY_VISUALS = {
         "motif": "motor",
         "accent": "#0f766e",
         "secondary": "#60a5fa",
-        "feature": "Decoding imagined and intended movement from neural dynamics.",
     },
     "SSVEP, P300, and ERP Spellers": {
         "motif": "speller",
         "accent": "#7c3aed",
         "secondary": "#f59e0b",
-        "feature": "Stimulus-locked visual and ERP responses for communication.",
     },
     "Rehabilitation and Neuroprosthetics": {
         "motif": "rehab",
         "accent": "#dc2626",
         "secondary": "#22c55e",
-        "feature": "Closed-loop therapy, prosthetic control, and functional recovery.",
     },
     "Invasive and Implantable Interfaces": {
         "motif": "implant",
         "accent": "#2563eb",
         "secondary": "#a855f7",
-        "feature": "High-resolution implanted sensing and neural decoding.",
     },
     "Deep Learning and Representation Learning": {
         "motif": "deep",
         "accent": "#9333ea",
         "secondary": "#14b8a6",
-        "feature": "Learned representations for robust cross-session decoding.",
     },
     "EEG Signal Processing and Datasets": {
         "motif": "eeg",
         "accent": "#0891b2",
         "secondary": "#f97316",
-        "feature": "Signal cleaning, benchmarks, and reproducible EEG pipelines.",
     },
     "Speech, Language, and Communication BCIs": {
         "motif": "speech",
         "accent": "#be123c",
         "secondary": "#06b6d4",
-        "feature": "Neural-to-language pathways for typing and speech restoration.",
     },
     "Hybrid, Affective, and Closed-loop BCIs": {
         "motif": "hybrid",
         "accent": "#16a34a",
         "secondary": "#8b5cf6",
-        "feature": "Adaptive feedback loops that combine neural and behavioral signals.",
     },
     "General BCI Methods and Systems": {
         "motif": "general",
         "accent": "#334155",
         "secondary": "#0f766e",
-        "feature": "System architectures, evaluation principles, and translation.",
     },
 }
 
@@ -514,10 +505,6 @@ def period_chart_src(kind, start, end):
 
 def taxonomy_visual_src(category):
     return f"assets/taxonomy/{safe_slug(category)}.svg"
-
-
-def taxonomy_visual_feature(category):
-    return TAXONOMY_VISUALS.get(category, TAXONOMY_VISUALS["General BCI Methods and Systems"])["feature"]
 
 
 def taxonomy_visual_svg(category):
@@ -1367,6 +1354,7 @@ def taxonomy_section(category, rows):
           <span class="category-citations">{summary['citations']:,} citations</span>
         </summary>
         <div class="section-intro">
+          <div class="section-visual"><img src="{taxonomy_visual_src(category)}" alt="{html.escape(category)} illustration"></div>
           <p><strong>Representative emphasis:</strong> {html.escape(summary['tags'])}</p>
           <p><strong>Top-ranked paper:</strong> <span class="top-paper">{html.escape(summary['top'])}</span></p>
           <div class="insight-grid">
@@ -1680,13 +1668,7 @@ def write_site(flat):
     for cat, _ in cats.most_common():
         sections.append(taxonomy_section(cat, groups[cat]))
     cat_cards = "\n".join(
-        (
-            f"<a class='card taxonomy-card' data-category='{safe_slug(cat)}' href='#{safe_slug(cat)}'>"
-            f"<img class='taxonomy-visual' src='{taxonomy_visual_src(cat)}' alt='{html.escape(cat)} illustration'>"
-            f"<span class='taxonomy-copy'><strong>{html.escape(cat)}</strong>"
-            f"<span class='overview-feature'>{html.escape(taxonomy_visual_feature(cat))}</span>"
-            f"<span class='overview-count'>{count} papers</span></span></a>"
-        )
+        f"<a class='card taxonomy-card' data-category='{safe_slug(cat)}' href='#{safe_slug(cat)}'><strong>{html.escape(cat)}</strong><span class='overview-count'>{count} papers</span></a>"
         for cat, count in cats.most_common()
     )
     html_doc = f"""<!doctype html>
@@ -1721,10 +1703,6 @@ def write_site(flat):
     .stat, .card {{ background:white; border:1px solid var(--line); border-radius:8px; padding:16px; }}
     .stat strong {{ display:block; font-size:28px; color:var(--accent); }}
     .card span {{ display:block; margin-top:8px; color:var(--muted); }}
-    .card.taxonomy-card {{ display:grid; grid-template-columns:92px minmax(0,1fr); gap:14px; align-items:center; }}
-    .taxonomy-visual {{ width:92px; aspect-ratio:16 / 11; object-fit:contain; border:1px solid var(--line); border-radius:8px; background:#f8fafc; }}
-    .taxonomy-copy {{ min-width:0; margin-top:0; }}
-    .overview-feature {{ font-size:13px; line-height:1.4; }}
     .overview-count {{ font-weight:800; color:var(--accent); }}
     nav a {{ display:inline-block; margin:0 12px 10px 0; color:var(--accent2); font-weight:600; }}
     .card {{ display:block; color:var(--ink); }}
@@ -1733,6 +1711,8 @@ def write_site(flat):
     summary {{ cursor:pointer; display:grid; grid-template-columns:minmax(260px,1fr) repeat(3, minmax(110px, auto)); gap:12px; align-items:center; padding:16px 18px; font-weight:700; }}
     .summary-title {{ color:var(--accent); }}
     .section-intro {{ padding:0 18px 14px; border-top:1px solid var(--line); }}
+    .section-visual {{ margin:14px 0 4px; }}
+    .section-visual img {{ width:min(320px, 100%); aspect-ratio:16 / 11; object-fit:contain; border:1px solid var(--line); border-radius:8px; background:#f8fafc; display:block; }}
     .insight-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:12px; margin-top:12px; }}
     .insight-box {{ padding:12px 14px; background:#f4faf8; border:1px solid #cfe7df; border-radius:8px; }}
     .limitation-box {{ background:#fff8f1; border-color:#ead7c1; }}
