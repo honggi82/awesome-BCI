@@ -1818,6 +1818,7 @@ def write_site(flat):
       const statCitations = document.getElementById("statCitations");
       const statCategories = document.getElementById("statCategories");
       const taxonomyTotalSummary = document.getElementById("taxonomyTotalSummary");
+      const keywordFilterStatus = document.getElementById("keywordFilterStatus");
       const categoryChart = document.getElementById("categoryDistributionChart");
       const citationChart = document.getElementById("yearlyCitationsChart");
       const categoryChartCaption = document.getElementById("categoryChartCaption");
@@ -1826,6 +1827,7 @@ def write_site(flat):
       const defaultEnd = endSelect.value;
       const validYears = Array.from(startSelect.options).map(option => option.value);
       const periodOptions = Array.from(periodSelect.options);
+      const keywordGrid = document.querySelector(".keyword-grid");
       const keywordButtons = Array.from(document.querySelectorAll(".keyword-item[data-keyword]"));
       const defaultLanguage = languageSelect.value;
       let precomputed = null;
@@ -1861,7 +1863,7 @@ def write_site(flat):
         }
         const keywords = (params.get("keywords") || "").split(",").filter(Boolean);
         keywordButtons.forEach(button => {
-          button.setAttribute("aria-pressed", keywords.includes(button.dataset.keyword) ? "true" : "false");
+          setKeywordPressed(button, keywords.includes(button.dataset.keyword));
         });
         const period = params.get("period");
         if (period) {
@@ -1975,10 +1977,24 @@ def write_site(flat):
           .map(button => button.dataset.keyword);
       }
 
+      function setKeywordPressed(button, pressed) {
+        button.setAttribute("aria-pressed", pressed ? "true" : "false");
+        button.classList.toggle("is-selected", pressed);
+      }
+
       function keywordMatches(card, selected) {
         if (!selected.length) return true;
         const cardKeywords = (card.dataset.keywords || "").split(" ").filter(Boolean);
         return selected.some(keyword => cardKeywords.includes(keyword));
+      }
+
+      function updateKeywordFilterStatus(selected, totalPapers, copy) {
+        if (!keywordFilterStatus) return;
+        if (selected.length) {
+          keywordFilterStatus.textContent = `Selected keywords: ${selected.join(", ")} | Matching papers: ${formatNumber(totalPapers)} ${copy.papers}`;
+        } else {
+          keywordFilterStatus.textContent = `Selected keywords: all | Matching papers: ${formatNumber(totalPapers)} ${copy.papers}`;
+        }
       }
 
       function localizedCardText(card, field, language) {
@@ -2078,6 +2094,7 @@ def write_site(flat):
         if (taxonomyTotalSummary) {
           taxonomyTotalSummary.innerHTML = `<strong>${copy.totalSelected}:</strong> ${formatNumber(totalPapers)} ${copy.papers}; <strong>${copy.categoryCount}:</strong> ${formatNumber(activeCategories)} ${copy.categories}.`;
         }
+        updateKeywordFilterStatus(activeKeywords, totalPapers, copy);
         const keywordText = activeKeywords.length ? ` · ${activeKeywords.join(", ")}` : "";
         rangeStatus.textContent = `${start}-${end} · ${formatNumber(totalPapers)} ${copy.papers} · ${formatNumber(activeCategories)} ${copy.categories}${keywordText}`;
         if (sync) syncUrl(start, end);
@@ -2105,18 +2122,21 @@ def write_site(flat):
       languageSelect.addEventListener("change", () => applyYearFilter(true));
       startSelect.addEventListener("change", () => applyYearFilter(true));
       endSelect.addEventListener("change", () => applyYearFilter(true));
-      keywordButtons.forEach(button => {
-        button.addEventListener("click", () => {
+      if (keywordGrid) {
+        keywordGrid.addEventListener("click", event => {
+          const button = event.target.closest(".keyword-item[data-keyword]");
+          if (!button || !keywordGrid.contains(button)) return;
+          event.preventDefault();
           const pressed = button.getAttribute("aria-pressed") === "true";
-          button.setAttribute("aria-pressed", pressed ? "false" : "true");
+          setKeywordPressed(button, !pressed);
           applyYearFilter(true);
         });
-      });
+      }
       resetButton.addEventListener("click", () => {
         startSelect.value = defaultStart;
         endSelect.value = defaultEnd;
         periodSelect.value = `${defaultStart}-${defaultEnd}`;
-        keywordButtons.forEach(button => button.setAttribute("aria-pressed", "false"));
+        keywordButtons.forEach(button => setKeywordPressed(button, false));
         applyYearFilter(true);
       });
     })();
@@ -2162,8 +2182,9 @@ def write_site(flat):
     .keyword-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; }}
     .keyword-item {{ display:flex; gap:10px; align-items:flex-start; height:auto; min-height:54px; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; color:var(--muted); line-height:1.45; text-align:left; font:inherit; cursor:pointer; }}
     .keyword-item:hover {{ background:#f8fafc; }}
-    .keyword-item[aria-pressed="true"] {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(15,118,110,0.16); color:var(--ink); }}
+    .keyword-item[aria-pressed="true"], .keyword-item.is-selected {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(15,118,110,0.16); color:var(--ink); }}
     .keyword-chip {{ flex:0 0 auto; min-width:96px; text-align:center; background:var(--chip-color); color:white; border-radius:999px; padding:4px 9px; font-size:13px; font-weight:800; }}
+    .keyword-filter-status {{ margin:10px 0 0; font-weight:700; color:var(--accent); }}
     .overview-count {{ font-weight:800; color:var(--accent); }}
     nav a {{ display:inline-block; margin:0 12px 10px 0; color:var(--accent2); font-weight:600; }}
     .card {{ display:block; color:var(--ink); }}
@@ -2246,6 +2267,7 @@ def write_site(flat):
       <h2>Keywords Convention</h2>
       <p>These keyword tags follow the convention style used by AI-for-BCI awesome lists and define how papers can be labeled or scanned in this collection.</p>
       <div class="keyword-grid">{keyword_convention}</div>
+      <p class="keyword-filter-status" id="keywordFilterStatus">Selected keywords: all | Matching papers: {len(flat):,} papers</p>
     </section>
     <h2>Taxonomy</h2>
     <p id="taxonomyTotalSummary"><strong>Total selected papers:</strong> {len(flat):,} papers; <strong>Categories:</strong> {len(cats)} categories.</p>
