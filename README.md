@@ -12,7 +12,7 @@ A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) r
 
 > Browse the full interactive taxonomy site with period, language, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-BCI/
 
-Generated on 2026-06-26 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
+Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
 
 ## Project Links
 
@@ -37,6 +37,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 - ![SSVEP](https://img.shields.io/badge/keyword-SSVEP-7c3aed) **SSVEP**: Steady-state visual evoked potential paradigms.
 - ![P300](https://img.shields.io/badge/keyword-P300-be123c) **P300**: P300 or event-related-potential speller paradigms.
 - ![arm-direction](https://img.shields.io/badge/keyword-arm--direction-0891b2) **arm-direction**: Arm, hand, reach, or directional movement decoding/control.
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
 
 ## Taxonomy Overview
 
@@ -96,7 +97,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td align="right" width="5%">1</td>
 <td width="21%"><a href="https://doi.org/10.1088/1741-2552/aace8c">EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces</a><br><sub>Vernon J. Lawhern, Amelia J. Solon, Nicholas R. Waytowich, S. Gordon, C. Hung, Brent Lance</sub></td>
 <td width="12%">2016<br>Journal of Neural Engineering<br>4,344 citations</td>
-<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"></td>
+<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="SMR" src="https://img.shields.io/badge/keyword-SMR-dc2626"> <img alt="P300" src="https://img.shields.io/badge/keyword-P300-be123c"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td width="18%">Objective.</td>
 <td align="right" width="8%">4,344</td>
 <td width="24%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Communication systems must still balance accuracy, latency, vocabulary size, privacy, and user autonomy.; SMR and movement decoders often need subject-specific calibration and may drift across sessions.</td>
@@ -1589,7 +1590,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td align="right" width="5%">26</td>
 <td width="21%"><a href="https://doi.org/10.48550/arxiv.2308.13234">Decoding Natural Images from EEG for Object Recognition</a><br><sub>Yonghao Song, Bingchuan Liu, Xiang Li, Nanlin Shi, Yijun Wang, Xiaorong Gao</sub></td>
 <td width="12%">2023<br>International Conference on Learning Representations<br>147 citations</td>
-<td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
+<td width="12%"><img alt="invasive" src="https://img.shields.io/badge/keyword-invasive-2563eb"> <img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td width="18%">Electroencephalography (EEG) signals, known for convenient non-invasive acquisition but low signal-to-noise ratio, have recently gained substantial attention due to the potential to decode natural images.</td>
 <td align="right" width="8%">147</td>
 <td width="24%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Surgical risk, device durability, and long-term signal stability constrain clinical translation.</td>
@@ -2686,7 +2687,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td align="right" width="5%">7</td>
 <td width="21%"><a href="https://doi.org/10.1109/tnsre.2020.2985996">Manifold Embedded Knowledge Transfer for Brain-Computer Interfaces</a><br><sub>Wen Zhang, Dongrui Wu</sub></td>
 <td width="12%">2019<br>IEEE transactions on neural systems and rehabilitation engineering<br>167 citations</td>
-<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
+<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td width="18%">Transfer learning makes use of data or knowledge in one problem to help solve a different, yet related, problem.</td>
 <td align="right" width="8%">167</td>
 <td width="24%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
@@ -2731,7 +2732,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td align="right" width="5%">12</td>
 <td width="21%"><a href="https://doi.org/10.1109/tnnls.2021.3100583">Mutual Information-Driven Subject-Invariant and Class-Relevant Deep Representation Learning in BCI</a><br><sub>Eunjin Jeon, Wonjun Ko, Jee Seok Yoon, Heung-Il Suk</sub></td>
 <td width="12%">2019<br>IEEE Transactions on Neural Networks and Learning Systems<br>100 citations</td>
-<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
+<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td width="18%">In recent years, deep learning-based feature representation methods have shown a promising impact on electroencephalography (EEG)-based brain–computer interface (BCI).</td>
 <td align="right" width="8%">100</td>
 <td width="24%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
@@ -2749,7 +2750,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td align="right" width="5%">14</td>
 <td width="21%"><a href="https://doi.org/10.1109/jbhi.2024.3504604">EEG-Deformer: A Dense Convolutional Transformer for Brain-Computer Interfaces</a><br><sub>Yi Ding, Yong Li, Hao Sun, Rui Liu, Chengxuan Tong, Chenyu Liu, et al.</sub></td>
 <td width="12%">2024<br>IEEE journal of biomedical and health informatics<br>91 citations</td>
-<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"></td>
+<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td width="18%">Effectively learning the temporal dynamics in electroencephalogram (EEG) signals is challenging yet essential for decoding brain activities using brain-computer interfaces (BCIs).</td>
 <td align="right" width="8%">91</td>
 <td width="24%">Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.; Non-invasive signals are vulnerable to low signal-to-noise ratio, artifacts, and electrode setup variability.</td>
@@ -2830,7 +2831,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 <td align="right" width="5%">23</td>
 <td width="21%"><a href="https://doi.org/10.1109/icassp49357.2023.10096587">EEG2IMAGE: Image Reconstruction from EEG Brain Signals</a><br><sub>Prajwal Singh, Pankaja Pandey, K. Miyapuram, S. Raman</sub></td>
 <td width="12%">2023<br>IEEE International Conference on Acoustics, Speech, and Signal Processing<br>66 citations</td>
-<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"></td>
+<td width="12%"><img alt="non-invasive" src="https://img.shields.io/badge/keyword-non--invasive-0f766e"> <img alt="human" src="https://img.shields.io/badge/keyword-human-f59e0b"> <img alt="github" src="https://img.shields.io/badge/keyword-github-24292f"></td>
 <td width="18%">Reconstructing images using brain signals of imagined visuals may provide an augmented vision to the disabled, leading to the advancement of Brain-Computer Interface (BCI) technology.</td>
 <td align="right" width="8%">66</td>
 <td width="24%">Benchmark value depends on standardized protocols, transparent splits, and external replication.; Deep models can overfit small EEG datasets without rigorous cross-subject and cross-device validation.; Model interpretability and uncertainty estimates are often insufficient for clinical trust.</td>

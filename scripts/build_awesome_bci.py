@@ -147,6 +147,7 @@ KEYWORD_CONVENTION = [
     ("SSVEP", "Steady-state visual evoked potential paradigms.", "7c3aed"),
     ("P300", "P300 or event-related-potential speller paradigms.", "be123c"),
     ("arm-direction", "Arm, hand, reach, or directional movement decoding/control.", "0891b2"),
+    ("github", "Papers with an official GitHub or code repository link identified in the metadata audit.", "24292f"),
 ]
 KEYWORD_COLORS = {keyword: color for keyword, _, color in KEYWORD_CONVENTION}
 
@@ -986,6 +987,14 @@ def load_github_links():
     return links
 
 
+def sync_github_keyword_tag(row):
+    raw = str(row.get("keywordTags") or "")
+    tags = [tag.strip() for tag in raw.split(";") if tag.strip() and tag.strip() != "github"]
+    if row.get("githubUrl"):
+        tags.append("github")
+    row["keywordTags"] = "; ".join(tags)
+
+
 def apply_github_links(rows):
     links = load_github_links()
     for row in rows:
@@ -994,6 +1003,7 @@ def apply_github_links(rows):
             row["githubUrl"] = clean_github_url(match.get("githubUrl", ""))
         else:
             row["githubUrl"] = ""
+        sync_github_keyword_tag(row)
     return rows
 
 
@@ -1030,8 +1040,11 @@ def normalize_paper(paper, year, rank, candidate=False):
 
 
 def write_json_csv(selected, candidates):
-    flat = [paper for year in YEARS for paper in selected.get(year, [])]
+    flat = enriched_flat([paper for year in YEARS for paper in selected.get(year, [])])
     apply_github_links(flat)
+    selected_by_year = defaultdict(list)
+    for paper in flat:
+        selected_by_year[paper["year"]].append(paper)
     candidate_flat = [paper for year in YEARS for paper in candidates.get(year, [])]
     DATA_DIR.mkdir(exist_ok=True)
     with (DATA_DIR / PAPERS_JSON).open("w", encoding="utf-8") as f:
@@ -1058,7 +1071,7 @@ def write_json_csv(selected, candidates):
         writer.writeheader()
         writer.writerows(candidate_flat)
     for year in YEARS:
-        rows = selected.get(year, [])
+        rows = selected_by_year.get(year, [])
         with (DATA_DIR / f"papers_{year}.csv").open("w", encoding="utf-8-sig", newline="") as f:
             writer = csv.DictWriter(f, fieldnames=fields)
             writer.writeheader()
@@ -1460,6 +1473,8 @@ def enrich_paper(p):
     idea = first_sentence(abstract, f"Positions {p.get('title', 'this paper')} within {p.get('category', 'BCI research')}.")
     tags = method_tags(p)
     keywords = paper_keyword_tags(p)
+    if p.get("githubUrl") and "github" not in keywords:
+        keywords.append("github")
     strengths = []
     if p.get("citationCount", 0) >= 100:
         strengths.append(f"high citation signal ({p['citationCount']:,})")
