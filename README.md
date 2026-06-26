@@ -10,6 +10,19 @@ A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) r
   </a>
 </p>
 
+<div align="center">
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <a href="https://github.com/honggi82/awesome-BCI">English</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-BCI?lang=de">Deutsch</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-BCI?lang=es">Español</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-BCI?lang=fr">français</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-BCI?lang=ja">日本語</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-BCI?lang=ko">한국어</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-BCI?lang=pt">Português</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-BCI?lang=ru">Русский</a> |
+  <a href="https://www.readme-i18n.com/honggi82/awesome-BCI?lang=zh">中文</a>
+</div>
+
 > Browse the full interactive taxonomy site with period, language, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-BCI/
 
 Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
