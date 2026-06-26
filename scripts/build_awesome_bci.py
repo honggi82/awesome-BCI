@@ -29,6 +29,7 @@ CANDIDATES_CSV = f"candidates_top500_{YEAR_FILE_STEM}.csv"
 TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
 GITHUB_LINKS_JSON = f"github_links_{YEAR_FILE_STEM}.json"
+LINK_AUDIT_JSON = f"link_audit_{YEAR_FILE_STEM}.json"
 TARGET_PER_YEAR = 100
 CANDIDATES_PER_YEAR = 500
 
@@ -932,12 +933,11 @@ def load_github_links():
 def apply_github_links(rows):
     links = load_github_links()
     for row in rows:
-        github_url = official_github_url_from_paper_text(row)
-        match = links.get(title_key(row.get("title"))) if not github_url else None
+        match = links.get(title_key(row.get("title")))
         if match and is_official_github_entry(match):
             row["githubUrl"] = clean_github_url(match.get("githubUrl", ""))
         else:
-            row["githubUrl"] = github_url
+            row["githubUrl"] = ""
     return rows
 
 
@@ -3068,6 +3068,8 @@ def main():
     shutil.copyfile(DATA_DIR / CANDIDATES_CSV, DOCS_DIR / "data" / CANDIDATES_CSV)
     if (DATA_DIR / GITHUB_LINKS_JSON).exists():
         shutil.copyfile(DATA_DIR / GITHUB_LINKS_JSON, DOCS_DIR / "data" / GITHUB_LINKS_JSON)
+    if (DATA_DIR / LINK_AUDIT_JSON).exists():
+        shutil.copyfile(DATA_DIR / LINK_AUDIT_JSON, DOCS_DIR / "data" / LINK_AUDIT_JSON)
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
     (ROOT / "LICENSE").write_text("CC-BY-4.0 for text and metadata curation; upstream paper metadata belongs to original sources.\n", encoding="utf-8")

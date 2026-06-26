@@ -3,16 +3,16 @@
   "source": "Official GitHub links explicitly indicated by paper text or Papers with Code official paper-mentioned flags",
   "sourceUrl": "https://huggingface.co/datasets/pwc-archive/links-between-paper-and-code",
   "sourceLicense": "CC-BY-SA-4.0 for Papers with Code archive entries; paper-text links come from existing scholarly metadata",
-  "matchingPolicy": "Only display GitHub links that are explicit official paper links: direct GitHub URLs in paper abstract/metadata with code/repository availability context, or Papers with Code archive entries where githubOfficial and mentionedInPaper are both true. Broad title/arXiv code matches, third-party reimplementations, and metadata-only carryover links are excluded.",
+  "matchingPolicy": "Only display GitHub links that are explicit official paper links: direct GitHub URLs in paper abstract/metadata with code/repository availability context, or Papers with Code archive entries where githubOfficial and mentionedInPaper are both true. Broad title/arXiv code matches, third-party reimplementations, and metadata-only carryover links are excluded. Only GitHub URLs that remained reachable after direct link audit are retained.",
   "paperCount": 2447,
-  "githubLinkCount": 51,
+  "githubLinkCount": 48,
   "matchedBy": {
+    "paper-text": 28,
     "arxiv": 18,
-    "paper-text": 31,
     "title": 2
   },
   "sources": {
-    "paper-text": 31,
+    "paper-text": 28,
     "paperswithcode-archive": 20
   },
   "links": {
@@ -31,22 +31,6 @@
       "contextSnippet": "(ITRs) on both datasets, 265.23 bits/min and 196.59 bits/min, respectively, with only 0.4 seconds of stimulation. The code is available for reproducibility at https://github.com/osmanberke/Deep-SSVEP-BCI. Conclusion: The presented DNN strongly outperforms the state-of-the-art techniq",
       "title": "A Deep Neural Network for SSVEP-Based Brain-Computer Interfaces",
       "year": 2020
-    },
-    "a dual branch dynamic graph convolution based adaptive transformer feature fusion network for eeg emotion recognition": {
-      "githubUrl": "https://github.com/smy17/DANet",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "hod achieves the promising emotion classification performance compared with the state-of-the-art methods. The code of our proposed method will be available at: https://github.com/smy17/DANet.",
-      "title": "A Dual-Branch Dynamic Graph Convolution Based Adaptive TransFormer Feature Fusion Network for EEG Emotion Recognition",
-      "year": 2022
     },
     "a dual branch spatio temporal spectral transformer feature fusion network for eeg based visual recognition": {
       "githubUrl": "https://github.com/ljbuaa/VisualDecoding",
@@ -257,22 +241,6 @@
       "title": "EEG-Deformer: A Dense Convolutional Transformer for Brain-Computer Interfaces",
       "year": 2024,
       "sourcePolicy": "paperswithcode-official-and-mentioned-in-paper-only"
-    },
-    "eeg emotion copilot optimizing lightweight llms for emotional eeg interpretation with assisted medical record generation": {
-      "githubUrl": "https://github.com/NZWANG/EEG_Emotion_Copilot",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "lot is expected to advance the application of AC in the medical domain, offering innovative solution to mental health monitoring. The codes will be released at https://github.com/NZWANG/EEG_Emotion_Copilot.",
-      "title": "EEG Emotion Copilot: Optimizing lightweight LLMs for emotional EEG interpretation with assisted medical record generation",
-      "year": 2024
     },
     "eeg itnet an explainable inception temporal convolutional network for motor imagery classification": {
       "githubUrl": "https://github.com/AbbasSalami/EEG-ITNet",
@@ -760,22 +728,6 @@
       "title": "Toward reliable signals decoding for electroencephalogram: A benchmark study to EEGNeX",
       "year": 2022
     },
-    "transformer based spatial temporal feature learning for eeg decoding": {
-      "githubUrl": "https://github.com/anranknight/EEG-Transformer}",
-      "githubOfficial": true,
-      "mentionedInPaper": true,
-      "mentionedInGithub": false,
-      "framework": "",
-      "pwcPaperTitle": "",
-      "pwcArxivId": "",
-      "source": "paper-text",
-      "sourcePolicy": "explicit-github-url-in-paper-text-with-official-context",
-      "matchBy": "paper-text",
-      "contextField": "abstract",
-      "contextSnippet": "has been proposed in this field. It has good potential to promote the practicality of brain-computer interface (BCI). The source code can be found at: \\textit{https://github.com/anranknight/EEG-Transformer}.",
-      "title": "Transformer-based Spatial-Temporal Feature Learning for EEG Decoding",
-      "year": 2021
-    },
     "visual decoding and reconstruction via eeg embeddings with guided diffusion": {
       "githubUrl": "https://github.com/ncclab-sustech/EEG_Image_decode",
       "githubOfficial": true,
@@ -792,5 +744,7 @@
       "title": "Visual Decoding and Reconstruction via EEG Embeddings with Guided Diffusion",
       "year": 2024
     }
-  }
+  },
+  "linkAuditPolicy": "Display only official paper-indicated GitHub repositories that passed direct reachability checks; remove 404/unreachable repositories.",
+  "removedByLinkAudit": []
 }
