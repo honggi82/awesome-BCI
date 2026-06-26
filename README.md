@@ -2945,3 +2945,7 @@ The collection uses Semantic Scholar's Academic Graph paper search. Queries comb
 - Citation counts favor older papers and may under-rank recent 2026 work.
 - Metadata search is not equivalent to a full systematic review of PDFs.
 - Some venues and publication dates are missing in upstream metadata.
+
+## Acknowledgements
+
+This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.

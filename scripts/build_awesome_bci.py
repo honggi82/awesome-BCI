@@ -1984,6 +1984,10 @@ def write_readme(flat):
         f"- Citation counts favor older papers and may under-rank recent {END_YEAR} work.",
         "- Metadata search is not equivalent to a full systematic review of PDFs.",
         "- Some venues and publication dates are missing in upstream metadata.",
+        "",
+        "## Acknowledgements",
+        "",
+        "This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.",
     ])
     (ROOT / "README.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
