@@ -23,6 +23,7 @@ Generated on 2026-06-26 from free public Semantic Scholar metadata. The current 
 - Candidate pool: `data/candidates_top500_2000_2026.csv`
 - English review draft: `paper/review_en.html`, `paper/review_en.docx`
 - Korean review draft: `paper/review_ko.html`
+- Curation method: `paper/curation_method.md`, `paper/curation_method.html`
 
 ## Keywords Convention
 

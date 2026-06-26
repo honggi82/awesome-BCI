@@ -4,6 +4,7 @@ import json
 import math
 import re
 import shutil
+import sys
 import time
 from collections import Counter, defaultdict
 from datetime import date
@@ -30,6 +31,7 @@ TAXONOMY_CSV = f"papers_taxonomy_{YEAR_FILE_STEM}.csv"
 PERIOD_ANALYSIS_JSON = f"period_analysis_{YEAR_FILE_STEM}.json"
 GITHUB_LINKS_JSON = f"github_links_{YEAR_FILE_STEM}.json"
 LINK_AUDIT_JSON = f"link_audit_{YEAR_FILE_STEM}.json"
+SKILL2_PROVENANCE_JSON = "paper_curation_skill2_provenance.json"
 TARGET_PER_YEAR = 100
 CANDIDATES_PER_YEAR = 500
 
@@ -880,6 +882,60 @@ def collect_papers():
             flush=True,
         )
     return selected, all_candidates
+
+
+def coerce_loaded_row(row):
+    row = dict(row)
+    for key in ("year", "rank", "citationCount", "influentialCitationCount"):
+        try:
+            row[key] = int(float(row.get(key) or 0))
+        except (TypeError, ValueError):
+            row[key] = 0
+    for key in ("candidateRank", "selectionRank"):
+        value = row.get(key, "")
+        if value in ("", None):
+            row[key] = ""
+        else:
+            try:
+                row[key] = int(float(value))
+            except (TypeError, ValueError):
+                row[key] = ""
+    try:
+        row["importanceScore"] = float(row.get("importanceScore") or 0)
+    except (TypeError, ValueError):
+        row["importanceScore"] = 0.0
+    row["candidate"] = str(row.get("candidate", "")).lower() == "true"
+    return row
+
+
+def load_existing_csv(path):
+    with path.open("r", encoding="utf-8-sig", newline="") as f:
+        return [coerce_loaded_row(row) for row in csv.DictReader(f)]
+
+
+def reuse_existing_data():
+    papers_path = DATA_DIR / PAPERS_CSV
+    candidates_path = DATA_DIR / CANDIDATES_CSV
+    if not papers_path.exists() or not candidates_path.exists():
+        raise FileNotFoundError(f"Existing BCI CSV data not found: {papers_path} / {candidates_path}")
+
+    selected_flat = load_existing_csv(papers_path)
+    candidate_flat = load_existing_csv(candidates_path)
+    selected = defaultdict(list)
+    candidates = defaultdict(list)
+    for row in selected_flat:
+        selected[row["year"]].append(row)
+    for row in candidate_flat:
+        candidates[row["year"]].append(row)
+    for rows in selected.values():
+        rows.sort(key=lambda p: (p.get("rank", 0), p.get("title", "")))
+    for rows in candidates.values():
+        rows.sort(key=lambda p: (p.get("candidateRank", 0), p.get("title", "")))
+    print(
+        f"[reuse] loaded {len(selected_flat):,} selected papers and {len(candidate_flat):,} candidates from existing CSV data",
+        flush=True,
+    )
+    return dict(selected), dict(candidates)
 
 
 def title_key(value):
@@ -1924,6 +1980,7 @@ def write_readme(flat):
         f"- Candidate pool: `data/{CANDIDATES_CSV}`",
         "- English review draft: `paper/review_en.html`, `paper/review_en.docx`",
         "- Korean review draft: `paper/review_ko.html`",
+        "- Curation method: `paper/curation_method.md`, `paper/curation_method.html`",
         "",
         *readme_keyword_convention_lines(),
         "",
@@ -3054,10 +3111,140 @@ def write_review_docx(flat):
     doc.save(PAPER_DIR / "review_en.docx")
 
 
+def markdown_to_html_doc(title, markdown_text):
+    body = []
+    in_list = False
+    for line in markdown_text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            if in_list:
+                body.append("</ul>")
+                in_list = False
+            continue
+        if stripped.startswith("# "):
+            if in_list:
+                body.append("</ul>")
+                in_list = False
+            body.append(f"<h1>{html.escape(stripped[2:])}</h1>")
+        elif stripped.startswith("## "):
+            if in_list:
+                body.append("</ul>")
+                in_list = False
+            body.append(f"<h2>{html.escape(stripped[3:])}</h2>")
+        elif stripped.startswith("- "):
+            if not in_list:
+                body.append("<ul>")
+                in_list = True
+            body.append(f"<li>{html.escape(stripped[2:])}</li>")
+        else:
+            if in_list:
+                body.append("</ul>")
+                in_list = False
+            body.append(f"<p>{html.escape(stripped)}</p>")
+    if in_list:
+        body.append("</ul>")
+    return f"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{html.escape(title)}</title>
+  <style>
+    body {{ font-family: Inter, system-ui, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 22px; line-height: 1.72; color: #172033; }}
+    h1, h2 {{ line-height: 1.2; }}
+    li {{ margin: 6px 0; }}
+    code {{ background: #f1f5f9; padding: 0.1rem 0.25rem; border-radius: 4px; }}
+  </style>
+</head>
+<body>{''.join(body)}</body>
+</html>
+"""
+
+
+def write_curation_method():
+    markdown = f"""# Awesome BCI Curation Method
+
+Generated: {date.today().isoformat()}
+
+## Scope
+
+- Topic: Brain-Computer Interface (BCI) research.
+- Years: {YEAR_RANGE_TEXT}.
+- Candidate pool: up to {CANDIDATES_PER_YEAR} BCI-related candidate papers per year.
+- Final list: top {TARGET_PER_YEAR} selected papers per year where available.
+- Metadata source: Semantic Scholar Academic Graph paper search.
+
+## Selection Protocol
+
+- Query BCI-related terms for each target year.
+- Filter records to the target publication year.
+- Keep records whose title directly matches BCI terminology, or whose abstract has multiple BCI relevance signals.
+- Deduplicate by DOI, arXiv ID, PubMed ID, CorpusId, Semantic Scholar paperId, or normalized title.
+- Keep the top {CANDIDATES_PER_YEAR} scored candidates per year as the audited candidate pool.
+- Select the top {TARGET_PER_YEAR} per year for the awesome list by citation count, using influential citation count and metadata importance score as tie-breakers.
+
+## GitHub-Awesome Skill2 and Paper-Curation Provenance
+
+This regeneration follows `github-awesome-skill2` in metadata-adapter mode for a large citation-ranked awesome repository while preserving the selected paper set in `data/{PAPERS_CSV}`. The workflow inspected the local `jehyunlee/paper-curation` checkout and is configured for Zotero-free folder-source PDF staging under `E:\\조선대\\연구\\paper-curation\\paper\\awesome-BCI`. Full PDF LLM review stages from paper-curation were not run because they require explicit approval for paid or metered APIs.
+
+## Cost and API Boundary
+
+The generated artifacts use free public metadata and local file generation. No paid API call is required for reproducing the dataset and static site.
+
+## Reproducibility
+
+Run `PYTHONUTF8=1 python scripts\\build_awesome_bci.py` from the repository root to regenerate the README, data files, static site, review drafts, and this curation method.
+"""
+    (PAPER_DIR / "curation_method.md").write_text(markdown, encoding="utf-8")
+    (PAPER_DIR / "curation_method.html").write_text(
+        markdown_to_html_doc("Awesome BCI Curation Method", markdown),
+        encoding="utf-8",
+    )
+
+
+def write_skill2_provenance(flat, candidates):
+    folder_source_pdf_dir = Path(r"E:\조선대\연구\paper-curation\paper\awesome-BCI")
+    manifest_path = folder_source_pdf_dir / "_folder_source_manifest.json"
+    failures_path = folder_source_pdf_dir / "_folder_source_failures.json"
+    manifest_count = 0
+    failure_count = 0
+    if manifest_path.exists():
+        manifest_count = len(json.loads(manifest_path.read_text(encoding="utf-8")))
+    if failures_path.exists():
+        failure_count = len(json.loads(failures_path.read_text(encoding="utf-8")))
+    payload = {
+        "skill": "github-awesome-skill2",
+        "mode": "metadata-adapter",
+        "paper_curation_source": "E:\\조선대\\연구\\paper-curation",
+        "zotero_used": False,
+        "paid_or_metered_api_used": False,
+        "folder_source_pdf_dir": str(folder_source_pdf_dir),
+        "folder_source_manifest": str(manifest_path),
+        "folder_source_manifest_pdfs": manifest_count,
+        "folder_source_failed_records": failure_count,
+        "selected_dataset": f"data/{PAPERS_CSV}",
+        "candidate_dataset": f"data/{CANDIDATES_CSV}",
+        "selected_papers": len(flat),
+        "candidate_records": sum(len(rows) for rows in candidates.values()),
+        "period": YEAR_RANGE_TEXT,
+        "candidate_target_per_year": CANDIDATES_PER_YEAR,
+        "selection_target_per_year": TARGET_PER_YEAR,
+        "ranking": "citationCount descending with influentialCitationCount and metadata importance score retained as audit signals",
+        "note": "The repository/site outputs are deterministic metadata curation artifacts; full PDF LLM reviews require separate explicit approval.",
+    }
+    (DATA_DIR / SKILL2_PROVENANCE_JSON).write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
+
 def main():
     for path in (DATA_DIR, DOCS_DIR, PAPER_DIR):
         path.mkdir(exist_ok=True)
-    selected, candidates = collect_papers()
+    if "--reuse-candidates" in sys.argv or "--reuse-data" in sys.argv:
+        selected, candidates = reuse_existing_data()
+    else:
+        selected, candidates = collect_papers()
     flat = write_json_csv(selected, candidates)
     write_taxonomy_dataset(flat)
     write_period_analysis(flat)
@@ -3067,15 +3254,19 @@ def main():
     write_review_html(flat, korean=False)
     write_review_html(flat, korean=True)
     write_review_docx(flat)
+    write_curation_method()
+    write_skill2_provenance(flat, candidates)
     shutil.copyfile(DATA_DIR / PAPERS_CSV, DOCS_DIR / "data" / PAPERS_CSV)
     shutil.copyfile(DATA_DIR / TAXONOMY_CSV, DOCS_DIR / "data" / TAXONOMY_CSV)
     shutil.copyfile(DATA_DIR / CANDIDATES_CSV, DOCS_DIR / "data" / CANDIDATES_CSV)
+    shutil.copyfile(DATA_DIR / SKILL2_PROVENANCE_JSON, DOCS_DIR / "data" / SKILL2_PROVENANCE_JSON)
     if (DATA_DIR / GITHUB_LINKS_JSON).exists():
         shutil.copyfile(DATA_DIR / GITHUB_LINKS_JSON, DOCS_DIR / "data" / GITHUB_LINKS_JSON)
     if (DATA_DIR / LINK_AUDIT_JSON).exists():
         shutil.copyfile(DATA_DIR / LINK_AUDIT_JSON, DOCS_DIR / "data" / LINK_AUDIT_JSON)
     shutil.copyfile(PAPER_DIR / "review_en.html", DOCS_DIR / "paper" / "review_en.html")
     shutil.copyfile(PAPER_DIR / "review_ko.html", DOCS_DIR / "paper" / "review_ko.html")
+    shutil.copyfile(PAPER_DIR / "curation_method.html", DOCS_DIR / "paper" / "curation_method.html")
     (ROOT / "LICENSE").write_text("CC-BY-4.0 for text and metadata curation; upstream paper metadata belongs to original sources.\n", encoding="utf-8")
     print(f"[done] generated {len(flat)} selected papers", flush=True)
 
