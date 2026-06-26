@@ -2623,10 +2623,11 @@ def write_site(flat):
     .insight-implication {{ color:var(--ink); font-weight:700; }}
     .keyword-section {{ margin:28px 0; }}
     .keyword-grid {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:10px; }}
-    .keyword-item {{ display:flex; gap:10px; align-items:flex-start; height:auto; min-height:54px; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; color:var(--muted); line-height:1.45; text-align:left; font:inherit; cursor:pointer; }}
+    .keyword-item {{ display:grid; gap:8px; align-items:flex-start; height:auto; min-height:96px; padding:12px; background:white; border:1px solid var(--line); border-radius:8px; color:var(--muted); line-height:1.45; text-align:left; font:inherit; cursor:pointer; }}
     .keyword-item:hover {{ background:#f8fafc; }}
     .keyword-item[aria-pressed="true"], .keyword-item.is-selected {{ border-color:var(--accent); box-shadow:0 0 0 2px rgba(15,118,110,0.16); color:var(--ink); }}
-    .keyword-chip {{ flex:0 0 auto; min-width:96px; text-align:center; background:var(--chip-color); color:white; border-radius:999px; padding:4px 9px; font-size:13px; font-weight:800; }}
+    .keyword-chip {{ justify-self:start; min-width:0; text-align:center; background:var(--chip-color); color:white; border-radius:999px; padding:4px 9px; font-size:13px; font-weight:800; }}
+    .keyword-item > span:not(.keyword-chip) {{ display:block; width:100%; }}
     .keyword-filter-status {{ margin:10px 0 0; font-weight:700; color:var(--accent); }}
     .overview-count {{ font-weight:800; color:var(--accent); }}
     nav a {{ display:inline-block; margin:0 12px 10px 0; color:var(--accent2); font-weight:600; }}
