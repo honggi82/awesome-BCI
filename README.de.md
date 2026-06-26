@@ -1,7 +1,7 @@
-# Awesome BCI
+# Tolles BCI
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) research.
+Eine nach Taxonomie geordnete, nach Zitaten geordnete Karte der aktuellen Brain-Computer-Interface-Forschung (BCI).
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-BCI/">
@@ -10,8 +10,8 @@ A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) r
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
-  <a href="README.de.md">Deutsch</a> |
+  <a href="README.md">English</a> |
+  <a href="README.de.md"><strong>Deutsch</strong></a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
   <a href="README.ja.md">日本語</a> |
@@ -21,63 +21,63 @@ A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) r
   <a href="README.zh.md">中文</a>
 </div>
 
-> Browse the full interactive taxonomy site with period, language, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-BCI/
+> Durchsuchen Sie die vollständige interaktive Taxonomie-Website mit Zeitraum-, Sprach-, Schlüsselwort-, Diagramm- und Papierkartenfiltern: https://honggi82.github.io/awesome-BCI/
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
+Generiert am 27.06.2026 aus kostenlosen öffentlichen Semantic Scholar-Metadaten. Die aktuelle Ausgabe untersucht bis zu 500 BCI-bezogene Kandidatenbeiträge pro Jahr für den Zeitraum 2000–2026, führt einen geprüften Kandidatenpool, wählt die 100 besten Beiträge pro Jahr nach Zitationszahl aus und organisiert die endgültigen 2.447 Artikel nach Forschungstaxonomie neu.
 
-## Project Links
+## Projektlinks
 
 - Website: https://honggi82.github.io/awesome-BCI/
-- Selected dataset: `data/papers_2000_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
-- Precomputed period and language analysis: `data/period_analysis_2000_2026.json`
-- Candidate pool: `data/candidates_top500_2000_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
-- Curation method: `paper/curation_method.md`, `paper/curation_method.html`
+- Ausgewählter Datensatz: `data/papers_2000_2026.csv`
+- Taxonomie-Datensatz mit Ideen, Stärken und Einschränkungen auf Papierebene: `data/papers_taxonomy_2000_2026.csv`
+- Vorberechnete Perioden- und Sprachanalyse: `data/period_analysis_2000_2026.json`
+- Kandidatenpool: `data/candidates_top500_2000_2026.csv`
+- Englischer Rezensionsentwurf: `paper/review_en.html`, `paper/review_en.docx`
+- Koreanischer Rezensionsentwurf: `paper/review_ko.html`
+- Kurationsmethode: `paper/curation_method.md`, `paper/curation_method.html`
 
-## Keywords Convention
+## Schlüsselwortkonvention
 
-These badges define the BCI keyword tags used to read and extend this collection.
+Diese Abzeichen definieren die BCI-Schlüsselwort-Tags, die zum Lesen und Erweitern dieser Sammlung verwendet werden.
 
-- ![invasive](https://img.shields.io/badge/keyword-invasive-2563eb) **invasive**: Implanted or intracranial neural interfaces, including ECoG and intracortical recordings.
-- ![non-invasive](https://img.shields.io/badge/keyword-non--invasive-0f766e) **non-invasive**: External sensing interfaces such as EEG, MEG, fNIRS, or fMRI.
-- ![human](https://img.shields.io/badge/keyword-human-f59e0b) **human**: Studies using human participants, patients, or volunteers.
-- ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) **non-human**: Animal, simulation, or non-human experimental settings.
-- ![SMR](https://img.shields.io/badge/keyword-SMR-dc2626) **SMR**: Sensorimotor rhythm, ERD/ERS, or motor-imagery control paradigms.
-- ![SSVEP](https://img.shields.io/badge/keyword-SSVEP-7c3aed) **SSVEP**: Steady-state visual evoked potential paradigms.
-- ![P300](https://img.shields.io/badge/keyword-P300-be123c) **P300**: P300 or event-related-potential speller paradigms.
-- ![arm-direction](https://img.shields.io/badge/keyword-arm--direction-0891b2) **arm-direction**: Arm, hand, reach, or directional movement decoding/control.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![invasiv](https://img.shields.io/badge/keyword-invasive-2563eb) **invasiv**: Implantierte oder intrakranielle neuronale Schnittstellen, einschließlich ECoG und intrakortikale Aufzeichnungen.
+- ![nicht-invasiv](https://img.shields.io/badge/keyword-non--invasive-0f766e) **nicht-invasiv**: Externe Sensorschnittstellen wie EEG, MEG, fNIRS oder fMRI.
+- ![human](https://img.shields.io/badge/keyword-human-f59e0b) **human**: Studien mit menschlichen Teilnehmern, Patienten oder Freiwilligen.
+- ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) **non-human**: Tier-, Simulations- oder nicht-menschliche Versuchsumgebungen.
+- ![SMR](https://img.shields.io/badge/keyword-SMR-dc2626) **SMR**: Sensomotorischer Rhythmus, ERD/ERS oder motorische Bildkontrollparadigmen.
+- ![SSVEP](https://img.shields.io/badge/keyword-SSVEP-7c3aed) **SSVEP**: Steady-State-visuell hervorgerufene potenzielle Paradigmen.
+- ![P300](https://img.shields.io/badge/keyword-P300-be123c) **P300**: P300 oder ereignisbezogene Rechtschreibparadigmen.
+- ![arm-direction](https://img.shields.io/badge/keyword-arm--direction-0891b2) **arm-direction**: Arm-, Hand-, Reichweiten- oder Richtungsbewegungsdekodierung/-steuerung.
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Artikel mit einem offiziellen GitHub- oder Code-Repository-Link, der im Metadaten-Audit identifiziert wurde.
 
-## Taxonomy Overview
+## Übersicht über die Taxonomie
 
-- **Total selected papers**: 2,447 papers
-- **Motor Imagery and Movement Decoding**: 1050 papers
-- **General BCI Methods and Systems**: 425 papers
-- **SSVEP, P300, and ERP Spellers**: 391 papers
-- **EEG Signal Processing and Datasets**: 265 papers
-- **Invasive and Implantable Interfaces**: 135 papers
-- **Rehabilitation and Neuroprosthetics**: 87 papers
-- **Hybrid, Affective, and Closed-loop BCIs**: 32 papers
-- **Speech, Language, and Communication BCIs**: 31 papers
-- **Deep Learning and Representation Learning**: 31 papers
+- **Gesamtzahl der ausgewählten Beiträge**: 2.447 Beiträge
+- **Motorische Bilder und Bewegungsdekodierung**: 1050 Artikel
+- **Allgemeine BCI-Methoden und -Systeme**: 425 Artikel
+- **SSVEP-, P300- und ERP-Rechtschreibprüfung**: 391 Artikel
+- **EEG-Signalverarbeitung und Datensätze**: 265 Artikel
+- **Invasive und implantierbare Schnittstellen**: 135 Artikel
+- **Rehabilitation und Neuroprothetik**: 87 Artikel
+- **Hybride, affektive und geschlossene BCIs**: 32 Artikel
+- **Sprach-, Sprach- und Kommunikations-BCIs**: 31 Artikel
+- **Deep Learning und Representation Learning**: 31 Artikel
 
-## Taxonomy Collections
+## Taxonomiesammlungen
 
-### Motor Imagery and Movement Decoding
+### Motorische Bilder und Bewegungsdekodierung
 
-- Papers selected: **1050**
-- Years covered: **2000-2026**
-- Citation count in selected set: **130,164**
-- Category Overview (main research trends):
-  - The field is moving from subject-specific pipelines toward cross-subject, calibration-light, and transfer-learning decoders for EEG motor imagery.
-  - Deep CNN, temporal convolution, graph, attention, and large EEG representation models are increasingly used to improve robustness under noisy and low-data conditions.
-  - Application work is expanding from binary hand imagery toward gait, lower-limb control, soft robotics, virtual feedback, and rehabilitation-oriented closed-loop use.
-- Limitations:
-  - Cross-subject and cross-session variability still limits real-world robustness, especially when calibration time is short.
-  - Many high-scoring methods remain validated on offline datasets rather than sustained closed-loop control or clinical rehabilitation outcomes.
-  - Citation-ranked lists can favor mature EEG motor imagery pipelines over newer low-citation work on multimodal movement decoding.
+- Ausgewählte Papiere: **1050**
+- Abgedeckte Jahre: **2000-2026**
+- Anzahl der Zitate im ausgewählten Satz: **130.164**
+- Kategorieübersicht (wichtigste Forschungstrends):
+  - Das Feld bewegt sich von fachspezifischen Pipelines hin zu themenübergreifenden, Kalibrierungslicht- und Transfer-Learning-Decodern für EEG-Motorbilder.
+  - Deep CNN-, zeitliche Faltungs-, Diagramm-, Aufmerksamkeits- und große EEG-Darstellungsmodelle werden zunehmend verwendet, um die Robustheit unter verrauschten und datenarmen Bedingungen zu verbessern.
+  - Die Anwendungsarbeit weitet sich von binären Handbildern hin zu Gang, Kontrolle der unteren Gliedmaßen, Soft-Robotik, virtuellem Feedback und rehabilitierungsorientiertem Closed-Loop-Einsatz.
+- Einschränkungen:
+  - Die subjekt- und sitzungsübergreifende Variabilität schränkt die Robustheit in der Praxis immer noch ein, insbesondere wenn die Kalibrierungszeit kurz ist.
+  - Viele Highscore-Methoden bleiben anhand von Offline-Datensätzen validiert und nicht anhand einer kontinuierlichen Regelung oder klinischen Rehabilitationsergebnissen.
+  - Listen mit Zitierrang können ausgereifte EEG-Motorbild-Pipelines gegenüber neueren, wenig zitierten Arbeiten zur multimodalen Bewegungsdekodierung bevorzugen.
 
 <details>
 <summary><strong>Show representative papers for Motor Imagery and Movement Decoding</strong></summary>
@@ -382,19 +382,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### General BCI Methods and Systems
+### Allgemeine BCI-Methoden und -Systeme
 
-- Papers selected: **425**
-- Years covered: **2000-2026**
-- Citation count in selected set: **55,190**
-- Category Overview (main research trends):
-  - General BCI work is consolidating definitions, system architectures, evaluation principles, and long-term challenges across invasive and non-invasive approaches.
-  - Recent surveys increasingly emphasize translation, usability, ethics, safety, reproducibility, and the gap between laboratory performance and real-world use.
-  - This area functions as the conceptual bridge between signal processing, neural engineering, clinical deployment, and human-centered design.
-- Limitations:
-  - Survey and system papers can dominate citation-ranked views while obscuring smaller empirical advances.
-  - Evaluation language remains inconsistent across paradigms, making taxonomy boundaries imperfect.
-  - Broad system claims often need stronger protocol-level reproducibility checks and real-world usability validation.
+- Ausgewählte Papiere: **425**
+- Abgedeckte Jahre: **2000-2026**
+- Zitatanzahl im ausgewählten Satz: **55.190**
+- Kategorieübersicht (wichtigste Forschungstrends):
+  - Die allgemeine BCI-Arbeit konsolidiert Definitionen, Systemarchitekturen, Bewertungsprinzipien und langfristige Herausforderungen über invasive und nicht-invasive Ansätze hinweg.
+  - Aktuelle Umfragen betonen zunehmend Übersetzung, Benutzerfreundlichkeit, Ethik, Sicherheit, Reproduzierbarkeit und die Kluft zwischen Laborleistung und realer Nutzung.
+  - Dieser Bereich fungiert als konzeptionelle Brücke zwischen Signalverarbeitung, neuronaler Technik, klinischem Einsatz und menschenzentriertem Design.
+- Einschränkungen:
+  - Umfrage- und Systemarbeiten können die nach Zitaten geordneten Ansichten dominieren und gleichzeitig kleinere empirische Fortschritte verdecken.
+  - Die Bewertungssprache bleibt paradigmenübergreifend inkonsistent, was dazu führt, dass die Taxonomiegrenzen unvollkommen sind.
+  - Umfassende Systemansprüche erfordern häufig strengere Reproduzierbarkeitsprüfungen auf Protokollebene und eine Validierung der Benutzerfreundlichkeit in der Praxis.
 
 <details>
 <summary><strong>Show representative papers for General BCI Methods and Systems</strong></summary>
@@ -699,19 +699,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### SSVEP, P300, and ERP Spellers
+### SSVEP-, P300- und ERP-Rechtschreibprüfungen
 
-- Papers selected: **391**
-- Years covered: **2000-2026**
-- Citation count in selected set: **52,869**
-- Category Overview (main research trends):
-  - Research is concentrating on high-speed, many-target communication systems with lower calibration burden and more stable target recognition.
-  - Training-free and adaptive spatial filtering, task-discriminant component analysis, and deep neural decoders are prominent directions for SSVEP/P300 reliability.
-  - Hybrid paradigms that combine SSVEP, P300, RSVP, EOG, or augmented/virtual reality interfaces are becoming a practical route to richer command sets.
-- Limitations:
-  - Visual fatigue, gaze dependence, and stimulus comfort remain practical barriers for long-duration communication use.
-  - High-speed results often depend on controlled displays, known target layouts, and calibration conditions that may not transfer to daily use.
-  - Hybrid paradigms improve command diversity but add setup complexity and make fair benchmarking harder.
+- Ausgewählte Beiträge: **391**
+- Abgedeckte Jahre: **2000-2026**
+- Anzahl der Zitate im ausgewählten Satz: **52.869**
+- Kategorieübersicht (wichtigste Forschungstrends):
+  - Die Forschung konzentriert sich auf Hochgeschwindigkeits-Kommunikationssysteme für viele Ziele mit geringerem Kalibrierungsaufwand und stabilerer Zielerkennung.
+  - Trainingsfreie und adaptive räumliche Filterung, aufgabendiskriminierende Komponentenanalyse und tiefe neuronale Decoder sind wichtige Richtungen für die SSVEP/P300-Zuverlässigkeit.
+  - Hybride Paradigmen, die SSVEP-, P300-, RSVP-, EOG- oder Augmented-/Virtual-Reality-Schnittstellen kombinieren, werden zu einem praktischen Weg zu umfangreicheren Befehlssätzen.
+- Einschränkungen:
+  - Visuelle Ermüdung, Blickabhängigkeit und Reizkomfort bleiben praktische Hindernisse für die langfristige Nutzung von Kommunikation.
+  - Hochgeschwindigkeitsergebnisse hängen oft von kontrollierten Anzeigen, bekannten Ziellayouts und Kalibrierungsbedingungen ab, die sich möglicherweise nicht auf den täglichen Gebrauch übertragen lassen.
+  - Hybride Paradigmen verbessern die Befehlsvielfalt, erhöhen jedoch die Setup-Komplexität und erschweren ein faires Benchmarking.
 
 <details>
 <summary><strong>Show representative papers for SSVEP, P300, and ERP Spellers</strong></summary>
@@ -1016,19 +1016,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### EEG Signal Processing and Datasets
+### EEG-Signalverarbeitung und Datensätze
 
-- Papers selected: **265**
-- Years covered: **2000-2026**
-- Citation count in selected set: **28,640**
-- Category Overview (main research trends):
-  - This taxonomy emphasizes reproducible preprocessing, artifact handling, channel selection, spatial filtering, and benchmark datasets for EEG-based BCI.
-  - The field is gradually shifting from isolated algorithm papers toward shared datasets, standardized evaluation, and metadata-aware comparisons.
-  - Hybrid EEG/fNIRS, transfer learning, and open benchmark resources are recurring themes for improving generalization and clinical relevance.
-- Limitations:
-  - Benchmark datasets vary widely in task design, sensors, preprocessing, and participant populations.
-  - Artifact handling, channel selection, and evaluation protocols are not standardized enough for simple leaderboard-style comparison.
-  - Participant counts, trial structure, hardware, and licensing differences can limit reproducible reuse across laboratories.
+- Ausgewählte Papiere: **265**
+- Abgedeckte Jahre: **2000-2026**
+- Anzahl der Zitate im ausgewählten Satz: **28.640**
+- Kategorieübersicht (wichtigste Forschungstrends):
+  - Diese Taxonomie legt den Schwerpunkt auf reproduzierbare Vorverarbeitung, Artefakthandhabung, Kanalauswahl, räumliche Filterung und Benchmark-Datensätze für EEG-basiertes BCI.
+  - Das Feld verlagert sich allmählich von isolierten Algorithmenpapieren hin zu gemeinsam genutzten Datensätzen, standardisierten Auswertungen und metadatenbewussten Vergleichen.
+  - Hybrides EEG/fNIRS, Transferlernen und offene Benchmark-Ressourcen sind wiederkehrende Themen zur Verbesserung der Generalisierung und klinischen Relevanz.
+- Einschränkungen:
+  - Benchmark-Datensätze variieren stark in Bezug auf Aufgabendesign, Sensoren, Vorverarbeitung und Teilnehmerpopulationen.
+  - Artefakthandling, Kanalauswahl und Bewertungsprotokolle sind für einen einfachen Vergleich im Leaderboard-Stil nicht ausreichend standardisiert.
+  - Teilnehmerzahlen, Versuchsstruktur, Hardware und Lizenzunterschiede können die reproduzierbare Wiederverwendung in verschiedenen Laboren einschränken.
 
 <details>
 <summary><strong>Show representative papers for EEG Signal Processing and Datasets</strong></summary>
@@ -1333,19 +1333,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Invasive and Implantable Interfaces
+### Invasive und implantierbare Schnittstellen
 
-- Papers selected: **135**
-- Years covered: **2003-2026**
-- Citation count in selected set: **14,406**
-- Category Overview (main research trends):
-  - Invasive BCI research is shifting toward high-bandwidth, stable, long-term decoding for movement, communication, and sensory feedback.
-  - Key engineering themes include wireless operation, power efficiency, signal longevity, surgical risk, and reliability outside tightly controlled laboratory sessions.
-  - Clinical translation is increasingly tied to home use, user safety, tactile feedback, speech decoding, and realistic functional tasks.
-- Limitations:
-  - Surgical risk, long-term signal stability, device maintenance, and participant burden remain major translation barriers.
-  - Many studies involve small cohorts or case reports, so headline performance can be difficult to generalize.
-  - Home deployment, cybersecurity, informed consent, explantation, and support infrastructure remain difficult to evaluate consistently.
+- Ausgewählte Papiere: **135**
+- Abgedeckte Jahre: **2003-2026**
+- Anzahl der Zitate im ausgewählten Satz: **14.406**
+- Kategorieübersicht (wichtigste Forschungstrends):
+  - Die invasive BCI-Forschung verlagert sich in Richtung einer stabilen Langzeitdekodierung mit hoher Bandbreite für Bewegung, Kommunikation und sensorisches Feedback.
+  - Zu den wichtigsten technischen Themen gehören drahtloser Betrieb, Energieeffizienz, Signallebensdauer, chirurgisches Risiko und Zuverlässigkeit außerhalb streng kontrollierter Laborsitzungen.
+  - Klinische Übersetzung ist zunehmend an den Heimgebrauch, die Benutzersicherheit, taktiles Feedback, Sprachdekodierung und realistische Funktionsaufgaben gebunden.
+- Einschränkungen:
+  - Das chirurgische Risiko, die langfristige Signalstabilität, die Gerätewartung und die Belastung der Teilnehmer bleiben die größten Hindernisse für die Umsetzung.
+  - Viele Studien beziehen sich auf kleine Kohorten oder Fallberichte, daher kann es schwierig sein, die Schlagzeilenleistung zu verallgemeinern.
+  - Heimeinsatz, Cybersicherheit, Einwilligung nach Aufklärung, Explantation und Unterstützungsinfrastruktur sind nach wie vor schwer konsistent zu bewerten.
 
 <details>
 <summary><strong>Show representative papers for Invasive and Implantable Interfaces</strong></summary>
@@ -1650,19 +1650,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Rehabilitation and Neuroprosthetics
+### Rehabilitation und Neuroprothetik
 
-- Papers selected: **87**
-- Years covered: **2000-2026**
-- Citation count in selected set: **11,970**
-- Category Overview (main research trends):
-  - The dominant trend is integration of BCI with robotic gloves, exoskeletons, FES, VR, and task-oriented therapy for post-stroke and motor impairment rehabilitation.
-  - Studies increasingly ask whether BCI training transfers to activities of daily living rather than only improving offline decoding accuracy.
-  - Recent work points toward home-use, patient-centered protocols, multimodal feedback, and combined motor-cognitive-affective rehabilitation.
-- Limitations:
-  - Clinical evidence is often fragmented across small cohorts, heterogeneous protocols, and short follow-up windows.
-  - Improvements in decoder accuracy or therapy-session metrics do not always demonstrate transfer to activities of daily living.
-  - Patient selection, therapist involvement, adverse-event reporting, and outcome measures vary enough to limit direct comparison.
+- Ausgewählte Papiere: **87**
+- Abgedeckte Jahre: **2000-2026**
+- Anzahl der Zitate im ausgewählten Satz: **11.970**
+- Kategorieübersicht (wichtigste Forschungstrends):
+  - Der vorherrschende Trend ist die Integration von BCI mit Roboterhandschuhen, Exoskeletten, FES, VR und aufgabenorientierter Therapie für die Rehabilitation nach Schlaganfall und motorischen Beeinträchtigungen.
+  - In Studien wird zunehmend gefragt, ob sich BCI-Training auf Aktivitäten des täglichen Lebens übertragen lässt und nicht nur die Genauigkeit der Offline-Dekodierung verbessert.
+  - Aktuelle Arbeiten konzentrieren sich auf den Heimgebrauch, patientenzentrierte Protokolle, multimodales Feedback und eine kombinierte motorisch-kognitiv-affektive Rehabilitation.
+- Einschränkungen:
+  - Klinische Beweise sind oft fragmentiert und über kleine Kohorten, heterogene Protokolle und kurze Nachbeobachtungsfenster verteilt.
+  - Verbesserungen der Decodergenauigkeit oder der Therapiesitzungsmetriken zeigen nicht immer eine Übertragung auf Aktivitäten des täglichen Lebens.
+  - Patientenauswahl, Einbeziehung des Therapeuten, Meldung unerwünschter Ereignisse und Ergebnismessungen variieren so stark, dass ein direkter Vergleich eingeschränkt wird.
 
 <details>
 <summary><strong>Show representative papers for Rehabilitation and Neuroprosthetics</strong></summary>
@@ -1967,19 +1967,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Hybrid, Affective, and Closed-loop BCIs
+### Hybride, affektive und geschlossene BCIs
 
-- Papers selected: **32**
-- Years covered: **2001-2026**
-- Citation count in selected set: **3,471**
-- Category Overview (main research trends):
-  - Hybrid BCI combines multiple signals or paradigms to improve reliability, command diversity, and asynchronous control.
-  - Closed-loop and neurofeedback work is increasingly focused on user adaptation, mental-state awareness, fatigue, affect, and training protocols.
-  - The trend is toward systems that adapt to the user over time rather than treating decoding as a one-shot offline classification problem.
-- Limitations:
-  - Combining paradigms can improve reliability but increases calibration, hardware, and user workload.
-  - Closed-loop adaptation is hard to evaluate because user learning, fatigue, and affect change during use.
-  - Longitudinal real-world studies remain scarce, so durability and user acceptance are not well captured.
+- Ausgewählte Papiere: **32**
+- Abgedeckte Jahre: **2001-2026**
+- Anzahl der Zitate im ausgewählten Satz: **3.471**
+- Kategorieübersicht (wichtigste Forschungstrends):
+  - Hybrid-BCI kombiniert mehrere Signale oder Paradigmen, um Zuverlässigkeit, Befehlsvielfalt und asynchrone Steuerung zu verbessern.
+  - Closed-Loop- und Neurofeedback-Arbeiten konzentrieren sich zunehmend auf Benutzeranpassung, Bewusstsein für den mentalen Zustand, Müdigkeit, Affekt und Trainingsprotokolle.
+  - Der Trend geht zu Systemen, die sich im Laufe der Zeit an den Benutzer anpassen, anstatt die Dekodierung als einmaliges Offline-Klassifizierungsproblem zu behandeln.
+- Einschränkungen:
+  - Die Kombination von Paradigmen kann die Zuverlässigkeit verbessern, erhöht jedoch die Kalibrierung, die Hardware und die Arbeitsbelastung der Benutzer.
+  - Die Anpassung im geschlossenen Regelkreis ist schwer zu bewerten, da sich das Lernen, die Ermüdung und die Auswirkungen des Benutzers während der Nutzung ändern.
+  - Längsschnittstudien aus der realen Welt sind nach wie vor rar, sodass Haltbarkeit und Benutzerakzeptanz nicht gut erfasst werden.
 
 <details>
 <summary><strong>Show representative papers for Hybrid, Affective, and Closed-loop BCIs</strong></summary>
@@ -2284,19 +2284,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Speech, Language, and Communication BCIs
+### BCIs für Sprache, Sprache und Kommunikation
 
-- Papers selected: **31**
-- Years covered: **2002-2024**
-- Citation count in selected set: **11,096**
-- Category Overview (main research trends):
-  - Communication BCI is expanding from spelling paradigms toward imagined speech, decoded language, and higher-bandwidth text production.
-  - Both invasive and non-invasive studies are exploring more naturalistic communication, including speech motor cortex decoding and inner-speech EEG datasets.
-  - The central challenge remains preserving accuracy, latency, vocabulary size, and user autonomy in real-world assistive communication.
-- Limitations:
-  - Vocabulary size, latency, privacy, and user autonomy remain difficult to balance in practical assistive communication.
-  - The strongest decoding results often rely on invasive recordings or carefully constrained tasks with limited participant diversity.
-  - Non-invasive imagined-speech datasets are still comparatively small and hard to evaluate consistently.
+- Ausgewählte Papiere: **31**
+- Abgedeckte Jahre: **2002-2024**
+- Zitatanzahl im ausgewählten Satz: **11.096**
+- Kategorieübersicht (wichtigste Forschungstrends):
+  - Kommunikation BCI erweitert sich von Rechtschreibparadigmen hin zu imaginärer Sprache, dekodierter Sprache und Textproduktion mit höherer Bandbreite.
+  - Sowohl invasive als auch nicht-invasive Studien erforschen eine naturalistischere Kommunikation, einschließlich der Dekodierung des sprachmotorischen Kortex und EEG-Datensätze zur inneren Sprache.
+  - Die zentrale Herausforderung bleibt die Wahrung von Genauigkeit, Latenz, Wortschatzgröße und Benutzerautonomie in der realen unterstützenden Kommunikation.
+- Einschränkungen:
+  - Vokabulargröße, Latenz, Privatsphäre und Benutzerautonomie sind in der praktischen unterstützenden Kommunikation nach wie vor schwer auszubalancieren.
+  - Die stärksten Dekodierungsergebnisse beruhen häufig auf invasiven Aufzeichnungen oder sorgfältig eingeschränkten Aufgaben mit begrenzter Teilnehmervielfalt.
+  - Nicht-invasive Datensätze zu imaginärer Sprache sind immer noch vergleichsweise klein und schwer konsistent auszuwerten.
 
 <details>
 <summary><strong>Show representative papers for Speech, Language, and Communication BCIs</strong></summary>
@@ -2601,19 +2601,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Deep Learning and Representation Learning
+### Deep Learning und Repräsentationslernen
 
-- Papers selected: **31**
-- Years covered: **2015-2026**
-- Citation count in selected set: **3,158**
-- Category Overview (main research trends):
-  - Deep learning work is moving beyond single-dataset CNN classifiers toward temporal, spectral, graph, transformer, and attention-based architectures.
-  - A major trend is representation learning that can transfer across users, sessions, headsets, and BCI paradigms with less subject-specific calibration.
-  - Interpretability, uncertainty, robustness to artifacts, and benchmark comparability are becoming as important as peak classification accuracy.
-- Limitations:
-  - Performance can be inflated by dataset leakage, weak cross-subject splits, or inconsistent preprocessing across benchmarks.
-  - Large models often improve accuracy while reducing interpretability, uncertainty awareness, and clinical trust.
-  - Low-data and noisy-session robustness remains unresolved for many architectures outside curated datasets.
+- Ausgewählte Papiere: **31**
+- Abgedeckte Jahre: **2015–2026**
+- Anzahl der Zitate im ausgewählten Satz: **3.158**
+- Kategorieübersicht (wichtigste Forschungstrends):
+  - Die Deep-Learning-Arbeit geht über die CNN-Klassifikatoren für einzelne Datensätze hinaus und hin zu zeitlichen, spektralen, graphischen, transformatorischen und aufmerksamkeitsbasierten Architekturen.
+  - Ein wichtiger Trend ist das Repräsentationslernen, das sich mit weniger fachspezifischer Kalibrierung auf Benutzer, Sitzungen, Headsets und BCI-Paradigmen übertragen lässt.
+  - Interpretierbarkeit, Unsicherheit, Robustheit gegenüber Artefakten und Benchmark-Vergleichbarkeit werden ebenso wichtig wie die Spitzenklassifizierungsgenauigkeit.
+- Einschränkungen:
+  - Die Leistung kann durch Datensatzlecks, schwache themenübergreifende Aufteilungen oder inkonsistente Vorverarbeitung über Benchmarks hinweg erhöht werden.
+  - Große Modelle verbessern häufig die Genauigkeit und verringern gleichzeitig die Interpretierbarkeit, das Unsicherheitsbewusstsein und das klinische Vertrauen.
+  - Für viele Architekturen außerhalb kuratierter Datensätze bleibt die Robustheit bei geringem Datenvolumen und lauten Sitzungen ungelöst.
 
 <details>
 <summary><strong>Show representative papers for Deep Learning and Representation Learning</strong></summary>
@@ -2918,7 +2918,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-## Yearly Coverage
+## Jährlicher Versicherungsschutz
 
 | Year | Selected papers | Citation count | Top paper |
 | ---: | ---: | ---: | --- |
@@ -2949,16 +2949,16 @@ These badges define the BCI keyword tags used to read and extend this collection
 | 2024 | 100 | 4,231 | [Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI](https://doi.org/10.48550/arxiv.2405.18765) |
 | 2025 | 100 | 1,787 | [Recent applications of EEG-based brain-computer-interface in the medical field](https://doi.org/10.1186/s40779-025-00598-z) |
 | 2026 | 100 | 170 | [EEG Foundation Models: Progresses, Benchmarking, and Open Problems](https://doi.org/10.48550/arxiv.2601.17883) |
-## Method
+## Methode
 
-The collection uses Semantic Scholar's Academic Graph paper search. Queries combine broad BCI terms and common subfields, results are filtered to the target publication year, relevance-filtered by BCI terms in title/abstract, deduplicated by DOI/arXiv/PubMed/CorpusId/paperId, and reduced to a maximum of 500 candidates per year. Importance scoring is retained for candidate auditing and combines log-scaled citation count, log-scaled influential citation count, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive/high-bandwidth interfaces, and modern ML methods. The final awesome list selects the top 100 papers per year by citation count from the audited candidate pool.
+Die Sammlung nutzt die Academic Graph Paper-Suche von Semantic Scholar. Abfragen kombinieren breite BCI-Begriffe und gemeinsame Unterfelder. Die Ergebnisse werden nach dem Zielveröffentlichungsjahr gefiltert, nach BCI-Begriffen im Titel/Abstract nach Relevanz gefiltert, nach DOI/arXiv/PubMed/CorpusId/paperId dedupliziert und auf maximal 500 Kandidaten pro Jahr reduziert. Die Wichtigkeitsbewertung wird für die Prüfung von Kandidaten beibehalten und kombiniert eine logarithmisch skalierte Anzahl von Zitaten, eine logarithmisch skalierte Anzahl einflussreicher Zitate, erkannte Veranstaltungsortsignale, BCI-Relevanz-Term-Dichte und Boni für Bewertungen/Umfragen, Datensätze/Benchmarks, klinische oder Rehabilitationsrelevanz, invasive Schnittstellen/Schnittstellen mit hoher Bandbreite und moderne ML-Methoden. Die abschließende fantastische Liste wählt aus dem geprüften Kandidatenpool die 100 besten Arbeiten pro Jahr nach Anzahl der Zitate aus.
 
-## Caveats
+## Vorbehalte
 
-- Citation counts favor older papers and may under-rank recent 2026 work.
-- Metadata search is not equivalent to a full systematic review of PDFs.
-- Some venues and publication dates are missing in upstream metadata.
+- Die Zitationszahlen begünstigen ältere Arbeiten und könnten neuere Arbeiten aus dem Jahr 2026 unterbewerten.
+- Die Metadatensuche ist nicht gleichbedeutend mit einer vollständigen systematischen Überprüfung von PDFs.
+- Einige Veranstaltungsorte und Veröffentlichungsdaten fehlen in den Upstream-Metadaten.
 
-## Acknowledgements
+## Danksagungen
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+Dieses Repository und die interaktive Website wurden mit Dank an [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) erstellt. Der Arbeitsablauf bei der Papierkuration und die Repository-Organisation prägten den hier verwendeten Ansatz für eine Taxonomie-First-Forschungskarte mit Zitierrang.

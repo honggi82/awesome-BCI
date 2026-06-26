@@ -1,7 +1,7 @@
-# Awesome BCI
+# 很棒的脑机接口
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) research.
+最近脑机接口 (BCI) 研究的分类优先、引文排名的地图。
 
 <p align="center">
   <a href="https://honggi82.github.io/awesome-BCI/">
@@ -10,7 +10,7 @@ A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) r
 </p>
 
 <div align="center">
-  <a href="README.md"><strong>English</strong></a> |
+  <a href="README.md">English</a> |
   <a href="README.de.md">Deutsch</a> |
   <a href="README.es.md">Español</a> |
   <a href="README.fr.md">français</a> |
@@ -18,66 +18,66 @@ A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) r
   <a href="README.ko.md">한국어</a> |
   <a href="README.pt.md">Português</a> |
   <a href="README.ru.md">Русский</a> |
-  <a href="README.zh.md">中文</a>
+  <a href="README.zh.md"><strong>中文</strong></a>
 </div>
 
-> Browse the full interactive taxonomy site with period, language, keyword, chart, and paper-card filters: https://honggi82.github.io/awesome-BCI/
+> 浏览带有时期、语言、关键字、图表和纸卡过滤器的完整交互式分类网站：https://honggi82.github.io/awesome-BCI/
 
-Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
+由免费公共语义学者元数据于 2026 年 6 月 27 日生成。当前版本每年调查 2000-2026 年多达 500 篇 BCI 相关候选论文，保留经过审核的候选论文库，每年根据引用次数选择前 100 篇论文，并根据研究分类重新组织最终的 2,447 篇论文。
 
-## Project Links
+## 项目链接
 
-- Website: https://honggi82.github.io/awesome-BCI/
-- Selected dataset: `data/papers_2000_2026.csv`
-- Taxonomy dataset with paper-level ideas, strengths, and limitations: `data/papers_taxonomy_2000_2026.csv`
-- Precomputed period and language analysis: `data/period_analysis_2000_2026.json`
-- Candidate pool: `data/candidates_top500_2000_2026.csv`
-- English review draft: `paper/review_en.html`, `paper/review_en.docx`
-- Korean review draft: `paper/review_ko.html`
-- Curation method: `paper/curation_method.md`, `paper/curation_method.html`
+- 网址：https://honggi82.github.io/awesome-BCI/
+- 选定的数据集：`data/papers_2000_2026.csv`
+- 具有论文级想法、优点和局限性的分类数据集：`data/papers_taxonomy_2000_2026.csv`
+- 预计算周期和语言分析：`data/period_analysis_2000_2026.json`
+- 候选池：`data/candidates_top500_2000_2026.csv`
+- 英文审稿稿：`paper/review_en.html`、`paper/review_en.docx`
+- 韩国审稿：`paper/review_ko.html`
+- 策展方式：`paper/curation_method.md`、`paper/curation_method.html`
 
-## Keywords Convention
+## 关键词约定
 
-These badges define the BCI keyword tags used to read and extend this collection.
+这些徽章定义了用于读取和扩展此集合的 BCI 关键字标签。
 
-- ![invasive](https://img.shields.io/badge/keyword-invasive-2563eb) **invasive**: Implanted or intracranial neural interfaces, including ECoG and intracortical recordings.
-- ![non-invasive](https://img.shields.io/badge/keyword-non--invasive-0f766e) **non-invasive**: External sensing interfaces such as EEG, MEG, fNIRS, or fMRI.
-- ![human](https://img.shields.io/badge/keyword-human-f59e0b) **human**: Studies using human participants, patients, or volunteers.
-- ![non-human](https://img.shields.io/badge/keyword-non--human-a855f7) **non-human**: Animal, simulation, or non-human experimental settings.
-- ![SMR](https://img.shields.io/badge/keyword-SMR-dc2626) **SMR**: Sensorimotor rhythm, ERD/ERS, or motor-imagery control paradigms.
-- ![SSVEP](https://img.shields.io/badge/keyword-SSVEP-7c3aed) **SSVEP**: Steady-state visual evoked potential paradigms.
-- ![P300](https://img.shields.io/badge/keyword-P300-be123c) **P300**: P300 or event-related-potential speller paradigms.
-- ![arm-direction](https://img.shields.io/badge/keyword-arm--direction-0891b2) **arm-direction**: Arm, hand, reach, or directional movement decoding/control.
-- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**: Papers with an official GitHub or code repository link identified in the metadata audit.
+- ![侵入性](https://img.shields.io/badge/keyword-invasive-2563eb) **侵入性**：植入或颅内神经接口，包括 ECoG 和皮质内记录。
+- ![非侵入式](https://img.shields.io/badge/keyword-non--invasive-0f766e) **非侵入式**：外部传感接口，例如 EEG、MEG、fNIRS 或 fMRI。
+- ![人类](https://img.shields.io/badge/keyword-human-f59e0b) **人类**：使用人类参与者、患者或志愿者的研究。
+- ![非人类](https://img.shields.io/badge/keyword-non--human-a855f7) **非人类**：动物、模拟或非人类实验设置。
+- ![SMR](https://img.shields.io/badge/keyword-SMR-dc2626) **SMR**：感觉运动节律、ERD/ERS 或运动想象控制范例。
+- ![SSVEP](https://img.shields.io/badge/keyword-SSVEP-7c3aed) **SSVEP**：稳态视觉诱发电位范例。
+- ![P300](https://img.shields.io/badge/keyword-P300-be123c) **P300**：P300 或事件相关的潜在拼写器范例。
+- ![arm-direction](https://img.shields.io/badge/keyword-arm--direction-0891b2) **arm-direction**：手臂、手、伸展或定向运动解码/控制。
+- ![github](https://img.shields.io/badge/keyword-github-24292f) **github**：在元数据审计中识别出具有官方 GitHub 或代码存储库链接的论文。
 
-## Taxonomy Overview
+## 分类概述
 
-- **Total selected papers**: 2,447 papers
-- **Motor Imagery and Movement Decoding**: 1050 papers
-- **General BCI Methods and Systems**: 425 papers
-- **SSVEP, P300, and ERP Spellers**: 391 papers
-- **EEG Signal Processing and Datasets**: 265 papers
-- **Invasive and Implantable Interfaces**: 135 papers
-- **Rehabilitation and Neuroprosthetics**: 87 papers
-- **Hybrid, Affective, and Closed-loop BCIs**: 32 papers
-- **Speech, Language, and Communication BCIs**: 31 papers
-- **Deep Learning and Representation Learning**: 31 papers
+- **所选论文总数**：2,447 篇论文
+- **运动意象和运动解码**：1050 篇论文
+- **通用 BCI 方法和系统**：425 篇论文
+- **SSVEP、P300 和 ERP Spellers**：391 篇论文
+- **脑电图信号处理和数据集**：265 篇论文
+- **侵入式和植入式接口**：135 篇论文
+- **康复和神经修复学**：87 篇论文
+- **混合、情感和闭环 BCI**：32 篇论文
+- **语音、语言和交流 BCI**：31 篇论文
+- **深度学习和表示学习**：31 篇论文
 
-## Taxonomy Collections
+## 分类学集合
 
-### Motor Imagery and Movement Decoding
+### 运动想象和运动解码
 
-- Papers selected: **1050**
-- Years covered: **2000-2026**
-- Citation count in selected set: **130,164**
-- Category Overview (main research trends):
-  - The field is moving from subject-specific pipelines toward cross-subject, calibration-light, and transfer-learning decoders for EEG motor imagery.
-  - Deep CNN, temporal convolution, graph, attention, and large EEG representation models are increasingly used to improve robustness under noisy and low-data conditions.
-  - Application work is expanding from binary hand imagery toward gait, lower-limb control, soft robotics, virtual feedback, and rehabilitation-oriented closed-loop use.
-- Limitations:
-  - Cross-subject and cross-session variability still limits real-world robustness, especially when calibration time is short.
-  - Many high-scoring methods remain validated on offline datasets rather than sustained closed-loop control or clinical rehabilitation outcomes.
-  - Citation-ranked lists can favor mature EEG motor imagery pipelines over newer low-citation work on multimodal movement decoding.
+- 所选论文： **1050**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**130,164**
+- 类别概述（主要研究趋势）：
+  - 该领域正在从特定于主题的管道转向脑电图运动想象的跨主题、校准光和迁移学习解码器。
+  - 深度 CNN、时间卷积、图、注意力和大型 EEG 表示模型越来越多地用于提高噪声和低数据条件下的鲁棒性。
+  - 应用工作正在从二进制手部图像扩展到步态、下肢控制、软机器人、虚拟反馈和面向康复的闭环使用。
+- 限制：
+  - 跨受试者和跨会话的变异性仍然限制了现实世界的鲁棒性，特别是当校准时间很短时。
+  - 许多高分方法仍然在离线数据集上得到验证，而不是持续的闭环控制或临床康复结果。
+  - 与多模态运动解码方面较新的低引用工作相比，引文排名列表可能有利于成熟的脑电图运动想象管道。
 
 <details>
 <summary><strong>Show representative papers for Motor Imagery and Movement Decoding</strong></summary>
@@ -382,19 +382,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### General BCI Methods and Systems
+### 通用 BCI 方法和系统
 
-- Papers selected: **425**
-- Years covered: **2000-2026**
-- Citation count in selected set: **55,190**
-- Category Overview (main research trends):
-  - General BCI work is consolidating definitions, system architectures, evaluation principles, and long-term challenges across invasive and non-invasive approaches.
-  - Recent surveys increasingly emphasize translation, usability, ethics, safety, reproducibility, and the gap between laboratory performance and real-world use.
-  - This area functions as the conceptual bridge between signal processing, neural engineering, clinical deployment, and human-centered design.
-- Limitations:
-  - Survey and system papers can dominate citation-ranked views while obscuring smaller empirical advances.
-  - Evaluation language remains inconsistent across paradigms, making taxonomy boundaries imperfect.
-  - Broad system claims often need stronger protocol-level reproducibility checks and real-world usability validation.
+- 所选论文：**425**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**55,190**
+- 类别概述（主要研究趋势）：
+  - BCI 的一般工作是整合侵入性和非侵入性方法的定义、系统架构、评估原则和长期挑战。
+  - 最近的调查越来越强调翻译、可用性、道德、安全性、可重复性以及实验室性能与实际使用之间的差距。
+  - 该领域充当信号处理、神经工程、临床部署和以人为本的设计之间的概念桥梁。
+- 限制：
+  - 调查和系统论文可以主导引文排名观点，同时掩盖较小的实证进展。
+  - 不同范式之间的评估语言仍然不一致，使得分类边界不完善。
+  - 广泛的系统声明通常需要更强大的协议级再现性检查和现实世界的可用性验证。
 
 <details>
 <summary><strong>Show representative papers for General BCI Methods and Systems</strong></summary>
@@ -699,19 +699,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### SSVEP, P300, and ERP Spellers
+### SSVEP、P300 和 ERP 拼写器
 
-- Papers selected: **391**
-- Years covered: **2000-2026**
-- Citation count in selected set: **52,869**
-- Category Overview (main research trends):
-  - Research is concentrating on high-speed, many-target communication systems with lower calibration burden and more stable target recognition.
-  - Training-free and adaptive spatial filtering, task-discriminant component analysis, and deep neural decoders are prominent directions for SSVEP/P300 reliability.
-  - Hybrid paradigms that combine SSVEP, P300, RSVP, EOG, or augmented/virtual reality interfaces are becoming a practical route to richer command sets.
-- Limitations:
-  - Visual fatigue, gaze dependence, and stimulus comfort remain practical barriers for long-duration communication use.
-  - High-speed results often depend on controlled displays, known target layouts, and calibration conditions that may not transfer to daily use.
-  - Hybrid paradigms improve command diversity but add setup complexity and make fair benchmarking harder.
+- 所选论文：**391**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**52,869**
+- 类别概述（主要研究趋势）：
+  - 研究重点是具有较低校准负担和更稳定目标识别的高速、多目标通信系统。
+  - 免训练和自适应空间过滤、任务判别成分分析和深度神经解码器是 SSVEP/P300 可靠性的突出方向。
+  - 结合了 SSVEP、P300、RSVP、EOG 或增强/虚拟现实接口的混合范例正在成为实现更丰富命令集的实用途径。
+- 限制：
+  - 视觉疲劳、凝视依赖和刺激舒适度仍然是长时间通信使用的实际障碍。
+  - 高速结果通常取决于受控显示器、已知目标布局以及可能无法转移到日常使用的校准条件。
+  - 混合范例提高了命令多样性，但增加了设置复杂性并使公平基准测试变得更加困难。
 
 <details>
 <summary><strong>Show representative papers for SSVEP, P300, and ERP Spellers</strong></summary>
@@ -1016,19 +1016,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### EEG Signal Processing and Datasets
+### 脑电图信号处理和数据集
 
-- Papers selected: **265**
-- Years covered: **2000-2026**
-- Citation count in selected set: **28,640**
-- Category Overview (main research trends):
-  - This taxonomy emphasizes reproducible preprocessing, artifact handling, channel selection, spatial filtering, and benchmark datasets for EEG-based BCI.
-  - The field is gradually shifting from isolated algorithm papers toward shared datasets, standardized evaluation, and metadata-aware comparisons.
-  - Hybrid EEG/fNIRS, transfer learning, and open benchmark resources are recurring themes for improving generalization and clinical relevance.
-- Limitations:
-  - Benchmark datasets vary widely in task design, sensors, preprocessing, and participant populations.
-  - Artifact handling, channel selection, and evaluation protocols are not standardized enough for simple leaderboard-style comparison.
-  - Participant counts, trial structure, hardware, and licensing differences can limit reproducible reuse across laboratories.
+- 所选论文： **265**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**28,640**
+- 类别概述（主要研究趋势）：
+  - 该分类法强调基于 EEG 的 BCI 的可重复预处理、伪影处理、通道选择、空间过滤和基准数据集。
+  - 该领域正逐渐从孤立的算法论文转向共享数据集、标准化评估和元数据感知比较。
+  - 混合 EEG/fNIRS、迁移学习和开放基准资源是提高泛化性和临床相关性的反复出现的主题。
+- 限制：
+  - 基准数据集在任务设计、传感器、预处理和参与者群体方面差异很大。
+  - 工件处理、通道选择和评估协议还不够标准化，无法进行简单的排行榜式比较。
+  - 参与者数量、试验结构、硬件和许可差异可能会限制实验室之间的重复使用。
 
 <details>
 <summary><strong>Show representative papers for EEG Signal Processing and Datasets</strong></summary>
@@ -1333,19 +1333,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Invasive and Implantable Interfaces
+### 侵入式和植入式接口
 
-- Papers selected: **135**
-- Years covered: **2003-2026**
-- Citation count in selected set: **14,406**
-- Category Overview (main research trends):
-  - Invasive BCI research is shifting toward high-bandwidth, stable, long-term decoding for movement, communication, and sensory feedback.
-  - Key engineering themes include wireless operation, power efficiency, signal longevity, surgical risk, and reliability outside tightly controlled laboratory sessions.
-  - Clinical translation is increasingly tied to home use, user safety, tactile feedback, speech decoding, and realistic functional tasks.
-- Limitations:
-  - Surgical risk, long-term signal stability, device maintenance, and participant burden remain major translation barriers.
-  - Many studies involve small cohorts or case reports, so headline performance can be difficult to generalize.
-  - Home deployment, cybersecurity, informed consent, explantation, and support infrastructure remain difficult to evaluate consistently.
+- 所选论文： **135**
+- 涵盖年份： **2003-2026**
+- 所选集中的引用计数：**14,406**
+- 类别概述（主要研究趋势）：
+  - 侵入式脑机接口研究正在转向高带宽、稳定、长期的运动、通信和感觉反馈解码。
+  - 关键工程主题包括无线操作、电源效率、信号寿命、手术风险以及严格控制的实验室会话之外的可靠性。
+  - 临床翻译越来越与家庭使用、用户安全、触觉反馈、语音解码和现实功能任务联系在一起。
+- 限制：
+  - 手术风险、长期信号稳定性、设备维护和参与者负担仍然是主要的翻译障碍。
+  - 许多研究涉及小群体或病例报告，因此总体表现可能很难概括。
+  - 家庭部署、网络安全、知情同意、移植和支持基础设施仍然难以一致评估。
 
 <details>
 <summary><strong>Show representative papers for Invasive and Implantable Interfaces</strong></summary>
@@ -1650,19 +1650,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Rehabilitation and Neuroprosthetics
+### 康复和神经修复学
 
-- Papers selected: **87**
-- Years covered: **2000-2026**
-- Citation count in selected set: **11,970**
-- Category Overview (main research trends):
-  - The dominant trend is integration of BCI with robotic gloves, exoskeletons, FES, VR, and task-oriented therapy for post-stroke and motor impairment rehabilitation.
-  - Studies increasingly ask whether BCI training transfers to activities of daily living rather than only improving offline decoding accuracy.
-  - Recent work points toward home-use, patient-centered protocols, multimodal feedback, and combined motor-cognitive-affective rehabilitation.
-- Limitations:
-  - Clinical evidence is often fragmented across small cohorts, heterogeneous protocols, and short follow-up windows.
-  - Improvements in decoder accuracy or therapy-session metrics do not always demonstrate transfer to activities of daily living.
-  - Patient selection, therapist involvement, adverse-event reporting, and outcome measures vary enough to limit direct comparison.
+- 所选论文：**87**
+- 涵盖年份： **2000-2026**
+- 所选集中的引用计数：**11,970**
+- 类别概述（主要研究趋势）：
+  - 主导趋势是将 BCI 与机器人手套、外骨骼、FES、VR 以及针对中风后和运动障碍康复的任务导向疗法相结合。
+  - 研究越来越多地询问 BCI 训练是否可以转移到日常生活活动中，而不仅仅是提高离线解码准确性。
+  - 最近的工作重点是家庭使用、以患者为中心的方案、多模式反馈以及运动-认知-情感联合康复。
+- 限制：
+  - 临床证据通常分散在小队列、异质方案和较短的随访窗口中。
+  - 解码器准确性或治疗会话指标的改进并不总是表明可以转移到日常生活活动中。
+  - 患者选择、治疗师参与、不良事件报告和结果测量的差异足以限制直接比较。
 
 <details>
 <summary><strong>Show representative papers for Rehabilitation and Neuroprosthetics</strong></summary>
@@ -1967,19 +1967,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Hybrid, Affective, and Closed-loop BCIs
+### 混合、情感和闭环 BCI
 
-- Papers selected: **32**
-- Years covered: **2001-2026**
-- Citation count in selected set: **3,471**
-- Category Overview (main research trends):
-  - Hybrid BCI combines multiple signals or paradigms to improve reliability, command diversity, and asynchronous control.
-  - Closed-loop and neurofeedback work is increasingly focused on user adaptation, mental-state awareness, fatigue, affect, and training protocols.
-  - The trend is toward systems that adapt to the user over time rather than treating decoding as a one-shot offline classification problem.
-- Limitations:
-  - Combining paradigms can improve reliability but increases calibration, hardware, and user workload.
-  - Closed-loop adaptation is hard to evaluate because user learning, fatigue, and affect change during use.
-  - Longitudinal real-world studies remain scarce, so durability and user acceptance are not well captured.
+- 所选论文：**32**
+- 涵盖年份： **2001-2026**
+- 所选集中的引用计数：**3,471**
+- 类别概述（主要研究趋势）：
+  - 混合 BCI 结合了多种信号或范例，以提高可靠性、命令多样性和异步控制。
+  - 闭环和神经反馈工作越来越关注用户适应、心理状态意识、疲劳、情感和训练协议。
+  - 趋势是系统随着时间的推移适应用户，而不是将解码视为一次性离线分类问题。
+- 限制：
+  - 组合范例可以提高可靠性，但会增加校准、硬件和用户工作量。
+  - 闭环适应很难评估，因为用户学习、疲劳以及影响使用过程中的变化。
+  - 纵向的现实世界研究仍然很少，因此耐久性和用户接受度没有得到很好的体现。
 
 <details>
 <summary><strong>Show representative papers for Hybrid, Affective, and Closed-loop BCIs</strong></summary>
@@ -2284,19 +2284,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Speech, Language, and Communication BCIs
+### 语音、语言和交流 BCI
 
-- Papers selected: **31**
-- Years covered: **2002-2024**
-- Citation count in selected set: **11,096**
-- Category Overview (main research trends):
-  - Communication BCI is expanding from spelling paradigms toward imagined speech, decoded language, and higher-bandwidth text production.
-  - Both invasive and non-invasive studies are exploring more naturalistic communication, including speech motor cortex decoding and inner-speech EEG datasets.
-  - The central challenge remains preserving accuracy, latency, vocabulary size, and user autonomy in real-world assistive communication.
-- Limitations:
-  - Vocabulary size, latency, privacy, and user autonomy remain difficult to balance in practical assistive communication.
-  - The strongest decoding results often rely on invasive recordings or carefully constrained tasks with limited participant diversity.
-  - Non-invasive imagined-speech datasets are still comparatively small and hard to evaluate consistently.
+- 所选论文：**31**
+- 涵盖年份： **2002-2024**
+- 所选集中的引用计数：**11,096**
+- 类别概述（主要研究趋势）：
+  - 通信 BCI 正在从拼写范式扩展到想象语音、解码语言和更高带宽的文本生成。
+  - 侵入性和非侵入性研究都在探索更自然的交流，包括语音运动皮层解码和内部语音脑电图数据集。
+  - 核心挑战仍然是在现实世界的辅助通信中保持准确性、延迟、词汇量和用户自主权。
+- 限制：
+  - 在实际的辅助通信中，词汇量、延迟、隐私和用户自主权仍然难以平衡。
+  - 最强的解码结果通常依赖于侵入性录音或参与者多样性有限的严格限制的任务。
+  - 非侵入性想象语音数据集仍然相对较小，很难进行一致的评估。
 
 <details>
 <summary><strong>Show representative papers for Speech, Language, and Communication BCIs</strong></summary>
@@ -2601,19 +2601,19 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-### Deep Learning and Representation Learning
+### 深度学习和表示学习
 
-- Papers selected: **31**
-- Years covered: **2015-2026**
-- Citation count in selected set: **3,158**
-- Category Overview (main research trends):
-  - Deep learning work is moving beyond single-dataset CNN classifiers toward temporal, spectral, graph, transformer, and attention-based architectures.
-  - A major trend is representation learning that can transfer across users, sessions, headsets, and BCI paradigms with less subject-specific calibration.
-  - Interpretability, uncertainty, robustness to artifacts, and benchmark comparability are becoming as important as peak classification accuracy.
-- Limitations:
-  - Performance can be inflated by dataset leakage, weak cross-subject splits, or inconsistent preprocessing across benchmarks.
-  - Large models often improve accuracy while reducing interpretability, uncertainty awareness, and clinical trust.
-  - Low-data and noisy-session robustness remains unresolved for many architectures outside curated datasets.
+- 所选论文：**31**
+- 涵盖年份： **2015-2026**
+- 所选集中的引用计数：**3,158**
+- 类别概述（主要研究趋势）：
+  - 深度学习工作正在超越单数据集 CNN 分类器，转向时态、谱、图、变压器和基于注意力的架构。
+  - 一个主要趋势是表示学习，可以在用户、会话、耳机和 BCI 范式之间迁移，而无需进行特定主题的校准。
+  - 可解释性、不确定性、对工件的鲁棒性和基准可比性正变得与峰值分类精度一样重要。
+- 限制：
+  - 数据集泄漏、跨主题分割较弱或跨基准的预处理不一致可能会导致性能夸大。
+  - 大型模型通常会提高准确性，同时降低可解释性、不确定性意识和临床信任度。
+  - 对于策划数据集之外的许多架构来说，低数据和嘈杂会话的鲁棒性仍未得到解决。
 
 <details>
 <summary><strong>Show representative papers for Deep Learning and Representation Learning</strong></summary>
@@ -2918,7 +2918,7 @@ These badges define the BCI keyword tags used to read and extend this collection
 
 </details>
 
-## Yearly Coverage
+## 年度覆盖范围
 
 | Year | Selected papers | Citation count | Top paper |
 | ---: | ---: | ---: | --- |
@@ -2949,16 +2949,16 @@ These badges define the BCI keyword tags used to read and extend this collection
 | 2024 | 100 | 4,231 | [Large Brain Model for Learning Generic Representations with Tremendous EEG Data in BCI](https://doi.org/10.48550/arxiv.2405.18765) |
 | 2025 | 100 | 1,787 | [Recent applications of EEG-based brain-computer-interface in the medical field](https://doi.org/10.1186/s40779-025-00598-z) |
 | 2026 | 100 | 170 | [EEG Foundation Models: Progresses, Benchmarking, and Open Problems](https://doi.org/10.48550/arxiv.2601.17883) |
-## Method
+## 方法
 
-The collection uses Semantic Scholar's Academic Graph paper search. Queries combine broad BCI terms and common subfields, results are filtered to the target publication year, relevance-filtered by BCI terms in title/abstract, deduplicated by DOI/arXiv/PubMed/CorpusId/paperId, and reduced to a maximum of 500 candidates per year. Importance scoring is retained for candidate auditing and combines log-scaled citation count, log-scaled influential citation count, recognized venue signals, BCI relevance-term density, and bonuses for reviews/surveys, datasets/benchmarks, clinical or rehabilitation relevance, invasive/high-bandwidth interfaces, and modern ML methods. The final awesome list selects the top 100 papers per year by citation count from the audited candidate pool.
+该集合使用 Semantic Sc​​holar 的学术图表论文搜索。查询结合了广泛的 BCI 术语和常见子字段，结果按目标出版年份进行过滤，按标题/摘要中的 BCI 术语进行相关性过滤，按 DOI/arXiv/PubMed/CorpusId/paperId 进行重复数据删除，并减少到每年最多 500 名候选者。重要性评分保留用于候选人审核，并结合了对数尺度的引用计数、对数尺度的影响力引用计数、公认的场所信号、BCI 相关术语密度以及评论/调查、数据集/基准、临床或康复相关性、侵入性/高带宽接口和现代 ML 方法的奖励。最终的精彩列表每年从经过审核的候选库中根据引用次数选出前 100 篇论文。
 
-## Caveats
+## 注意事项
 
-- Citation counts favor older papers and may under-rank recent 2026 work.
-- Metadata search is not equivalent to a full systematic review of PDFs.
-- Some venues and publication dates are missing in upstream metadata.
+- 引用计数偏向于较旧的论文，并且可能低于 2026 年最新论文的排名。
+- 元数据搜索并不等同于对 PDF 进行全面系统的审查。
+- 上游元数据中缺少一些地点和发布日期。
 
-## Acknowledgements
+## 致谢
 
-This repository and interactive site were created with appreciation for [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation). Its paper-curation workflow and repository organization informed the approach used here for a taxonomy-first, citation-ranked research map.
+这个存储库和交互式网站是出于对 [jehyunlee/paper-curation](https://github.com/jehyunlee/paper-curation) 的赞赏而创建的。其论文管理工作流程和存储库组织为此处使用的分类优先、引文排名的研究地图提供了方法。
