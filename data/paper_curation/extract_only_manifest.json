@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-02T07:32:21.722698+00:00",
+  "generated": "2026-07-02T12:33:25.346237+00:00",
   "mode": "extract-only",
   "paperCurationDir": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect",
   "awesomeRepo": "E:\\조선대\\연구\\awesome-BCI",
   "extractReport": "data/paper_curation/extract_only_report.json",
   "docsDir": "docs/paper_curation/extract_only",
   "paperDir": "paper/extract_only",
-  "recordCount": 165,
+  "recordCount": 215,
   "syncedPaperSlugs": [
     "002_Brain-computer_interface_technology_a_review_of_the_first_in",
     "011_The_mental_prosthesis_assessing_the_speed_of_a_P300-based_br",
@@ -172,13 +172,63 @@
     "582_Hybrid_EEG-fNIRS_Asynchronous_Brain-Computer_Interface_for_M",
     "583_Invasive_vs_Non-Invasive_Neuronal_Signals_for_Brain-Machine",
     "584_Detection_of_motor_imagery_EEG_signals_employing_Naïve_Bayes",
-    "585_Determining_Optimal_Feature-Combination_for_LDA_Classificati"
+    "585_Determining_Optimal_Feature-Combination_for_LDA_Classificati",
+    "813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback",
+    "814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi",
+    "815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz",
+    "816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po",
+    "817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of",
+    "818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor",
+    "819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize",
+    "820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese",
+    "821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o",
+    "822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu",
+    "823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi",
+    "824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS",
+    "825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto",
+    "826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput",
+    "827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif",
+    "828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe",
+    "829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ",
+    "830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas",
+    "831_Machine_Learning_for_Neural_Decoding",
+    "832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class",
+    "833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str",
+    "834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica",
+    "835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks",
+    "836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo",
+    "837_Complete_Locked-in_and_Locked-in_Patients_Command_Following",
+    "838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte",
+    "839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain",
+    "840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr",
+    "841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha",
+    "842_Classification_of_Human_Emotions_from_Electroencephalogram_E",
+    "843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via",
+    "844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold",
+    "845_Human_perception_of_electrical_stimulation_on_the_surface_of",
+    "846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec",
+    "847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br",
+    "848_A_Comparison_Study_on_EEG_Signal_Processing_Techniques_Using",
+    "849_Tuning_Up_the_Old_Brain_with_New_Tricks_Attention_Training_v",
+    "850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti",
+    "851_Visual_perception_affected_by_motivation_and_alertness_contr",
+    "852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U",
+    "853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla",
+    "854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh",
+    "855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI",
+    "856_Compact_convolutional_neural_networks_for_classification_of",
+    "857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot",
+    "858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni",
+    "859_Cortical_control_of_a_tablet_computer_by_people_with_paralys",
+    "860_Independent_home_use_of_a_brain-computer_interface_by_people",
+    "861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res",
+    "862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat"
   ],
   "copied": [
     {
       "source": "E:\\조선대\\연구\\paper-curation\\paper\\awesome-BCI\\_folder_source_extract_report.json",
       "target": "E:\\조선대\\연구\\awesome-BCI\\data\\paper_curation\\extract_only_report.json",
-      "bytes": 104988
+      "bytes": 137436
     },
     {
       "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\002_Brain-computer_interface_technology_a_review_of_the_first_in\\text.md",
@@ -8269,6 +8319,2546 @@
       "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\585_Determining_Optimal_Feature-Combination_for_LDA_Classificati\\figures\\fig4.png",
       "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\585_Determining_Optimal_Feature-Combination_for_LDA_Classificati\\figures\\fig4.png",
       "bytes": 272254
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\text.md",
+      "bytes": 104658
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig1.png",
+      "bytes": 101779
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig2.png",
+      "bytes": 503726
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig3.png",
+      "bytes": 98273
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig4.png",
+      "bytes": 95360
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig5.png",
+      "bytes": 75564
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\text.md",
+      "bytes": 104658
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig1.png",
+      "bytes": 101779
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig2.png",
+      "bytes": 503726
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig3.png",
+      "bytes": 98273
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig4.png",
+      "bytes": 95360
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback\\figures\\fig5.png",
+      "bytes": 75564
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\text.md",
+      "bytes": 64011
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig1.png",
+      "bytes": 1101232
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig2.png",
+      "bytes": 446894
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig3.png",
+      "bytes": 384074
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig4.png",
+      "bytes": 648794
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig5.png",
+      "bytes": 1359639
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\text.md",
+      "bytes": 64011
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig1.png",
+      "bytes": 1101232
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig2.png",
+      "bytes": 446894
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig3.png",
+      "bytes": 384074
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig4.png",
+      "bytes": 648794
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\814_Decoding_hand_gestures_from_primary_somatosensory_cortex_usi\\figures\\fig5.png",
+      "bytes": 1359639
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\text.md",
+      "bytes": 29480
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\figures\\fig1.png",
+      "bytes": 73421
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\figures\\fig2.png",
+      "bytes": 125928
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\text.md",
+      "bytes": 29480
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\figures\\fig1.png",
+      "bytes": 73421
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\815_Cloud-based_deep_learning_of_big_EEG_data_for_epileptic_seiz\\figures\\fig2.png",
+      "bytes": 125928
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\text.md",
+      "bytes": 46082
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig1.png",
+      "bytes": 119085
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig2.png",
+      "bytes": 82907
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig3.png",
+      "bytes": 282068
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig4.png",
+      "bytes": 227841
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig5.png",
+      "bytes": 230217
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\text.md",
+      "bytes": 46082
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig1.png",
+      "bytes": 119085
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig2.png",
+      "bytes": 82907
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig3.png",
+      "bytes": 282068
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig4.png",
+      "bytes": 227841
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\816_Effects_of_Mental_Load_and_Fatigue_on_Steady-State_Evoked_Po\\figures\\fig5.png",
+      "bytes": 230217
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\text.md",
+      "bytes": 47499
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig1.png",
+      "bytes": 78901
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig2.png",
+      "bytes": 155379
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig3.png",
+      "bytes": 181866
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig4.png",
+      "bytes": 276574
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig5.png",
+      "bytes": 361654
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\text.md",
+      "bytes": 47499
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig1.png",
+      "bytes": 78901
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig2.png",
+      "bytes": 155379
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig3.png",
+      "bytes": 181866
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig4.png",
+      "bytes": 276574
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of\\figures\\fig5.png",
+      "bytes": 361654
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\text.md",
+      "bytes": 75017
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig1.png",
+      "bytes": 755889
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig2.png",
+      "bytes": 320959
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig3.png",
+      "bytes": 1377957
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig4.png",
+      "bytes": 220934
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig5.png",
+      "bytes": 507352
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\text.md",
+      "bytes": 75017
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig1.png",
+      "bytes": 755889
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig2.png",
+      "bytes": 320959
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig3.png",
+      "bytes": 1377957
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig4.png",
+      "bytes": 220934
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor\\figures\\fig5.png",
+      "bytes": 507352
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\text.md",
+      "bytes": 89755
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig1.png",
+      "bytes": 318626
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig2.png",
+      "bytes": 968623
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig3.png",
+      "bytes": 807062
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig4.png",
+      "bytes": 762119
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig5.png",
+      "bytes": 3182696
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\text.md",
+      "bytes": 89755
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig1.png",
+      "bytes": 318626
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig2.png",
+      "bytes": 968623
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig3.png",
+      "bytes": 807062
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig4.png",
+      "bytes": 762119
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\819_Real-Time_Control_of_an_Articulatory-Based_Speech_Synthesize\\figures\\fig5.png",
+      "bytes": 3182696
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\text.md",
+      "bytes": 38368
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig1.png",
+      "bytes": 77323
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig2.png",
+      "bytes": 89157
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig3.png",
+      "bytes": 170238
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig4.png",
+      "bytes": 934982
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig5.png",
+      "bytes": 262994
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\text.md",
+      "bytes": 38368
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig1.png",
+      "bytes": 77323
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig2.png",
+      "bytes": 89157
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig3.png",
+      "bytes": 170238
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig4.png",
+      "bytes": 934982
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\820_Optimized_Motor_Imagery_Paradigm_Based_on_Imagining_Chinese\\figures\\fig5.png",
+      "bytes": 262994
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o\\text.md",
+      "bytes": 110372
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o\\figures\\fig1.png",
+      "bytes": 76213
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o\\text.md",
+      "bytes": 110372
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o\\figures\\fig1.png",
+      "bytes": 76213
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\text.md",
+      "bytes": 49452
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig1.png",
+      "bytes": 192891
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig2.png",
+      "bytes": 1246777
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig3.png",
+      "bytes": 124463
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig4.png",
+      "bytes": 210705
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig5.png",
+      "bytes": 109708
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\text.md",
+      "bytes": 49452
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig1.png",
+      "bytes": 192891
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig2.png",
+      "bytes": 1246777
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig3.png",
+      "bytes": 124463
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig4.png",
+      "bytes": 210705
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\822_Brain-Computer_Interface_Controlled_Cyborg_Establishing_a_Fu\\figures\\fig5.png",
+      "bytes": 109708
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\text.md",
+      "bytes": 55026
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig1.png",
+      "bytes": 1579044
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig2.png",
+      "bytes": 2078317
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig3.png",
+      "bytes": 485065
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig4.png",
+      "bytes": 290923
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig5.png",
+      "bytes": 267253
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\text.md",
+      "bytes": 55026
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig1.png",
+      "bytes": 1579044
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig2.png",
+      "bytes": 2078317
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig3.png",
+      "bytes": 485065
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig4.png",
+      "bytes": 290923
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi\\figures\\fig5.png",
+      "bytes": 267253
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\text.md",
+      "bytes": 120605
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig1.png",
+      "bytes": 138996
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig2.png",
+      "bytes": 215809
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig3.png",
+      "bytes": 97170
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig4.png",
+      "bytes": 43632
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig5.png",
+      "bytes": 35240
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\text.md",
+      "bytes": 120605
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig1.png",
+      "bytes": 138996
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig2.png",
+      "bytes": 215809
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig3.png",
+      "bytes": 97170
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig4.png",
+      "bytes": 43632
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS\\figures\\fig5.png",
+      "bytes": 35240
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\text.md",
+      "bytes": 64834
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig2.png",
+      "bytes": 288451
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig3.png",
+      "bytes": 94322
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig4.png",
+      "bytes": 1472667
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig5.png",
+      "bytes": 1441984
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig6.png",
+      "bytes": 77349
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\text.md",
+      "bytes": 64834
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig2.png",
+      "bytes": 288451
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig3.png",
+      "bytes": 94322
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig4.png",
+      "bytes": 1472667
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig5.png",
+      "bytes": 1441984
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto\\figures\\fig6.png",
+      "bytes": 77349
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput\\text.md",
+      "bytes": 35888
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput\\figures\\fig1.png",
+      "bytes": 214624
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput\\text.md",
+      "bytes": 35888
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput\\figures\\fig1.png",
+      "bytes": 214624
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\text.md",
+      "bytes": 39679
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig2.png",
+      "bytes": 103673
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig3.png",
+      "bytes": 249795
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig5.png",
+      "bytes": 102203
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig6.png",
+      "bytes": 258123
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\text.md",
+      "bytes": 39679
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig2.png",
+      "bytes": 103673
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig3.png",
+      "bytes": 249795
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig5.png",
+      "bytes": 102203
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\827_Comparison_of_an_Open-hardware_Electroencephalography_Amplif\\figures\\fig6.png",
+      "bytes": 258123
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\text.md",
+      "bytes": 50505
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig1.png",
+      "bytes": 333385
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig2.png",
+      "bytes": 432109
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig3.png",
+      "bytes": 106469
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig4.png",
+      "bytes": 56327
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig5.png",
+      "bytes": 1128696
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\text.md",
+      "bytes": 50505
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig1.png",
+      "bytes": 333385
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig2.png",
+      "bytes": 432109
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig3.png",
+      "bytes": 106469
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig4.png",
+      "bytes": 56327
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\828_The_effect_of_multimodal_and_enriched_feedback_on_SMR-BCI_pe\\figures\\fig5.png",
+      "bytes": 1128696
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\text.md",
+      "bytes": 49637
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig1.png",
+      "bytes": 339184
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig2.png",
+      "bytes": 147092
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig3.png",
+      "bytes": 238260
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig4.png",
+      "bytes": 87673
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig5.png",
+      "bytes": 47694
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\text.md",
+      "bytes": 49637
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig1.png",
+      "bytes": 339184
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig2.png",
+      "bytes": 147092
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig3.png",
+      "bytes": 238260
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig4.png",
+      "bytes": 87673
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ\\figures\\fig5.png",
+      "bytes": 47694
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\text.md",
+      "bytes": 58470
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig1.png",
+      "bytes": 93737
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig2.png",
+      "bytes": 164654
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig3.png",
+      "bytes": 69943
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\text.md",
+      "bytes": 58470
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig1.png",
+      "bytes": 93737
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig2.png",
+      "bytes": 164654
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas\\figures\\fig3.png",
+      "bytes": 69943
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\text.md",
+      "bytes": 87531
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig1.png",
+      "bytes": 218309
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig3.png",
+      "bytes": 1678632
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig4.png",
+      "bytes": 733132
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig5.png",
+      "bytes": 349493
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig6.png",
+      "bytes": 220385
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\text.md",
+      "bytes": 87531
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig1.png",
+      "bytes": 218309
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig3.png",
+      "bytes": 1678632
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig4.png",
+      "bytes": 733132
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig5.png",
+      "bytes": 349493
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\831_Machine_Learning_for_Neural_Decoding\\figures\\fig6.png",
+      "bytes": 220385
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\text.md",
+      "bytes": 163658
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig1.png",
+      "bytes": 233327
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig2.png",
+      "bytes": 432197
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig3.png",
+      "bytes": 315577
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig4.png",
+      "bytes": 278722
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig5.png",
+      "bytes": 241509
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\text.md",
+      "bytes": 163658
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig1.png",
+      "bytes": 233327
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig2.png",
+      "bytes": 432197
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig3.png",
+      "bytes": 315577
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig4.png",
+      "bytes": 278722
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class\\figures\\fig5.png",
+      "bytes": 241509
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str\\text.md",
+      "bytes": 56519
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str\\figures\\fig1.png",
+      "bytes": 259775
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str\\text.md",
+      "bytes": 56519
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str\\figures\\fig1.png",
+      "bytes": 259775
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\text.md",
+      "bytes": 58336
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig1.png",
+      "bytes": 474272
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig2.png",
+      "bytes": 118126
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig3.png",
+      "bytes": 254609
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig4.png",
+      "bytes": 579414
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig5.png",
+      "bytes": 268808
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\text.md",
+      "bytes": 58336
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig1.png",
+      "bytes": 474272
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig2.png",
+      "bytes": 118126
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig3.png",
+      "bytes": 254609
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig4.png",
+      "bytes": 579414
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica\\figures\\fig5.png",
+      "bytes": 268808
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\text.md",
+      "bytes": 43330
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig1.png",
+      "bytes": 348675
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig2.png",
+      "bytes": 121754
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig3.png",
+      "bytes": 133991
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig4.png",
+      "bytes": 263182
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig5.png",
+      "bytes": 73219
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\text.md",
+      "bytes": 43330
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig1.png",
+      "bytes": 348675
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig2.png",
+      "bytes": 121754
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig3.png",
+      "bytes": 133991
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig4.png",
+      "bytes": 263182
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks\\figures\\fig5.png",
+      "bytes": 73219
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\text.md",
+      "bytes": 127940
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig1.png",
+      "bytes": 126858
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig2.png",
+      "bytes": 464956
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig3.png",
+      "bytes": 130237
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig4.png",
+      "bytes": 147849
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig5.png",
+      "bytes": 228220
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\text.md",
+      "bytes": 127940
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig1.png",
+      "bytes": 126858
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig2.png",
+      "bytes": 464956
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig3.png",
+      "bytes": 130237
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig4.png",
+      "bytes": 147849
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo\\figures\\fig5.png",
+      "bytes": 228220
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\text.md",
+      "bytes": 48507
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig1.png",
+      "bytes": 740121
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig2.png",
+      "bytes": 607847
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig3.png",
+      "bytes": 594202
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig4.png",
+      "bytes": 720483
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\text.md",
+      "bytes": 48507
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig1.png",
+      "bytes": 740121
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig2.png",
+      "bytes": 607847
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig3.png",
+      "bytes": 594202
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\837_Complete_Locked-in_and_Locked-in_Patients_Command_Following\\figures\\fig4.png",
+      "bytes": 720483
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte\\text.md",
+      "bytes": 36519
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte\\figures\\fig1.png",
+      "bytes": 769791
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte\\text.md",
+      "bytes": 36519
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte\\figures\\fig1.png",
+      "bytes": 769791
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\text.md",
+      "bytes": 59055
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig1.png",
+      "bytes": 35516
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig2.png",
+      "bytes": 55360
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig3.png",
+      "bytes": 218400
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig6.png",
+      "bytes": 268648
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig7.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig7.png",
+      "bytes": 212290
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\text.md",
+      "bytes": 59055
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig1.png",
+      "bytes": 35516
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig2.png",
+      "bytes": 55360
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig3.png",
+      "bytes": 218400
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig6.png",
+      "bytes": 268648
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig7.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\839_Spatial_Filtering_for_EEG-Based_Regression_Problems_in_Brain\\figures\\fig7.png",
+      "bytes": 212290
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\text.md",
+      "bytes": 73017
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig1.png",
+      "bytes": 167225
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig2.png",
+      "bytes": 60796
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig3.png",
+      "bytes": 32942
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig5.png",
+      "bytes": 183664
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig6.png",
+      "bytes": 668299
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\text.md",
+      "bytes": 73017
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig1.png",
+      "bytes": 167225
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig2.png",
+      "bytes": 60796
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig3.png",
+      "bytes": 32942
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig5.png",
+      "bytes": 183664
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig6.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr\\figures\\fig6.png",
+      "bytes": 668299
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\text.md",
+      "bytes": 53499
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig1.png",
+      "bytes": 646789
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig2.png",
+      "bytes": 846341
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig3.png",
+      "bytes": 388572
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig4.png",
+      "bytes": 600099
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig5.png",
+      "bytes": 93422
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\text.md",
+      "bytes": 53499
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig1.png",
+      "bytes": 646789
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig2.png",
+      "bytes": 846341
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig3.png",
+      "bytes": 388572
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig4.png",
+      "bytes": 600099
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha\\figures\\fig5.png",
+      "bytes": 93422
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\text.md",
+      "bytes": 33805
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig1.png",
+      "bytes": 129795
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig2.png",
+      "bytes": 177761
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig3.png",
+      "bytes": 86316
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig4.png",
+      "bytes": 333365
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig5.png",
+      "bytes": 71322
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\text.md",
+      "bytes": 33805
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig1.png",
+      "bytes": 129795
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig2.png",
+      "bytes": 177761
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig3.png",
+      "bytes": 86316
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig4.png",
+      "bytes": 333365
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\842_Classification_of_Human_Emotions_from_Electroencephalogram_E\\figures\\fig5.png",
+      "bytes": 71322
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\text.md",
+      "bytes": 59546
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig1.png",
+      "bytes": 245468
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig2.png",
+      "bytes": 127968
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig3.png",
+      "bytes": 54984
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig4.png",
+      "bytes": 49163
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig5.png",
+      "bytes": 68682
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\text.md",
+      "bytes": 59546
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig1.png",
+      "bytes": 245468
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig2.png",
+      "bytes": 127968
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig3.png",
+      "bytes": 54984
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig4.png",
+      "bytes": 49163
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\843_Converting_Your_Thoughts_to_Texts_Enabling_Brain_Typing_via\\figures\\fig5.png",
+      "bytes": 68682
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\text.md",
+      "bytes": 68222
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig1.png",
+      "bytes": 122642
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig2.png",
+      "bytes": 293983
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig3.png",
+      "bytes": 234772
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig4.png",
+      "bytes": 176225
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig5.png",
+      "bytes": 122616
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\text.md",
+      "bytes": 68222
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig1.png",
+      "bytes": 122642
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig2.png",
+      "bytes": 293983
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig3.png",
+      "bytes": 234772
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig4.png",
+      "bytes": 176225
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\844_Motor_Imagery_Classification_Based_on_Bilinear_Sub-Manifold\\figures\\fig5.png",
+      "bytes": 122616
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\text.md",
+      "bytes": 50441
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig1.png",
+      "bytes": 1962063
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig2.png",
+      "bytes": 143852
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig3.png",
+      "bytes": 68649
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig4.png",
+      "bytes": 418201
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig5.png",
+      "bytes": 183428
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\text.md",
+      "bytes": 50441
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig1.png",
+      "bytes": 1962063
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig2.png",
+      "bytes": 143852
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig3.png",
+      "bytes": 68649
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig4.png",
+      "bytes": 418201
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\845_Human_perception_of_electrical_stimulation_on_the_surface_of\\figures\\fig5.png",
+      "bytes": 183428
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\text.md",
+      "bytes": 38078
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\figures\\fig1.png",
+      "bytes": 63194
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\figures\\fig2.png",
+      "bytes": 502357
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\text.md",
+      "bytes": 38078
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\figures\\fig1.png",
+      "bytes": 63194
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec\\figures\\fig2.png",
+      "bytes": 502357
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\text.md",
+      "bytes": 73247
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig1.png",
+      "bytes": 412496
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig2.png",
+      "bytes": 92607
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig3.png",
+      "bytes": 677482
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig4.png",
+      "bytes": 1083537
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig5.png",
+      "bytes": 79084
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\text.md",
+      "bytes": 73247
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig1.png",
+      "bytes": 412496
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig2.png",
+      "bytes": 92607
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig3.png",
+      "bytes": 677482
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig4.png",
+      "bytes": 1083537
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br\\figures\\fig5.png",
+      "bytes": 79084
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\848_A_Comparison_Study_on_EEG_Signal_Processing_Techniques_Using\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\848_A_Comparison_Study_on_EEG_Signal_Processing_Techniques_Using\\text.md",
+      "bytes": 27853
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\848_A_Comparison_Study_on_EEG_Signal_Processing_Techniques_Using\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\848_A_Comparison_Study_on_EEG_Signal_Processing_Techniques_Using\\text.md",
+      "bytes": 27853
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\849_Tuning_Up_the_Old_Brain_with_New_Tricks_Attention_Training_v\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\849_Tuning_Up_the_Old_Brain_with_New_Tricks_Attention_Training_v\\text.md",
+      "bytes": 52040
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\849_Tuning_Up_the_Old_Brain_with_New_Tricks_Attention_Training_v\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\849_Tuning_Up_the_Old_Brain_with_New_Tricks_Attention_Training_v\\figures\\fig1.png",
+      "bytes": 1704928
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\849_Tuning_Up_the_Old_Brain_with_New_Tricks_Attention_Training_v\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\849_Tuning_Up_the_Old_Brain_with_New_Tricks_Attention_Training_v\\text.md",
+      "bytes": 52040
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\849_Tuning_Up_the_Old_Brain_with_New_Tricks_Attention_Training_v\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\849_Tuning_Up_the_Old_Brain_with_New_Tricks_Attention_Training_v\\figures\\fig1.png",
+      "bytes": 1704928
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\text.md",
+      "bytes": 69625
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig1.png",
+      "bytes": 566331
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig2.png",
+      "bytes": 677734
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig3.png",
+      "bytes": 40314
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig4.png",
+      "bytes": 373091
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig5.png",
+      "bytes": 270747
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\text.md",
+      "bytes": 69625
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig1.png",
+      "bytes": 566331
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig2.png",
+      "bytes": 677734
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig3.png",
+      "bytes": 40314
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig4.png",
+      "bytes": 373091
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti\\figures\\fig5.png",
+      "bytes": 270747
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\text.md",
+      "bytes": 69286
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig1.png",
+      "bytes": 131654
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig2.png",
+      "bytes": 574135
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig3.png",
+      "bytes": 218884
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig4.png",
+      "bytes": 281829
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig5.png",
+      "bytes": 509758
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\text.md",
+      "bytes": 69286
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig1.png",
+      "bytes": 131654
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig2.png",
+      "bytes": 574135
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig3.png",
+      "bytes": 218884
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig4.png",
+      "bytes": 281829
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\851_Visual_perception_affected_by_motivation_and_alertness_contr\\figures\\fig5.png",
+      "bytes": 509758
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\text.md",
+      "bytes": 47854
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig1.png",
+      "bytes": 357154
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig2.png",
+      "bytes": 183874
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig3.png",
+      "bytes": 394278
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig4.png",
+      "bytes": 1139877
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig5.png",
+      "bytes": 117698
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\text.md",
+      "bytes": 47854
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig1.png",
+      "bytes": 357154
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig2.png",
+      "bytes": 183874
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig3.png",
+      "bytes": 394278
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig4.png",
+      "bytes": 1139877
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U\\figures\\fig5.png",
+      "bytes": 117698
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\text.md",
+      "bytes": 43715
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig1.png",
+      "bytes": 93548
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig3.png",
+      "bytes": 145755
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig4.png",
+      "bytes": 105977
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig5.png",
+      "bytes": 381913
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\text.md",
+      "bytes": 43715
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig1.png",
+      "bytes": 93548
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig3.png",
+      "bytes": 145755
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig4.png",
+      "bytes": 105977
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla\\figures\\fig5.png",
+      "bytes": 381913
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh\\text.md",
+      "bytes": 119176
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh\\figures\\fig1.png",
+      "bytes": 672540
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh\\text.md",
+      "bytes": 119176
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh\\figures\\fig1.png",
+      "bytes": 672540
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\text.md",
+      "bytes": 121102
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig1.png",
+      "bytes": 296853
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig2.png",
+      "bytes": 495478
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig3.png",
+      "bytes": 230695
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig4.png",
+      "bytes": 342462
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig5.png",
+      "bytes": 79849
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\text.md",
+      "bytes": 121102
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig1.png",
+      "bytes": 296853
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig2.png",
+      "bytes": 495478
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig3.png",
+      "bytes": 230695
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig4.png",
+      "bytes": 342462
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI\\figures\\fig5.png",
+      "bytes": 79849
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\text.md",
+      "bytes": 61348
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig1.png",
+      "bytes": 397112
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig2.png",
+      "bytes": 75575
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig3.png",
+      "bytes": 253643
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig4.png",
+      "bytes": 348015
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig5.png",
+      "bytes": 529996
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\text.md",
+      "bytes": 61348
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig1.png",
+      "bytes": 397112
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig2.png",
+      "bytes": 75575
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig3.png",
+      "bytes": 253643
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig4.png",
+      "bytes": 348015
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\856_Compact_convolutional_neural_networks_for_classification_of\\figures\\fig5.png",
+      "bytes": 529996
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\text.md",
+      "bytes": 110718
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig1.png",
+      "bytes": 386869
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig2.png",
+      "bytes": 421963
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig3.png",
+      "bytes": 231833
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\text.md",
+      "bytes": 110718
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig1.png",
+      "bytes": 386869
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig2.png",
+      "bytes": 421963
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot\\figures\\fig3.png",
+      "bytes": 231833
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\text.md",
+      "bytes": 103712
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig1.png",
+      "bytes": 440124
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig2.png",
+      "bytes": 253796
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig3.png",
+      "bytes": 628051
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig4.png",
+      "bytes": 913096
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig5.png",
+      "bytes": 514752
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\text.md",
+      "bytes": 103712
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig1.png",
+      "bytes": 440124
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig2.png",
+      "bytes": 253796
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig3.png",
+      "bytes": 628051
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig4.png",
+      "bytes": 913096
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni\\figures\\fig5.png",
+      "bytes": 514752
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\text.md",
+      "bytes": 45287
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig1.png",
+      "bytes": 685502
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig2.png",
+      "bytes": 905162
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig3.png",
+      "bytes": 1882780
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig4.png",
+      "bytes": 1825568
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig5.png",
+      "bytes": 2274824
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\text.md",
+      "bytes": 45287
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig1.png",
+      "bytes": 685502
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig2.png",
+      "bytes": 905162
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig3.png",
+      "bytes": 1882780
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig4.png",
+      "bytes": 1825568
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\859_Cortical_control_of_a_tablet_computer_by_people_with_paralys\\figures\\fig5.png",
+      "bytes": 2274824
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\text.md",
+      "bytes": 45877
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig1.png",
+      "bytes": 965792
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig2.png",
+      "bytes": 367639
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig3.png",
+      "bytes": 468731
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\text.md",
+      "bytes": 45877
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig1.png",
+      "bytes": 965792
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig2.png",
+      "bytes": 367639
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\860_Independent_home_use_of_a_brain-computer_interface_by_people\\figures\\fig3.png",
+      "bytes": 468731
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\text.md",
+      "bytes": 58567
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig1.png",
+      "bytes": 110481
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig2.png",
+      "bytes": 480420
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig3.png",
+      "bytes": 219861
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\text.md",
+      "bytes": 58567
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig1.png",
+      "bytes": 110481
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig2.png",
+      "bytes": 480420
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\861_Closing_the_Loop_on_Deep_Brain_Stimulation_for_Treatment-Res\\figures\\fig3.png",
+      "bytes": 219861
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\text.md",
+      "bytes": 71039
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig1.png",
+      "bytes": 518676
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig2.png",
+      "bytes": 775444
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig3.png",
+      "bytes": 94551
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig4.png",
+      "bytes": 146614
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\docs\\paper_curation\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig5.png",
+      "bytes": 1060191
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\text.md",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\text.md",
+      "bytes": 71039
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig1.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig1.png",
+      "bytes": 518676
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig2.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig2.png",
+      "bytes": 775444
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig3.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig3.png",
+      "bytes": 94551
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig4.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig4.png",
+      "bytes": 146614
+    },
+    {
+      "source": "C:\\Users\\user\\AppData\\Local\\Temp\\paper-curation-inspect\\docs\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig5.png",
+      "target": "E:\\조선대\\연구\\awesome-BCI\\paper\\extract_only\\papers\\862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat\\figures\\fig5.png",
+      "bytes": 1060191
     }
   ],
   "missing": [],

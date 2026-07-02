@@ -2,33 +2,68 @@
   "categories": [
     {
       "name": "HDBSCAN Bridge and Noise Papers",
-      "summary": "Codex-native cluster containing 66 processed papers.",
-      "count": 66
+      "summary": "Codex-native cluster containing 79 processed papers.",
+      "count": 79
     },
     {
-      "name": "HDBSCAN Cluster: united, states, america, university",
+      "name": "HDBSCAN Cluster: eeg, bci, dry, new",
       "summary": "Codex-native cluster containing 7 processed papers.",
       "count": 7
     },
     {
-      "name": "HDBSCAN Cluster: motor, imagery, detection, university",
+      "name": "HDBSCAN Cluster: motor, imagery, university, version",
+      "summary": "Codex-native cluster containing 6 processed papers.",
+      "count": 6
+    },
+    {
+      "name": "HDBSCAN Cluster: control, bci, computer, interface",
       "summary": "Codex-native cluster containing 5 processed papers.",
       "count": 5
     },
     {
-      "name": "HDBSCAN Cluster: bci, performance, interface, been",
+      "name": "HDBSCAN Cluster: brain, computer, germany, bci",
       "summary": "Codex-native cluster containing 5 processed papers.",
       "count": 5
     },
     {
-      "name": "HDBSCAN Cluster: brain, computer, germany, berlin",
+      "name": "HDBSCAN Cluster: university, korea, national, brain-computer",
+      "summary": "Codex-native cluster containing 5 processed papers.",
+      "count": 5
+    },
+    {
+      "name": "HDBSCAN Cluster: university, department, united, states",
       "summary": "Codex-native cluster containing 4 processed papers.",
       "count": 4
     },
     {
-      "name": "HDBSCAN Cluster: brain, interfaces, bci, signals",
+      "name": "HDBSCAN Cluster: department, university, computer, usa",
       "summary": "Codex-native cluster containing 4 processed papers.",
       "count": 4
+    },
+    {
+      "name": "HDBSCAN Cluster: rome, italy, university, department",
+      "summary": "Codex-native cluster containing 4 processed papers.",
+      "count": 4
+    },
+    {
+      "name": "HDBSCAN Cluster: a1111111111, open, access, figure",
+      "summary": "Codex-native cluster containing 4 processed papers.",
+      "count": 4
+    },
+    {
+      "name": "HDBSCAN Cluster: brain-computer, engineering, interface, department",
+      "summary": "Codex-native cluster containing 4 processed papers.",
+      "count": 4
+    },
+    {
+      "name": "HDBSCAN Cluster: brain, bci, interface, cation",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: brain, computer, bcis, can",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
     },
     {
       "name": "HDBSCAN Cluster: brain-machine, interfaces, neural, power",
@@ -36,12 +71,7 @@
       "count": 3
     },
     {
-      "name": "HDBSCAN Cluster: brain-computer, bci, training, interface",
-      "summary": "Codex-native cluster containing 3 processed papers.",
-      "count": 3
-    },
-    {
-      "name": "HDBSCAN Cluster: new, geometry, brain-computer, bci",
+      "name": "HDBSCAN Cluster: performance, bci, human, been",
       "summary": "Codex-native cluster containing 3 processed papers.",
       "count": 3
     },
@@ -51,12 +81,7 @@
       "count": 3
     },
     {
-      "name": "HDBSCAN Cluster: university, brain, computer, department",
-      "summary": "Codex-native cluster containing 3 processed papers.",
-      "count": 3
-    },
-    {
-      "name": "HDBSCAN Cluster: singapore, technology, institute, research",
+      "name": "HDBSCAN Cluster: bci, which, filters, bayesian",
       "summary": "Codex-native cluster containing 3 processed papers.",
       "count": 3
     },
@@ -66,24 +91,29 @@
       "count": 3
     },
     {
-      "name": "HDBSCAN Cluster: rome, italy, university, department",
+      "name": "HDBSCAN Cluster: data, figure, access, open",
       "summary": "Codex-native cluster containing 3 processed papers.",
       "count": 3
     },
     {
-      "name": "HDBSCAN Cluster: university, korea, department, national",
+      "name": "HDBSCAN Cluster: brain, computer, eeg, university",
       "summary": "Codex-native cluster containing 3 processed papers.",
       "count": 3
     },
     {
-      "name": "HDBSCAN Cluster: figure, access, data, open",
+      "name": "HDBSCAN Cluster: brain, interfaces, computer, control",
       "summary": "Codex-native cluster containing 3 processed papers.",
       "count": 3
     },
     {
-      "name": "HDBSCAN Cluster: bci, interface, communication, technology",
-      "summary": "Codex-native cluster containing 2 processed papers.",
-      "count": 2
+      "name": "HDBSCAN Cluster: madison, university, wisconsin, department",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: university, brain, published, doi",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
     },
     {
       "name": "HDBSCAN Cluster: vol, moore, proc, systems",
@@ -91,22 +121,7 @@
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: brain, computer, can, bcis",
-      "summary": "Codex-native cluster containing 2 processed papers.",
-      "count": 2
-    },
-    {
-      "name": "HDBSCAN Cluster: control, computer, motor, brain",
-      "summary": "Codex-native cluster containing 2 processed papers.",
-      "count": 2
-    },
-    {
       "name": "HDBSCAN Cluster: interface, bci, brain, kinds",
-      "summary": "Codex-native cluster containing 2 processed papers.",
-      "count": 2
-    },
-    {
-      "name": "HDBSCAN Cluster: eeg, dry, berlin, electrodes",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
@@ -121,12 +136,42 @@
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: japan, technology, prediction, cortex",
+      "name": "HDBSCAN Cluster: research, university, institute, science",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: filters, bci, eeg, spatial",
+      "name": "HDBSCAN Cluster: singapore, attention, institute, research",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: subjects, bci, calibration, interfacing",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: bci, brain-computer, online, adaptation",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: brain-computer, independence, bci, motor",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: bci, university, motivation, research",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: france, paris, signals, ere",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: japan, technology, prediction, cortex",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
@@ -136,22 +181,17 @@
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: university, bci, department, engineering",
-      "summary": "Codex-native cluster containing 2 processed papers.",
-      "count": 2
-    },
-    {
       "name": "HDBSCAN Cluster: graz, university, austria, institute",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: university, usa, state, department",
+      "name": "HDBSCAN Cluster: eeg, machine, computer, signals",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: eeg, machine, computer, signals",
+      "name": "HDBSCAN Cluster: california, united, states, america",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
@@ -166,7 +206,7 @@
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: tuebingen, neurosurgery, university, division",
+      "name": "HDBSCAN Cluster: university, bcis, department, usa",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
@@ -176,17 +216,32 @@
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: madison, university, wisconsin, usa",
+      "name": "HDBSCAN Cluster: figure, open, access, data",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: motor, figure, computer, dti",
+      "name": "HDBSCAN Cluster: evoked, volution, brain-computer, interfacing",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     },
     {
-      "name": "HDBSCAN Cluster: figure, doi, figshare, open",
+      "name": "HDBSCAN Cluster: brain, figure, article, open",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: smart, france, home, research",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: university, hong, hybrid, china",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: a1111111111, open, access, copyright",
       "summary": "Codex-native cluster containing 2 processed papers.",
       "count": 2
     }
