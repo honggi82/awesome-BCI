@@ -1,0 +1,66 @@
+{
+  "mode": "codex-native-paperbanana-compatible-timeline",
+  "summary": "Codex generated a PaperBanana-compatible timeline artifact path without calling external image APIs.",
+  "categories": [
+    {
+      "id": "hdbscan-bridge-and-noise-papers",
+      "name": "HDBSCAN Bridge and Noise Papers",
+      "count": 32
+    },
+    {
+      "id": "hdbscan-cluster-berlin-bci-university-institute",
+      "name": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "count": 6
+    },
+    {
+      "id": "hdbscan-cluster-bci-control-brain-computer-eeg",
+      "name": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-brain-control-computer-bcis",
+      "name": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-united-states-america-duke",
+      "name": "HDBSCAN Cluster: united, states, america, duke",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-brain-computer-bci-interfacing-learning",
+      "name": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-department-usa-university-computer",
+      "name": "HDBSCAN Cluster: department, usa, university, computer",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-vol-moore-proc-systems",
+      "name": "HDBSCAN Cluster: vol, moore, proc, systems",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-interface-bci-brain-kinds",
+      "name": "HDBSCAN Cluster: interface, bci, brain, kinds",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-eeg-dry-berlin-electrodes",
+      "name": "HDBSCAN Cluster: eeg, dry, berlin, electrodes",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-wavelet-transform-eeg-brain-computer",
+      "name": "HDBSCAN Cluster: wavelet, transform, eeg, brain-computer",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-brain-computer-university-grand",
+      "name": "HDBSCAN Cluster: brain, computer, university, grand",
+      "count": 2
+    }
+  ]
+}

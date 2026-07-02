@@ -1,0 +1,327 @@
+{
+  "002_Brain-computer_interface_technology_a_review_of_the_first_in": {
+    "x": 10.891924,
+    "y": 3.947443,
+    "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg"
+  },
+  "011_The_mental_prosthesis_assessing_the_speed_of_a_P300-based_br": {
+    "x": 11.05301,
+    "y": 4.175786,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "012_Motor_imagery_and_direct_brain-computer_communication": {
+    "x": 11.701175,
+    "y": 5.739803,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "013_Linear_and_nonlinear_methods_for_brain-computer_interfaces": {
+    "x": 11.509158,
+    "y": 6.617075,
+    "category": "HDBSCAN Cluster: vol, moore, proc, systems"
+  },
+  "014_Asynchronous_BCI_and_local_neural_classifiers_an_overview_of": {
+    "x": 11.662755,
+    "y": 6.88938,
+    "category": "HDBSCAN Cluster: vol, moore, proc, systems"
+  },
+  "044_Real-world_applications_for_brain-computer_interface_technol": {
+    "x": 10.577795,
+    "y": 2.96635,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv": {
+    "x": 11.39196,
+    "y": 3.763167,
+    "category": "HDBSCAN Cluster: brain, control, computer, bcis"
+  },
+  "046_BCI_competition_2003-data_set_IVAn_algorithm_based_on_CSSD_a": {
+    "x": 11.646331,
+    "y": 3.293771,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "047_Statistical_encoding_model_for_a_primary_motor_cortical_brai": {
+    "x": 10.259102,
+    "y": 3.42859,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "048_Brain-computer_interface_based_on_the_high-frequency_steady-": {
+    "x": 11.553311,
+    "y": 3.811932,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "049_Towards_adaptive_classification_for_BCI": {
+    "x": 11.606876,
+    "y": 7.387723,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "050_Brain-computer_interfaces_for_1-D_and_2-D_cursor_control_des": {
+    "x": 10.598989,
+    "y": 3.458329,
+    "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg"
+  },
+  "051_Electrocorticography-based_brain_computer_Interface-the_seat": {
+    "x": 10.502548,
+    "y": 3.559178,
+    "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg"
+  },
+  "052_The_Berlin_Brain-Computer_Interface_Machine_Learning_Based_D": {
+    "x": 11.429655,
+    "y": 7.511621,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "053_DASHER-an_efficient_writing_system_for_brain-computer_interf": {
+    "x": 10.323947,
+    "y": 3.220694,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "193_A_Brain_Computer_Interface_Based_on_Neural_Network_with_Effi": {
+    "x": 11.828361,
+    "y": 4.068318,
+    "category": "HDBSCAN Cluster: interface, bci, brain, kinds"
+  },
+  "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry": {
+    "x": 9.610904,
+    "y": 4.446429,
+    "category": "HDBSCAN Cluster: eeg, dry, berlin, electrodes"
+  },
+  "195_Low-Power_Circuits_for_Brain-Machine_Interfaces": {
+    "x": 10.550503,
+    "y": 4.812648,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int": {
+    "x": 10.135515,
+    "y": 2.953862,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M": {
+    "x": 12.82926,
+    "y": 7.035658,
+    "category": "HDBSCAN Cluster: united, states, america, duke"
+  },
+  "198_Brain-Computer_Interface_Analysis_using_Continuous_Wavelet_T": {
+    "x": 12.325605,
+    "y": 4.236674,
+    "category": "HDBSCAN Cluster: wavelet, transform, eeg, brain-computer"
+  },
+  "199_Pattern_Recognition_of_EEG_Signal_during_Motor_Imagery_by_Us": {
+    "x": 11.573916,
+    "y": 5.393149,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "200_Functional_network_reorganization_during_learning_in_a_brain": {
+    "x": 12.431557,
+    "y": 6.972183,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "201_Towards_Zero_Training_for_Brain-Computer_Interfacing": {
+    "x": 9.492353,
+    "y": 3.961057,
+    "category": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning"
+  },
+  "202_Hemodynamics_for_Brain-Computer_Interfaces": {
+    "x": 10.841748,
+    "y": 4.289979,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "203_A_brain-machine_interface_using_dry-contact_low-noise_EEG_se": {
+    "x": 10.684708,
+    "y": 5.349508,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "204_Pattern_Recognition_of_Motor_Imagery_EEG_using_Wavelet_Trans": {
+    "x": 12.020244,
+    "y": 3.438378,
+    "category": "HDBSCAN Cluster: wavelet, transform, eeg, brain-computer"
+  },
+  "205_A_brain-computer_interface_BCI_system_based_on_auditory_stre": {
+    "x": 11.661372,
+    "y": 4.336367,
+    "category": "HDBSCAN Cluster: interface, bci, brain, kinds"
+  },
+  "206_A_Wireless_Brain-Machine_Interface_for_Real-Time_Speech_Synt": {
+    "x": 12.452642,
+    "y": 6.696735,
+    "category": "HDBSCAN Cluster: united, states, america, duke"
+  },
+  "207_Unscented_Kalman_Filter_for_Brain-Machine_Interfaces": {
+    "x": 12.71829,
+    "y": 6.777742,
+    "category": "HDBSCAN Cluster: united, states, america, duke"
+  },
+  "208_P300-Based_BrainComputer_Interface_Communication_Evaluation": {
+    "x": 10.995424,
+    "y": 7.924878,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "209_Using_an_EEG-Based_Brain-Computer_Interface_for_Virtual_Curs": {
+    "x": 11.405371,
+    "y": 4.756027,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t": {
+    "x": 11.064804,
+    "y": 7.514198,
+    "category": "HDBSCAN Cluster: brain, computer, university, grand"
+  },
+  "211_The_Hybrid_BCI": {
+    "x": 11.455548,
+    "y": 8.026134,
+    "category": "HDBSCAN Cluster: berlin, bci, university, institute"
+  },
+  "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T": {
+    "x": 11.297223,
+    "y": 7.999934,
+    "category": "HDBSCAN Cluster: berlin, bci, university, institute"
+  },
+  "213_The_Influence_of_Psychological_State_and_Motivation_on_Brain": {
+    "x": 11.106989,
+    "y": 7.81944,
+    "category": "HDBSCAN Cluster: brain, computer, university, grand"
+  },
+  "214_A_New_Auditory_Multi-Class_Brain-Computer_Interface_Paradigm": {
+    "x": 10.033884,
+    "y": 4.161243,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "215_A_Tactile_P300_Brain-Computer_Interface": {
+    "x": 10.756459,
+    "y": 6.226976,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter": {
+    "x": 10.727667,
+    "y": 7.791094,
+    "category": "HDBSCAN Cluster: berlin, bci, university, institute"
+  },
+  "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro": {
+    "x": 12.197897,
+    "y": 7.096238,
+    "category": "HDBSCAN Cluster: department, usa, university, computer"
+  },
+  "218_Exploring_two_novel_features_for_EEG-based_brain-computer_in": {
+    "x": 9.13698,
+    "y": 4.377796,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br": {
+    "x": 11.134283,
+    "y": 4.364791,
+    "category": "HDBSCAN Cluster: brain, control, computer, bcis"
+  },
+  "220_Adaptation_in_P300_BrainComputer_Interfaces_A_Two-Classifier": {
+    "x": 12.304016,
+    "y": 5.218411,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "221_Convolutional_Neural_Networks_for_P300_Detection_with_Applic": {
+    "x": 12.169876,
+    "y": 5.119908,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "222_A_high-speed_BCI_based_on_code_modulation_VEP": {
+    "x": 11.815504,
+    "y": 4.763083,
+    "category": "HDBSCAN Cluster: brain, control, computer, bcis"
+  },
+  "223_Bristle-sensorslow-cost_flexible_passive_dry_EEG_electrodes": {
+    "x": 9.836627,
+    "y": 4.971421,
+    "category": "HDBSCAN Cluster: eeg, dry, berlin, electrodes"
+  },
+  "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter": {
+    "x": 10.877142,
+    "y": 3.180998,
+    "category": "HDBSCAN Cluster: brain, control, computer, bcis"
+  },
+  "225_Listen_You_are_Writing_Speeding_up_Online_Spelling_with_a_Dy": {
+    "x": 10.836098,
+    "y": 6.830542,
+    "category": "HDBSCAN Cluster: berlin, bci, university, institute"
+  },
+  "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a": {
+    "x": 11.697105,
+    "y": 7.81289,
+    "category": "HDBSCAN Cluster: berlin, bci, university, institute"
+  },
+  "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human": {
+    "x": 10.99756,
+    "y": 3.511155,
+    "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg"
+  },
+  "228_Brain-Computer_Interface_Based_on_Generation_of_Visual_Image": {
+    "x": 12.964545,
+    "y": 6.66646,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra": {
+    "x": 11.018967,
+    "y": 7.168642,
+    "category": "HDBSCAN Cluster: berlin, bci, university, institute"
+  },
+  "230_A_Symbiotic_Brain-Machine_Interface_through_Value-Based_Deci": {
+    "x": 10.465222,
+    "y": 2.587152,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "231_Decoding_Finger_Movements_from_ECoG_Signals_Using_Switching": {
+    "x": 9.011468,
+    "y": 4.186846,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer": {
+    "x": 11.456067,
+    "y": 2.934788,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit": {
+    "x": 11.455541,
+    "y": 5.91005,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "234_P300_brain_computer_interface_current_challenges_and_emergin": {
+    "x": 12.093327,
+    "y": 6.495343,
+    "category": "HDBSCAN Cluster: department, usa, university, computer"
+  },
+  "235_Proprioceptive_Feedback_and_Brain_Computer_Interface_BCI_Bas": {
+    "x": 12.111103,
+    "y": 7.883404,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "236_A_Brain-Computer_Interface_Based_Attention_Training_Program": {
+    "x": 12.517021,
+    "y": 5.72412,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "237_Transferring_Subspaces_Between_Subjects_in_Brain--Computer_I": {
+    "x": 9.328546,
+    "y": 3.833864,
+    "category": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning"
+  },
+  "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas": {
+    "x": 9.845503,
+    "y": 3.790513,
+    "category": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning"
+  },
+  "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom": {
+    "x": 11.20968,
+    "y": 6.287845,
+    "category": "HDBSCAN Cluster: department, usa, university, computer"
+  },
+  "240_Brain-computer_interface_controlled_robotic_gait_orthosis": {
+    "x": 10.894179,
+    "y": 2.89076,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "241_How_Many_People_Could_Use_an_SSVEP_BCI": {
+    "x": 11.194563,
+    "y": 6.610358,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  },
+  "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan": {
+    "x": 12.628177,
+    "y": 6.256885,
+    "category": "HDBSCAN Bridge and Noise Papers"
+  }
+}

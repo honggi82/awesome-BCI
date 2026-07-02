@@ -1,0 +1,1757 @@
+{
+  "002_Brain-computer_interface_technology_a_review_of_the_first_in": [
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9446,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "051_Electrocorticography-based_brain_computer_Interface-the_seat",
+      "score": 0.9408,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
+      "score": 0.9356,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "209_Using_an_EEG-Based_Brain-Computer_Interface_for_Virtual_Curs",
+      "score": 0.9321,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "score": 0.9305,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "011_The_mental_prosthesis_assessing_the_speed_of_a_P300-based_br": [
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9022,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "209_Using_an_EEG-Based_Brain-Computer_Interface_for_Virtual_Curs",
+      "score": 0.9001,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "215_A_Tactile_P300_Brain-Computer_Interface",
+      "score": 0.8952,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "214_A_New_Auditory_Multi-Class_Brain-Computer_Interface_Paradigm",
+      "score": 0.894,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "score": 0.8936,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "012_Motor_imagery_and_direct_brain-computer_communication": [
+    {
+      "target": "199_Pattern_Recognition_of_EEG_Signal_during_Motor_Imagery_by_Us",
+      "score": 0.8413,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "score": 0.8256,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
+      "score": 0.8162,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "221_Convolutional_Neural_Networks_for_P300_Detection_with_Applic",
+      "score": 0.8128,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.8122,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "013_Linear_and_nonlinear_methods_for_brain-computer_interfaces": [
+    {
+      "target": "014_Asynchronous_BCI_and_local_neural_classifiers_an_overview_of",
+      "score": 0.9207,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "209_Using_an_EEG-Based_Brain-Computer_Interface_for_Virtual_Curs",
+      "score": 0.8962,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "049_Towards_adaptive_classification_for_BCI",
+      "score": 0.8929,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.8906,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "052_The_Berlin_Brain-Computer_Interface_Machine_Learning_Based_D",
+      "score": 0.89,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "014_Asynchronous_BCI_and_local_neural_classifiers_an_overview_of": [
+    {
+      "target": "013_Linear_and_nonlinear_methods_for_brain-computer_interfaces",
+      "score": 0.9207,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "049_Towards_adaptive_classification_for_BCI",
+      "score": 0.8974,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.8919,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.8896,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "score": 0.8895,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "044_Real-world_applications_for_brain-computer_interface_technol": [
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9343,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "230_A_Symbiotic_Brain-Machine_Interface_through_Value-Based_Deci",
+      "score": 0.9317,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "051_Electrocorticography-based_brain_computer_Interface-the_seat",
+      "score": 0.9298,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9256,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter",
+      "score": 0.9229,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv": [
+    {
+      "target": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "score": 0.9423,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9356,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter",
+      "score": 0.9338,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9334,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9278,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "046_BCI_competition_2003-data_set_IVAn_algorithm_based_on_CSSD_a": [
+    {
+      "target": "050_Brain-computer_interfaces_for_1-D_and_2-D_cursor_control_des",
+      "score": 0.9192,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "048_Brain-computer_interface_based_on_the_high-frequency_steady-",
+      "score": 0.9181,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "204_Pattern_Recognition_of_Motor_Imagery_EEG_using_Wavelet_Trans",
+      "score": 0.9166,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9116,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
+      "score": 0.9104,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "047_Statistical_encoding_model_for_a_primary_motor_cortical_brai": [
+    {
+      "target": "051_Electrocorticography-based_brain_computer_Interface-the_seat",
+      "score": 0.9029,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "230_A_Symbiotic_Brain-Machine_Interface_through_Value-Based_Deci",
+      "score": 0.8972,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int",
+      "score": 0.8962,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.8952,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "050_Brain-computer_interfaces_for_1-D_and_2-D_cursor_control_des",
+      "score": 0.8952,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "048_Brain-computer_interface_based_on_the_high-frequency_steady-": [
+    {
+      "target": "222_A_high-speed_BCI_based_on_code_modulation_VEP",
+      "score": 0.9214,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
+      "score": 0.9191,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "046_BCI_competition_2003-data_set_IVAn_algorithm_based_on_CSSD_a",
+      "score": 0.9181,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9165,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "score": 0.9117,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "049_Towards_adaptive_classification_for_BCI": [
+    {
+      "target": "052_The_Berlin_Brain-Computer_Interface_Machine_Learning_Based_D",
+      "score": 0.9364,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9329,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9296,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "222_A_high-speed_BCI_based_on_code_modulation_VEP",
+      "score": 0.925,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.9228,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "050_Brain-computer_interfaces_for_1-D_and_2-D_cursor_control_des": [
+    {
+      "target": "051_Electrocorticography-based_brain_computer_Interface-the_seat",
+      "score": 0.9249,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "score": 0.9238,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter",
+      "score": 0.9231,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9224,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "044_Real-world_applications_for_brain-computer_interface_technol",
+      "score": 0.9208,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "051_Electrocorticography-based_brain_computer_Interface-the_seat": [
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9408,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "044_Real-world_applications_for_brain-computer_interface_technol",
+      "score": 0.9298,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter",
+      "score": 0.9292,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.928,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "050_Brain-computer_interfaces_for_1-D_and_2-D_cursor_control_des",
+      "score": 0.9249,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "052_The_Berlin_Brain-Computer_Interface_Machine_Learning_Based_D": [
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9474,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9467,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra",
+      "score": 0.9388,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.9371,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "049_Towards_adaptive_classification_for_BCI",
+      "score": 0.9364,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "053_DASHER-an_efficient_writing_system_for_brain-computer_interf": [
+    {
+      "target": "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int",
+      "score": 0.9055,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "044_Real-world_applications_for_brain-computer_interface_technol",
+      "score": 0.9045,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9038,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "051_Electrocorticography-based_brain_computer_Interface-the_seat",
+      "score": 0.9015,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9005,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "193_A_Brain_Computer_Interface_Based_on_Neural_Network_with_Effi": [
+    {
+      "target": "205_A_brain-computer_interface_BCI_system_based_on_auditory_stre",
+      "score": 0.9297,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9281,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
+      "score": 0.9144,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "score": 0.9132,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "222_A_high-speed_BCI_based_on_code_modulation_VEP",
+      "score": 0.9115,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry": [
+    {
+      "target": "223_Bristle-sensorslow-cost_flexible_passive_dry_EEG_electrodes",
+      "score": 0.9469,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "201_Towards_Zero_Training_for_Brain-Computer_Interfacing",
+      "score": 0.9339,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "score": 0.9329,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9327,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.9294,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "195_Low-Power_Circuits_for_Brain-Machine_Interfaces": [
+    {
+      "target": "203_A_brain-machine_interface_using_dry-contact_low-noise_EEG_se",
+      "score": 0.9122,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.8989,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.8782,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "202_Hemodynamics_for_Brain-Computer_Interfaces",
+      "score": 0.877,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "223_Bristle-sensorslow-cost_flexible_passive_dry_EEG_electrodes",
+      "score": 0.8759,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int": [
+    {
+      "target": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "score": 0.9266,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9229,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "044_Real-world_applications_for_brain-computer_interface_technol",
+      "score": 0.9225,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
+      "score": 0.9222,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9158,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M": [
+    {
+      "target": "207_Unscented_Kalman_Filter_for_Brain-Machine_Interfaces",
+      "score": 0.9703,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro",
+      "score": 0.9447,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "206_A_Wireless_Brain-Machine_Interface_for_Real-Time_Speech_Synt",
+      "score": 0.9446,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9428,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "score": 0.9399,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "198_Brain-Computer_Interface_Analysis_using_Continuous_Wavelet_T": [
+    {
+      "target": "204_Pattern_Recognition_of_Motor_Imagery_EEG_using_Wavelet_Trans",
+      "score": 0.9207,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "221_Convolutional_Neural_Networks_for_P300_Detection_with_Applic",
+      "score": 0.9114,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "193_A_Brain_Computer_Interface_Based_on_Neural_Network_with_Effi",
+      "score": 0.8959,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.891,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "046_BCI_competition_2003-data_set_IVAn_algorithm_based_on_CSSD_a",
+      "score": 0.8896,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "199_Pattern_Recognition_of_EEG_Signal_during_Motor_Imagery_by_Us": [
+    {
+      "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
+      "score": 0.8685,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "193_A_Brain_Computer_Interface_Based_on_Neural_Network_with_Effi",
+      "score": 0.8684,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "205_A_brain-computer_interface_BCI_system_based_on_auditory_stre",
+      "score": 0.8645,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "049_Towards_adaptive_classification_for_BCI",
+      "score": 0.8644,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "202_Hemodynamics_for_Brain-Computer_Interfaces",
+      "score": 0.8641,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "200_Functional_network_reorganization_during_learning_in_a_brain": [
+    {
+      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "score": 0.9203,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "206_A_Wireless_Brain-Machine_Interface_for_Real-Time_Speech_Synt",
+      "score": 0.9173,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro",
+      "score": 0.9139,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9094,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "score": 0.9088,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "201_Towards_Zero_Training_for_Brain-Computer_Interfacing": [
+    {
+      "target": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "score": 0.9407,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "237_Transferring_Subspaces_Between_Subjects_in_Brain--Computer_I",
+      "score": 0.9389,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9339,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9165,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int",
+      "score": 0.9143,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "202_Hemodynamics_for_Brain-Computer_Interfaces": [
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9159,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "score": 0.9088,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "051_Electrocorticography-based_brain_computer_Interface-the_seat",
+      "score": 0.9045,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "222_A_high-speed_BCI_based_on_code_modulation_VEP",
+      "score": 0.9045,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
+      "score": 0.9025,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "203_A_brain-machine_interface_using_dry-contact_low-noise_EEG_se": [
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.9267,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9216,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "223_Bristle-sensorslow-cost_flexible_passive_dry_EEG_electrodes",
+      "score": 0.9215,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9206,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9179,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "204_Pattern_Recognition_of_Motor_Imagery_EEG_using_Wavelet_Trans": [
+    {
+      "target": "198_Brain-Computer_Interface_Analysis_using_Continuous_Wavelet_T",
+      "score": 0.9207,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
+      "score": 0.9172,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "046_BCI_competition_2003-data_set_IVAn_algorithm_based_on_CSSD_a",
+      "score": 0.9166,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9107,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.908,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "205_A_brain-computer_interface_BCI_system_based_on_auditory_stre": [
+    {
+      "target": "193_A_Brain_Computer_Interface_Based_on_Neural_Network_with_Effi",
+      "score": 0.9297,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "222_A_high-speed_BCI_based_on_code_modulation_VEP",
+      "score": 0.8986,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "048_Brain-computer_interface_based_on_the_high-frequency_steady-",
+      "score": 0.8962,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "215_A_Tactile_P300_Brain-Computer_Interface",
+      "score": 0.8939,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
+      "score": 0.892,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "206_A_Wireless_Brain-Machine_Interface_for_Real-Time_Speech_Synt": [
+    {
+      "target": "207_Unscented_Kalman_Filter_for_Brain-Machine_Interfaces",
+      "score": 0.9498,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "score": 0.9446,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9358,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro",
+      "score": 0.9302,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "200_Functional_network_reorganization_during_learning_in_a_brain",
+      "score": 0.9173,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "207_Unscented_Kalman_Filter_for_Brain-Machine_Interfaces": [
+    {
+      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "score": 0.9703,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "206_A_Wireless_Brain-Machine_Interface_for_Real-Time_Speech_Synt",
+      "score": 0.9498,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9393,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro",
+      "score": 0.9307,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "score": 0.9253,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "208_P300-Based_BrainComputer_Interface_Communication_Evaluation": [
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.9416,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9324,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9269,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.9247,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "213_The_Influence_of_Psychological_State_and_Motivation_on_Brain",
+      "score": 0.9162,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "209_Using_an_EEG-Based_Brain-Computer_Interface_for_Virtual_Curs": [
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9321,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "score": 0.9231,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "215_A_Tactile_P300_Brain-Computer_Interface",
+      "score": 0.9162,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
+      "score": 0.9143,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.912,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t": [
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9581,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9559,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9517,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.9483,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "213_The_Influence_of_Psychological_State_and_Motivation_on_Brain",
+      "score": 0.9464,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "211_The_Hybrid_BCI": [
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9698,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9561,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "score": 0.9483,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra",
+      "score": 0.9467,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.946,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T": [
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9731,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.9708,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "211_The_Hybrid_BCI",
+      "score": 0.9561,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.9559,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra",
+      "score": 0.9551,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "213_The_Influence_of_Psychological_State_and_Motivation_on_Brain": [
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.95,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9465,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.9464,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9443,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "211_The_Hybrid_BCI",
+      "score": 0.9416,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "214_A_New_Auditory_Multi-Class_Brain-Computer_Interface_Paradigm": [
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9333,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "score": 0.9306,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.9291,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9289,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "215_A_Tactile_P300_Brain-Computer_Interface",
+      "score": 0.9263,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "215_A_Tactile_P300_Brain-Computer_Interface": [
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.953,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.9478,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9395,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.936,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "225_Listen_You_are_Writing_Speeding_up_Online_Spelling_with_a_Dy",
+      "score": 0.9339,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter": [
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9708,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9579,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "213_The_Influence_of_Psychological_State_and_Motivation_on_Brain",
+      "score": 0.95,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.9483,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.948,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro": [
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9629,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "score": 0.9483,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.9461,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "score": 0.9447,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "score": 0.9434,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "218_Exploring_two_novel_features_for_EEG-based_brain-computer_in": [
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9168,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "231_Decoding_Finger_Movements_from_ECoG_Signals_Using_Switching",
+      "score": 0.9114,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
+      "score": 0.9071,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "204_Pattern_Recognition_of_Motor_Imagery_EEG_using_Wavelet_Trans",
+      "score": 0.906,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "score": 0.9055,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br": [
+    {
+      "target": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
+      "score": 0.9423,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "215_A_Tactile_P300_Brain-Computer_Interface",
+      "score": 0.9334,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "222_A_high-speed_BCI_based_on_code_modulation_VEP",
+      "score": 0.9324,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9305,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9273,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "220_Adaptation_in_P300_BrainComputer_Interfaces_A_Two-Classifier": [
+    {
+      "target": "221_Convolutional_Neural_Networks_for_P300_Detection_with_Applic",
+      "score": 0.8755,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "198_Brain-Computer_Interface_Analysis_using_Continuous_Wavelet_T",
+      "score": 0.8409,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.8163,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "score": 0.8115,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "213_The_Influence_of_Psychological_State_and_Motivation_on_Brain",
+      "score": 0.8039,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "221_Convolutional_Neural_Networks_for_P300_Detection_with_Applic": [
+    {
+      "target": "198_Brain-Computer_Interface_Analysis_using_Continuous_Wavelet_T",
+      "score": 0.9114,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.906,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "209_Using_an_EEG-Based_Brain-Computer_Interface_for_Virtual_Curs",
+      "score": 0.902,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "222_A_high-speed_BCI_based_on_code_modulation_VEP",
+      "score": 0.9012,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.8989,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "222_A_high-speed_BCI_based_on_code_modulation_VEP": [
+    {
+      "target": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "score": 0.9324,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
+      "score": 0.9298,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "049_Towards_adaptive_classification_for_BCI",
+      "score": 0.925,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "048_Brain-computer_interface_based_on_the_high-frequency_steady-",
+      "score": 0.9214,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9195,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "223_Bristle-sensorslow-cost_flexible_passive_dry_EEG_electrodes": [
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9469,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.9286,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "203_A_brain-machine_interface_using_dry-contact_low-noise_EEG_se",
+      "score": 0.9215,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "215_A_Tactile_P300_Brain-Computer_Interface",
+      "score": 0.9157,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "score": 0.9152,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter": [
+    {
+      "target": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
+      "score": 0.9338,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "051_Electrocorticography-based_brain_computer_Interface-the_seat",
+      "score": 0.9292,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9251,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "050_Brain-computer_interfaces_for_1-D_and_2-D_cursor_control_des",
+      "score": 0.9231,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9229,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "225_Listen_You_are_Writing_Speeding_up_Online_Spelling_with_a_Dy": [
+    {
+      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "score": 0.961,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra",
+      "score": 0.9594,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9513,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.9468,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9464,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a": [
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9731,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "211_The_Hybrid_BCI",
+      "score": 0.9698,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra",
+      "score": 0.9631,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.9581,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.9579,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human": [
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.9446,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
+      "score": 0.9374,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "044_Real-world_applications_for_brain-computer_interface_technol",
+      "score": 0.9343,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
+      "score": 0.9334,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "214_A_New_Auditory_Multi-Class_Brain-Computer_Interface_Paradigm",
+      "score": 0.9333,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "228_Brain-Computer_Interface_Based_on_Generation_of_Visual_Image": [
+    {
+      "target": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "score": 0.913,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "score": 0.9081,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "235_Proprioceptive_Feedback_and_Brain_Computer_Interface_BCI_Bas",
+      "score": 0.9079,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "207_Unscented_Kalman_Filter_for_Brain-Machine_Interfaces",
+      "score": 0.9053,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro",
+      "score": 0.9039,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra": [
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9631,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "225_Listen_You_are_Writing_Speeding_up_Online_Spelling_with_a_Dy",
+      "score": 0.9594,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "score": 0.9554,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9551,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "211_The_Hybrid_BCI",
+      "score": 0.9467,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "230_A_Symbiotic_Brain-Machine_Interface_through_Value-Based_Deci": [
+    {
+      "target": "044_Real-world_applications_for_brain-computer_interface_technol",
+      "score": 0.9317,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9207,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter",
+      "score": 0.9191,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int",
+      "score": 0.9144,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
+      "score": 0.913,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "231_Decoding_Finger_Movements_from_ECoG_Signals_Using_Switching": [
+    {
+      "target": "237_Transferring_Subspaces_Between_Subjects_in_Brain--Computer_I",
+      "score": 0.9169,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "218_Exploring_two_novel_features_for_EEG-based_brain-computer_in",
+      "score": 0.9114,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9086,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "score": 0.9056,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int",
+      "score": 0.9046,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer": [
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9374,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9248,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "214_A_New_Auditory_Multi-Class_Brain-Computer_Interface_Paradigm",
+      "score": 0.9242,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int",
+      "score": 0.9222,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "score": 0.9201,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit": [
+    {
+      "target": "225_Listen_You_are_Writing_Speeding_up_Online_Spelling_with_a_Dy",
+      "score": 0.9368,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.9337,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "score": 0.9328,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9306,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "score": 0.9303,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "234_P300_brain_computer_interface_current_challenges_and_emergin": [
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.9662,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro",
+      "score": 0.9629,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "score": 0.9587,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9542,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "score": 0.952,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "235_Proprioceptive_Feedback_and_Brain_Computer_Interface_BCI_Bas": [
+    {
+      "target": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "score": 0.9385,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.9377,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9333,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "score": 0.9273,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "211_The_Hybrid_BCI",
+      "score": 0.9258,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "236_A_Brain-Computer_Interface_Based_Attention_Training_Program": [
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9277,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
+      "score": 0.9173,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "score": 0.9159,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
+      "score": 0.905,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "score": 0.9046,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "237_Transferring_Subspaces_Between_Subjects_in_Brain--Computer_I": [
+    {
+      "target": "201_Towards_Zero_Training_for_Brain-Computer_Interfacing",
+      "score": 0.9389,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "231_Decoding_Finger_Movements_from_ECoG_Signals_Using_Switching",
+      "score": 0.9169,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9165,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "score": 0.9068,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int",
+      "score": 0.9063,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas": [
+    {
+      "target": "201_Towards_Zero_Training_for_Brain-Computer_Interfacing",
+      "score": 0.9407,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.9329,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "214_A_New_Auditory_Multi-Class_Brain-Computer_Interface_Paradigm",
+      "score": 0.9306,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9275,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int",
+      "score": 0.9266,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom": [
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9662,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "score": 0.9642,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "215_A_Tactile_P300_Brain-Computer_Interface",
+      "score": 0.953,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "score": 0.948,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.948,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "240_Brain-computer_interface_controlled_robotic_gait_orthosis": [
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9254,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.8976,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter",
+      "score": 0.8967,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "230_A_Symbiotic_Brain-Machine_Interface_through_Value-Based_Deci",
+      "score": 0.8964,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "score": 0.8963,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "241_How_Many_People_Could_Use_an_SSVEP_BCI": [
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.9642,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "225_Listen_You_are_Writing_Speeding_up_Online_Spelling_with_a_Dy",
+      "score": 0.961,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9587,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra",
+      "score": 0.9554,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "score": 0.955,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan": [
+    {
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.952,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro",
+      "score": 0.9483,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "score": 0.9399,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "score": 0.9345,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
+      "score": 0.9303,
+      "reason": "Codex local embedding similarity"
+    }
+  ]
+}

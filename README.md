@@ -25,6 +25,20 @@ A taxonomy-first, citation-ranked map of recent Brain-Computer Interface (BCI) r
 
 Generated on 2026-06-27 from free public Semantic Scholar metadata. The current edition investigates up to 500 BCI-related candidate papers per year for 2000-2026, keeps an audited candidate pool, selects the top 100 papers per year by citation count, and reorganizes the final 2,447 papers by research taxonomy.
 
+
+<!-- BEGIN CODEX PAPER CURATION -->
+
+## Codex-Native Full Curation
+
+- Full curation site: https://honggi82.github.io/awesome-BCI/paper_curation/
+- Local static entry: `docs/paper_curation/index.html`
+- Related Papers graph: `docs/paper_curation/bci/network.html`
+- PaperBanana-compatible timeline: `docs/paper_curation/bci/category_timeline_codex_native.png`
+- Processed PDF evidence in this staged run: 65 papers
+- Modeling stack: `allenai/specter2_base` embeddings, `hdbscan.HDBSCAN` clustering, `umap.UMAP` projection
+
+<!-- END CODEX PAPER CURATION -->
+
 ## Project Links
 
 - Website: https://honggi82.github.io/awesome-BCI/

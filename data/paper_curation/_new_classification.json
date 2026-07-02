@@ -1,0 +1,457 @@
+{
+  "categories": [
+    {
+      "id": "hdbscan-bridge-and-noise-papers",
+      "name": "HDBSCAN Bridge and Noise Papers",
+      "count": 32
+    },
+    {
+      "id": "hdbscan-cluster-berlin-bci-university-institute",
+      "name": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "count": 6
+    },
+    {
+      "id": "hdbscan-cluster-bci-control-brain-computer-eeg",
+      "name": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-brain-control-computer-bcis",
+      "name": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-united-states-america-duke",
+      "name": "HDBSCAN Cluster: united, states, america, duke",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-brain-computer-bci-interfacing-learning",
+      "name": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-department-usa-university-computer",
+      "name": "HDBSCAN Cluster: department, usa, university, computer",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-vol-moore-proc-systems",
+      "name": "HDBSCAN Cluster: vol, moore, proc, systems",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-interface-bci-brain-kinds",
+      "name": "HDBSCAN Cluster: interface, bci, brain, kinds",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-eeg-dry-berlin-electrodes",
+      "name": "HDBSCAN Cluster: eeg, dry, berlin, electrodes",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-wavelet-transform-eeg-brain-computer",
+      "name": "HDBSCAN Cluster: wavelet, transform, eeg, brain-computer",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-brain-computer-university-grand",
+      "name": "HDBSCAN Cluster: brain, computer, university, grand",
+      "count": 2
+    }
+  ],
+  "assignments": [
+    {
+      "slug": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "011_The_mental_prosthesis_assessing_the_speed_of_a_P300-based_br",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "012_Motor_imagery_and_direct_brain-computer_communication",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "013_Linear_and_nonlinear_methods_for_brain-computer_interfaces",
+      "category": "HDBSCAN Cluster: vol, moore, proc, systems",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "014_Asynchronous_BCI_and_local_neural_classifiers_an_overview_of",
+      "category": "HDBSCAN Cluster: vol, moore, proc, systems",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "044_Real-world_applications_for_brain-computer_interface_technol",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
+      "category": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "046_BCI_competition_2003-data_set_IVAn_algorithm_based_on_CSSD_a",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "047_Statistical_encoding_model_for_a_primary_motor_cortical_brai",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "048_Brain-computer_interface_based_on_the_high-frequency_steady-",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "049_Towards_adaptive_classification_for_BCI",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "050_Brain-computer_interfaces_for_1-D_and_2-D_cursor_control_des",
+      "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "051_Electrocorticography-based_brain_computer_Interface-the_seat",
+      "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "052_The_Berlin_Brain-Computer_Interface_Machine_Learning_Based_D",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "053_DASHER-an_efficient_writing_system_for_brain-computer_interf",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "193_A_Brain_Computer_Interface_Based_on_Neural_Network_with_Effi",
+      "category": "HDBSCAN Cluster: interface, bci, brain, kinds",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "category": "HDBSCAN Cluster: eeg, dry, berlin, electrodes",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "195_Low-Power_Circuits_for_Brain-Machine_Interfaces",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "196_Preprocessing_and_Meta-Classification_for_Brain-Computer_Int",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "category": "HDBSCAN Cluster: united, states, america, duke",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "198_Brain-Computer_Interface_Analysis_using_Continuous_Wavelet_T",
+      "category": "HDBSCAN Cluster: wavelet, transform, eeg, brain-computer",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "199_Pattern_Recognition_of_EEG_Signal_during_Motor_Imagery_by_Us",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "200_Functional_network_reorganization_during_learning_in_a_brain",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "201_Towards_Zero_Training_for_Brain-Computer_Interfacing",
+      "category": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "202_Hemodynamics_for_Brain-Computer_Interfaces",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "203_A_brain-machine_interface_using_dry-contact_low-noise_EEG_se",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "204_Pattern_Recognition_of_Motor_Imagery_EEG_using_Wavelet_Trans",
+      "category": "HDBSCAN Cluster: wavelet, transform, eeg, brain-computer",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "205_A_brain-computer_interface_BCI_system_based_on_auditory_stre",
+      "category": "HDBSCAN Cluster: interface, bci, brain, kinds",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "206_A_Wireless_Brain-Machine_Interface_for_Real-Time_Speech_Synt",
+      "category": "HDBSCAN Cluster: united, states, america, duke",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "207_Unscented_Kalman_Filter_for_Brain-Machine_Interfaces",
+      "category": "HDBSCAN Cluster: united, states, america, duke",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "208_P300-Based_BrainComputer_Interface_Communication_Evaluation",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "209_Using_an_EEG-Based_Brain-Computer_Interface_for_Virtual_Curs",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "category": "HDBSCAN Cluster: brain, computer, university, grand",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "211_The_Hybrid_BCI",
+      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
+      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "213_The_Influence_of_Psychological_State_and_Motivation_on_Brain",
+      "category": "HDBSCAN Cluster: brain, computer, university, grand",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "214_A_New_Auditory_Multi-Class_Brain-Computer_Interface_Paradigm",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "215_A_Tactile_P300_Brain-Computer_Interface",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
+      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro",
+      "category": "HDBSCAN Cluster: department, usa, university, computer",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "218_Exploring_two_novel_features_for_EEG-based_brain-computer_in",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
+      "category": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "220_Adaptation_in_P300_BrainComputer_Interfaces_A_Two-Classifier",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "221_Convolutional_Neural_Networks_for_P300_Detection_with_Applic",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "222_A_high-speed_BCI_based_on_code_modulation_VEP",
+      "category": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "223_Bristle-sensorslow-cost_flexible_passive_dry_EEG_electrodes",
+      "category": "HDBSCAN Cluster: eeg, dry, berlin, electrodes",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter",
+      "category": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "225_Listen_You_are_Writing_Speeding_up_Online_Spelling_with_a_Dy",
+      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
+      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "228_Brain-Computer_Interface_Based_on_Generation_of_Visual_Image",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra",
+      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "230_A_Symbiotic_Brain-Machine_Interface_through_Value-Based_Deci",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "231_Decoding_Finger_Movements_from_ECoG_Signals_Using_Switching",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "category": "HDBSCAN Cluster: department, usa, university, computer",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "235_Proprioceptive_Feedback_and_Brain_Computer_Interface_BCI_Bas",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "236_A_Brain-Computer_Interface_Based_Attention_Training_Program",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "237_Transferring_Subspaces_Between_Subjects_in_Brain--Computer_I",
+      "category": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
+      "category": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
+      "category": "HDBSCAN Cluster: department, usa, university, computer",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "240_Brain-computer_interface_controlled_robotic_gait_orthosis",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    },
+    {
+      "slug": "242_The_Changing_Face_of_P300_BCIs_A_Comparison_of_Stimulus_Chan",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "confidence": 0.74,
+      "source": "codex-native-hdbscan"
+    }
+  ],
+  "method": "Codex-native bottom-up classification over extracted PDF text; cached SPECTER2, HDBSCAN, and UMAP are attempted locally with recorded fallback."
+}

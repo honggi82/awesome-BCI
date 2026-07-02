@@ -1,0 +1,64 @@
+{
+  "categories": [
+    {
+      "name": "HDBSCAN Bridge and Noise Papers",
+      "summary": "Codex-native cluster containing 32 processed papers.",
+      "count": 32
+    },
+    {
+      "name": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "summary": "Codex-native cluster containing 6 processed papers.",
+      "count": 6
+    },
+    {
+      "name": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "summary": "Codex-native cluster containing 4 processed papers.",
+      "count": 4
+    },
+    {
+      "name": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "summary": "Codex-native cluster containing 4 processed papers.",
+      "count": 4
+    },
+    {
+      "name": "HDBSCAN Cluster: united, states, america, duke",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: department, usa, university, computer",
+      "summary": "Codex-native cluster containing 3 processed papers.",
+      "count": 3
+    },
+    {
+      "name": "HDBSCAN Cluster: vol, moore, proc, systems",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: interface, bci, brain, kinds",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: eeg, dry, berlin, electrodes",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: wavelet, transform, eeg, brain-computer",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    },
+    {
+      "name": "HDBSCAN Cluster: brain, computer, university, grand",
+      "summary": "Codex-native cluster containing 2 processed papers.",
+      "count": 2
+    }
+  ]
+}
