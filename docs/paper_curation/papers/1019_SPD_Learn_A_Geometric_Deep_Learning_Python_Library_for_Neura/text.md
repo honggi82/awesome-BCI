@@ -1,0 +1,193 @@
+# arXiv:2602.22895v1[q-bio.NC]26Feb2026
+
+## SPD Learn: A Geometric Deep Learning Python Library for Neural Decoding Through Trivialization
+
+Bruno Aristimunha b.aristimunha@gmail.com A&O, LISN, Universite´ Paris-Saclay, CNRS, Inria TAU/NERV, France Yneuro, France University of San Diego, EUA
+
+Ce Ju ce.ju@inria.fr Inria, CEA, Universite´ Paris-Saclay, Palaiseau, France
+
+Antoine Collas antoine.collas@inria.fr Inria, CEA, Universite´ Paris-Saclay, Palaiseau, France
+
+Florent Bouchard florent.bouchard@centralesupelec.fr Universit´e Paris-Saclay, CNRS, CentraleSup´elec, L2S, France
+
+Ammar Mian ammar.mian@univ-smb.fr Universit´e Savoie Mont Blanc, LISTIC, France
+
+Bertrand Thirion bertrand.thirion@inria.fr Inria, CEA, Universite´ Paris-Saclay, Palaiseau, France
+
+Sylvain Chevallier sylvain.a.chevallier@inria.fr A&O, LISN, Universite´ Paris-Saclay, CNRS, Inria TAU, France
+
+Reinmar Kobler reinmar.kobler@atr.jp Advanced Telecommunications Research Institute International, Kyoto, and RIKEN Artificial Intelligence Project, Tokyo, Japan.
+
+### Abstract
+
+Implementations of symmetric positive definite (SPD) matrix-based neural networks for neural decoding remain fragmented across research codebases and Python packages. Existing implementations often employ ad hoc handling of manifold constraints and non-unified training setups, which hinders reproducibility and integration into modern deep-learning workflows. To address this gap, we introduce SPDLearn, a unified and modular Python package for geometric deep learning with SPD matrices. SPDLearn provides core SPD operators and neural-network layers, including numerically stable spectral operators, and enforces Stiefel/SPD constraints via trivialization-based parameterizations. This design enables standard backpropagation and optimization in unconstrained Euclidean spaces while producing manifold-constrained parameters by construction. The package also offers reference implementations of representative SPDNet-based models and interfaces with widely used brain computer interface/neuroimaging toolkits and modern machine-learning libraries (e.g., MOABB, Braindecode, Nilearn, and SKADA), facilitating reproducible benchmarking and practical deployment.
+
+Keywords: geometric deep learning, symmetric positive definite (SPD) matrices, braincomputer interfaces, neuroimaging
+
+### 1 Introduction
+
+SPDNet provides a principled neural network framework for learning from covariance matrices representations by exploiting the geometry of the space of symmetric positive definite (SPD) matrices (Huang and Van Gool, 2017). By capturing second-order statistics while preserving geometric structure, SPDNet architectures have been successfully applied to EEG-based brain–computer interface studies (Kobler et al., 2022; Ju and Guan, 2023; Ju et al., 2025), neuroimaging analysis (Collas et al., 2025), and related signal processing tasks, such as radar imaging (Brooks et al., 2020).
+
+Despite their increasing use, existing SPDNet implementations remain fragmented across research codebases and Python packages. They often rely on ad hoc parameterizations to enforce manifold constraints, inconsistent implementations of spectral operators, or training pipelines that depend on specialized Riemannian optimizers, which complicates maintenance and reproducibility in practice.
+
+To address these issues, we introduce SPDLearn, a unified and modular Python package for SPD matrix learning. A central design choice for manifold constraints is the systematic use of trivialization-based parameterizations (Lezcano Casado, 2019): parameters constrained to the Stiefel or SPD manifolds are reparameterized in unconstrained Euclidean spaces through smooth mappings. The package also integrates with established BCI and neuroimaging toolchains, including MOABB (Aristimunha et al., 2025a) and Braindecode (Aristimunha et al., 2025b) for EEG benchmarking and Nilearn (Nilearn contributors, 2026) for fMRI processing and analysis, as well as modern machine-learning domain adaptation libraries such as SKADA (Gnassounou et al., 2024), facilitating reproducible experimental pipelines.
+
+### 2 Design Principles Overview
+
+The SPDLearn package is designed to be modular, extensible, and reproducible, organized into three components:
+
+- 1. functional, which implements low-level operators for SPD matrices. It serves as the computational backbone for spectral operators by providing explicit forward and backward passes derived from spectral differentiation rules.
+- 2. module, which builds on functional to provide core neural-network layers for SPD matrix learning. These modules can be flexibly assembled to reproduce and readily extend a wide range of SPDNet-based architectures.
+- 3. model, which provides reference implementations of representative SPDNet-based architectures built from the modules in module, as summarized in Literature Map 1 and Table 1.
+
+For completeness, we detail key spectral operators, functions, and classes in functional and module in the Appendix.
+
+#### 2.1 Trivialization
+
+In the SPDNet architectures, several parameter groups are subject to geometric constraints. First, the weight matrices in BiMap layers are constrained to the Stiefel manifold. Sec-
+
+t Table 1: Neural decoding models from model supported by SPDLearn. Neural Decoding Model Description Tensor-CSPNet (Ju and Guan, 2023) Captures discriminative information across tem-
+
+poral, spectral, and spatial domains separately using SPDNet for EEG motor imagery.
+
+TSMNet (Kobler et al., 2022) Introduces a sample covariance matrix pooling layer and a batch norm layer SPDBatchNormMeanVar followed by an SPDNet classifier for EEG motor imagery.
+
+Matt (Pan et al., 2022) Introduces a manifold-valued attention module
+
+to SPDNet under Log-Euclidean geometry.
+
+Green (Paillard et al., 2025) Uses learnable wavelet convolutional features
+
+from EEGs followed by an SPDNet classifier.
+
+EEGSPDNet (Wilson et al., 2025) Introduces a channel-specific convolutional layer and a sample covariance matrix pooling layer followed by an SPDNet classifier for EEG motor imagery.
+
+Phase-SPDNet (Carrara et al., 2025) Applies a phase-space embedding using timedelayed coordinates followed by an SPDNet classifier for EEG motor imagery.
+
+ond, some parameters are constrained to the SPD manifold, such as the bias matrix in SPDBatchNormMean and the scale/bias matrices in SPDBatchNormMeanVar. In addition, certain parameters are constrained to be positive (e.g., scalar scale factors). In this package, these constrained parameters are handled via trivialization techniques (Lezcano Casado, 2019). Specifically, we construct a smooth mapping Φ : Rd → M, where M denotes the target manifold (e.g., Stiefel or SPD manifolds). Rather than optimizing directly on M, we optimize unconstrained Euclidean parameters and enforce the constraint through Φ by construction. Gradients are backpropagated through Φ via the chain rule, enabling standard Euclidean optimization while producing manifold-valued (or otherwise constrained) parameters. For completeness, we detail the corresponding trivialization-based parameterizations in Appendix.
+
+#### 2.2 Tutorials for Neural Decoding Tasks
+
+SPDLearn makes it easy to run SPD matrix learning models on EEG or fMRI benchmarks with a unified, reproducible setup built around tools such as MOABB (Aristimunha et al., 2025a) and Braindecode (Aristimunha et al., 2025b), Nilearn (Nilearn contributors, 2026), and SKADA (Gnassounou et al., 2024), while keeping data handling, preprocessing, and evaluation protocols consistent. In the documentation, we provide step-by-step tutorials with downloadable notebooks showing how to build end-to-end EEG motor imagery classification pipelines using SPDLearn, covering all models listed in Table 1, as well as a tutorial
+
+for fMRI classification. We also include animated visualizations to help users understand how each SPD neural network layer transforms data on the SPD manifold.
+
+### 3 Conclusions
+
+We presented a Python package for geometric deep learning with SPD matrices, addressing fragmentation and inconsistency in existing SPDNet implementations. By adopting trivialization-based parametrizations, the package enables stable and efficient optimization of manifold-valued parameters within standard gradient-based learning frameworks. Its modular design and integration with established BCI and neuroimaging toolkits support reproducible experimentation and practical deployment of SPD-based models. Future work will focus on extending the package to additional architectures and learning paradigms, as well as broadening its applicability to larger-scale and more diverse neuroimaging and signal processing tasks.
+
+### References
+
+- B. Aristimunha, I. Carrara, P. Guetschel, S. Sedlar, P. Rodrigues, J. Sosulski, D. Narayanan, E. Bjareholt, Q. Barthelemy, R. T. Schirrmeister, R. Kobler, E. Kalunga, L. Darmet,
+- C. Gregoire, A. Abdul Hussain, R. Gatti, V. Goncharenko, J. Thielen, T. Moreau, Y. Roy, V. Jayaram, A. Barachant, and S. Chevallier. Mother of all BCI benchmarks, 2025a. Zenodo. https://doi.org/10.5281/zenodo.17558294.
+
+- B. Aristimunha, P. Guetschel, M. Wimpff, L. Gemein, C. Rommel, H. Banville, M. Sliwowski, D. Wilson, S. Brandt, T. Gnassounou, J. Paillard, B. Junqueira Lopes, S. Sedlar, T. Moreau, S. Chevallier, A. Gramfort, and R. T. Schirrmeister. Braindecode: Toolbox for decoding raw electrophysiological brain data with deep learning models, 2025b. Zenodo. https://doi.org/10.5281/zenodo.17699192.
+
+- D. Brooks, O. Schwander, F. Barbaresco, J.-Y. Schneider, and M. Cord. Deep learning and information geometry for drone micro-Doppler radar classification. In 2020 IEEE Radar Conference (RadarConf20), pages 1–6. IEEE, 2020. doi: 10.1109/RadarConf2043947. 2020.9266689.
+
+- I. Carrara, B. Aristimunha, M.-C. Corsi, R. Y. de Camargo, S. Chevallier, and T. Papadopoulo. Geometric neural network based on phase space for BCI-EEG decoding. Journal of Neural Engineering, 22(1):016049, 2025. doi: 10.1088/1741-2552/ad88a2.
+
+A. Collas, C. Ju, N. Salvy, and B. Thirion. Riemannian flow matching for brain connectivity matrices via pullback geometry. In Advances in Neural Information Processing Systems (NeurIPS), 2025. doi: 10.48550/arXiv.2505.18193.
+
+T. Gnassounou, O. Kachaiev, R. Flamary, A. Collas, Y. Lalou, A. Mathelin, A. Gramfort, R. Bueno, F. Michel, A. Mellot, V. Loison, A. Odonnat, and T. Moreau. SKADA: Scikit adaptation, 2024. Zenodo. https://doi.org/10.5281/zenodo.14288018.
+
+Z. Huang and L. Van Gool. A Riemannian network for SPD matrix learning. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 31, 2017. doi: 10.1609/aaai. v31i1.10866.
+
+- C. Ionescu, O. Vantzos, and C. Sminchisescu. Matrix backpropagation for deep networks with structured layers. In Proceedings of the IEEE International Conference on Computer Vision (ICCV), pages 2965–2973, 2015. doi: 10.1109/ICCV.2015.339.
+
+C. Ju and C. Guan. Tensor-CSPNet: A novel geometric deep learning framework for motor imagery classification. IEEE Transactions on Neural Networks and Learning Systems, 34
+
+(12):10955–10969, 2023. doi: 10.1109/TNNLS.2022.3172108.
+
+C. Ju, R. J. Kobler, A. Collas, M. Kawanabe, C. Guan, and B. Thirion. SPD matrix learning for neuroimaging analysis: Perspectives, methods, and challenges. arXiv preprint arXiv:2504.18882, 2025. doi: 10.48550/arXiv.2504.18882.
+
+R. Kobler, J.-i. Hirayama, Q. Zhao, and M. Kawanabe. SPD domain-specific batch normalization to crack interpretable unsupervised domain adaptation in EEG. In Advances in Neural Information Processing Systems (NeurIPS), volume 35, pages 6219–6235, 2022. doi: 10.5555/3600270.3600720.
+
+M. Lezcano Casado. Trivializations for gradient-based optimization on manifolds. In Advances in Neural Information Processing Systems (NeurIPS), volume 32, pages 9154– 9164, 2019. doi: 10.5555/3454287.3455108.
+
+Nilearn contributors. Nilearn, 2026. Zenodo. https://doi.org/10.5281/zenodo. 18600337.
+
+- J. Paillard, J. F. Hipp, and D. A. Engemann. GREEN: A lightweight architecture using learnable wavelets and Riemannian geometry for biomarker exploration with EEG signals. Patterns, 6(3), 2025. doi: 10.1016/j.patter.2025.101182.
+
+Y.-T. Pan, J.-L. Chou, and C.-S. Wei. MAtt: A manifold attention network for EEG decoding. In Advances in Neural Information Processing Systems (NeurIPS), volume 35, pages 31116–31129, 2022. doi: 10.48550/arXiv.2210.01986.
+
+- D. Wilson, R. T. Schirrmeister, L. A. Gemein, and T. Ball. Deep Riemannian networks for end-to-end EEG decoding. Imaging Neuroscience, 3:imag a 00511, 2025. doi: 10.1162/ imag a 00511.
+
+[Figure 1]
+
+Figure 1: Literature Map: The x-axis denotes the released/publication date (more recent papers to the right) and the y-axis denotes citation count (more highly cited papers at the top). Directed edges indicate influence relationships, defined by citation links between papers. The map was generated with Litmaps using data available as of January 2026.
+
+### Appendix A. Functional
+
+Eigenvalue forward operator. Given a symmetric matrix X ∈ Rn×n with eigendecomposition X = UΛU⊤, the function modeig forward applies a scalar function f(·) to the eigenvalues, producing f(X) = Uf(Λ)U⊤, where f(Λ) denotes element-wise application of f to the diagonal entries of Λ. The function returns the transformed matrix together with the original eigenvalues and eigenvectors, which are cached for backpropagation.
+
+Eigenvalue backward operator. The function modeig backward implements the gradient of a spectral matrix function f(X) = Uf(Λ)U⊤ using the Loewner matrix formulation (Ionescu et al., 2015). Given the gradient ∇Y L with respect to the output Y = f(X), the gradient with respect to the input is computed as ∇XL = U L ⊙ U⊤ sym(∇Y L)U U⊤, where ⊙ denotes the Hadamard product and L is the Loewner matrix associated with f, defined element-wise by
+
+ 
+
+f(λi) − f(λj) λi − λj
+
+, i ̸= j, f′(λi), i = j.
+
+Lij =
+
+
+
+In practice, when eigenvalues are numerically close, the diagonal derivative f′(λ) is used to ensure numerical stability and symmetry of the gradient. This formulation yields stable and theoretically consistent gradients for eigenvalue-based matrix functions.
+
+Derived spectral operators. Based on this generic formulation, the following operators are implemented: Log(X) = U log(Λ)U⊤ (matrix logarithm), Exp(X) = U exp(Λ)U⊤ (matrix exponential), |X| = U|Λ|U⊤ (absolute eigenvalue mapping), Clamp(X) = U max(Λ,εI)U⊤ (eigenvalue rectification, ε > 0), and Xα = UΛαU⊤ (matrix power, especially matrix square root and inverse square root are special cases with α = 1/2 and α = −1/2).
+
+### Appendix B. Module
+
+The layers BiMap, ReEig, LogEig, and ExpEig were introduced in Huang and Van Gool (2017). SPDBatchNormMean was introduced in Brooks et al. (2020). BiMapIncreaseDim was introduced in Ju and Guan (2023), and CovLayer and SPDBatchNormMeanVar were introduced in Kobler et al. (2022). SPDDropout was introduced in Wilson et al. (2025).
+
+- 1. Class of CovLayer: This class computes the SPD representation Σ = C(X) for multivariate time series X, where C(·) denotes a user-specified covariance operator. Supported operators include the estimator functions covariance (e.g., the population biased covariance matrix), sample covariance (e.g., sample (unbiased) covariance matrix), real covariance (e.g., the real part of the covariance (Gram) matrix for complex-valued time-series.), and cross covariance (e.g., a real-valued crossfrequency covariance matrix for wavelet-transformed time series).
+
+- 2. Classes of BiMap and BiMapIncreaseDim: Given an SPD input X ∈ Rn×n, BiMap applies a bilinear congruence mapping Y = W⊤XW, where W ∈ Rn×m(m ≤ n)
+
+is a learnable orthogonal matrix enforced by a Stiefel constraint W⊤W = Im. The weight matrix can be initialized using several strategies, including Kaiming uniform, orthogonal, and Stiefel initialization. When m > n, BiMapIncreaseDim embeds an SPD matrix X ∈ Sn++ into a higher-dimensional SPD matrix X˜ ∈ Sm++ via
+
+X˜ = AXA⊤ + P,
+
+where A ∈ Rm×n is a fixed embedding matrix given by the first n columns of Im, and P ∈ Rm×m is a diagonal padding matrix defined by
+
+Pii =
+
+- 0, i ≤ n,
+- 1, i > n.
+
+Equivalently, this operation places X in the top-left n×n block and pads the remaining dimensions with an identity matrix. This construction preserves positive definiteness and ensures X˜ ∈ Sm++.
+
+- 3. Classes of ReEig, LogEig, and ExpEig: Given a symmetric matrix X = UΛU⊤, ReEig applies a rectification to the eigenvalues, ReEig(X) = U max(Λ,εI)U⊤, to enforce numerical stability and positive definiteness. LogEig maps an SPD matrix to the symmetric Euclidean space via LogEig(X) = U log(Λ)U⊤, vectorizing the result by extracting the upper triangular entries optionally. Conversely, ExpEig applies the inverse mapping ExpEig(X) = U exp(Λ)U⊤, to project symmetric matrices back onto the SPD manifold.
+
+- 4. Class of SPDDropout: SPDDropout randomly drops entire channels during training. Dropped channels are zeroed and their diagonal entries are replaced by a small constant ε, while the remaining channels are rescaled to preserve the expected value optionally, ensuring that the output remains positive definite.
+- 5. Classes of TraceNorm and Shrinkage: These regularization layers help improve numerical conditioning of SPD matrices. TraceNorm normalizes an SPD matrix by its trace, and Shrinkage applies Ledoit–Wolf-type shrinkage toward a scaled identity matrix.
+- 6. Class of LogEuclideanResidual: This layer implements a residual connection in the Log-Euclidean framework, enabling skip connections between SPD-valued layers while preserving the manifold structure.
+- 7. Classes of SPDBatchNormMean and SPDBatchNormMeanVar: Given a batch of SPD
+
+matrices {Pi}Ni=1, SPDBatchNormMean estimates the batch Fr´echet mean G under the affine-invariant Riemannian metric using a small number of Karcher flow iter-
+
+ations, and centers each input via the congruence transformation P˜i = G−21PiG−12. An optional learnable SPD bias matrix B is then applied as Pˆi = B21P˜iB12. SPDBatchNormMeanVar extends SPDBatchNormMean by additionally normalizing the dispersion of the batch. After centering at the running Fr´echet mean G, the matrices are whitened via a power transformation P˜i = G−12PiG−12
+
+α
+
+, α = w/
+
+√
+
+σ2 + ε, where σ2 denotes the estimated Fr´echet variance and w is a learnable scaling parameter. An optional SPD bias is then applied by congruence.
+
+- 8. Class of BatchReNorm: BatchReNorm operates in a Euclidean (e.g., Log-Euclidean)
+
+representation. Given vectorized inputs {xi}Ni=1, the layer subtracts the batch or running mean x˜i = xi − µ, and optionally applies a learnable bias, without enforcing SPD constraints.
+
+### Appendix C. Manifold-Valued Parameters
+
+Stiefel manifold-valued parameters. The weight matrix W ∈ Rn×m (n > m) is required to have orthonormal columns W⊤W = Im, which characterizes the Stiefel manifold St(n,m). We parametrize W using a trivialization induced by the geometry of the orthogonal group. It is implemented by torch.nn.utils.parametrizations.orthogonal. Three different trivializations are available. The default one for real rectangular matrices is based on the Householder decomposition. In this case, the weight W is parametrized by m Householder vectors v1,...,vm such that W corresponds to the m first columns of H1 ...Hm, where Hi = In − 2vivi⊤/vi⊤vi. This way, each Hi is orthogonal. Moreover, each vi has zeros in positions {i+1,...,m}, ensuring the optimal number of degrees of freedom, i.e., nm−m(m−1)/2, and a mapping Φ from Rnm−m(m−1)/2 onto St(n,m). The two other trivialization options are a bit less efficient. An unconstrained square matrix X ∈ Rn×n is first transformed into a skew-symmetric matrix A = (X−X⊤)/2. A n×n square orthogonal matrix is then obtained by applying either i). the Lie-group exponential map exp(A) (matrix exponential) or ii). the Cayley map (In + 1/2A)(In − 1/2A)−1. The weight matrix W
+
+is finally obtained by taking the m first columns of this square orthogonal matrix. Hence, in that case, the mapping Φ is from An (n×n skew-symmetric matrices) onto St(n,m) and we have n(n − 1)/2 degrees of freedom, which is sub-optimal.
+
+SPD manifold-valued parameters. In batch normalization layers, the bias parameter needs to be an SPD matrix. To deal with this constraint, a trivialization of the SPD manifold is employed. Two different trivializations have been implemented in the SymmetricPositiveDefinite parametrization. In both cases, the mapping Φ is from Sn (n × n symmetric matrices) onto Sn++, thus featuring the optimal degrees of freedom, i.e., n(n+1)/2. An unconstrained symmetric matrix S ∈ Sn is transformed into an SPD matrix by applying a mapping on its eigenvalues. Given S = UΛU⊤, the SPD matrix is obtained through Uf(Λ)U⊤, where f : R → R∗+. Two different mappings f are available: i). the exponential and ii). the softplus functions.
+
+Positive definite scalar parameters. In batch normalization layers, there is also a scale parameter, which has to be a positive definite scalar. To ensure this constraint, the PositiveDefiniteScalar parametrization relies on a trivialization Φ from R onto R∗+. Two options are available: i). the exponential and ii). the softplus functions.
+

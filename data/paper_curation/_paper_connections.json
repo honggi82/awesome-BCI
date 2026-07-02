@@ -60,23 +60,23 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "978_Review_on_the_Use_of_Brain_Computer_Interface_Rehabilitation",
+      "score": 0.8415,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "199_Pattern_Recognition_of_EEG_Signal_during_Motor_Imagery_by_Us",
       "score": 0.8413,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "528_Decoding_of_four_movement_directions_using_hybrid_NIRS-EEG_b",
-      "score": 0.8299,
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.8403,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
-      "score": 0.8256,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "493_Abnormal_Neural_Connectivity_in_Schizophrenia_and_fMRI-Brain",
-      "score": 0.8256,
+      "target": "969_Research_hotspots_and_trends_of_brain-computer_interface_tec",
+      "score": 0.8392,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -237,8 +237,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "881_Classification_of_Hand_Movements_From_EEG_Using_a_Deep_Atten",
-      "score": 0.9011,
+      "target": "968_EEG_motor_imagery_decoding_a_framework_for_comparative_analy",
+      "score": 0.9014,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -573,23 +573,23 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "1018_NeuroPath_Practically_Adopting_Motor_Imagery_Decoding_throug",
+      "score": 0.8729,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "555_Effect_of_biased_feedback_on_motor_imagery_learning_in_BCI-t",
       "score": 0.8716,
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.871,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "584_Detection_of_motor_imagery_EEG_signals_employing_Naïve_Bayes",
       "score": 0.8706,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
-      "score": 0.8685,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "193_A_Brain_Computer_Interface_Based_on_Neural_Network_with_Effi",
-      "score": 0.8684,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -1081,6 +1081,11 @@
   ],
   "218_Exploring_two_novel_features_for_EEG-based_brain-computer_in": [
     {
+      "target": "968_EEG_motor_imagery_decoding_a_framework_for_comparative_analy",
+      "score": 0.9292,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "518_A_New_Generation_of_Brain-Computer_Interface_Based_on_Rieman",
       "score": 0.9229,
       "reason": "Codex local embedding similarity"
@@ -1098,11 +1103,6 @@
     {
       "target": "889_Simulating_Brain_Signals_Creating_Synthetic_EEG_Data_via_Neu",
       "score": 0.9202,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "539_Predicting_BCI_Subject_Performance_Using_Probabilistic_Spati",
-      "score": 0.9199,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -1204,13 +1204,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "893_An_EEG-EOG-Based_Hybrid_Brain-Computer_Interface_Application",
-      "score": 0.9281,
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9285,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "487_Multi-Class_Motor_Imagery_EEG_Decoding_for_Brain-Computer_In",
-      "score": 0.9272,
+      "target": "893_An_EEG-EOG-Based_Hybrid_Brain-Computer_Interface_Application",
+      "score": 0.9281,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -1420,13 +1420,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "583_Invasive_vs_Non-Invasive_Neuronal_Signals_for_Brain-Machine",
-      "score": 0.9225,
+      "target": "995_Multimodal_Brain-Computer_Interfaces_AI-powered_Decoding_Met",
+      "score": 0.9227,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
-      "score": 0.9207,
+      "target": "583_Invasive_vs_Non-Invasive_Neuronal_Signals_for_Brain-Machine",
+      "score": 0.9225,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -1793,6 +1793,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "970_T-TIME_Test-Time_Information_Maximization_Ensemble_for_Plug-",
+      "score": 0.9305,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "898_Transfer_Learning_for_EEG-Based_BrainComputer_Interfaces_A_R",
       "score": 0.9296,
       "reason": "Codex local embedding similarity"
@@ -1800,11 +1805,6 @@
     {
       "target": "908_Using_the_General_Linear_Model_to_Improve_Performance_in_fNI",
       "score": 0.9296,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "534_A_PlugPlay_P300_BCI_Using_Information_Geometry",
-      "score": 0.928,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -1852,13 +1852,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
-      "score": 0.9418,
+      "target": "945_An_adaptive_closed-loop_ECoG_decoder_for_long-term_and_stabl",
+      "score": 0.9464,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "497_Coupling_BCI_and_cortical_stimulation_for_brain-state-depend",
-      "score": 0.9417,
+      "target": "975_The_largest_EEG-based_BCI_reproducibility_study_for_open_sci",
+      "score": 0.9463,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -1911,8 +1911,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "868_A_Ternary_Hybrid_EEG-NIRS_Brain-Computer_Interface_for_the_C",
-      "score": 0.949,
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9495,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -1960,13 +1960,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
-      "score": 0.9037,
+      "target": "987_A_method_for_synchronized_use_of_EEG_and_eye_tracking_in_ful",
+      "score": 0.9043,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "562_BNCI_Horizon_2020_Towards_a_Roadmap_for_the_BCI_Community",
-      "score": 0.9015,
+      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
+      "score": 0.9037,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -2139,6 +2139,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE",
+      "score": 0.9372,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application",
       "score": 0.9365,
       "reason": "Codex local embedding similarity"
@@ -2151,11 +2156,6 @@
     {
       "target": "834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica",
       "score": 0.9317,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "558_fNIRS-based_brain-computer_interfaces_a_review",
-      "score": 0.9283,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -2274,6 +2274,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "950_Evaluation_of_a_New_Lightweight_EEG_Technology_for_Translati",
+      "score": 0.9656,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "581_Adaptive_Automation_Triggered_by_EEG-Based_Mental_Workload_I",
       "score": 0.9608,
       "reason": "Codex local embedding similarity"
@@ -2286,11 +2291,6 @@
     {
       "target": "818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor",
       "score": 0.9518,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "514_Prediction_of_brain-computer_interface_aptitude_from_individ",
-      "score": 0.9449,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -2532,8 +2532,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "499_Selection_of_Efficient_Features_for_Discrimination_of_Hand_M",
-      "score": 0.9345,
+      "target": "948_Unsupervised_feature_extraction_with_autoencoders_for_EEG_ba",
+      "score": 0.9351,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -2608,13 +2608,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
-      "score": 0.936,
+      "target": "968_EEG_motor_imagery_decoding_a_framework_for_comparative_analy",
+      "score": 0.937,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "527_Errare_machinale_est_the_use_of_error-related_potentials_in",
-      "score": 0.9352,
+      "target": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
+      "score": 0.936,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -2809,6 +2809,11 @@
   ],
   "526_Brain-computer_interface-based_robotic_end_effector_system_f": [
     {
+      "target": "954_EEG-Based_Brain_Network_Analysis_of_Chronic_Stroke_Patients",
+      "score": 0.9596,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput",
       "score": 0.9559,
       "reason": "Codex local embedding similarity"
@@ -2826,11 +2831,6 @@
     {
       "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
       "score": 0.9518,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "885_Effects_of_a_Brain-Computer_Interface_With_Virtual_Reality_V",
-      "score": 0.9511,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -3003,23 +3003,23 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9513,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks",
       "score": 0.9508,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
-      "score": 0.9473,
+      "target": "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE",
+      "score": 0.9508,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E",
-      "score": 0.947,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "864_Covariate_shift_estimation_based_adaptive_ensemble_learning",
-      "score": 0.9464,
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9479,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -3040,13 +3040,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "925_Toward_EEG-Based_BCI_Applications_for_Industry_40_Challenges",
-      "score": 0.9378,
+      "target": "968_EEG_motor_imagery_decoding_a_framework_for_comparative_analy",
+      "score": 0.9392,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "889_Simulating_Brain_Signals_Creating_Synthetic_EEG_Data_via_Neu",
-      "score": 0.9336,
+      "target": "925_Toward_EEG-Based_BCI_Applications_for_Industry_40_Challenges",
+      "score": 0.9378,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -3160,6 +3160,11 @@
   ],
   "539_Predicting_BCI_Subject_Performance_Using_Probabilistic_Spati": [
     {
+      "target": "1013_Sparse_Bayesian_Modeling_of_EEG_Channel_Interactions_Improve",
+      "score": 0.9539,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "908_Using_the_General_Linear_Model_to_Improve_Performance_in_fNI",
       "score": 0.9515,
       "reason": "Codex local embedding similarity"
@@ -3177,11 +3182,6 @@
     {
       "target": "855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI",
       "score": 0.9461,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha",
-      "score": 0.9452,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -3224,6 +3224,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "1013_Sparse_Bayesian_Modeling_of_EEG_Channel_Interactions_Improve",
+      "score": 0.9232,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "864_Covariate_shift_estimation_based_adaptive_ensemble_learning",
       "score": 0.9207,
       "reason": "Codex local embedding similarity"
@@ -3231,11 +3236,6 @@
     {
       "target": "908_Using_the_General_Linear_Model_to_Improve_Performance_in_fNI",
       "score": 0.9134,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
-      "score": 0.9122,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -3440,6 +3440,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "947_Shared_Control_of_Bimanual_Robotic_Limbs_With_a_Brain-Machin",
+      "score": 0.9545,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "833_Role_of_the_Contralesional_vs_Ipsilesional_Hemisphere_in_Str",
       "score": 0.9521,
       "reason": "Codex local embedding similarity"
@@ -3447,11 +3452,6 @@
     {
       "target": "871_Engineering_Artificial_Somatosensation_Through_Cortical_Stim",
       "score": 0.9488,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
-      "score": 0.9475,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -3585,8 +3585,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback",
-      "score": 0.9444,
+      "target": "1014_A_Personalized_and_Adaptable_User_Interface_for_a_Speech_and",
+      "score": 0.9452,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -3705,6 +3705,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "952_A_Novel_Semi-supervised_Meta_Learning_Method_for_Subject-tra",
+      "score": 0.9497,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "497_Coupling_BCI_and_cortical_stimulation_for_brain-state-depend",
       "score": 0.9465,
       "reason": "Codex local embedding similarity"
@@ -3715,13 +3720,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "864_Covariate_shift_estimation_based_adaptive_ensemble_learning",
-      "score": 0.9412,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "908_Using_the_General_Linear_Model_to_Improve_Performance_in_fNI",
-      "score": 0.9401,
+      "target": "958_Neuro-GPT_Towards_A_Foundation_Model_For_EEG",
+      "score": 0.9453,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -3786,6 +3786,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "987_A_method_for_synchronized_use_of_EEG_and_eye_tracking_in_ful",
+      "score": 0.9293,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "241_How_Many_People_Could_Use_an_SSVEP_BCI",
       "score": 0.9274,
       "reason": "Codex local embedding similarity"
@@ -3798,11 +3803,6 @@
     {
       "target": "561_An_auditory_multiclass_brain-computer_interface_with_natural",
       "score": 0.9224,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "922_An_automatic_subject_specific_channel_selection_method_for_e",
-      "score": 0.9208,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -3963,15 +3963,25 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte",
-      "score": 0.9338,
+      "target": "987_A_method_for_synchronized_use_of_EEG_and_eye_tracking_in_ful",
+      "score": 0.9366,
       "reason": "Codex local embedding similarity"
     }
   ],
   "569_A_128-Channel_Extreme_Learning_Machine-Based_Neural_Decoder": [
     {
+      "target": "943_MI-BMInet_An_Efficient_Convolutional_Neural_Network_for_Moto",
+      "score": 0.9367,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "895_Brain2Char_a_deep_architecture_for_decoding_text_from_brain",
       "score": 0.9243,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "995_Multimodal_Brain-Computer_Interfaces_AI-powered_Decoding_Met",
+      "score": 0.9238,
       "reason": "Codex local embedding similarity"
     },
     {
@@ -3982,16 +3992,6 @@
     {
       "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
       "score": 0.9189,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "195_Low-Power_Circuits_for_Brain-Machine_Interfaces",
-      "score": 0.9181,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "918_EEG-inception_an_accurate_and_robust_end-to-end_neural_netwo",
-      "score": 0.9153,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -4007,6 +4007,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "967_Motor_imagery_braincomputer_interface_rehabilitation_system",
+      "score": 0.9517,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "931_Functional_Connectivity_Analysis_in_Motor-Imagery_Brain_Comp",
       "score": 0.9515,
       "reason": "Codex local embedding similarity"
@@ -4014,11 +4019,6 @@
     {
       "target": "854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh",
       "score": 0.9494,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "550_Changes_in_functional_connectivity_correlate_with_behavioral",
-      "score": 0.9488,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -4056,6 +4056,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "950_Evaluation_of_a_New_Lightweight_EEG_Technology_for_Translati",
+      "score": 0.9561,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "581_Adaptive_Automation_Triggered_by_EEG-Based_Mental_Workload_I",
       "score": 0.955,
       "reason": "Codex local embedding similarity"
@@ -4068,11 +4073,6 @@
     {
       "target": "818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor",
       "score": 0.9482,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "525_Prediction_of_Auditory_and_Visual_P300_Brain-Computer_Interf",
-      "score": 0.9451,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -4142,18 +4142,18 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "1014_A_Personalized_and_Adaptable_User_Interface_for_a_Speech_and",
+      "score": 0.9519,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "871_Engineering_Artificial_Somatosensation_Through_Cortical_Stim",
       "score": 0.9501,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "926_Explant_Analysis_of_Utah_Electrode_Arrays_Implanted_in_Human",
-      "score": 0.9486,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "207_Unscented_Kalman_Filter_for_Brain-Machine_Interfaces",
-      "score": 0.9444,
+      "target": "947_Shared_Control_of_Bimanual_Robotic_Limbs_With_a_Brain-Machin",
+      "score": 0.9493,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -4287,12 +4287,17 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "533_Feature_learning_from_incomplete_EEG_with_denoising_autoenco",
-      "score": 0.9427,
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9457,
       "reason": "Codex local embedding similarity"
     }
   ],
   "581_Adaptive_Automation_Triggered_by_EEG-Based_Mental_Workload_I": [
+    {
+      "target": "950_Evaluation_of_a_New_Lightweight_EEG_Technology_for_Translati",
+      "score": 0.9777,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "506_Attention_and_P300-based_BCI_performance_in_people_with_amyo",
       "score": 0.9608,
@@ -4311,11 +4316,6 @@
     {
       "target": "915_EEG_Biomarkers_Related_With_the_Functional_State_of_Stroke_P",
       "score": 0.9507,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br",
-      "score": 0.9443,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -4385,18 +4385,18 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "551_Clinical_evaluation_of_BrainTree_a_motor_imagery_hybrid_BCI",
-      "score": 0.9312,
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9398,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "221_Convolutional_Neural_Networks_for_P300_Detection_with_Applic",
-      "score": 0.9281,
+      "target": "962_Statistically_significant_features_improve_binary_and_multip",
+      "score": 0.9369,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "578_Comparing_Different_Classifiers_in_Sensory_Motor_Brain_Compu",
-      "score": 0.928,
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.9328,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -4488,23 +4488,23 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9472,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "929_An_overview_of_deep_learning_techniques_for_epileptic_seizur",
       "score": 0.9467,
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "958_Neuro-GPT_Towards_A_Foundation_Model_For_EEG",
+      "score": 0.9379,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "864_Covariate_shift_estimation_based_adaptive_ensemble_learning",
       "score": 0.9378,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "934_EEG-ITNet_An_Explainable_Inception_Temporal_Convolutional_Ne",
-      "score": 0.9348,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "580_EEGNet_a_compact_convolutional_neural_network_for_EEG-based",
-      "score": 0.9345,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -4564,6 +4564,11 @@
   ],
   "818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor": [
     {
+      "target": "950_Evaluation_of_a_New_Lightweight_EEG_Technology_for_Translati",
+      "score": 0.9652,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "581_Adaptive_Automation_Triggered_by_EEG-Based_Mental_Workload_I",
       "score": 0.9532,
       "reason": "Codex local embedding similarity"
@@ -4581,11 +4586,6 @@
     {
       "target": "572_Reaching_and_Grasping_a_Glass_of_Water_by_Locked-In_ALS_Pati",
       "score": 0.9482,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "514_Prediction_of_brain-computer_interface_aptitude_from_individ",
-      "score": 0.9443,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -4876,13 +4876,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat",
-      "score": 0.9397,
+      "target": "945_An_adaptive_closed-loop_ECoG_decoder_for_long-term_and_stabl",
+      "score": 0.9414,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "847_Evaluation_of_a_Dry_EEG_System_for_Application_of_Passive_Br",
-      "score": 0.9365,
+      "target": "862_In_silico_vs_Over_the_Clouds_On-the-Fly_Mental_State_Estimat",
+      "score": 0.9397,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5060,6 +5060,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "974_A_scoping_review_on_the_use_of_consumer-grade_EEG_devices_fo",
+      "score": 0.9731,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "859_Cortical_control_of_a_tablet_computer_by_people_with_paralys",
       "score": 0.972,
       "reason": "Codex local embedding similarity"
@@ -5067,11 +5072,6 @@
     {
       "target": "846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec",
       "score": 0.9712,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "892_A_closed-loop_music-based_brain-computer_interface_for_emoti",
-      "score": 0.9711,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5136,23 +5136,23 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE",
+      "score": 0.9433,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9432,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1018_NeuroPath_Practically_Adopting_Motor_Imagery_Decoding_throug",
+      "score": 0.9409,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec",
       "score": 0.9407,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
-      "score": 0.9404,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "558_fNIRS-based_brain-computer_interfaces_a_review",
-      "score": 0.9399,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "234_P300_brain_computer_interface_current_challenges_and_emergin",
-      "score": 0.9398,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5168,6 +5168,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "970_T-TIME_Test-Time_Information_Maximization_Ensemble_for_Plug-",
+      "score": 0.9507,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "237_Transferring_Subspaces_Between_Subjects_in_Brain--Computer_I",
       "score": 0.9475,
       "reason": "Codex local embedding similarity"
@@ -5175,11 +5180,6 @@
     {
       "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
       "score": 0.9464,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "880_Manifold_Embedded_Knowledge_Transfer_for_Brain-Computer_Inte",
-      "score": 0.9395,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5244,6 +5244,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "1018_NeuroPath_Practically_Adopting_Motor_Imagery_Decoding_throug",
+      "score": 0.9381,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks",
       "score": 0.9333,
       "reason": "Codex local embedding similarity"
@@ -5254,13 +5259,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "501_Frequency_Recognition_in_SSVEP-Based_BCI_using_Multiset_Cano",
-      "score": 0.9064,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "934_EEG-ITNet_An_Explainable_Inception_Temporal_Convolutional_Ne",
-      "score": 0.9054,
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.92,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5308,13 +5308,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec",
-      "score": 0.9602,
+      "target": "974_A_scoping_review_on_the_use_of_consumer-grade_EEG_devices_fo",
+      "score": 0.9625,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "892_A_closed-loop_music-based_brain-computer_interface_for_emoti",
-      "score": 0.9595,
+      "target": "846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec",
+      "score": 0.9602,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5433,6 +5433,16 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "954_EEG-Based_Brain_Network_Analysis_of_Chronic_Stroke_Patients",
+      "score": 0.9559,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1017_PA-TCNet_Pathology-Aware_Temporal_Calibration_with_Physiolog",
+      "score": 0.9438,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "526_Brain-computer_interface-based_robotic_end_effector_system_f",
       "score": 0.9417,
       "reason": "Codex local embedding similarity"
@@ -5440,16 +5450,6 @@
     {
       "target": "893_An_EEG-EOG-Based_Hybrid_Brain-Computer_Interface_Application",
       "score": 0.9406,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "555_Effect_of_biased_feedback_on_motor_imagery_learning_in_BCI-t",
-      "score": 0.9343,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "903_Brain_Computer_Interfaces_for_Improving_the_Quality_of_Life",
-      "score": 0.9341,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5502,12 +5502,17 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "857_EEG-Based_BCI_Control_Schemes_for_Lower-Limb_Assistive-Robot",
-      "score": 0.9578,
+      "target": "946_Denoising_EEG_Signals_for_Real-World_BCI_Applications_Using",
+      "score": 0.9585,
       "reason": "Codex local embedding similarity"
     }
   ],
   "853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla": [
+    {
+      "target": "975_The_largest_EEG-based_BCI_reproducibility_study_for_open_sci",
+      "score": 0.951,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "490_Decoding_Finger_Flexion_from_Band-Specific_ECoG_Signals_in_H",
       "score": 0.9468,
@@ -5527,14 +5532,14 @@
       "target": "514_Prediction_of_brain-computer_interface_aptitude_from_individ",
       "score": 0.9267,
       "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "527_Errare_machinale_est_the_use_of_error-related_potentials_in",
-      "score": 0.9267,
-      "reason": "Codex local embedding similarity"
     }
   ],
   "854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh": [
+    {
+      "target": "967_Motor_imagery_braincomputer_interface_rehabilitation_system",
+      "score": 0.9654,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte",
       "score": 0.9648,
@@ -5553,11 +5558,6 @@
     {
       "target": "834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica",
       "score": 0.9561,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class",
-      "score": 0.955,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5600,18 +5600,18 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9396,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec",
       "score": 0.938,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "908_Using_the_General_Linear_Model_to_Improve_Performance_in_fNI",
-      "score": 0.9337,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "915_EEG_Biomarkers_Related_With_the_Functional_State_of_Stroke_P",
-      "score": 0.9337,
+      "target": "1002_Generalizable_real-time_neural_decoding_with_hybrid_state-sp",
+      "score": 0.9353,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5686,17 +5686,22 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto",
-      "score": 0.9664,
+      "target": "974_A_scoping_review_on_the_use_of_consumer-grade_EEG_devices_fo",
+      "score": 0.9712,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of",
-      "score": 0.9655,
+      "target": "825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto",
+      "score": 0.9664,
       "reason": "Codex local embedding similarity"
     }
   ],
   "860_Independent_home_use_of_a_brain-computer_interface_by_people": [
+    {
+      "target": "947_Shared_Control_of_Bimanual_Robotic_Limbs_With_a_Brain-Machin",
+      "score": 0.934,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "550_Changes_in_functional_connectivity_correlate_with_behavioral",
       "score": 0.9319,
@@ -5715,11 +5720,6 @@
     {
       "target": "926_Explant_Analysis_of_Utah_Electrode_Arrays_Implanted_in_Human",
       "score": 0.9208,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "570_DTI_measures_track_and_predict_motor_function_outcomes_in_st",
-      "score": 0.9167,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5811,6 +5811,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "946_Denoising_EEG_Signals_for_Real-World_BCI_Applications_Using",
+      "score": 0.9541,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "539_Predicting_BCI_Subject_Performance_Using_Probabilistic_Spati",
       "score": 0.951,
       "reason": "Codex local embedding similarity"
@@ -5821,40 +5826,35 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "889_Simulating_Brain_Signals_Creating_Synthetic_EEG_Data_via_Neu",
-      "score": 0.9486,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "863_Most_Popular_Signal_Processing_Methods_in_Motor-Imagery_BCI",
-      "score": 0.9477,
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9503,
       "reason": "Codex local embedding similarity"
     }
   ],
   "865_Adversarial_Domain_Adaptation_for_Stable_Brain-Machine_Inter": [
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9422,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec",
       "score": 0.9418,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "939_SPD_domain-specific_batch_normalization_to_crack_interpretab",
-      "score": 0.9349,
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9383,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "559_Transfer_Learning_in_Brain-Computer_Interfaces",
-      "score": 0.9337,
+      "target": "1002_Generalizable_real-time_neural_decoding_with_hybrid_state-sp",
+      "score": 0.9362,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
-      "score": 0.9322,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "580_EEGNet_a_compact_convolutional_neural_network_for_EEG-based",
-      "score": 0.9306,
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9355,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5902,13 +5902,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "536_Hybrid_fNIRS-EEG_based_classification_of_auditory_and_visual",
-      "score": 0.927,
+      "target": "946_Denoising_EEG_Signals_for_Real-World_BCI_Applications_Using",
+      "score": 0.9313,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o",
-      "score": 0.9269,
+      "target": "536_Hybrid_fNIRS-EEG_based_classification_of_auditory_and_visual",
+      "score": 0.927,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -5988,8 +5988,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "044_Real-world_applications_for_brain-computer_interface_technol",
-      "score": 0.9043,
+      "target": "995_Multimodal_Brain-Computer_Interfaces_AI-powered_Decoding_Met",
+      "score": 0.9097,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6086,18 +6086,18 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "960_EEG2IMAGE_Image_Reconstruction_from_EEG_Brain_Signals",
+      "score": 0.9354,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9331,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
       "score": 0.9321,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
-      "score": 0.9279,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "917_Transformer-based_Spatial-Temporal_Feature_Learning_for_EEG",
-      "score": 0.9263,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6145,13 +6145,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "937_A_State-of-the-Art_Review_of_EEG-Based_Imagined_Speech_Decod",
-      "score": 0.942,
+      "target": "943_MI-BMInet_An_Efficient_Convolutional_Neural_Network_for_Moto",
+      "score": 0.9433,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "893_An_EEG-EOG-Based_Hybrid_Brain-Computer_Interface_Application",
-      "score": 0.9406,
+      "target": "937_A_State-of-the-Art_Review_of_EEG-Based_Imagined_Speech_Decod",
+      "score": 0.942,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6177,8 +6177,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
-      "score": 0.9467,
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9481,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6204,35 +6204,35 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "536_Hybrid_fNIRS-EEG_based_classification_of_auditory_and_visual",
-      "score": 0.9389,
+      "target": "946_Denoising_EEG_Signals_for_Real-World_BCI_Applications_Using",
+      "score": 0.94,
       "reason": "Codex local embedding similarity"
     }
   ],
   "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application": [
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9682,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "936_A_Transformer-based_deep_neural_network_model_for_SSVEP_clas",
       "score": 0.9669,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
-      "score": 0.9573,
+      "target": "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE",
+      "score": 0.9633,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "911_A_Simplified_CNN_Classification_Method_for_MI-EEG_via_the_El",
-      "score": 0.9525,
+      "target": "1000_Integrating_Biological_and_Machine_Intelligence_Attention_Me",
+      "score": 0.9584,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "233_Filter_Bank_Common_Spatial_Pattern_Algorithm_on_BCI_Competit",
-      "score": 0.9463,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
-      "score": 0.9449,
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9577,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6253,13 +6253,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr",
-      "score": 0.9395,
+      "target": "952_A_Novel_Semi-supervised_Meta_Learning_Method_for_Subject-tra",
+      "score": 0.9423,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
-      "score": 0.9357,
+      "target": "840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr",
+      "score": 0.9395,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6285,8 +6285,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
-      "score": 0.9442,
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.945,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6329,22 +6329,32 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "976_CSP-Net_Common_spatial_pattern_empowered_neural_networks_for",
+      "score": 0.9633,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "949_Improved_classification_performance_of_EEG-fNIRS_multimodal",
+      "score": 0.9621,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha",
       "score": 0.9596,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E",
-      "score": 0.9575,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI",
-      "score": 0.9522,
       "reason": "Codex local embedding similarity"
     }
   ],
   "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec": [
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9604,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9588,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "835_Cascade_and_Parallel_Convolutional_Recurrent_Neural_Networks",
       "score": 0.9559,
@@ -6356,18 +6366,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "934_EEG-ITNet_An_Explainable_Inception_Temporal_Convolutional_Ne",
-      "score": 0.9485,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "936_A_Transformer-based_deep_neural_network_model_for_SSVEP_clas",
-      "score": 0.9456,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application",
-      "score": 0.9437,
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9536,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6410,6 +6410,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "978_Review_on_the_Use_of_Brain_Computer_Interface_Rehabilitation",
+      "score": 0.9549,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "863_Most_Popular_Signal_Processing_Methods_in_Motor-Imagery_BCI",
       "score": 0.9534,
       "reason": "Codex local embedding similarity"
@@ -6418,37 +6423,32 @@
       "target": "821_Neurofeedback_Therapy_for_Enhancing_Visual_Attention_State-o",
       "score": 0.9492,
       "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "925_Toward_EEG-Based_BCI_Applications_for_Industry_40_Challenges",
-      "score": 0.9467,
-      "reason": "Codex local embedding similarity"
     }
   ],
   "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva": [
+    {
+      "target": "970_T-TIME_Test-Time_Information_Maximization_Ensemble_for_Plug-",
+      "score": 0.9566,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "952_A_Novel_Semi-supervised_Meta_Learning_Method_for_Subject-tra",
+      "score": 0.9521,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9517,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "898_Transfer_Learning_for_EEG-Based_BrainComputer_Interfaces_A_R",
       "score": 0.9505,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "874_Improving_brain_computer_interface_performance_by_data_augme",
-      "score": 0.9489,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "888_On_the_Vulnerability_of_CNN_Classifiers_in_EEG-Based_BCIs",
-      "score": 0.9471,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "237_Transferring_Subspaces_Between_Subjects_in_Brain--Computer_I",
-      "score": 0.9466,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
-      "score": 0.9465,
+      "target": "992_Subject-Independent_Deep_Architecture_for_EEG-Based_Motor_Im",
+      "score": 0.95,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6464,6 +6464,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "1021_SAFE_Secure_and_Accurate_Federated_Learning_for_Privacy-Pres",
+      "score": 0.9421,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
       "score": 0.9304,
       "reason": "Codex local embedding similarity"
@@ -6471,11 +6476,6 @@
     {
       "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
       "score": 0.9228,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "877_On_the_Classification_of_SSVEP-Based_Dry-EEG_Signals_via_Con",
-      "score": 0.9164,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6486,23 +6486,23 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9504,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "864_Covariate_shift_estimation_based_adaptive_ensemble_learning",
       "score": 0.9486,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "824_Comparative_evaluation_of_state-of-the-art_algorithms_for_SS",
-      "score": 0.9444,
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9461,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
-      "score": 0.9442,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "920_Decoding_Covert_Speech_From_EEG-A_Comprehensive_Review",
-      "score": 0.9407,
+      "target": "958_Neuro-GPT_Towards_A_Foundation_Model_For_EEG",
+      "score": 0.9458,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6510,6 +6510,11 @@
     {
       "target": "938_Classification_of_motor_imagery_EEG_using_deep_learning_incr",
       "score": 0.9741,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "974_A_scoping_review_on_the_use_of_consumer-grade_EEG_devices_fo",
+      "score": 0.9693,
       "reason": "Codex local embedding similarity"
     },
     {
@@ -6525,11 +6530,6 @@
     {
       "target": "892_A_closed-loop_music-based_brain-computer_interface_for_emoti",
       "score": 0.9657,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "567_EEG_Classification_of_Different_Imaginary_Movements_within_t",
-      "score": 0.9644,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6567,6 +6567,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "974_A_scoping_review_on_the_use_of_consumer-grade_EEG_devices_fo",
+      "score": 0.9713,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "851_Visual_perception_affected_by_motivation_and_alertness_contr",
       "score": 0.9712,
       "reason": "Codex local embedding similarity"
@@ -6579,11 +6584,6 @@
     {
       "target": "825_Large-Scale_Assessment_of_a_Fully_Automatic_Co-Adaptive_Moto",
       "score": 0.9702,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of",
-      "score": 0.9683,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6636,35 +6636,35 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "904_Federated_Transfer_Learning_for_EEG_Signal_Classification",
-      "score": 0.9352,
+      "target": "952_A_Novel_Semi-supervised_Meta_Learning_Method_for_Subject-tra",
+      "score": 0.9429,
       "reason": "Codex local embedding similarity"
     }
   ],
   "895_Brain2Char_a_deep_architecture_for_decoding_text_from_brain": [
     {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9507,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "971_Large_Brain_Model_for_Learning_Generic_Representations_with",
+      "score": 0.9493,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1003_Large_Language_Models_for_EEG_A_Comprehensive_Survey_and_Tax",
+      "score": 0.9493,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9478,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
       "score": 0.9464,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
-      "score": 0.9433,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
-      "score": 0.942,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "909_A_Deep_Neural_Network_for_SSVEP-Based_Brain-Computer_Interfa",
-      "score": 0.9419,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "566_Convolutional_Neural_Network_for_Multi-Category_Rapid_Serial",
-      "score": 0.9405,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6685,13 +6685,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh",
-      "score": 0.9525,
+      "target": "967_Motor_imagery_braincomputer_interface_rehabilitation_system",
+      "score": 0.9526,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "576_Broad-Band_Visually_Evoked_Potentials_Reconvolution_in_Brain",
-      "score": 0.9503,
+      "target": "854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh",
+      "score": 0.9525,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6729,23 +6729,23 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "970_T-TIME_Test-Time_Information_Maximization_Ensemble_for_Plug-",
+      "score": 0.9611,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "900_Intra-_and_Inter-subject_Variability_in_EEG-Based_Sensorimot",
       "score": 0.9594,
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "952_A_Novel_Semi-supervised_Meta_Learning_Method_for_Subject-tra",
+      "score": 0.9552,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "237_Transferring_Subspaces_Between_Subjects_in_Brain--Computer_I",
       "score": 0.9535,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "880_Manifold_Embedded_Knowledge_Transfer_for_Brain-Computer_Inte",
-      "score": 0.9528,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
-      "score": 0.9505,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6771,8 +6771,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "540_Classification_of_Four-Class_Motor_Imagery_Employing_Single-",
-      "score": 0.9305,
+      "target": "1000_Integrating_Biological_and_Machine_Intelligence_Attention_Me",
+      "score": 0.934,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6805,6 +6805,11 @@
   ],
   "901_Motor_neuroprosthesis_implanted_with_neurointerventional_sur": [
     {
+      "target": "947_Shared_Control_of_Bimanual_Robotic_Limbs_With_a_Brain-Machin",
+      "score": 0.927,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "860_Independent_home_use_of_a_brain-computer_interface_by_people",
       "score": 0.9257,
       "reason": "Codex local embedding similarity"
@@ -6823,11 +6828,6 @@
       "target": "926_Explant_Analysis_of_Utah_Electrode_Arrays_Implanted_in_Human",
       "score": 0.918,
       "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "570_DTI_measures_track_and_predict_motor_function_outcomes_in_st",
-      "score": 0.9137,
-      "reason": "Codex local embedding similarity"
     }
   ],
   "902_GCNs-Net_A_Graph_Convolutional_Neural_Network_Approach_for_D": [
@@ -6842,6 +6842,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "976_CSP-Net_Common_spatial_pattern_empowered_neural_networks_for",
+      "score": 0.9542,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
       "score": 0.954,
       "reason": "Codex local embedding similarity"
@@ -6849,11 +6854,6 @@
     {
       "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
       "score": 0.9528,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
-      "score": 0.9518,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6874,13 +6874,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "558_fNIRS-based_brain-computer_interfaces_a_review",
-      "score": 0.9491,
+      "target": "954_EEG-Based_Brain_Network_Analysis_of_Chronic_Stroke_Patients",
+      "score": 0.9497,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI",
-      "score": 0.9483,
+      "target": "558_fNIRS-based_brain-computer_interfaces_a_review",
+      "score": 0.9491,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -6913,8 +6913,18 @@
   ],
   "905_Transfer_learning_for_motor_imagery_based_brain-computer_int": [
     {
+      "target": "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE",
+      "score": 0.9537,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
       "score": 0.9407,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "976_CSP-Net_Common_spatial_pattern_empowered_neural_networks_for",
+      "score": 0.9395,
       "reason": "Codex local embedding similarity"
     },
     {
@@ -6923,18 +6933,8 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "936_A_Transformer-based_deep_neural_network_model_for_SSVEP_clas",
-      "score": 0.9333,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application",
-      "score": 0.9324,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "864_Covariate_shift_estimation_based_adaptive_ensemble_learning",
-      "score": 0.9304,
+      "target": "952_A_Novel_Semi-supervised_Meta_Learning_Method_for_Subject-tra",
+      "score": 0.9374,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7090,13 +7090,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI",
-      "score": 0.9593,
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9608,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E",
-      "score": 0.9584,
+      "target": "949_Improved_classification_performance_of_EEG-fNIRS_multimodal",
+      "score": 0.9604,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7117,13 +7117,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "930_Source_Aware_Deep_Learning_Framework_for_Hand_Kinematic_Reco",
-      "score": 0.9382,
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9404,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI",
-      "score": 0.9366,
+      "target": "1011_Inter-_and_Intra-Subject_Variability_in_EEG_A_Systematic_Sur",
+      "score": 0.9384,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7210,6 +7210,16 @@
   ],
   "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C": [
     {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9642,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "973_EEG-Deformer_A_Dense_Convolutional_Transformer_for_Brain-Com",
+      "score": 0.9595,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
       "score": 0.957,
       "reason": "Codex local embedding similarity"
@@ -7220,45 +7230,35 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
-      "score": 0.9546,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "902_GCNs-Net_A_Graph_Convolutional_Neural_Network_Approach_for_D",
-      "score": 0.9528,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "917_Transformer-based_Spatial-Temporal_Feature_Learning_for_EEG",
-      "score": 0.9489,
+      "target": "999_DBConformer_Dual-Branch_Convolutional_Transformer_for_EEG_De",
+      "score": 0.9557,
       "reason": "Codex local embedding similarity"
     }
   ],
   "917_Transformer-based_Spatial-Temporal_Feature_Learning_for_EEG": [
+    {
+      "target": "973_EEG-Deformer_A_Dense_Convolutional_Transformer_for_Brain-Com",
+      "score": 0.9601,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "999_DBConformer_Dual-Branch_Convolutional_Transformer_for_EEG_De",
+      "score": 0.9567,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
       "score": 0.9518,
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9499,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E",
       "score": 0.9498,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
-      "score": 0.9489,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "881_Classification_of_Hand_Movements_From_EEG_Using_a_Deep_Atten",
-      "score": 0.9465,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "902_GCNs-Net_A_Graph_Convolutional_Neural_Network_Approach_for_D",
-      "score": 0.9462,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7274,25 +7274,35 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "943_MI-BMInet_An_Efficient_Convolutional_Neural_Network_for_Moto",
+      "score": 0.9533,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "976_CSP-Net_Common_spatial_pattern_empowered_neural_networks_for",
+      "score": 0.9503,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
       "score": 0.948,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "902_GCNs-Net_A_Graph_Convolutional_Neural_Network_Approach_for_D",
-      "score": 0.9432,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
-      "score": 0.9422,
       "reason": "Codex local embedding similarity"
     }
   ],
   "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe": [
     {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9671,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "912_Decoding_EEG_Rhythms_During_Action_Observation_Motor_Imagery",
       "score": 0.965,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9577,
       "reason": "Codex local embedding similarity"
     },
     {
@@ -7304,22 +7314,22 @@
       "target": "930_Source_Aware_Deep_Learning_Framework_for_Hand_Kinematic_Reco",
       "score": 0.9537,
       "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "877_On_the_Classification_of_SSVEP-Based_Dry-EEG_Signals_via_Con",
-      "score": 0.9486,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
-      "score": 0.9465,
-      "reason": "Codex local embedding similarity"
     }
   ],
   "920_Decoding_Covert_Speech_From_EEG-A_Comprehensive_Review": [
     {
       "target": "937_A_State-of-the-Art_Review_of_EEG-Based_Imagined_Speech_Decod",
       "score": 0.9647,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1003_Large_Language_Models_for_EEG_A_Comprehensive_Survey_and_Tax",
+      "score": 0.947,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "995_Multimodal_Brain-Computer_Interfaces_AI-powered_Decoding_Met",
+      "score": 0.9459,
       "reason": "Codex local embedding similarity"
     },
     {
@@ -7330,16 +7340,6 @@
     {
       "target": "908_Using_the_General_Linear_Model_to_Improve_Performance_in_fNI",
       "score": 0.9402,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
-      "score": 0.9361,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "855_Feature_Extraction_and_Classification_Methods_for_Hybrid_fNI",
-      "score": 0.9334,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7382,49 +7382,54 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.9456,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "513_Using_a_motor_imagery_questionnaire_to_estimate_the_performa",
       "score": 0.9451,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "551_Clinical_evaluation_of_BrainTree_a_motor_imagery_hybrid_BCI",
-      "score": 0.9378,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "882_Weighted_Transfer_Learning_for_Improving_Motor_Imagery-Based",
-      "score": 0.9378,
+      "target": "988_EEG-based_finger_movement_classification_with_intrinsic_time",
+      "score": 0.9435,
       "reason": "Codex local embedding similarity"
     }
   ],
   "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro": [
+    {
+      "target": "954_EEG-Based_Brain_Network_Analysis_of_Chronic_Stroke_Patients",
+      "score": 0.968,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
       "score": 0.9639,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "911_A_Simplified_CNN_Classification_Method_for_MI-EEG_via_the_El",
-      "score": 0.9612,
+      "target": "1012_CFSPMNet_Cross-subject_Fourier-guided_Spatial-Patch_Mamba_Ne",
+      "score": 0.9625,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti",
-      "score": 0.9611,
+      "target": "1017_PA-TCNet_Pathology-Aware_Temporal_Calibration_with_Physiolog",
+      "score": 0.9625,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application",
-      "score": 0.9573,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "936_A_Transformer-based_deep_neural_network_model_for_SSVEP_clas",
-      "score": 0.9573,
+      "target": "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE",
+      "score": 0.9618,
       "reason": "Codex local embedding similarity"
     }
   ],
   "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E": [
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9611,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "911_A_Simplified_CNN_Classification_Method_for_MI-EEG_via_the_El",
       "score": 0.9584,
@@ -7436,18 +7441,13 @@
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "936_A_Transformer-based_deep_neural_network_model_for_SSVEP_clas",
-      "score": 0.9516,
+      "target": "976_CSP-Net_Common_spatial_pattern_empowered_neural_networks_for",
+      "score": 0.9569,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "917_Transformer-based_Spatial-Temporal_Feature_Learning_for_EEG",
-      "score": 0.9498,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "533_Feature_learning_from_incomplete_EEG_with_denoising_autoenco",
-      "score": 0.947,
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9564,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7593,27 +7593,32 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9448,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "992_Subject-Independent_Deep_Architecture_for_EEG-Based_Motor_Im",
+      "score": 0.9407,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9395,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "877_On_the_Classification_of_SSVEP-Based_Dry-EEG_Signals_via_Con",
       "score": 0.9384,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "912_Decoding_EEG_Rhythms_During_Action_Observation_Motor_Imagery",
-      "score": 0.9382,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "898_Transfer_Learning_for_EEG-Based_BrainComputer_Interfaces_A_R",
-      "score": 0.9375,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
-      "score": 0.9357,
       "reason": "Codex local embedding similarity"
     }
   ],
   "931_Functional_Connectivity_Analysis_in_Motor-Imagery_Brain_Comp": [
+    {
+      "target": "967_Motor_imagery_braincomputer_interface_rehabilitation_system",
+      "score": 0.9644,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte",
       "score": 0.9629,
@@ -7633,11 +7638,6 @@
       "target": "854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh",
       "score": 0.9581,
       "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class",
-      "score": 0.9575,
-      "reason": "Codex local embedding similarity"
     }
   ],
   "932_Brain-Computer_Interfaces_for_Children_With_Complex_Communic": [
@@ -7652,6 +7652,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "946_Denoising_EEG_Signals_for_Real-World_BCI_Applications_Using",
+      "score": 0.9441,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "837_Complete_Locked-in_and_Locked-in_Patients_Command_Following",
       "score": 0.943,
       "reason": "Codex local embedding similarity"
@@ -7660,14 +7665,24 @@
       "target": "937_A_State-of-the-Art_Review_of_EEG-Based_Imagined_Speech_Decod",
       "score": 0.942,
       "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U",
-      "score": 0.9416,
-      "reason": "Codex local embedding similarity"
     }
   ],
   "933_Directly_wireless_communication_of_human_minds_via_non-invas": [
+    {
+      "target": "1000_Integrating_Biological_and_Machine_Intelligence_Attention_Me",
+      "score": 0.9287,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1017_PA-TCNet_Pathology-Aware_Temporal_Calibration_with_Physiolog",
+      "score": 0.9241,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1012_CFSPMNet_Cross-subject_Fourier-guided_Spatial-Patch_Mamba_Ne",
+      "score": 0.9235,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
       "score": 0.9231,
@@ -7676,21 +7691,6 @@
     {
       "target": "508_Non-Invasive_Brain-to-Brain_Interface_BBI_Establishing_Funct",
       "score": 0.9214,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti",
-      "score": 0.9177,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "511_A_Brain-Computer_Interface_Based_Cognitive_Training_System_f",
-      "score": 0.9153,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "926_Explant_Analysis_of_Utah_Electrode_Arrays_Implanted_in_Human",
-      "score": 0.9152,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7706,6 +7706,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "946_Denoising_EEG_Signals_for_Real-World_BCI_Applications_Using",
+      "score": 0.9476,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "864_Covariate_shift_estimation_based_adaptive_ensemble_learning",
       "score": 0.9443,
       "reason": "Codex local embedding similarity"
@@ -7714,37 +7719,32 @@
       "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
       "score": 0.9436,
       "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "538_An_independent_SSVEP-based_braincomputer_interface_in_locked",
-      "score": 0.9431,
-      "reason": "Codex local embedding similarity"
     }
   ],
   "935_Toward_reliable_signals_decoding_for_electroencephalogram_A": [
     {
-      "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
-      "score": 0.9495,
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9625,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "877_On_the_Classification_of_SSVEP-Based_Dry-EEG_Signals_via_Con",
-      "score": 0.9467,
+      "target": "1008_DeeperBrain_A_Neuro-Grounded_EEG_Foundation_Model_Towards_Un",
+      "score": 0.9585,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
-      "score": 0.9435,
+      "target": "995_Multimodal_Brain-Computer_Interfaces_AI-powered_Decoding_Met",
+      "score": 0.9568,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "917_Transformer-based_Spatial-Temporal_Feature_Learning_for_EEG",
-      "score": 0.9429,
+      "target": "1007_EEG_Foundation_Models_Progresses_Benchmarking_and_Open_Probl",
+      "score": 0.9557,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "895_Brain2Char_a_deep_architecture_for_decoding_text_from_brain",
-      "score": 0.942,
+      "target": "1003_Large_Language_Models_for_EEG_A_Comprehensive_Survey_and_Tax",
+      "score": 0.9532,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7755,23 +7755,23 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "1000_Integrating_Biological_and_Machine_Intelligence_Attention_Me",
+      "score": 0.9629,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE",
+      "score": 0.9621,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "976_CSP-Net_Common_spatial_pattern_empowered_neural_networks_for",
+      "score": 0.9578,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
       "score": 0.9573,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "911_A_Simplified_CNN_Classification_Method_for_MI-EEG_via_the_El",
-      "score": 0.9565,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
-      "score": 0.9518,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E",
-      "score": 0.9516,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7809,6 +7809,11 @@
       "reason": "Codex local embedding similarity"
     },
     {
+      "target": "974_A_scoping_review_on_the_use_of_consumer-grade_EEG_devices_fo",
+      "score": 0.9735,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "823_The_Importance_of_Visual_Feedback_Design_in_BCIs_from_Embodi",
       "score": 0.9727,
       "reason": "Codex local embedding similarity"
@@ -7822,41 +7827,46 @@
       "target": "817_A_Fully_Automated_Trial_Selection_Method_for_Optimization_of",
       "score": 0.9712,
       "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "858_The_Cybathlon_BCI_race_Successful_longitudinal_mutual_learni",
-      "score": 0.9712,
-      "reason": "Codex local embedding similarity"
     }
   ],
   "939_SPD_domain-specific_batch_normalization_to_crack_interpretab": [
     {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9503,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9465,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "952_A_Novel_Semi-supervised_Meta_Learning_Method_for_Subject-tra",
+      "score": 0.9455,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9419,
+      "reason": "Codex local embedding similarity"
+    },
+    {
       "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
       "score": 0.94,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr",
-      "score": 0.9378,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec",
-      "score": 0.9365,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E",
-      "score": 0.9358,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "865_Adversarial_Domain_Adaptation_for_Stable_Brain-Machine_Inter",
-      "score": 0.9349,
       "reason": "Codex local embedding similarity"
     }
   ],
   "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for": [
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.971,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "953_Graph_Neural_Networks_on_SPD_Manifolds_for_Motor_Imagery_Cla",
+      "score": 0.9689,
+      "reason": "Codex local embedding similarity"
+    },
     {
       "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
       "score": 0.957,
@@ -7870,16 +7880,6 @@
     {
       "target": "917_Transformer-based_Spatial-Temporal_Feature_Learning_for_EEG",
       "score": 0.9518,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
-      "score": 0.9495,
-      "reason": "Codex local embedding similarity"
-    },
-    {
-      "target": "881_Classification_of_Hand_Movements_From_EEG_Using_a_Deep_Atten",
-      "score": 0.9442,
       "reason": "Codex local embedding similarity"
     }
   ],
@@ -7912,28 +7912,2188 @@
   ],
   "942_The_Importance_of_the_Application_of_the_Metaverse_in_Educat": [
     {
-      "target": "495_Assisted_closed-loop_optimization_of_SSVEP-BCI_efficiency",
+      "target": "978_Review_on_the_Use_of_Brain_Computer_Interface_Rehabilitation",
+      "score": 0.9306,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "980_Understanding_the_Ethical_Issues_of_Brain-Computer_Interface",
+      "score": 0.9276,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "959_A_systematic_review_on_functional_electrical_stimulation_bas",
+      "score": 0.9206,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.92,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "961_On_closed-loop_brain_stimulation_systems_for_improving_the_q",
+      "score": 0.9191,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "943_MI-BMInet_An_Efficient_Convolutional_Neural_Network_for_Moto": [
+    {
+      "target": "918_EEG-inception_an_accurate_and_robust_end-to-end_neural_netwo",
+      "score": 0.9533,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.949,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
+      "score": 0.947,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "911_A_Simplified_CNN_Classification_Method_for_MI-EEG_via_the_El",
+      "score": 0.9467,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "893_An_EEG-EOG-Based_Hybrid_Brain-Computer_Interface_Application",
+      "score": 0.9451,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "944_2020_International_braincomputer_interface_competition_A_rev": [
+    {
+      "target": "931_Functional_Connectivity_Analysis_in_Motor-Imagery_Brain_Comp",
+      "score": 0.958,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte",
+      "score": 0.9543,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "826_Steady-State_Somatosensory_Evoked_Potential_for_Brain-Comput",
+      "score": 0.9523,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica",
+      "score": 0.9484,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "977_Comprehensive_evaluation_methods_for_translating_BCI_into_pr",
+      "score": 0.9455,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "945_An_adaptive_closed-loop_ECoG_decoder_for_long-term_and_stabl": [
+    {
+      "target": "490_Decoding_Finger_Flexion_from_Band-Specific_ECoG_Signals_in_H",
+      "score": 0.9464,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "829_Feasibility_of_BCI_Control_in_a_Realistic_Smart_Home_Environ",
+      "score": 0.9414,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "502_Flaws_in_current_human_training_protocols_for_spontaneous_Br",
+      "score": 0.9382,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "518_A_New_Generation_of_Brain-Computer_Interface_Based_on_Rieman",
+      "score": 0.9298,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "527_Errare_machinale_est_the_use_of_error-related_potentials_in",
+      "score": 0.9292,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "946_Denoising_EEG_Signals_for_Real-World_BCI_Applications_Using": [
+    {
+      "target": "852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U",
+      "score": 0.9585,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "864_Covariate_shift_estimation_based_adaptive_ensemble_learning",
+      "score": 0.9541,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1011_Inter-_and_Intra-Subject_Variability_in_EEG_A_Systematic_Sur",
+      "score": 0.9522,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "934_EEG-ITNet_An_Explainable_Inception_Temporal_Convolutional_Ne",
+      "score": 0.9476,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "536_Hybrid_fNIRS-EEG_based_classification_of_auditory_and_visual",
+      "score": 0.9458,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "947_Shared_Control_of_Bimanual_Robotic_Limbs_With_a_Brain-Machin": [
+    {
+      "target": "549_Changes_in_functional_brain_organization_and_behavioral_corr",
+      "score": 0.9545,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "575_Autonomy_Infused_Teleoperation_with_Application_to_BCI_Manip",
+      "score": 0.9493,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "926_Explant_Analysis_of_Utah_Electrode_Arrays_Implanted_in_Human",
+      "score": 0.949,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "550_Changes_in_functional_connectivity_correlate_with_behavioral",
+      "score": 0.9467,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "871_Engineering_Artificial_Somatosensation_Through_Cortical_Stim",
+      "score": 0.9451,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "948_Unsupervised_feature_extraction_with_autoencoders_for_EEG_ba": [
+    {
+      "target": "992_Subject-Independent_Deep_Architecture_for_EEG-Based_Motor_Im",
+      "score": 0.9447,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "515_Automated_Classification_of_LR_Hand_Movement_EEG_Signals_usi",
+      "score": 0.9351,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "910_Multi-Scale_Neural_Network_for_EEG_Representation_Learning_i",
+      "score": 0.9294,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "918_EEG-inception_an_accurate_and_robust_end-to-end_neural_netwo",
+      "score": 0.9291,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
+      "score": 0.9283,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "949_Improved_classification_performance_of_EEG-fNIRS_multimodal": [
+    {
+      "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
+      "score": 0.9621,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification",
+      "score": 0.9611,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "911_A_Simplified_CNN_Classification_Method_for_MI-EEG_via_the_El",
+      "score": 0.9604,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha",
+      "score": 0.9589,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "977_Comprehensive_evaluation_methods_for_translating_BCI_into_pr",
+      "score": 0.9587,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "950_Evaluation_of_a_New_Lightweight_EEG_Technology_for_Translati": [
+    {
+      "target": "581_Adaptive_Automation_Triggered_by_EEG-Based_Mental_Workload_I",
+      "score": 0.9777,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "506_Attention_and_P300-based_BCI_performance_in_people_with_amyo",
+      "score": 0.9656,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "818_A_Bidirectional_Brain-Machine_Interface_Featuring_a_Neuromor",
+      "score": 0.9652,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "572_Reaching_and_Grasping_a_Glass_of_Water_by_Locked-In_ALS_Pati",
+      "score": 0.9561,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "915_EEG_Biomarkers_Related_With_the_Functional_State_of_Stroke_P",
+      "score": 0.9507,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "951_What_names_for_covert_awareness_A_systematic_review": [
+    {
+      "target": "959_A_systematic_review_on_functional_electrical_stimulation_bas",
+      "score": 0.9538,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "961_On_closed-loop_brain_stimulation_systems_for_improving_the_q",
+      "score": 0.9478,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9433,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "987_A_method_for_synchronized_use_of_EEG_and_eye_tracking_in_ful",
+      "score": 0.9413,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "931_Functional_Connectivity_Analysis_in_Motor-Imagery_Brain_Comp",
+      "score": 0.9345,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "952_A_Novel_Semi-supervised_Meta_Learning_Method_for_Subject-tra": [
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9556,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9554,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "898_Transfer_Learning_for_EEG-Based_BrainComputer_Interfaces_A_R",
+      "score": 0.9552,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
+      "score": 0.9521,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "970_T-TIME_Test-Time_Information_Maximization_Ensemble_for_Plug-",
+      "score": 0.952,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "953_Graph_Neural_Networks_on_SPD_Manifolds_for_Motor_Imagery_Cla": [
+    {
+      "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
+      "score": 0.9689,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9525,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "902_GCNs-Net_A_Graph_Convolutional_Neural_Network_Approach_for_D",
+      "score": 0.9482,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "917_Transformer-based_Spatial-Temporal_Feature_Learning_for_EEG",
+      "score": 0.9428,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
+      "score": 0.9404,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "954_EEG-Based_Brain_Network_Analysis_of_Chronic_Stroke_Patients": [
+    {
+      "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
+      "score": 0.968,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "526_Brain-computer_interface-based_robotic_end_effector_system_f",
+      "score": 0.9596,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
+      "score": 0.9568,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1017_PA-TCNet_Pathology-Aware_Temporal_Calibration_with_Physiolog",
+      "score": 0.9565,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "850_Closed-Loop_Hybrid_Gaze_Brain-Machine_Interface_Based_Roboti",
+      "score": 0.9559,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "955_Decoding_Natural_Images_from_EEG_for_Object_Recognition": [
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9538,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9509,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9483,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9476,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9469,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "956_An_accurate_and_rapidly_calibrating_speech_neuroprosthesis": [
+    {
+      "target": "206_A_Wireless_Brain-Machine_Interface_for_Real-Time_Speech_Synt",
+      "score": 0.9285,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "549_Changes_in_functional_brain_organization_and_behavioral_corr",
+      "score": 0.9208,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "947_Shared_Control_of_Bimanual_Robotic_Limbs_With_a_Brain-Machin",
+      "score": 0.9186,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "860_Independent_home_use_of_a_brain-computer_interface_by_people",
+      "score": 0.9181,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "550_Changes_in_functional_connectivity_correlate_with_behavioral",
+      "score": 0.9113,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "957_Status_of_deep_learning_for_EEG-based_braincomputer_interfac": [
+    {
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.9707,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "965_Fatigue_factors_and_fatigue_indices_in_SSVEP-based_brain-com",
+      "score": 0.9599,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "962_Statistically_significant_features_improve_binary_and_multip",
+      "score": 0.9573,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "988_EEG-based_finger_movement_classification_with_intrinsic_time",
+      "score": 0.9557,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.954,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "958_Neuro-GPT_Towards_A_Foundation_Model_For_EEG": [
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9639,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9521,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1007_EEG_Foundation_Models_Progresses_Benchmarking_and_Open_Probl",
+      "score": 0.9491,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9484,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9471,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "959_A_systematic_review_on_functional_electrical_stimulation_bas": [
+    {
+      "target": "961_On_closed-loop_brain_stimulation_systems_for_improving_the_q",
+      "score": 0.9707,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "951_What_names_for_covert_awareness_A_systematic_review",
+      "score": 0.9538,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9495,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "967_Motor_imagery_braincomputer_interface_rehabilitation_system",
+      "score": 0.9413,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "579_Reinforcement_learning_of_self-regulated_β-oscillations_for",
+      "score": 0.941,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "960_EEG2IMAGE_Image_Reconstruction_from_EEG_Brain_Signals": [
+    {
+      "target": "889_Simulating_Brain_Signals_Creating_Synthetic_EEG_Data_via_Neu",
+      "score": 0.9445,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9427,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
+      "score": 0.9388,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "930_Source_Aware_Deep_Learning_Framework_for_Hand_Kinematic_Reco",
+      "score": 0.9374,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "874_Improving_brain_computer_interface_performance_by_data_augme",
+      "score": 0.9354,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "961_On_closed-loop_brain_stimulation_systems_for_improving_the_q": [
+    {
+      "target": "959_A_systematic_review_on_functional_electrical_stimulation_bas",
+      "score": 0.9707,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9644,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "978_Review_on_the_Use_of_Brain_Computer_Interface_Rehabilitation",
+      "score": 0.9507,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "557_What_limits_the_performance_of_current_invasive_brain_machin",
+      "score": 0.9488,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte",
+      "score": 0.9488,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "962_Statistically_significant_features_improve_binary_and_multip": [
+    {
+      "target": "988_EEG-based_finger_movement_classification_with_intrinsic_time",
+      "score": 0.9848,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.974,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification",
+      "score": 0.9714,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "957_Status_of_deep_learning_for_EEG-based_braincomputer_interfac",
+      "score": 0.9573,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9558,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "963_Survey_on_the_research_direction_of_EEG-based_signal_process": [
+    {
+      "target": "988_EEG-based_finger_movement_classification_with_intrinsic_time",
+      "score": 0.9783,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "962_Statistically_significant_features_improve_binary_and_multip",
+      "score": 0.974,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "957_Status_of_deep_learning_for_EEG-based_braincomputer_interfac",
+      "score": 0.9707,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification",
+      "score": 0.9669,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9614,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "964_A_Human-Centric_Metaverse_Enabled_by_Brain-Computer_Interfac": [
+    {
+      "target": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
+      "score": 0.9132,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "914_Passive_Brain-Computer_Interfaces_for_Enhanced_Human-Robot_I",
+      "score": 0.91,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "995_Multimodal_Brain-Computer_Interfaces_AI-powered_Decoding_Met",
+      "score": 0.9079,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "925_Toward_EEG-Based_BCI_Applications_for_Industry_40_Challenges",
+      "score": 0.9074,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "230_A_Symbiotic_Brain-Machine_Interface_through_Value-Based_Deci",
+      "score": 0.9071,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "965_Fatigue_factors_and_fatigue_indices_in_SSVEP-based_brain-com": [
+    {
+      "target": "969_Research_hotspots_and_trends_of_brain-computer_interface_tec",
+      "score": 0.9617,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "977_Comprehensive_evaluation_methods_for_translating_BCI_into_pr",
+      "score": 0.9608,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "957_Status_of_deep_learning_for_EEG-based_braincomputer_interfac",
+      "score": 0.9599,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "838_Multi-Modal_Integration_of_EEG-fNIRS_for_Brain-Computer_Inte",
+      "score": 0.9539,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "983_Brain-computer_interface_paradigms_and_neural_coding",
+      "score": 0.9535,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification": [
+    {
+      "target": "962_Statistically_significant_features_improve_binary_and_multip",
+      "score": 0.9714,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.9669,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "988_EEG-based_finger_movement_classification_with_intrinsic_time",
+      "score": 0.9624,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "949_Improved_classification_performance_of_EEG-fNIRS_multimodal",
+      "score": 0.9611,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9582,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "967_Motor_imagery_braincomputer_interface_rehabilitation_system": [
+    {
+      "target": "854_EEG-Based_BrainComputer_Interfaces_for_Communication_and_Reh",
+      "score": 0.9654,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "931_Functional_Connectivity_Analysis_in_Motor-Imagery_Brain_Comp",
+      "score": 0.9644,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "832_Hybrid_BrainComputer_Interface_Techniques_for_Improved_Class",
+      "score": 0.9545,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification",
+      "score": 0.9537,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "977_Comprehensive_evaluation_methods_for_translating_BCI_into_pr",
+      "score": 0.9528,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "968_EEG_motor_imagery_decoding_a_framework_for_comparative_analy": [
+    {
+      "target": "497_Coupling_BCI_and_cortical_stimulation_for_brain-state-depend",
+      "score": 0.951,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "908_Using_the_General_Linear_Model_to_Improve_Performance_in_fNI",
+      "score": 0.9467,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9465,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "863_Most_Popular_Signal_Processing_Methods_in_Motor-Imagery_BCI",
+      "score": 0.9455,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "194_Single_Trial_Classification_of_Motor_Imagination_Using_6_Dry",
+      "score": 0.944,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "969_Research_hotspots_and_trends_of_brain-computer_interface_tec": [
+    {
+      "target": "983_Brain-computer_interface_paradigms_and_neural_coding",
+      "score": 0.9802,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "977_Comprehensive_evaluation_methods_for_translating_BCI_into_pr",
+      "score": 0.9741,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "965_Fatigue_factors_and_fatigue_indices_in_SSVEP-based_brain-com",
+      "score": 0.9617,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification",
+      "score": 0.9576,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "949_Improved_classification_performance_of_EEG-fNIRS_multimodal",
+      "score": 0.9549,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "970_T-TIME_Test-Time_Information_Maximization_Ensemble_for_Plug-": [
+    {
+      "target": "898_Transfer_Learning_for_EEG-Based_BrainComputer_Interfaces_A_R",
+      "score": 0.9611,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
+      "score": 0.9566,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "952_A_Novel_Semi-supervised_Meta_Learning_Method_for_Subject-tra",
+      "score": 0.952,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1013_Sparse_Bayesian_Modeling_of_EEG_Channel_Interactions_Improve",
+      "score": 0.9509,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "840_Online_and_Offline_Domain_Adaptation_for_Reducing_BCI_Calibr",
+      "score": 0.9507,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "971_Large_Brain_Model_for_Learning_Generic_Representations_with": [
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9611,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9601,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9551,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9522,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1003_Large_Language_Models_for_EEG_A_Comprehensive_Survey_and_Tax",
+      "score": 0.9512,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "972_Visual_Decoding_and_Reconstruction_via_EEG_Embeddings_with_G": [
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9135,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9134,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9128,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1022_Deep_Models_Shallow_Alignment_Uncovering_the_Granularity_Mis",
+      "score": 0.9116,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9074,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "973_EEG-Deformer_A_Dense_Convolutional_Transformer_for_Brain-Com": [
+    {
+      "target": "999_DBConformer_Dual-Branch_Convolutional_Transformer_for_EEG_De",
+      "score": 0.9684,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "917_Transformer-based_Spatial-Temporal_Feature_Learning_for_EEG",
+      "score": 0.9601,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
+      "score": 0.9595,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1007_EEG_Foundation_Models_Progresses_Benchmarking_and_Open_Probl",
+      "score": 0.9522,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E",
+      "score": 0.952,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "974_A_scoping_review_on_the_use_of_consumer-grade_EEG_devices_fo": [
+    {
+      "target": "938_Classification_of_motor_imagery_EEG_using_deep_learning_incr",
+      "score": 0.9735,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "836_A_systematic_review_of_hybrid_brain-computer_interfaces_Taxo",
+      "score": 0.9731,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "892_A_closed-loop_music-based_brain-computer_interface_for_emoti",
+      "score": 0.9713,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "859_Cortical_control_of_a_tablet_computer_by_people_with_paralys",
+      "score": 0.9712,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "846_A_high-speed_brain-computer_interface_BCI_using_dry_EEG_elec",
+      "score": 0.9693,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "975_The_largest_EEG-based_BCI_reproducibility_study_for_open_sci": [
+    {
+      "target": "853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla",
+      "score": 0.951,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "490_Decoding_Finger_Flexion_from_Band-Specific_ECoG_Signals_in_H",
+      "score": 0.9463,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "502_Flaws_in_current_human_training_protocols_for_spontaneous_Br",
+      "score": 0.9432,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "993_The_role_of_data_partitioning_on_the_performance_of_EEG-base",
+      "score": 0.9414,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "915_EEG_Biomarkers_Related_With_the_Functional_State_of_Stroke_P",
+      "score": 0.9378,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "976_CSP-Net_Common_spatial_pattern_empowered_neural_networks_for": [
+    {
+      "target": "883_A_Parallel_Multiscale_Filter_Bank_Convolutional_Neural_Netwo",
+      "score": 0.9633,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9583,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1000_Integrating_Biological_and_Machine_Intelligence_Attention_Me",
+      "score": 0.9582,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "936_A_Transformer-based_deep_neural_network_model_for_SSVEP_clas",
+      "score": 0.9578,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E",
+      "score": 0.9569,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "977_Comprehensive_evaluation_methods_for_translating_BCI_into_pr": [
+    {
+      "target": "983_Brain-computer_interface_paradigms_and_neural_coding",
+      "score": 0.9749,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "969_Research_hotspots_and_trends_of_brain-computer_interface_tec",
+      "score": 0.9741,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "965_Fatigue_factors_and_fatigue_indices_in_SSVEP-based_brain-com",
+      "score": 0.9608,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "949_Improved_classification_performance_of_EEG-fNIRS_multimodal",
+      "score": 0.9587,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "834_Hybrid_EEGfNIRS-Based_Eight-Command_Decoding_for_BCI_Applica",
+      "score": 0.9567,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "978_Review_on_the_Use_of_Brain_Computer_Interface_Rehabilitation": [
+    {
+      "target": "886_Decoding_Movement_From_Electrocorticographic_Activity_A_Revi",
+      "score": 0.9549,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "961_On_closed-loop_brain_stimulation_systems_for_improving_the_q",
+      "score": 0.9507,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "980_Understanding_the_Ethical_Issues_of_Brain-Computer_Interface",
+      "score": 0.9493,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "830_Post-stroke_Rehabilitation_Training_with_a_Motor-Imagery-Bas",
+      "score": 0.9479,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "557_What_limits_the_performance_of_current_invasive_brain_machin",
+      "score": 0.9478,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T": [
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9599,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
+      "score": 0.9577,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9552,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9542,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9499,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "980_Understanding_the_Ethical_Issues_of_Brain-Computer_Interface": [
+    {
+      "target": "978_Review_on_the_Use_of_Brain_Computer_Interface_Rehabilitation",
+      "score": 0.9493,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.9439,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "576_Broad-Band_Visually_Evoked_Potentials_Reconvolution_in_Brain",
+      "score": 0.9368,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9361,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "890_A_large_scale_screening_study_with_a_SMR-based_BCI_Categoriz",
+      "score": 0.9344,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "981_Recording_Brain_Activity_While_Listening_to_Music_Using_Wear": [
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9433,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1013_Sparse_Bayesian_Modeling_of_EEG_Channel_Interactions_Improve",
+      "score": 0.9399,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "881_Classification_of_Hand_Movements_From_EEG_Using_a_Deep_Atten",
+      "score": 0.9387,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9366,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.936,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen": [
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9634,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9605,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "971_Large_Brain_Model_for_Learning_Generic_Representations_with",
+      "score": 0.9601,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9599,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9581,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "983_Brain-computer_interface_paradigms_and_neural_coding": [
+    {
+      "target": "969_Research_hotspots_and_trends_of_brain-computer_interface_tec",
+      "score": 0.9802,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "977_Comprehensive_evaluation_methods_for_translating_BCI_into_pr",
+      "score": 0.9749,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "965_Fatigue_factors_and_fatigue_indices_in_SSVEP-based_brain-com",
+      "score": 0.9535,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification",
+      "score": 0.9522,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "949_Improved_classification_performance_of_EEG-fNIRS_multimodal",
+      "score": 0.9421,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas": [
+    {
+      "target": "961_On_closed-loop_brain_stimulation_systems_for_improving_the_q",
+      "score": 0.9644,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.9614,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification",
+      "score": 0.9582,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "962_Statistically_significant_features_improve_binary_and_multip",
+      "score": 0.9558,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "957_Status_of_deep_learning_for_EEG-based_braincomputer_interfac",
+      "score": 0.954,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa": [
+    {
+      "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
+      "score": 0.971,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
+      "score": 0.9671,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
+      "score": 0.9642,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "992_Subject-Independent_Deep_Architecture_for_EEG-Based_Motor_Im",
+      "score": 0.9641,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
+      "score": 0.9625,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "986_Riemannian_Geometry-Based_EEG_Approaches_A_Literature_Review": [
+    {
+      "target": "929_An_overview_of_deep_learning_techniques_for_epileptic_seizur",
+      "score": 0.9289,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "975_The_largest_EEG-based_BCI_reproducibility_study_for_open_sci",
+      "score": 0.9234,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "499_Selection_of_Efficient_Features_for_Discrimination_of_Hand_M",
+      "score": 0.9149,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "581_Adaptive_Automation_Triggered_by_EEG-Based_Mental_Workload_I",
+      "score": 0.9148,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec",
       "score": 0.9146,
       "reason": "Codex local embedding similarity"
-    },
+    }
+  ],
+  "987_A_method_for_synchronized_use_of_EEG_and_eye_tracking_in_ful": [
     {
-      "target": "573_Comparative_analysis_of_strategies_for_feature_extraction_an",
-      "score": 0.9121,
+      "target": "962_Statistically_significant_features_improve_binary_and_multip",
+      "score": 0.9469,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "927_Recognition_of_Consumer_Preference_by_Analysis_and_Classific",
-      "score": 0.9114,
+      "target": "988_EEG-based_finger_movement_classification_with_intrinsic_time",
+      "score": 0.9466,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "903_Brain_Computer_Interfaces_for_Improving_the_Quality_of_Life",
-      "score": 0.9093,
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.9465,
       "reason": "Codex local embedding similarity"
     },
     {
-      "target": "584_Detection_of_motor_imagery_EEG_signals_employing_Naïve_Bayes",
-      "score": 0.9083,
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9463,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification",
+      "score": 0.9437,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "988_EEG-based_finger_movement_classification_with_intrinsic_time": [
+    {
+      "target": "962_Statistically_significant_features_improve_binary_and_multip",
+      "score": 0.9848,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "963_Survey_on_the_research_direction_of_EEG-based_signal_process",
+      "score": 0.9783,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "966_Early-stage_fusion_of_EEG_and_fNIRS_improves_classification",
+      "score": 0.9624,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "957_Status_of_deep_learning_for_EEG-based_braincomputer_interfac",
+      "score": 0.9557,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "984_Unleashing_the_potential_of_fNIRS_with_machine_learning_clas",
+      "score": 0.9533,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "989_A_Local-Ascending-Global_Learning_Strategy_for_Brain-Compute": [
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9339,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE",
+      "score": 0.9273,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1016_Assembling_the_Minds_Mosaic_Towards_EEG_Semantic_Intent_Deco",
+      "score": 0.9259,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application",
+      "score": 0.9236,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
+      "score": 0.9218,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE": [
+    {
+      "target": "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application",
+      "score": 0.9633,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "936_A_Transformer-based_deep_neural_network_model_for_SSVEP_clas",
+      "score": 0.9621,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
+      "score": 0.9618,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1000_Integrating_Biological_and_Machine_Intelligence_Attention_Me",
+      "score": 0.9609,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9546,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "991_EEG_Emotion_Copilot_Optimizing_lightweight_LLMs_for_emotiona": [
+    {
+      "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
+      "score": 0.953,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9507,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1012_CFSPMNet_Cross-subject_Fourier-guided_Spatial-Patch_Mamba_Ne",
+      "score": 0.9507,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1017_PA-TCNet_Pathology-Aware_Temporal_Calibration_with_Physiolog",
+      "score": 0.9504,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9497,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "992_Subject-Independent_Deep_Architecture_for_EEG-Based_Motor_Im": [
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9641,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
+      "score": 0.9513,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
+      "score": 0.9509,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
+      "score": 0.95,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "940_Tensor-CSPNet_A_Novel_Geometric_Deep_Learning_Framework_for",
+      "score": 0.9492,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "993_The_role_of_data_partitioning_on_the_performance_of_EEG-base": [
+    {
+      "target": "975_The_largest_EEG-based_BCI_reproducibility_study_for_open_sci",
+      "score": 0.9414,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "581_Adaptive_Automation_Triggered_by_EEG-Based_Mental_Workload_I",
+      "score": 0.9391,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "950_Evaluation_of_a_New_Lightweight_EEG_Technology_for_Translati",
+      "score": 0.9381,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "915_EEG_Biomarkers_Related_With_the_Functional_State_of_Stroke_P",
+      "score": 0.9351,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "514_Prediction_of_brain-computer_interface_aptitude_from_individ",
+      "score": 0.9329,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "994_LibriBrain_Over_50_Hours_of_Within-Subject_MEG_to_Improve_Sp": [
+    {
+      "target": "998_The_2025_PNPL_Competition_Speech_Detection_and_Phoneme_Class",
+      "score": 0.953,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1002_Generalizable_real-time_neural_decoding_with_hybrid_state-sp",
+      "score": 0.9407,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9361,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "996_Are_Large_Brainwave_Foundation_Models_Capable_Yet_Insights_f",
+      "score": 0.9346,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "889_Simulating_Brain_Signals_Creating_Synthetic_EEG_Data_via_Neu",
+      "score": 0.9325,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "995_Multimodal_Brain-Computer_Interfaces_AI-powered_Decoding_Met": [
+    {
+      "target": "1003_Large_Language_Models_for_EEG_A_Comprehensive_Survey_and_Tax",
+      "score": 0.9575,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
+      "score": 0.9568,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1008_DeeperBrain_A_Neuro-Grounded_EEG_Foundation_Model_Towards_Un",
+      "score": 0.9531,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9515,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "920_Decoding_Covert_Speech_From_EEG-A_Comprehensive_Review",
+      "score": 0.9459,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "996_Are_Large_Brainwave_Foundation_Models_Capable_Yet_Insights_f": [
+    {
+      "target": "1008_DeeperBrain_A_Neuro-Grounded_EEG_Foundation_Model_Towards_Un",
+      "score": 0.9537,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1007_EEG_Foundation_Models_Progresses_Benchmarking_and_Open_Probl",
+      "score": 0.9499,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9492,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
+      "score": 0.9476,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9461,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode": [
+    {
+      "target": "958_Neuro-GPT_Towards_A_Foundation_Model_For_EEG",
+      "score": 0.9639,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9639,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9638,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9563,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1015_WearBCI_Dataset_Understanding_and_Benchmarking_Real-World_We",
+      "score": 0.9555,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "998_The_2025_PNPL_Competition_Speech_Detection_and_Phoneme_Class": [
+    {
+      "target": "994_LibriBrain_Over_50_Hours_of_Within-Subject_MEG_to_Improve_Sp",
+      "score": 0.953,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1002_Generalizable_real-time_neural_decoding_with_hybrid_state-sp",
+      "score": 0.9482,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec",
+      "score": 0.9332,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "958_Neuro-GPT_Towards_A_Foundation_Model_For_EEG",
+      "score": 0.9265,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1009_Toward_Robust_Reproducible_and_Widely_Accessible_Intracrania",
+      "score": 0.9261,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "999_DBConformer_Dual-Branch_Convolutional_Transformer_for_EEG_De": [
+    {
+      "target": "973_EEG-Deformer_A_Dense_Convolutional_Transformer_for_Brain-Com",
+      "score": 0.9684,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1008_DeeperBrain_A_Neuro-Grounded_EEG_Foundation_Model_Towards_Un",
+      "score": 0.9568,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "917_Transformer-based_Spatial-Temporal_Feature_Learning_for_EEG",
+      "score": 0.9567,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "916_FBCNet_A_Multi-view_Convolutional_Neural_Network_for_Brain-C",
+      "score": 0.9557,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1007_EEG_Foundation_Models_Progresses_Benchmarking_and_Open_Probl",
+      "score": 0.9553,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1000_Integrating_Biological_and_Machine_Intelligence_Attention_Me": [
+    {
+      "target": "936_A_Transformer-based_deep_neural_network_model_for_SSVEP_clas",
+      "score": 0.9629,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "990_Channel_reflection_Knowledge-driven_data_augmentation_for_EE",
+      "score": 0.9609,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
+      "score": 0.9605,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application",
+      "score": 0.9584,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "976_CSP-Net_Common_spatial_pattern_empowered_neural_networks_for",
+      "score": 0.9582,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai": [
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9729,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application",
+      "score": 0.9682,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1016_Assembling_the_Minds_Mosaic_Towards_EEG_Semantic_Intent_Deco",
+      "score": 0.9663,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.966,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1009_Toward_Robust_Reproducible_and_Widely_Accessible_Intracrania",
+      "score": 0.9626,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1002_Generalizable_real-time_neural_decoding_with_hybrid_state-sp": [
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.951,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec",
+      "score": 0.9497,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "998_The_2025_PNPL_Competition_Speech_Detection_and_Phoneme_Class",
+      "score": 0.9482,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9475,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9461,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1003_Large_Language_Models_for_EEG_A_Comprehensive_Survey_and_Tax": [
+    {
+      "target": "995_Multimodal_Brain-Computer_Interfaces_AI-powered_Decoding_Met",
+      "score": 0.9575,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9549,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
+      "score": 0.9532,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1008_DeeperBrain_A_Neuro-Grounded_EEG_Foundation_Model_Towards_Un",
+      "score": 0.9525,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "971_Large_Brain_Model_for_Learning_Generic_Representations_with",
+      "score": 0.9512,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces": [
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9729,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9684,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1016_Assembling_the_Minds_Mosaic_Towards_EEG_Semantic_Intent_Deco",
+      "score": 0.966,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9639,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "971_Large_Brain_Model_for_Learning_Generic_Representations_with",
+      "score": 0.9611,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1005_MoRE-Brain_Routed_Mixture_of_Experts_for_Interpretable_and_G": [
+    {
+      "target": "1022_Deep_Models_Shallow_Alignment_Uncovering_the_Granularity_Mis",
+      "score": 0.9513,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9458,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9401,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1002_Generalizable_real-time_neural_decoding_with_hybrid_state-sp",
+      "score": 0.94,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec",
+      "score": 0.9335,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1006_Dataset_combining_EEG_eye-tracking_and_high-speed_video_for": [
+    {
+      "target": "563_Effects_of_user_mental_state_on_EEG-BCI_performance",
+      "score": 0.9409,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha",
+      "score": 0.9403,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "868_A_Ternary_Hybrid_EEG-NIRS_Brain-Computer_Interface_for_the_C",
+      "score": 0.9395,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "877_On_the_Classification_of_SSVEP-Based_Dry-EEG_Signals_via_Con",
+      "score": 0.9385,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "852_Detection_of_Movement_Related_Cortical_Potentials_from_EEG_U",
+      "score": 0.9367,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1007_EEG_Foundation_Models_Progresses_Benchmarking_and_Open_Probl": [
+    {
+      "target": "1008_DeeperBrain_A_Neuro-Grounded_EEG_Foundation_Model_Towards_Un",
+      "score": 0.9598,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
+      "score": 0.9557,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "999_DBConformer_Dual-Branch_Convolutional_Transformer_for_EEG_De",
+      "score": 0.9553,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "985_MixNet_Joining_Force_of_Classical_and_Modern_Approaches_Towa",
+      "score": 0.9552,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "973_EEG-Deformer_A_Dense_Convolutional_Transformer_for_Brain-Com",
+      "score": 0.9522,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1008_DeeperBrain_A_Neuro-Grounded_EEG_Foundation_Model_Towards_Un": [
+    {
+      "target": "1007_EEG_Foundation_Models_Progresses_Benchmarking_and_Open_Probl",
+      "score": 0.9598,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "935_Toward_reliable_signals_decoding_for_electroencephalogram_A",
+      "score": 0.9585,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "999_DBConformer_Dual-Branch_Convolutional_Transformer_for_EEG_De",
+      "score": 0.9568,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "996_Are_Large_Brainwave_Foundation_Models_Capable_Yet_Insights_f",
+      "score": 0.9537,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "995_Multimodal_Brain-Computer_Interfaces_AI-powered_Decoding_Met",
+      "score": 0.9531,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1009_Toward_Robust_Reproducible_and_Widely_Accessible_Intracrania": [
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9626,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1017_PA-TCNet_Pathology-Aware_Temporal_Calibration_with_Physiolog",
+      "score": 0.9555,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9552,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1016_Assembling_the_Minds_Mosaic_Towards_EEG_Semantic_Intent_Deco",
+      "score": 0.9536,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
+      "score": 0.9514,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne": [
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.966,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9638,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "924_EEGDnet_Fusing_Non-Local_and_Local_Self-Similarity_for_1-D_E",
+      "score": 0.9611,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "911_A_Simplified_CNN_Classification_Method_for_MI-EEG_via_the_El",
+      "score": 0.9608,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "841_Enhancing_Performance_of_a_Hybrid_EEG-fNIRS_System_Using_Cha",
+      "score": 0.9601,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1011_Inter-_and_Intra-Subject_Variability_in_EEG_A_Systematic_Sur": [
+    {
+      "target": "946_Denoising_EEG_Signals_for_Real-World_BCI_Applications_Using",
+      "score": 0.9522,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "979_EEG2TEXT_Open_Vocabulary_EEG-to-Text_Decoding_with_EEG_Pre-T",
+      "score": 0.9479,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "864_Covariate_shift_estimation_based_adaptive_ensemble_learning",
+      "score": 0.9475,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9467,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "919_MIN2Net_End-to-End_Multi-Task_Learning_for_Subject-Independe",
+      "score": 0.9458,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1012_CFSPMNet_Cross-subject_Fourier-guided_Spatial-Patch_Mamba_Ne": [
+    {
+      "target": "1017_PA-TCNet_Pathology-Aware_Temporal_Calibration_with_Physiolog",
+      "score": 0.992,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
+      "score": 0.9625,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "954_EEG-Based_Brain_Network_Analysis_of_Chronic_Stroke_Patients",
+      "score": 0.9554,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1000_Integrating_Biological_and_Machine_Intelligence_Attention_Me",
+      "score": 0.9541,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "976_CSP-Net_Common_spatial_pattern_empowered_neural_networks_for",
+      "score": 0.9519,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1013_Sparse_Bayesian_Modeling_of_EEG_Channel_Interactions_Improve": [
+    {
+      "target": "539_Predicting_BCI_Subject_Performance_Using_Probabilistic_Spati",
+      "score": 0.9539,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "970_T-TIME_Test-Time_Information_Maximization_Ensemble_for_Plug-",
+      "score": 0.9509,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9508,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9488,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "898_Transfer_Learning_for_EEG-Based_BrainComputer_Interfaces_A_R",
+      "score": 0.946,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1014_A_Personalized_and_Adaptable_User_Interface_for_a_Speech_and": [
+    {
+      "target": "575_Autonomy_Infused_Teleoperation_with_Application_to_BCI_Manip",
+      "score": 0.9519,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "871_Engineering_Artificial_Somatosensation_Through_Cortical_Stim",
+      "score": 0.9474,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
+      "score": 0.9452,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "554_Using_Reinforcement_Learning_to_Provide_Stable_Brain-Machine",
+      "score": 0.9452,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "813_Robust_Brain-Machine_Interface_Design_Using_Optimal_Feedback",
+      "score": 0.9396,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1015_WearBCI_Dataset_Understanding_and_Benchmarking_Real-World_We": [
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9576,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9566,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "997_Large_Cognition_Model_Towards_Pretrained_EEG_Foundation_Mode",
+      "score": 0.9555,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9538,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "879_BETA_A_Large_Benchmark_Database_Toward_SSVEP-BCI_Application",
+      "score": 0.9497,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1016_Assembling_the_Minds_Mosaic_Towards_EEG_Semantic_Intent_Deco": [
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9663,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.966,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9619,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9537,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1009_Toward_Robust_Reproducible_and_Widely_Accessible_Intracrania",
+      "score": 0.9536,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1017_PA-TCNet_Pathology-Aware_Temporal_Calibration_with_Physiolog": [
+    {
+      "target": "1012_CFSPMNet_Cross-subject_Fourier-guided_Spatial-Patch_Mamba_Ne",
+      "score": 0.992,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "923_Data_Augmentation_Using_Channel-Level_Recombination_to_Impro",
+      "score": 0.9625,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "954_EEG-Based_Brain_Network_Analysis_of_Chronic_Stroke_Patients",
+      "score": 0.9565,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1009_Toward_Robust_Reproducible_and_Widely_Accessible_Intracrania",
+      "score": 0.9555,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1000_Integrating_Biological_and_Machine_Intelligence_Attention_Me",
+      "score": 0.9514,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1018_NeuroPath_Practically_Adopting_Motor_Imagery_Decoding_throug": [
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9487,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1016_Assembling_the_Minds_Mosaic_Towards_EEG_Semantic_Intent_Deco",
+      "score": 0.9472,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9437,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1015_WearBCI_Dataset_Understanding_and_Benchmarking_Real-World_We",
+      "score": 0.9429,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9419,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1019_SPD_Learn_A_Geometric_Deep_Learning_Python_Library_for_Neura": [
+    {
+      "target": "975_The_largest_EEG-based_BCI_reproducibility_study_for_open_sci",
+      "score": 0.9102,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "853_Integrating_EEG_and_MEG_Signals_to_Improve_Motor_Imagery_Cla",
+      "score": 0.9016,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "986_Riemannian_Geometry-Based_EEG_Approaches_A_Literature_Review",
+      "score": 0.898,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1002_Generalizable_real-time_neural_decoding_with_hybrid_state-sp",
+      "score": 0.8938,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "490_Decoding_Finger_Flexion_from_Band-Specific_ECoG_Signals_in_H",
+      "score": 0.8903,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1020_Autoregressive_Visual_Decoding_from_EEG_Signals": [
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9684,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9634,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1016_Assembling_the_Minds_Mosaic_Towards_EEG_Semantic_Intent_Deco",
+      "score": 0.9619,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1001_AdaBrain-Bench_Benchmarking_Brain_Foundation_Models_for_Brai",
+      "score": 0.9611,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1010_Bridging_scalp_and_intracranial_EEG_in_BCI_via_pretrained_ne",
+      "score": 0.9595,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1021_SAFE_Secure_and_Accurate_Federated_Learning_for_Privacy-Pres": [
+    {
+      "target": "888_On_the_Vulnerability_of_CNN_Classifiers_in_EEG-Based_BCIs",
+      "score": 0.9421,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "887_Mutual_Information-Driven_Subject-Invariant_and_Class-Releva",
+      "score": 0.9408,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "970_T-TIME_Test-Time_Information_Maximization_Ensemble_for_Plug-",
+      "score": 0.9251,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "874_Improving_brain_computer_interface_performance_by_data_augme",
+      "score": 0.9232,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1008_DeeperBrain_A_Neuro-Grounded_EEG_Foundation_Model_Towards_Un",
+      "score": 0.9224,
+      "reason": "Codex local embedding similarity"
+    }
+  ],
+  "1022_Deep_Models_Shallow_Alignment_Uncovering_the_Granularity_Mis": [
+    {
+      "target": "1020_Autoregressive_Visual_Decoding_from_EEG_Signals",
+      "score": 0.9557,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1005_MoRE-Brain_Routed_Mixture_of_Experts_for_Interpretable_and_G",
+      "score": 0.9513,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "1004_NeurIPT_Foundation_Model_for_Neural_Interfaces",
+      "score": 0.9483,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "982_Enhancing_EEG-to-Text_Decoding_through_Transferable_Represen",
+      "score": 0.9446,
+      "reason": "Codex local embedding similarity"
+    },
+    {
+      "target": "884_A_Survey_on_Deep_Learning_based_Brain_Computer_Interface_Rec",
+      "score": 0.9439,
       "reason": "Codex local embedding similarity"
     }
   ]

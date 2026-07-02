@@ -5,36 +5,31 @@
     {
       "id": "hdbscan-bridge-and-noise-papers",
       "name": "HDBSCAN Bridge and Noise Papers",
-      "count": 106
+      "count": 147
     },
     {
-      "id": "hdbscan-cluster-university-brain-neural-computer",
-      "name": "HDBSCAN Cluster: university, brain, neural, computer",
+      "id": "hdbscan-cluster-eeg-ieee-member-model",
+      "name": "HDBSCAN Cluster: eeg, ieee, member, model",
+      "count": 8
+    },
+    {
+      "id": "hdbscan-cluster-university-graz-germany-austria",
+      "name": "HDBSCAN Cluster: university, graz, germany, austria",
       "count": 7
     },
     {
-      "id": "hdbscan-cluster-motor-eprints-https-imagery",
-      "name": "HDBSCAN Cluster: motor, eprints, https, imagery",
+      "id": "hdbscan-cluster-university-korea-institute-department",
+      "name": "HDBSCAN Cluster: university, korea, institute, department",
       "count": 6
     },
     {
-      "id": "hdbscan-cluster-a1111111111-open-access-data",
-      "name": "HDBSCAN Cluster: a1111111111, open, access, data",
+      "id": "hdbscan-cluster-university-china-original-published",
+      "name": "HDBSCAN Cluster: university, china, original, published",
       "count": 6
-    },
-    {
-      "id": "hdbscan-cluster-control-bci-computer-interface",
-      "name": "HDBSCAN Cluster: control, bci, computer, interface",
-      "count": 5
     },
     {
       "id": "hdbscan-cluster-brain-computer-germany-bci",
       "name": "HDBSCAN Cluster: brain, computer, germany, bci",
-      "count": 5
-    },
-    {
-      "id": "hdbscan-cluster-university-department-brain-p300",
-      "name": "HDBSCAN Cluster: university, department, brain, p300",
       "count": 5
     },
     {
@@ -43,34 +38,49 @@
       "count": 5
     },
     {
-      "id": "hdbscan-cluster-university-korea-national-brain-computer",
-      "name": "HDBSCAN Cluster: university, korea, national, brain-computer",
-      "count": 5
-    },
-    {
-      "id": "hdbscan-cluster-brain-computer-bci-hybrid-interface",
-      "name": "HDBSCAN Cluster: brain-computer, bci, hybrid, interface",
-      "count": 5
-    },
-    {
       "id": "hdbscan-cluster-university-computer-department-information",
       "name": "HDBSCAN Cluster: university, computer, department, information",
       "count": 5
     },
     {
-      "id": "hdbscan-cluster-university-department-united-states",
-      "name": "HDBSCAN Cluster: university, department, united, states",
+      "id": "hdbscan-cluster-eeg-motor-feature-extraction",
+      "name": "HDBSCAN Cluster: eeg, motor, feature, extraction",
       "count": 4
     },
     {
-      "id": "hdbscan-cluster-university-bci-filters-eeg",
-      "name": "HDBSCAN Cluster: university, bci, filters, eeg",
+      "id": "hdbscan-cluster-department-university-computer-usa",
+      "name": "HDBSCAN Cluster: department, university, computer, usa",
       "count": 4
     },
     {
-      "id": "hdbscan-cluster-bci-france-research-smart",
-      "name": "HDBSCAN Cluster: bci, france, research, smart",
+      "id": "hdbscan-cluster-bci-hybrid-brain-computer-interface",
+      "name": "HDBSCAN Cluster: bci, hybrid, brain-computer, interface",
       "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-china-science-university-technology",
+      "name": "HDBSCAN Cluster: china, science, university, technology",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-motor-imagery-eeg-classi",
+      "name": "HDBSCAN Cluster: motor, imagery, eeg, classi",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-eeg-decoding-convolutional-learning",
+      "name": "HDBSCAN Cluster: eeg, decoding, convolutional, learning",
+      "count": 4
+    },
+    {
+      "id": "hdbscan-cluster-brain-interface-can-computer",
+      "name": "HDBSCAN Cluster: brain, interface, can, computer",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-university-berlin-prof-germany",
+      "name": "HDBSCAN Cluster: university, berlin, prof, germany",
+      "count": 3
     },
     {
       "id": "hdbscan-cluster-brain-machine-interfaces-neural-power",
@@ -78,8 +88,13 @@
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-brain-computer-interface-bci-hybrid",
-      "name": "HDBSCAN Cluster: brain-computer, interface, bci, hybrid",
+      "id": "hdbscan-cluster-university-department-duke-durham",
+      "name": "HDBSCAN Cluster: university, department, duke, durham",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-brain-computer-human-bci-interface",
+      "name": "HDBSCAN Cluster: brain-computer, human, bci, interface",
       "count": 3
     },
     {
@@ -88,23 +103,38 @@
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-singapore-technology-institute-research",
-      "name": "HDBSCAN Cluster: singapore, technology, institute, research",
+      "id": "hdbscan-cluster-china-science-university-research",
+      "name": "HDBSCAN Cluster: china, science, university, research",
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-bci-subjects-data-calibration",
-      "name": "HDBSCAN Cluster: bci, subjects, data, calibration",
+      "id": "hdbscan-cluster-france-universit-paris-inria",
+      "name": "HDBSCAN Cluster: france, universit, paris, inria",
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-university-bci-department-brain",
-      "name": "HDBSCAN Cluster: university, bci, department, brain",
+      "id": "hdbscan-cluster-filters-bci-analysis-eeg",
+      "name": "HDBSCAN Cluster: filters, bci, analysis, eeg",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-data-university-brain-computer-systems",
+      "name": "HDBSCAN Cluster: data, university, brain-computer, systems",
       "count": 3
     },
     {
       "id": "hdbscan-cluster-brain-interfaces-computer-control",
       "name": "HDBSCAN Cluster: brain, interfaces, computer, control",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-madison-university-wisconsin-usa",
+      "name": "HDBSCAN Cluster: madison, university, wisconsin, usa",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-university-review-interfaces-lublin",
+      "name": "HDBSCAN Cluster: university, review, interfaces, lublin",
       "count": 3
     },
     {
@@ -128,24 +158,54 @@
       "count": 3
     },
     {
+      "id": "hdbscan-cluster-rome-university-italy-department",
+      "name": "HDBSCAN Cluster: rome, university, italy, department",
+      "count": 3
+    },
+    {
       "id": "hdbscan-cluster-university-department-brain-computer-interfaces",
       "name": "HDBSCAN Cluster: university, department, brain-computer, interfaces",
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-eeg-china-university-signal",
-      "name": "HDBSCAN Cluster: eeg, china, university, signal",
+      "id": "hdbscan-cluster-eprints-whiterose-https-ieee",
+      "name": "HDBSCAN Cluster: eprints, whiterose, https, ieee",
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-ieee-member-eeg-student",
-      "name": "HDBSCAN Cluster: ieee, member, eeg, student",
+      "id": "hdbscan-cluster-university-eeg-dublin-vietnam",
+      "name": "HDBSCAN Cluster: university, eeg, dublin, vietnam",
       "count": 3
     },
     {
-      "id": "hdbscan-cluster-network-ieee-motor-imagery",
-      "name": "HDBSCAN Cluster: network, ieee, motor, imagery",
+      "id": "hdbscan-cluster-review-speech-decoding-bci",
+      "name": "HDBSCAN Cluster: review, speech, decoding, bci",
       "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-published-doi-ibarra-khan",
+      "name": "HDBSCAN Cluster: published, doi, ibarra, khan",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-china-university-published-doi",
+      "name": "HDBSCAN Cluster: china, university, published, doi",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-foundation-brain-computer-decoding-models",
+      "name": "HDBSCAN Cluster: foundation, brain-computer, decoding, models",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-decoding-neural-university-models",
+      "name": "HDBSCAN Cluster: decoding, neural, university, models",
+      "count": 3
+    },
+    {
+      "id": "hdbscan-cluster-bci-interface-communication-technology",
+      "name": "HDBSCAN Cluster: bci, interface, communication, technology",
+      "count": 2
     },
     {
       "id": "hdbscan-cluster-vol-moore-proc-systems",
@@ -153,18 +213,8 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-interface-brain-bci-real-world",
-      "name": "HDBSCAN Cluster: interface, brain, bci, real-world",
-      "count": 2
-    },
-    {
-      "id": "hdbscan-cluster-brain-computer-can-bcis",
-      "name": "HDBSCAN Cluster: brain, computer, can, bcis",
-      "count": 2
-    },
-    {
-      "id": "hdbscan-cluster-ieee-brain-computer-interface-member",
-      "name": "HDBSCAN Cluster: ieee, brain-computer, interface, member",
+      "id": "hdbscan-cluster-control-cursor-interfaces-eeg",
+      "name": "HDBSCAN Cluster: control, cursor, interfaces, eeg",
       "count": 2
     },
     {
@@ -183,8 +233,8 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-institute-germany-computer-interface",
-      "name": "HDBSCAN Cluster: institute, germany, computer, interface",
+      "id": "hdbscan-cluster-singapore-brain-computer-attention-institute",
+      "name": "HDBSCAN Cluster: singapore, brain-computer, attention, institute",
       "count": 2
     },
     {
@@ -193,23 +243,8 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-france-paris-signals-ere",
-      "name": "HDBSCAN Cluster: france, paris, signals, ere",
-      "count": 2
-    },
-    {
       "id": "hdbscan-cluster-japan-technology-prediction-cortex",
       "name": "HDBSCAN Cluster: japan, technology, prediction, cortex",
-      "count": 2
-    },
-    {
-      "id": "hdbscan-cluster-germany-stimulation-university-bingen",
-      "name": "HDBSCAN Cluster: germany, stimulation, university, bingen",
-      "count": 2
-    },
-    {
-      "id": "hdbscan-cluster-graz-university-austria-institute",
-      "name": "HDBSCAN Cluster: graz, university, austria, institute",
       "count": 2
     },
     {
@@ -218,8 +253,23 @@
       "count": 2
     },
     {
+      "id": "hdbscan-cluster-university-usa-state-department",
+      "name": "HDBSCAN Cluster: university, usa, state, department",
+      "count": 2
+    },
+    {
       "id": "hdbscan-cluster-warsaw-piotr-poland-ssvep",
       "name": "HDBSCAN Cluster: warsaw, piotr, poland, ssvep",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-motor-imagery-clinical-copyright",
+      "name": "HDBSCAN Cluster: motor, imagery, clinical, copyright",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-university-germany-brain-computer-interface",
+      "name": "HDBSCAN Cluster: university, germany, brain-computer, interface",
       "count": 2
     },
     {
@@ -228,13 +278,13 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-germany-bingen-university-research",
-      "name": "HDBSCAN Cluster: germany, bingen, university, research",
+      "id": "hdbscan-cluster-brain-eeg-computer-university",
+      "name": "HDBSCAN Cluster: brain, eeg, computer, university",
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-university-freiburg-germany-singapore",
-      "name": "HDBSCAN Cluster: university, freiburg, germany, singapore",
+      "id": "hdbscan-cluster-germany-bingen-university-research",
+      "name": "HDBSCAN Cluster: germany, bingen, university, research",
       "count": 2
     },
     {
@@ -243,33 +293,23 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-university-germany-brain-computer-systems",
-      "name": "HDBSCAN Cluster: university, germany, brain-computer, systems",
-      "count": 2
-    },
-    {
-      "id": "hdbscan-cluster-madison-university-wisconsin-usa",
-      "name": "HDBSCAN Cluster: madison, university, wisconsin, usa",
-      "count": 2
-    },
-    {
       "id": "hdbscan-cluster-performance-mental-inter-subject-variability",
       "name": "HDBSCAN Cluster: performance, mental, inter-subject, variability",
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-figure-university-computer-brazil",
-      "name": "HDBSCAN Cluster: figure, university, computer, brazil",
-      "count": 2
-    },
-    {
-      "id": "hdbscan-cluster-rome-university-department-italy",
-      "name": "HDBSCAN Cluster: rome, university, department, italy",
+      "id": "hdbscan-cluster-a1111111111-figure-open-access",
+      "name": "HDBSCAN Cluster: a1111111111, figure, open, access",
       "count": 2
     },
     {
       "id": "hdbscan-cluster-motor-imagery-version-siuly",
       "name": "HDBSCAN Cluster: motor, imagery, version, siuly",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-university-usa-edu-brain",
+      "name": "HDBSCAN Cluster: university, usa, edu, brain",
       "count": 2
     },
     {
@@ -288,18 +328,18 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-a1111111111-open-access-copyright",
-      "name": "HDBSCAN Cluster: a1111111111, open, access, copyright",
+      "id": "hdbscan-cluster-bci-calibration-different-subjects",
+      "name": "HDBSCAN Cluster: bci, calibration, different, subjects",
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-china-research-nanjing-interface",
-      "name": "HDBSCAN Cluster: china, research, nanjing, interface",
+      "id": "hdbscan-cluster-computer-university-edu-science",
+      "name": "HDBSCAN Cluster: computer, university, edu, science",
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-phd-home-brain-computer-interface",
-      "name": "HDBSCAN Cluster: phd, home, brain-computer, interface",
+      "id": "hdbscan-cluster-brain-computer-rehabilitation-motor",
+      "name": "HDBSCAN Cluster: brain, computer, rehabilitation, motor",
       "count": 2
     },
     {
@@ -323,23 +363,53 @@
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-science-china-university-ssvep",
-      "name": "HDBSCAN Cluster: science, china, university, ssvep",
-      "count": 2
-    },
-    {
       "id": "hdbscan-cluster-different-domain-adaptation-brain-computer",
       "name": "HDBSCAN Cluster: different, domain, adaptation, brain-computer",
       "count": 2
     },
     {
-      "id": "hdbscan-cluster-eeg-neural-network-signals",
-      "name": "HDBSCAN Cluster: eeg, neural, network, signals",
+      "id": "hdbscan-cluster-eeg-university-china-signals",
+      "name": "HDBSCAN Cluster: eeg, university, china, signals",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-eeg-learning-bci-bcis",
+      "name": "HDBSCAN Cluster: eeg, learning, bci, bcis",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-a1111111111-research-use-article",
+      "name": "HDBSCAN Cluster: a1111111111, research, use, article",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-neural-imagery-convolutional-eeg",
+      "name": "HDBSCAN Cluster: neural, imagery, convolutional, eeg",
       "count": 2
     },
     {
       "id": "hdbscan-cluster-brain-computer-interfaces-feedback-neurofeedback",
       "name": "HDBSCAN Cluster: brain-computer, interfaces, feedback, neurofeedback",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-china-research-center-data",
+      "name": "HDBSCAN Cluster: china, research, center, data",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-university-brain-semantic-brain-computer",
+      "name": "HDBSCAN Cluster: university, brain, semantic, brain-computer",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-eeg-university-decoding-foundation",
+      "name": "HDBSCAN Cluster: eeg, university, decoding, foundation",
+      "count": 2
+    },
+    {
+      "id": "hdbscan-cluster-chongqing-china-university-technology",
+      "name": "HDBSCAN Cluster: chongqing, china, university, technology",
       "count": 2
     }
   ]

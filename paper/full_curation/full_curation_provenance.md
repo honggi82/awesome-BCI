@@ -1,12 +1,12 @@
 # Codex-Native Full Curation Provenance
 
-Generated: 2026-07-02T12:54:47.118790+00:00
+Generated: 2026-07-02T13:14:24.487360+00:00
 
 This repository contains Codex-native full-curation artifacts generated from local PDF text and figure extraction evidence.
 
 - Mode: `codex-native-full-curation`
 - Topic: `bci`
-- Processed papers: 295
+- Processed papers: 375
 - Source extract report: `E:/조선대/연구/paper-curation/paper/awesome-BCI/_folder_source_extract_report.json`
 - Data artifacts: `data/paper_curation`
 - Review artifacts: `docs/paper_curation/papers`

@@ -29,6 +29,7 @@ Generated on 2026-06-27 from free public Semantic Scholar metadata. The current 
 
 
 
+
 <!-- BEGIN CODEX PAPER CURATION -->
 
 ## Codex-Native Full Curation
@@ -37,7 +38,7 @@ Generated on 2026-06-27 from free public Semantic Scholar metadata. The current 
 - Local static entry: `docs/paper_curation/index.html`
 - Related Papers graph: `docs/paper_curation/bci/network.html`
 - PaperBanana-compatible timeline: `docs/paper_curation/bci/category_timeline_codex_native.png`
-- Processed PDF evidence in this staged run: 295 papers
+- Processed PDF evidence in this staged run: 375 papers
 - Modeling stack: `allenai/specter2_base` embeddings, `hdbscan.HDBSCAN` clustering, `umap.UMAP` projection
 
 <!-- END CODEX PAPER CURATION -->
