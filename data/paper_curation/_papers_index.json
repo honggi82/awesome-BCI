@@ -5,7 +5,7 @@
     {
       "slug": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
       "title": "Brain-computer interface technology: a review of the first international meeting.",
-      "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "category": "HDBSCAN Cluster: bci, interface, communication, technology",
       "key": "FOLDER00001_03750d0cfe97",
       "sourceIndex": null,
       "textBytes": 69207,
@@ -65,7 +65,7 @@
     {
       "slug": "045_Control_of_a_two-dimensional_movement_signal_by_a_noninvasiv",
       "title": "Control of a two-dimensional movement signal by a noninvasive brain-computer interface in humans.",
-      "category": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "category": "HDBSCAN Cluster: brain, computer, can, bcis",
       "key": "FOLDER00149_e05f093db76a",
       "sourceIndex": 6,
       "textBytes": 39337,
@@ -115,7 +115,7 @@
     {
       "slug": "050_Brain-computer_interfaces_for_1-D_and_2-D_cursor_control_des",
       "title": "Brain-computer interfaces for 1-D and 2-D cursor control: designs using volitional control of the EEG spectrum or steady-state visual evoked potentials",
-      "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00363_8d1a63ee901f",
       "sourceIndex": 11,
       "textBytes": 3080,
@@ -125,7 +125,7 @@
     {
       "slug": "051_Electrocorticography-based_brain_computer_Interface-the_seat",
       "title": "Electrocorticography-based brain computer Interface-the seattle experience",
-      "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "category": "HDBSCAN Cluster: control, computer, motor, brain",
       "key": "FOLDER00364_30fbee5413e5",
       "sourceIndex": 12,
       "textBytes": 25673,
@@ -175,7 +175,7 @@
     {
       "slug": "195_Low-Power_Circuits_for_Brain-Machine_Interfaces",
       "title": "Low-Power Circuits for Brain-Machine Interfaces",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: brain-machine, interfaces, neural, power",
       "key": "FOLDER00470_502478fdeaf1",
       "sourceIndex": 17,
       "textBytes": 22282,
@@ -195,7 +195,7 @@
     {
       "slug": "197_Cortical_Modulations_Increase_in_Early_Sessions_with_Brain-M",
       "title": "Cortical Modulations Increase in Early Sessions with Brain-Machine Interface",
-      "category": "HDBSCAN Cluster: united, states, america, duke",
+      "category": "HDBSCAN Cluster: united, states, america, university",
       "key": "FOLDER00481_36c72a1e81ee",
       "sourceIndex": 19,
       "textBytes": 53378,
@@ -205,7 +205,7 @@
     {
       "slug": "198_Brain-Computer_Interface_Analysis_using_Continuous_Wavelet_T",
       "title": "Brain-Computer Interface Analysis using Continuous Wavelet Transform and Adaptive Neuro-Fuzzy Classifier",
-      "category": "HDBSCAN Cluster: wavelet, transform, eeg, brain-computer",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00493_5b37a9c6c812",
       "sourceIndex": 20,
       "textBytes": 19500,
@@ -235,7 +235,7 @@
     {
       "slug": "201_Towards_Zero_Training_for_Brain-Computer_Interfacing",
       "title": "Towards Zero Training for Brain-Computer Interfacing",
-      "category": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning",
+      "category": "HDBSCAN Cluster: brain-computer, bci, training, interface",
       "key": "FOLDER00567_546161c5cd60",
       "sourceIndex": 23,
       "textBytes": 59798,
@@ -255,7 +255,7 @@
     {
       "slug": "203_A_brain-machine_interface_using_dry-contact_low-noise_EEG_se",
       "title": "A brain-machine interface using dry-contact, low-noise EEG sensors",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: brain-machine, interfaces, neural, power",
       "key": "FOLDER00590_05e1999c6cc2",
       "sourceIndex": 25,
       "textBytes": 16735,
@@ -265,7 +265,7 @@
     {
       "slug": "204_Pattern_Recognition_of_Motor_Imagery_EEG_using_Wavelet_Trans",
       "title": "Pattern Recognition of Motor Imagery EEG using Wavelet Transform",
-      "category": "HDBSCAN Cluster: wavelet, transform, eeg, brain-computer",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00599_a32b78c73fa9",
       "sourceIndex": 26,
       "textBytes": 15448,
@@ -285,7 +285,7 @@
     {
       "slug": "206_A_Wireless_Brain-Machine_Interface_for_Real-Time_Speech_Synt",
       "title": "A Wireless Brain-Machine Interface for Real-Time Speech Synthesis",
-      "category": "HDBSCAN Cluster: united, states, america, duke",
+      "category": "HDBSCAN Cluster: united, states, america, university",
       "key": "FOLDER00659_395aa4dc2bda",
       "sourceIndex": 28,
       "textBytes": 57176,
@@ -295,7 +295,7 @@
     {
       "slug": "207_Unscented_Kalman_Filter_for_Brain-Machine_Interfaces",
       "title": "Unscented Kalman Filter for Brain-Machine Interfaces",
-      "category": "HDBSCAN Cluster: united, states, america, duke",
+      "category": "HDBSCAN Cluster: united, states, america, university",
       "key": "FOLDER00666_d015cee44082",
       "sourceIndex": 29,
       "textBytes": 94697,
@@ -325,7 +325,7 @@
     {
       "slug": "210_Grand_Challenges_of_Brain_Computer_Interfaces_in_the_Years_t",
       "title": "Grand Challenges of Brain Computer Interfaces in the Years to Come",
-      "category": "HDBSCAN Cluster: brain, computer, university, grand",
+      "category": "HDBSCAN Cluster: brain, computer, germany, berlin",
       "key": "FOLDER00742_4621f3eaba9a",
       "sourceIndex": 32,
       "textBytes": 27454,
@@ -335,7 +335,7 @@
     {
       "slug": "211_The_Hybrid_BCI",
       "title": "The Hybrid BCI",
-      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00748_22fb30be7067",
       "sourceIndex": 33,
       "textBytes": 56002,
@@ -345,7 +345,7 @@
     {
       "slug": "212_The_Berlin_BrainComputer_Interface_Non-Medical_Uses_of_BCI_T",
       "title": "The Berlin Brain–Computer Interface: Non-Medical Uses of BCI Technology",
-      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "category": "HDBSCAN Cluster: brain, computer, germany, berlin",
       "key": "FOLDER00753_528e76edd091",
       "sourceIndex": 34,
       "textBytes": 114329,
@@ -355,7 +355,7 @@
     {
       "slug": "213_The_Influence_of_Psychological_State_and_Motivation_on_Brain",
       "title": "The Influence of Psychological State and Motivation on Brain–Computer Interface Performance in Patients with Amyotrophic Lateral Sclerosis – a Longitudinal Study",
-      "category": "HDBSCAN Cluster: brain, computer, university, grand",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00758_5fab048e2ef4",
       "sourceIndex": 35,
       "textBytes": 81512,
@@ -365,7 +365,7 @@
     {
       "slug": "214_A_New_Auditory_Multi-Class_Brain-Computer_Interface_Paradigm",
       "title": "A New Auditory Multi-Class Brain-Computer Interface Paradigm: Spatial Hearing as an Informative Cue",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: brain-computer, interface, berlin, paradigm",
       "key": "FOLDER00762_39399bcc4c4e",
       "sourceIndex": 36,
       "textBytes": 71525,
@@ -385,7 +385,7 @@
     {
       "slug": "216_Brain_Painting_First_Evaluation_of_a_New_BrainComputer_Inter",
       "title": "Brain Painting: First Evaluation of a New Brain–Computer Interface Application with ALS-Patients and Healthy Volunteers",
-      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "category": "HDBSCAN Cluster: brain, computer, germany, berlin",
       "key": "FOLDER00779_76e678e37435",
       "sourceIndex": 38,
       "textBytes": 64909,
@@ -395,7 +395,7 @@
     {
       "slug": "217_Rapid_Communication_with_a_P300_Matrix_Speller_Using_Electro",
       "title": "Rapid Communication with a “P300” Matrix Speller Using Electrocorticographic Signals (ECoG)",
-      "category": "HDBSCAN Cluster: department, usa, university, computer",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00790_0165345838ea",
       "sourceIndex": 39,
       "textBytes": 51836,
@@ -405,7 +405,7 @@
     {
       "slug": "218_Exploring_two_novel_features_for_EEG-based_brain-computer_in",
       "title": "Exploring two novel features for EEG-based brain-computer interfaces: Multifractal cumulants and predictive complexity",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: new, geometry, brain-computer, bci",
       "key": "FOLDER00820_11247314e15a",
       "sourceIndex": 40,
       "textBytes": 37477,
@@ -415,7 +415,7 @@
     {
       "slug": "219_Can_Electrocorticography_ECoG_Support_Robust_and_Powerful_Br",
       "title": "Can Electrocorticography (ECoG) Support Robust and Powerful Brain–Computer Interfaces?",
-      "category": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "category": "HDBSCAN Cluster: brain, computer, can, bcis",
       "key": "FOLDER00821_5645c36cf110",
       "sourceIndex": 41,
       "textBytes": 16348,
@@ -435,7 +435,7 @@
     {
       "slug": "221_Convolutional_Neural_Networks_for_P300_Detection_with_Applic",
       "title": "Convolutional Neural Networks for P300 Detection with Application to Brain-Computer Interfaces",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: motor, imagery, detection, university",
       "key": "FOLDER00850_bd3240a7cbfd",
       "sourceIndex": 43,
       "textBytes": 61549,
@@ -445,7 +445,7 @@
     {
       "slug": "222_A_high-speed_BCI_based_on_code_modulation_VEP",
       "title": "A high-speed BCI based on code modulation VEP",
-      "category": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00859_6d3ce7196ab6",
       "sourceIndex": 44,
       "textBytes": 21285,
@@ -465,7 +465,7 @@
     {
       "slug": "224_Continuous_Three-Dimensional_Control_of_a_Virtual_Helicopter",
       "title": "Continuous Three-Dimensional Control of a Virtual Helicopter Using a Motor Imagery Based Brain-Computer Interface",
-      "category": "HDBSCAN Cluster: brain, control, computer, bcis",
+      "category": "HDBSCAN Cluster: control, computer, motor, brain",
       "key": "FOLDER00863_b07d300580b9",
       "sourceIndex": 46,
       "textBytes": 54861,
@@ -475,7 +475,7 @@
     {
       "slug": "225_Listen_You_are_Writing_Speeding_up_Online_Spelling_with_a_Dy",
       "title": "Listen, You are Writing! Speeding up Online Spelling with a Dynamic Auditory BCI",
-      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "category": "HDBSCAN Cluster: university, graz, berlin, institute",
       "key": "FOLDER00886_3bb17db8c446",
       "sourceIndex": 47,
       "textBytes": 69447,
@@ -485,7 +485,7 @@
     {
       "slug": "226_Tools_for_Brain-Computer_Interaction_A_General_Concept_for_a",
       "title": "Tools for Brain-Computer Interaction: A General Concept for a Hybrid BCI",
-      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "category": "HDBSCAN Cluster: brain, computer, germany, berlin",
       "key": "FOLDER00891_95c59f01a3f3",
       "sourceIndex": 48,
       "textBytes": 48849,
@@ -495,7 +495,7 @@
     {
       "slug": "227_A_Collaborative_Brain-Computer_Interface_for_Improving_Human",
       "title": "A Collaborative Brain-Computer Interface for Improving Human Performance",
-      "category": "HDBSCAN Cluster: bci, control, brain-computer, eeg",
+      "category": "HDBSCAN Cluster: bci, performance, interface, been",
       "key": "FOLDER00892_e9c411685550",
       "sourceIndex": 49,
       "textBytes": 55556,
@@ -515,7 +515,7 @@
     {
       "slug": "229_First_Steps_Toward_a_Motor_Imagery_Based_Stroke_BCI_New_Stra",
       "title": "First Steps Toward a Motor Imagery Based Stroke BCI: New Strategy to Set up a Classifier",
-      "category": "HDBSCAN Cluster: berlin, bci, university, institute",
+      "category": "HDBSCAN Cluster: university, graz, berlin, institute",
       "key": "FOLDER00912_ab266a590de0",
       "sourceIndex": 51,
       "textBytes": 49599,
@@ -545,7 +545,7 @@
     {
       "slug": "232_An_Enhanced_Probabilistic_LDA_for_Multi-Class_Brain_Computer",
       "title": "An Enhanced Probabilistic LDA for Multi-Class Brain Computer Interface",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: science, bci, technology, china",
       "key": "FOLDER00945_084732741285",
       "sourceIndex": 54,
       "textBytes": 41925,
@@ -565,7 +565,7 @@
     {
       "slug": "234_P300_brain_computer_interface_current_challenges_and_emergin",
       "title": "P300 brain computer interface: current challenges and emerging trends",
-      "category": "HDBSCAN Cluster: department, usa, university, computer",
+      "category": "HDBSCAN Cluster: university, brain, computer, department",
       "key": "FOLDER00953_49d078bc7d06",
       "sourceIndex": 56,
       "textBytes": 70802,
@@ -585,7 +585,7 @@
     {
       "slug": "236_A_Brain-Computer_Interface_Based_Attention_Training_Program",
       "title": "A Brain-Computer Interface Based Attention Training Program for Treating Attention Deficit Hyperactivity Disorder",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: singapore, technology, institute, research",
       "key": "FOLDER00962_897da53e1186",
       "sourceIndex": 58,
       "textBytes": 35449,
@@ -595,7 +595,7 @@
     {
       "slug": "237_Transferring_Subspaces_Between_Subjects_in_Brain--Computer_I",
       "title": "Transferring Subspaces Between Subjects in Brain--Computer Interfacing",
-      "category": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning",
+      "category": "HDBSCAN Bridge and Noise Papers",
       "key": "FOLDER00963_ae2498277c38",
       "sourceIndex": 59,
       "textBytes": 65891,
@@ -605,7 +605,7 @@
     {
       "slug": "238_Online_Adaptation_of_a_c-VEP_Brain-Computer_InterfaceBCI_Bas",
       "title": "Online Adaptation of a c-VEP Brain-Computer Interface(BCI) Based on Error-Related Potentials and Unsupervised Learning",
-      "category": "HDBSCAN Cluster: brain-computer, bci, interfacing, learning",
+      "category": "HDBSCAN Cluster: brain-computer, bci, training, interface",
       "key": "FOLDER00964_ca0db6c53b36",
       "sourceIndex": 60,
       "textBytes": 53456,
@@ -615,7 +615,7 @@
     {
       "slug": "239_Comparison_of_Dry_and_Gel_Based_Electrodes_for_P300_BrainCom",
       "title": "Comparison of Dry and Gel Based Electrodes for P300 Brain–Computer Interfaces",
-      "category": "HDBSCAN Cluster: department, usa, university, computer",
+      "category": "HDBSCAN Cluster: university, brain, computer, department",
       "key": "FOLDER00966_972b0fc5c1d4",
       "sourceIndex": 61,
       "textBytes": 39607,
@@ -625,7 +625,7 @@
     {
       "slug": "240_Brain-computer_interface_controlled_robotic_gait_orthosis",
       "title": "Brain-computer interface controlled robotic gait orthosis",
-      "category": "HDBSCAN Bridge and Noise Papers",
+      "category": "HDBSCAN Cluster: brain, interfaces, bci, signals",
       "key": "FOLDER00969_9ad337f2949b",
       "sourceIndex": 62,
       "textBytes": 33226,
@@ -651,6 +651,1006 @@
       "textBytes": 45175,
       "figuresExtracted": 4,
       "excerpt": "# The Changing Face of P300 BCIs: A Comparison of Stimulus Changes in a P300 BCI Involving Faces, Emotion, and Movement Jing Jin1*, Brendan Z. Allison2,5, Tobias Kaufmann3, Andrea Ku¨bler3, Yu Zhang1,4, Xingyu Wang1, Andrzej Cichocki4 1 Key Laboratory of Advanced Control and Optimization for Chemical Processes, Ministry of Education, East China University of Science and Technology, Shanghai, P.R. China, 2Laboratory of Brain-Computer Interfaces, Institute for Knowledge Discovery, Graz University of Technology, Graz, Austria, 3 Department of Psychology I, University of Wu¨rzburg, Wu¨rzburg, Germany, 4 Laboratory for Advanced Brain Signal Processing, Brain Science Institute, RIKEN, Wako-shi, Japan, 5 Cognitive Neuroscience Laboratory, Department of Cognitive Science, University of California San Diego, La Jolla, California, United States of America |Abstract<br><br>Background:One of the mos"
+    },
+    {
+      "slug": "487_Multi-Class_Motor_Imagery_EEG_Decoding_for_Brain-Computer_In",
+      "title": "Multi-Class Motor Imagery EEG Decoding for Brain-Computer Interfaces",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER00987_6be40fb3935b",
+      "sourceIndex": 65,
+      "textBytes": 60693,
+      "figuresExtracted": 5,
+      "excerpt": "###### ORIGINAL RESEARCH ARTICLE published: 09 October 2012 doi: 10.3389/fnins.2012.00151 # Multi-class motor imagery EEG decoding for brain-computer interfaces ## DengWang1,2,3*, Duoqian Miao1,2 and Gunnar Blohm3,4 - 1 Department of Computer Science andTechnology,Tongji University, Shanghai, China - 2 Key Laboratory of Embedded System and Service Computing, Ministry of Education, Shanghai, China - 3 Centre for Neuroscience Studies, Queen’s University, Kingston, ON, Canada - 4 Canadian Action and Perception Network,Toronto, ON, Canada Edited by: Cuntai Guan, Institute for Infocomm Research, Singapore Reviewed by: Fabien Lotte, Institut National de Recherche en Informatique et en Automatique, France Alireza Mousavi, Brunel University, UK *Correspondence: Deng Wang, Department of Computer Science andTechnology, Tongji University, 4800 Cao’an Road, Jiading, Shanghai 201804, China. e-mail: w"
+    },
+    {
+      "slug": "488_A_Bayesian_Model_for_Exploiting_Application_Constraints_to_E",
+      "title": "A Bayesian Model for Exploiting Application Constraints to Enable Unsupervised Training of a P300-based BCI",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01004_b277555e5faa",
+      "sourceIndex": 66,
+      "textBytes": 68168,
+      "figuresExtracted": 5,
+      "excerpt": "# A Bayesian Model for Exploiting Application Constraints to Enable Unsupervised Training of a P300-based BCI Pieter-Jan Kindermans*, David Verstraeten, Benjamin Schrauwen Electronics and Information Systems, Ghent University, Ghent, Belgium |Abstract<br><br>This work introduces a novel classifier for a P300-based speller, which, contrary to common methods, can be trained entirely unsupervisedly using an Expectation Maximization approach, eliminating the need for costly dataset collection or tedious calibration sessions. We use publicly available datasets for validation of our method and show that our unsupervised classifier performs competitively with supervised state-of-the-art spellers. Finally, we demonstrate the added value of our method in different experimental settings which reflect realistic usage situations of increasing difficulty and which would be difficult or impossible to "
+    },
+    {
+      "slug": "489_Steady-State_Motion_Visual_Evoked_Potentials_Produced_by_Osc",
+      "title": "Steady-State Motion Visual Evoked Potentials Produced by Oscillating Newton's Rings: Implications for Brain-Computer Interfaces",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01006_ceddbb87c0d9",
+      "sourceIndex": 67,
+      "textBytes": 42981,
+      "figuresExtracted": 5,
+      "excerpt": "# Steady-State Motion Visual Evoked Potentials Produced by Oscillating Newton’s Rings: Implications for BrainComputer Interfaces Jun Xie1, Guanghua Xu1,2*, Jing Wang1,2, Feng Zhang1, Yizhuo Zhang1 1 School of Mechanical Engineering, Xi’an Jiaotong University, Xi’an, Shaanxi, People’s Republic of China, 2 State Key Laboratory for Manufacturing Systems Engineering, Xi’an Jiaotong University, Xi’an, Shaanxi, People’s Republic of China |Abstract<br><br>In this study, we utilize a special visual stimulation protocol, called motion reversal, to present a novel steady-state motion visual evoked potential (SSMVEP)-based BCI paradigm that relied on human perception of motions oscillated in two opposite directions. Four Newton’s rings with the oscillating expansion and contraction motions served as visual stimulators to elicit subjects’ SSMVEPs. And four motion reversal frequencies of 8.1, 9.8, 12"
+    },
+    {
+      "slug": "490_Decoding_Finger_Flexion_from_Band-Specific_ECoG_Signals_in_H",
+      "title": "Decoding Finger Flexion from Band-Specific ECoG Signals in Humans",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01010_9109b421c57e",
+      "sourceIndex": 68,
+      "textBytes": 24095,
+      "figuresExtracted": 3,
+      "excerpt": "##### ORIGINAL RESEARCH ARTICLE published: 28 June 2012 doi: 10.3389/fnins.2012.00091 # Decoding ﬁnger ﬂexion from band-speciﬁc ECoG signals in humans ### Nanying Liang1 and Laurent Bougrain1,2* - 1 Inria, Villers-lès-Nancy, F-54600, France - 2 Lorraine Research Laboratory in Computer Science and its Applications, UMR 7503, Université de Lorraine, Vandoeuvre-lès-Nancy, F-54506, France Edited by: MichaelTangermann, Berlin Institute ofTechnology, Germany Reviewed by: Klaus R. Mueller,Technical University, Germany Gerwin Schalk, Wadsworth Center, USA *Correspondence: Laurent Bougrain, Lorraine Research Laboratory in Computer Science and its Applications, bat. C, Campus Scientiﬁque, BP 239, 54506 Vandoeuvre-lès-Nancy Cedex, France. e-mail: bougrain@loria.fr This article presents the method that won the brain-computer interface (BCI) competition IV addressed to the prediction of the ﬁnger ﬂex"
+    },
+    {
+      "slug": "491_Prediction_of_Muscle_Activities_from_Electrocorticograms_in",
+      "title": "Prediction of Muscle Activities from Electrocorticograms in Primary Motor Cortex of Primates",
+      "category": "HDBSCAN Cluster: japan, technology, prediction, cortex",
+      "key": "FOLDER01018_2af746b7fd72",
+      "sourceIndex": 69,
+      "textBytes": 52057,
+      "figuresExtracted": 5,
+      "excerpt": "# Prediction of Muscle Activities from Electrocorticograms in Primary Motor Cortex of Primates Duk Shin1*., Hidenori Watanabe2., Hiroyuki Kambara1, Atsushi Nambu3,4, Tadashi Isa2,4, Yukio Nishimura2,4,5, Yasuharu Koike1,6 1 Precision and Intelligence Laboratory, Tokyo Institute of Technology, Yokohama, Japan, 2Department of Developmental Physiology, National Institute for Physiological Sciences, National Institutes of Natural Sciences, Okazaki, Japan, 3 Department of System Integrative Physiology, National Institute for Physiological Sciences, National Institutes of Natural Sciences, Okazaki, Japan, 4Graduate University for Advanced Studies (SOKENDAI), Hayama, Japan, 5 Precursory Research for Embryonic Science and Technology, Japan Science and Technology Agency, Tokyo, Japan, 6 CREST, Japan Science and Technology Agency, Kawaguchi, Japan |Abstract<br><br>Electrocorticography (ECoG) has d"
+    },
+    {
+      "slug": "492_Translation_of_EEG_Spatial_Filters_from_Resting_to_Motor_Ima",
+      "title": "Translation of EEG Spatial Filters from Resting to Motor Imagery Using Independent Component Analysis",
+      "category": "HDBSCAN Cluster: filters, bci, eeg, spatial",
+      "key": "FOLDER01020_afb4a623738c",
+      "sourceIndex": 70,
+      "textBytes": 61322,
+      "figuresExtracted": 5,
+      "excerpt": "# Translation of EEG Spatial Filters from Resting to Motor Imagery Using Independent Component Analysis Yijun Wang1,2*, Yu-Te Wang1,2, Tzyy-Ping Jung1,2 - 1 Swartz Center for Computational Neuroscience, Institute for Neural Computation, University of California San Diego, San Diego, California, United States of America, - 2 Institute of Engineering in Medicine, University of California San Diego San Diego, California, United States of America |Abstract<br><br>Electroencephalogram (EEG)-based brain-computer interfaces (BCIs) often use spatial filters to improve signal-to-noise ratio of task-related EEG activities. To obtain robust spatial filters, large amounts of labeled data, which are often expensive and labor-intensive to obtain, need to be collected in a training procedure before online BCI control. Several studies have recently developed zero-training methods using a session-to-sess"
+    },
+    {
+      "slug": "493_Abnormal_Neural_Connectivity_in_Schizophrenia_and_fMRI-Brain",
+      "title": "Abnormal Neural Connectivity in Schizophrenia and fMRI-Brain-Computer Interface as a Potential Therapeutic Approach",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01025_8b2ebb9c4f64",
+      "sourceIndex": 71,
+      "textBytes": 74379,
+      "figuresExtracted": 5,
+      "excerpt": "REVIEW ARTICLE published: 22 March 2013 doi: 10.3389/fpsyt.2013.00017 PSYCHIATRY # Abnormal neural connectivity in schizophrenia and fMRI-brain-computer interface as a potential therapeutic approach ## Sergio Ruiz1,2*, Niels Birbaumer2,3 and Ranganatha Sitaram2,4,5* - 1 Departamento de Psiquiatria, Centro Interdisciplinario de Neurociencias, Escuela de Medicina, Pontiﬁcia Universidad Catolica de Chile, Santiago, Chile - 2 Institute of Medical Psychology and Behavioral Neurobiology, University ofTübingen,Tübingen, Germany - 3 Ospedale San Camillo, Istituto di Ricovero e Cura a Carattere Scientiﬁco, Venezia – Lido, Italy - 4 Department of Biomedical Engineering, University of Florida, Gainesville, FL, USA - 5 Sri ChitraTirunal Institute of Medical Sciences andTechnology,Thiruvananthapuram, Kerala, India Edited by: Pablo A. Gaspar, Hospital Clinico de la Universidad de Chile, Chile Reviewed"
+    },
+    {
+      "slug": "494_Mind_the_sheep_User_experience_evaluation__brain-computer_in",
+      "title": "Mind the sheep! User experience evaluation & brain-computer interface games",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01026_d0f4ac3255db",
+      "sourceIndex": 72,
+      "textBytes": 366176,
+      "figuresExtracted": 2,
+      "excerpt": "## MIND THE SHEEP! User Experience Evaluation & Brain-Computer Interface Games HAYRETTIN˙ GÜRKÖK Ph.D. Dissertation Committee Chairman and Secretary Prof. dr. ir. A. Mouthaan University of Twente, NL Promotor Prof. dr. ir. A. Nijholt University of Twente, NL Assistant Promotor Dr. M. Poel University of Twente, NL Members Dr. M. Congedo CNRS, FR Prof. dr. ir. P. Desain Radboud University Nijmegen, NL Prof. dr. D. Heylen University of Twente, NL Prof. dr. C. Klimmt HMTM Hanover, DE Prof. dr. M. Rauterberg Eindhoven University of Technology, NL Prof. dr. F. van der Velde University of Twente, NL [Figure 1] CTIT Ph.D. Thesis Series ISSN: 1381-3617, No. 12-228 Centre for Telematics and Information Technology P.O. Box 217, 7500 AE Enschede, The Netherlands [Figure 2] [Figure 3] SIKS Dissertation Series No. 2012-27 The research reported in this thesis was carried out under the auspices of SIKS,"
+    },
+    {
+      "slug": "495_Assisted_closed-loop_optimization_of_SSVEP-BCI_efficiency",
+      "title": "Assisted closed-loop optimization of SSVEP-BCI efficiency",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01029_bec89541001a",
+      "sourceIndex": 73,
+      "textBytes": 79660,
+      "figuresExtracted": 5,
+      "excerpt": "##### ORIGINAL RESEARCH ARTICLE published: 25 February 2013 doi: 10.3389/fncir.2013.00027 ## NEURAL CIRCUITS # Assisted closed-loop optimization of SSVEP-BCI efﬁciency ### Jacobo Fernandez-Vargas , Hanns U. Pfaff, Francisco B. Rodríguez and Pablo Varona* Grupo de Neurocomputación Biológica, Departamento de Ingeniería Informática, Escuela Politécnica Superior, Universidad Autónoma de Madrid, Madrid, Spain Edited by: Steve M. Potter, Georgia Institute of Technology, USA Reviewed by: Attila Szücs, Balaton Limnological Research Institute HAS, Hungary Pablo F. Diez, Universidad Nacional de San Juan, Argentina *Correspondence: Pablo Varona, Grupo de Neurocomputación Biológica, Departamento de Ingeniería Informática, Universidad Autónoma de Madrid, Calle Francisco Tomás y Valiente, 11, 28049 Madrid, Spain. e-mail: pablo.varona@uam.es We designed a novel assisted closed-loop optimization protoco"
+    },
+    {
+      "slug": "496_The_Obese_Brain_Athlete_Self-Regulation_of_the_Anterior_Insu",
+      "title": "The Obese Brain Athlete: Self-Regulation of the Anterior Insula in Adiposity",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01032_9a60fe735958",
+      "sourceIndex": 74,
+      "textBytes": 25545,
+      "figuresExtracted": 3,
+      "excerpt": "# The Obese Brain Athlete: Self-Regulation of the Anterior Insula in Adiposity Sabine Frank1,2*, Sangkyun Lee2¤, Hubert Preissl1,3, Bernd Schultes4, Niels Birbaumer2,5, Ralf Veit1,2 1 MEG Center, University of Tu¨bingen, Tu¨bingen, Germany, 2 Institute of Medical Psychology and Behavioral Neurobiology, University of Tu¨bingen, Tu¨bingen, Germany, 3 Department of Obstetrics and Gynecology, University of Arkansas for Medical Sciences, Little Rock, Arkansas, United States of America, 4Interdisciplinary Obesity Center, Cantonal Hospital St. Gallen, CH-9400 Rorschach, Switzerland, 5Ospedale San Camillo, Istituto di Ricovero e Cura a Carattere Scientifico, Venezia-Lido, Italy |Abstract<br><br>The anterior insular cortex (AIC) is involved in emotional processes and gustatory functions which can be examined by imaging techniques. Such imaging studies showed increased activation in the insula in "
+    },
+    {
+      "slug": "497_Coupling_BCI_and_cortical_stimulation_for_brain-state-depend",
+      "title": "Coupling BCI and cortical stimulation for brain-state-dependent stimulation: methods for spectral estimation in the presence of stimulation after-effects",
+      "category": "HDBSCAN Cluster: germany, stimulation, university, bingen",
+      "key": "FOLDER01034_a5e879b7d876",
+      "sourceIndex": 75,
+      "textBytes": 83235,
+      "figuresExtracted": 5,
+      "excerpt": "METHODS ARTICLE published: 16 November 2012 doi: 10.3389/fncir.2012.00087 NEURAL CIRCUITS [Figure 1] # Coupling BCI and cortical stimulation for brain-state-dependent stimulation: methods for spectral estimation in the presence of stimulation after-effects ## Armin Walter1*, Ander R. Murguialday2,3, Wolfgang Rosenstiel1, Niels Birbaumer2,4 and Martin Bogdan1,5 - 1 Department of Computer Engineering, Wilhelm-Schickard-Institute, Eberhard Karls Universität Tübingen, Tübingen, Germany - 2 Institute of Medical Psychology and Behavioural Neurobiology, University Hospital Tübingen, Tübingen, Germany - 3 Health Technologies Department, TECNALIA, San Sebastian, Spain - 4 Ospedale San Camillo, IRCCS, Venice, Italy - 5 Department of Computer Engineering, University of Leipzig, Leipzig, Germany Edited by: Ahmed El Hady, Max Planck Institute for Dynamics and Self Organization, Germany Reviewed by: Y"
+    },
+    {
+      "slug": "498_BRAIN-COMPUTER_INTERFACE_AS_MEASUREMENT_AND_CONTROL_SYSTEM_T",
+      "title": "BRAIN-COMPUTER INTERFACE AS MEASUREMENT AND CONTROL SYSTEM THE REVIEW PAPER",
+      "category": "HDBSCAN Cluster: warsaw, poland, brain-computer, piotr",
+      "key": "FOLDER01035_e72057335a1b",
+      "sourceIndex": 76,
+      "textBytes": 49173,
+      "figuresExtracted": 5,
+      "excerpt": "[Figure 2] [Figure 3] ## METROLOGY AND MEASUREMENT SYSTEMS Index 330930, ISSN 0860-8229 www.metrology.pg.gda.pl BRAIN-COMPUTER INTERFACE AS MEASUREMENT AND CONTROL SYSTEM THE REVIEW PAPER Remigiusz J. Rak, Marcin Kołodziej, Andrzej Majkowski Warsaw University of Technology, Institute of the Theory of Electrical Engineering, Measurement and Information Systems, Koszykowa 75, 00-662 Warsaw, Poland, (remigiusz.rak@ee.pw.edu.pl, marcin.kolodziej@ee.pw.edu.pl, andrzej.majkowski@ee.pw.edu.pl) ## Abstract In the last decade of the XX-th century, several academic centers have launched intensive research programs on the brain-computer interface (BCI). The current state of research allows to use certain properties of electromagnetic waves (brain activity) produced by brain neurons, measured using electroencephalographic techniques (EEG recording involves reading from electrodes attached to the sc"
+    },
+    {
+      "slug": "499_Selection_of_Efficient_Features_for_Discrimination_of_Hand_M",
+      "title": "Selection of Efficient Features for Discrimination of Hand Movements from MEG Using a BCI Competition IV Data Set",
+      "category": "HDBSCAN Cluster: university, bci, department, engineering",
+      "key": "FOLDER01043_ff84a723c0c6",
+      "sourceIndex": 77,
+      "textBytes": 27364,
+      "figuresExtracted": 2,
+      "excerpt": "#### METHODS ARTICLE published: 02 April 2012 doi: 10.3389/fnins.2012.00042 # Selection of efﬁcient features for discrimination of hand movements from MEG using a BCI competition IV data set ## Sepideh Hajipour Sardouie* and Mohammad Bagher Shamsollahi Biomedical Signal and Image Processing Laboratory, Department of Electrical Engineering, Sharif University ofTechnology,Tehran, Iran Edited by: MichaelTangermann, Berlin Institute ofTechnology, Germany Reviewed by: Clemens Brunner, Graz University of Technology, Austria Stephan Waldert, University College London, UK *Correspondence: Sepideh Hajipour Sardouie, Biomedical Signal and Image Processing Laboratory, Department of Electrical Engineering, Sharif University ofTechnology, Azadi Avenue,Tehran, Iran. e-mail: s_hajipour@ee.sharif.edu The aim of a brain–computer interface (BCI) system is to establish a new communication system that trans"
+    },
+    {
+      "slug": "500_An_Electrocorticographic_Brain_Interface_in_an_Individual_wi",
+      "title": "An Electrocorticographic Brain Interface in an Individual with Tetraplegia",
+      "category": "HDBSCAN Cluster: united, states, america, university",
+      "key": "FOLDER01051_c585402a613b",
+      "sourceIndex": 78,
+      "textBytes": 44363,
+      "figuresExtracted": 3,
+      "excerpt": "# An Electrocorticographic Brain Interface in an Individual with Tetraplegia Wei Wang1,2,3,4*, Jennifer L. Collinger1,2,5, Alan D. Degenhart2,4, Elizabeth C. Tyler-Kabara1,2,6, Andrew B. Schwartz1,2,4,7, Daniel W. Moran8, Douglas J. Weber1,2,4,5, Brian Wodlinger1,4, Ramana K. Vinjamuri1, Robin C. Ashmore1, John W. Kelly9, Michael L. Boninger1,2,3,5 - 1 Department of Physical Medicine and Rehabilitation, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America, 2 Department of Bioengineering, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America, 3 Clinical and Translational Science Institute, University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America, 4 Center for the Neural Basis of Cognition, Carnegie Mellon University and the University of Pittsburgh, Pittsburgh, Pennsylvania, United States of America, 5 Human Engineering Re"
+    },
+    {
+      "slug": "501_Frequency_Recognition_in_SSVEP-Based_BCI_using_Multiset_Cano",
+      "title": "Frequency Recognition in SSVEP-Based BCI using Multiset Canonical Correlation Analysis",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01053_84b9b996daa4",
+      "sourceIndex": 79,
+      "textBytes": 51312,
+      "figuresExtracted": 5,
+      "excerpt": "International Journal of Neural Systems, Vol. 0, No. 0 (XX, 2013) 00–00 c World Scientiﬁc Publishing Company arXiv:1308.5609v2[stat.ML]16Jan2014 # FREQUENCY RECOGNITION IN SSVEP-BASED BCI USING MULTISET CANONICAL CORRELATION ANALYSIS YU ZHANG Key Laboratory for Advanced Control and Optimization for Chemical Processes East China University of Science and Technology, Shanghai, China E-mail: yuzhang@ecust.edu.cn GUOXU ZHOU Laboratory for Advanced Brain Signal Processing RIKEN Brain Science Institute, Wako-shi, Japan E-mail: zhouguoxu@brain.riken.jp JING JIN Key Laboratory for Advanced Control and Optimization for Chemical Processes East China University of Science and Technology, Shanghai, China E-mail: jinjingat@gmail.com XINGYU WANG Key Laboratory for Advanced Control and Optimization for Chemical Processes East China University of Science and Technology, Shanghai, China E-mail: xywang@ec"
+    },
+    {
+      "slug": "002_Brain-computer_interface_technology_a_review_of_the_first_in",
+      "title": "Brain Computer Interface",
+      "category": "HDBSCAN Cluster: bci, interface, communication, technology",
+      "key": "FOLDER01054_c961a65fd7c6",
+      "sourceIndex": 80,
+      "textBytes": 69207,
+      "figuresExtracted": 0,
+      "excerpt": "# Brain–Computer Interface Technology: A Review of the First International Meeting Jonathan R. Wolpaw (Guest Editor), Niels Birbaumer, William J. Heetderks, Dennis J. McFarland, P. Hunter Peckham, Gerwin Schalk, Emanuel Donchin, Louis A. Quatrano, Charles J. Robinson, and Theresa M. Vaughan (Guest Editor) Abstract—Over the past decade, many laboratories have begun to explore brain–computer interface (BCI) technology as a radically new communication option for those with neuromuscular impairments that prevent them from using conventional augmentative communication methods. BCI’s provide these users with communication channels that do not depend on peripheral nerves and muscles. This article summarizes the first international meeting devoted to BCI research and development. Current BCI’s use electroencephalographic (EEG) activity recorded at the scalp or single-unit activity recorded from "
+    },
+    {
+      "slug": "502_Flaws_in_current_human_training_protocols_for_spontaneous_Br",
+      "title": "Flaws in current human training protocols for spontaneous Brain-Computer Interfaces: lessons learned from instructional design",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01056_c471f1c0db37",
+      "sourceIndex": 81,
+      "textBytes": 69320,
+      "figuresExtracted": 2,
+      "excerpt": "##### HYPOTHESIS AND THEORY ARTICLE published: 17 September 2013 doi: 10.3389/fnhum.2013.00568 ## HUMAN NEUROSCIENCE # Flaws in current human training protocols for spontaneous Brain-Computer Interfaces: lessons learned from instructional design ### Fabien Lotte*, Florian Larrue and Christian Mühl Inria Bordeaux Sud-Ouest/LaBRI, Talence, France Edited by: Reinhold Scherer, Graz University of Technology, Austria Reviewed by: Benjamin Blankertz, Technische Universität Berlin, Germany Tobias Kaufmann, Julius-Maximilian University of Würzburg, Germany *Correspondence: Fabien Lotte, Inria Bordeaux Sud-Ouest/LaBRI, 200 rue de la vieille tour, 33405 Talence Cedex, France e-mail: fabien.lotte@inria.fr While recent research on Brain-Computer Interfaces (BCI) has highlighted their potential for many applications, they remain barely used outside laboratories. The main reason is their lack of robust"
+    },
+    {
+      "slug": "503_High_Theta_and_Low_Alpha_Powers_May_Be_Indicative_of_BCI-Ill",
+      "title": "High Theta and Low Alpha Powers May Be Indicative of BCI-Illiteracy in Motor Imagery",
+      "category": "HDBSCAN Cluster: bci, performance, interface, been",
+      "key": "FOLDER01068_930afc7eeb18",
+      "sourceIndex": 82,
+      "textBytes": 56640,
+      "figuresExtracted": 5,
+      "excerpt": "# High Theta and Low Alpha Powers May Be Indicative of BCI-Illiteracy in Motor Imagery Minkyu Ahn1, Hohyun Cho1, Sangtae Ahn1, Sung Chan Jun1,2* 1 School of Information and Communications, Gwangju Institute of Science and Technology, Gwangju, South Korea, 2 Wadsworth Center, New York State Health Department, Albany, New York, United States of America |Abstract<br><br>In most brain computer interface (BCI) systems, some target users have significant difficulty in using BCI systems. Such target users are called ‘BCI-illiterate’. This phenomenon has been poorly investigated, and a clear understanding of the BCIilliteracy mechanism or a solution to this problem has not been reported to date. In this study, we sought to demonstrate the neurophysiological differences between two groups (literate, illiterate) with a total of 52 subjects. We investigated recordings under non-task related state ("
+    },
+    {
+      "slug": "504_Neural_Dust_An_Ultrasonic_Low_Power_Solution_for_Chronic_Bra",
+      "title": "Neural Dust: An Ultrasonic, Low Power Solution for Chronic Brain-Machine Interfaces",
+      "category": "HDBSCAN Cluster: brain-machine, interfaces, neural, power",
+      "key": "FOLDER01072_a44e054b531b",
+      "sourceIndex": 83,
+      "textBytes": 78704,
+      "figuresExtracted": 5,
+      "excerpt": "### arXiv:1307.2196v1[q-bio.NC]8Jul2013 ## Neural Dust: An Ultrasonic, Low Power Solution for Chronic Brain-Machine Interfaces #### Dongjin Seo ∗, Jose M. Carmena ∗ †, Jan M. Rabaey ∗ , Elad Alon ∗ ‡, and Michel M. Maharbiz ∗ ‡ ∗Department of Electrical Engineering and Computer Sciences and †Helen Wills Neuroscience Institute, University of California, Berkeley, CA, USA ‡Joint senior authors Correspondence to: djseo@eecs.berkeley.edu A major hurdle in brain-machine interfaces (BMI) is the lack of an implantable neural interface system that remains viable for a lifetime. This paper explores the fundamental system design trade-offs and ultimate size, power, and bandwidth scaling limits of neural recording systems built from low-power CMOS circuitry coupled with ultrasonic power delivery and backscatter communication. In particular, we propose an ultra-miniature as well as extremely complia"
+    },
+    {
+      "slug": "505_Control_beliefs_can_predict_the_ability_to_up-regulate_senso",
+      "title": "Control beliefs can predict the ability to up-regulate sensorimotor rhythm during neurofeedback training",
+      "category": "HDBSCAN Cluster: graz, university, austria, institute",
+      "key": "FOLDER01081_cc855bded4fa",
+      "sourceIndex": 84,
+      "textBytes": 44352,
+      "figuresExtracted": 3,
+      "excerpt": "ORIGINAL RESEARCH ARTICLE published: 15 August 2013 doi: 10.3389/fnhum.2013.00478 HUMAN NEUROSCIENCE [Figure 1] # Control beliefs can predict the ability to up-regulate sensorimotor rhythm during neurofeedback training ## Matthias Witte1, Silvia Erika Kober1, Manuel Ninaus1, Christa Neuper1,2 and Guilherme Wood1* - 1 Department of Psychology, University of Graz, Graz, Austria - 2 Laboratory of Brain-Computer Interfaces, Institute for Knowledge Discovery, Graz University of Technology, Graz, Austria Edited by: Reinhold Scherer, Graz University of Technology, Austria Reviewed by: Juliana Yordanova, Institute of Neurobiology, Bulgarian Academy of Sciences, Bulgaria Stefano Silvoni, I.R.C.C.S. S.Camillo Hospital Foundation, Italy Moritz Grosse-Wentrup, Max Planck Institute for Biological Cybernetics, Germany *Correspondence: Guilherme Wood, Department of Psychology, University of Graz, Unive"
+    },
+    {
+      "slug": "506_Attention_and_P300-based_BCI_performance_in_people_with_amyo",
+      "title": "Attention and P300-based BCI performance in people with amyotrophic lateral sclerosis",
+      "category": "HDBSCAN Cluster: rome, italy, university, department",
+      "key": "FOLDER01084_cb4e01f9e574",
+      "sourceIndex": 85,
+      "textBytes": 49053,
+      "figuresExtracted": 2,
+      "excerpt": "ORIGINAL RESEARCH ARTICLE published: 12 November 2013 doi: 10.3389/fnhum.2013.00732 HUMAN NEUROSCIENCE [Figure 1] # Attention and P300-based BCI performance in people with amyotrophic lateral sclerosis ## Angela Riccio1,2*, Luca Simione2,3, Francesca Schettini1,4, Alessia Pizzimenti5,6, Maurizio Inghilleri5, Marta Olivetti Belardinelli2,7, Donatella Mattia1 and Febo Cincotti1,4 - 1 Neuroelectrical Imaging and BCI Laboratory, Fondazione Santa Lucia, Rome, Italy - 2 Department of Psychology, Sapienza University of Rome, Rome, Italy - 3 CNR, Institute of Cognitive Sciences and Technologies, Rome, Italy - 4 DIAG, Sapienza University of Rome, Rome, Italy - 5 Department of Neurology and Psychiatry, Sapienza University of Rome, Rome, Italy - 6 Crossing Dialogues Association, Rome, Italy - 7 Interuniversity Centre for Research on Cognitive Processing in Natural and Artiﬁcial Systems (ECONA), Rom"
+    },
+    {
+      "slug": "507_Comparison_of_tactile_auditory_and_visual_modality_for_brain",
+      "title": "Comparison of tactile, auditory, and visual modality for brain-computer interface use: a case study with a patient in the locked-in state",
+      "category": "HDBSCAN Cluster: university, usa, state, department",
+      "key": "FOLDER01085_db216c2d50e0",
+      "sourceIndex": 86,
+      "textBytes": 63374,
+      "figuresExtracted": 5,
+      "excerpt": "#### ORIGINAL RESEARCH ARTICLE published: 24 July 2013 doi: 10.3389/fnins.2013.00129 # Comparison of tactile, auditory, and visual modality for brain-computer interface use: a case study with a patient in the locked-in state ## Tobias Kaufmann*, Elisa M. Holz and Andrea Kübler Department for Psychology I, Institute for Psychology, University of Würzburg, Würzburg, Germany Edited by: Emanuel Donchin, University of South Florida, USA Reviewed by: Eric W. Sellers, East Tennessee State University, USA Yael Arbel, University of South Florida, USA Dean Krusienski, Old Dominion University, USA *Correspondence: Tobias Kaufmann, Department for Psychology I, Institute for Psychology, University of Würzburg, Marcusstr. 9-11, 97070 Würzburg, Germany e-mail: tobias.kaufmann@ uni-wuerzburg.de This paper describes a case study with a patient in the classic locked-in state, who currently has no means of"
+    },
+    {
+      "slug": "508_Non-Invasive_Brain-to-Brain_Interface_BBI_Establishing_Funct",
+      "title": "Non-Invasive Brain-to-Brain Interface (BBI): Establishing Functional Links between Two Brains",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01092_ea897ecf97b8",
+      "sourceIndex": 87,
+      "textBytes": 44623,
+      "figuresExtracted": 3,
+      "excerpt": "# Non-Invasive Brain-to-Brain Interface (BBI): Establishing Functional Links between Two Brains Seung-Schik Yoo1,4,5*, Hyungmin Kim1,2,5, Emmanuel Filandrianos3, Seyed Javid Taghados3, Shinsuk Park2 1 Department of Radiology, Brigham and Women’s Hospital, Harvard Medical School, Boston, Massachusetts, United States of America, 2 Department of Mechanical Engineering, Korea University, Seoul, Korea, 3 Department of Biomedical Engineering, Boston University, Boston, Massachusetts, United States of America, 4School of Nano-Bioscience and Chemical Engineering, Ulsan National Institute of Science and Technology, Ulsan, Korea, 5 Center for Bionics, Korea Institute of Science and Technology, Seoul, Korea |Abstract<br><br>Transcranial focused ultrasound (FUS) is capable of modulating the neural activity of specific brain regions, with a potential role as a non-invasive computer-to-brain interface"
+    },
+    {
+      "slug": "509_A_Low-Cost_EEG_System-Based_Hybrid_Brain-Computer_Interface",
+      "title": "A Low-Cost EEG System-Based Hybrid Brain-Computer Interface for Humanoid Robot Navigation and Recognition",
+      "category": "HDBSCAN Cluster: bci, performance, interface, been",
+      "key": "FOLDER01094_5531d887d4fe",
+      "sourceIndex": 88,
+      "textBytes": 53400,
+      "figuresExtracted": 5,
+      "excerpt": "# A Low-Cost EEG System-Based Hybrid Brain-Computer Interface for Humanoid Robot Navigation and Recognition Bongjae Choi, Sungho Jo* Department of Computer Science, Korea Advanced Institute of Science and Technology (KAIST), Yuseong-gu, Daejeon, Republic of Korea |Abstract<br><br>This paper describes a hybrid brain-computer interface (BCI) technique that combines the P300 potential, the steady state visually evoked potential (SSVEP), and event related de-synchronization (ERD) to solve a complicated multi-task problem consisting of humanoid robot navigation and control along with object recognition using a low-cost BCI system. Our approach enables subjects to control the navigation and exploration of a humanoid robot and recognize a desired object among candidates. This study aims to demonstrate the possibility of a hybrid BCI based on a low-cost system for a realistic and complex task. I"
+    },
+    {
+      "slug": "510_On_the_Quantification_of_SSVEP_Frequency_Responses_in_Human",
+      "title": "On the Quantification of SSVEP Frequency Responses in Human EEG in Realistic BCI Conditions",
+      "category": "HDBSCAN Cluster: warsaw, poland, brain-computer, piotr",
+      "key": "FOLDER01096_ee0838227100",
+      "sourceIndex": 89,
+      "textBytes": 42362,
+      "figuresExtracted": 5,
+      "excerpt": "# On the Quantification of SSVEP Frequency Responses in Human EEG in Realistic BCI Conditions Rafał Kus´1*, Anna Duszyk2, Piotr Milanowski1, Maciej Łabe˛cki1, Maria Bierzyn´ska3, Zofia Radzikowska2, Magdalena Michalska1, Jarosław Z_ygierewicz1, Piotr Suffczyn´ski1, Piotr Jerzy Durka1 1 Faculty of Physics, University of Warsaw, Warsaw, Poland, 2 Department of Psychology, University of Social Sciences and Humanities, Warsaw, Poland, 3Department of Molecular and Cellular Neurobiology, Nencki Institute of Experimental Biology, Warsaw, Poland |Abstract<br><br>This article concerns one of the most important problems of brain-computer interfaces (BCI) based on Steady State Visual Evoked Potentials (SSVEP), that is the selection of the a-priori most suitable frequencies for stimulation. Previous works related to this problem were done either with measuring systems that have little in common with"
+    },
+    {
+      "slug": "511_A_Brain-Computer_Interface_Based_Cognitive_Training_System_f",
+      "title": "A Brain-Computer Interface Based Cognitive Training System for Healthy Elderly: A Randomized Control Pilot Study for Usability and Preliminary Efficacy",
+      "category": "HDBSCAN Cluster: singapore, technology, institute, research",
+      "key": "FOLDER01101_6dba2e427591",
+      "sourceIndex": 90,
+      "textBytes": 38077,
+      "figuresExtracted": 3,
+      "excerpt": "# A Brain-Computer Interface Based Cognitive Training System for Healthy Elderly: A Randomized Control Pilot Study for Usability and Preliminary Efficacy Tih-Shih Lee1*, Siau Juinn Alexa Goh1, Shin Yi Quek1, Rachel Phillips2, Cuntai Guan3, Yin Bun Cheung1, Lei Feng4, Stephanie Sze Wei Teng1, Chuan Chu Wang3, Zheng Yang Chin3, Haihong Zhang3, Tze Pin Ng4, Jimmy Lee5, Richard Keefe6, K. Ranga Rama Krishnan1 1 Duke-National University of Singapore, Graduate Medical School, Singapore, Singapore, 2 Singapore Clinical Research Institute, Singapore, Singapore, 3 Institute for Infocomm Research, Agency for Science, Technology and Research, Singapore, Singapore, 4National University of Singapore, Singapore, 5Institute of Mental Health, Singapore, 6 Duke University, Durham, North Carolina, United States of America |Abstract<br><br>Cognitive decline in aging is a pressing issue associated with sign"
+    },
+    {
+      "slug": "512_Neural_substrates_of_cognitive_control_under_the_belief_of_g",
+      "title": "Neural substrates of cognitive control under the belief of getting neurofeedback training",
+      "category": "HDBSCAN Cluster: graz, university, austria, institute",
+      "key": "FOLDER01104_3b6a01890017",
+      "sourceIndex": 91,
+      "textBytes": 58509,
+      "figuresExtracted": 3,
+      "excerpt": "##### ORIGINAL RESEARCH ARTICLE published: 26 December 2013 doi: 10.3389/fnhum.2013.00914 ## HUMAN NEUROSCIENCE # Neural substrates of cognitive control under the belief of getting neurofeedback training ### Manuel Ninaus1, Silvia E. Kober1, Matthias Witte1, Karl Koschutnig1, Matthias Stangl2, Christa Neuper1,3 and Guilherme Wood1* - 1 Department of Psychology, University of Graz, Graz, Austria - 2 Aging and Cognition Research Group, German Center for Neurodegenerative Diseases (DZNE), Magdeburg, Germany - 3 Laboratory of Brain-Computer Interfaces, Institute for Knowledge Discovery, University of Technology Graz, Graz, Austria Edited by: Reinhold Scherer, Graz University of Technology, Austria Reviewed by: Ranganatha Sitaram, University of Florida, USA Agnes J. Jasinska, National Institute on Drug Abuse, USA *Correspondence: Guilherme Wood, Department of Psychology, University of Graz, A"
+    },
+    {
+      "slug": "513_Using_a_motor_imagery_questionnaire_to_estimate_the_performa",
+      "title": "Using a motor imagery questionnaire to estimate the performance of a Brain-Computer Interface based on object oriented motor imagery.",
+      "category": "HDBSCAN Cluster: motor, imagery, detection, university",
+      "key": "FOLDER01106_680d83d5f6ae",
+      "sourceIndex": 92,
+      "textBytes": 55691,
+      "figuresExtracted": 0,
+      "excerpt": "[Figure 1] ### Vuckovic, A., and Osuagwu, B.A. (2013) Using a motor imagery questionnaire to estimate the performance of a brain–computer interface based on object oriented motor imagery. Clinical Neurophysiology. ISSN 1388-2457 Copyright © 2013 International Federation of Clinical Neurophysiology A copy can be downloaded for personal non-commercial research or study, without prior permission or charge Content must not be changed in any way or reproduced in any format or medium without the formal permission of the copyright holder(s) When referring to this work, full bibliographic details must be given ### http://eprints.gla.ac.uk/81528/ Deposited on: 26 June 2013 Enlighten – Research publications by members of the University of Glasgow http://eprints.gla.ac.uk ## Using a Motor Imagery Questionnaire to Predict the Performance of a Brain-Computer Interface Based on Object Oriented Motor I"
+    },
+    {
+      "slug": "514_Prediction_of_brain-computer_interface_aptitude_from_individ",
+      "title": "Prediction of brain-computer interface aptitude from individual brain structure",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01110_f88288be7a6b",
+      "sourceIndex": 93,
+      "textBytes": 52929,
+      "figuresExtracted": 2,
+      "excerpt": "###### ORIGINAL RESEARCH ARTICLE published: 02 April 2013 doi: 10.3389/fnhum.2013.00105 ## HUMAN NEUROSCIENCE # Prediction of brain-computer interface aptitude from individual brain structure ### S. Halder1,2,3*†, B. Varkuti1†, M. Bogdan3,4, A. Kübler1, W. Rosenstiel3, R. Sitaram5 and N. Birbaumer2,6 - 1 Department of Psychology I, University of Würzburg, Würzburg, Germany - 2 Institute of Medical Psychology and Behavioral Neurobiology, University of Tübingen, Tübingen, Germany - 3 Wilhelm-Schickard Institute for Computer Science, University of Tübingen, Tübingen, Germany - 4 Department of Computer Engineering, University of Leipzig, Leipzig, Germany - 5 Department of Biomedical Engineering, University of Florida, Gainesville, FL, USA - 6 Ospedale San Camillo, Laboratorio di Neuroscience Comportamentale, Istituto di Ricovero e Cura a Carattere Scientiﬁco, Venezia, Italy Edited by: Cuntai"
+    },
+    {
+      "slug": "515_Automated_Classification_of_LR_Hand_Movement_EEG_Signals_usi",
+      "title": "Automated Classification of L/R Hand Movement EEG Signals using Advanced Feature Extraction and Machine Learning",
+      "category": "HDBSCAN Cluster: eeg, machine, computer, signals",
+      "key": "FOLDER01111_4de16e806864",
+      "sourceIndex": 94,
+      "textBytes": 28327,
+      "figuresExtracted": 4,
+      "excerpt": "# Automated Classification of L/R Hand Movement EEG Signals using Advanced Feature Extraction and Machine Learning ## Mohammad H. Alomari, Aya Samaha, and Khaled AlKamha Applied Science University Amman, Jordan Abstract— In this paper, we propose an automated computer platform for the purpose of classifying Electroencephalography (EEG) signals associated with left and right hand movements using a hybrid system that uses advanced feature extraction techniques and machine learning algorithms. It is known that EEG represents the brain activity by the electrical voltage fluctuations along the scalp, and Brain-Computer Interface (BCI) is a device that enables the use of the brain’s neural activity to communicate with others or to control machines, artificial limbs, or robots without direct physical movements. In our research work, we aspired to find the best feature extraction method that ena"
+    },
+    {
+      "slug": "516_Whatever_Works_A_Systematic_User-Centered_Training_Protocol",
+      "title": "Whatever Works: A Systematic User-Centered Training Protocol to Optimize Brain-Computer Interfacing Individually",
+      "category": "HDBSCAN Cluster: brain-computer, bci, training, interface",
+      "key": "FOLDER01115_cdea6676b3a2",
+      "sourceIndex": 95,
+      "textBytes": 60326,
+      "figuresExtracted": 4,
+      "excerpt": "# Whatever Works: A Systematic User-Centered Training Protocol to Optimize Brain-Computer Interfacing Individually ## Elisabeth V. C. Friedrich1, Christa Neuper1,2, Reinhold Scherer2* 1 Department of Psychology, University of Graz, Graz, Austria, 2 Institute for Knowledge Discovery, Graz University of Technology, Graz, Austria |Abstract<br><br>This study implemented a systematic user-centered training protocol for a 4-class brain-computer interface (BCI). The goal was to optimize the BCI individually in order to achieve high performance within few sessions for all users. Eight able-bodied volunteers, who were initially naïve to the use of a BCI, participated in 10 sessions over a period of about 5 weeks. In an initial screening session, users were asked to perform the following seven mental tasks while multi-channel EEG was recorded: mental rotation, word association, auditory imagery, m"
+    },
+    {
+      "slug": "517_Prediction_of_Three-Dimensional_Arm_Trajectories_Based_on_EC",
+      "title": "Prediction of Three-Dimensional Arm Trajectories Based on ECoG Signals Recorded from Human Sensorimotor Cortex",
+      "category": "HDBSCAN Cluster: japan, technology, prediction, cortex",
+      "key": "FOLDER01117_efb4338b0d61",
+      "sourceIndex": 96,
+      "textBytes": 38457,
+      "figuresExtracted": 5,
+      "excerpt": "# Prediction of Three-Dimensional Arm Trajectories Based on ECoG Signals Recorded from Human Sensorimotor Cortex Yasuhiko Nakanishi1., Takufumi Yanagisawa2,3,4., Duk Shin1*, Ryohei Fukuma3, Chao Chen1, Hiroyuki Kambara1, Natsue Yoshimura1, Masayuki Hirata2, Toshiki Yoshimine2, Yasuharu Koike1 1 Precision and Intelligence Laboratory, Tokyo Institute of Technology, Yokohama, Japan, 2 Department of Neurosurgery, Osaka University Medical School, Osaka, Japan, 3 ATR Computational Neuroscience Laboratories, Kyoto, Japan, 4 Division of Functional Diagnostic Science, Osaka University Graduate School of Medicine, Osaka, Japan |Abstract<br><br>Brain-machine interface techniques have been applied in a number of studies to control neuromotor prostheses and for neurorehabilitation in the hopes of providing a means to restore lost motor function. Electrocorticography (ECoG) has seen recent use in this"
+    },
+    {
+      "slug": "518_A_New_Generation_of_Brain-Computer_Interface_Based_on_Rieman",
+      "title": "A New Generation of Brain-Computer Interface Based on Riemannian Geometry",
+      "category": "HDBSCAN Cluster: new, geometry, brain-computer, bci",
+      "key": "FOLDER01118_fd2949647d52",
+      "sourceIndex": 97,
+      "textBytes": 77403,
+      "figuresExtracted": 5,
+      "excerpt": "###### A New Generation of Brain-Computer Interface Based on Riemannian Geometry ###### Marco Congedo*, Alexandre Barachant and Anton Andreev GIPSA-lab, CNRS and Grenoble University, FRANCE 11 rue des Mathématiques, Domaine universitaire - BP 46 - 38402, Grenoble, France. *Corresponding Author Marco.Congedo@gmail.com tel: +33 (0)4 76 82 62 52 fax: +33 (0)4 76 57 47 90 ###### Abstract Based on the cumulated experience over the past 25 years in the field of Brain-Computer Interface (BCI) we can now envision a new generation of BCI. Such BCIs will not require training; instead they will be smartly initialized using remote massive databases and will adapt to the user fast and effectively in the first minute of use. They will be reliable, robust and will maintain good performances within and across sessions. A general classification framework based on recent advances in Riemannian geometry an"
+    },
+    {
+      "slug": "519_Gamma_band_activity_associated_with_BCI_performance_simultan",
+      "title": "Gamma band activity associated with BCI performance: simultaneous MEG/EEG study",
+      "category": "HDBSCAN Cluster: university, korea, department, national",
+      "key": "FOLDER01126_47484c128794",
+      "sourceIndex": 98,
+      "textBytes": 55745,
+      "figuresExtracted": 5,
+      "excerpt": "#### ORIGINAL RESEARCH ARTICLE published: 06 December 2013 doi: 10.3389/fnhum.2013.00848 # Gamma band activity associated with BCI performance: simultaneous MEG/EEG study ## Minkyu Ahn1, Sangtae Ahn1, Jun H. Hong1, Hohyun Cho1, Kiwoong Kim2, Bong S. Kim3, JinW. Chang3 and Sung C. Jun1,4* - 1 School of Information and Communications, Gwangju Institute of Science andTechnology, Gwangju, South Korea - 2 Korea Research Institute of Standards and Science, Daejeon, South Korea - 3 Department of Neurosurgery, Brain Research Institute,Yonsei University College of Medicine, Seoul, South Korea - 4 Wadsworth Center, NewYork State Health Department, Albany, NY, USA Edited by: Markus Butz, University College London, UK Reviewed by: Karim Jerbi, Institut National de la Santé et de la Recherche Médicale, France Moritz Grosse-Wentrup, Max Planck Institute for Biological Cybernetics, Germany *Corresponde"
+    },
+    {
+      "slug": "520_The_auditory_P300-based_single-switch_brain-computer_interfa",
+      "title": "The auditory P300-based single-switch brain-computer interface: Paradigm transition from healthy subjects to minimally conscious patients",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01127_42200ea11f2a",
+      "sourceIndex": 99,
+      "textBytes": 59955,
+      "figuresExtracted": 5,
+      "excerpt": "# The auditory P300-based single-switch BCI: Paradigm transition from healthy subjects to minimally conscious patients C. Pokornya, D.S. Klobassaa, G. Pichlerb, H. Erlbeckc, R.G.L. Realc, A. K¨ublerc, D. Lesenfantsd, D. Habbald, Q. Noirhommed, M. Risettie, D. Mattiae, G.R. M¨uller-Putza,∗ aGraz University of Technology, Institute for Knowledge Discovery, 8010 Graz, Austria bAlbert Schweitzer Klinik, 8020 Graz, Austria cUniversity of W¨urzburg, 97070 W¨urzburg, Germany dUniversity of Li`ege, Coma Science Group, 4000 Li`ege, Belgium eFondazione Santa Lucia, IRCCS, 00179 Rome, Italy Abstract Objective: Within this work an auditory P300 brain-computer interface (BCI) based on tone stream segregation, which allows for binary decisions, was developed and evaluated. Materials and methods: Two tone streams consisting of short beep tones with infrequently appearing deviant tones at random positio"
+    },
+    {
+      "slug": "521_Z-Score_Linear_Discriminant_Analysis_for_EEG_Based_Brain-Com",
+      "title": "Z-Score Linear Discriminant Analysis for EEG Based Brain-Computer Interfaces",
+      "category": "HDBSCAN Cluster: science, bci, technology, china",
+      "key": "FOLDER01130_7917a540a07f",
+      "sourceIndex": 100,
+      "textBytes": 35902,
+      "figuresExtracted": 3,
+      "excerpt": "# Z-Score Linear Discriminant Analysis for EEG Based BrainComputer Interfaces Rui Zhang, Peng Xu*, Lanjin Guo, Yangsong Zhang, Peiyang Li, Dezhong Yao* Key Laboratory for NeuroInformation of Ministry of Education, School of Life Science and Technology, University of Electronic Science and Technology of China, Chengdu, China |Abstract<br><br>Linear discriminant analysis (LDA) is one of the most popular classification algorithms for brain-computer interfaces (BCI). LDA assumes Gaussian distribution of the data, with equal covariance matrices for the concerned classes, however, the assumption is not usually held in actual BCI applications, where the heteroscedastic class distributions are usually observed. This paper proposes an enhanced version of LDA, namely z-score linear discriminant analysis (Z-LDA), which introduces a new decision boundary definition strategy to handle with the hetero"
+    },
+    {
+      "slug": "522_A_Real-Time_Brain-Machine_Interface_Combining_Motor_Target_a",
+      "title": "A Real-Time Brain-Machine Interface Combining Motor Target and Trajectory Intent Using an Optimal Feedback Control Design",
+      "category": "HDBSCAN Cluster: united, states, america, university",
+      "key": "FOLDER01133_7371db391ac5",
+      "sourceIndex": 101,
+      "textBytes": 88955,
+      "figuresExtracted": 5,
+      "excerpt": "# A Real-Time Brain-Machine Interface Combining Motor Target and Trajectory Intent Using an Optimal Feedback Control Design Maryam M. Shanechi1,2,3,4,5*, Ziv M. Williams4,5, Gregory W. Wornell3, Rollin C. Hu4,5, Marissa Powers4, Emery N. Brown5,6,7,8 1 School of Electrical and Computer Engineering, Cornell University, Ithaca, New York, United States of America, 2 Department of Electrical Engineering and Computer Science, University of California, Berkeley, California, United States of America, 3 Department of Electrical Engineering and Computer Science, Massachusetts Institute of Technology, Cambridge, Massachusetts, United States of America, 4 Department of Neurosurgery, Massachusetts General Hospital, Boston, Massachusetts, United States of America, 5Harvard Medical School, Boston, Massachusetts, United States of America, 6 Department of Anesthesia, Critical Care and Pain Medicine, Mas"
+    },
+    {
+      "slug": "523_A_Comparison_of_Two_Spelling_Brain-Computer_Interfaces_Based",
+      "title": "A Comparison of Two Spelling Brain-Computer Interfaces Based on Visual P3 and SSVEP in Locked-In Syndrome",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01136_d1be4cbdbfff",
+      "sourceIndex": 102,
+      "textBytes": 66959,
+      "figuresExtracted": 5,
+      "excerpt": "# A Comparison of Two Spelling Brain-Computer Interfaces Based on Visual P3 and SSVEP in Locked-In Syndrome Adrien Combaz1*., Camille Chatelle2., Arne Robben1, Gertie Vanhoof3, Ann Goeleven3, Vincent Thijs4,5, Marc M. Van Hulle1, Steven Laureys2,6 1 Computational Neuroscience Group, Laboratory for Neuro- and Psychophysiology, KU Leuven, Leuven, Belgium, 2 Coma Science Group, Cyclotron Research Centerp, University of Lie`ge, Lie`ge, Belgium, 3 Department of Speech Language Pathology, ENT Head and Neck Surgery, University Hospitals Leuven, Leuven, Belgium, 4 Department of Neurology, University Hospitals Leuven, Leuven, Belgium, 5 Vesalius Research Center, VIB, Leuven, Belgium, 6 Department of Neurology, Lie`ge University Hospital, Lie`ge, Belgium |Abstract<br><br>Objectives:We study the applicability of a visual P3-based and a Steady State Visually Evoked Potentials (SSVEP)-based Brain-Com"
+    },
+    {
+      "slug": "524_Empathy_motivation_and_P300_BCI_performance",
+      "title": "Empathy, motivation, and P300 BCI performance",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01141_bf37b141161a",
+      "sourceIndex": 103,
+      "textBytes": 67008,
+      "figuresExtracted": 2,
+      "excerpt": "#### ORIGINAL RESEARCH ARTICLE published: 17 October 2013 doi: 10.3389/fnhum.2013.00642 # Empathy, motivation, and P300-BCI performance ## Sonja C. Kleih* and Andrea Kübler Department of Psychology, University of Würzburg, Würzburg, Germany Edited by: Elisabeth V. C. Friedrich, University of Graz, Austria Reviewed by: Robert Leeb, Ecole Polytechnique Fédérale de Lausanne, Switzerland Silvia Erika Kober, University of Graz, Austria *Correspondence: Sonja C. Kleih, Department of Psychology, University of Würzburg, Marcusstrasse 9-11, 97070 Würzburg, Germany e-mail: sonja.kleih@uni-wuerzburg.de Motivation moderately inﬂuences brain–computer interface (BCI) performance in healthy subjects when monetary reward is used to manipulate extrinsic motivation. However, the motivation of severely paralyzed patients, who are potentially in need for BCI, could mainly be internal and thus, an intrinsic "
+    },
+    {
+      "slug": "525_Prediction_of_Auditory_and_Visual_P300_Brain-Computer_Interf",
+      "title": "Prediction of Auditory and Visual P300 Brain-Computer Interface Aptitude",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01142_7518810fcf25",
+      "sourceIndex": 104,
+      "textBytes": 61661,
+      "figuresExtracted": 5,
+      "excerpt": "# Prediction of Auditory and Visual P300 Brain-Computer Interface Aptitude Sebastian Halder1,2,3*, Eva Maria Hammer1, Sonja Claudia Kleih1, Martin Bogdan3,5, Wolfgang Rosenstiel3, Niels Birbaumer2,4, Andrea Ku¨bler1,2 1 Institute of Psychology, University of Wu¨rzburg, Wu¨rzburg, Germany, 2 Institute of Medical Psychology and Behavioral Neurobiology, University of Tu¨bingen, Tu¨bingen, Germany, 3 Wilhelm-Schickard Institute for Computer Science, University of Tu¨bingen, Tu¨bingen, Germany, 4Ospedale San Camillo, Istituto di Ricovero e Cura a Carattere Scientifico, Venezia, Italy, 5 Computer Engineering, University of Leipzig, Leipzig, Germany |Abstract<br><br>Objective:Brain-computer interfaces (BCIs) provide a non-muscular communication channel for patients with late-stage motoneuron disease (e.g., amyotrophic lateral sclerosis (ALS)) or otherwise motor impaired people and are also used"
+    },
+    {
+      "slug": "526_Brain-computer_interface-based_robotic_end_effector_system_f",
+      "title": "Brain-computer interface-based robotic end effector system for wrist and hand rehabilitation: results of a three-armed randomized controlled trial for chronic stroke",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01150_b724e2a04bc2",
+      "sourceIndex": 105,
+      "textBytes": 45347,
+      "figuresExtracted": 5,
+      "excerpt": "##### ORIGINAL RESEARCH ARTICLE published: 29 July 2014 doi: 10.3389/fneng.2014.00030 ## NEUROENGINEERING # Brain-computer interface-based robotic end effector system for wrist and hand rehabilitation: results of a three-armed randomized controlled trial for chronic stroke ### Kai Keng Ang1*, Cuntai Guan1, Kok Soon Phua1, Chuanchu Wang1, Longjiang Zhou1, Ka Yin Tang1, Gopal J. Ephraim Joseph2, Christopher Wee Keong Kuah2 and Karen Sui Geok Chua2 - 1 Institute for Infocomm Research, Agency for Science, Technology and Research (A*STAR), Singapore - 2 Department of Rehabilitation Medicine, Tan Tock Seng Hospital, Singapore Edited by: Christoph Guger, Guger Technologies OEG, Austria Reviewed by: Robert Leeb, Ecole Polytechnique Fédérale de Lausanne, Switzerland Surjo R. Soekadar, University Hospital of Tübingen, Germany *Correspondence: Kai Keng Ang, Institute for Infocomm Research, Agency f"
+    },
+    {
+      "slug": "527_Errare_machinale_est_the_use_of_error-related_potentials_in",
+      "title": "Errare machinale est: the use of error-related potentials in brain-machine interfaces",
+      "category": "HDBSCAN Cluster: germany, stimulation, university, bingen",
+      "key": "FOLDER01153_7ab676118a25",
+      "sourceIndex": 106,
+      "textBytes": 82454,
+      "figuresExtracted": 3,
+      "excerpt": "#### REVIEW ARTICLE published: 22 July 2014 doi: 10.3389/fnins.2014.00208 # Errare machinale est: the use of error-related potentials in brain-machine interfaces ## Ricardo Chavarriaga*, Aleksander Sobolewski and José del R. Millán Deﬁtech Chair in Non-Invasive Brain-Machine Interface, Center for Neuroprosthetics, School of Engineering, Ecole Polytechnique Fédérale de Lausanne, Lausanne, Switzerland Edited by: Thorsten O. Zander, Technical University of Berlin, Germany Reviewed by: Andrea Kübler, University of Würzburg, Germany Johanna Wagner, Graz University of Technology, Austria Laurens Ruben Krol, Technische Universität Berlin, Germany *Correspondence: Ricardo Chavarriaga, Deﬁtech Chair in Non-Invasive Brain-Machine Interface, Ecole Polytechnique Fédérale de Lausanne, EPFL-STI-CNBI, Station 11, Lausanne 1015, Switzerland e-mail: ricardo.chavarriaga@epﬂ.ch The ability to recognize err"
+    },
+    {
+      "slug": "528_Decoding_of_four_movement_directions_using_hybrid_NIRS-EEG_b",
+      "title": "Decoding of four movement directions using hybrid NIRS-EEG brain-computer interface",
+      "category": "HDBSCAN Cluster: university, korea, department, national",
+      "key": "FOLDER01155_760549a4206e",
+      "sourceIndex": 107,
+      "textBytes": 39756,
+      "figuresExtracted": 5,
+      "excerpt": "###### METHODS ARTICLE published: 28 April 2014 doi: 10.3389/fnhum.2014.00244 ## HUMAN NEUROSCIENCE # Decoding of four movement directions using hybrid NIRS-EEG brain-computer interface ### M. Jawad Khan1, Melissa Jiyoun Hong2 and Keum-Shik Hong1,3* - 1 Department of Cogno-Mechatronics Engineering, Pusan National University, Busan, Republic of Korea - 2 Department of Education Policy and Social Analysis, Columbia University, New York, NY, USA - 3 School of Mechanical Engineering, Pusan National University, Busan, Republic of Korea Edited by: Francesco Di Russo, University of Rome “Foro Italico,” Italy Reviewed by: Mederic Descoins, NYU Langone Medical Center, USA Rodolphe J. Gentili, University of Maryland, USA *Correspondence: Keum-Shik Hong, Department of Cogno-Mechatronics Engineering, Pusan National University, 2 Busandaehak-ro, Guemjeong-gu, Busan 609-735, Republic of Korea e-mail: "
+    },
+    {
+      "slug": "529_The_User-Centered_Design_as_Novel_Perspective_for_Evaluating",
+      "title": "The User-Centered Design as Novel Perspective for Evaluating the Usability of BCI-Controlled Applications",
+      "category": "HDBSCAN Cluster: figure, access, data, open",
+      "key": "FOLDER01158_566fd5592020",
+      "sourceIndex": 108,
+      "textBytes": 62319,
+      "figuresExtracted": 4,
+      "excerpt": "[Figure 1] [Figure 2] [Figure 3] OPEN ACCESS Citation: Ku¨bler A, Holz EM, Riccio A, Zickler C, Kaufmann T, et al. (2014) The User-Centered Design as Novel Perspective for Evaluating the Usability of BCI-Controlled Applications. PLoS ONE 9(12): e112392. doi:10.1371/journal.pone. 0112392 Editor: Stefano Federici, University of Perugia, Italy Received: May 16, 2014 Accepted: October 14, 2014 Published: December 3, 2014 Copyright: 2014 Ku¨bler et al. This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. Data Availability: The authors confirm that, for approved reasons, some access restrictions apply to the data underlying the findings. Before conducting the studies, we obtained Ethical Approval and Informed Cons"
+    },
+    {
+      "slug": "530_Conscious_Brain-to-Brain_Communication_in_Humans_Using_Non-I",
+      "title": "Conscious Brain-to-Brain Communication in Humans Using Non-Invasive Technologies",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01160_1baa421b48f9",
+      "sourceIndex": 109,
+      "textBytes": 31307,
+      "figuresExtracted": 3,
+      "excerpt": "# Conscious Brain-to-Brain Communication in Humans Using Non-Invasive Technologies Carles Grau1,2, Romuald Ginhoux3, Alejandro Riera1,4, Thanh Lam Nguyen3, Hubert Chauvat3, Michel Berg3, Julia` L. Amengual5, Alvaro Pascual-Leone6, Giulio Ruffini1,4* 1 Starlab Barcelona, Barcelona, Spain, 2 Neurodynamics Laboratory, Department of Psychiatry and Clinical Psychobiology, Psychology and Medicine Faculties, University of Barcelona, Barcelona, Spain, 3 Axilum Robotics, Strasbourg, France, 4 Neuroelectrics Barcelona, Barcelona, Spain, 5 Cognition and Brain Plasticity Unit, Department of Basic Psychology, University of Barcelona, Barcelona, Spain, 6 Berenson Allen Center for Noninvasive Brain Stimulation, Beth Israel Deaconess Medical Center, Harvard Medical School, Boston, Massachusetts, United States of America |Abstract<br><br>Human sensory and motor systems provide the natural means for the e"
+    },
+    {
+      "slug": "531_Brain-computer_interface_with_somatosensory_feedback_improve",
+      "title": "Brain-computer interface with somatosensory feedback improves functional recovery from severe hemiplegia due to chronic stroke",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01164_856a46a7b1d6",
+      "sourceIndex": 110,
+      "textBytes": 33841,
+      "figuresExtracted": 5,
+      "excerpt": "##### ORIGINAL RESEARCH ARTICLE published: 07 July 2014 ## NEUROENGINEERING doi:10.3389/fneng.2014.00019 # Brain-computer interface with somatosensory feedback improves functional recovery from severe hemiplegia due to chronic stroke ### Takashi Ono1, Keiichiro Shindo2, Kimiko Kawashima1, Naoki Ota1, Mari Ito2, Tetsuo Ota3, Masahiko Mukaino3, Toshiyuki Fujiwara2, Akio Kimura2, Meigen Liu2 and Junichi Ushiba1* - 1 Department of Biosciences and Informatics, School of Fundamental Science and Technology, Graduate School of Keio University, Kanagawa, Japan - 2 Department of Rehabilitation Medicine, Keio University School of Medicine, Tokyo, Japan - 3 Department of Rehabilitation Medicine, Asahikawa Medical University Hospital, Asahikawa, Japan Edited by: Aleksandra Vuckovic, University of Glasgow, UK Reviewed by: Christoph Guger, University of Technology Graz, Austria Damien Coyle, University"
+    },
+    {
+      "slug": "532_Decoding_Individual_Finger_Movements_from_One_Hand_Using_Hum",
+      "title": "Decoding Individual Finger Movements from One Hand Using Human EEG Signals",
+      "category": "HDBSCAN Cluster: bci, performance, interface, been",
+      "key": "FOLDER01169_729fd2ac1ed8",
+      "sourceIndex": 111,
+      "textBytes": 68646,
+      "figuresExtracted": 5,
+      "excerpt": "# Decoding Individual Finger Movements from One Hand Using Human EEG Signals Ke Liao1., Ran Xiao1., Jania Gonzalez2, Lei Ding1,2* 1 School of Electrical and Computer Engineering, University of Oklahoma, Norman, Oklahoma, United States of America, 2 Center for Biomedical Engineering, University of Oklahoma, Norman, Oklahoma, United States of America |Abstract<br><br>Brain computer interface (BCI) is an assistive technology, which decodes neurophysiological signals generated by the human brain and translates them into control signals to control external devices, e.g., wheelchairs. One problem challenging noninvasive BCI technologies is the limited control dimensions from decoding movements of, mainly, large body parts, e.g., upper and lower limbs. It has been reported that complicated dexterous functions, i.e., finger movements, can be decoded in electrocorticography (ECoG) signals, while "
+    },
+    {
+      "slug": "533_Feature_learning_from_incomplete_EEG_with_denoising_autoenco",
+      "title": "Feature learning from incomplete EEG with denoising autoencoder",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01174_b11119afde5c",
+      "sourceIndex": 112,
+      "textBytes": 35459,
+      "figuresExtracted": 5,
+      "excerpt": "# arXiv:1410.0818v1[cs.CV]3Oct2014 ## Feature Learning from Incomplete EEG with Denoising Autoencoder ##### Junhua Lia,∗, Zbigniew Struzika, Liqing Zhangb, Andrzej Cichockia aLaboratory for Advanced Brain Signal Processing, Brain Science Institute, RIKEN, Saitama, 351-0198, Japan bKey Laboratory of Shanghai Education Commission for Intelligent Interaction and Cognitive Engineering, Department of Computer Science and Engineering, Shanghai Jiao Tong University, Shanghai, 200240, China #### Abstract An alternative pathway for the human brain to communicate with the outside world is by means of a brain computer interface (BCI). A BCI can decode electroencephalogram (EEG) signals of brain activities, and then send a command or an intent to an external interactive device, such as a wheelchair. The eﬀectiveness of the BCI depends on the performance in decoding the EEG. Usually, the EEG is conta"
+    },
+    {
+      "slug": "534_A_PlugPlay_P300_BCI_Using_Information_Geometry",
+      "title": "A Plug&Play P300 BCI Using Information Geometry",
+      "category": "HDBSCAN Cluster: new, geometry, brain-computer, bci",
+      "key": "FOLDER01175_ffed4ae596d5",
+      "sourceIndex": 113,
+      "textBytes": 49160,
+      "figuresExtracted": 5,
+      "excerpt": "# A Plug&Play P300 BCI Using Information Geometry Alexandre Barachant, Marco Congedo Team ViBS (Vision and Brain Signal Processing), GIPSA-lab, CNRS, Grenoble Universities. France. Email: alexandre.barachant@gmail.com ## arXiv:1409.0107v1[cs.LG]30Aug2014 Abstract—This paper presents a new classiﬁcation methods for Event Related Potentials (ERP) based on an Information geometry framework. Through a new estimation of covariance matrices, this work extend the use of Riemannian geometry, which was previously limited to SMR-based BCI, to the problem of classiﬁcation of ERPs. As compared to the state-of-the-art, this new method increases performance, reduces the number of data needed for the calibration and features good generalisation across sessions and subjects. This method is illustrated on data recorded with the P300-based game brain invaders. Finally, an online and adaptive implementatio"
+    },
+    {
+      "slug": "535_Cognitive_state_monitoring_and_the_design_of_adaptive_instru",
+      "title": "Cognitive state monitoring and the design of adaptive instruction in digital environments: lessons learned from cognitive workload assessment using a passive brain-computer interface approach",
+      "category": "HDBSCAN Cluster: germany, bingen, university, research",
+      "key": "FOLDER01177_71d2cfb78ce1",
+      "sourceIndex": 114,
+      "textBytes": 147832,
+      "figuresExtracted": 0,
+      "excerpt": "#### HYPOTHESIS AND THEORY ARTICLE published: 09 December 2014 doi: 10.3389/fnins.2014.00385 # Cognitive state monitoring and the design of adaptive instruction in digital environments: lessons learned from cognitive workload assessment using a passive brain-computer interface approach ## Peter Gerjets1*, Carina Walter2, Wolfgang Rosenstiel2, Martin Bogdan2,3 and Thorsten O. Zander4 - 1 Hypermedia Lab, Knowledge Media Research Center, Tübingen, Germany - 2 Department of Computer Engineering, University of Tübingen, Tübingen, Germany - 3 Department of Computer Engineering, University of Leipzig, Leipzig, Germany - 4 Team PhyPA, Biological Psychology and Neuroergonomics, Technical University Berlin, Berlin, Germany Edited by: Anne-Marie Brouwer, TNO Netherlands Organisation for Applied Scientiﬁc Research, Netherlands Reviewed by: Justin Estepp, Air Force Research Laboratory, USA Stephen Fa"
+    },
+    {
+      "slug": "536_Hybrid_fNIRS-EEG_based_classification_of_auditory_and_visual",
+      "title": "Hybrid fNIRS-EEG based classification of auditory and visual perception processes",
+      "category": "HDBSCAN Cluster: university, freiburg, germany, singapore",
+      "key": "FOLDER01178_162a98852ac1",
+      "sourceIndex": 115,
+      "textBytes": 72024,
+      "figuresExtracted": 5,
+      "excerpt": "#### ORIGINAL RESEARCH ARTICLE published: 18 November 2014 doi: 10.3389/fnins.2014.00373 # Hybrid fNIRS-EEG based classiﬁcation of auditory and visual perception processes ## Felix Putze1*, Sebastian Hesslinger1, Chun-Yu Tse2,3, YunYing Huang4, Christian Herff1, Cuntai Guan5 and Tanja Schultz1 - 1 Cognitive Systems Lab, Institute of Anthropomatics and Robotics, Karlsruhe Institute of Technology, Karlsruhe, Germany - 2 Department of Psychology, Center for Cognition and Brain Studies, The Chinese University of Hong Kong, Hong Kong, China - 3 Temasek Laboratories, National University of Singapore, Singapore, Singapore - 4 Nufﬁeld Department of Clinical Neurosciences, John Radcliffe Hospital, Oxford, UK - 5 Institute for Infocomm Research (I2R), A*STAR, Singapore, Singapore Edited by: Thorsten O. Zander, Technical University of Berlin, Germany Reviewed by: Ricardo Chavarriaga, Ecole Polytech"
+    },
+    {
+      "slug": "537_Coupling_brain-machine_interfaces_with_cortical_stimulation",
+      "title": "Coupling brain-machine interfaces with cortical stimulation for brain-state dependent stimulation: enhancing motor cortex excitability for neurorehabilitation",
+      "category": "HDBSCAN Cluster: tuebingen, neurosurgery, university, division",
+      "key": "FOLDER01181_e2a1f91b31ba",
+      "sourceIndex": 116,
+      "textBytes": 36045,
+      "figuresExtracted": 3,
+      "excerpt": "##### METHODS ARTICLE published: 05 March 2014 doi: 10.3389/fnhum.2014.00122 ## HUMAN NEUROSCIENCE # Coupling brain-machine interfaces with cortical stimulation for brain-state dependent stimulation: enhancing motor cortex excitability for neurorehabilitation ### Alireza Gharabaghi1,2*, Dominic Kraus1,2, Maria T. Leão1,2, Martin Spüler3, Armin Walter3, Martin Bogdan3,4, Wolfgang Rosenstiel3, Georgios Naros1,2 and Ulf Ziemann5 - 1 Division of Functional and Restorative Neurosurgery, Division of Translational Neurosurgery, Department of Neurosurgery, Eberhard Karls University Tuebingen, Tuebingen, Germany - 2 Neuroprosthetics Research Group, Department of Integrative Neuroscience, Werner Reichardt Centre, Eberhard Karls University, Tübingen, Germany - 3 Department of Computer Engineering, Wilhelm-Schickard Institute for Computer Science, Eberhard Karls University Tuebingen, Tuebingen, Germ"
+    },
+    {
+      "slug": "538_An_independent_SSVEP-based_braincomputer_interface_in_locked",
+      "title": "An independent SSVEP-based brain–computer interface in locked-in syndrome",
+      "category": "HDBSCAN Cluster: university, brain, computer, department",
+      "key": "FOLDER01183_535aa0b13752",
+      "sourceIndex": 117,
+      "textBytes": 39202,
+      "figuresExtracted": 5,
+      "excerpt": "Journal of Neural Engineering J. Neural Eng. 11 (2014) 035002 (8pp) doi:10.1088/1741-2560/11/3/035002 An independent SSVEP-based brain–computer interface in locked-in syndrome D Lesenfants1, D Habbal1, Z Lugo1,3, M Lebeau1, P Horki2, E Amico1, C Pokorny2, F G´omez1,4, A Soddu1,5, G M¨uller-Putz2, S Laureys1,6 and Q Noirhomme1,6 1 Coma Science Group, Cyclotron Research Centre and Neurology department, University of Li`ege, Li`ege, Belgium 2 Laboratory of Brain-Computer Interfaces, Institute for Knowledge Discovery, Graz University of Technology, Graz, Austria 3 Department of Psychology I, Institute for Psychology, University of W¨urzburg, W¨urzburg, Germany 4 Combios Laboratory, Computer Science Department, Universidad Central, Bogot´a, Colombia 5 Brain & Mind Institute, Physics & Astronomy Department, University of Western Ontario, London ON, Canada E-mail: Damien.Lesenfants@doct.ulg.ac."
+    },
+    {
+      "slug": "539_Predicting_BCI_Subject_Performance_Using_Probabilistic_Spati",
+      "title": "Predicting BCI Subject Performance Using Probabilistic Spatio-Temporal Filters",
+      "category": "HDBSCAN Cluster: filters, bci, eeg, spatial",
+      "key": "FOLDER01193_22b4d31cbab6",
+      "sourceIndex": 118,
+      "textBytes": 73526,
+      "figuresExtracted": 5,
+      "excerpt": "# Predicting BCI Subject Performance Using Probabilistic Spatio-Temporal Filters Heung-Il Suk1, Siamac Fazli1, Jan Mehnert2, Klaus-Robert Mu¨ller1,2*, Seong-Whan Lee1* 1 Department of Brain and Cognitive Engineering, Korea University, Anam-dong, Seongbuk-ku, Seoul, Republic of Korea, 2Machine Learning Group, TU Berlin, Berlin, Germany |Abstract<br><br>Recently, spatio-temporal filtering to enhance decoding for Brain-Computer-Interfacing (BCI) has become increasingly popular. In this work, we discuss a novel, fully Bayesian–and thereby probabilistic–framework, called Bayesian SpatioSpectral Filter Optimization (BSSFO) and apply it to a large data set of 80 non-invasive EEG-based BCI experiments. Across the full frequency range, the BSSFO framework allows to analyze which spatio-spectral parameters are common and which ones differ across the subject population. As expected, large variabili"
+    },
+    {
+      "slug": "540_Classification_of_Four-Class_Motor_Imagery_Employing_Single-",
+      "title": "Classification of Four-Class Motor Imagery Employing Single-Channel Electroencephalography",
+      "category": "HDBSCAN Cluster: science, bci, technology, china",
+      "key": "FOLDER01195_10a4fd9a648c",
+      "sourceIndex": 119,
+      "textBytes": 35602,
+      "figuresExtracted": 3,
+      "excerpt": "# Classification of Four-Class Motor Imagery Employing Single-Channel Electroencephalography Sheng Ge1*, Ruimin Wang2, Dongchuan Yu1 - 1 Key Laboratory of Child Development and Learning Science of Ministry of Education, Research Center for Learning Science, Southeast University, Nanjing, Jiangsu, China, - 2 School of Electronic Engineering and Optoelectronic Technology, Nanjing University of Science and Technology, Nanjing, Jiangsu, China |Abstract<br><br>With advances in brain-computer interface (BCI) research, a portable few- or single-channel BCI system has become necessary. Most recent BCI studies have demonstrated that the common spatial pattern (CSP) algorithm is a powerful tool in extracting features for multiple-class motor imagery. However, since the CSP algorithm requires multi-channel information, it is not suitable for a few- or single-channel system. In this study, we applie"
+    },
+    {
+      "slug": "541_Spatiotemporal_Sparse_Bayesian_Learning_With_Applications_to",
+      "title": "Spatiotemporal Sparse Bayesian Learning With Applications to Compressed Sensing of Multichannel Physiological Signals",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01196_67c11ce36a4f",
+      "sourceIndex": 120,
+      "textBytes": 70108,
+      "figuresExtracted": 4,
+      "excerpt": "# Spatiotemporal Sparse Bayesian Learning with Applications to Compressed Sensing of Multichannel Physiological Signals Zhilin Zhang∗, Member, IEEE, Tzyy-Ping Jung, Senior Member, IEEE, Scott Makeig, Member, IEEE Zhouyue Pi, Senior Member, IEEE, Bhaskar D. Rao, Fellow, IEEE arXiv:1404.5122v2[cs.IT]15Nov2014 Abstract— Energy consumption is an important issue in continuous wireless telemonitoring of physiological signals. Compressed sensing (CS) is a promising framework to address it, due to its energy-efﬁcient data compression procedure. However, most CS algorithms have difﬁculty in data recovery due to nonsparsity characteristic of many physiological signals. Block sparse Bayesian learning (BSBL) is an effective approach to recover such signals with satisfactory recovery quality. However, it is time-consuming in recovering multichannel signals, since its computational load almost linearl"
+    },
+    {
+      "slug": "542_What_we_can_and_cannot_yet_do_with_functional_near_infrared",
+      "title": "What we can and cannot (yet) do with functional near infrared spectroscopy",
+      "category": "HDBSCAN Cluster: university, usa, state, department",
+      "key": "FOLDER01198_9ddc90d661e7",
+      "sourceIndex": 121,
+      "textBytes": 73869,
+      "figuresExtracted": 1,
+      "excerpt": "### ORIGINAL RESEARCH ARTICLE published: 23 May 2014 doi: 10.3389/fnins.2014.00117 # What we can and cannot (yet) do with functional near infrared spectroscopy ## Megan Strait* and Matthias Scheutz Human-Robot Interaction Laboratory, Department of Computer Science, Tufts University, Medford, MA, USA Edited by: Jan B. F. Van Erp, TNO, Netherlands Reviewed by: Koen Koenraadt, Amphia Hospital, Netherlands Hein Daanen, TNO, Netherlands *Correspondence: Megan Strait, Human-Robot Interaction Laboratory, Department of Computer Science, Tufts University, 200 Boston Avenue, Medford, MA, 02155, USA e-mail: megan.strait@tufts.edu Functional near infrared spectroscopy (NIRS) is a relatively new technique complimentary to EEG for the development of brain-computer interfaces (BCIs). NIRS-based systems for detecting various cognitive and affective states such as mental and emotional stress have already"
+    },
+    {
+      "slug": "543_Towards_an_Optimization_of_Stimulus_Parameters_for_Brain-Com",
+      "title": "Towards an Optimization of Stimulus Parameters for Brain-Computer Interfaces Based on Steady State Visual Evoked Potentials",
+      "category": "HDBSCAN Cluster: warsaw, poland, brain-computer, piotr",
+      "key": "FOLDER01200_df033559fc60",
+      "sourceIndex": 122,
+      "textBytes": 44733,
+      "figuresExtracted": 5,
+      "excerpt": "# Towards an Optimization of Stimulus Parameters for Brain-Computer Interfaces Based on Steady State Visual Evoked Potentials Anna Duszyk1*., Maria Bierzyn´ska3., Zofia Radzikowska1, Piotr Milanowski2, Rafał Kus´2, Piotr Suffczyn´ski2, Magdalena Michalska2, Maciej Łabe˛cki2, Piotr Zwolin´ski4, Piotr Durka2 - 1 University of Social Sciences and Humanities, Warsaw, Poland, 2 University of Warsaw, Faculty of Physics, Warsaw, Poland, 3 Nencki Institute of Experimental Biology PAS, Warsaw, Poland, 4Warsaw Memorial Child Hospital, Department of Neurosurgery, Warsaw, Poland |Abstract<br><br>Efforts to construct an effective brain-computer interface (BCI) system based on Steady State Visual Evoked Potentials (SSVEP) commonly focus on sophisticated mathematical methods for data analysis. The role of different stimulus features in evoking strong SSVEP is less often considered and the knowledge on "
+    },
+    {
+      "slug": "544_True_Zero-Training_Brain-Computer_Interfacing__An_Online_Stu",
+      "title": "True Zero-Training Brain-Computer Interfacing – An Online Study",
+      "category": "HDBSCAN Cluster: university, germany, brain-computer, systems",
+      "key": "FOLDER01201_27f3f10a38d1",
+      "sourceIndex": 123,
+      "textBytes": 74760,
+      "figuresExtracted": 5,
+      "excerpt": "True Zero-Training Brain-Computer Interfacing – An Online Study Pieter-Jan Kindermans1*, Martijn Schreuder2, Benjamin Schrauwen1, Klaus-Robert Mu¨ ller2,3*, Michael Tangermann4* 1 Electronics and Information Systems (ELIS) Dept., Ghent University, Ghent, Belgium, 2 Machine Learning Laboratory, Technical University of Berlin, Berlin, Germany, 3 Department of Brain and Cognitive Engineering, Korea University, Seoul, Republic of Korea, 4 BrainLinks-BrainTools Excellence Cluster, Computer Science Dept., University of Freiburg, Freiburg, Germany Abstract Despite several approaches to realize subject-to-subject transfer of pre-trained classifiers, the full performance of a Brain- Computer Interface (BCI) for a novel user can only be reached by presenting the BCI system with data from the novel user. In typical state-of-the-art BCI systems with a supervised classifier, the labeled data is colle"
+    },
+    {
+      "slug": "545_Generating_Visual_Flickers_for_Eliciting_Robust_Steady-State",
+      "title": "Generating Visual Flickers for Eliciting Robust Steady-State Visual Evoked Potentials at Flexible Frequencies Using Monitor Refresh Rate",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01207_6bf240c47008",
+      "sourceIndex": 124,
+      "textBytes": 56335,
+      "figuresExtracted": 4,
+      "excerpt": "# Generating Visual Flickers for Eliciting Robust SteadyState Visual Evoked Potentials at Flexible Frequencies Using Monitor Refresh Rate Masaki Nakanishi1,2, Yijun Wang2,3*, Yu-Te Wang2,3, Yasue Mitsukura1, Tzyy-Ping Jung2,3 1 Graduate School of Science and Technology, Keio University, Yokohama, Kanagawa, Japan, 2 Swartz Center for Computational Neuroscience, Institute for Neural Computation, University of California San Diego, La Jolla, California, United States of America, 3 Center for Advanced Neurological Engineering, Institute of Engineering in Medicine, University of California San Diego, La Jolla, California, United States of America |Abstract<br><br>In the study of steady-state visual evoked potentials (SSVEPs), it remains a challenge to present visual flickers at flexible frequencies using monitor refresh rate. For example, in an SSVEP-based brain-computer interface (BCI), it i"
+    },
+    {
+      "slug": "546_An_Efficient_ERP-Based_Brain-Computer_Interface_Using_Random",
+      "title": "An Efficient ERP-Based Brain-Computer Interface Using Random Set Presentation and Face Familiarity",
+      "category": "HDBSCAN Cluster: brain-computer, interface, berlin, paradigm",
+      "key": "FOLDER01208_5bb274f0ccc8",
+      "sourceIndex": 125,
+      "textBytes": 53101,
+      "figuresExtracted": 5,
+      "excerpt": "# An Efficient ERP-Based Brain-Computer Interface Using Random Set Presentation and Face Familiarity Seul-Ki Yeom1., Siamac Fazli1., Klaus-Robert Mu¨ller1,2, Seong-Whan Lee1* 1 Department of Brain and Cognitive Engineering, Korea University, Seoul, Republic of Korea, 2Machine Learning Group, Berlin Institute of Technology, Berlin, Germany |Abstract<br><br>Event-related potential (ERP)-based P300 spellers are commonly used in the field of brain-computer interfaces as an alternative channel of communication for people with severe neuro-muscular diseases. This study introduces a novel P300 based brain-computer interface (BCI) stimulus paradigm using a random set presentation pattern and exploiting the effects of face familiarity. The effect of face familiarity is widely studied in the cognitive neurosciences and has recently been addressed for the purpose of BCI. In this study we compare P3"
+    },
+    {
+      "slug": "547_Challenges_in_clinical_applications_of_brain_computer_interf",
+      "title": "Challenges in clinical applications of brain computer interfaces in individuals with spinal cord injury",
+      "category": "HDBSCAN Cluster: brain, interfaces, bci, signals",
+      "key": "FOLDER01210_3f85e8fe7a6c",
+      "sourceIndex": 126,
+      "textBytes": 102794,
+      "figuresExtracted": 1,
+      "excerpt": "#### REVIEW ARTICLE published: 24 September 2014 doi: 10.3389/fneng.2014.00038 # Challenges in clinical applications of brain computer interfaces in individuals with spinal cord injury ## Rüdiger Rupp* Experimental Neurorehabilitation, Spinal Cord Injury Center, Heidelberg University Hospital, Heidelberg, Germany Brain computer interfaces (BCIs) are devices that measure brain activities and translate them into control signals used for a variety of applications. Among them are systems for communication, environmental control, neuroprostheses, exoskeletons, or restorative therapies. Over the last years the technology of BCIs has reached a level of matureness allowing them to be used not only in research experiments supervised by scientists, but also in clinical routine with patients with neurological impairments supervised by clinical personnel or caregivers. However, clinicians and patien"
+    },
+    {
+      "slug": "548_Motor_Imagery_for_Severely_Motor-Impaired_Patients_Evidence",
+      "title": "Motor Imagery for Severely Motor-Impaired Patients: Evidence for Brain-Computer Interfacing as Superior Control Solution",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01211_45fe75d1f727",
+      "sourceIndex": 127,
+      "textBytes": 61239,
+      "figuresExtracted": 5,
+      "excerpt": "# Motor Imagery for Severely Motor-Impaired Patients: Evidence for Brain-Computer Interfacing as Superior Control Solution Johannes Ho¨hne1*, Elisa Holz2, Pit Staiger-Sa¨lzer3, Klaus-Robert Mu¨ller4,5,6*, Andrea Ku¨bler2*, Michael Tangermann7* 1 Neurotechnology group, Berlin Institute of Technology, Berlin, Germany, 2 Department of Psychology I, University of Wu¨rzburg, Wu¨rzburg, Germany, 3 Beratungsstelle fu¨r Unterstu¨tzte Kommunikation (BUK), Diakonie Bad Kreuznach, Bad Kreuznach, Germany, 4 Machine Learning Laboratory, Berlin Institute of Technology, Berlin, Germany, 5 Bernstein Center for Computational Neuroscience, Berlin, Germany, 6Department of Brain and Cognitive Engineering, Korea University, Anam-dong, Seongbuk-gu, Seoul, Korea, 7 BrainLinks-BrainTools Excellence Cluster, University of Freiburg, Freiburg, Germany |Abstract<br><br>Brain-Computer Interfaces (BCIs) strive to dec"
+    },
+    {
+      "slug": "549_Changes_in_functional_brain_organization_and_behavioral_corr",
+      "title": "Changes in functional brain organization and behavioral correlations after rehabilitative therapy using a brain-computer interface",
+      "category": "HDBSCAN Cluster: madison, university, wisconsin, usa",
+      "key": "FOLDER01213_3a5b4b26b044",
+      "sourceIndex": 128,
+      "textBytes": 84518,
+      "figuresExtracted": 5,
+      "excerpt": "##### ORIGINAL RESEARCH ARTICLE published: 15 July 2014 doi: 10.3389/fneng.2014.00026 ## NEUROENGINEERING # Changes in functional brain organization and behavioral correlations after rehabilitative therapy using a brain-computer interface ### Brittany M. Young1,2,3, Zack Nigogosyan1, Léo M. Walton3,4, Jie Song1,4, Veena A. Nair1, Scott W. Grogan1, Mitchell E. Tyler4, Dorothy F. Edwards5, Kristin Caldera6, Justin A. Sattin7, Justin C. Williams3,4 and Vivek Prabhakaran1,2,3,7* - 1 Department of Radiology, University of Wisconsin–Madison, Madison, WI, USA - 2 Medical Scientist Training Program, University of Wisconsin–Madison, Madison, WI, USA - 3 Neuroscience Training Program, University of Wisconsin–Madison, Madison, WI, USA - 4 Department of Biomedical Engineering, University of Wisconsin–Madison, Madison, WI, USA - 5 Departments of Kinesiology and Medicine, University of Wisconsin–Madis"
+    },
+    {
+      "slug": "550_Changes_in_functional_connectivity_correlate_with_behavioral",
+      "title": "Changes in functional connectivity correlate with behavioral gains in stroke patients after therapy using a brain-computer interface device",
+      "category": "HDBSCAN Cluster: madison, university, wisconsin, usa",
+      "key": "FOLDER01222_d48007837a17",
+      "sourceIndex": 129,
+      "textBytes": 71974,
+      "figuresExtracted": 4,
+      "excerpt": "ORIGINAL RESEARCH ARTICLE published: 08 July 2014 doi: 10.3389/fneng.2014.00025 NEUROENGINEERING # Changes in functional connectivity correlate with behavioral gains in stroke patients after therapy using a brain-computer interface device ## Brittany Mei Young1,2,3, Zack Nigogosyan1, Alexander Remsik1, Léo M. Walton3,4, Jie Song1,4, Veena A. Nair1, Scott W. Grogan1, Mitchell E. Tyler4, Dorothy Farrar Edwards5, Kristin Caldera6, Justin A. Sattin7, Justin C. Williams3,4,8 and Vivek Prabhakaran1,2,3,7,9* - 1 Department of Radiology, University of Wisconsin – Madison, Madison, WI, USA - 2 Medical Scientist Training Program, University of Wisconsin – Madison, Madison, WI, USA - 3 Neuroscience Training Program, University of Wisconsin – Madison, Madison, WI, USA - 4 Department of Biomedical Engineering, University of Wisconsin – Madison, Madison, WI, USA - 5 Departments of Kinesiology and Medi"
+    },
+    {
+      "slug": "551_Clinical_evaluation_of_BrainTree_a_motor_imagery_hybrid_BCI",
+      "title": "Clinical evaluation of BrainTree, a motor imagery hybrid BCI speller",
+      "category": "HDBSCAN Cluster: motor, imagery, detection, university",
+      "key": "FOLDER01225_ba6e7fcb1004",
+      "sourceIndex": 130,
+      "textBytes": 60818,
+      "figuresExtracted": 3,
+      "excerpt": "[Figure 1] ## Perdikis, S., Leeb, R., Williamson, J., Ramsay, A., Tavella, M., Desideri, L., Hoogerwerf, E.-J., Al-Khodairy, A., Murray-Smith, R., and Millán, J.d.R (2014) Clinical evaluation of BrainTree, a motor imagery hybrid BCI speller. Journal of Neural Engineering, 11 (3). 036003. ISSN 1741-2560. Copyright © 2014 IOP Publishing Ltd. A copy can be downloaded for personal non-commercial research or study, without prior permission or charge Content must not be changed in any way or reproduced in any format or medium without the formal permission of the copyright holder(s) When referring to this work, full bibliographic details must be given ## http://eprints.gla.ac.uk/93305 Deposited on: 29 April 2014 Enlighten – Research publications by members of the University of Glasgow http://eprints.gla.ac.uk # Clinical evaluation of BrainTree, a motor imagery hybrid BCI speller ### S Perdikis1"
+    },
+    {
+      "slug": "552_Pervasive_brain_monitoring_and_data_sharing_based_on_multi-t",
+      "title": "Pervasive brain monitoring and data sharing based on multi-tier distributed computing and linked data technology",
+      "category": "HDBSCAN Cluster: singapore, technology, institute, research",
+      "key": "FOLDER01229_97515d8cb016",
+      "sourceIndex": 131,
+      "textBytes": 77787,
+      "figuresExtracted": 5,
+      "excerpt": "##### TECHNOLOGY REPORT ARTICLE published: 03 June 2014 doi: 10.3389/fnhum.2014.00370 ## HUMAN NEUROSCIENCE # Pervasive brain monitoring and data sharing based on multi-tier distributed computing and linked data technology ### John K. Zao1*, Tchin-Tze Gan1, Chun-Kai You1, Cheng-En Chung1, Yu-Te Wang2, Sergio José Rodríguez Méndez1, Tim Mullen2, Chieh Yu1, Christian Kothe2, Ching-Teng Hsiao3, San-Liang Chu4, Ce-Kuen Shieh4 and Tzyy-Ping Jung2 - 1 Pervasive Embedded Technology Lab, Computer Science Department, National Chiao Tung University, Hsinchu, Taiwan, R.O.C. - 2 Swartz Center for Computational Neuroscience, University of California, San Diego, CA, USA - 3 Research Center for Information Technology Innovation, Academia Sinica, Taipei, Taiwan, R.O.C. - 4 National Center for High-performance Computing, Hsinchu, Taiwan, R.O.C. Edited by: Klaus Gramann, Berlin Institute of Technology, Ge"
+    },
+    {
+      "slug": "553_EEG_MouseA_Machine_Learning-Based_Brain_Computer_Interface",
+      "title": "EEG Mouse:A Machine Learning-Based Brain Computer Interface",
+      "category": "HDBSCAN Cluster: eeg, machine, computer, signals",
+      "key": "FOLDER01231_ec50ef2b652c",
+      "sourceIndex": 132,
+      "textBytes": 27543,
+      "figuresExtracted": 5,
+      "excerpt": "# EEG Mouse:A Machine Learning-Based Brain Computer Interface ### Mohammad H. Alomari, Ayman AbuBaker, Aiman Turani, Ali M. Baniyounes, Adnan Manasreh Electrical and Computer Engineering Department, Applied Science University P.O. Box 166, Amman 11931 Jordan Abstract—The main idea of the current work is to use a wireless Electroencephalography (EEG) headset as a remote control for the mouse cursor of a personal computer. The proposed system uses EEG signals as a communication link between brains and computers. Signal records obtained from the PhysioNet EEG dataset were analyzed using the Coif lets wavelets and many features were extracted using different amplitude estimators for the wavelet coefficients. The extracted features were inputted into machine learning algorithms to generate the decision rules required for our application. The suggested real time implementation of the system wa"
+    },
+    {
+      "slug": "554_Using_Reinforcement_Learning_to_Provide_Stable_Brain-Machine",
+      "title": "Using Reinforcement Learning to Provide Stable Brain-Machine Interface Control Despite Neural Input Reorganization",
+      "category": "HDBSCAN Cluster: united, states, america, university",
+      "key": "FOLDER01233_818d38957996",
+      "sourceIndex": 133,
+      "textBytes": 72248,
+      "figuresExtracted": 5,
+      "excerpt": "# Using Reinforcement Learning to Provide Stable Brain-Machine Interface Control Despite Neural Input Reorganization Eric A. Pohlmeyer1, Babak Mahmoudi2, Shijia Geng1, Noeline W. Prins1, Justin C. Sanchez1,3,4* 1 Department of Biomedical Engineering, University of Miami, Coral Gables, Florida, United States of America, 2 Department of Neurosurgery, Emory University, Atlanta, Georgia, United States of America, 3 Department of Neuroscience, University of Miami, Miami, Florida, United States of America, 4 Miami Project to Cure Paralysis, University of Miami, Miami, Florida, United States of America |Abstract<br><br>Brain-machine interface (BMI) systems give users direct neural control of robotic, communication, or functional electrical stimulation systems. As BMI systems begin transitioning from laboratory settings into activities of daily living, an important goal is to develop neural deco"
+    },
+    {
+      "slug": "555_Effect_of_biased_feedback_on_motor_imagery_learning_in_BCI-t",
+      "title": "Effect of biased feedback on motor imagery learning in BCI-teleoperation system",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01240_468adbfc430b",
+      "sourceIndex": 134,
+      "textBytes": 41008,
+      "figuresExtracted": 4,
+      "excerpt": "###### ORIGINAL RESEARCH ARTICLE published: 09 April 2014 doi: 10.3389/fnsys.2014.00052 ## SYSTEMS NEUROSCIENCE # Effect of biased feedback on motor imagery learning in BCI-teleoperation system ### Maryam Alimardani1,2*, Shuichi Nishio2 and Hiroshi Ishiguro1,2 - 1 Department of System Innovation, Graduate school of Engineering science, Osaka University, Osaka, Japan - 2 Advanced Telecommunications Research Institute International, Kyoto, Japan Edited by: Mikhail Lebedev, Duke University, USA Reviewed by: Duk Shin, Tokyo Institute of Technology, Japan W. Geoffrey Wright, Temple University, USA *Correspondence: Maryam Alimardani, HIL, Advanced Telecommunications Research Institute International, 2-2 Hikaridai, Seika-cho, Soraku-gun, Kyoto 619-0288, Japan e-mail: maryam@atr.jp Feedback design is an important issue in motor imagery BCI systems. Regardless, to date it has not been reported ho"
+    },
+    {
+      "slug": "556_Low-latency_multi-threaded_processing_of_neuronal_signals_fo",
+      "title": "Low-latency multi-threaded processing of neuronal signals for brain-computer interfaces",
+      "category": "HDBSCAN Cluster: university, freiburg, germany, singapore",
+      "key": "FOLDER01242_1b4564c750a6",
+      "sourceIndex": 135,
+      "textBytes": 64811,
+      "figuresExtracted": 5,
+      "excerpt": "##### METHODS ARTICLE published: 28 January 2014 doi: 10.3389/fneng.2014.00001 ## NEUROENGINEERING # Low-latency multi-threaded processing of neuronal signals for brain-computer interfaces ### Jörg Fischer1,2*, Tomislav Milekovic1,3,4, Gerhard Schneider5 and Carsten Mehring1,3,4 - 1 Institute for Biology I, University of Freiburg, Freiburg, Germany - 2 CorTec GmbH, Freiburg, Germany - 3 Bernstein Center Freiburg, University of Freiburg, Freiburg, Germany - 4 Department of Bioengineering and Department of Electrical and Electronic Engineering, Imperial College London, London, UK - 5 Faculty for Applied Sciences, University of Freiburg, Freiburg, Germany Edited by: Gabriel A. Silva, University of California, San Diego, USA Reviewed by: Stephan Theiss, University of Dusseldorf, Germany Hun-Kuk Park, Kyung Hee University, South Korea *Correspondence: Jörg Fischer, CorTec GmbH, Georges-Köhler"
+    },
+    {
+      "slug": "557_What_limits_the_performance_of_current_invasive_brain_machin",
+      "title": "What limits the performance of current invasive brain machine interfaces?",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01245_9e9c34ec757f",
+      "sourceIndex": 136,
+      "textBytes": 67148,
+      "figuresExtracted": 2,
+      "excerpt": "#### REVIEW ARTICLE published: 29 April 2014 doi: 10.3389/fnsys.2014.00068 ## SYSTEMS NEUROSCIENCE # What limits the performance of current invasive brain machine interfaces? ### Gytis Baranauskas* Neurophysiology Laboratory, Neuroscience Institute, Lithuanian University of Health Sciences, Kaunas, Lithuania Edited by: Mikhail Lebedev, Duke University, USA Reviewed by: Mikhail Lebedev, Duke University, USA Imran Khan Niazi, Aalborg University, Denmark Philip Kennedy, Neural Signals Inc., USA *Correspondence: Gytis Baranauskas, Neurophysiology Laboratory, Neuroscience Institute, Lithuanian University of Health Sciences, Eiveniu g. 4, LT-50009 Kaunas, Lithuania e-mail: gytis11@yahoo.com The concept of a brain-machine interface (BMI) or a computer-brain interface is simple: BMI creates a communication pathway for a direct control by brain of an external device. In reality BMIs are very comp"
+    },
+    {
+      "slug": "558_fNIRS-based_brain-computer_interfaces_a_review",
+      "title": "fNIRS-based brain-computer interfaces: a review",
+      "category": "HDBSCAN Cluster: university, korea, department, national",
+      "key": "FOLDER01248_0bab2f22a601",
+      "sourceIndex": 137,
+      "textBytes": 84242,
+      "figuresExtracted": 5,
+      "excerpt": "##### REVIEW ARTICLE published: 28 January 2015 doi: 10.3389/fnhum.2015.00003 ## HUMAN NEUROSCIENCE # fNIRS-based brain-computer interfaces: a review ### Noman Naseer1 and Keum-Shik Hong1,2* - 1 Department of Cogno-Mechatronics Engineering, Pusan National University, Busan, Republic of Korea - 2 School of Mechanical Engineering, Pusan National University, Busan, Republic of Korea Edited by: Arthur M. Jacobs, Freie Universität Berlin, Germany Reviewed by: Martin J. Herrmann, Universtity of Würzburg, Germany Vadim Nikulin, Charite University Hospital, Germany *Correspondence: Keum-Shik Hong, Department of Cogno-Mechatronics Engineering, Pusan National University, 2 Busandaehak-ro, Guemjeong-gu, Busan 609-735, Republic of Korea e-mail: kshong@pusan.ac.kr A brain-computer interface (BCI) is a communication system that allows the use of brain activity to control computers or other external de"
+    },
+    {
+      "slug": "559_Transfer_Learning_in_Brain-Computer_Interfaces",
+      "title": "Transfer Learning in Brain-Computer Interfaces",
+      "category": "HDBSCAN Cluster: university, germany, brain-computer, systems",
+      "key": "FOLDER01254_d686014c88b3",
+      "sourceIndex": 138,
+      "textBytes": 64460,
+      "figuresExtracted": 5,
+      "excerpt": "# Transfer Learning in Brain-Computer Interfaces ## arXiv:1512.00296v1[cs.HC]1Dec2015 Vinay Jayaram IMPRS for Cognitive and Systems Neuroscience, University of Tubingen,¨ Tubingen,¨ Germany Department of Empirical Inference, Max Planck Institute for Intelligent Systems, Tubingen,¨ Germany Morteza Alamgir Department of Computer Science, University of Hamburg, Hamburg, Germany Yasemin Altun Bernhard Sch¨olkopf Moritz Grosse-Wentrup Department of Empirical Inference, Max Planck Institute for Intelligent Systems, Tubingen,¨ Germany Abstract The performance of brain-computer interfaces (BCIs) improves with the amount of available training data; the statistical distribution of this data, however, varies across subjects as well as across sessions within individual subjects, limiting the transferability of training data or trained models between them. In this article, we review current transfer "
+    },
+    {
+      "slug": "560_A_Comparison_Study_of_Canonical_Correlation_Analysis_Based_M",
+      "title": "A Comparison Study of Canonical Correlation Analysis Based Methods for Detecting Steady-State Visual Evoked Potentials",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01256_426ca630f48d",
+      "sourceIndex": 139,
+      "textBytes": 54994,
+      "figuresExtracted": 5,
+      "excerpt": "[Figure 2] [Figure 3] [Figure 4] OPEN ACCESS Citation: Nakanishi M, Wang Y, Wang Y-T, Jung T-P (2015) A Comparison Study of Canonical Correlation Analysis Based Methods for Detecting Steady-State Visual Evoked Potentials. PLoS ONE 10(10): e0140703. doi:10.1371/journal.pone.0140703 Editor: Dezhong Yao, University of Electronic Science and Technology of China, CHINA Received: May 27, 2015 Accepted: September 28, 2015 Published: October 19, 2015 Copyright: © 2015 Nakanishi et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. Data Availability Statement: All EEG data are available from \"ftp://sccn.ucsd.edu/pub/cca_ssvep\". Funding: This work is supported in part by a gift fund from Swartz Foundation, U.S. "
+    },
+    {
+      "slug": "561_An_auditory_multiclass_brain-computer_interface_with_natural",
+      "title": "An auditory multiclass brain-computer interface with natural stimuli: Usability evaluation with healthy participants and a motor impaired end user",
+      "category": "HDBSCAN Cluster: germany, bingen, university, research",
+      "key": "FOLDER01260_0292023b802a",
+      "sourceIndex": 140,
+      "textBytes": 71552,
+      "figuresExtracted": 5,
+      "excerpt": "##### ORIGINAL RESEARCH ARTICLE published: 09 January 2015 doi: 10.3389/fnhum.2014.01039 ## HUMAN NEUROSCIENCE # An auditory multiclass brain-computer interface with natural stimuli: Usability evaluation with healthy participants and a motor impaired end user ### Nadine Simon1,2, Ivo Käthner3*, Carolin A. Ruf1, Emanuele Pasqualotto4, Andrea Kübler3 and Sebastian Halder3 - 1 Institute of Medical Psychology and Behavioral Neurobiology, University of Tübingen, Tübingen, Germany - 2 Max Planck Institute for Intelligent Systems, Tübingen, Germany - 3 Institute of Psychology, University of Würzburg, Würzburg, Germany - 4 Psychological Sciences Research Institute, Université Catholique de Louvain, Louvain-la-Neuve, Belgium Edited by: Klaus Gramann, Berlin Institute of Technology, Germany Reviewed by: Johannes Höhne, Technische Universität Berlin, Germany Maarten De Vos, Oldenburg University, Ge"
+    },
+    {
+      "slug": "562_BNCI_Horizon_2020_Towards_a_Roadmap_for_the_BCI_Community",
+      "title": "BNCI Horizon 2020: Towards a Roadmap for the BCI Community",
+      "category": "HDBSCAN Cluster: motor, imagery, detection, university",
+      "key": "FOLDER01265_2ee862128dec",
+      "sourceIndex": 141,
+      "textBytes": 48590,
+      "figuresExtracted": 2,
+      "excerpt": "# Utrecht University Repository |Title|BNCI Horizon 2020:towards a roadmap for the BCI community| |---|---| |Authors|Brunner,Clemens; Birbaumer,Niels; Blankertz,Benjamin; Guger,Christoph; Kübler,Andrea; Mattia,Donatella; Millán,José del R.; Miralles,Felip; Nijholt,Anton; Opisso,Eloy| |Published in|Brain computer interfaces| |Publication Date|2015-02-10| |Link|http://hdl.handle.net/1874/350349| |Citation|Brunner, C, Birbaumer, N, Blankertz, B, Guger, C, Kübler, A, Mattia, D, Millán, J D R, Miralles, F, Nijholt, A, Opisso, E, Ramsey, N, Salomon, P & Müller-Putz, G R 2015, 'BNCI Horizon 2020 : towards a roadmap for the BCI community', Brain computer interfaces, vol. 2, no. 1, pp. 1-10. https:// doi.org/10.1080/2326263X.2015.1008956| |Versions / License|Publisher version| |Rights|https://www.uu.nl/en/university-library/license-and-reuse-conditions| |Universitair Medisch Centrum Utrecht (UMCU"
+    },
+    {
+      "slug": "563_Effects_of_user_mental_state_on_EEG-BCI_performance",
+      "title": "Effects of user mental state on EEG-BCI performance",
+      "category": "HDBSCAN Cluster: bci, performance, interface, been",
+      "key": "FOLDER01269_026ca9ff96c9",
+      "sourceIndex": 142,
+      "textBytes": 54859,
+      "figuresExtracted": 5,
+      "excerpt": "ORIGINAL RESEARCH published: 02 June 2015 doi: 10.3389/fnhum.2015.00308 # Effects of user mental state on EEG-BCI performance Andrew Myrden1,2 and Tom Chau1,2∗ 1 Holland Bloorview Kids Rehabilitation Hospital, Bloorview Research Institute, Toronto, ON, Canada, 2 Institute of Biomaterials and Biomedical Engineering, University of Toronto, Toronto, ON, Canada Changes in psychological state have been proposed as a cause of variation in brain-computer interface performance, but little formal analysis has been conducted to support this hypothesis. In this study, we investigated the effects of three mental states—fatigue, frustration, and attention—on BCI performance. Twelve able-bodied participants were trained to use a two-class EEG-BCI based on the performance of user-speciﬁc mental tasks. Following training, participants completed three testing sessions, during which they used the BCI to p"
+    },
+    {
+      "slug": "564_Predicting_Mental_Imagery-Based_BCI_Performance_from_Persona",
+      "title": "Predicting Mental Imagery-Based BCI Performance from Personality, Cognitive Profile and Neurophysiological Patterns",
+      "category": "HDBSCAN Cluster: figure, access, data, open",
+      "key": "FOLDER01272_e2b934bc52ca",
+      "sourceIndex": 143,
+      "textBytes": 74693,
+      "figuresExtracted": 5,
+      "excerpt": "[Figure 2] [Figure 3] a11111 [Figure 4] OPEN ACCESS Citation: Jeunet C, N’Kaoua B, Subramanian S, Hachet M, Lotte F (2015) Predicting Mental ImageryBased BCI Performance from Personality, Cognitive Profile and Neurophysiological Patterns. PLoS ONE 10(12): e0143962. doi:10.1371/journal.pone.0143962 Editor: Doron Friedman, Interdisciplinary Center (IDC) Herzliya, ISRAEL Received: April 24, 2015 Accepted: November 11, 2015 Published: December 01, 2015 Copyright: © 2015 Jeunet et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. Data Availability Statement: All the data (BCI performance, scores obtained at the different psychometric tests and neurophysiological predictors) are available as \"annexed file\" "
+    },
+    {
+      "slug": "565_Towards_Independence_A_BCI_Telepresence_Robot_for_People_Wit",
+      "title": "Towards Independence: A BCI Telepresence Robot for People With Severe Motor Disabilities",
+      "category": "HDBSCAN Cluster: brain, interfaces, bci, signals",
+      "key": "FOLDER01275_7422c5264a3d",
+      "sourceIndex": 144,
+      "textBytes": 69336,
+      "figuresExtracted": 5,
+      "excerpt": "[ﬁnal version to Proceedings of the IEEE: 01/04/2015 / 23:30] # Towards Independence: A BCI Telepresence Robot for People with Severe Motor Disabilities Robert Leeb, Member, IEEE, Luca Tonin, Martin Rohm, Lorenzo Desideri, Tom Carlson, Member, IEEE, Jos´ed.R. Mill´an, Senior Member, IEEE Abstract—This paper presents an important step forward towards increasing the independence of people with severe motor disabilities, by using brain-computer interfaces (BCI) to harness the power of the Internet of Things. We analyze the stability of brain signals as end-users with motor disabilities progress from performing simple standard on-screen training tasks to interacting with real devices in the real world. Furthermore, we demonstrate how the concept of shared control —which interprets the user’s commands in context— empowers users to perform rather complex tasks without a high workload. We prese"
+    },
+    {
+      "slug": "566_Convolutional_Neural_Network_for_Multi-Category_Rapid_Serial",
+      "title": "Convolutional Neural Network for Multi-Category Rapid Serial Visual Presentation BCI",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01282_ace23fb6add9",
+      "sourceIndex": 145,
+      "textBytes": 53444,
+      "figuresExtracted": 5,
+      "excerpt": "ORIGINAL RESEARCH published: 02 December 2015 doi: 10.3389/fncom.2015.00146 # Convolutional Neural Network for Multi-Category Rapid Serial Visual Presentation BCI Ran Manor* and Amir B. Geva Department of Electrical and Computer Engineering, Ben-Gurion University of the Negev, Beer-Sheva, Israel Brain computer interfaces rely on machine learning (ML) algorithms to decode the brain’s electrical activity into decisions. For example, in rapid serial visual presentation (RSVP) tasks, the subject is presented with a continuous stream of images containing rare target images among standard images, while the algorithm has to detect brain activity associated with target images. Here, we continue our previous work, presenting a deep neural network model for the use of single trial EEG classiﬁcation in RSVP tasks. Deep neural networks have shown state of the art performance in computer vision and s"
+    },
+    {
+      "slug": "567_EEG_Classification_of_Different_Imaginary_Movements_within_t",
+      "title": "EEG Classification of Different Imaginary Movements within the Same Limb",
+      "category": "HDBSCAN Cluster: figure, access, data, open",
+      "key": "FOLDER01290_92ef013b1de2",
+      "sourceIndex": 146,
+      "textBytes": 65278,
+      "figuresExtracted": 5,
+      "excerpt": "RESEARCH ARTICLE # EEG Classification of Different Imaginary Movements within the Same Limb [Figure 2] a11111 [Figure 3] OPEN ACCESS Citation: Yong X, Menon C (2015) EEG Classification of Different Imaginary Movements within the Same Limb. PLoS ONE 10(4): e0121896. doi:10.1371/journal.pone.0121896 Academic Editor: Bin He, University of Minnesota, UNITED STATES Received: November 12, 2014 Accepted: February 4, 2015 Published: April 1, 2015 Copyright: © 2015 Yong, Menon. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. Data Availability Statement: As per the Simon Fraser University (SFU) Office of Research Ethics (Ethics #2012s0527), due to ethical restrictions, data are stored in the secured server on the"
+    },
+    {
+      "slug": "568_Are_treatment_effects_of_neurofeedback_training_in_children",
+      "title": "Are treatment effects of neurofeedback training in children with ADHD related to the successful regulation of brain activity? A review on the learning of regulation of brain activity and a contribution to the discussion on specificity",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01297_b0d4b9e35ac0",
+      "sourceIndex": 147,
+      "textBytes": 91652,
+      "figuresExtracted": 1,
+      "excerpt": "REVIEW published: 27 March 2015 doi: 10.3389/fnhum.2015.00135 Edited by: Martijn Arns, Research Institute Brainclinics, Netherlands Reviewed by: John H. Gruzelier, Goldsmiths, University of London, UK Hanna Christiansen, Philipps University Marburg, Germany *Correspondence: Renate Drechsler, Department of Child and Adolescent Psychiatry, University of Zurich, Neumuensterallee 9, Zurich 8032, Switzerland Renate.Drechsler@kjpd.uzh.ch Received: 30 September 2014 Accepted: 27 February 2015 Published: 27 March 2015 Citation: Zuberer A, Brandeis D and Drechsler R (2015) Are treatment effects of neurofeedback training in children with ADHD related to the successful regulation of brain activity? A review on the learning of regulation of brain activity and a contribution to the discussion on speciﬁcity. Front. Hum. Neurosci. 9:135. doi: 10.3389/fnhum.2015.00135 Are treatment effects of neurofeedb"
+    },
+    {
+      "slug": "569_A_128-Channel_Extreme_Learning_Machine-Based_Neural_Decoder",
+      "title": "A 128-Channel Extreme Learning Machine-Based Neural Decoder for Brain Machine Interfaces",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01303_d28f04cd5499",
+      "sourceIndex": 148,
+      "textBytes": 65699,
+      "figuresExtracted": 5,
+      "excerpt": "# A 128 channel Extreme Learning Machine based Neural Decoder for Brain Machine Interfaces Yi Chen, Student Member, IEEE, Enyi Yao, Student Member, IEEE, Arindam Basu, Member, IEEE arXiv:1509.07450v2[cs.LG]27Sep2015 Abstract—Currently, state-of-the-art motor intention decoding algorithms in brain-machine interfaces are mostly implemented on a PC and consume signiﬁcant amount of power. A machine learning co-processor in 0.35-µm CMOS for the motor intention decoding in the brain-machine interfaces is presented in this paper. Using Extreme Learning Machine algorithm and lowpower analog processing, it achieves an energy efﬁciency of 3.45 pJ/MAC at a classiﬁcation rate of 50 Hz. The learning in second stage and corresponding digitally stored coefﬁcients are used to increase robustness of the core analog processor. The chip is veriﬁed with neural data recorded in monkey ﬁnger movements experim"
+    },
+    {
+      "slug": "570_DTI_measures_track_and_predict_motor_function_outcomes_in_st",
+      "title": "DTI measures track and predict motor function outcomes in stroke rehabilitation utilizing BCI technology",
+      "category": "HDBSCAN Cluster: motor, figure, computer, dti",
+      "key": "FOLDER01321_ee6964e08119",
+      "sourceIndex": 149,
+      "textBytes": 46239,
+      "figuresExtracted": 5,
+      "excerpt": "ORIGINAL RESEARCH published: 27 April 2015 doi: 10.3389/fnhum.2015.00195 [Figure 1] Edited by: Guang H. Yue, Kessler Foundation Research Center, USA Reviewed by: Pavel Lindberg, FR3636 Neurosciences CNRS, Université Paris Descartes; U894 Inserm, France Zhiguo Jiang, Kessler Foundation, USA *Correspondence: Vivek Prabhakaran, Department of Radiology, University of Wisconsin–Madison, 600 Highland Avenue, Madison, WI 53711, USA vprabhakaran@uwhealth.org Received: 06 January 2015 Accepted: 24 March 2015 Published: 27 April 2015 Citation: Song J, Nair VA, Young BM, Walton LM, Nigogosyan Z, Remsik A, Tyler ME, Farrar-Edwards D, Caldera KE, Sattin JA, Williams JC and Prabhakaran V (2015) DTI measures track and predict motor function outcomes in stroke rehabilitation utilizing BCI technology. Front. Hum. Neurosci. 9:195. doi: 10.3389/fnhum.2015.00195 # DTI measures track and predict motor functi"
+    },
+    {
+      "slug": "571_My_Virtual_Dream_Collective_Neurofeedback_in_an_Immersive_Ar",
+      "title": "‘My Virtual Dream’: Collective Neurofeedback in an Immersive Art Environment",
+      "category": "HDBSCAN Cluster: figure, doi, figshare, open",
+      "key": "FOLDER01322_9a34d70b2d0b",
+      "sourceIndex": 150,
+      "textBytes": 54104,
+      "figuresExtracted": 5,
+      "excerpt": "[Figure 2] [Figure 3] a11111 [Figure 4] OPEN ACCESS Citation: Kovacevic N, Ritter P, Tays W, Moreno S, McIntosh AR (2015) ‘My Virtual Dream’: Collective Neurofeedback in an Immersive Art Environment. PLoS ONE 10(7): e0130129. doi:10.1371/journal. pone.0130129 Editor: Doron Friedman, Interdisciplinary Center (IDC) Herzliya, ISRAEL Received: October 20, 2014 Accepted: May 17, 2015 Published: July 8, 2015 Copyright: © 2015 Kovacevic et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. Data Availability Statement: All relevant experimental data are available from Figshare (DOI http://dx.doi.org/10.6084/m9.figshare.1337914). Funding: The authors especially thank Mr. Max and Mrs. Gianna Glassman for their f"
+    },
+    {
+      "slug": "572_Reaching_and_Grasping_a_Glass_of_Water_by_Locked-In_ALS_Pati",
+      "title": "Reaching and Grasping a Glass of Water by Locked-In ALS Patients through a BCI-Controlled Humanoid Robot",
+      "category": "HDBSCAN Cluster: rome, italy, university, department",
+      "key": "FOLDER01324_5384310a66a1",
+      "sourceIndex": 151,
+      "textBytes": 53615,
+      "figuresExtracted": 4,
+      "excerpt": "ORIGINAL RESEARCH published: 01 March 2017 doi: 10.3389/fnhum.2017.00068 # Reaching and Grasping a Glass of Water by Locked-In ALS Patients through a BCI-Controlled Humanoid Robot Rossella Spataro1*, Antonio Chella2,3, Brendan Allison4,5, Marcello Giardina2, Rosario Sorbello2, Salvatore Tramonte2, Christoph Guger4,6 and Vincenzo La Bella1 1 Department of Experimental Biomedicine and Clinical Neurosciences, ALS Clinical Research Center, University of Palermo, Palermo, Italy, 2 Department of Chemical, Management, Computer, Mechanical Engineering, University of Palermo, Palermo, Italy, 3 Instituto di Calcolo e Reti ad Alte Prestazioni (ICAR-CNR), Palermo, Italy, 4 Guger Technologies OG, Graz, Austria, 5 Cognitive Science Department, University of California at San Diego, La Jolla, CA, USA, 6 g.tec Medical Engineering GmbH, Schiedlberg, Austria Locked-in Amyotrophic Lateral Sclerosis (ALS) p"
+    },
+    {
+      "slug": "573_Comparative_analysis_of_strategies_for_feature_extraction_an",
+      "title": "Comparative analysis of strategies for feature extraction and classification in SSVEP BCIs",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01326_6fd53145f8b2",
+      "sourceIndex": 152,
+      "textBytes": 42797,
+      "figuresExtracted": 0,
+      "excerpt": "Biomedical Signal Processing and Control 21 (2015) 34–42 Contents lists available at ScienceDirect [Figure 1] # Biomedical Signal Processing and Control journal homepage: www.elsevier.com/locate/bspc [Figure 2] ## Comparative analysis of strategies for feature extraction and classiﬁcation in SSVEP BCIs Sarah N. Carvalhoa,b,∗, Thiago B.S. Costaa, Luisa F.S. Uribea, Diogo C. Sorianoc, Glauco F.G. Yaredb, Luis C. Coradined, Romis Attuxa - a University of Campinas, UNICAMP, Campinas, Brazil - b Federal University of Ouro Preto, UFOP, Ouro Preto, Brazil - c Federal University of ABC, UFABC, Santo André, Brazil - d Federal University of Alagoas, UFAL, Maceió, Brazil [Figure 3] a r t i c l e i n f o Article history: Received 20 January 2015 Received in revised form 15 April 2015 Accepted 5 May 2015 Available online 1 June 2015 a b s t r a c t Brain–computer interface (BCI) systems based on elec"
+    },
+    {
+      "slug": "574_Individually_Adapted_Imagery_Improves_Brain-Computer_Interfa",
+      "title": "Individually Adapted Imagery Improves Brain-Computer Interface Performance in End-Users with Disability",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01329_429e67cceac4",
+      "sourceIndex": 153,
+      "textBytes": 49326,
+      "figuresExtracted": 3,
+      "excerpt": "[Figure 2] RESEARCH ARTICLE # Individually Adapted Imagery Improves Brain-Computer Interface Performance in End-Users with Disability Reinhold Scherer1,2,3*, Josef Faller1,2, Elisabeth V. C. Friedrich1,2,4, Eloy Opisso5, Ursula Costa5, Andrea Kübler6, Gernot R. Müller-Putz1,2 1 Institute for Knowledge Discovery, Graz University of Technology, 8010 Graz, Austria, 2 BioTechMedGraz, Austria, 3 Clinic Judendorf-Straßengel, 8111 Gratwein-Straßengel, Austria, 4 Department of Cognitive Science, University of California, San Diego, La Jolla, CA, 92093, USA, 5 Institut Guttmann, Institut Universitari de Neurorehabilitació adscrit a la UAB, 08916 Badalona, Barcelona, Spain, 6 Institute of Psychology, University of Würzburg, 97070 Würzburg, Germany * reinhold.scherer@tugraz.at [Figure 3] OPEN ACCESS Citation: Scherer R, Faller J, Friedrich EVC, Opisso E, Costa U, Kübler A, et al. (2015) Individuall"
+    },
+    {
+      "slug": "575_Autonomy_Infused_Teleoperation_with_Application_to_BCI_Manip",
+      "title": "Autonomy Infused Teleoperation with Application to BCI Manipulation",
+      "category": "HDBSCAN Cluster: united, states, america, university",
+      "key": "FOLDER01332_a26426fde513",
+      "sourceIndex": 154,
+      "textBytes": 55818,
+      "figuresExtracted": 5,
+      "excerpt": "# Autonomy Infused Teleoperation with Application to BCI Manipulation ## arXiv:1503.05451v2[cs.RO]7Jun2015 Katharina Muelling1, Arun Venkatraman1, Jean-Sebastien Valois1, John E. Downey4,6, Jeffrey Weiss3, Shervin Javdani1, Martial Hebert1, Andrew B. Schwartz1,5, Jennifer L. Collinger2,3,4, J. Andrew Bagnell1 1Carnegie Mellon University, Robotics Institute, Pittsburgh, PA, USA 2VA Pittsburgh Healthcare System, Pittsburgh, PA, USA 3University of Pittsburgh, Department of Physical Medicine and Rehabilitation, Pittsburgh, PA, USA - 4University of Pittsburgh, Department of Bioengineering, Pittsburgh, PA, USA - 5University of Pittsburgh, Department of Neurobiology and Bioengineering 6Center for the Neural Basis of Cognition, Pittsburgh PA Abstract—Robot teleoperation systems face a common set of challenges including latency, low-dimensional user commands, and asymmetric control inputs. User c"
+    },
+    {
+      "slug": "576_Broad-Band_Visually_Evoked_Potentials_Reconvolution_in_Brain",
+      "title": "Broad-Band Visually Evoked Potentials: Re(con)volution in Brain-Computer Interfacing",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01333_f5cd2e653da4",
+      "sourceIndex": 155,
+      "textBytes": 80050,
+      "figuresExtracted": 5,
+      "excerpt": "RESEARCH ARTICLE # Broad-Band Visually Evoked Potentials: Re (con)volution in Brain-Computer Interfacing [Figure 2]volution in Brain-Computer Interfacing_images/imageFile2.png>) [Figure 3]volution in Brain-Computer Interfacing_images/imageFile3.png>) [Figure 4]volution in Brain-Computer Interfacing_images/imageFile4.png>) OPEN ACCESS Citation: Thielen J, van den Broek P, Farquhar J, Desain P (2015) Broad-Band Visually Evoked Potentials: Re(con)volution in Brain-Computer Interfacing. PLoS ONE 10(7): e0133797. doi:10.1371/ journal.pone.0133797 Editor: Daniele Marinazzo, Universiteit Gent, BELGIUM Received: April 11, 2015 Accepted: July 1, 2015 Published: July 24, 2015 Copyright: © 2015 Thielen et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided t"
+    },
+    {
+      "slug": "577_Rapid_P300_brain-computer_interface_communication_with_a_hea",
+      "title": "Rapid P300 brain-computer interface communication with a head-mounted display",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01334_dc15f48a8bdd",
+      "sourceIndex": 156,
+      "textBytes": 62952,
+      "figuresExtracted": 5,
+      "excerpt": "ORIGINAL RESEARCH published: 05 June 2015 doi: 10.3389/fnins.2015.00207 # Rapid P300 brain-computer interface communication with a head-mounted display Ivo Käthner1*, Andrea Kübler1 and Sebastian Halder1,2 1 Institute of Psychology, University of Würzburg, Würzburg, Germany, 2 Department of Rehabilitation for Brain Functions, Research Institute of National Rehabilitation Center for Persons with Disabilities, Tokorozawa, Japan Visual ERP (P300) based brain-computer interfaces (BCIs) allow for fast and reliable spelling and are intended as a muscle-independent communication channel for people with severe paralysis. However, they require the presentation of visual stimuli in the ﬁeld of view of the user. A head-mounted display could allow convenient presentation of visual stimuli in situations, where mounting a conventional monitor might be difﬁcult or not feasible (e.g., at a patient’s bed"
+    },
+    {
+      "slug": "578_Comparing_Different_Classifiers_in_Sensory_Motor_Brain_Compu",
+      "title": "Comparing Different Classifiers in Sensory Motor Brain Computer Interfaces",
+      "category": "HDBSCAN Cluster: motor, figure, computer, dti",
+      "key": "FOLDER01340_332fadb8285d",
+      "sourceIndex": 157,
+      "textBytes": 62579,
+      "figuresExtracted": 1,
+      "excerpt": "RESEARCH ARTICLE # Comparing Different Classifiers in Sensory Motor Brain Computer Interfaces Hossein Bashashati1*, Rabab K. Ward1, Gary E. Birch1,3, Ali Bashashati2 - 1 Electrical and Computer Engineering Department, University of British Columbia, Vancouver, BC, Canada, - 2 Department of Molecular Oncology, British Columbia Cancer Agency, Vancouver, BC, Canada, 3 Neil Squire Society, Burnaby, BC, Canada * hosseinbs@ece.ubc.ca [Figure 2] [Figure 3] a11111 [Figure 4] OPEN ACCESS Citation: Bashashati H, Ward RK, Birch GE, Bashashati A (2015) Comparing Different Classifiers in Sensory Motor Brain Computer Interfaces. PLoS ONE 10(6): e0129435. doi:10.1371/journal. pone.0129435 Academic Editor: Dezhong Yao, University of Electronic Science and Technology of China, CHINA Received: November 27, 2014 Accepted: May 10, 2015 Published: June 19, 2015 Copyright: © 2015 Bashashati et al. This is an "
+    },
+    {
+      "slug": "579_Reinforcement_learning_of_self-regulated_β-oscillations_for",
+      "title": "Reinforcement learning of self-regulated β-oscillations for motor restoration in chronic stroke",
+      "category": "HDBSCAN Cluster: tuebingen, neurosurgery, university, division",
+      "key": "FOLDER01342_92dec3812d3b",
+      "sourceIndex": 158,
+      "textBytes": 63399,
+      "figuresExtracted": 5,
+      "excerpt": "METHODS published: 03 July 2015 doi: 10.3389/fnhum.2015.00391 # Reinforcement learning of self-regulated β-oscillations for motor restoration in chronic stroke Georgios Naros1,2* and Alireza Gharabaghi1,2* 1 Division of Functional and Restorative Neurosurgery and Division of Translational Neurosurgery, Department of Neurosurgery, Eberhard Karls University Tuebingen, Tuebingen, Germany, 2 Neuroprosthetics Research Group, Werner Reichardt Centre for Integrative Neuroscience, Eberhard Karls University Tuebingen, Tuebingen, Germany Edited by: Ela B. Plow, Cleveland Clinic Foundation, USA Reviewed by: Teodoro Solis Escalante, Delft University of Technology, Netherlands Michael Borich, Emory University, USA Vishwanath Sankarasubramanian, Cleveland Clinic, USA *Correspondence: Georgios Naros and Alireza Gharabaghi, Division of Functional and Restorative Neurosurgery and Division of Translationa"
+    },
+    {
+      "slug": "580_EEGNet_a_compact_convolutional_neural_network_for_EEG-based",
+      "title": "EEGNet: a compact convolutional neural network for EEG-based brain–computer interfaces",
+      "category": "HDBSCAN Bridge and Noise Papers",
+      "key": "FOLDER01348_78b428e4f5a0",
+      "sourceIndex": 159,
+      "textBytes": 93903,
+      "figuresExtracted": 5,
+      "excerpt": "EEGNet: A Compact Convolutional Neural Network for EEG-based Brain-Computer Interfaces Vernon J. Lawhern1,*, Amelia J. Solon1,2, Nicholas R. Waytowich1,3, Stephen M. Gordon1,2, Chou P. Hung1,4, and Brent J. Lance1 1Human Research and Engineering Directorate, U.S. Army Research Laboratory, Aberdeen Proving Ground, MD 2DCS Corporation, Alexandria, VA 3Department of Biomedical Engineering, Columbia University, New York, NY 4Department of Neuroscience, Georgetown University, Washington, DC *Corresponding Author May 17, 2018 Abstract Objective: Brain computer interfaces (BCI) enable direct communication with a computer, using neural activity as the control signal. This neural signal is generally chosen from a va- riety of well-studied electroencephalogram (EEG) signals. For a given BCI paradigm, feature extractors and classiﬁers are tailored to the distinct characteristics of its expected EEG"
+    },
+    {
+      "slug": "581_Adaptive_Automation_Triggered_by_EEG-Based_Mental_Workload_I",
+      "title": "Adaptive Automation Triggered by EEG-Based Mental Workload Index: A Passive Brain-Computer Interface Application in Realistic Air Traffic Control Environment",
+      "category": "HDBSCAN Cluster: rome, italy, university, department",
+      "key": "FOLDER01354_3ee702a42284",
+      "sourceIndex": 160,
+      "textBytes": 70536,
+      "figuresExtracted": 5,
+      "excerpt": "METHODS published: 26 October 2016 doi: 10.3389/fnhum.2016.00539 # Adaptive Automation Triggered by EEG-Based Mental Workload Index: A Passive Brain-Computer Interface Application in Realistic Air Trafﬁc Control Environment Pietro Aricò1,2,3*†, Gianluca Borghini1,2,3†, Gianluca Di Flumeri2,3,4†, Alfredo Colosimo4, Stefano Bonelli5, Alessia Golfetti5, Simone Pozzi5, Jean-Paul Imbert6, Géraud Granger6, Raïlane Benhacene6 and Fabio Babiloni1,2 1 Department of Molecular Medicine, Sapienza University of Rome, Rome, Italy, 2 BrainSigns Co. Ltd, Spin-off Company from Sapienza University of Rome, Rome, Italy, 3 Neuroelectrical Imaging and BCI Lab, Fondazione Santa Lucia (IRCCS), Rome, Italy, 4 Department of Anatomical, Histological, Forensic Medicine and Orthopedic Sciences, Sapienza University of Rome, Rome, Italy, 5 DeepBlue srl, Rome, Italy, 6 École Nationale de l’Aviation Civile, Toulouse, F"
+    },
+    {
+      "slug": "582_Hybrid_EEG-fNIRS_Asynchronous_Brain-Computer_Interface_for_M",
+      "title": "Hybrid EEG-fNIRS Asynchronous Brain-Computer Interface for Multiple Motor Tasks",
+      "category": "HDBSCAN Cluster: figure, doi, figshare, open",
+      "key": "FOLDER01362_ecbad0f90924",
+      "sourceIndex": 161,
+      "textBytes": 47703,
+      "figuresExtracted": 5,
+      "excerpt": "[Figure 2] [Figure 3] [Figure 4] OPEN ACCESS Citation: Buccino AP, Keles HO, Omurtag A (2016) Hybrid EEG-fNIRS Asynchronous Brain-Computer Interface for Multiple Motor Tasks. PLoS ONE 11(1): e0146610. doi:10.1371/journal.pone.0146610 Editor: Bin He, University of Minnesota, UNITED STATES Received: July 23, 2015 Accepted: December 18, 2015 Published: January 5, 2016 Copyright: © 2016 Buccino et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited. Data Availability Statement: The raw data can be found on Figshare. The DOIs are as follows: http://dx. doi.org/10.6084/m9.figshare.1619640 andand http:// dx.doi.org/10.6084/m9.figshare.1619641. Funding: The authors would like to thank the Department of Biomedica"
+    },
+    {
+      "slug": "583_Invasive_vs_Non-Invasive_Neuronal_Signals_for_Brain-Machine",
+      "title": "Invasive vs. Non-Invasive Neuronal Signals for Brain-Machine Interfaces: Will One Prevail?",
+      "category": "HDBSCAN Cluster: brain, interfaces, bci, signals",
+      "key": "FOLDER01367_43eeeb4c0725",
+      "sourceIndex": 162,
+      "textBytes": 25876,
+      "figuresExtracted": 0,
+      "excerpt": "OPINION published: 27 June 2016 doi: 10.3389/fnins.2016.00295 # Invasive vs. Non-Invasive Neuronal Signals for Brain-Machine Interfaces: Will One Prevail? Stephan Waldert* Sobell Department of Motor Neuroscience and Movement Disorders, University College London Institute of Neurology, University College London, London, UK Keywords: Brain computer interface (BCI), intracortical, action potentials, LFP, EEG, neuroprosthetics, microstimulation, Ethics Brain-machine interfaces (BMI) translate neuronal activity of the brain into signals driving an external eﬀector or aﬀecting internal body parts and functions. Initially, their applications were seen in the ﬁeld of rehabilitation and medical care for patients to restore social interaction or movement capabilities. Inspired by their success we can already witness the advent of bidirectional and commercial BMIs. Contemporary BMIs allow for real-"
+    },
+    {
+      "slug": "584_Detection_of_motor_imagery_EEG_signals_employing_Naïve_Bayes",
+      "title": "Detection of motor imagery EEG signals employing Naïve Bayes based learning process",
+      "category": "HDBSCAN Cluster: motor, imagery, detection, university",
+      "key": "FOLDER01372_a584f490cc6a",
+      "sourceIndex": 163,
+      "textBytes": 56868,
+      "figuresExtracted": 5,
+      "excerpt": "Detection of motor imagery EEG signals employing Naïve Bayes based learning process This is the Accepted version of the following publication Siuly, Siuly, Wang, Hua and Zhang, Yanchun (2016) Detection of motor imagery EEG signals employing Naïve Bayes based learning process. Measurement, 86. 148 - 158. ISSN 1873-412X The publisher’s official version can be found at http://www.sciencedirect.com/science/article/pii/S0263224116001469 Note that access to this version may require subscription. Downloaded from VU Research Repository https://vuir.vu.edu.au/30183/ 1 Detection of motor imagery EEG signals employing Naïve Bayes based learning process Siuly, Hua Wang and Yanchun Zhang Centre for Applied Informatics, College of Engineering & Science Victoria University, Melbourne, Australia siuly.siuly@vu.edu.au ; hua.wang@vu.edu.au; yanchun.zhang@vu.edu.au Abstract. The objective of this study is "
+    },
+    {
+      "slug": "585_Determining_Optimal_Feature-Combination_for_LDA_Classificati",
+      "title": "Determining Optimal Feature-Combination for LDA Classification of Functional Near-Infrared Spectroscopy Signals in Brain-Computer Interface Application",
+      "category": "HDBSCAN Cluster: university, bci, department, engineering",
+      "key": "FOLDER01373_39a9de376cca",
+      "sourceIndex": 164,
+      "textBytes": 45273,
+      "figuresExtracted": 4,
+      "excerpt": "ORIGINAL RESEARCH published: 25 May 2016 doi: 10.3389/fnhum.2016.00237 Determining Optimal Feature-Combination for LDA Classiﬁcation of Functional Near-Infrared Spectroscopy Signals in Brain-Computer Interface Application Noman Naseer1*, Farzan M. Noori1, Nauman K. Qureshi1 and Keum-Shik Hong2 1 Department of Mechatronics Engineering, Air University, Islamabad, Pakistan, 2 Department of Cogno-Mechatronics, School of Mechanical Engineering, Pusan National University, Busan, Korea In this study, we determine the optimal feature-combination for classiﬁcation of functional near-infrared spectroscopy (fNIRS) signals with the best accuracies for development of a two-class brain-computer interface (BCI). Using a multi-channel continuous-wave imaging system, mental arithmetic signals are acquired from the prefrontal cortex of seven healthy subjects. After removing physiological noises, six oxyge"
     }
   ]
 }
